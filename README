@@ -14,29 +14,14 @@ Parts:
 	* creating a KML of stops in a feed, with route stop there
 	* creating an SVG of trips in a feed
 
-./mav - MÁV-START Zrt.
-	National Train Company
-	Downloads data from elvira.mav-start.hu, then parses it to create
-	a GTFS feed.
-	Support using platform & railway track data from OSM.
-
-./bkv
-	Downloas GTFS data & replaces stop/shape data with the same from
-	OSM.
-
-./volanbusz
-./kisvasut_gyermekvasut
-	Downloads timetables & parses them creating partial GTFS data,
-	which then is paired with OSM data using HuGTFS::OSMMerger.
-
-./kompok
-	Creates GTFS from OSM route=ferry ways & hard coded timetables.
+./feeds/*
+	Static files/timetables needed for creating feeds.
 
 ./lib/HuGTFS/FeedManager/*
 	An assortment of "FeedManagers" which download & parse/create
 	agency data into partial GTFS data.
 
-./lib/Cal.pm
+./lib/HuGTFS/Cal.pm
 	Various utility methods for working with services
 
 ./lib/HuGTFS/Crawler.pm
@@ -59,8 +44,44 @@ Parts:
 	relations:
 	http://wiki.openstreetmap.org/wiki/Proposed_features/Public_Transport#Voting
 
+./lib/HuGTFS/ShapeFinder.pm
+	Code to create shapes for trips using OSRM.
+	Requires a modified copy of ORSM: https://github.com/flaktack/Project-OSRM/tree/localchanges
+
 ./lib/HuGTFS/Util.pm
 	Random utility methods.
 	
 ./util/db-schema.sql
 	The DB schema used by the WFS & hugtfs.pl DB importer.
+
+****
+
+Required perl modules:
+
+Debian packaged:
+	Calendar::Simple
+	Log::Log4Perl
+	App::Rad
+	DBI
+	DBD::Pg
+	Text::CSV::Encoded
+	YAML
+	Archive::ZIP
+	XML::Twig
+	XML::Writer
+	IO::String
+	Digest:JHash
+	Class::Accessor
+	SVG
+	Text::Markdown
+	WWW::Mechanize
+	Text::Unidecode
+	Mouse
+	Geo::Distance
+	DBD::CSV
+	
+Non-packaged:
+	Geo::KML
+		XML::Compile
+		XML::Compile::Cache
+	App::Rad::ConfigLoader
