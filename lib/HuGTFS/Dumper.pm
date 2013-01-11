@@ -311,7 +311,7 @@ sub deinit_dumper()
 		$l->binmode(':utf8');
 		$l->print(<<EOF);
 feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
-transit.flaktack.net,http://transit.flaktack.net/hu-gtfs,hu,$min_service,$max_service,transit.flaktack.net$self->{agencies}-$date
+transit.flaktack.net,http://flaktack.net/gtfs-adatok,hu,$min_service,$max_service,transit.flaktack.net$self->{agencies}-$date
 EOF
 		undef $l;
 	}
