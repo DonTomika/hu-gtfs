@@ -76,6 +76,8 @@ sub parse
 {
 	my ( $self, %params ) = @_;
 
+	$self->check_data_times;
+
 	HuGTFS::Cal->generic_services;
 
 	# Load YAML files
@@ -91,6 +93,27 @@ sub parse
 	# Dump
 	$log->info("Dumping data...");
 	$self->dump;
+}
+
+# Warn if the newest downloaded data file is newer than the newest timetable
+sub check_data_times
+{
+	my $self = shift;
+
+	my ($newest_data, $newest_timetable) = (0, 0);
+	for(glob catfile($self->data_directory, '*')) {
+		my $thistime = (stat)[9];
+		$newest_data = $thistime if $thistime > $newest_data;
+	}
+
+	for(glob catfile($self->timetable_directory, '*')) {
+		my $thistime = (stat)[9];
+		$newest_timetable = $thistime if $thistime > $newest_timetable;
+	}
+
+	if($newest_data > $newest_timetable) {
+		$log->warn("A file newer than the newest timetable exists in the data directory.");
+	}
 }
 
 sub load_data
