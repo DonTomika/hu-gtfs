@@ -22,12 +22,8 @@ trips:
     trip_bikes_allowed: 2
     service: ['LIMIT', 'NAPONTA', '20130401-20131031']
     stop_times:
-      - stop_name: Szob
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Pilismarót-Basaharc
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Szob"]
+      - [00:05, "Pilismarót-Basaharc"]
     frequencies:
       - start_time: 06:40:00
         end_time: 17:40:01
@@ -38,12 +34,8 @@ trips:
     trip_bikes_allowed: 2
     service: ['LIMIT', 'NAPONTA', '20130401-20131031']
     stop_times:
-      - stop_name: Pilismarót-Basaharc
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Szob
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Pilismarót-Basaharc"]
+      - [00:05, "Szob"]
     frequencies:
       - start_time: 06:50:00
         end_time: 17:50:01
@@ -54,22 +46,14 @@ trips:
     trip_bikes_allowed: 2
     service: ['LIMIT', 'NAPONTA', '20120401-20120930']
     stop_times:
-      - stop_name: Szob
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Pilismarót-Basaharc
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Szob"]
+      - [00:05, "Pilismarót-Basaharc"]
     departures: [18:40]
   - trip_id: IPOLYTOURS-TVN-n10
     direction_id: inbound
     trip_bikes_allowed: 2
     service: ['LIMIT', 'NAPONTA', '20130401-20130930']
     stop_times:
-      - stop_name: Pilismarót-Basaharc
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Szob
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Pilismarót-Basaharc"]
+      - [00:05, "Szob"]
     departures: [18:50]

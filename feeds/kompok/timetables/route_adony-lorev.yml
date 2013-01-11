@@ -22,12 +22,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Adony
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Lórév
-        arrival_time: 00:02
-        departure_time: 00:02
+      - [00:00, "Adony"]
+      - [00:02, "Lórév"]
     frequencies:
       - start_time: 07:00:00
         end_time: 16:00:01
@@ -74,12 +70,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Lórév
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Adony
-        arrival_time: 00:02
-        departure_time: 00:02
+      - [00:00, "Lórév"]
+      - [00:02, "Adony"]
     frequencies:
       - start_time: 07:10:00
         end_time: 16:10:01

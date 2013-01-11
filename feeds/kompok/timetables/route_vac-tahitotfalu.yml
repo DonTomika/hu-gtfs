@@ -22,12 +22,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Vác
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Tahitótfalu
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Vác"]
+      - [00:05, "Tahitótfalu"]
     departures: [20:20]
     frequencies:
       - start_time: 06:00:00
@@ -39,12 +35,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Tahitótfalu
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Vác
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Tahitótfalu"]
+      - [00:05, "Vác"]
     departures: [05:45]
     frequencies:
       - start_time: 06:15:00

@@ -22,12 +22,8 @@ trips:
     trip_bikes_allowed: 2
     service: ['LIMIT', 'NAPONTA', '20120501-20120930']
     stop_times:
-      - stop_name: Felsőgöd
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Surány
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Felsőgöd"]
+      - [00:05, "Surány"]
     frequencies:
       - start_time: 07:50:00
         end_time: 19:50:01
@@ -38,12 +34,8 @@ trips:
     trip_bikes_allowed: 2
     service: ['LIMIT', 'NAPONTA', '20120501-20120930']
     stop_times:
-      - stop_name: Surány
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Felsőgöd
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Surány"]
+      - [00:05, "Felsőgöd"]
     frequencies:
       - start_time: 07:40:00
         end_time: 19:40:01

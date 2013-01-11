@@ -15,12 +15,8 @@ routes:
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Szigetújfalu
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Ercsi
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Szigetújfalu"]
+          - [00:02, "Ercsi"]
         frequencies:
           - start_time: 07:00:00
             end_time: 19:00:01
@@ -31,12 +27,8 @@ routes:
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Ercsi
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Szigetújfalu
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Ercsi"]
+          - [00:02, "Szigetújfalu"]
         frequencies:
           - start_time: 07:05:00
             end_time: 19:05:01
@@ -52,12 +44,8 @@ routes:
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Horány
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Alsógöd
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Horány"]
+          - [00:02, "Alsógöd"]
         frequencies:
           - start_time: 13:20:00
             end_time: 20:20:01
@@ -69,12 +57,8 @@ routes:
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Alsógöd
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Horány
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Alsógöd"]
+          - [00:02, "Horány"]
         frequencies:
           - start_time: 13:30:00
             end_time: 20:30:01
@@ -86,48 +70,32 @@ routes:
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Horány
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Alsógöd
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Horány"]
+          - [00:02, "Alsógöd"]
         departures: [5:00, 5:45, 6:45, 7:30, 8:00, 9:00, 10:00, 11:00, 12:00]
       - trip_id: RUDAS_TAH_A
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Alsógöd
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Horány
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Alsógöd"]
+          - [00:02, "Horány"]
         departures: [5:05, 5:50, 7:00, 7:35, 8:05, 9:15, 10:15, 11:15, 12:15]
       - trip_id: RUDAS_THA_B
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: MUNKASZUNETINAPON
         stop_times:
-          - stop_name: Horány
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Alsógöd
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Horány"]
+          - [00:02, "Alsógöd"]
         departures: [7:20, 8:20, 9:20, 10:20, 11:20, 12:20]
       - trip_id: RUDAS_TAH_B
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: MUNKASZUNETINAPON
         stop_times:
-          - stop_name: Alsógöd
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Horány
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Alsógöd"]
+          - [00:02, "Horány"]
         departures: [7:30, 8:30, 9:30, 10:30, 11:30, 12:30]
   - route_id: RUDAS_UP
     route_type: ferry
@@ -139,12 +107,8 @@ routes:
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Békásmegyer-Pünkösdfürdő
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Újpest-Megyer
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Békásmegyer-Pünkösdfürdő"]
+          - [00:02, "Újpest-Megyer"]
         frequencies:
           - start_time: 07:00:00
             end_time: 20:00:01
@@ -155,12 +119,8 @@ routes:
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Újpest-Megyer
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Békásmegyer-Pünkösdfürdő
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Újpest-Megyer"]
+          - [00:02, "Békásmegyer-Pünkösdfürdő"]
         frequencies:
           - start_time: 07:06:00
             end_time: 20:06:01
@@ -171,24 +131,16 @@ routes:
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Békásmegyer-Pünkösdfürdő
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Újpest-Megyer
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Békásmegyer-Pünkösdfürdő"]
+          - [00:02, "Újpest-Megyer"]
         departures: [5:00, 6:00, 21:00]
       - trip_id: RUDAS_TPU_A
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Újpest-Megyer
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Békásmegyer-Pünkösdfürdő
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Újpest-Megyer"]
+          - [00:02, "Békásmegyer-Pünkösdfürdő"]
         departures: [5:06, 6:06, 21:06]
 ---
 agency_id: SZB
@@ -206,36 +158,24 @@ routes:
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Szigetmonostor
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Szentendre-Belváros
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Szigetmonostor"]
+          - [00:02, "Szentendre-Belváros"]
         departures: [5:00, 6:00]
       - trip_id: SZB_TBSZ_A
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Szentendre-Belváros
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Szigetmonostor
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Szentendre-Belváros"]
+          - [00:02, "Szigetmonostor"]
         departures: [5:05, 6:05]
       - trip_id: SZB_TSZB_C
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Szigetmonostor
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Szentendre-Belváros
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Szigetmonostor"]
+          - [00:02, "Szentendre-Belváros"]
         departures: [07:10]
         frequencies:
           - start_time: 08:30:00
@@ -247,12 +187,8 @@ routes:
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Szentendre-Belváros
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Szigetmonostor
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Szentendre-Belváros"]
+          - [00:02, "Szigetmonostor"]
         departures: [07:15]
         frequencies:
           - start_time: 08:35:00
@@ -276,60 +212,40 @@ routes:
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Pócsmegyer
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Leányfalu
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Pócsmegyer"]
+          - [00:02, "Leányfalu"]
         departures: [04:15, 05:20, 07:30, 14:10, 15:10, 16:10, 17:10]
       - trip_id: DUNAKOMP-LP-A
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Leányfalu
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Pócsmegyer
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Leányfalu"]
+          - [00:02, "Pócsmegyer"]
         departures: [04:20, 05:25, 07:35, 14:30, 15:30, 16:30, 17:30]
       - trip_id: DUNAKOMP-PL-B
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: MUNKASZUNETINAPON
         stop_times:
-          - stop_name: Pócsmegyer
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Leányfalu
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Pócsmegyer"]
+          - [00:02, "Leányfalu"]
         departures: [5:50]
       - trip_id: DUNAKOMP-LP-B
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: MUNKASZUNETINAPON
         stop_times:
-          - stop_name: Leányfalu
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Pócsmegyer
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Leányfalu"]
+          - [00:02, "Pócsmegyer"]
         departures: [5:55]
       - trip_id: DUNAKOMP-PL-C
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Pócsmegyer
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Leányfalu
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Pócsmegyer"]
+          - [00:02, "Leányfalu"]
         departures: [5:00, 6:15, 18:30, 22:20]
         frequencies:
           - start_time: 06:40:00
@@ -345,12 +261,8 @@ routes:
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Leányfalu
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Pócsmegyer
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Leányfalu"]
+          - [00:02, "Pócsmegyer"]
         departures: [5:05, 6:35, 18:10, 18:35]
         frequencies:
           - start_time: 07:00:00
@@ -370,47 +282,31 @@ routes:
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Horány
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Dunakeszi
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Horány"]
+          - [00:02, "Dunakeszi"]
         departures: [5:25, 5:45, 6:05, 6:45, 7:05, 8:05, 16:05, 17:05]
       - trip_id: DUNAKOMP-DH-A
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: MUNKANAPON
         stop_times:
-          - stop_name: Dunakeszi
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Horány
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Dunakeszi"]
+          - [00:02, "Horány"]
         departures: [5:35, 5:55, 6:15, 6:35, 6:55, 7:15, 8:15, 16:15, 17:15]
       - trip_id: DUNAKOMP-HD-B
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Horány
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Dunakeszi
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Horány"]
+          - [00:02, "Dunakeszi"]
         departures: [6:25, 7:25, 8:25, 8:45, 9:25, 9:45, 10:25, 10:45, 11:25, 11:45, 12:25, 12:45, 13:25, 13:45, 14:25, 14:45, 15:25, 15:45, 16:25, 16:45, 17:25, 17:45, 18:25, 18:45, 19:25, 19:45, 20:25]
       - trip_id: DUNAKOMP-DH-B
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
-          - stop_name: Dunakeszi
-            arrival_time: 00:00
-            departure_time: 00:00
-          - stop_name: Horány
-            arrival_time: 00:02
-            departure_time: 00:02
+          - [00:00, "Dunakeszi"]
+          - [00:02, "Horány"]
         departures: [6:35, 7:35, 8:35, 8:55, 9:35, 9:55, 10:35, 10:55, 11:35, 11:55, 12:35, 12:55, 13:35, 13:55, 14:35, 14:55, 15:35, 15:55, 16:35, 16:55, 17:35, 17:55, 18:35, 18:55, 19:35, 19:55, 20:35]
 

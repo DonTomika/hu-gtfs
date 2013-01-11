@@ -22,12 +22,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Százhalombatta
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Tököl
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Százhalombatta"]
+      - [00:05, "Tököl"]
     frequencies:
       - start_time: 07:00:00
         end_time: 19:00:01
@@ -38,12 +34,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Tököl
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Százhalombatta
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Tököl"]
+      - [00:05, "Százhalombatta"]
     frequencies:
       - start_time: 07:05:00
         end_time: 19:05:01

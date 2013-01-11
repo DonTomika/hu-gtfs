@@ -202,7 +202,7 @@ sub sanify
 
 					$new_trip->{stop_times} = [
 						map {
-							{%$_};
+							ref $_ eq 'ARRAY' ? [@$_] : {%$_};
 						} @{ $trip->{stop_times} }
 					];
 
@@ -244,14 +244,12 @@ sub sanify
 				$log->warn("Unknown service specified for trip $trip->{trip_id}");
 			}
 
-			# Headsign
-			unless ( $trip->{trip_headsign} ) {
-				$trip->{trip_headsign} = $trip->{stop_times}->[-1]->{stop_name};
-			}
-
 			# Stop times
 			for ( my $i = 0; $i <= $#{ $trip->{stop_times} }; $i++ ) {
 				my $st = $trip->{stop_times}->[$i];
+				if(ref $st eq 'ARRAY') {
+					$st = $trip->{stop_times}->[$i] = { stop_time => $st->[0], stop_name => $st->[1], };
+				}
 
 				$st->{shape_dist_traveled} = $i unless $st->{shape_dist_traveled};
 
@@ -259,6 +257,11 @@ sub sanify
 					$st->{departure_time} = $st->{arrival_time} = $st->{stop_time};
 					delete $st->{stop_time};
 				}
+			}
+
+			# Headsign
+			unless ( $trip->{trip_headsign} ) {
+				$trip->{trip_headsign} = $trip->{stop_times}->[-1]->{stop_name};
 			}
 
 			# Departures

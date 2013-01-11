@@ -22,12 +22,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Szigetmonostor
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Szentendre-Határcsárda
-        arrival_time: 00:02
-        departure_time: 00:02
+      - [00:00, "Szigetmonostor"]
+      - [00:02, "Szentendre-Határcsárda"]
     departures: [04:20, 05:10, 21:30, 22:10, 23:10]
     frequencies:
       - start_time: 06:00:00
@@ -39,24 +35,16 @@ trips:
     trip_bikes_allowed: 2
     service_id: MUNKANAPON
     stop_times:
-      - stop_name: Szigetmonostor
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Szentendre-Határcsárda
-        arrival_time: 00:02
-        departure_time: 00:02
+      - [00:00, "Szigetmonostor"]
+      - [00:02, "Szentendre-Határcsárda"]
     departures: [05:30, 21:00]
   - trip_id: LEHEL-THSZ
     direction_id: inbound
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Szentendre-Határcsárda
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Szigetmonostor
-        arrival_time: 00:02
-        departure_time: 00:02
+      - [00:00, "Szentendre-Határcsárda"]
+      - [00:02, "Szigetmonostor"]
     departures: [04:22, 05:20, 21:35, 22:25, 23:20]
     frequencies:
       - start_time: 06:00:00
@@ -68,10 +56,6 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Szentendre-Határcsárda
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Szigetmonostor
-        arrival_time: 00:02
-        departure_time: 00:02
+      - [00:00, "Szentendre-Határcsárda"]
+      - [00:02, "Szigetmonostor"]
     departures: [05:35, 21:05]

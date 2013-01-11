@@ -22,12 +22,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Visegrád
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Nagymaros
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Visegrád"]
+      - [00:05, "Nagymaros"]
     departures: [04:25, 06:30, 22:35]
     frequencies:
       - start_time: 07:50:00
@@ -39,12 +35,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Nagymaros
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Visegrád
-        arrival_time: 00:02
-        departure_time: 00:02
+      - [00:00, "Nagymaros"]
+      - [00:02, "Visegrád"]
     departures: [04:35, 06:35, 22:30]
     frequencies:
       - start_time: 08:00:00

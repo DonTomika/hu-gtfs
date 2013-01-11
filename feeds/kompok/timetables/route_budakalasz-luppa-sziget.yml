@@ -22,12 +22,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Budakalász
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Luppa-sziget
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Budakalász"]
+      - [00:05, "Luppa-sziget"]
     frequencies:
       - start_time: 07:10:00
         end_time: 19:10:01
@@ -38,12 +34,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: NAPONTA
     stop_times:
-      - stop_name: Luppa-sziget
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Budakalász
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Luppa-sziget"]
+      - [00:05, "Budakalász"]
     frequencies:
       - start_time: 07:15:00
         end_time: 19:15:01

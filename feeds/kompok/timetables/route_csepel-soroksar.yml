@@ -14,12 +14,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: MUNKANAPON
     stop_times:
-      - stop_name: Soroksár
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Csepel
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Soroksár"]
+      - [00:05, "Csepel"]
     frequencies:
       - start_time: 06:00:00
         end_time: 20:00:01
@@ -30,12 +26,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: MUNKANAPON
     stop_times:
-      - stop_name: Csepel
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Soroksár
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Csepel"]
+      - [00:05, "Soroksár"]
     frequencies:
       - start_time: 06:05:00
         end_time: 20:05:01
@@ -46,12 +38,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: HETVEGEN
     stop_times:
-      - stop_name: Soroksár
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Csepel
-        arrival_time: 00:05
-        departure_time: 00:05
+      - [00:00, "Soroksár"]
+      - [00:05, "Csepel"]
     frequencies:
       - start_time: 07:00:00
         end_time: 20:00:01
@@ -62,12 +50,8 @@ trips:
     trip_bikes_allowed: 2
     service_id: HETVEGEN
     stop_times:
-      - stop_name: Csepel
-        arrival_time: 00:00
-        departure_time: 00:00
-      - stop_name: Soroksár
-        arrival_time: 00:05
-        departure_time: 00:05 
+      - [00:00, "Csepel"]
+      - [00:05, "Soroksár"]
     frequencies:
       - start_time: 07:05:00
         end_time: 20:05:01
