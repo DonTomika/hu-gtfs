@@ -8,3 +8,38 @@ licenses in the directory LICENSES.
 This program is distributed in the hope that it will be
 useful, but without any warranty; without even the implied
 warranty of merchantability or fitness for a particular purpose.
+
+
+Files with different licenses or copyright holders:
+
+lib/Geo/Geometry.pm:
+lib/Geo/OSM/Upload.pm:
+lib/Geo/OSM/Write.pm:
+lib/Utils/Debug.pm:
+lib/Utils/File.pm:
+lib/Utils/Math.pm:
+Copyright (C) 2006, Jörg Ostertag.
+The file is licensed under the terms of the
+GNU General Public License 2.1. See 
+<http://www.gnu.org/licenses/gpl-2.1.html>.
+Source: http://svn.openstreetmap.org/applications/utils/perl_lib/
+
+lib/Geo/OSM/OsmXML:
+Copyright (C) 2006, Oliver White.
+The file is licensed under the terms of the
+GNU General Public License 2.1. See 
+<http://www.gnu.org/licenses/gpl-2.1.html>.
+Source: http://svn.openstreetmap.org/applications/utils/perl_lib/
+
+lib/Geo/OSM/APIClientV5.pm:
+lib/Geo/OSM/APIClientV6.pm:
+lib/Geo/OSM/EntitiesV5.pm:
+lib/Geo/OSM/EntitiesV6.pm:
+lib/Geo/OSM/OsmChangeReaderV5.pm:
+lib/Geo/OSM/OsmReaderV5.pm:
+lib/Geo/OSM/OsmReaderV6.pm:
+Copyright (C) 2006, Martijn van Oosterhout.
+The file is licensed under the terms of the
+GNU Lesser General Public License 2.1. See 
+<http://www.gnu.org/licenses/lgpl-2.1.html>.
+Source: http://svn.openstreetmap.org/applications/utils/perl_lib/
