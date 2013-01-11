@@ -1,8 +1,8 @@
 tmp
-*/data
 *.swp
-*/gtfs/*.yml
-*/gtfs/*.txt
-bkv/stops-*.txt
-bkv/bkv-zrt_*.zip
+feeds/*/data
+feeds/*/gtfs/*.txt
+feeds/*/gtfs/*.yml
+feeds/bkv/stops-*.txt
+feeds/bkv/bkv-zrt_*.zip
 deploy
