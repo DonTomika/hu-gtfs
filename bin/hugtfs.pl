@@ -56,6 +56,8 @@ use Cwd;
 
 use Data::Dumper;
 
+my $feedsdir = 'feeds';
+
 my $options = {
 	base     => [ 'config:s',   'v|verbose+', 'q|quiet+', ],
 	download => [ 'automatic!', 'force!', ],
@@ -383,13 +385,13 @@ sub download : Help(Downloads agency data: [--force] [--automatic] agency)
 	my @args   = scalar @_ ? @_ : @{ $c->argv };
 	my $agency = shift @args;
 
-	$c->load_config( catfile curdir(), $agency, 'config.yml' );
+	$c->load_config( catfile curdir(), $feedsdir, $agency, 'config.yml' );
 	eval "require " . $c->config->{feedmanager} . ";"
 		or die "Failed to load feed manager: $@";
 
 	my $fm = $c->config->{feedmanager}->new(
 		options       => $c->config,
-		directory     => catdir( curdir(), $agency ),
+		directory     => catdir( curdir(), $feedsdir, $agency ),
 		force         => $c->options->{force},
 		osm_file      => $c->stash->{osmfile},
 		reference_url => '',
@@ -403,13 +405,13 @@ sub parse : Help(Parses agency data: [--osmfile=...] agency [ agency specific ar
 	my $c = shift;
 	my $agency = shift || $c->argv->[0];
 
-	$c->load_config( catfile curdir(), $agency, 'config.yml' );
+	$c->load_config( catfile curdir(), $feedsdir, $agency, 'config.yml' );
 	eval "require " . $c->config->{feedmanager} . ";"
 		or die "Failed to load feed manager: $@";
 
 	my $fm = $c->config->{feedmanager}->new(
 		options       => $c->config,
-		directory     => catdir( curdir(), $agency ),
+		directory     => catdir( curdir(), $feedsdir, $agency ),
 		osm_file      => $c->stash->{osmfile},
 		reference_url => '',
 	);
@@ -445,12 +447,12 @@ sub gtfs :
 
 	foreach my $d (@all) {
 		unless ( scalar grep { $d eq $_ } @exclude ) {
-			next unless -f File::Spec->catfile( curdir(), $d, 'config.yml' );
+			next unless -f File::Spec->catfile( curdir(), $feedsdir, $d, 'config.yml' );
 
 			if ( -f File::Spec->catfile( $d, "README.txt" ) ) {
-				$dumper->readme( slurp( File::Spec->catfile( $d, "README.txt" ) ) );
+				$dumper->readme( slurp( File::Spec->catfile( curdir(), $feedsdir, $d, "README.txt" ) ) );
 			}
-			$dumper->load_data( $d, -d File::Spec->catdir( '.', $d, 'gtfs' ) );
+			$dumper->load_data( $d, -d File::Spec->catdir( curdir(), $feedsdir, $d, 'gtfs' ) );
 		}
 	}
 
@@ -509,9 +511,9 @@ sub deploy : Help(Deploy/Archives GTFS data: [--automatic] agency agency2 ... )
 	}
 	elsif ( $c->options->{automatic} ) {
 		foreach my $agency ( grep { -d $_ && $_ ne '..' && $_ ne '.' } <*> ) {
-			next unless -f catfile( curdir(), $agency, 'config.yml' );
+			next unless -f catfile( curdir(), $feedsdir, $agency, 'config.yml' );
 
-			$c->load_config( catfile( curdir(), $agency, 'config.yml' ) );
+			$c->load_config( catfile( curdir(), $feedsdir, $agency, 'config.yml' ) );
 			if ( $c->config->{automatic} ) {
 				push @agencies, $agency;
 			}
@@ -522,7 +524,7 @@ sub deploy : Help(Deploy/Archives GTFS data: [--automatic] agency agency2 ... )
 	foreach my $agency (@agencies) {
 		$log->info("Deploy $agency...");
 
-		$c->load_config( catfile curdir(), $agency, 'config.yml' );
+		$c->load_config( catfile curdir(), $feedsdir, $agency, 'config.yml' );
 		eval "require " . $c->config->{feedmanager} . ";"
 			or die "Failed to load feed manager: $@";
 
@@ -546,7 +548,7 @@ sub deploy : Help(Deploy/Archives GTFS data: [--automatic] agency agency2 ... )
 				options       => $c->config,
 				automatic     => 1,
 				force         => $c->options->{force},
-				directory     => catdir( curdir(), $agency ),
+				directory     => catdir( curdir(), $feedsdir, $agency ),
 				osm_file      => $c->stash->{osmfile},
 				reference_url => "http://data.flaktack.net/transit/$agency/$date/reference/",
 			);
@@ -567,7 +569,7 @@ sub deploy : Help(Deploy/Archives GTFS data: [--automatic] agency agency2 ... )
 			mkdir $kml_dir;
 
 			my $dumper = HuGTFS::Dumper->new;
-			$dumper->magic( $fm->directory, $gtfs_file );
+			$dumper->magic( $fm->directory, $agency, $gtfs_file );
 
 			#burp( catfile( $c->config->{deploydir}, $agency, 'README' ),
 			#	create_markdown( $dumper->readme ) );
@@ -664,10 +666,12 @@ sub deploy_all : Help(Deploys/Archives a feed containing all agencies: agency ag
 	foreach my $d (@agencies) {
 		$log->info("Loading $d...");
 
-		if ( -f File::Spec->catfile( $d, "README.txt" ) ) {
-			$dumper->readme( slurp( File::Spec->catfile( $d, "README.txt" ) ) );
+		if ( -f File::Spec->catfile( curdir(), $feedsdir, $d, "README.txt" ) ) {
+			$dumper->readme( slurp( File::Spec->catfile( curdir(), $feedsdir, $d, "README.txt" ) ) );
 		}
-		$dumper->load_data( $d, -d File::Spec->catdir( '.', $d, 'gtfs' ) );
+		
+		my $dir = File::Spec->catdir( curdir(), $feedsdir, $d, 'gtfs' );
+		$dumper->load_data( $dir, $d );
 	}
 
 	$dumper->postprocess_stops( $c->stash->{osmfile} );

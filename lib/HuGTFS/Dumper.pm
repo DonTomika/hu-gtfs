@@ -8,7 +8,7 @@ HuGTFS::Dumper - GTFS dumper used within HuGTFS
 	use HuGTFS::Dumper;
 
 	my $dumper = HuGTFS::Dumper->new
-	$dumper->load_data($dir, $is_gtfs);
+	$dumper->load_data($dir, $prefix);
 	$dumper->deinit;
 	$dumper->create_zip($file);
 
@@ -219,14 +219,14 @@ Create an archive from the data in $agency_dir/gtfs at $dest.
 
 sub magic
 {
-	my ( $self, $agency_dir, $dest ) = @_;
+	my ( $self, $dir, $agency, $dest ) = @_;
 	$self->clean_dir;
 
-	if ( -f File::Spec->catfile( $agency_dir, "README.txt" ) ) {
-		$self->readme( slurp( File::Spec->catfile( $agency_dir, "README.txt" ) ) );
+	if ( -f File::Spec->catfile( $dir, "README.txt" ) ) {
+		$self->readme( slurp( File::Spec->catfile( $dir, "README.txt" ) ) );
 	}
 
-	$self->load_data( $agency_dir, -d File::Spec->catdir( '.', $agency_dir, 'gtfs' ) );
+	$self->load_data( File::Spec->catdir( $dir, 'gtfs' ), $agency );
 	$self->deinit;
 	$self->create_zip($dest) || die "Can't create gtfs zip";
 }
@@ -343,7 +343,7 @@ sub create_zip
 	return 1;
 }
 
-=head2 load_data $dir, $is_gtfs
+=head2 load_data $dir, $prefix
 
 Load gtfs/yaml data from the specified directory.
 
@@ -351,7 +351,7 @@ Load gtfs/yaml data from the specified directory.
 
 sub load_data
 {
-	my ( $self, $dir, $is_gtfs ) = @_;
+	my ( $self, $dir, $prefix ) = @_;
 	return if $dir =~ m/^(?:bin|data|lib|tmp|util)$/;
 
 	# stops gets parsed first, stop_times last -> needed for area type determination
@@ -365,7 +365,7 @@ sub load_data
 		keys %$FILES;
 
 	if ( $self->{prefix} ) {
-		$self->{prefix} = $dir . '_';
+		$self->{prefix} = ($prefix || $dir) . '_';
 	}
 
 	$self->{route_types}    = {};
@@ -373,26 +373,16 @@ sub load_data
 	$self->{gtfs_to_entity} = {};
 
 	foreach my $file (@files) {
-		if ($is_gtfs) {
-			my $path = File::Spec->catfile( '.', $dir, 'gtfs', $file . '.txt' );
-			if ( -e $path ) {
+		my $path = File::Spec->catfile( $dir, $file . '.txt' );
+		if ( -e $path ) {
 
-				# read hash from csv
-				my $io = IO::File->new( $path, 'r' );
-				$CSV->column_names( $CSV->getline($io) );
+			# read hash from csv
+			my $io = IO::File->new( $path, 'r' );
+			$CSV->column_names( $CSV->getline($io) );
 
-				# Copy data
-				while ( my $row = $CSV->getline_hr($io) ) {
-					$FILES->{$file}->( $self, $row );
-				}
-			}
-		}
-		else {
-			my $path = File::Spec->catfile( '.', $dir, $file . '.yml' );
-			if ( -e $path ) {
-				for ( YAML::Load( slurp $path ) ) {
-					$FILES->{$file}->( $self, $_ );
-				}
+			# Copy data
+			while ( my $row = $CSV->getline_hr($io) ) {
+				$FILES->{$file}->( $self, $row );
 			}
 		}
 	}
