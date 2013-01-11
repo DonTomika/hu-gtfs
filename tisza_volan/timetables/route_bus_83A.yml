@@ -1,0 +1,128 @@
+---
+route_id:         37
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 83A
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       183/11
+    service_id:    IEA
+    trip_headsign: Személypályaudvar
+    direction_id:  outbound
+    departures: [6:00:00, 6:20:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00]
+    stop_times: 
+      - stop_name: Makkosház
+        stop_code: 105
+        stop_time: 00:00:00
+      - stop_name: Ipoly sor
+        stop_code: 106
+        stop_time: 00:01:00
+      - stop_name: Makkosházi krt.
+        stop_code: 107
+        stop_time: 00:03:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:04:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:05:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:06:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:12:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:14:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 122
+        stop_time: 00:16:00
+      - stop_name: Honvéd tér
+        stop_code: 125
+        stop_time: 00:17:00
+      - stop_name: SZTK Rendelő
+        stop_code: 127
+        stop_time: 00:18:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:19:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:20:00
+      - stop_name: Személypályaudvar
+        stop_code: 89
+        stop_time: 00:21:00
+  - trip_id:       184/2
+    service_id:    IEA
+    trip_headsign: Makkosház
+    direction_id:  inbound
+    departures: [6:35:00, 6:55:00, 7:55:00, 8:15:00, 8:35:00, 8:55:00, 14:35:00, 14:55:00, 15:15:00, 15:35:00, 15:55:00, 16:15:00, 16:35:00, 16:55:00, 17:15:00]
+    stop_times: 
+      - stop_name: Személypályaudvar
+        stop_code: 90
+        stop_time: 00:00:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:01:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:02:00
+      - stop_name: SZTK Rendelő
+        stop_code: 128
+        stop_time: 00:03:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:04:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 124
+        stop_time: 00:05:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:06:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 95
+        stop_time: 00:08:00
+      - stop_name: Rókusi templom
+        stop_code: 137
+        stop_time: 00:10:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:11:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:12:00
+      - stop_name: Kisteleki u.
+        stop_code: 140
+        stop_time: 00:14:00
+      - stop_name: Rókusi víztorony
+        stop_code: 141
+        stop_time: 00:15:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 142
+        stop_time: 00:16:00
+      - stop_name: Vértó
+        stop_code: 143
+        stop_time: 00:18:00
+      - stop_name: Makkosházi krt.
+        stop_code: 144
+        stop_time: 00:19:00
+      - stop_name: Ipoly sor
+        stop_code: 145
+        stop_time: 00:20:00
+      - stop_name: Makkosház
+        stop_code: 146
+        stop_time: 00:21:00

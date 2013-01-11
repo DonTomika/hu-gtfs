@@ -1,0 +1,314 @@
+---
+route_id:         18
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 13A
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       58/5
+    service_id:    MN
+    trip_headsign: Móravárosi bevásárlóközpont
+    direction_id:  outbound
+    departures: [18:35:00, 19:05:00, 20:05:00, 21:05:00, 22:05:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:02:00
+      - stop_name: Kenderfonógyár
+        stop_code: 209
+        stop_time: 00:03:00
+      - stop_name: Huszár u. (Okmányiroda)
+        stop_code: 211
+        stop_time: 00:04:00
+      - stop_name: Mura u.
+        stop_code: 213
+        stop_time: 00:05:00
+      - stop_name: Tisza Volán Zrt.
+        stop_code: 217
+        stop_time: 00:06:00
+      - stop_name: Kenyérgyári út
+        stop_code: 219
+        stop_time: 00:07:00
+      - stop_name: II. Kórház
+        stop_code: 221
+        stop_time: 00:08:00
+      - stop_name: Kálvária tér
+        stop_code: 223
+        stop_time: 00:09:00
+      - stop_name: Alkony u.
+        stop_code: 225
+        stop_time: 00:10:00
+      - stop_name: Hajnal u.
+        stop_code: 227
+        stop_time: 00:11:00
+      - stop_name: Szél u.
+        stop_code: 229
+        stop_time: 00:12:00
+      - stop_name: Cserepes sor
+        stop_code: 231
+        stop_time: 00:13:00
+      - stop_name: Móravárosi bevásárlóközpont
+        stop_code: 233
+        stop_time: 00:14:00
+  - trip_id:       59/6
+    service_id:    SZN
+    trip_headsign: Móravárosi bevásárlóközpont
+    direction_id:  outbound
+    departures: [5:05:00, 5:35:00, 6:05:00, 6:35:00, 7:05:00, 7:35:00, 8:05:00, 8:35:00, 9:05:00, 9:35:00, 10:05:00, 10:35:00, 11:05:00, 11:35:00, 12:05:00, 12:35:00, 13:05:00, 13:35:00, 14:05:00, 14:35:00, 15:05:00, 15:35:00, 16:05:00, 16:35:00, 17:05:00, 17:35:00, 18:05:00, 18:35:00, 19:05:00, 20:05:00, 21:05:00, 22:05:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:02:00
+      - stop_name: Kenderfonógyár
+        stop_code: 209
+        stop_time: 00:03:00
+      - stop_name: Huszár u. (Okmányiroda)
+        stop_code: 211
+        stop_time: 00:04:00
+      - stop_name: Mura u.
+        stop_code: 213
+        stop_time: 00:05:00
+      - stop_name: Tisza Volán Zrt.
+        stop_code: 217
+        stop_time: 00:06:00
+      - stop_name: Kenyérgyári út
+        stop_code: 219
+        stop_time: 00:07:00
+      - stop_name: II. Kórház
+        stop_code: 221
+        stop_time: 00:08:00
+      - stop_name: Kálvária tér
+        stop_code: 223
+        stop_time: 00:09:00
+      - stop_name: Alkony u.
+        stop_code: 225
+        stop_time: 00:10:00
+      - stop_name: Hajnal u.
+        stop_code: 227
+        stop_time: 00:11:00
+      - stop_name: Szél u.
+        stop_code: 229
+        stop_time: 00:12:00
+      - stop_name: Cserepes sor
+        stop_code: 231
+        stop_time: 00:13:00
+      - stop_name: Móravárosi bevásárlóközpont
+        stop_code: 233
+        stop_time: 00:14:00
+  - trip_id:       60/20
+    service_id:    MSZ
+    trip_headsign: Móravárosi bevásárlóközpont
+    direction_id:  outbound
+    departures: [5:05:00, 5:35:00, 6:05:00, 6:35:00, 7:05:00, 7:35:00, 8:05:00, 8:35:00, 9:05:00, 9:35:00, 10:05:00, 10:35:00, 11:05:00, 11:35:00, 12:05:00, 12:35:00, 13:05:00, 13:35:00, 14:05:00, 14:35:00, 15:05:00, 15:35:00, 16:05:00, 16:35:00, 17:05:00, 17:35:00, 18:05:00, 18:35:00, 19:05:00, 20:05:00, 21:05:00, 22:05:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:02:00
+      - stop_name: Kenderfonógyár
+        stop_code: 209
+        stop_time: 00:03:00
+      - stop_name: Huszár u. (Okmányiroda)
+        stop_code: 211
+        stop_time: 00:04:00
+      - stop_name: Mura u.
+        stop_code: 213
+        stop_time: 00:05:00
+      - stop_name: Tisza Volán Zrt.
+        stop_code: 217
+        stop_time: 00:06:00
+      - stop_name: Kenyérgyári út
+        stop_code: 219
+        stop_time: 00:07:00
+      - stop_name: II. Kórház
+        stop_code: 221
+        stop_time: 00:08:00
+      - stop_name: Kálvária tér
+        stop_code: 223
+        stop_time: 00:09:00
+      - stop_name: Alkony u.
+        stop_code: 225
+        stop_time: 00:10:00
+      - stop_name: Hajnal u.
+        stop_code: 227
+        stop_time: 00:11:00
+      - stop_name: Szél u.
+        stop_code: 229
+        stop_time: 00:12:00
+      - stop_name: Cserepes sor
+        stop_code: 231
+        stop_time: 00:13:00
+      - stop_name: Móravárosi bevásárlóközpont
+        stop_code: 233
+        stop_time: 00:14:00
+  - trip_id:       61/1
+    service_id:    MN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [18:18:00, 18:48:00, 19:18:00, 20:18:00, 21:18:00, 22:18:00]
+    stop_times: 
+      - stop_name: Móravárosi bevásárlóközpont
+        stop_code: 233
+        stop_time: 00:00:00
+      - stop_name: Cserepes sor
+        stop_code: 232
+        stop_time: 00:01:00
+      - stop_name: Gólya u.
+        stop_code: 234
+        stop_time: 00:02:00
+      - stop_name: Kolozsvári tér
+        stop_code: 235
+        stop_time: 00:03:00
+      - stop_name: Szél u.
+        stop_code: 230
+        stop_time: 00:04:00
+      - stop_name: Hajnal u.
+        stop_code: 228
+        stop_time: 00:05:00
+      - stop_name: Alkony u.
+        stop_code: 226
+        stop_time: 00:06:00
+      - stop_name: Kálvária tér
+        stop_code: 224
+        stop_time: 00:07:00
+      - stop_name: II. Kórház
+        stop_code: 222
+        stop_time: 00:08:00
+      - stop_name: Öntöde
+        stop_code: 220
+        stop_time: 00:09:00
+      - stop_name: Tisza Volán Zrt.
+        stop_code: 218
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 216
+        stop_time: 00:11:00
+      - stop_name: Mura u.
+        stop_code: 214
+        stop_time: 00:12:00
+      - stop_name: Huszár u. (Okmányiroda)
+        stop_code: 212
+        stop_time: 00:13:00
+      - stop_name: Mars tér (piac bejárat)
+        stop_code: 266
+        stop_time: 00:15:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:16:00
+  - trip_id:       62/14
+    service_id:    SZN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:18:00, 5:48:00, 6:18:00, 6:48:00, 7:18:00, 7:48:00, 8:18:00, 8:48:00, 9:18:00, 9:48:00, 10:18:00, 10:48:00, 11:18:00, 11:48:00, 12:18:00, 12:48:00, 13:18:00, 13:48:00, 14:18:00, 14:48:00, 15:18:00, 15:48:00, 16:18:00, 16:48:00, 17:18:00, 17:48:00, 18:18:00, 18:48:00, 19:18:00, 20:18:00, 21:18:00, 22:18:00]
+    stop_times: 
+      - stop_name: Móravárosi bevásárlóközpont
+        stop_code: 233
+        stop_time: 00:00:00
+      - stop_name: Cserepes sor
+        stop_code: 232
+        stop_time: 00:01:00
+      - stop_name: Gólya u.
+        stop_code: 234
+        stop_time: 00:02:00
+      - stop_name: Kolozsvári tér
+        stop_code: 235
+        stop_time: 00:03:00
+      - stop_name: Szél u.
+        stop_code: 230
+        stop_time: 00:04:00
+      - stop_name: Hajnal u.
+        stop_code: 228
+        stop_time: 00:05:00
+      - stop_name: Alkony u.
+        stop_code: 226
+        stop_time: 00:06:00
+      - stop_name: Kálvária tér
+        stop_code: 224
+        stop_time: 00:07:00
+      - stop_name: II. Kórház
+        stop_code: 222
+        stop_time: 00:08:00
+      - stop_name: Öntöde
+        stop_code: 220
+        stop_time: 00:09:00
+      - stop_name: Tisza Volán Zrt.
+        stop_code: 218
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 216
+        stop_time: 00:11:00
+      - stop_name: Mura u.
+        stop_code: 214
+        stop_time: 00:12:00
+      - stop_name: Huszár u. (Okmányiroda)
+        stop_code: 212
+        stop_time: 00:13:00
+      - stop_name: Mars tér (piac bejárat)
+        stop_code: 266
+        stop_time: 00:15:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:16:00
+  - trip_id:       63/17
+    service_id:    MSZ
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:18:00, 5:48:00, 6:18:00, 6:48:00, 7:18:00, 7:48:00, 8:18:00, 8:48:00, 9:18:00, 9:48:00, 10:18:00, 10:48:00, 11:18:00, 11:48:00, 12:18:00, 12:48:00, 13:18:00, 13:48:00, 14:18:00, 14:48:00, 15:18:00, 15:48:00, 16:18:00, 16:48:00, 17:18:00, 17:48:00, 18:18:00, 18:48:00, 19:18:00, 20:18:00, 21:18:00, 22:18:00]
+    stop_times: 
+      - stop_name: Móravárosi bevásárlóközpont
+        stop_code: 233
+        stop_time: 00:00:00
+      - stop_name: Cserepes sor
+        stop_code: 232
+        stop_time: 00:01:00
+      - stop_name: Gólya u.
+        stop_code: 234
+        stop_time: 00:02:00
+      - stop_name: Kolozsvári tér
+        stop_code: 235
+        stop_time: 00:03:00
+      - stop_name: Szél u.
+        stop_code: 230
+        stop_time: 00:04:00
+      - stop_name: Hajnal u.
+        stop_code: 228
+        stop_time: 00:05:00
+      - stop_name: Alkony u.
+        stop_code: 226
+        stop_time: 00:06:00
+      - stop_name: Kálvária tér
+        stop_code: 224
+        stop_time: 00:07:00
+      - stop_name: II. Kórház
+        stop_code: 222
+        stop_time: 00:08:00
+      - stop_name: Öntöde
+        stop_code: 220
+        stop_time: 00:09:00
+      - stop_name: Tisza Volán Zrt.
+        stop_code: 218
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 216
+        stop_time: 00:11:00
+      - stop_name: Mura u.
+        stop_code: 214
+        stop_time: 00:12:00
+      - stop_name: Huszár u. (Okmányiroda)
+        stop_code: 212
+        stop_time: 00:13:00
+      - stop_name: Mars tér (piac bejárat)
+        stop_code: 266
+        stop_time: 00:15:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:16:00

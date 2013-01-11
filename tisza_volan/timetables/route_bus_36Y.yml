@@ -1,0 +1,512 @@
+---
+route_id:         20
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 36Y
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       72/16
+    service_id:    MN
+    trip_headsign: Kiskundorozsma, Czékus u.
+    direction_id:  outbound
+    departures: [4:43:00, 5:13:00, 5:43:00, 6:13:00, 6:43:00, 7:13:00, 7:43:00, 8:13:00, 8:43:00, 9:43:00, 10:43:00, 11:43:00, 12:43:00, 13:43:00, 14:13:00, 14:43:00, 15:13:00, 15:43:00, 16:13:00, 16:43:00, 17:13:00, 17:43:00, 18:13:00, 18:43:00, 19:28:00, 20:28:00, 21:28:00, 22:28:00]
+    stop_times: 
+      - stop_name: Honvéd tér
+        stop_code: 154
+        stop_time: 00:00:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:01:00
+      - stop_name: Dáni u. (Dugonics tér)
+        stop_code: 316
+        stop_time: 00:02:00
+      - stop_name: Londoni krt.
+        stop_code: 313
+        stop_time: 00:03:00
+      - stop_name: Kálvária tér
+        stop_code: 224
+        stop_time: 00:05:00
+      - stop_name: II. Kórház
+        stop_code: 222
+        stop_time: 00:06:00
+      - stop_name: Vadaspark
+        stop_code: 310
+        stop_time: 00:08:00
+      - stop_name: Bajai út
+        stop_code: 308
+        stop_time: 00:10:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:11:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:12:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:13:00
+      - stop_name: AGROKER
+        stop_code: 186
+        stop_time: 00:15:00
+      - stop_name: DÉLÉP központ
+        stop_code: 188
+        stop_time: 00:17:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 190
+        stop_time: 00:19:00
+      - stop_name: Tassi ház
+        stop_code: 192
+        stop_time: 00:20:00
+      - stop_name: Csatorna
+        stop_code: 194
+        stop_time: 00:21:00
+      - stop_name: Malom
+        stop_code: 196
+        stop_time: 00:23:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 198
+        stop_time: 00:24:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 273
+        stop_time: 00:25:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 271
+        stop_time: 00:26:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 269
+        stop_time: 00:28:00
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:29:00
+  - trip_id:       73/1
+    service_id:    SZN
+    trip_headsign: Kiskundorozsma, Czékus u.
+    direction_id:  outbound
+    departures: [4:43:00, 5:13:00, 5:43:00, 6:13:00, 6:43:00, 7:13:00, 7:43:00, 8:13:00, 8:43:00, 9:13:00, 9:43:00, 10:13:00, 10:43:00, 11:13:00, 11:43:00, 12:13:00, 12:43:00, 13:28:00, 14:28:00, 15:28:00, 16:28:00, 17:28:00, 18:28:00, 19:28:00, 20:28:00, 21:28:00, 22:28:00]
+    stop_times: 
+      - stop_name: Honvéd tér
+        stop_code: 154
+        stop_time: 00:00:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:01:00
+      - stop_name: Dáni u. (Dugonics tér)
+        stop_code: 316
+        stop_time: 00:02:00
+      - stop_name: Londoni krt.
+        stop_code: 313
+        stop_time: 00:03:00
+      - stop_name: Kálvária tér
+        stop_code: 224
+        stop_time: 00:05:00
+      - stop_name: II. Kórház
+        stop_code: 222
+        stop_time: 00:06:00
+      - stop_name: Vadaspark
+        stop_code: 310
+        stop_time: 00:08:00
+      - stop_name: Bajai út
+        stop_code: 308
+        stop_time: 00:10:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:11:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:12:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:13:00
+      - stop_name: AGROKER
+        stop_code: 186
+        stop_time: 00:15:00
+      - stop_name: DÉLÉP központ
+        stop_code: 188
+        stop_time: 00:17:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 190
+        stop_time: 00:19:00
+      - stop_name: Tassi ház
+        stop_code: 192
+        stop_time: 00:20:00
+      - stop_name: Csatorna
+        stop_code: 194
+        stop_time: 00:21:00
+      - stop_name: Malom
+        stop_code: 196
+        stop_time: 00:23:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 198
+        stop_time: 00:24:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 273
+        stop_time: 00:25:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 271
+        stop_time: 00:26:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 269
+        stop_time: 00:28:00
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:29:00
+  - trip_id:       74/10
+    service_id:    MSZ
+    trip_headsign: Kiskundorozsma, Czékus u.
+    direction_id:  outbound
+    departures: [4:43:00, 5:28:00, 6:28:00, 7:28:00, 8:28:00, 9:28:00, 10:28:00, 11:28:00, 12:28:00, 13:28:00, 14:28:00, 15:28:00, 16:28:00, 17:28:00, 18:28:00, 19:28:00, 20:28:00, 21:28:00, 22:28:00]
+    stop_times: 
+      - stop_name: Honvéd tér
+        stop_code: 154
+        stop_time: 00:00:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:01:00
+      - stop_name: Dáni u. (Dugonics tér)
+        stop_code: 316
+        stop_time: 00:02:00
+      - stop_name: Londoni krt.
+        stop_code: 313
+        stop_time: 00:03:00
+      - stop_name: Kálvária tér
+        stop_code: 224
+        stop_time: 00:05:00
+      - stop_name: II. Kórház
+        stop_code: 222
+        stop_time: 00:06:00
+      - stop_name: Vadaspark
+        stop_code: 310
+        stop_time: 00:08:00
+      - stop_name: Bajai út
+        stop_code: 308
+        stop_time: 00:10:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:11:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:12:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:13:00
+      - stop_name: AGROKER
+        stop_code: 186
+        stop_time: 00:15:00
+      - stop_name: DÉLÉP központ
+        stop_code: 188
+        stop_time: 00:17:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 190
+        stop_time: 00:19:00
+      - stop_name: Tassi ház
+        stop_code: 192
+        stop_time: 00:20:00
+      - stop_name: Csatorna
+        stop_code: 194
+        stop_time: 00:21:00
+      - stop_name: Malom
+        stop_code: 196
+        stop_time: 00:23:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 198
+        stop_time: 00:24:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 273
+        stop_time: 00:25:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 271
+        stop_time: 00:26:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 269
+        stop_time: 00:28:00
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:29:00
+  - trip_id:       75/1
+    service_id:    T
+    trip_headsign: Honvéd tér
+    direction_id:  inbound
+    departures: [6:43:00, 7:13:00]
+    stop_times: 
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:00:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 268
+        stop_time: 00:01:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 270
+        stop_time: 00:02:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 272
+        stop_time: 00:03:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 199
+        stop_time: 00:05:00
+      - stop_name: Malom
+        stop_code: 197
+        stop_time: 00:07:00
+      - stop_name: Csatorna
+        stop_code: 195
+        stop_time: 00:08:00
+      - stop_name: Tassi ház
+        stop_code: 193
+        stop_time: 00:09:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 191
+        stop_time: 00:10:00
+      - stop_name: DÉLÉP központ
+        stop_code: 189
+        stop_time: 00:12:00
+      - stop_name: AGROKER
+        stop_code: 187
+        stop_time: 00:14:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:16:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:17:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:18:00
+      - stop_name: Bajai út
+        stop_code: 309
+        stop_time: 00:19:00
+      - stop_name: Vadaspark
+        stop_code: 311
+        stop_time: 00:21:00
+      - stop_name: II. Kórház
+        stop_code: 221
+        stop_time: 00:23:00
+      - stop_name: Kálvária tér
+        stop_code: 223
+        stop_time: 00:24:00
+      - stop_name: Földhivatal
+        stop_code: 312
+        stop_time: 00:25:00
+      - stop_name: Londoni krt.
+        stop_code: 314
+        stop_time: 00:26:00
+      - stop_name: Dáni u. (Dugonics tér)
+        stop_code: 315
+        stop_time: 00:27:00
+      - stop_name: Honvéd tér
+        stop_code: 154
+        stop_time: 00:29:00
+  - trip_id:       76/24
+    service_id:    MN
+    trip_headsign: Honvéd tér
+    direction_id:  inbound
+    departures: [4:23:00, 4:53:00, 5:23:00, 5:53:00, 6:23:00, 6:53:00, 7:23:00, 7:53:00, 8:38:00, 9:38:00, 10:38:00, 11:38:00, 12:38:00, 12:53:00, 13:23:00, 13:53:00, 14:23:00, 14:53:00, 15:23:00, 15:53:00, 16:23:00, 16:53:00, 17:23:00, 17:53:00, 18:23:00, 19:23:00, 20:23:00, 21:23:00, 22:23:00]
+    stop_times: 
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:00:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 268
+        stop_time: 00:01:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 270
+        stop_time: 00:02:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 272
+        stop_time: 00:03:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 199
+        stop_time: 00:05:00
+      - stop_name: Malom
+        stop_code: 197
+        stop_time: 00:07:00
+      - stop_name: Csatorna
+        stop_code: 195
+        stop_time: 00:08:00
+      - stop_name: Tassi ház
+        stop_code: 193
+        stop_time: 00:09:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 191
+        stop_time: 00:10:00
+      - stop_name: DÉLÉP központ
+        stop_code: 189
+        stop_time: 00:12:00
+      - stop_name: AGROKER
+        stop_code: 187
+        stop_time: 00:14:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:16:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:17:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:18:00
+      - stop_name: Bajai út
+        stop_code: 309
+        stop_time: 00:19:00
+      - stop_name: Vadaspark
+        stop_code: 311
+        stop_time: 00:21:00
+      - stop_name: II. Kórház
+        stop_code: 221
+        stop_time: 00:23:00
+      - stop_name: Kálvária tér
+        stop_code: 223
+        stop_time: 00:24:00
+      - stop_name: Földhivatal
+        stop_code: 312
+        stop_time: 00:25:00
+      - stop_name: Londoni krt.
+        stop_code: 314
+        stop_time: 00:26:00
+      - stop_name: Dáni u. (Dugonics tér)
+        stop_code: 315
+        stop_time: 00:27:00
+      - stop_name: Honvéd tér
+        stop_code: 154
+        stop_time: 00:29:00
+  - trip_id:       77/12
+    service_id:    SZN
+    trip_headsign: Honvéd tér
+    direction_id:  inbound
+    departures: [4:23:00, 4:53:00, 5:23:00, 5:53:00, 6:23:00, 6:53:00, 7:23:00, 7:53:00, 8:23:00, 8:53:00, 9:23:00, 9:53:00, 10:23:00, 10:53:00, 11:23:00, 11:53:00, 12:23:00, 12:53:00, 13:23:00, 14:23:00, 15:23:00, 16:23:00, 17:23:00, 18:23:00, 19:23:00, 20:23:00, 21:23:00, 22:23:00]
+    stop_times: 
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:00:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 268
+        stop_time: 00:01:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 270
+        stop_time: 00:02:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 272
+        stop_time: 00:03:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 199
+        stop_time: 00:05:00
+      - stop_name: Malom
+        stop_code: 197
+        stop_time: 00:07:00
+      - stop_name: Csatorna
+        stop_code: 195
+        stop_time: 00:08:00
+      - stop_name: Tassi ház
+        stop_code: 193
+        stop_time: 00:09:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 191
+        stop_time: 00:10:00
+      - stop_name: DÉLÉP központ
+        stop_code: 189
+        stop_time: 00:12:00
+      - stop_name: AGROKER
+        stop_code: 187
+        stop_time: 00:14:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:16:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:17:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:18:00
+      - stop_name: Bajai út
+        stop_code: 309
+        stop_time: 00:19:00
+      - stop_name: Vadaspark
+        stop_code: 311
+        stop_time: 00:21:00
+      - stop_name: II. Kórház
+        stop_code: 221
+        stop_time: 00:23:00
+      - stop_name: Kálvária tér
+        stop_code: 223
+        stop_time: 00:24:00
+      - stop_name: Földhivatal
+        stop_code: 312
+        stop_time: 00:25:00
+      - stop_name: Londoni krt.
+        stop_code: 314
+        stop_time: 00:26:00
+      - stop_name: Dáni u. (Dugonics tér)
+        stop_code: 315
+        stop_time: 00:27:00
+      - stop_name: Honvéd tér
+        stop_code: 154
+        stop_time: 00:29:00
+  - trip_id:       78/2
+    service_id:    MSZ
+    trip_headsign: Honvéd tér
+    direction_id:  inbound
+    departures: [4:23:00, 5:23:00, 6:23:00, 7:23:00, 8:23:00, 9:23:00, 10:23:00, 11:23:00, 12:23:00, 13:23:00, 14:23:00, 15:23:00, 16:23:00, 17:23:00, 18:23:00, 19:23:00, 20:23:00, 21:23:00, 22:23:00]
+    stop_times: 
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:00:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 268
+        stop_time: 00:01:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 270
+        stop_time: 00:02:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 272
+        stop_time: 00:03:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 199
+        stop_time: 00:05:00
+      - stop_name: Malom
+        stop_code: 197
+        stop_time: 00:07:00
+      - stop_name: Csatorna
+        stop_code: 195
+        stop_time: 00:08:00
+      - stop_name: Tassi ház
+        stop_code: 193
+        stop_time: 00:09:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 191
+        stop_time: 00:10:00
+      - stop_name: DÉLÉP központ
+        stop_code: 189
+        stop_time: 00:12:00
+      - stop_name: AGROKER
+        stop_code: 187
+        stop_time: 00:14:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:16:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:17:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:18:00
+      - stop_name: Bajai út
+        stop_code: 309
+        stop_time: 00:19:00
+      - stop_name: Vadaspark
+        stop_code: 311
+        stop_time: 00:21:00
+      - stop_name: II. Kórház
+        stop_code: 221
+        stop_time: 00:23:00
+      - stop_name: Kálvária tér
+        stop_code: 223
+        stop_time: 00:24:00
+      - stop_name: Földhivatal
+        stop_code: 312
+        stop_time: 00:25:00
+      - stop_name: Londoni krt.
+        stop_code: 314
+        stop_time: 00:26:00
+      - stop_name: Dáni u. (Dugonics tér)
+        stop_code: 315
+        stop_time: 00:27:00
+      - stop_name: Honvéd tér
+        stop_code: 154
+        stop_time: 00:29:00

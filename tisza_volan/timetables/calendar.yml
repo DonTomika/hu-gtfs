@@ -1,0 +1,295 @@
+---
+service_id: IEA
+start_date: 20110901
+end_date:   20111221
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     1
+saturday:   0
+sunday:     0
+exceptions:
+  - date:           20111031
+    exception_type: removed
+  - date:           20111101
+    exception_type: removed
+  - date:           20111102
+    exception_type: removed
+  - date:           20111103
+    exception_type: removed
+  - date:           20111104
+    exception_type: removed
+---
+service_id: MI
+start_date: 20110901
+end_date:   20111221
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     0
+saturday:   0
+sunday:     1
+exceptions:
+  - date:           20110831
+    exception_type: added
+  - date:           20111030
+    exception_type: removed
+---
+service_id: MN
+start_date: 20110701
+end_date:   20111231
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     1
+saturday:   0
+sunday:     0
+exceptions:
+  - date:           20111031
+    exception_type: removed
+  - date:           20111101
+    exception_type: removed
+  - date:           20111105
+    exception_type: added
+  - date:           20111226
+    exception_type: removed
+---
+service_id: MSZ
+start_date: 20110701
+end_date:   20111231
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     0
+saturday:   0
+sunday:     1
+exceptions:
+  - date:           20110820
+    exception_type: added
+  - date:           20111031
+    exception_type: added
+  - date:           20111101
+    exception_type: added
+  - date:           20111224
+    exception_type: added
+  - date:           20111226
+    exception_type: added
+---
+service_id: SZN
+start_date: 20110701
+end_date:   20111231
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     0
+saturday:   1
+sunday:     0
+exceptions:
+  - date:           20110820
+    exception_type: removed
+  - date:           20111105
+    exception_type: removed
+  - date:           20111224
+    exception_type: removed
+---
+service_id: T
+start_date: 20110901
+end_date:   20111231
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     1
+saturday:   0
+sunday:     0
+exceptions:
+  - date:           20111031
+    exception_type: removed
+  - date:           20111101
+    exception_type: removed
+  - date:           20111105
+    exception_type: added
+  - date:           20111226
+    exception_type: removed
+---
+service_id: T+
+start_date: 20110901
+end_date:   20111231
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     0
+saturday:   0
+sunday:     1
+exceptions:
+  - date:           20111031
+    exception_type: added
+  - date:           20111101
+    exception_type: added
+  - date:           20111224
+    exception_type: added
+  - date:           20111226
+    exception_type: added
+---
+service_id: TL
+start_date: 20110901
+end_date:   20111231
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     0
+saturday:   0
+sunday:     0
+exceptions:
+  - date:           20111031
+    exception_type: removed
+  - date:           20111101
+    exception_type: removed
+  - date:           20111104
+    exception_type: added
+  - date:           20111226
+    exception_type: removed
+---
+service_id: TO
+start_date: 20110901
+end_date:   20111231
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     0
+saturday:   1
+sunday:     0
+exceptions:
+  - date:           20111105
+    exception_type: removed
+  - date:           20111224
+    exception_type: removed
+---
+service_id: TU
+start_date: 20110901
+end_date:   20111231
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     1
+saturday:   0
+sunday:     0
+exceptions:
+  - date:           20111104
+    exception_type: removed
+  - date:           20111105
+    exception_type: added
+---
+service_id: W+
+start_date: 20110701
+end_date:   20110831
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     0
+saturday:   0
+sunday:     1
+exceptions:
+  - date:           20110820
+    exception_type: added
+---
+service_id: WL
+start_date: 20110701
+end_date:   20110831
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     0
+saturday:   0
+sunday:     0
+---
+service_id: WM
+start_date: 20110701
+end_date:   20110831
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     1
+saturday:   0
+sunday:     0
+---
+service_id: WO
+start_date: 20110701
+end_date:   20110831
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     0
+saturday:   1
+sunday:     0
+exceptions:
+  - date:           20110820
+    exception_type: removed
+---
+service_id: WU
+start_date: 20110701
+end_date:   20110831
+monday:     0
+tuesday:    0
+wednesday:  0
+thursday:   0
+friday:     1
+saturday:   0
+sunday:     0
+---
+service_id: iskolaszüneti MN ny
+start_date: 20110701
+end_date:   20110831
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     1
+saturday:   0
+sunday:     0
+---
+service_id: iskolaszüneti MN té
+start_date: 20111222
+end_date:   20111231
+monday:     0
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     1
+saturday:   0
+sunday:     0
+---
+service_id: iskolaszüneti MN ő
+start_date: 20111102
+end_date:   20111105
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     1
+saturday:   1
+sunday:     0
+---
+service_id: mindig
+start_date: 20110701
+end_date:   20111231
+monday:     1
+tuesday:    1
+wednesday:  1
+thursday:   1
+friday:     1
+saturday:   1
+sunday:     1

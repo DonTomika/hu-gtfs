@@ -1,0 +1,98 @@
+---
+route_id:         30
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 74A
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       148/15
+    service_id:    T
+    trip_headsign: Klebelsberg-telep
+    direction_id:  outbound
+    departures: [6:07:00, 6:27:00, 6:47:00, 7:07:00, 7:27:00, 7:47:00, 8:07:00, 13:10:00, 13:30:00, 13:50:00, 14:10:00, 14:30:00, 14:50:00, 15:10:00, 15:30:00, 15:50:00, 16:10:00, 16:30:00, 16:50:00, 17:10:00]
+    stop_times: 
+      - stop_name: Mars tér (Mikszáth u.)
+        stop_code: 441
+        stop_time: 00:00:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:02:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 122
+        stop_time: 00:04:00
+      - stop_name: Honvéd tér
+        stop_code: 125
+        stop_time: 00:05:00
+      - stop_name: SZTK Rendelő
+        stop_code: 127
+        stop_time: 00:06:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:07:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:08:00
+      - stop_name: Dobó u.
+        stop_code: 444
+        stop_time: 00:09:00
+      - stop_name: Sárkány u.
+        stop_code: 446
+        stop_time: 00:10:00
+      - stop_name: Vadkerti tér
+        stop_code: 135
+        stop_time: 00:11:00
+      - stop_name: Kamarási u.
+        stop_code: 448
+        stop_time: 00:12:00
+      - stop_name: Rendező tér
+        stop_code: 450
+        stop_time: 00:13:00
+      - stop_name: Holt-Tisza
+        stop_code: 452
+        stop_time: 00:14:00
+  - trip_id:       149/12
+    service_id:    T
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [6:22:00, 6:42:00, 7:02:00, 7:22:00, 7:42:00, 8:02:00, 8:22:00, 13:25:00, 13:45:00, 14:05:00, 14:25:00, 14:45:00, 15:05:00, 15:25:00, 15:45:00, 16:05:00, 16:25:00, 16:45:00, 17:05:00, 17:25:00]
+    stop_times: 
+      - stop_name: Holt-Tisza
+        stop_code: 453
+        stop_time: 00:00:00
+      - stop_name: Rendező tér
+        stop_code: 451
+        stop_time: 00:01:00
+      - stop_name: Kamarási u.
+        stop_code: 449
+        stop_time: 00:02:00
+      - stop_name: Vadkerti tér
+        stop_code: 133
+        stop_time: 00:03:00
+      - stop_name: Sárkány u.
+        stop_code: 447
+        stop_time: 00:04:00
+      - stop_name: Dobó u.
+        stop_code: 445
+        stop_time: 00:05:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:06:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:07:00
+      - stop_name: SZTK Rendelő
+        stop_code: 128
+        stop_time: 00:08:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:09:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 124
+        stop_time: 00:10:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:12:00
+      - stop_name: Mars tér (Mikszáth u.)
+        stop_code: 441
+        stop_time: 00:13:00

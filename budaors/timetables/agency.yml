@@ -1,0 +1,15 @@
+---
+agency_id: VT-TRANSMAN-BUDAORS
+agency_name: VT-Transman (Budaörs)
+agency_phone: +36-1-371-0896
+agency_lang: hu
+agency_timezone: Europe/Budapest
+agency_url: http://www.vt-transman.hu
+fares:
+  - fare_id: FARE0
+    price:   0
+    currency_type: HUF
+    payment_method: onboard
+    rules:
+      - route_id: 288
+      - route_id: 289

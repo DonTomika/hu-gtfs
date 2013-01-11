@@ -1,0 +1,75 @@
+route_id: IPOLYTOURS-SZP
+route_type: ferry
+route_long_name: Szob - Pilismarót komp
+route_url: http://www.ipolytours.hu/komp.php
+agency:
+  agency_id: IPOLYTOURS
+  agency_lang: hu
+  agency_name: Ferryboat Kft.
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.ipolytours.hu
+  agency_phone: +36 30 914-4195
+  fares:
+    - fare_id: IPOLYTOURS-FARE
+      payment_method: onboard
+      price: 420
+      currency_type: HUF
+      rules:
+        - route_id: IPOLYTOURS-SZP
+trips:
+  - trip_id: IPOLYTOURS-TSZP
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service: ['LIMIT', 'NAPONTA', '20130401-20131031']
+    stop_times:
+      - stop_name: Szob
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Pilismarót-Basaharc
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 06:40:00
+        end_time: 17:40:01
+        headway_secs: 3600
+        exact_times: 1
+  - trip_id: IPOLYTOURS-TVN
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service: ['LIMIT', 'NAPONTA', '20130401-20131031']
+    stop_times:
+      - stop_name: Pilismarót-Basaharc
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Szob
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 06:50:00
+        end_time: 17:50:01
+        headway_secs: 3600
+        exact_times: 1
+  - trip_id: IPOLYTOURS-TPSZ-n10
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service: ['LIMIT', 'NAPONTA', '20120401-20120930']
+    stop_times:
+      - stop_name: Szob
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Pilismarót-Basaharc
+        arrival_time: 00:05
+        departure_time: 00:05
+    departures: [18:40]
+  - trip_id: IPOLYTOURS-TVN-n10
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service: ['LIMIT', 'NAPONTA', '20130401-20130930']
+    stop_times:
+      - stop_name: Pilismarót-Basaharc
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Szob
+        arrival_time: 00:05
+        departure_time: 00:05
+    departures: [18:50]

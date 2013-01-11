@@ -1,0 +1,53 @@
+route_id: BODOR-VT
+route_type: ferry
+route_url: http://www.vac.hu/index.php?page=kozlekedes
+route_long_name: Vác - Tahitótfalu komp
+agency:
+  agency_id: BODOR
+  agency_lang: hu
+  agency_name: Bodor és Fia Kft.
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.vac.hu/index.php?page=kozlekedes
+  agency_phone: +36 26 696 2408
+  fares:
+    - fare_id: BODOR-FARE
+      payment_method: onboard
+      price: 430
+      currency_type: HUF
+      rules:
+        - route_id: BODOR-VT
+trips:
+  - trip_id: BODOR-TVT
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Vác
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Tahitótfalu
+        arrival_time: 00:05
+        departure_time: 00:05
+    departures: [20:20]
+    frequencies:
+      - start_time: 06:00:00
+        end_time: 20:00:01
+        headway_secs: 3600
+        exact_times: 1
+  - trip_id: BODOR-TTV
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Tahitótfalu
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Vác
+        arrival_time: 00:05
+        departure_time: 00:05
+    departures: [05:45]
+    frequencies:
+      - start_time: 06:15:00
+        end_time: 20:15:01
+        headway_secs: 3600
+        exact_times: 1

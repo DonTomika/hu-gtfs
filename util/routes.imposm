@@ -1,0 +1,38 @@
+from imposm.mapping import (
+    Options,
+    Points, LineStrings, Polygons,
+    String, Bool, Integer, OneOfInt,
+    set_default_name_type, LocalizedName,
+    WayZOrder, ZOrder, Direction,
+    GeneralizedTable, UnionView,
+    PseudoArea, meter_to_mapunit, sqr_meter_to_mapunit,
+)
+
+set_default_name_type(LocalizedName(['name:hu', 'name']))
+
+db_conf = Options(
+    db='terkepszerk',
+    host='',
+    port=5432,
+    user='flaktack',
+    password=None,
+    sslmode='allow',
+    prefix='hugtfs',
+    proj='epsg:4326',
+)
+
+hugtfs_line = LineStrings(
+    name = 'line',
+    mapping = {
+        'route_label': (
+            'line', 'label',
+        ),
+    },
+    fields = (
+        ('route_label', String()),
+        ('operator', String()),
+        ('route', String()),
+        ('oneway', String()),
+        ('ref', String()),
+    ),
+)

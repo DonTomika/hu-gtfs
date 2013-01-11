@@ -1,0 +1,206 @@
+---
+route_id:         34
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 78
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       168/19
+    service_id:    MN
+    trip_headsign: Béketelep – Mars tér
+    direction_id:  outbound
+    departures: [5:15:00, 5:45:00, 6:15:00, 6:45:00, 7:15:00, 8:15:00, 9:15:00, 10:15:00, 11:15:00, 12:15:00, 13:15:00, 14:15:00, 15:15:00, 16:15:00, 17:15:00, 18:15:00, 19:15:00, 20:15:00, 21:15:00, 22:05:00, 22:45:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Kemping Motel
+        stop_code: 466
+        stop_time: 00:06:00
+      - stop_name: Cserje sor
+        stop_code: 468
+        stop_time: 00:07:00
+      - stop_name: Béketelepi ált. isk.
+        stop_code: 471
+        stop_time: 00:08:00
+      - stop_name: Nagyszombati u.
+        stop_code: 472
+        stop_time: 00:09:00
+      - stop_name: Rengey u.
+        stop_code: 474
+        stop_time: 00:10:00
+      - stop_name: Zsámbokréti sor
+        stop_code: 477
+        stop_time: 00:12:00
+      - stop_name: Béketelep, MEDIKÉMIA
+        stop_code: 478
+        stop_time: 00:13:00
+      - stop_name: Vértói út
+        stop_code: 480
+        stop_time: 00:16:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:18:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:19:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:20:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:21:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:22:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:23:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:24:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:26:00
+  - trip_id:       169/18
+    service_id:    SZN
+    trip_headsign: Béketelep – Mars tér
+    direction_id:  outbound
+    departures: [5:15:00, 6:15:00, 7:15:00, 8:15:00, 9:15:00, 10:15:00, 11:15:00, 12:15:00, 13:15:00, 14:15:00, 15:15:00, 16:15:00, 17:15:00, 18:15:00, 19:15:00, 20:15:00, 21:15:00, 22:05:00, 22:45:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Kemping Motel
+        stop_code: 466
+        stop_time: 00:06:00
+      - stop_name: Cserje sor
+        stop_code: 468
+        stop_time: 00:07:00
+      - stop_name: Béketelepi ált. isk.
+        stop_code: 471
+        stop_time: 00:08:00
+      - stop_name: Nagyszombati u.
+        stop_code: 472
+        stop_time: 00:09:00
+      - stop_name: Rengey u.
+        stop_code: 474
+        stop_time: 00:10:00
+      - stop_name: Zsámbokréti sor
+        stop_code: 477
+        stop_time: 00:12:00
+      - stop_name: Béketelep, MEDIKÉMIA
+        stop_code: 478
+        stop_time: 00:13:00
+      - stop_name: Vértói út
+        stop_code: 480
+        stop_time: 00:16:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:18:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:19:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:20:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:21:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:22:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:23:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:24:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:26:00
+  - trip_id:       170/15
+    service_id:    MSZ
+    trip_headsign: Béketelep – Mars tér
+    direction_id:  outbound
+    departures: [5:15:00, 6:15:00, 7:15:00, 8:15:00, 9:15:00, 10:15:00, 11:15:00, 12:15:00, 13:15:00, 14:15:00, 15:15:00, 16:15:00, 17:15:00, 18:15:00, 19:15:00, 20:15:00, 21:15:00, 22:45:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Kemping Motel
+        stop_code: 466
+        stop_time: 00:06:00
+      - stop_name: Cserje sor
+        stop_code: 468
+        stop_time: 00:07:00
+      - stop_name: Béketelepi ált. isk.
+        stop_code: 471
+        stop_time: 00:08:00
+      - stop_name: Nagyszombati u.
+        stop_code: 472
+        stop_time: 00:09:00
+      - stop_name: Rengey u.
+        stop_code: 474
+        stop_time: 00:10:00
+      - stop_name: Zsámbokréti sor
+        stop_code: 477
+        stop_time: 00:12:00
+      - stop_name: Béketelep, MEDIKÉMIA
+        stop_code: 478
+        stop_time: 00:13:00
+      - stop_name: Vértói út
+        stop_code: 480
+        stop_time: 00:16:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:18:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:19:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:20:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:21:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:22:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:23:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:24:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:26:00

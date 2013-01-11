@@ -1,0 +1,77 @@
+route_id: LEHEL-SZH
+route_type: ferry
+route_long_name: Szigetmonostor - Szentendre-Határcsárda
+route_url: http://www.szentendrekomp.hu/menetrend.html
+agency:
+  agency_id: LEHEL
+  agency_lang: hu
+  agency_name: Lehel és Társa Kft.
+  agency_phone: +36 20 554 0474
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.szentendrekomp.hu/
+  fares:
+    - fare_id: LEHEL-FARE
+      payment_method: onboard
+      price: 300
+      currency_type: HUF
+      rules:
+        - route_id: LEHEL-SZH
+trips:
+  - trip_id: LEHEL-TSZH
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Szigetmonostor
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Szentendre-Határcsárda
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [04:20, 05:10, 21:30, 22:10, 23:10]
+    frequencies:
+      - start_time: 06:00:00
+        end_time: 20:30:01
+        headway_secs: 600
+        exact_times: 0
+  - trip_id: LEHEL-TSZH-M
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: MUNKANAPON
+    stop_times:
+      - stop_name: Szigetmonostor
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Szentendre-Határcsárda
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [05:30, 21:00]
+  - trip_id: LEHEL-THSZ
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Szentendre-Határcsárda
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Szigetmonostor
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [04:22, 05:20, 21:35, 22:25, 23:20]
+    frequencies:
+      - start_time: 06:00:00
+        end_time: 20:30:01
+        headway_secs: 600
+        exact_times: 0
+  - trip_id: LEHEL-THSZ-M
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Szentendre-Határcsárda
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Szigetmonostor
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [05:35, 21:05]

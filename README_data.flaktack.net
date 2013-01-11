@@ -1,0 +1,51 @@
+Hu-GTFS Projekt, GTFS adatok
+============================
+#### magyar személyszállító menetrendek
+
+További információ: [flaktack.net/gtfs-adatok](http://flaktack.net/gtfs-adatok)
+
+A menetrendek GTFS formátumban vannak:
+<https://developers.google.com/transit/gtfs/reference>
+
+Feldolgozásuk automatikus, amennyiben hibás az eredmény, ezt a
+<contact@transit.flaktack.net> címen lehet jelezni. (nem csak a hibákat :-)
+
+A mappák az alábbi elrendezést követik:
+
+    cég/ÉÉÉÉHHNN/feed/gtfs.zip       feldolgozott végeredmény
+    cég/ÉÉÉÉHHNN/reference/          felhasznált adatok
+    cég/ÉÉÉÉHHNN/kml/gtfs.kmz        KML fájl a megállóhelyekkel
+
+A következő cégek menetrendjei találhatóak az oldalon:
+
+### Helyi közlekedés:
+
+    bkv/            Budapest Közlekedési Zrt.         http://www.bkv.hu
+    vt-transman/    Budaörsi helyi járatok            http://www.budaors.hu
+
+
+### Vonat:
+
+    mav/            MÁV-Start Zrt.                    http://www.mav-start.hu
+    kisvasut_gyermekvasut/                            http://www.gyermekvasut.hu
+                    MÁV Zrt, Széchenyi-hegyi Gyermekvasút
+    kisvasut_kbk/                                     http://www.kisvasut.hu
+                    Kisvasutak (Kisvasutak Baráti Köre Egyesület jóvoltából)
+
+
+### Volán:
+
+    volanbusz/      Volánbusz Zrt.                    http://www.volanbusz.hu
+
+
+### Más:
+
+    kompok/         Pest megyei Kompok gyűjteménye    -
+
+LICENC
+------------------
+
+Térkép adatok &copy; [OpenStreetMap](http://www.openstreetmap.org) Contributors ([ODbL](http://opendatacommons.org/licenses/odbl/),
+GTFS adatok [CC-BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0/)
+
+<http://www.openstreetmap.org/copyright>

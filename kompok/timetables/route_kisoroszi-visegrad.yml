@@ -1,0 +1,113 @@
+route_id: ANKERKETTE-KV
+route_type: ferry
+route_long_name: Kisoroszi - Visegrád (Szentgyörgypuszta) rév
+route_url: http://www.domosrev.hu/menetrend.php?hely=kisoroszi
+agency:
+  agency_id: ANKERKETTE
+  agency_lang: hu
+  agency_name: Ankerkette Kft.
+  agency_timezone: Europe/Budapest
+  agency_url: http://domosrev.hu/menetrend.php
+  agency_phone: +36 30 991 3300
+  fares:
+    - fare_id: ANKERKETTE-KV-FARE
+      payment_method: onboard
+      price: 300
+      currency_type: HUF
+      rules:
+        - route_id: ANKERKETTE-KV
+trips:
+  - trip_id: ANKERKETTE_TKV_A
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: MUNKANAPON
+    stop_times:
+      - stop_name: Kisoroszi
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Visegrád-Szentgyörgypuszta
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [5:10]
+  - trip_id: ANKERKETTE_TVK_A
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: MUNKANAPON
+    stop_times:
+      - stop_name: Visegrád-Szentgyörgypuszta
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Kisoroszi
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [5:05]
+  - trip_id: ANKERKETTE_TKV_B
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: TANITASI_MUNKANAPON
+    stop_times:
+      - stop_name: Kisoroszi
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Visegrád-Szentgyörgypuszta
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [6:50, 7:15]
+  - trip_id: ANKERKETTE_TVK_B
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: TANITASI_MUNKANAPON
+    stop_times:
+      - stop_name: Visegrád-Szentgyörgypuszta
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Kisoroszi
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [6:35, 6:55, 7:20]
+  - trip_id: ANKERKETTE_TVK_B
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: TANSZUNETI_MUNKANAPON
+    stop_times:
+      - stop_name: Visegrád-Szentgyörgypuszta
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Kisoroszi
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [6:45]
+  - trip_id: ANKERKETTE_TKV_C
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Kisoroszi
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Visegrád-Szentgyörgypuszta
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [5:35, 6:10, 6:30, 7:30, 8:30, 19:30, 20:40, 21:40]
+    frequencies:
+      - start_time: 09:20:00
+        end_time: 18:20:01
+        headway_secs: 3600
+        exact_times: 1
+  - trip_id: ANKERKETTE_TVK_C
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Visegrád-Szentgyörgypuszta
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Kisoroszi
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [5:45, 6:20, 19:50, 21:05, 22:00]
+    frequencies:
+      - start_time: 07:45:00
+        end_time: 18:45:01
+        headway_secs: 3600
+        exact_times: 1

@@ -1,0 +1,647 @@
+---
+route_id:         288
+agency_id:        VT-TRANSMAN-BUDAORS
+route_type:       bus
+route_short_name: 288
+route_desc:       "Budaörsi lakótelep / Kamaraerdő, Iglói köz"
+trips:
+  - trip_id:       288_1
+    service_id:    TANITASI_MUNKANAPON
+    direction_id:  outbound
+    departures: [6:00:00, 8:00:00, 9:00:00, 10:00:00, 11:00:00, 12:00:00, 13:00:00, 17:00:00, 18:00:00, 19:00:00, 20:00:00]
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:01:00
+      - stop_name: Árok utca
+        stop_time: 00:02:00
+      - stop_name: Ibolya utca
+        stop_time: 00:03:00
+      - stop_name: Kökörcsin utca
+        stop_time: 00:04:00
+      - stop_name: Rézvirág utca
+        stop_time: 00:05:00
+      - stop_name: Margaréta utca
+        stop_time: 00:06:00
+      - stop_name: Csíki csárda
+        stop_time: 00:07:00
+      - stop_name: Ibolya utca
+        stop_time: 00:08:00
+      - stop_name: Ibolya köz
+        stop_time: 00:09:00
+      - stop_name: Baross utca
+        stop_time: 00:10:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:12:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:13:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:14:00
+      - stop_name: Széles utca
+        stop_time: 00:15:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:16:00
+      - stop_name: Szabadság út
+        stop_time: 00:18:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:19:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:20:00
+      - stop_name: Templom tér
+        stop_time: 00:21:00
+      - stop_name: Arany János utca
+        stop_time: 00:22:00
+      - stop_name: Stefánia utca
+        stop_time: 00:23:00
+      - stop_name: Hársfa utca
+        stop_time: 00:24:00
+      - stop_name: Városi uszoda
+        stop_time: 00:26:00
+      - stop_name: Budaörs, benzinkút
+        stop_time: 00:27:00
+      - stop_name: Agip utca
+        stop_time: 00:28:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:29:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:30:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:31:00
+      - stop_name: Franktanya
+        stop_time: 00:32:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:33:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:34:00
+      - stop_name: Zombori utca
+        stop_time: 00:35:00
+      - stop_name: Holló utca
+        stop_time: 00:36:00
+      - stop_name: Kamaraerdei Közösségi Ház
+        stop_time: 00:37:00
+      - stop_name: Kamaraerdő
+        stop_time: 00:38:00
+      - stop_name: Zombori utca
+        stop_time: 00:39:00
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:40:00
+  - trip_id:       288_2
+    service_id:    TANITASI_MUNKANAPON
+    direction_id:  outbound
+    departures: [6:28:00, 6:58:00, 7:18:00, 13:28:00, 13:58:00, 14:28:00, 14:58:00, 15:28:00, 15:58:00, 16:28:00]
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:01:00
+      - stop_name: Árok utca
+        stop_time: 00:02:00
+      - stop_name: Ibolya utca
+        stop_time: 00:03:00
+      - stop_name: Kökörcsin utca
+        stop_time: 00:05:00
+      - stop_name: Rézvirág utca
+        stop_time: 00:06:00
+      - stop_name: Margaréta utca
+        stop_time: 00:07:00
+      - stop_name: Csíki csárda
+        stop_time: 00:08:00
+      - stop_name: Ibolya utca
+        stop_time: 00:09:00
+      - stop_name: Ibolya köz
+        stop_time: 00:10:00
+      - stop_name: Baross utca
+        stop_time: 00:11:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:13:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:14:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:15:00
+      - stop_name: Széles utca
+        stop_time: 00:16:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:17:00
+      - stop_name: Szabadság út
+        stop_time: 00:19:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:20:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:21:00
+      - stop_name: Templom tér
+        stop_time: 00:23:00
+      - stop_name: Arany János utca
+        stop_time: 00:24:00
+      - stop_name: Stefánia utca
+        stop_time: 00:25:00
+      - stop_name: Hársfa utca
+        stop_time: 00:26:00
+      - stop_name: Városi uszoda
+        stop_time: 00:28:00
+      - stop_name: Budaörs, benzinkút
+        stop_time: 00:29:00
+      - stop_name: Agip utca
+        stop_time: 00:30:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:31:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:32:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:33:00
+      - stop_name: Franktanya
+        stop_time: 00:34:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:35:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:36:00
+      - stop_name: Zombori utca
+        stop_time: 00:38:00
+      - stop_name: Holló utca
+        stop_time: 00:39:00
+      - stop_name: Kamaraerdei Közösségi Ház
+        stop_time: 00:40:00
+      - stop_name: Kamaraerdő
+        stop_time: 00:41:00
+      - stop_name: Zombori utca
+        stop_time: 00:42:00
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:44:00
+  - trip_id:       288_3
+    service_id:    TANSZUNETI_MUNKANAPON
+    direction_id:  outbound
+    departures: [7:00:00, 8:00:00, 9:00:00, 10:00:00, 11:00:00, 12:00:00, 13:00:00, 14:00:00, 15:00:00, 16:00:00, 17:00:00, 18:00:00, 19:00:00, 20:00:00]
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:01:00
+      - stop_name: Árok utca
+        stop_time: 00:02:00
+      - stop_name: Ibolya utca
+        stop_time: 00:03:00
+      - stop_name: Kökörcsin utca
+        stop_time: 00:04:00
+      - stop_name: Rézvirág utca
+        stop_time: 00:05:00
+      - stop_name: Margaréta utca
+        stop_time: 00:06:00
+      - stop_name: Csíki csárda
+        stop_time: 00:07:00
+      - stop_name: Ibolya utca
+        stop_time: 00:08:00
+      - stop_name: Ibolya köz
+        stop_time: 00:09:00
+      - stop_name: Baross utca
+        stop_time: 00:10:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:12:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:13:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:14:00
+      - stop_name: Széles utca
+        stop_time: 00:15:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:16:00
+      - stop_name: Szabadság út
+        stop_time: 00:18:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:19:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:20:00
+      - stop_name: Templom tér
+        stop_time: 00:21:00
+      - stop_name: Arany János utca
+        stop_time: 00:22:00
+      - stop_name: Stefánia utca
+        stop_time: 00:23:00
+      - stop_name: Hársfa utca
+        stop_time: 00:24:00
+      - stop_name: Városi uszoda
+        stop_time: 00:26:00
+      - stop_name: Budaörs, benzinkút
+        stop_time: 00:27:00
+      - stop_name: Agip utca
+        stop_time: 00:28:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:29:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:30:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:31:00
+      - stop_name: Franktanya
+        stop_time: 00:32:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:33:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:34:00
+      - stop_name: Zombori utca
+        stop_time: 00:35:00
+      - stop_name: Holló utca
+        stop_time: 00:36:00
+      - stop_name: Kamaraerdei Közösségi Ház
+        stop_time: 00:37:00
+      - stop_name: Kamaraerdő
+        stop_time: 00:38:00
+      - stop_name: Zombori utca
+        stop_time: 00:39:00
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:40:00
+  - trip_id:       288_4
+    service_id:    TANSZUNETI_MUNKANAPON
+    direction_id:  outbound
+    departures: []
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:01:00
+      - stop_name: Árok utca
+        stop_time: 00:02:00
+      - stop_name: Ibolya utca
+        stop_time: 00:03:00
+      - stop_name: Kökörcsin utca
+        stop_time: 00:05:00
+      - stop_name: Rézvirág utca
+        stop_time: 00:06:00
+      - stop_name: Margaréta utca
+        stop_time: 00:07:00
+      - stop_name: Csíki csárda
+        stop_time: 00:08:00
+      - stop_name: Ibolya utca
+        stop_time: 00:09:00
+      - stop_name: Ibolya köz
+        stop_time: 00:10:00
+      - stop_name: Baross utca
+        stop_time: 00:11:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:13:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:14:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:15:00
+      - stop_name: Széles utca
+        stop_time: 00:16:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:17:00
+      - stop_name: Szabadság út
+        stop_time: 00:19:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:20:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:21:00
+      - stop_name: Templom tér
+        stop_time: 00:23:00
+      - stop_name: Arany János utca
+        stop_time: 00:24:00
+      - stop_name: Stefánia utca
+        stop_time: 00:25:00
+      - stop_name: Hársfa utca
+        stop_time: 00:26:00
+      - stop_name: Városi uszoda
+        stop_time: 00:28:00
+      - stop_name: Budaörs, benzinkút
+        stop_time: 00:29:00
+      - stop_name: Agip utca
+        stop_time: 00:30:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:31:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:32:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:33:00
+      - stop_name: Franktanya
+        stop_time: 00:34:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:35:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:36:00
+      - stop_name: Zombori utca
+        stop_time: 00:38:00
+      - stop_name: Holló utca
+        stop_time: 00:39:00
+      - stop_name: Kamaraerdei Közösségi Ház
+        stop_time: 00:40:00
+      - stop_name: Kamaraerdő
+        stop_time: 00:41:00
+      - stop_name: Zombori utca
+        stop_time: 00:42:00
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:44:00
+  - trip_id:       288_5
+    service_id:    HETVEGEN
+    direction_id:  outbound
+    departures: [7:00:00, 8:00:00, 9:00:00, 10:00:00, 11:00:00, 12:00:00, 13:00:00, 14:00:00, 15:00:00, 16:00:00, 17:00:00, 18:00:00, 19:00:00, 20:00:00]
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:01:00
+      - stop_name: Árok utca
+        stop_time: 00:02:00
+      - stop_name: Ibolya utca
+        stop_time: 00:03:00
+      - stop_name: Kökörcsin utca
+        stop_time: 00:03:00
+      - stop_name: Rézvirág utca
+        stop_time: 00:04:00
+      - stop_name: Margaréta utca
+        stop_time: 00:05:00
+      - stop_name: Csíki csárda
+        stop_time: 00:06:00
+      - stop_name: Ibolya utca
+        stop_time: 00:07:00
+      - stop_name: Ibolya köz
+        stop_time: 00:08:00
+      - stop_name: Baross utca
+        stop_time: 00:09:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:10:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:11:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:12:00
+      - stop_name: Széles utca
+        stop_time: 00:13:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:14:00
+      - stop_name: Szabadság út
+        stop_time: 00:16:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:17:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:18:00
+      - stop_name: Templom tér
+        stop_time: 00:19:00
+      - stop_name: Arany János utca
+        stop_time: 00:20:00
+      - stop_name: Stefánia utca
+        stop_time: 00:21:00
+      - stop_name: Hársfa utca
+        stop_time: 00:22:00
+      - stop_name: Városi uszoda
+        stop_time: 00:24:00
+      - stop_name: Budaörs, benzinkút
+        stop_time: 00:25:00
+      - stop_name: Agip utca
+        stop_time: 00:26:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:27:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:28:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:28:00
+      - stop_name: Franktanya
+        stop_time: 00:29:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:30:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:31:00
+      - stop_name: Zombori utca
+        stop_time: 00:32:00
+      - stop_name: Holló utca
+        stop_time: 00:33:00
+      - stop_name: Kamaraerdei Közösségi Ház
+        stop_time: 00:33:00
+      - stop_name: Kamaraerdő
+        stop_time: 00:34:00
+      - stop_name: Zombori utca
+        stop_time: 00:35:00
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:36:00
+  - trip_id:       288_6
+    service_id:    TANITASI_MUNKANAPON
+    direction_id:  inbound
+    departures: [8:44:00, 9:44:00, 10:44:00, 11:44:00, 12:44:00, 13:53:00, 14:23:00, 17:23:00, 17:53:00, 18:44:00, 19:44:00]
+    stop_times:
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:00:00
+      - stop_name: Kismartoni utca
+        stop_time: 00:02:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:03:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:04:00
+      - stop_name: Franktanya
+        stop_time: 00:06:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:07:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:09:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:10:00
+      - stop_name: Agip utca
+        stop_time: 00:11:00
+      - stop_name: Csata utca
+        stop_time: 00:13:00
+      - stop_name: Városi uszoda
+        stop_time: 00:14:00
+      - stop_name: Hársfa utca
+        stop_time: 00:15:00
+      - stop_name: Stefánia utca
+        stop_time: 00:16:00
+      - stop_name: Templom tér
+        stop_time: 00:17:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:19:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:20:00
+      - stop_name: Szabadság út
+        stop_time: 00:21:00
+      - stop_name: Árpád utca
+        stop_time: 00:22:00
+      - stop_name: Széles utca
+        stop_time: 00:23:00
+      - stop_name: Baross utca
+        stop_time: 00:24:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:25:00
+  - trip_id:       288_7
+    service_id:    TANITASI_MUNKANAPON
+    direction_id:  inbound
+    departures: [6:16:00, 6:48:00, 7:18:00, 7:48:00, 8:18:00, 14:53:00, 15:23:00, 15:53:00, 16:23:00, 16:53:00]
+    stop_times:
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:00:00
+      - stop_name: Kismartoni utca
+        stop_time: 00:02:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:03:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:04:00
+      - stop_name: Franktanya
+        stop_time: 00:06:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:08:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:10:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:11:00
+      - stop_name: Agip utca
+        stop_time: 00:12:00
+      - stop_name: Csata utca
+        stop_time: 00:14:00
+      - stop_name: Városi uszoda
+        stop_time: 00:15:00
+      - stop_name: Hársfa utca
+        stop_time: 00:16:00
+      - stop_name: Stefánia utca
+        stop_time: 00:17:00
+      - stop_name: Templom tér
+        stop_time: 00:18:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:20:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:21:00
+      - stop_name: Szabadság út
+        stop_time: 00:22:00
+      - stop_name: Árpád utca
+        stop_time: 00:24:00
+      - stop_name: Széles utca
+        stop_time: 00:25:00
+      - stop_name: Baross utca
+        stop_time: 00:26:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:27:00
+  - trip_id:       288_8
+    service_id:    TANSZUNETI_MUNKANAPON
+    direction_id:  inbound
+    departures: [7:44:00, 8:44:00, 9:44:00, 10:44:00, 11:44:00, 12:44:00, 13:44:00, 14:44:00, 15:44:00, 16:44:00, 17:44:00, 18:44:00, 19:44:00, 20:44:00]
+    stop_times:
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:00:00
+      - stop_name: Kismartoni utca
+        stop_time: 00:02:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:03:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:04:00
+      - stop_name: Franktanya
+        stop_time: 00:06:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:07:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:09:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:10:00
+      - stop_name: Agip utca
+        stop_time: 00:11:00
+      - stop_name: Csata utca
+        stop_time: 00:13:00
+      - stop_name: Városi uszoda
+        stop_time: 00:14:00
+      - stop_name: Hársfa utca
+        stop_time: 00:15:00
+      - stop_name: Stefánia utca
+        stop_time: 00:16:00
+      - stop_name: Templom tér
+        stop_time: 00:17:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:19:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:20:00
+      - stop_name: Szabadság út
+        stop_time: 00:21:00
+      - stop_name: Árpád utca
+        stop_time: 00:22:00
+      - stop_name: Széles utca
+        stop_time: 00:23:00
+      - stop_name: Baross utca
+        stop_time: 00:24:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:25:00
+  - trip_id:       288_9
+    service_id:    TANSZUNETI_MUNKANAPON
+    direction_id:  inbound
+    departures: []
+    stop_times:
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:00:00
+      - stop_name: Kismartoni utca
+        stop_time: 00:02:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:03:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:04:00
+      - stop_name: Franktanya
+        stop_time: 00:06:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:08:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:10:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:11:00
+      - stop_name: Agip utca
+        stop_time: 00:12:00
+      - stop_name: Csata utca
+        stop_time: 00:14:00
+      - stop_name: Városi uszoda
+        stop_time: 00:15:00
+      - stop_name: Hársfa utca
+        stop_time: 00:16:00
+      - stop_name: Stefánia utca
+        stop_time: 00:17:00
+      - stop_name: Templom tér
+        stop_time: 00:18:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:20:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:21:00
+      - stop_name: Szabadság út
+        stop_time: 00:22:00
+      - stop_name: Árpád utca
+        stop_time: 00:24:00
+      - stop_name: Széles utca
+        stop_time: 00:25:00
+      - stop_name: Baross utca
+        stop_time: 00:26:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:27:00
+  - trip_id:       288_10
+    service_id:    HETVEGEN
+    direction_id:  inbound
+    departures: [7:44:00, 8:44:00, 9:44:00, 10:44:00, 11:44:00, 12:44:00, 13:44:00, 14:44:00, 15:44:00, 16:44:00, 17:44:00, 18:44:00, 19:44:00, 20:44:00]
+    stop_times:
+      - stop_name: Kamaraerdő, Iglói köz
+        stop_time: 00:00:00
+      - stop_name: Kismartoni utca
+        stop_time: 00:01:00
+      - stop_name: Kolozsvári utca
+        stop_time: 00:02:00
+      - stop_name: Budaörsi temető
+        stop_time: 00:03:00
+      - stop_name: Franktanya
+        stop_time: 00:05:00
+      - stop_name: Repülőgépes Szolgálat
+        stop_time: 00:06:00
+      - stop_name: Kinizsi utca
+        stop_time: 00:08:00
+      - stop_name: Budaörs vasútállomás
+        stop_time: 00:09:00
+      - stop_name: Agip utca
+        stop_time: 00:10:00
+      - stop_name: Csata utca
+        stop_time: 00:11:00
+      - stop_name: Városi uszoda
+        stop_time: 00:12:00
+      - stop_name: Hársfa utca
+        stop_time: 00:13:00
+      - stop_name: Stefánia utca
+        stop_time: 00:14:00
+      - stop_name: Templom tér
+        stop_time: 00:15:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:16:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:17:00
+      - stop_name: Szabadság út
+        stop_time: 00:18:00
+      - stop_name: Árpád utca
+        stop_time: 00:19:00
+      - stop_name: Széles utca
+        stop_time: 00:20:00
+      - stop_name: Baross utca
+        stop_time: 00:21:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:22:00

@@ -1,0 +1,857 @@
+---
+route_id:         23
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 64
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       100/1
+    service_id:    MI
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [19:55:00, 20:55:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:04:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:05:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:12:00
+  - trip_id:       101/1
+    service_id:    WL
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [6:55:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 360
+        stop_time: 00:09:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:10:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:12:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:13:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:14:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:15:00
+  - trip_id:       102/1
+    service_id:    WL
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [15:25:00, 15:55:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:09:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:10:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:11:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:12:00
+  - trip_id:       103/1
+    service_id:    WU
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [6:55:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 360
+        stop_time: 00:09:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:10:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:12:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:13:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:14:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:15:00
+  - trip_id:       104/1
+    service_id:    WU
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [13:25:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:09:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:10:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:11:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:12:00
+  - trip_id:       105/1
+    service_id:    WL
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [7:10:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:04:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:05:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:12:00
+  - trip_id:       106/2
+    service_id:    WL
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [15:40:00, 16:10:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:05:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 359
+        stop_time: 00:06:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:08:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:09:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:11:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:12:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:13:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:15:00
+  - trip_id:       107/1
+    service_id:    WU
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [7:10:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:04:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:05:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:12:00
+  - trip_id:       108/1
+    service_id:    WU
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [13:40:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:05:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 359
+        stop_time: 00:06:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:08:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:09:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:11:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:12:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:13:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:15:00
+  - trip_id:       109/2
+    service_id:    WL
+    trip_headsign: Kereskedő köz
+    direction_id:  outbound
+    departures: [4:55:00, 5:25:00, 5:55:00, 6:25:00, 7:25:00, 13:25:00, 14:25:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 360
+        stop_time: 00:09:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:10:00
+  - trip_id:       110/4
+    service_id:    WU
+    trip_headsign: Kereskedő köz
+    direction_id:  outbound
+    departures: [4:55:00, 5:25:00, 5:55:00, 6:25:00, 7:25:00, 12:25:00, 12:55:00, 14:25:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 360
+        stop_time: 00:09:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:10:00
+  - trip_id:       111/7
+    service_id:    WL
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:10:00, 5:40:00, 6:10:00, 6:40:00, 7:40:00, 13:40:00, 14:40:00]
+    stop_times: 
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:00:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 359
+        stop_time: 00:01:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:02:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:05:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:06:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:07:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:08:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:10:00
+  - trip_id:       112/2
+    service_id:    WU
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:10:00, 5:40:00, 6:10:00, 6:40:00, 7:40:00, 12:40:00, 13:10:00, 14:40:00]
+    stop_times: 
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:00:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 359
+        stop_time: 00:01:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:02:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:05:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:06:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:07:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:08:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:10:00
+  - trip_id:       91/1
+    service_id:    TL
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [4:55:00, 5:25:00, 5:55:00, 6:25:00, 6:55:00, 7:25:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 360
+        stop_time: 00:09:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:10:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:12:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:13:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:14:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:15:00
+  - trip_id:       92/2
+    service_id:    TL
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [13:25:00, 14:25:00, 15:25:00, 15:55:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:09:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:10:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:11:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:12:00
+  - trip_id:       93/5
+    service_id:    TU
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [4:55:00, 5:25:00, 5:55:00, 6:25:00, 6:55:00, 7:25:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 360
+        stop_time: 00:09:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:10:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:12:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:13:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:14:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:15:00
+  - trip_id:       94/2
+    service_id:    TU
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [12:25:00, 12:55:00, 13:25:00, 14:25:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:09:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:10:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:11:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:12:00
+  - trip_id:       95/1
+    service_id:    MI
+    trip_headsign: Repülőtér
+    direction_id:  outbound
+    departures: [19:40:00, 20:40:00, 21:40:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Patyolat
+        stop_code: 302
+        stop_time: 00:08:00
+      - stop_name: IKARUS gyár
+        stop_code: 304
+        stop_time: 00:09:00
+      - stop_name: Belvárosi temető
+        stop_code: 306
+        stop_time: 00:10:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 362
+        stop_time: 00:11:00
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:12:00
+  - trip_id:       96/3
+    service_id:    TL
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:10:00, 5:40:00, 6:10:00, 6:40:00, 7:10:00, 7:40:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:04:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:05:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:12:00
+  - trip_id:       97/3
+    service_id:    TL
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [13:40:00, 14:40:00, 15:40:00, 16:10:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:05:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 359
+        stop_time: 00:06:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:08:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:09:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:11:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:12:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:13:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:15:00
+  - trip_id:       98/6
+    service_id:    TU
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:10:00, 5:40:00, 6:10:00, 6:40:00, 7:10:00, 7:40:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:04:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:05:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:12:00
+  - trip_id:       99/4
+    service_id:    TU
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [12:40:00, 13:10:00, 13:40:00, 14:40:00]
+    stop_times: 
+      - stop_name: Repülőtér
+        stop_code: 364
+        stop_time: 00:00:00
+      - stop_name: Repülőtér bej. út
+        stop_code: 363
+        stop_time: 00:01:00
+      - stop_name: Belvárosi temető
+        stop_code: 307
+        stop_time: 00:02:00
+      - stop_name: IKARUS gyár
+        stop_code: 305
+        stop_time: 00:03:00
+      - stop_name: Kereskedő köz (EXPO)
+        stop_code: 361
+        stop_time: 00:05:00
+      - stop_name: Kereskedelmi raktárak
+        stop_code: 359
+        stop_time: 00:06:00
+      - stop_name: Patyolat
+        stop_code: 303
+        stop_time: 00:08:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:09:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:11:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:12:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:13:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:15:00

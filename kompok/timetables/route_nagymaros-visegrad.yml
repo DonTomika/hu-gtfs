@@ -1,0 +1,53 @@
+route_id: AVCLUB-VN
+route_type: ferry
+route_long_name: Visegrád - Nagymaros komp
+route_url: http://atlantisclubkft.hu/index.php?option=com_content&task=blogsection&id=7&Itemid=39
+agency:
+  agency_id: AVCLUB
+  agency_lang: hu
+  agency_name: Atlantisz-Visegrád Club Kft.
+  agency_timezone: Europe/Budapest
+  agency_url: http://atlantisclubkft.hu/index.php?option=com_content&task=blogsection&id=7&Itemid=39
+  agency_phone: +36 26 398-344
+  fares:
+    - fare_id: AVCLUB-FARE
+      payment_method: onboard
+      price: 420
+      currency_type: HUF
+      rules:
+        - route_id: AVCLUB-VN
+trips:
+  - trip_id: AVCLUB-TVN
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Visegrád
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Nagymaros
+        arrival_time: 00:05
+        departure_time: 00:05
+    departures: [04:25, 06:30, 22:35]
+    frequencies:
+      - start_time: 07:50:00
+        end_time: 20:50:01
+        headway_secs: 3600
+        exact_times: 1
+  - trip_id: AVCLUB-TNV
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Nagymaros
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Visegrád
+        arrival_time: 00:02
+        departure_time: 00:02
+    departures: [04:35, 06:35, 22:30]
+    frequencies:
+      - start_time: 08:00:00
+        end_time: 21:00:01
+        headway_secs: 3600
+        exact_times: 1

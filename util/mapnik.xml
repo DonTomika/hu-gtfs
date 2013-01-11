@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map>
+
+<!--
+zoom level=1  scale_denom=279541132.014
+zoom level=2  scale_denom=139770566.007
+zoom level=3  scale_denom=69885283.0036
+zoom level=4  scale_denom=34942641.5018
+zoom level=5  scale_denom=17471320.7509
+zoom level=6  scale_denom=8735660.37545
+zoom level=7  scale_denom=4367830.18772
+zoom level=8  scale_denom=2183915.09386
+zoom level=9  scale_denom=1091957.54693
+zoom level=10 scale_denom=545978.773466
+zoom level=11 scale_denom=272989.386733
+zoom level=12 scale_denom=136494.693366
+zoom level=13 scale_denom=68247.3466832
+zoom level=14 scale_denom=34123.6733416
+zoom level=15 scale_denom=17061.8366708
+zoom level=16 scale_denom=8530.9183354
+zoom level=17 scale_denom=4265.4591677
+zoom level=18 scale_denom=2132.72958385
+
+-->
+
+<Map bgcolor="transparent" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+	<FontSet name="DejaVu Sans Book">
+		<Font face_name="DejaVu Sans Book" />
+		<Font face_name="unifont Medium" />
+	</FontSet>
+	<FontSet name="DejaVu Sans Bold">
+		<Font face_name="DejaVu Sans Bold" />
+		<Font face_name="unifont Medium" />
+	</FontSet>
+	<FontSet name="DejaVu Sans Oblique">
+		<Font face_name="DejaVu Sans Oblique" />
+		<Font face_name="unifont Medium" />
+	</FontSet>
+
+	<Style name="mapnik:selection">
+		<Rule>
+			<Filter>[mapnik:geometry]=1</Filter>
+			<PointSymbolizer/>
+		</Rule>
+		<Rule>
+			<Filter>[mapnik:geometry]=2</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+			</LineSymbolizer>
+			<LineSymbolizer>
+				<CssParameter name="stroke">yellow</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">1.0</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<Filter>[mapnik:geometry]=3</Filter>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">red</CssParameter>
+				<CssParameter name="fill-opacity">0.5</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+	</Style>
+
+	<Style name="site_interchange">
+		<Rule>
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">pink</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">pink</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+	</Style>
+	<Style name="site_interchange_label">
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<TextSymbolizer name="entity_name" face_name="DejaVu Sans Bold" size="12" fill="#66f" halo_radius="1" allow_overlap="false" wrap_width="20" />
+		</Rule>
+	</Style>
+
+	<Style name="site_group">
+		<Rule>
+			<Filter>[entity_type]='railway_station' or [entity_type]='railway_halt'</Filter>
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">slategray</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">slategray</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+		<Rule>
+			<ElseFilter />
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">slategray</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">slategray</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+	</Style>
+
+	<Style name="site_group_label">
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<MinScaleDenominator>3000</MinScaleDenominator>
+			<TextSymbolizer name="entity_name" face_name="DejaVu Sans Book" size="12" fill="#66f" halo_radius="1" allow_overlap="false" wrap_width="20" />
+		</Rule>
+	</Style>
+
+	<Style name="site_halt">
+		<Rule>
+			<Filter>[entity_type]='tram_stop'</Filter>
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">goldenrod</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">gold</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+		<Rule>
+			<Filter>[entity_operators]='{bkv_BKV,volanbusz_VOLANBUSZ}'</Filter>
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">springgreen</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">springgreen</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+		<Rule>
+			<Filter>[entity_operators]='{volanbusz_VOLANBUSZ}'</Filter>
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">green</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+		<Rule>
+			<Filter>[entity_type]='bus_stop' and [entity_operators]='{bkv_BKV}'</Filter>
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">blue</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">blue</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+		<Rule>
+			<Filter>[entity_operators]='{mav_MAVSTART}'</Filter>
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">blue</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">brown</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+		<Rule>
+			<ElseFilter />
+			<MaxScaleDenominator>140000</MaxScaleDenominator>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">2</CssParameter>
+				<CssParameter name="stroke-opacity">0.4</CssParameter>
+			</LineSymbolizer>
+			<PolygonSymbolizer>
+				<CssParameter name="fill">red</CssParameter>
+				<CssParameter name="fill-opacity">0.2</CssParameter>
+			</PolygonSymbolizer>
+		</Rule>
+	</Style>
+
+	<Style name="site_halt_label">
+		<Rule>
+			<MaxScaleDenominator>3000</MaxScaleDenominator>
+			<TextSymbolizer name="entity_name" face_name="DejaVu Sans Book" size="10" fill="#66f" halo_radius="1" allow_overlap="false" wrap_width="20" />
+		</Rule>
+	</Style>
+
+	<Style name="routes_label">
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>5000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz'</Filter>
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Book" size="8" fill="green" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="5" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>5000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV'</Filter>
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Book" size="8" fill="blue" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="5" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>5000</MinScaleDenominator>
+			<Filter>[line_variant]='trolleybus'</Filter>
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Bold" size="8" fill="red" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" allow_overlap="false" halo_radius="2" height="25" label_position_tolerance="200" min_distance="5" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>5000</MinScaleDenominator>
+			<Filter>[line_variant]='tram' or [line_variant]='funicular'</Filter>
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Bold" size="8" fill="goldenrod" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" allow_overlap="false" halo_radius="2" height="25" label_position_tolerance="200" min_distance="5" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>5000</MinScaleDenominator>
+			<ElseFilter />
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Bold" size="8" fill="black" spacing="250" wrap_width="0" allow_overlap="false" label_position_tolerance="100" min_distance="5" halo_radius="2" placement="line" text_convert="toupper" />
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>5000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz'</Filter>
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Book" size="9" fill="green" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="5" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>5000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV'</Filter>
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Book" size="9" fill="blue" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="5" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>5000</MaxScaleDenominator>
+			<Filter>[line_variant]='trolleybus'</Filter>
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Bold" size="9" fill="red" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" allow_overlap="false" halo_radius="2" height="25" label_position_tolerance="200" min_distance="5" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>5000</MaxScaleDenominator>
+			<Filter>[line_variant]='tram' or [line_variant]='funicular'</Filter>
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Bold" size="9" fill="goldenrod" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" allow_overlap="false" halo_radius="2" height="25" label_position_tolerance="200" min_distance="5" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>5000</MaxScaleDenominator>
+			<ElseFilter />
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Bold" size="9" fill="black" spacing="250" wrap_width="0" allow_overlap="false" label_position_tolerance="100" min_distance="5" halo_radius="2" placement="line" text_convert="toupper" />
+		</Rule>
+
+<!--
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz' and [direction]='left'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Book" size="10" fill="green" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV' and [direction]='left'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Book" size="10" fill="blue" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz' and [direction]='both'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Book" size="10" fill="green" file="/var/www/sites/tile.flaktack.net/images/both.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV' and [direction]='both'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Book" size="10" fill="blue" file="/var/www/sites/tile.flaktack.net/images/both.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz' and [direction]='right'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Book" size="10" fill="green" file="/var/www/sites/tile.flaktack.net/images/right.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV' and [direction]='right'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Book" size="10" fill="blue" file="/var/www/sites/tile.flaktack.net/images/right.png" type="png" placement="line" spacing="300" halo_radius="2" allow_overlap="false" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='tram' and [direction]='left'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Bold" size="10" fill="goldenrod" file="/var/www/sites/tile.flaktack.net/images/left.png" type="png" placement="line" spacing="300" allow_overlap="false" halo_radius="2" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='tram' and [direction]='right'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Bold" size="10" fill="goldenrod" file="/var/www/sites/tile.flaktack.net/images/right.png" type="png" placement="line" spacing="300" allow_overlap="false" halo_radius="2" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<Filter>[line_variant]='tram' and [direction]='both'</Filter>
+			<ShieldSymbolizer name="ref" face_name="DejaVu Sans Bold" size="10" fill="goldenrod" file="/var/www/sites/tile.flaktack.net/images/both.png" type="png" placement="line" spacing="300" allow_overlap="false" halo_radius="2" height="25" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<ElseFilter />
+			<TextSymbolizer name="ref" face_name="DejaVu Sans Book" size="10" fill="black" spacing="300" wrap_width="0" allow_overlap="false" label_position_tolerance="200" min_distance="2" />
+		</Rule>
+-->
+	</Style>
+
+	<Style name="routes_coloring">
+		<Rule>
+			<MaxScaleDenominator>300000</MaxScaleDenominator>
+			<MinScaleDenominator>150000</MinScaleDenominator>
+			<Filter>[line_variant]='train'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">orange</CssParameter>
+				<CssParameter name="stroke-width">1</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>300000</MaxScaleDenominator>
+			<MinScaleDenominator>150000</MinScaleDenominator>
+			<Filter>[line_variant]='light_rail'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">1</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>300000</MaxScaleDenominator>
+			<MinScaleDenominator>150000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">blue</CssParameter>
+				<CssParameter name="stroke-width">1</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>300000</MaxScaleDenominator>
+			<MinScaleDenominator>150000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">1</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>300000</MaxScaleDenominator>
+			<MinScaleDenominator>150000</MinScaleDenominator>
+			<Filter>[line_variant]='tram' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">gold</CssParameter>
+				<CssParameter name="stroke-width">1</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>300000</MaxScaleDenominator>
+			<MinScaleDenominator>150000</MinScaleDenominator>
+			<Filter>[line_variant]='trolleybus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">1</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>300000</MaxScaleDenominator>
+			<MinScaleDenominator>150000</MinScaleDenominator>
+			<Filter>[line_variant]='funicular' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">1</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>300000</MaxScaleDenominator>
+			<MinScaleDenominator>150000</MinScaleDenominator>
+			<ElseFilter />
+			<LineSymbolizer>
+				<CssParameter name="stroke">black</CssParameter>
+				<CssParameter name="stroke-width">1</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>150000</MaxScaleDenominator>
+			<MinScaleDenominator>70000</MinScaleDenominator>
+			<Filter>[line_variant]='train'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">orange</CssParameter>
+				<CssParameter name="stroke-width">3</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>150000</MaxScaleDenominator>
+			<MinScaleDenominator>70000</MinScaleDenominator>
+			<Filter>[line_variant]='light_rail'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">3</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>150000</MaxScaleDenominator>
+			<MinScaleDenominator>70000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">blue</CssParameter>
+				<CssParameter name="stroke-width">3</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>150000</MaxScaleDenominator>
+			<MinScaleDenominator>70000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">3</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>150000</MaxScaleDenominator>
+			<MinScaleDenominator>70000</MinScaleDenominator>
+			<Filter>[line_variant]='tram' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">gold</CssParameter>
+				<CssParameter name="stroke-width">3</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>150000</MaxScaleDenominator>
+			<MinScaleDenominator>70000</MinScaleDenominator>
+			<Filter>[line_variant]='trolleybus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">3</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>150000</MaxScaleDenominator>
+			<MinScaleDenominator>70000</MinScaleDenominator>
+			<Filter>[line_variant]='funicular' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">3</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>150000</MaxScaleDenominator>
+			<MinScaleDenominator>70000</MinScaleDenominator>
+			<ElseFilter />
+			<LineSymbolizer>
+				<CssParameter name="stroke">black</CssParameter>
+				<CssParameter name="stroke-width">3</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>40000</MinScaleDenominator>
+			<Filter>[line_variant]='train'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">orange</CssParameter>
+				<CssParameter name="stroke-width">4</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>40000</MinScaleDenominator>
+			<Filter>[line_variant]='light_rail'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">4</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>40000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">blue</CssParameter>
+				<CssParameter name="stroke-width">4</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>40000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">4</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>40000</MinScaleDenominator>
+			<Filter>[line_variant]='tram' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">gold</CssParameter>
+				<CssParameter name="stroke-width">4</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>40000</MinScaleDenominator>
+			<Filter>[line_variant]='trolleybus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">4</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>40000</MinScaleDenominator>
+			<Filter>[line_variant]='funicular' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">4</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MinScaleDenominator>40000</MinScaleDenominator>
+			<ElseFilter />
+			<LineSymbolizer>
+				<CssParameter name="stroke">black</CssParameter>
+				<CssParameter name="stroke-width">4</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>40000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<Filter>[line_variant]='train'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">orange</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>40000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<Filter>[line_variant]='light_rail'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>40000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">blue</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>40000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>40000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<Filter>[line_variant]='tram' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">gold</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>40000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<Filter>[line_variant]='trolleybus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>40000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<Filter>[line_variant]='funicular' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>40000</MaxScaleDenominator>
+			<MinScaleDenominator>10000</MinScaleDenominator>
+			<ElseFilter />
+			<LineSymbolizer>
+				<CssParameter name="stroke">black</CssParameter>
+				<CssParameter name="stroke-width">6</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<Filter>[line_variant]='train'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">orange</CssParameter>
+				<CssParameter name="stroke-width">8</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<Filter>[line_variant]='light_rail'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">8</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">blue</CssParameter>
+				<CssParameter name="stroke-width">8</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<Filter>[line_variant]='bus' and [operator]='Volánbusz'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">green</CssParameter>
+				<CssParameter name="stroke-width">8</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<Filter>[line_variant]='tram' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">gold</CssParameter>
+				<CssParameter name="stroke-width">8</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<Filter>[line_variant]='trolleybus' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">8</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<Filter>[line_variant]='funicular' and [operator]='BKV'</Filter>
+			<LineSymbolizer>
+				<CssParameter name="stroke">red</CssParameter>
+				<CssParameter name="stroke-width">8</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+		<Rule>
+			<MaxScaleDenominator>10000</MaxScaleDenominator>
+			<ElseFilter />
+			<LineSymbolizer>
+				<CssParameter name="stroke">black</CssParameter>
+				<CssParameter name="stroke-width">8</CssParameter>
+				<CssParameter name="stroke-opacity">0.5</CssParameter>
+				<CssParameter name="stroke-linejoin">round</CssParameter>
+				<CssParameter name="stroke-linecap">round</CssParameter>
+			</LineSymbolizer>
+		</Rule>
+
+		<Rule>
+			<MaxScaleDenominator>70000</MaxScaleDenominator>
+			<MarkersSymbolizer />
+		</Rule>
+	</Style>
+
+<!--
+	<Layer name="routes_coloring" status="on" srs="+init=epsg:4326">
+		<StyleName>routes_coloring</StyleName>
+		<Datasource>
+			<Parameter name="type">postgis</Parameter>
+			<Parameter name="dbname">mytransit</Parameter>
+			<Parameter name="table">
+				(select operator, line_variant, ST_Multi(ST_Collect(way)) as way from planet_osm_line where line_variant IS NOT NULL GROUP BY line_variant, operator) as routes_coloring
+			</Parameter>
+			<Parameter name="estimate_extent">false</Parameter>
+			<Parameter name="extent">-20037508,-19929239,20037508,19929239</Parameter>
+		</Datasource>
+	</Layer>
+-->
+
+	<Layer name="site_interchange" status="on" srs="+init=epsg:4326">
+		<StyleName>site_interchange</StyleName>
+		<Datasource>
+			<Parameter name="type">postgis</Parameter>
+			<Parameter name="dbname">mytransit</Parameter>
+			<Parameter name="table">(SELECT entity_name, entity_type, the_geom FROM entity_geom WHERE entity_level = 'interchange') AS site_interchange</Parameter>
+		</Datasource>
+	</Layer>
+
+	<Layer name="site_group" status="on" srs="+init=epsg:4326">
+		<StyleName>site_group</StyleName>
+		<Datasource>
+			<Parameter name="type">postgis</Parameter>
+			<Parameter name="dbname">mytransit</Parameter>
+			<Parameter name="table">(SELECT entity_name, entity_type, the_geom FROM entity_geom WHERE entity_level = 'area') AS site_group</Parameter>
+		</Datasource>
+	</Layer>
+
+	<Layer name="site_halt" status="on" srs="+init=epsg:4326">
+		<StyleName>site_halt</StyleName>
+		<Datasource>
+			<Parameter name="type">postgis</Parameter>
+			<Parameter name="dbname">mytransit</Parameter>
+			<Parameter name="table">(SELECT entity_name, entity_type, entity_operators::text, the_geom FROM entity_geom WHERE entity_level = 'stop') AS site_halt</Parameter>
+		</Datasource>
+	</Layer>
+
+	<Layer name="site_interchange_label" status="on" srs="+init=epsg:4326">
+		<StyleName>site_interchange_label</StyleName>
+		<Datasource>
+			<Parameter name="type">postgis</Parameter>
+			<Parameter name="dbname">mytransit</Parameter>
+			<Parameter name="table">(SELECT entity_name, entity_type, the_geom FROM entity_geom WHERE entity_level = 'interchange') AS site_interchange</Parameter>
+		</Datasource>
+	</Layer>
+
+	<Layer name="site_group_label" status="on" srs="+init=epsg:4326">
+		<StyleName>site_group_label</StyleName>
+		<Datasource>
+			<Parameter name="type">postgis</Parameter>
+			<Parameter name="dbname">mytransit</Parameter>
+			<Parameter name="table">(SELECT entity_name, entity_type, the_geom FROM entity_geom WHERE entity_level = 'area') AS site_group</Parameter>
+		</Datasource>
+	</Layer>
+
+	<Layer name="site_halt_label" status="on" srs="+init=epsg:4326">
+		<StyleName>site_halt_label</StyleName>
+		<Datasource>
+			<Parameter name="type">postgis</Parameter>
+			<Parameter name="dbname">mytransit</Parameter>
+			<Parameter name="table">(SELECT entity_name, entity_type, the_geom FROM entity_geom WHERE entity_level = 'stop') AS site_halt</Parameter>
+		</Datasource>
+	</Layer>
+
+<!--
+	<Layer name="routes_label" status="on" srs="+init=epsg:4326">
+		<StyleName>routes_label</StyleName>
+		<Datasource>
+			<Parameter name="type">postgis</Parameter>
+			<Parameter name="dbname">mytransit</Parameter>
+			<Parameter name="geometry_field">way</Parameter>
+			<Parameter name="table">
+			<Parameter name="estimate_extent">false</Parameter>
+			<Parameter name="extent">-20037508,-19929239,20037508,19929239</Parameter>
+		</Datasource>
+	</Layer>
+-->
+</Map>

@@ -1,0 +1,341 @@
+---
+route_id:         32
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 75Y
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       156/2
+    service_id:    MN
+    trip_headsign: Kiskundorozsma, Czékus u.
+    direction_id:  outbound
+    departures: [4:58:00, 5:28:00, 5:58:00, 6:28:00, 6:58:00, 7:28:00, 8:13:00, 9:13:00, 10:13:00, 11:13:00, 12:13:00, 12:28:00, 12:58:00, 13:28:00, 13:58:00, 14:28:00, 14:58:00, 15:28:00, 15:58:00, 16:28:00, 16:58:00, 17:28:00, 17:58:00, 18:58:00, 19:58:00, 20:58:00, 21:58:00, 22:50:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 181
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: AGROKER
+        stop_code: 186
+        stop_time: 00:09:00
+      - stop_name: DÉLÉP központ
+        stop_code: 188
+        stop_time: 00:11:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 190
+        stop_time: 00:13:00
+      - stop_name: Tassi ház
+        stop_code: 192
+        stop_time: 00:14:00
+      - stop_name: Csatorna
+        stop_code: 194
+        stop_time: 00:15:00
+      - stop_name: Malom
+        stop_code: 196
+        stop_time: 00:17:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 198
+        stop_time: 00:18:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 273
+        stop_time: 00:19:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 271
+        stop_time: 00:20:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 269
+        stop_time: 00:22:00
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:23:00
+  - trip_id:       157/27
+    service_id:    SZN
+    trip_headsign: Kiskundorozsma, Czékus u.
+    direction_id:  outbound
+    departures: [4:58:00, 5:28:00, 5:58:00, 6:28:00, 6:58:00, 7:28:00, 7:58:00, 8:28:00, 8:58:00, 9:28:00, 9:58:00, 10:28:00, 10:58:00, 11:28:00, 11:58:00, 12:28:00, 12:58:00, 13:58:00, 14:58:00, 15:58:00, 16:58:00, 17:58:00, 18:58:00, 19:58:00, 20:58:00, 21:58:00, 22:50:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 181
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: AGROKER
+        stop_code: 186
+        stop_time: 00:09:00
+      - stop_name: DÉLÉP központ
+        stop_code: 188
+        stop_time: 00:11:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 190
+        stop_time: 00:13:00
+      - stop_name: Tassi ház
+        stop_code: 192
+        stop_time: 00:14:00
+      - stop_name: Csatorna
+        stop_code: 194
+        stop_time: 00:15:00
+      - stop_name: Malom
+        stop_code: 196
+        stop_time: 00:17:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 198
+        stop_time: 00:18:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 273
+        stop_time: 00:19:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 271
+        stop_time: 00:20:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 269
+        stop_time: 00:22:00
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:23:00
+  - trip_id:       158/18
+    service_id:    MSZ
+    trip_headsign: Kiskundorozsma, Czékus u.
+    direction_id:  outbound
+    departures: [4:58:00, 5:58:00, 6:58:00, 7:58:00, 8:58:00, 9:58:00, 10:58:00, 11:58:00, 12:58:00, 13:58:00, 14:58:00, 15:58:00, 16:58:00, 17:58:00, 18:58:00, 19:58:00, 20:58:00, 21:58:00, 22:50:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 181
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: AGROKER
+        stop_code: 186
+        stop_time: 00:09:00
+      - stop_name: DÉLÉP központ
+        stop_code: 188
+        stop_time: 00:11:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 190
+        stop_time: 00:13:00
+      - stop_name: Tassi ház
+        stop_code: 192
+        stop_time: 00:14:00
+      - stop_name: Csatorna
+        stop_code: 194
+        stop_time: 00:15:00
+      - stop_name: Malom
+        stop_code: 196
+        stop_time: 00:17:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 198
+        stop_time: 00:18:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 273
+        stop_time: 00:19:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 271
+        stop_time: 00:20:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 269
+        stop_time: 00:22:00
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:23:00
+  - trip_id:       159/12
+    service_id:    MN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:43:00, 5:13:00, 5:43:00, 6:13:00, 6:43:00, 7:13:00, 7:43:00, 8:13:00, 8:43:00, 9:13:00, 10:13:00, 11:13:00, 12:13:00, 13:13:00, 14:13:00, 14:43:00, 15:13:00, 15:43:00, 16:13:00, 16:43:00, 17:13:00, 17:43:00, 18:13:00, 18:43:00, 19:58:00, 20:58:00, 21:58:00, 22:58:00]
+    stop_times: 
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:00:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 268
+        stop_time: 00:01:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 270
+        stop_time: 00:02:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 272
+        stop_time: 00:03:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 199
+        stop_time: 00:05:00
+      - stop_name: Malom
+        stop_code: 197
+        stop_time: 00:07:00
+      - stop_name: Csatorna
+        stop_code: 195
+        stop_time: 00:08:00
+      - stop_name: Tassi ház
+        stop_code: 193
+        stop_time: 00:09:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 191
+        stop_time: 00:10:00
+      - stop_name: DÉLÉP központ
+        stop_code: 189
+        stop_time: 00:12:00
+      - stop_name: AGROKER
+        stop_code: 187
+        stop_time: 00:14:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:16:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:18:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:19:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:20:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:21:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:23:00
+  - trip_id:       160/12
+    service_id:    SZN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:43:00, 5:13:00, 5:43:00, 6:13:00, 6:43:00, 7:13:00, 7:43:00, 8:13:00, 8:43:00, 9:13:00, 9:43:00, 10:13:00, 10:43:00, 11:13:00, 11:43:00, 12:13:00, 12:58:00, 13:58:00, 14:58:00, 15:58:00, 16:58:00, 17:58:00, 18:58:00, 19:58:00, 20:58:00, 21:58:00, 22:58:00]
+    stop_times: 
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:00:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 268
+        stop_time: 00:01:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 270
+        stop_time: 00:02:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 272
+        stop_time: 00:03:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 199
+        stop_time: 00:05:00
+      - stop_name: Malom
+        stop_code: 197
+        stop_time: 00:07:00
+      - stop_name: Csatorna
+        stop_code: 195
+        stop_time: 00:08:00
+      - stop_name: Tassi ház
+        stop_code: 193
+        stop_time: 00:09:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 191
+        stop_time: 00:10:00
+      - stop_name: DÉLÉP központ
+        stop_code: 189
+        stop_time: 00:12:00
+      - stop_name: AGROKER
+        stop_code: 187
+        stop_time: 00:14:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:16:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:18:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:19:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:20:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:21:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:23:00
+  - trip_id:       161/6
+    service_id:    MSZ
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:58:00, 5:13:00, 5:58:00, 6:58:00, 7:58:00, 8:58:00, 9:58:00, 10:58:00, 11:58:00, 12:58:00, 13:58:00, 14:58:00, 15:58:00, 16:58:00, 17:58:00, 18:58:00, 19:58:00, 20:58:00, 21:58:00, 22:58:00]
+    stop_times: 
+      - stop_name: Czékus u.
+        stop_code: 267
+        stop_time: 00:00:00
+      - stop_name: Erdőstarcsa u.
+        stop_code: 268
+        stop_time: 00:01:00
+      - stop_name: Kiskundorozsma, vásártér
+        stop_code: 270
+        stop_time: 00:02:00
+      - stop_name: Negyvennyolcas u.
+        stop_code: 272
+        stop_time: 00:03:00
+      - stop_name: Kiskundorozsma, ABC
+        stop_code: 199
+        stop_time: 00:05:00
+      - stop_name: Malom
+        stop_code: 197
+        stop_time: 00:07:00
+      - stop_name: Csatorna
+        stop_code: 195
+        stop_time: 00:08:00
+      - stop_name: Tassi ház
+        stop_code: 193
+        stop_time: 00:09:00
+      - stop_name: Kiskundorozsma vá. bej. út
+        stop_code: 191
+        stop_time: 00:10:00
+      - stop_name: DÉLÉP központ
+        stop_code: 189
+        stop_time: 00:12:00
+      - stop_name: AGROKER
+        stop_code: 187
+        stop_time: 00:14:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:16:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:18:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:19:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:20:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:21:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:23:00

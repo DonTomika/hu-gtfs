@@ -1,0 +1,123 @@
+route_id: ALBATROSZ-AL
+route_type: ferry
+route_long_name: Adony - Lórév komp
+route_url: http://www.adony.hu/kozlekedes/
+agency:
+  agency_id: ALBATROSZ
+  agency_lang: hu
+  agency_name: Albatrosz Kft.
+  agency_phone: +36 30 260 97 79
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.adony.hu/kozlekedes/
+  fares:
+    - fare_id: ALBATROSZ-FARE
+      payment_method: onboard
+      price: 300
+      currency_type: HUF
+      rules:
+        - route_id: ALBATROSZ-AL
+trips:
+  - trip_id: ALBATROSZ-TAL
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Adony
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Lórév
+        arrival_time: 00:02
+        departure_time: 00:02
+    frequencies:
+      - start_time: 07:00:00
+        end_time: 16:00:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130101-20130131' ]
+      - start_time: 07:00:00
+        end_time: 17:00:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130201-20130314' ]
+      - start_time: 06:00:00
+        end_time: 18:00:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130315-20130325' ]
+      - start_time: 06:00:00
+        end_time: 19:00:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130325-20130430' ]
+      - start_time: 06:00:00
+        end_time: 20:00:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130501-20130831' ]
+      - start_time: 06:00:00
+        end_time: 19:00:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130901-20130930' ]
+      - start_time: 07:00:00
+        end_time: 18:00:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20131001-20131105' ]
+      - start_time: 08:00:00
+        end_time: 16:00:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20131106-20131231' ]
+  - trip_id: ALBATROSZ-TLA
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Lórév
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Adony
+        arrival_time: 00:02
+        departure_time: 00:02
+    frequencies:
+      - start_time: 07:10:00
+        end_time: 16:10:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130101-20130131' ]
+      - start_time: 07:10:00
+        end_time: 17:10:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130201-20130314' ]
+      - start_time: 06:10:00
+        end_time: 18:10:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130315-20130325' ]
+      - start_time: 06:10:00
+        end_time: 19:10:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130325-20130430' ]
+      - start_time: 06:10:00
+        end_time: 20:10:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130501-20130831' ]
+      - start_time: 06:10:00
+        end_time: 19:10:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20130901-20130930' ]
+      - start_time: 07:10:00
+        end_time: 18:10:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20131001-20131105' ]
+      - start_time: 08:10:00
+        end_time: 16:10:01
+        headway_secs: 3600
+        exact_times: 1
+        service: [ 'LIMIT', 'NAPONTA', '20131106-20131231' ]

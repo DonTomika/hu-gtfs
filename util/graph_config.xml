@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<!-- The path where the graph bundle will be written -->
+	<bean id="graphBundle" class="org.opentripplanner.model.GraphBundle">
+		<property name="path" value="/var/run/opentripplanner" />
+	</bean>
+
+	<bean id="osmBuilder" class="org.opentripplanner.graph_builder.impl.osm.OpenStreetMapGraphBuilderImpl">
+		<property name="provider">
+			<bean class="org.opentripplanner.graph_builder.impl.osm.StreamedFileBasedOpenStreetMapProviderImpl">
+				<property name="path" value="/var/www/sites/data.flaktack.net/html/osm/hungary-current.osm.bz2" />
+			</bean>
+		</property>
+		<property name="defaultWayPropertySetSource">
+			<bean class="org.opentripplanner.graph_builder.impl.osm.DefaultWayPropertySetSource" />
+		</property>
+	</bean>
+
+	<bean id="gtfsBuilder" class="org.opentripplanner.graph_builder.impl.GtfsGraphBuilderImpl">
+		<property name="gtfsBundles">
+			<bean id="gtfsBundles" class="org.opentripplanner.graph_builder.model.GtfsBundles">
+				<property name="bundles">
+					<list>
+						<bean class="org.opentripplanner.graph_builder.model.GtfsBundle">
+							<property name="path" value="/var/www/sites/data.flaktack.net/html/transit/kisvasut_gyermekvasut/latest/feed/gtfs.zip" />
+							<property name="defaultAgencyId" value="gyermekvasut" />
+						</bean>
+						<bean class="org.opentripplanner.graph_builder.model.GtfsBundle">
+							<property name="path" value="/var/www/sites/data.flaktack.net/html/transit/mav/latest/feed/gtfs.zip" />
+							<property name="defaultAgencyId" value="MAVSTART" />
+						</bean>
+						<bean class="org.opentripplanner.graph_builder.model.GtfsBundle">
+							<property name="path" value="/var/www/sites/data.flaktack.net/html/transit/volanbusz/latest/feed/gtfs.zip" />
+							<property name="defaultAgencyId" value="VOLANBUSZ" />
+						</bean>
+						<bean class="org.opentripplanner.graph_builder.model.GtfsBundle">
+							<property name="path" value="/var/www/sites/data.flaktack.net/html/transit/bkv/latest/feed/gtfs.zip" />
+							<property name="defaultAgencyId" value="BKV" />
+						</bean>
+						<bean class="org.opentripplanner.graph_builder.model.GtfsBundle">
+							<property name="path" value="/var/www/sites/data.flaktack.net/html/transit/kompok/latest/feed/gtfs.zip" />
+							<property name="defaultAgencyId" value="ALBATROSZ" />
+						</bean>
+					</list>
+				</property>
+			</bean>
+		</property>
+		<property name="gtfsGraphBuilders">
+	 		<list>
+				<bean class="org.opentripplanner.graph_builder.impl.transit_index.TransitIndexBuilder" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="transitStreetLink" class="org.opentripplanner.graph_builder.impl.TransitToStreetNetworkGraphBuilderImpl" />
+	<bean id="optimizeTransit" class="org.opentripplanner.graph_builder.impl.OptimizeTransitGraphBuilderImpl" />
+
+	<bean id="graphBuilderTask" class="org.opentripplanner.graph_builder.GraphBuilderTask">
+		<property name="modes">
+			<list>
+				<bean class="org.opentripplanner.routing.core.TraverseOptions">
+					<property name="mode" value="WALK" />
+					<property name="optimize" value="QUICK" />
+				</bean>
+				<bean class="org.opentripplanner.routing.core.TraverseOptions">
+					<property name="mode" value="WALK" />
+					<property name="optimize" value="QUICK" />
+					<property name="wheelchairAccessible" value="true" />
+				</bean>
+				<bean class="org.opentripplanner.routing.core.TraverseOptions">
+					<property name="mode" value="BICYCLE" />
+					<property name="optimize" value="QUICK" />
+				</bean>
+			</list>
+		</property>
+		<property name="contractionFactor" value="0.992" />
+
+		<property name="graphBundle" ref="graphBundle" />
+		<property name="graphBuilders">
+			<list>
+				<ref bean="gtfsBuilder" />
+				<ref bean="osmBuilder" />
+				<ref bean="transitStreetLink" />
+				<ref bean="optimizeTransit" />
+			</list>
+		</property>
+	</bean>
+</beans>

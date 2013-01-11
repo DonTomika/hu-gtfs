@@ -1,0 +1,131 @@
+---
+route_id:         42
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 90H
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       205/2
+    service_id:    MN
+    trip_headsign: Szegedi Ipari Logisztikai Központ
+    direction_id:  outbound
+    departures: [5:15:00, 21:15:00]
+    stop_times: 
+      - stop_name: Lugas u.
+        stop_code: 514
+        stop_time: 00:00:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 101
+        stop_time: 00:01:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 499
+        stop_time: 00:02:00
+      - stop_name: Tarján Bisztró
+        stop_code: 497
+        stop_time: 00:04:00
+      - stop_name: Agyagos u. (Ortutay u.)
+        stop_code: 495
+        stop_time: 00:06:00
+      - stop_name: Makkosházi krt.
+        stop_code: 107
+        stop_time: 00:08:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:09:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:10:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:11:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:12:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:14:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:16:00
+      - stop_name: Lemezgyár
+        stop_code: 483
+        stop_time: 00:18:00
+      - stop_name: CORA áruház
+        stop_code: 486
+        stop_time: 00:20:00
+      - stop_name: Tejipari Rt.
+        stop_code: 485
+        stop_time: 00:21:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 488
+        stop_time: 00:22:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:23:00
+      - stop_name: Back Bernát u.
+        stop_code: 491
+        stop_time: 00:26:00
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:27:00
+  - trip_id:       206/1
+    service_id:    MN
+    trip_headsign: Lugas u.
+    direction_id:  inbound
+    departures: [6:15:00, 22:15:00]
+    stop_times: 
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:00:00
+      - stop_name: Back Bernát u.
+        stop_code: 490
+        stop_time: 00:01:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:03:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 487
+        stop_time: 00:04:00
+      - stop_name: Tejipari Rt.
+        stop_code: 484
+        stop_time: 00:05:00
+      - stop_name: Lemezgyár
+        stop_code: 482
+        stop_time: 00:06:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:08:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:10:00
+      - stop_name: Kisteleki u.
+        stop_code: 140
+        stop_time: 00:12:00
+      - stop_name: Rókusi víztorony
+        stop_code: 141
+        stop_time: 00:13:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 142
+        stop_time: 00:14:00
+      - stop_name: Vértó
+        stop_code: 143
+        stop_time: 00:15:00
+      - stop_name: Makkosházi krt.
+        stop_code: 493
+        stop_time: 00:16:00
+      - stop_name: Agyagos u.
+        stop_code: 496
+        stop_time: 00:17:00
+      - stop_name: Tarján Bisztró
+        stop_code: 498
+        stop_time: 00:19:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 500
+        stop_time: 00:21:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 78
+        stop_time: 00:22:00
+      - stop_name: Lugas u.
+        stop_code: 515
+        stop_time: 00:23:00

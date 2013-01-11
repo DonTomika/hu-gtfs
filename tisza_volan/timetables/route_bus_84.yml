@@ -1,0 +1,296 @@
+---
+route_id:         40
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 84
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       197/5
+    service_id:    MN
+    trip_headsign: Újszeged, Gabonakutató
+    direction_id:  outbound
+    departures: [4:30:00, 4:45:00, 5:00:00, 5:15:00, 5:30:00, 5:40:00, 5:50:00, 6:00:00, 6:10:00, 6:20:00, 6:30:00, 6:40:00, 6:50:00, 7:00:00, 7:10:00, 7:20:00, 7:30:00, 7:40:00, 7:50:00, 8:00:00, 8:10:00, 8:20:00, 8:30:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:20:00, 22:00:00]
+    stop_times: 
+      - stop_name: Makkosház
+        stop_code: 105
+        stop_time: 00:00:00
+      - stop_name: Ipoly sor
+        stop_code: 106
+        stop_time: 00:01:00
+      - stop_name: Makkosházi krt.
+        stop_code: 493
+        stop_time: 00:03:00
+      - stop_name: Agyagos u.
+        stop_code: 496
+        stop_time: 00:04:00
+      - stop_name: Tarján Bisztró
+        stop_code: 498
+        stop_time: 00:06:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 500
+        stop_time: 00:08:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 78
+        stop_time: 00:09:00
+      - stop_name: Fecske u.
+        stop_code: 79
+        stop_time: 00:11:00
+      - stop_name: Sajka u.
+        stop_code: 501
+        stop_time: 00:13:00
+      - stop_name: Szent-Györgyi Albert u.
+        stop_code: 502
+        stop_time: 00:15:00
+      - stop_name: Fő fasor
+        stop_code: 399
+        stop_time: 00:16:00
+      - stop_name: Sportcsarnok
+        stop_code: 505
+        stop_time: 00:18:00
+      - stop_name: Csanádi u.
+        stop_code: 508
+        stop_time: 00:19:00
+      - stop_name: Gabonakutató
+        stop_code: 367
+        stop_time: 00:20:00
+  - trip_id:       198/24
+    service_id:    SZN
+    trip_headsign: Újszeged, Gabonakutató
+    direction_id:  outbound
+    departures: [5:00:00, 5:20:00, 5:40:00, 6:00:00, 6:20:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:20:00, 22:00:00]
+    stop_times: 
+      - stop_name: Makkosház
+        stop_code: 105
+        stop_time: 00:00:00
+      - stop_name: Ipoly sor
+        stop_code: 106
+        stop_time: 00:01:00
+      - stop_name: Makkosházi krt.
+        stop_code: 493
+        stop_time: 00:03:00
+      - stop_name: Agyagos u.
+        stop_code: 496
+        stop_time: 00:04:00
+      - stop_name: Tarján Bisztró
+        stop_code: 498
+        stop_time: 00:06:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 500
+        stop_time: 00:08:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 78
+        stop_time: 00:09:00
+      - stop_name: Fecske u.
+        stop_code: 79
+        stop_time: 00:11:00
+      - stop_name: Sajka u.
+        stop_code: 501
+        stop_time: 00:13:00
+      - stop_name: Szent-Györgyi Albert u.
+        stop_code: 502
+        stop_time: 00:15:00
+      - stop_name: Fő fasor
+        stop_code: 399
+        stop_time: 00:16:00
+      - stop_name: Sportcsarnok
+        stop_code: 505
+        stop_time: 00:18:00
+      - stop_name: Csanádi u.
+        stop_code: 508
+        stop_time: 00:19:00
+      - stop_name: Gabonakutató
+        stop_code: 367
+        stop_time: 00:20:00
+  - trip_id:       199/16
+    service_id:    MSZ
+    trip_headsign: Újszeged, Gabonakutató
+    direction_id:  outbound
+    departures: [5:00:00, 5:20:00, 5:40:00, 6:00:00, 6:20:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:20:00, 22:00:00]
+    stop_times: 
+      - stop_name: Makkosház
+        stop_code: 105
+        stop_time: 00:00:00
+      - stop_name: Ipoly sor
+        stop_code: 106
+        stop_time: 00:01:00
+      - stop_name: Makkosházi krt.
+        stop_code: 493
+        stop_time: 00:03:00
+      - stop_name: Agyagos u.
+        stop_code: 496
+        stop_time: 00:04:00
+      - stop_name: Tarján Bisztró
+        stop_code: 498
+        stop_time: 00:06:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 500
+        stop_time: 00:08:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 78
+        stop_time: 00:09:00
+      - stop_name: Fecske u.
+        stop_code: 79
+        stop_time: 00:11:00
+      - stop_name: Sajka u.
+        stop_code: 501
+        stop_time: 00:13:00
+      - stop_name: Szent-Györgyi Albert u.
+        stop_code: 502
+        stop_time: 00:15:00
+      - stop_name: Fő fasor
+        stop_code: 399
+        stop_time: 00:16:00
+      - stop_name: Sportcsarnok
+        stop_code: 505
+        stop_time: 00:18:00
+      - stop_name: Csanádi u.
+        stop_code: 508
+        stop_time: 00:19:00
+      - stop_name: Gabonakutató
+        stop_code: 367
+        stop_time: 00:20:00
+  - trip_id:       200/26
+    service_id:    MN
+    trip_headsign: Makkosház
+    direction_id:  inbound
+    departures: [4:50:00, 5:05:00, 5:20:00, 5:35:00, 5:50:00, 6:00:00, 6:10:00, 6:20:00, 6:30:00, 6:40:00, 6:50:00, 7:00:00, 7:10:00, 7:20:00, 7:30:00, 7:40:00, 7:50:00, 8:00:00, 8:10:00, 8:20:00, 8:30:00, 8:40:00, 8:50:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:00:00, 21:40:00, 22:20:00]
+    stop_times: 
+      - stop_name: Gabonakutató
+        stop_code: 368
+        stop_time: 00:00:00
+      - stop_name: Csanádi u.
+        stop_code: 507
+        stop_time: 00:01:00
+      - stop_name: Sportcsarnok
+        stop_code: 504
+        stop_time: 00:02:00
+      - stop_name: Fő fasor
+        stop_code: 398
+        stop_time: 00:03:00
+      - stop_name: Szent-Györgyi Albert u.
+        stop_code: 503
+        stop_time: 00:05:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:07:00
+      - stop_name: Fecske u.
+        stop_code: 100
+        stop_time: 00:08:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 101
+        stop_time: 00:10:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 499
+        stop_time: 00:11:00
+      - stop_name: Tarján Bisztró
+        stop_code: 497
+        stop_time: 00:13:00
+      - stop_name: Agyagos u. (Ortutay u.)
+        stop_code: 495
+        stop_time: 00:15:00
+      - stop_name: Makkosházi krt.
+        stop_code: 144
+        stop_time: 00:17:00
+      - stop_name: Ipoly sor
+        stop_code: 145
+        stop_time: 00:18:00
+      - stop_name: Makkosház
+        stop_code: 146
+        stop_time: 00:19:00
+  - trip_id:       201/13
+    service_id:    SZN
+    trip_headsign: Makkosház
+    direction_id:  inbound
+    departures: [4:20:00, 4:40:00, 5:00:00, 5:20:00, 5:40:00, 6:00:00, 6:20:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:00:00, 21:40:00, 22:20:00]
+    stop_times: 
+      - stop_name: Gabonakutató
+        stop_code: 368
+        stop_time: 00:00:00
+      - stop_name: Csanádi u.
+        stop_code: 507
+        stop_time: 00:01:00
+      - stop_name: Sportcsarnok
+        stop_code: 504
+        stop_time: 00:02:00
+      - stop_name: Fő fasor
+        stop_code: 398
+        stop_time: 00:03:00
+      - stop_name: Szent-Györgyi Albert u.
+        stop_code: 503
+        stop_time: 00:05:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:07:00
+      - stop_name: Fecske u.
+        stop_code: 100
+        stop_time: 00:08:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 101
+        stop_time: 00:10:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 499
+        stop_time: 00:11:00
+      - stop_name: Tarján Bisztró
+        stop_code: 497
+        stop_time: 00:13:00
+      - stop_name: Agyagos u. (Ortutay u.)
+        stop_code: 495
+        stop_time: 00:15:00
+      - stop_name: Makkosházi krt.
+        stop_code: 144
+        stop_time: 00:17:00
+      - stop_name: Ipoly sor
+        stop_code: 145
+        stop_time: 00:18:00
+      - stop_name: Makkosház
+        stop_code: 146
+        stop_time: 00:19:00
+  - trip_id:       202/10
+    service_id:    MSZ
+    trip_headsign: Makkosház
+    direction_id:  inbound
+    departures: [4:20:00, 4:40:00, 5:00:00, 5:20:00, 5:40:00, 6:00:00, 6:20:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:00:00, 21:40:00, 22:20:00]
+    stop_times: 
+      - stop_name: Gabonakutató
+        stop_code: 368
+        stop_time: 00:00:00
+      - stop_name: Csanádi u.
+        stop_code: 507
+        stop_time: 00:01:00
+      - stop_name: Sportcsarnok
+        stop_code: 504
+        stop_time: 00:02:00
+      - stop_name: Fő fasor
+        stop_code: 398
+        stop_time: 00:03:00
+      - stop_name: Szent-Györgyi Albert u.
+        stop_code: 503
+        stop_time: 00:05:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:07:00
+      - stop_name: Fecske u.
+        stop_code: 100
+        stop_time: 00:08:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 101
+        stop_time: 00:10:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 499
+        stop_time: 00:11:00
+      - stop_name: Tarján Bisztró
+        stop_code: 497
+        stop_time: 00:13:00
+      - stop_name: Agyagos u. (Ortutay u.)
+        stop_code: 495
+        stop_time: 00:15:00
+      - stop_name: Makkosházi krt.
+        stop_code: 144
+        stop_time: 00:17:00
+      - stop_name: Ipoly sor
+        stop_code: 145
+        stop_time: 00:18:00
+      - stop_name: Makkosház
+        stop_code: 146
+        stop_time: 00:19:00

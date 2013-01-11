@@ -1,0 +1,395 @@
+---
+route_id:         36
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 79
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       174/5
+    service_id:    MN
+    trip_headsign: Szegedi Ipari Logisztikai Központ
+    direction_id:  outbound
+    departures: [5:00:00, 5:35:00, 6:00:00, 6:30:00, 7:00:00, 7:30:00, 8:00:00, 8:30:00, 9:00:00, 9:30:00, 10:00:00, 10:30:00, 11:00:00, 11:30:00, 12:00:00, 12:30:00, 13:00:00, 13:30:00, 14:00:00, 14:30:00, 15:00:00, 15:30:00, 16:00:00, 16:30:00, 17:00:00, 17:30:00, 18:00:00, 18:30:00, 19:00:00, 19:30:00, 20:00:00, 20:30:00, 21:00:00, 21:35:00, 22:00:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Lemezgyár
+        stop_code: 483
+        stop_time: 00:09:00
+      - stop_name: CORA áruház
+        stop_code: 486
+        stop_time: 00:11:00
+      - stop_name: Tejipari Rt.
+        stop_code: 485
+        stop_time: 00:12:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 488
+        stop_time: 00:13:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:14:00
+      - stop_name: Back Bernát u.
+        stop_code: 491
+        stop_time: 00:17:00
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:18:00
+  - trip_id:       175/5
+    service_id:    SZN
+    trip_headsign: Szegedi Ipari Logisztikai Központ
+    direction_id:  outbound
+    departures: [5:30:00, 6:00:00, 6:30:00, 7:30:00, 8:30:00, 9:30:00, 10:30:00, 11:30:00, 12:30:00, 13:30:00, 14:05:00, 14:30:00, 15:05:00, 15:30:00, 16:30:00, 17:30:00, 18:30:00, 19:30:00, 20:30:00, 21:30:00, 22:00:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Lemezgyár
+        stop_code: 483
+        stop_time: 00:09:00
+      - stop_name: CORA áruház
+        stop_code: 486
+        stop_time: 00:11:00
+      - stop_name: Tejipari Rt.
+        stop_code: 485
+        stop_time: 00:12:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 488
+        stop_time: 00:13:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:14:00
+      - stop_name: Back Bernát u.
+        stop_code: 491
+        stop_time: 00:17:00
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:18:00
+  - trip_id:       176/2
+    service_id:    MSZ
+    trip_headsign: Szegedi Ipari Logisztikai Központ
+    direction_id:  outbound
+    departures: [5:30:00, 6:00:00, 6:30:00, 7:30:00, 8:30:00, 9:00:00, 9:30:00, 10:30:00, 11:30:00, 12:30:00, 13:30:00, 14:30:00, 15:30:00, 16:30:00, 17:30:00, 18:30:00, 19:30:00, 20:30:00, 21:30:00, 22:00:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 262
+        stop_time: 00:00:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:02:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:03:00
+      - stop_name: Rókus vá.
+        stop_code: 182
+        stop_time: 00:05:00
+      - stop_name: Fonógyári út
+        stop_code: 184
+        stop_time: 00:07:00
+      - stop_name: Lemezgyár
+        stop_code: 483
+        stop_time: 00:09:00
+      - stop_name: CORA áruház
+        stop_code: 486
+        stop_time: 00:11:00
+      - stop_name: Tejipari Rt.
+        stop_code: 485
+        stop_time: 00:12:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 488
+        stop_time: 00:13:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:14:00
+      - stop_name: Back Bernát u.
+        stop_code: 491
+        stop_time: 00:17:00
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:18:00
+  - trip_id:       177/5
+    service_id:    MN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:20:00, 5:50:00, 6:20:00, 6:50:00, 7:20:00, 7:50:00, 21:50:00, 22:20:00]
+    stop_times: 
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:00:00
+      - stop_name: Back Bernát u.
+        stop_code: 490
+        stop_time: 00:01:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:03:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 487
+        stop_time: 00:04:00
+      - stop_name: Tejipari Rt.
+        stop_code: 484
+        stop_time: 00:05:00
+      - stop_name: Lemezgyár
+        stop_code: 482
+        stop_time: 00:06:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:08:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:11:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:12:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:13:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:15:00
+  - trip_id:       178/4
+    service_id:    SZN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:50:00, 6:20:00, 6:50:00, 22:20:00]
+    stop_times: 
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:00:00
+      - stop_name: Back Bernát u.
+        stop_code: 490
+        stop_time: 00:01:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:03:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 487
+        stop_time: 00:04:00
+      - stop_name: Tejipari Rt.
+        stop_code: 484
+        stop_time: 00:05:00
+      - stop_name: Lemezgyár
+        stop_code: 482
+        stop_time: 00:06:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:08:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:11:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:12:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:13:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:15:00
+  - trip_id:       179/3
+    service_id:    MSZ
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:50:00, 6:20:00, 6:50:00, 7:50:00, 21:50:00, 22:20:00]
+    stop_times: 
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:00:00
+      - stop_name: Back Bernát u.
+        stop_code: 490
+        stop_time: 00:01:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:03:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 487
+        stop_time: 00:04:00
+      - stop_name: Tejipari Rt.
+        stop_code: 484
+        stop_time: 00:05:00
+      - stop_name: Lemezgyár
+        stop_code: 482
+        stop_time: 00:06:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:08:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:10:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:11:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:12:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:13:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:15:00
+  - trip_id:       180/12
+    service_id:    MN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [8:20:00, 8:50:00, 9:20:00, 9:50:00, 10:20:00, 10:50:00, 11:20:00, 11:50:00, 12:20:00, 12:50:00, 13:20:00, 13:50:00, 14:20:00, 14:50:00, 15:20:00, 15:50:00, 16:20:00, 16:50:00, 17:20:00, 17:50:00, 18:20:00, 18:50:00, 19:20:00, 19:50:00, 20:20:00, 20:50:00, 21:20:00]
+    stop_times: 
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:00:00
+      - stop_name: Back Bernát u.
+        stop_code: 490
+        stop_time: 00:01:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:03:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 487
+        stop_time: 00:04:00
+      - stop_name: CORA áruház
+        stop_code: 486
+        stop_time: 00:07:00
+      - stop_name: Tejipari Rt.
+        stop_code: 484
+        stop_time: 00:08:00
+      - stop_name: Lemezgyár
+        stop_code: 482
+        stop_time: 00:09:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:11:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:13:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:14:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:15:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:16:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:18:00
+  - trip_id:       181/1
+    service_id:    SZN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [7:50:00, 8:50:00, 9:50:00, 10:50:00, 11:50:00, 12:50:00, 13:50:00, 14:25:00, 14:50:00, 15:25:00, 15:50:00, 16:50:00, 17:50:00, 18:50:00, 19:50:00, 20:50:00, 21:50:00]
+    stop_times: 
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:00:00
+      - stop_name: Back Bernát u.
+        stop_code: 490
+        stop_time: 00:01:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:03:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 487
+        stop_time: 00:04:00
+      - stop_name: CORA áruház
+        stop_code: 486
+        stop_time: 00:07:00
+      - stop_name: Tejipari Rt.
+        stop_code: 484
+        stop_time: 00:08:00
+      - stop_name: Lemezgyár
+        stop_code: 482
+        stop_time: 00:09:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:11:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:13:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:14:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:15:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:16:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:18:00
+  - trip_id:       182/6
+    service_id:    MSZ
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [8:50:00, 9:20:00, 9:50:00, 10:50:00, 11:50:00, 12:50:00, 13:50:00, 14:50:00, 15:50:00, 16:50:00, 17:50:00, 18:50:00, 19:50:00, 20:50:00]
+    stop_times: 
+      - stop_name: Szegedi Ipari Logisztikai Központ
+        stop_code: 492
+        stop_time: 00:00:00
+      - stop_name: Back Bernát u.
+        stop_code: 490
+        stop_time: 00:01:00
+      - stop_name: Gumigyár
+        stop_code: 489
+        stop_time: 00:03:00
+      - stop_name: Házgyár (Öthalmi diáklakások)
+        stop_code: 487
+        stop_time: 00:04:00
+      - stop_name: CORA áruház
+        stop_code: 486
+        stop_time: 00:07:00
+      - stop_name: Tejipari Rt.
+        stop_code: 484
+        stop_time: 00:08:00
+      - stop_name: Lemezgyár
+        stop_code: 482
+        stop_time: 00:09:00
+      - stop_name: Fonógyári út
+        stop_code: 185
+        stop_time: 00:11:00
+      - stop_name: Rókus vá.
+        stop_code: 183
+        stop_time: 00:13:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:14:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:15:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:16:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:18:00

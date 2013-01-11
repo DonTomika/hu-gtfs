@@ -1,0 +1,75 @@
+route_id: SCSK
+route_type: ferry
+route_long_name: Soroksár - Csepel komp
+route_url: http://www.soroksar.hu/Soroksar---8211--Csepel-komp
+agency:
+  agency_id: SCSK
+  agency_lang: hu
+  agency_name: Soroksár-Csepel komp
+  agency_url: http://www.soroksar.hu/Soroksar---8211--Csepel-komp
+  agency_timezone: Europe/Budapest
+trips:
+  - trip_id: SCSK_hetkoznap_A
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: MUNKANAPON
+    stop_times:
+      - stop_name: Soroksár
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Csepel
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 06:00:00
+        end_time: 20:00:01
+        exact_times: 1
+        headway_secs: 3600
+  - trip_id: SCSK_hetkoznap_B
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: MUNKANAPON
+    stop_times:
+      - stop_name: Csepel
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Soroksár
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 06:05:00
+        end_time: 20:05:01
+        exact_times: 1
+        headway_secs: 3600
+  - trip_id: SCSK_hetvege_A
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: HETVEGEN
+    stop_times:
+      - stop_name: Soroksár
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Csepel
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 07:00:00
+        end_time: 20:00:01
+        exact_times: 1
+        headway_secs: 3600
+  - trip_id: SCSK_hetvege_B
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: HETVEGEN
+    stop_times:
+      - stop_name: Csepel
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Soroksár
+        arrival_time: 00:05
+        departure_time: 00:05 
+    frequencies:
+      - start_time: 07:05:00
+        end_time: 20:05:01
+        exact_times: 1
+        headway_secs: 3600

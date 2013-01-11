@@ -1,0 +1,51 @@
+route_id: BL-BL
+route_type: ferry
+route_long_name: Budakalász - Luppa-sziget rév
+route_url: http://www.lupasziget.hu/index.php/menetrend
+agency:
+  agency_id: BL
+  agency_lang: hu
+  agency_name: Budakalász - Luppa-sziget rév
+  agency_phone: +36 30 433 6575
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.lupasziget.hu/index.php/menetrend
+  fares:
+    - fare_id: BL-FARE
+      payment_method: onboard
+      price: 350
+      currency_type: HUF
+      rules:
+        - route_id: BL-BL
+trips:
+  - trip_id: BL-TBL
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Budakalász
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Luppa-sziget
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 07:10:00
+        end_time: 19:10:01
+        headway_secs: 3600
+        exact_times: 1
+  - trip_id: BL_TLB
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Luppa-sziget
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Budakalász
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 07:15:00
+        end_time: 19:15:01
+        headway_secs: 3600
+        exact_times: 1

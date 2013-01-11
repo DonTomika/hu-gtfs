@@ -1,0 +1,487 @@
+---
+route_id:         289
+agency_id:        VT-TRANSMAN-BUDAORS
+route_type:       bus
+route_short_name: 289
+route_desc:       "Budaörsi lakótelep / Ötvös utca"
+trips:
+  - trip_id:       289_1
+    service_id:    TANITASI_MUNKANAPON
+    direction_id:  outbound
+    departures: [6:20:00, 8:45:00, 9:45:00, 10:45:00, 11:45:00, 12:45:00, 13:20:00, 13:50:00, 14:20:00, 16:50:00, 17:20:00, 17:45:00, 18:45:00, 19:45:00]
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Budaörs, Patkó utca
+        stop_time: 00:01:00
+      - stop_name: Alcsíki dűlő
+        stop_time: 00:02:00
+      - stop_name: Árok utca
+        stop_time: 00:02:00
+      - stop_name: Őszirózsa utca
+        stop_time: 00:03:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:04:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:05:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:06:00
+      - stop_name: Széles utca
+        stop_time: 00:07:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:08:00
+      - stop_name: Szabadság út
+        stop_time: 00:09:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:10:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:11:00
+      - stop_name: Templom tér
+        stop_time: 00:12:00
+      - stop_name: Arany János utca
+        stop_time: 00:13:00
+      - stop_name: Stefánia utca
+        stop_time: 00:14:00
+      - stop_name: Hársfa utca
+        stop_time: 00:15:00
+      - stop_name: Városi uszoda
+        stop_time: 00:16:00
+      - stop_name: Budafoki utca
+        stop_time: 00:17:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:18:00
+      - stop_name: Aradi utca
+        stop_time: 00:19:00
+      - stop_name: Rózsa utca
+        stop_time: 00:20:00
+      - stop_name: Réz utca
+        stop_time: 00:21:00
+      - stop_name: Semmelweis utca
+        stop_time: 00:22:00
+      - stop_name: Ötvös utca
+        stop_time: 00:24:00
+  - trip_id:       289_2
+    service_id:    TANITASI_MUNKANAPON
+    direction_id:  outbound
+    departures: [6:50:00, 7:15:00, 7:45:00, 14:50:00, 15:20:00, 15:50:00, 16:20:00]
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Budaörs, Patkó utca
+        stop_time: 00:01:00
+      - stop_name: Alcsíki dűlő
+        stop_time: 00:02:00
+      - stop_name: Árok utca
+        stop_time: 00:03:00
+      - stop_name: Őszirózsa utca
+        stop_time: 00:04:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:05:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:06:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:07:00
+      - stop_name: Széles utca
+        stop_time: 00:08:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:09:00
+      - stop_name: Szabadság út
+        stop_time: 00:10:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:11:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:12:00
+      - stop_name: Templom tér
+        stop_time: 00:14:00
+      - stop_name: Arany János utca
+        stop_time: 00:15:00
+      - stop_name: Stefánia utca
+        stop_time: 00:16:00
+      - stop_name: Hársfa utca
+        stop_time: 00:17:00
+      - stop_name: Városi uszoda
+        stop_time: 00:18:00
+      - stop_name: Budafoki utca
+        stop_time: 00:19:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:20:00
+      - stop_name: Aradi utca
+        stop_time: 00:21:00
+      - stop_name: Rózsa utca
+        stop_time: 00:22:00
+      - stop_name: Réz utca
+        stop_time: 00:23:00
+      - stop_name: Semmelweis utca
+        stop_time: 00:24:00
+      - stop_name: Ötvös utca
+        stop_time: 00:26:00
+  - trip_id:       289_3
+    service_id:    TANSZUNETI_MUNKANAPON
+    direction_id:  outbound
+    departures: [6:45:00, 7:45:00, 8:45:00, 9:45:00, 10:45:00, 11:45:00, 12:45:00, 13:45:00, 14:45:00, 15:45:00, 16:45:00, 17:45:00, 18:45:00, 19:45:00]
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Budaörs, Patkó utca
+        stop_time: 00:01:00
+      - stop_name: Alcsíki dűlő
+        stop_time: 00:02:00
+      - stop_name: Árok utca
+        stop_time: 00:02:00
+      - stop_name: Őszirózsa utca
+        stop_time: 00:03:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:04:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:05:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:06:00
+      - stop_name: Széles utca
+        stop_time: 00:07:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:08:00
+      - stop_name: Szabadság út
+        stop_time: 00:09:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:10:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:11:00
+      - stop_name: Templom tér
+        stop_time: 00:12:00
+      - stop_name: Arany János utca
+        stop_time: 00:13:00
+      - stop_name: Stefánia utca
+        stop_time: 00:14:00
+      - stop_name: Hársfa utca
+        stop_time: 00:15:00
+      - stop_name: Városi uszoda
+        stop_time: 00:16:00
+      - stop_name: Budafoki utca
+        stop_time: 00:17:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:18:00
+      - stop_name: Aradi utca
+        stop_time: 00:19:00
+      - stop_name: Rózsa utca
+        stop_time: 00:20:00
+      - stop_name: Réz utca
+        stop_time: 00:21:00
+      - stop_name: Semmelweis utca
+        stop_time: 00:22:00
+      - stop_name: Ötvös utca
+        stop_time: 00:24:00
+  - trip_id:       289_4
+    service_id:    TANSZUNETI_MUNKANAPON
+    direction_id:  outbound
+    departures: []
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Budaörs, Patkó utca
+        stop_time: 00:01:00
+      - stop_name: Alcsíki dűlő
+        stop_time: 00:02:00
+      - stop_name: Árok utca
+        stop_time: 00:03:00
+      - stop_name: Őszirózsa utca
+        stop_time: 00:04:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:05:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:06:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:07:00
+      - stop_name: Széles utca
+        stop_time: 00:08:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:09:00
+      - stop_name: Szabadság út
+        stop_time: 00:10:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:11:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:12:00
+      - stop_name: Templom tér
+        stop_time: 00:14:00
+      - stop_name: Arany János utca
+        stop_time: 00:15:00
+      - stop_name: Stefánia utca
+        stop_time: 00:16:00
+      - stop_name: Hársfa utca
+        stop_time: 00:17:00
+      - stop_name: Városi uszoda
+        stop_time: 00:18:00
+      - stop_name: Budafoki utca
+        stop_time: 00:19:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:20:00
+      - stop_name: Aradi utca
+        stop_time: 00:21:00
+      - stop_name: Rózsa utca
+        stop_time: 00:22:00
+      - stop_name: Réz utca
+        stop_time: 00:23:00
+      - stop_name: Semmelweis utca
+        stop_time: 00:24:00
+      - stop_name: Ötvös utca
+        stop_time: 00:26:00
+  - trip_id:       289_5
+    service_id:    HETVEGEN
+    direction_id:  outbound
+    departures: [6:45:00, 7:45:00, 8:45:00, 9:45:00, 10:45:00, 11:45:00, 12:45:00, 13:45:00, 14:45:00, 15:45:00, 16:45:00, 17:45:00, 18:45:00, 19:45:00]
+    stop_times:
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:00:00
+      - stop_name: Budaörs, Patkó utca
+        stop_time: 00:01:00
+      - stop_name: Alcsíki dűlő
+        stop_time: 00:02:00
+      - stop_name: Árok utca
+        stop_time: 00:02:00
+      - stop_name: Őszirózsa utca
+        stop_time: 00:03:00
+      - stop_name: Puskás Tivadar utca
+        stop_time: 00:04:00
+      - stop_name: Szivárvány utca
+        stop_time: 00:05:00
+      - stop_name: Bretzfeld utca
+        stop_time: 00:06:00
+      - stop_name: Széles utca
+        stop_time: 00:07:00
+      - stop_name: Petőfi Sándor utca
+        stop_time: 00:08:00
+      - stop_name: Szabadság út
+        stop_time: 00:08:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:09:00
+      - stop_name: Egészségügyi Központ
+        stop_time: 00:10:00
+      - stop_name: Templom tér
+        stop_time: 00:11:00
+      - stop_name: Arany János utca
+        stop_time: 00:12:00
+      - stop_name: Stefánia utca
+        stop_time: 00:13:00
+      - stop_name: Hársfa utca
+        stop_time: 00:14:00
+      - stop_name: Városi uszoda
+        stop_time: 00:15:00
+      - stop_name: Budafoki utca
+        stop_time: 00:16:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:17:00
+      - stop_name: Aradi utca
+        stop_time: 00:18:00
+      - stop_name: Rózsa utca
+        stop_time: 00:19:00
+      - stop_name: Réz utca
+        stop_time: 00:20:00
+      - stop_name: Semmelweis utca
+        stop_time: 00:21:00
+      - stop_name: Ötvös utca
+        stop_time: 00:22:00
+  - trip_id:       289_6
+    service_id:    TANITASI_MUNKANAPON
+    direction_id:  inbound
+    departures: [9:13:00, 10:13:00, 11:13:00, 12:13:00, 13:13:00, 13:47:00, 14:17:00, 17:17:00, 17:47:00, 18:17:00, 19:13:00, 20:13:00]
+    stop_times:
+      - stop_name: Ötvös utca
+        stop_time: 00:00:00
+      - stop_name: Lakatos utca
+        stop_time: 00:01:00
+      - stop_name: Budaörs, Felsőhatár utca
+        stop_time: 00:02:00
+      - stop_name: Tulipán utca
+        stop_time: 00:03:00
+      - stop_name: Ősz utca
+        stop_time: 00:04:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:05:00
+      - stop_name: Budafoki utca
+        stop_time: 00:06:00
+      - stop_name: Városi uszoda
+        stop_time: 00:07:00
+      - stop_name: Hársfa utca
+        stop_time: 00:08:00
+      - stop_name: Stefánia utca
+        stop_time: 00:09:00
+      - stop_name: Templom tér
+        stop_time: 00:10:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:10:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:11:00
+      - stop_name: Szabadság út
+        stop_time: 00:12:00
+      - stop_name: Árpád utca
+        stop_time: 00:13:00
+      - stop_name: Széles utca
+        stop_time: 00:14:00
+      - stop_name: Baross utca
+        stop_time: 00:15:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:16:00
+  - trip_id:       289_7
+    service_id:    TANITASI_MUNKANAPON
+    direction_id:  inbound
+    departures: [6:47:00, 7:17:00, 7:42:00, 8:13:00, 14:47:00, 15:17:00, 15:47:00, 16:17:00, 16:47:00]
+    stop_times:
+      - stop_name: Ötvös utca
+        stop_time: 00:00:00
+      - stop_name: Lakatos utca
+        stop_time: 00:01:00
+      - stop_name: Budaörs, Felsőhatár utca
+        stop_time: 00:02:00
+      - stop_name: Tulipán utca
+        stop_time: 00:03:00
+      - stop_name: Ősz utca
+        stop_time: 00:04:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:05:00
+      - stop_name: Budafoki utca
+        stop_time: 00:06:00
+      - stop_name: Városi uszoda
+        stop_time: 00:08:00
+      - stop_name: Hársfa utca
+        stop_time: 00:09:00
+      - stop_name: Stefánia utca
+        stop_time: 00:10:00
+      - stop_name: Templom tér
+        stop_time: 00:11:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:11:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:12:00
+      - stop_name: Szabadság út
+        stop_time: 00:13:00
+      - stop_name: Árpád utca
+        stop_time: 00:14:00
+      - stop_name: Széles utca
+        stop_time: 00:15:00
+      - stop_name: Baross utca
+        stop_time: 00:16:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:17:00
+  - trip_id:       289_8
+    service_id:    TANSZUNETI_MUNKANAPON
+    direction_id:  inbound
+    departures: [7:13:00, 8:13:00, 9:13:00, 10:13:00, 11:13:00, 12:13:00, 13:13:00, 14:13:00, 15:13:00, 16:13:00, 17:13:00, 18:13:00, 19:13:00, 20:13:00]
+    stop_times:
+      - stop_name: Ötvös utca
+        stop_time: 00:00:00
+      - stop_name: Lakatos utca
+        stop_time: 00:01:00
+      - stop_name: Budaörs, Felsőhatár utca
+        stop_time: 00:02:00
+      - stop_name: Tulipán utca
+        stop_time: 00:03:00
+      - stop_name: Ősz utca
+        stop_time: 00:04:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:05:00
+      - stop_name: Budafoki utca
+        stop_time: 00:06:00
+      - stop_name: Városi uszoda
+        stop_time: 00:07:00
+      - stop_name: Hársfa utca
+        stop_time: 00:08:00
+      - stop_name: Stefánia utca
+        stop_time: 00:09:00
+      - stop_name: Templom tér
+        stop_time: 00:10:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:10:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:11:00
+      - stop_name: Szabadság út
+        stop_time: 00:12:00
+      - stop_name: Árpád utca
+        stop_time: 00:13:00
+      - stop_name: Széles utca
+        stop_time: 00:14:00
+      - stop_name: Baross utca
+        stop_time: 00:15:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:16:00
+  - trip_id:       289_9
+    service_id:    TANSZUNETI_MUNKANAPON
+    direction_id:  inbound
+    departures: []
+    stop_times:
+      - stop_name: Ötvös utca
+        stop_time: 00:00:00
+      - stop_name: Lakatos utca
+        stop_time: 00:01:00
+      - stop_name: Budaörs, Felsőhatár utca
+        stop_time: 00:02:00
+      - stop_name: Tulipán utca
+        stop_time: 00:03:00
+      - stop_name: Ősz utca
+        stop_time: 00:04:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:05:00
+      - stop_name: Budafoki utca
+        stop_time: 00:06:00
+      - stop_name: Városi uszoda
+        stop_time: 00:08:00
+      - stop_name: Hársfa utca
+        stop_time: 00:09:00
+      - stop_name: Stefánia utca
+        stop_time: 00:10:00
+      - stop_name: Templom tér
+        stop_time: 00:11:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:11:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:12:00
+      - stop_name: Szabadság út
+        stop_time: 00:13:00
+      - stop_name: Árpád utca
+        stop_time: 00:14:00
+      - stop_name: Széles utca
+        stop_time: 00:15:00
+      - stop_name: Baross utca
+        stop_time: 00:16:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:17:00
+  - trip_id:       289_10
+    service_id:    HETVEGEN
+    direction_id:  inbound
+    departures: [7:13:00, 8:13:00, 9:13:00, 10:13:00, 11:13:00, 12:13:00, 13:13:00, 14:13:00, 15:13:00, 16:13:00, 17:13:00, 18:13:00, 19:13:00, 20:13:00]
+    stop_times:
+      - stop_name: Ötvös utca
+        stop_time: 00:00:00
+      - stop_name: Lakatos utca
+        stop_time: 00:01:00
+      - stop_name: Budaörs, Felsőhatár utca
+        stop_time: 00:02:00
+      - stop_name: Tulipán utca
+        stop_time: 00:03:00
+      - stop_name: Ősz utca
+        stop_time: 00:03:00
+      - stop_name: Kesjár Csaba Általános Iskola
+        stop_time: 00:04:00
+      - stop_name: Budafoki utca
+        stop_time: 00:05:00
+      - stop_name: Városi uszoda
+        stop_time: 00:06:00
+      - stop_name: Hársfa utca
+        stop_time: 00:07:00
+      - stop_name: Stefánia utca
+        stop_time: 00:08:00
+      - stop_name: Templom tér
+        stop_time: 00:09:00
+      - stop_name: Nefelejcs utca
+        stop_time: 00:09:00
+      - stop_name: Kossuth Lajos utca
+        stop_time: 00:10:00
+      - stop_name: Szabadság út
+        stop_time: 00:11:00
+      - stop_name: Árpád utca
+        stop_time: 00:12:00
+      - stop_name: Széles utca
+        stop_time: 00:12:00
+      - stop_name: Baross utca
+        stop_time: 00:13:00
+      - stop_name: Budaörsi lakótelep
+        stop_time: 00:14:00

@@ -1,0 +1,416 @@
+---
+route_id:         28
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 73
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       132/23
+    service_id:    T
+    trip_headsign: Tápé
+    direction_id:  outbound
+    departures: [4:30:00, 5:00:00, 5:30:00, 5:50:00, 6:10:00, 6:30:00, 6:50:00, 7:10:00, 7:30:00, 8:00:00, 8:30:00, 9:00:00, 9:30:00, 10:00:00, 10:30:00, 11:00:00, 11:30:00, 12:00:00, 12:30:00, 13:00:00, 13:30:00, 13:50:00, 14:10:00, 14:30:00, 14:50:00, 15:10:00, 15:30:00, 15:50:00, 16:10:00, 16:30:00, 16:50:00, 17:10:00, 17:30:00, 18:00:00, 18:30:00, 19:00:00, 19:30:00, 20:30:00, 21:30:00, 22:30:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Hétvezér u.
+        stop_code: 96
+        stop_time: 00:02:00
+      - stop_name: Berlini krt.
+        stop_code: 97
+        stop_time: 00:04:00
+      - stop_name: Gál u.
+        stop_code: 98
+        stop_time: 00:06:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:08:00
+      - stop_name: Hajós u.
+        stop_code: 418
+        stop_time: 00:09:00
+      - stop_name: Széchenyi Gimnázium
+        stop_code: 420
+        stop_time: 00:10:00
+      - stop_name: Etelka sor
+        stop_code: 422
+        stop_time: 00:11:00
+      - stop_name: Szeged SC stadion
+        stop_code: 423
+        stop_time: 00:12:00
+      - stop_name: Duna u.
+        stop_code: 425
+        stop_time: 00:13:00
+      - stop_name: Beszterce u.
+        stop_code: 428
+        stop_time: 00:14:00
+      - stop_name: Árok u.
+        stop_code: 429
+        stop_time: 00:15:00
+      - stop_name: Rév u.
+        stop_code: 432
+        stop_time: 00:16:00
+      - stop_name: Honfoglalás u.
+        stop_code: 434
+        stop_time: 00:17:00
+      - stop_name: Csatár u.
+        stop_code: 435
+        stop_time: 00:18:00
+  - trip_id:       133/12
+    service_id:    WM
+    trip_headsign: Tápé
+    direction_id:  outbound
+    departures: [4:30:00, 5:00:00, 5:30:00, 6:00:00, 6:30:00, 7:00:00, 7:30:00, 8:00:00, 8:30:00, 9:00:00, 9:30:00, 10:00:00, 10:30:00, 11:00:00, 11:30:00, 12:00:00, 12:30:00, 13:00:00, 13:30:00, 14:00:00, 14:30:00, 15:00:00, 15:30:00, 16:00:00, 16:30:00, 17:00:00, 17:30:00, 18:00:00, 18:30:00, 19:00:00, 19:30:00, 20:30:00, 21:30:00, 22:30:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Hétvezér u.
+        stop_code: 96
+        stop_time: 00:02:00
+      - stop_name: Berlini krt.
+        stop_code: 97
+        stop_time: 00:04:00
+      - stop_name: Gál u.
+        stop_code: 98
+        stop_time: 00:06:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:08:00
+      - stop_name: Hajós u.
+        stop_code: 418
+        stop_time: 00:09:00
+      - stop_name: Széchenyi Gimnázium
+        stop_code: 420
+        stop_time: 00:10:00
+      - stop_name: Etelka sor
+        stop_code: 422
+        stop_time: 00:11:00
+      - stop_name: Szeged SC stadion
+        stop_code: 423
+        stop_time: 00:12:00
+      - stop_name: Duna u.
+        stop_code: 425
+        stop_time: 00:13:00
+      - stop_name: Beszterce u.
+        stop_code: 428
+        stop_time: 00:14:00
+      - stop_name: Árok u.
+        stop_code: 429
+        stop_time: 00:15:00
+      - stop_name: Rév u.
+        stop_code: 432
+        stop_time: 00:16:00
+      - stop_name: Honfoglalás u.
+        stop_code: 434
+        stop_time: 00:17:00
+      - stop_name: Csatár u.
+        stop_code: 435
+        stop_time: 00:18:00
+  - trip_id:       134/11
+    service_id:    SZN
+    trip_headsign: Tápé
+    direction_id:  outbound
+    departures: [4:40:00, 5:20:00, 6:00:00, 6:30:00, 7:00:00, 7:30:00, 8:00:00, 8:30:00, 9:00:00, 9:30:00, 10:00:00, 10:30:00, 11:00:00, 11:30:00, 12:00:00, 12:30:00, 13:00:00, 13:40:00, 14:20:00, 15:00:00, 15:40:00, 16:20:00, 17:00:00, 17:40:00, 18:20:00, 19:00:00, 19:40:00, 20:30:00, 21:30:00, 22:30:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Hétvezér u.
+        stop_code: 96
+        stop_time: 00:02:00
+      - stop_name: Berlini krt.
+        stop_code: 97
+        stop_time: 00:04:00
+      - stop_name: Gál u.
+        stop_code: 98
+        stop_time: 00:06:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:08:00
+      - stop_name: Hajós u.
+        stop_code: 418
+        stop_time: 00:09:00
+      - stop_name: Széchenyi Gimnázium
+        stop_code: 420
+        stop_time: 00:10:00
+      - stop_name: Etelka sor
+        stop_code: 422
+        stop_time: 00:11:00
+      - stop_name: Szeged SC stadion
+        stop_code: 423
+        stop_time: 00:12:00
+      - stop_name: Duna u.
+        stop_code: 425
+        stop_time: 00:13:00
+      - stop_name: Beszterce u.
+        stop_code: 428
+        stop_time: 00:14:00
+      - stop_name: Árok u.
+        stop_code: 429
+        stop_time: 00:15:00
+      - stop_name: Rév u.
+        stop_code: 432
+        stop_time: 00:16:00
+      - stop_name: Honfoglalás u.
+        stop_code: 434
+        stop_time: 00:17:00
+      - stop_name: Csatár u.
+        stop_code: 435
+        stop_time: 00:18:00
+  - trip_id:       135/25
+    service_id:    MSZ
+    trip_headsign: Tápé
+    direction_id:  outbound
+    departures: [5:00:00, 5:40:00, 6:20:00, 7:00:00, 7:40:00, 8:20:00, 9:00:00, 9:40:00, 10:20:00, 11:00:00, 11:40:00, 12:20:00, 13:00:00, 13:40:00, 14:20:00, 15:00:00, 15:40:00, 16:20:00, 17:00:00, 17:40:00, 18:20:00, 19:00:00, 19:40:00, 20:30:00, 21:30:00, 22:30:00]
+    stop_times: 
+      - stop_name: Mars tér (üzletsor)
+        stop_code: 261
+        stop_time: 00:00:00
+      - stop_name: Hétvezér u.
+        stop_code: 96
+        stop_time: 00:02:00
+      - stop_name: Berlini krt.
+        stop_code: 97
+        stop_time: 00:04:00
+      - stop_name: Gál u.
+        stop_code: 98
+        stop_time: 00:06:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:08:00
+      - stop_name: Hajós u.
+        stop_code: 418
+        stop_time: 00:09:00
+      - stop_name: Széchenyi Gimnázium
+        stop_code: 420
+        stop_time: 00:10:00
+      - stop_name: Etelka sor
+        stop_code: 422
+        stop_time: 00:11:00
+      - stop_name: Szeged SC stadion
+        stop_code: 423
+        stop_time: 00:12:00
+      - stop_name: Duna u.
+        stop_code: 425
+        stop_time: 00:13:00
+      - stop_name: Beszterce u.
+        stop_code: 428
+        stop_time: 00:14:00
+      - stop_name: Árok u.
+        stop_code: 429
+        stop_time: 00:15:00
+      - stop_name: Rév u.
+        stop_code: 432
+        stop_time: 00:16:00
+      - stop_name: Honfoglalás u.
+        stop_code: 434
+        stop_time: 00:17:00
+      - stop_name: Csatár u.
+        stop_code: 435
+        stop_time: 00:18:00
+  - trip_id:       136/39
+    service_id:    T
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:35:00, 5:05:00, 5:35:00, 6:00:00, 6:20:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:05:00, 8:35:00, 9:05:00, 9:35:00, 10:05:00, 10:35:00, 11:05:00, 11:35:00, 12:05:00, 12:35:00, 13:05:00, 13:35:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:05:00, 18:35:00, 19:05:00, 19:35:00, 20:20:00, 21:20:00, 22:20:00, 23:20:00]
+    stop_times: 
+      - stop_name: Csatár u.
+        stop_code: 435
+        stop_time: 00:00:00
+      - stop_name: Honfoglalás u.
+        stop_code: 433
+        stop_time: 00:01:00
+      - stop_name: Rév u.
+        stop_code: 431
+        stop_time: 00:02:00
+      - stop_name: Árok u.
+        stop_code: 430
+        stop_time: 00:03:00
+      - stop_name: Beszterce u.
+        stop_code: 427
+        stop_time: 00:04:00
+      - stop_name: Duna u.
+        stop_code: 426
+        stop_time: 00:05:00
+      - stop_name: Szeged SC stadion
+        stop_code: 424
+        stop_time: 00:06:00
+      - stop_name: Etelka sor
+        stop_code: 421
+        stop_time: 00:07:00
+      - stop_name: Széchenyi Gimnázium
+        stop_code: 419
+        stop_time: 00:08:00
+      - stop_name: Hajós u.
+        stop_code: 417
+        stop_time: 00:09:00
+      - stop_name: Cipőgyár (Római krt.)
+        stop_code: 80
+        stop_time: 00:10:00
+      - stop_name: Sándor u.
+        stop_code: 81
+        stop_time: 00:12:00
+      - stop_name: Berlini krt.
+        stop_code: 82
+        stop_time: 00:14:00
+      - stop_name: Hétvezér u.
+        stop_code: 83
+        stop_time: 00:16:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:18:00
+  - trip_id:       137/14
+    service_id:    WM
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:35:00, 5:05:00, 5:35:00, 6:05:00, 6:35:00, 7:05:00, 7:35:00, 8:05:00, 8:35:00, 9:05:00, 9:35:00, 10:05:00, 10:35:00, 11:05:00, 11:35:00, 12:05:00, 12:35:00, 13:05:00, 13:35:00, 14:05:00, 14:35:00, 15:05:00, 15:35:00, 16:05:00, 16:35:00, 17:05:00, 17:35:00, 18:05:00, 18:35:00, 19:05:00, 19:35:00, 20:20:00, 21:20:00, 22:20:00, 23:20:00]
+    stop_times: 
+      - stop_name: Csatár u.
+        stop_code: 435
+        stop_time: 00:00:00
+      - stop_name: Honfoglalás u.
+        stop_code: 433
+        stop_time: 00:01:00
+      - stop_name: Rév u.
+        stop_code: 431
+        stop_time: 00:02:00
+      - stop_name: Árok u.
+        stop_code: 430
+        stop_time: 00:03:00
+      - stop_name: Beszterce u.
+        stop_code: 427
+        stop_time: 00:04:00
+      - stop_name: Duna u.
+        stop_code: 426
+        stop_time: 00:05:00
+      - stop_name: Szeged SC stadion
+        stop_code: 424
+        stop_time: 00:06:00
+      - stop_name: Etelka sor
+        stop_code: 421
+        stop_time: 00:07:00
+      - stop_name: Széchenyi Gimnázium
+        stop_code: 419
+        stop_time: 00:08:00
+      - stop_name: Hajós u.
+        stop_code: 417
+        stop_time: 00:09:00
+      - stop_name: Cipőgyár (Római krt.)
+        stop_code: 80
+        stop_time: 00:10:00
+      - stop_name: Sándor u.
+        stop_code: 81
+        stop_time: 00:12:00
+      - stop_name: Berlini krt.
+        stop_code: 82
+        stop_time: 00:14:00
+      - stop_name: Hétvezér u.
+        stop_code: 83
+        stop_time: 00:16:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:18:00
+  - trip_id:       138/30
+    service_id:    SZN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:40:00, 5:20:00, 6:00:00, 6:35:00, 7:05:00, 7:35:00, 8:05:00, 8:35:00, 9:05:00, 9:35:00, 10:05:00, 10:35:00, 11:05:00, 11:35:00, 12:05:00, 12:35:00, 13:05:00, 13:40:00, 14:20:00, 15:00:00, 15:40:00, 16:20:00, 17:00:00, 17:40:00, 18:20:00, 19:00:00, 19:40:00, 20:20:00, 21:20:00, 22:20:00, 23:20:00]
+    stop_times: 
+      - stop_name: Csatár u.
+        stop_code: 435
+        stop_time: 00:00:00
+      - stop_name: Honfoglalás u.
+        stop_code: 433
+        stop_time: 00:01:00
+      - stop_name: Rév u.
+        stop_code: 431
+        stop_time: 00:02:00
+      - stop_name: Árok u.
+        stop_code: 430
+        stop_time: 00:03:00
+      - stop_name: Beszterce u.
+        stop_code: 427
+        stop_time: 00:04:00
+      - stop_name: Duna u.
+        stop_code: 426
+        stop_time: 00:05:00
+      - stop_name: Szeged SC stadion
+        stop_code: 424
+        stop_time: 00:06:00
+      - stop_name: Etelka sor
+        stop_code: 421
+        stop_time: 00:07:00
+      - stop_name: Széchenyi Gimnázium
+        stop_code: 419
+        stop_time: 00:08:00
+      - stop_name: Hajós u.
+        stop_code: 417
+        stop_time: 00:09:00
+      - stop_name: Cipőgyár (Római krt.)
+        stop_code: 80
+        stop_time: 00:10:00
+      - stop_name: Sándor u.
+        stop_code: 81
+        stop_time: 00:12:00
+      - stop_name: Berlini krt.
+        stop_code: 82
+        stop_time: 00:14:00
+      - stop_name: Hétvezér u.
+        stop_code: 83
+        stop_time: 00:16:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:18:00
+  - trip_id:       139/10
+    service_id:    MSZ
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:20:00, 5:00:00, 5:40:00, 6:20:00, 7:00:00, 7:40:00, 8:20:00, 9:00:00, 9:40:00, 10:20:00, 11:00:00, 11:40:00, 12:20:00, 13:00:00, 13:40:00, 14:20:00, 15:00:00, 15:40:00, 16:20:00, 17:00:00, 17:40:00, 18:20:00, 19:00:00, 19:40:00, 20:20:00, 21:20:00, 22:20:00, 23:20:00]
+    stop_times: 
+      - stop_name: Csatár u.
+        stop_code: 435
+        stop_time: 00:00:00
+      - stop_name: Honfoglalás u.
+        stop_code: 433
+        stop_time: 00:01:00
+      - stop_name: Rév u.
+        stop_code: 431
+        stop_time: 00:02:00
+      - stop_name: Árok u.
+        stop_code: 430
+        stop_time: 00:03:00
+      - stop_name: Beszterce u.
+        stop_code: 427
+        stop_time: 00:04:00
+      - stop_name: Duna u.
+        stop_code: 426
+        stop_time: 00:05:00
+      - stop_name: Szeged SC stadion
+        stop_code: 424
+        stop_time: 00:06:00
+      - stop_name: Etelka sor
+        stop_code: 421
+        stop_time: 00:07:00
+      - stop_name: Széchenyi Gimnázium
+        stop_code: 419
+        stop_time: 00:08:00
+      - stop_name: Hajós u.
+        stop_code: 417
+        stop_time: 00:09:00
+      - stop_name: Cipőgyár (Római krt.)
+        stop_code: 80
+        stop_time: 00:10:00
+      - stop_name: Sándor u.
+        stop_code: 81
+        stop_time: 00:12:00
+      - stop_name: Berlini krt.
+        stop_code: 82
+        stop_time: 00:14:00
+      - stop_name: Hétvezér u.
+        stop_code: 83
+        stop_time: 00:16:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:18:00

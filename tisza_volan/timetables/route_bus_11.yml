@@ -1,0 +1,278 @@
+---
+route_id:         7
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 11
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       2/38
+    service_id:    MN
+    trip_headsign: Személypályaudvar
+    direction_id:  outbound
+    departures: [4:10:00, 4:40:00, 5:00:00, 5:20:00, 5:40:00, 6:00:00, 6:20:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:50:00, 19:20:00, 19:50:00, 20:20:00, 20:50:00, 21:20:00, 21:50:00, 22:20:00]
+    stop_times: 
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 77
+        stop_time: 00:00:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 78
+        stop_time: 00:01:00
+      - stop_name: Fecske u.
+        stop_code: 79
+        stop_time: 00:03:00
+      - stop_name: Cipőgyár (Római krt.)
+        stop_code: 80
+        stop_time: 00:04:00
+      - stop_name: Sándor u.
+        stop_code: 81
+        stop_time: 00:06:00
+      - stop_name: Berlini krt.
+        stop_code: 82
+        stop_time: 00:08:00
+      - stop_name: Hétvezér u.
+        stop_code: 83
+        stop_time: 00:10:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:12:00
+      - stop_name: Kálvária sgt.
+        stop_code: 85
+        stop_time: 00:14:00
+      - stop_name: Petőfi Sándor sgt.
+        stop_code: 86
+        stop_time: 00:16:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:17:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:18:00
+      - stop_name: Személypályaudvar
+        stop_code: 89
+        stop_time: 00:19:00
+  - trip_id:       3/35
+    service_id:    SZN
+    trip_headsign: Személypályaudvar
+    direction_id:  outbound
+    departures: [4:10:00, 4:40:00, 5:00:00, 5:20:00, 5:40:00, 6:00:00, 6:20:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:50:00, 14:20:00, 14:50:00, 15:20:00, 15:50:00, 16:20:00, 16:50:00, 17:20:00, 17:50:00, 18:20:00, 18:50:00, 19:20:00, 19:50:00, 20:20:00, 20:50:00, 21:20:00, 21:50:00, 22:20:00]
+    stop_times: 
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 77
+        stop_time: 00:00:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 78
+        stop_time: 00:01:00
+      - stop_name: Fecske u.
+        stop_code: 79
+        stop_time: 00:03:00
+      - stop_name: Cipőgyár (Római krt.)
+        stop_code: 80
+        stop_time: 00:04:00
+      - stop_name: Sándor u.
+        stop_code: 81
+        stop_time: 00:06:00
+      - stop_name: Berlini krt.
+        stop_code: 82
+        stop_time: 00:08:00
+      - stop_name: Hétvezér u.
+        stop_code: 83
+        stop_time: 00:10:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:12:00
+      - stop_name: Kálvária sgt.
+        stop_code: 85
+        stop_time: 00:14:00
+      - stop_name: Petőfi Sándor sgt.
+        stop_code: 86
+        stop_time: 00:16:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:17:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:18:00
+      - stop_name: Személypályaudvar
+        stop_code: 89
+        stop_time: 00:19:00
+  - trip_id:       4/31
+    service_id:    MSZ
+    trip_headsign: Személypályaudvar
+    direction_id:  outbound
+    departures: [4:10:00, 4:50:00, 5:20:00, 5:50:00, 6:20:00, 6:50:00, 7:20:00, 7:50:00, 8:20:00, 8:50:00, 9:20:00, 9:50:00, 10:20:00, 10:50:00, 11:20:00, 11:50:00, 12:20:00, 12:50:00, 13:20:00, 13:50:00, 14:20:00, 14:50:00, 15:20:00, 15:50:00, 16:20:00, 16:50:00, 17:20:00, 17:50:00, 18:20:00, 18:50:00, 19:20:00, 19:50:00, 20:20:00, 20:50:00, 21:20:00, 21:50:00, 22:20:00]
+    stop_times: 
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 77
+        stop_time: 00:00:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 78
+        stop_time: 00:01:00
+      - stop_name: Fecske u.
+        stop_code: 79
+        stop_time: 00:03:00
+      - stop_name: Cipőgyár (Római krt.)
+        stop_code: 80
+        stop_time: 00:04:00
+      - stop_name: Sándor u.
+        stop_code: 81
+        stop_time: 00:06:00
+      - stop_name: Berlini krt.
+        stop_code: 82
+        stop_time: 00:08:00
+      - stop_name: Hétvezér u.
+        stop_code: 83
+        stop_time: 00:10:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:12:00
+      - stop_name: Kálvária sgt.
+        stop_code: 85
+        stop_time: 00:14:00
+      - stop_name: Petőfi Sándor sgt.
+        stop_code: 86
+        stop_time: 00:16:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:17:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:18:00
+      - stop_name: Személypályaudvar
+        stop_code: 89
+        stop_time: 00:19:00
+  - trip_id:       6/1
+    service_id:    MN
+    trip_headsign: Tarján, Víztorony tér
+    direction_id:  inbound
+    departures: [4:25:00, 4:45:00, 5:05:00, 5:25:00, 5:45:00, 6:05:00, 6:25:00, 6:45:00, 7:05:00, 7:25:00, 7:45:00, 8:05:00, 8:25:00, 8:45:00, 9:05:00, 9:25:00, 9:45:00, 10:05:00, 10:25:00, 10:45:00, 11:05:00, 11:25:00, 11:45:00, 12:05:00, 12:25:00, 12:45:00, 13:05:00, 13:25:00, 13:45:00, 14:05:00, 14:25:00, 14:45:00, 15:05:00, 15:25:00, 15:45:00, 16:05:00, 16:25:00, 16:45:00, 17:05:00, 17:25:00, 17:45:00, 18:05:00, 18:25:00, 18:45:00, 19:10:00, 19:40:00, 20:10:00, 20:40:00, 21:10:00, 21:40:00, 22:10:00, 22:40:00]
+    stop_times: 
+      - stop_name: Személypályaudvar
+        stop_code: 90
+        stop_time: 00:00:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:01:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:02:00
+      - stop_name: Petőfi Sándor sgt.
+        stop_code: 93
+        stop_time: 00:03:00
+      - stop_name: Kálvária sgt.
+        stop_code: 94
+        stop_time: 00:05:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 95
+        stop_time: 00:07:00
+      - stop_name: Hétvezér u.
+        stop_code: 96
+        stop_time: 00:09:00
+      - stop_name: Berlini krt.
+        stop_code: 97
+        stop_time: 00:11:00
+      - stop_name: Gál u.
+        stop_code: 98
+        stop_time: 00:13:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:15:00
+      - stop_name: Fecske u.
+        stop_code: 100
+        stop_time: 00:16:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 101
+        stop_time: 00:18:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 102
+        stop_time: 00:19:00
+  - trip_id:       7/3
+    service_id:    SZN
+    trip_headsign: Tarján, Víztorony tér
+    direction_id:  inbound
+    departures: [4:25:00, 4:45:00, 5:05:00, 5:25:00, 5:45:00, 6:05:00, 6:25:00, 6:45:00, 7:05:00, 7:25:00, 7:45:00, 8:05:00, 8:25:00, 8:45:00, 9:05:00, 9:25:00, 9:45:00, 10:05:00, 10:25:00, 10:45:00, 11:05:00, 11:25:00, 11:45:00, 12:05:00, 12:25:00, 12:45:00, 13:05:00, 13:25:00, 13:45:00, 14:10:00, 14:40:00, 15:10:00, 15:40:00, 16:10:00, 16:40:00, 17:10:00, 17:40:00, 18:10:00, 18:40:00, 19:10:00, 19:40:00, 20:10:00, 20:40:00, 21:10:00, 21:40:00, 22:10:00, 22:40:00]
+    stop_times: 
+      - stop_name: Személypályaudvar
+        stop_code: 90
+        stop_time: 00:00:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:01:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:02:00
+      - stop_name: Petőfi Sándor sgt.
+        stop_code: 93
+        stop_time: 00:03:00
+      - stop_name: Kálvária sgt.
+        stop_code: 94
+        stop_time: 00:05:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 95
+        stop_time: 00:07:00
+      - stop_name: Hétvezér u.
+        stop_code: 96
+        stop_time: 00:09:00
+      - stop_name: Berlini krt.
+        stop_code: 97
+        stop_time: 00:11:00
+      - stop_name: Gál u.
+        stop_code: 98
+        stop_time: 00:13:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:15:00
+      - stop_name: Fecske u.
+        stop_code: 100
+        stop_time: 00:16:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 101
+        stop_time: 00:18:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 102
+        stop_time: 00:19:00
+  - trip_id:       8/19
+    service_id:    MSZ
+    trip_headsign: Tarján, Víztorony tér
+    direction_id:  inbound
+    departures: [4:40:00, 5:10:00, 5:40:00, 6:10:00, 6:40:00, 7:10:00, 7:40:00, 8:10:00, 8:40:00, 9:10:00, 9:40:00, 10:10:00, 10:40:00, 11:10:00, 11:40:00, 12:10:00, 12:40:00, 13:10:00, 13:40:00, 14:10:00, 14:40:00, 15:10:00, 15:40:00, 16:10:00, 16:40:00, 17:10:00, 17:40:00, 18:10:00, 18:40:00, 19:10:00, 19:40:00, 20:10:00, 20:40:00, 21:10:00, 21:40:00, 22:10:00, 22:40:00]
+    stop_times: 
+      - stop_name: Személypályaudvar
+        stop_code: 90
+        stop_time: 00:00:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:01:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:02:00
+      - stop_name: Petőfi Sándor sgt.
+        stop_code: 93
+        stop_time: 00:03:00
+      - stop_name: Kálvária sgt.
+        stop_code: 94
+        stop_time: 00:05:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 95
+        stop_time: 00:07:00
+      - stop_name: Hétvezér u.
+        stop_code: 96
+        stop_time: 00:09:00
+      - stop_name: Berlini krt.
+        stop_code: 97
+        stop_time: 00:11:00
+      - stop_name: Gál u.
+        stop_code: 98
+        stop_time: 00:13:00
+      - stop_name: Cipőgyár (Szilléri sgt.)
+        stop_code: 99
+        stop_time: 00:15:00
+      - stop_name: Fecske u.
+        stop_code: 100
+        stop_time: 00:16:00
+      - stop_name: Csillag tér (Budapesti krt.)
+        stop_code: 101
+        stop_time: 00:18:00
+      - stop_name: Tarján, Víztorony tér
+        stop_code: 102
+        stop_time: 00:19:00

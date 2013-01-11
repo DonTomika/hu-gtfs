@@ -1,0 +1,51 @@
+route_id: SZT-SZT
+route_type: ferry
+route_long_name: Százhalombatta - Tököl komp
+route_url: http://www.battanet.hu/battanet4/bel_vallbemut2.php?azon=15
+agency:
+  agency_id: SZT
+  agency_lang: hu
+  agency_name: Százhalombatta - Tököl komp
+  agency_phone: +36 30 41 88 430
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.battanet.hu/battanet4/bel_vallbemut2.php?azon=15
+  fares:
+    - fare_id: SZT-FARE
+      payment_method: onboard
+      price: 300
+      currency_type: HUF
+      rules:
+        - route_id: SZT-SZT
+trips:
+  - trip_id: SZT-TSZT
+    direction_id: outbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Százhalombatta
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Tököl
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 07:00:00
+        end_time: 19:00:01
+        headway_secs: 3600
+        exact_times: 1
+  - trip_id: SZT-TTSZ
+    direction_id: inbound
+    trip_bikes_allowed: 2
+    service_id: NAPONTA
+    stop_times:
+      - stop_name: Tököl
+        arrival_time: 00:00
+        departure_time: 00:00
+      - stop_name: Százhalombatta
+        arrival_time: 00:05
+        departure_time: 00:05
+    frequencies:
+      - start_time: 07:05:00
+        end_time: 19:05:01
+        headway_secs: 3600
+        exact_times: 1

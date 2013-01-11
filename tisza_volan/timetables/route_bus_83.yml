@@ -1,0 +1,608 @@
+---
+route_id:         8
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 83
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       10/17
+    service_id:    MSZ
+    trip_headsign: Alsóváros, Vadkerti tér
+    direction_id:  outbound
+    departures: [4:45:00, 5:15:00, 5:45:00, 6:15:00, 6:45:00, 7:15:00, 7:45:00, 8:10:00, 8:30:00, 8:50:00, 9:10:00, 9:30:00, 9:50:00, 10:10:00, 10:30:00, 10:50:00, 11:10:00, 11:30:00, 11:50:00, 12:10:00, 12:30:00, 12:50:00, 13:10:00, 13:30:00, 13:50:00, 14:10:00, 14:30:00, 14:50:00, 15:10:00, 15:30:00, 15:50:00, 16:10:00, 16:30:00, 16:50:00, 17:10:00, 17:30:00, 17:50:00, 18:10:00, 18:30:00, 18:50:00, 19:10:00, 19:30:00, 19:50:00, 20:10:00, 20:30:00, 20:50:00, 21:15:00, 21:45:00, 22:15:00, 22:45:00, 23:15:00]
+    stop_times: 
+      - stop_name: Makkosház
+        stop_code: 105
+        stop_time: 00:00:00
+      - stop_name: Ipoly sor
+        stop_code: 106
+        stop_time: 00:01:00
+      - stop_name: Makkosházi krt.
+        stop_code: 107
+        stop_time: 00:03:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:04:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:05:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:06:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:12:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:14:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 122
+        stop_time: 00:16:00
+      - stop_name: Honvéd tér
+        stop_code: 125
+        stop_time: 00:17:00
+      - stop_name: SZTK Rendelő
+        stop_code: 127
+        stop_time: 00:18:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:19:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:20:00
+      - stop_name: Bem u.
+        stop_code: 129
+        stop_time: 00:21:00
+      - stop_name: Szabadsajtó u.
+        stop_code: 103
+        stop_time: 00:22:00
+      - stop_name: Csonka u.
+        stop_code: 104
+        stop_time: 00:23:00
+      - stop_name: Szabadság tér
+        stop_code: 134
+        stop_time: 00:24:00
+      - stop_name: Vadkerti tér
+        stop_code: 135
+        stop_time: 00:26:00
+      - stop_name: Vadkerti tér, buszforduló
+        stop_code: 136
+        stop_time: 00:27:00
+  - trip_id:       11/2
+    service_id:    T
+    trip_headsign: Alsóváros, Vadkerti tér
+    direction_id:  outbound
+    departures: [6:40:00, 7:00:00]
+    stop_times: 
+      - stop_name: Makkosház
+        stop_code: 105
+        stop_time: 00:00:00
+      - stop_name: Ipoly sor
+        stop_code: 106
+        stop_time: 00:01:00
+      - stop_name: Makkosházi krt.
+        stop_code: 107
+        stop_time: 00:03:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:04:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:05:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:06:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:12:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:14:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 122
+        stop_time: 00:16:00
+      - stop_name: Honvéd tér
+        stop_code: 125
+        stop_time: 00:17:00
+      - stop_name: SZTK Rendelő
+        stop_code: 127
+        stop_time: 00:18:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:19:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:20:00
+      - stop_name: Bem u.
+        stop_code: 129
+        stop_time: 00:21:00
+      - stop_name: Szabadsajtó u.
+        stop_code: 103
+        stop_time: 00:22:00
+      - stop_name: Csonka u.
+        stop_code: 104
+        stop_time: 00:23:00
+      - stop_name: Szabadság tér
+        stop_code: 134
+        stop_time: 00:24:00
+      - stop_name: Vadkerti tér
+        stop_code: 135
+        stop_time: 00:26:00
+      - stop_name: Vadkerti tér, buszforduló
+        stop_code: 136
+        stop_time: 00:27:00
+  - trip_id:       12/36
+    service_id:    MN
+    trip_headsign: Makkosház
+    direction_id:  inbound
+    departures: [4:40:00, 5:00:00, 5:20:00, 5:40:00, 6:00:00, 6:20:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:00:00, 21:20:00, 21:45:00, 22:15:00, 22:45:00, 23:25:00]
+    stop_times: 
+      - stop_name: Vadkerti tér, buszforduló
+        stop_code: 136
+        stop_time: 00:00:00
+      - stop_name: Vadkerti tér
+        stop_code: 133
+        stop_time: 00:01:00
+      - stop_name: Szabadság tér
+        stop_code: 132
+        stop_time: 00:03:00
+      - stop_name: Csonka u.
+        stop_code: 131
+        stop_time: 00:04:00
+      - stop_name: Szabadsajtó u.
+        stop_code: 130
+        stop_time: 00:05:00
+      - stop_name: Személypályaudvar
+        stop_code: 90
+        stop_time: 00:07:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:08:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:09:00
+      - stop_name: SZTK Rendelő
+        stop_code: 128
+        stop_time: 00:10:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:11:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 124
+        stop_time: 00:12:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:13:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 95
+        stop_time: 00:15:00
+      - stop_name: Rókusi templom
+        stop_code: 137
+        stop_time: 00:17:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:18:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:19:00
+      - stop_name: Kisteleki u.
+        stop_code: 140
+        stop_time: 00:21:00
+      - stop_name: Rókusi víztorony
+        stop_code: 141
+        stop_time: 00:22:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 142
+        stop_time: 00:23:00
+      - stop_name: Vértó
+        stop_code: 143
+        stop_time: 00:25:00
+      - stop_name: Makkosházi krt.
+        stop_code: 144
+        stop_time: 00:26:00
+      - stop_name: Ipoly sor
+        stop_code: 145
+        stop_time: 00:27:00
+      - stop_name: Makkosház
+        stop_code: 146
+        stop_time: 00:28:00
+  - trip_id:       13/27
+    service_id:    SZN
+    trip_headsign: Makkosház
+    direction_id:  inbound
+    departures: [4:45:00, 5:15:00, 5:45:00, 6:15:00, 6:40:00, 7:00:00, 7:20:00, 7:40:00, 8:00:00, 8:20:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:00:00, 21:20:00, 21:45:00, 22:15:00, 22:45:00, 23:25:00]
+    stop_times: 
+      - stop_name: Vadkerti tér, buszforduló
+        stop_code: 136
+        stop_time: 00:00:00
+      - stop_name: Vadkerti tér
+        stop_code: 133
+        stop_time: 00:01:00
+      - stop_name: Szabadság tér
+        stop_code: 132
+        stop_time: 00:03:00
+      - stop_name: Csonka u.
+        stop_code: 131
+        stop_time: 00:04:00
+      - stop_name: Szabadsajtó u.
+        stop_code: 130
+        stop_time: 00:05:00
+      - stop_name: Személypályaudvar
+        stop_code: 90
+        stop_time: 00:07:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:08:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:09:00
+      - stop_name: SZTK Rendelő
+        stop_code: 128
+        stop_time: 00:10:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:11:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 124
+        stop_time: 00:12:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:13:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 95
+        stop_time: 00:15:00
+      - stop_name: Rókusi templom
+        stop_code: 137
+        stop_time: 00:17:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:18:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:19:00
+      - stop_name: Kisteleki u.
+        stop_code: 140
+        stop_time: 00:21:00
+      - stop_name: Rókusi víztorony
+        stop_code: 141
+        stop_time: 00:22:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 142
+        stop_time: 00:23:00
+      - stop_name: Vértó
+        stop_code: 143
+        stop_time: 00:25:00
+      - stop_name: Makkosházi krt.
+        stop_code: 144
+        stop_time: 00:26:00
+      - stop_name: Ipoly sor
+        stop_code: 145
+        stop_time: 00:27:00
+      - stop_name: Makkosház
+        stop_code: 146
+        stop_time: 00:28:00
+  - trip_id:       14/25
+    service_id:    MSZ
+    trip_headsign: Makkosház
+    direction_id:  inbound
+    departures: [4:45:00, 5:15:00, 5:45:00, 6:15:00, 6:45:00, 7:15:00, 7:45:00, 8:15:00, 8:40:00, 9:00:00, 9:20:00, 9:40:00, 10:00:00, 10:20:00, 10:40:00, 11:00:00, 11:20:00, 11:40:00, 12:00:00, 12:20:00, 12:40:00, 13:00:00, 13:20:00, 13:40:00, 14:00:00, 14:20:00, 14:40:00, 15:00:00, 15:20:00, 15:40:00, 16:00:00, 16:20:00, 16:40:00, 17:00:00, 17:20:00, 17:40:00, 18:00:00, 18:20:00, 18:40:00, 19:00:00, 19:20:00, 19:40:00, 20:00:00, 20:20:00, 20:40:00, 21:00:00, 21:20:00, 21:45:00, 22:15:00, 22:45:00, 23:25:00]
+    stop_times: 
+      - stop_name: Vadkerti tér, buszforduló
+        stop_code: 136
+        stop_time: 00:00:00
+      - stop_name: Vadkerti tér
+        stop_code: 133
+        stop_time: 00:01:00
+      - stop_name: Szabadság tér
+        stop_code: 132
+        stop_time: 00:03:00
+      - stop_name: Csonka u.
+        stop_code: 131
+        stop_time: 00:04:00
+      - stop_name: Szabadsajtó u.
+        stop_code: 130
+        stop_time: 00:05:00
+      - stop_name: Személypályaudvar
+        stop_code: 90
+        stop_time: 00:07:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:08:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:09:00
+      - stop_name: SZTK Rendelő
+        stop_code: 128
+        stop_time: 00:10:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:11:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 124
+        stop_time: 00:12:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:13:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 95
+        stop_time: 00:15:00
+      - stop_name: Rókusi templom
+        stop_code: 137
+        stop_time: 00:17:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:18:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:19:00
+      - stop_name: Kisteleki u.
+        stop_code: 140
+        stop_time: 00:21:00
+      - stop_name: Rókusi víztorony
+        stop_code: 141
+        stop_time: 00:22:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 142
+        stop_time: 00:23:00
+      - stop_name: Vértó
+        stop_code: 143
+        stop_time: 00:25:00
+      - stop_name: Makkosházi krt.
+        stop_code: 144
+        stop_time: 00:26:00
+      - stop_name: Ipoly sor
+        stop_code: 145
+        stop_time: 00:27:00
+      - stop_name: Makkosház
+        stop_code: 146
+        stop_time: 00:28:00
+  - trip_id:       16/2
+    service_id:    T
+    trip_headsign: Makkosház
+    direction_id:  inbound
+    departures: [7:10:00, 7:30:00]
+    stop_times: 
+      - stop_name: Vadkerti tér, buszforduló
+        stop_code: 136
+        stop_time: 00:00:00
+      - stop_name: Vadkerti tér
+        stop_code: 133
+        stop_time: 00:01:00
+      - stop_name: Szabadság tér
+        stop_code: 132
+        stop_time: 00:03:00
+      - stop_name: Csonka u.
+        stop_code: 131
+        stop_time: 00:04:00
+      - stop_name: Szabadsajtó u.
+        stop_code: 130
+        stop_time: 00:05:00
+      - stop_name: Személypályaudvar
+        stop_code: 90
+        stop_time: 00:07:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 91
+        stop_time: 00:08:00
+      - stop_name: Bécsi krt.
+        stop_code: 92
+        stop_time: 00:09:00
+      - stop_name: SZTK Rendelő
+        stop_code: 128
+        stop_time: 00:10:00
+      - stop_name: Dugonics tér
+        stop_code: 126
+        stop_time: 00:11:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 124
+        stop_time: 00:12:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:13:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 95
+        stop_time: 00:15:00
+      - stop_name: Rókusi templom
+        stop_code: 137
+        stop_time: 00:17:00
+      - stop_name: Tavasz u.
+        stop_code: 138
+        stop_time: 00:18:00
+      - stop_name: Damjanich u.
+        stop_code: 139
+        stop_time: 00:19:00
+      - stop_name: Kisteleki u.
+        stop_code: 140
+        stop_time: 00:21:00
+      - stop_name: Rókusi víztorony
+        stop_code: 141
+        stop_time: 00:22:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 142
+        stop_time: 00:23:00
+      - stop_name: Vértó
+        stop_code: 143
+        stop_time: 00:25:00
+      - stop_name: Makkosházi krt.
+        stop_code: 144
+        stop_time: 00:26:00
+      - stop_name: Ipoly sor
+        stop_code: 145
+        stop_time: 00:27:00
+      - stop_name: Makkosház
+        stop_code: 146
+        stop_time: 00:28:00
+  - trip_id:       5/52
+    service_id:    MN
+    trip_headsign: Alsóváros, Vadkerti tér
+    direction_id:  outbound
+    departures: [4:30:00, 4:50:00, 5:10:00, 5:30:00, 5:50:00, 6:10:00, 6:30:00, 6:50:00, 7:10:00, 7:30:00, 7:50:00, 8:10:00, 8:30:00, 8:50:00, 9:10:00, 9:30:00, 9:50:00, 10:10:00, 10:30:00, 10:50:00, 11:10:00, 11:30:00, 11:50:00, 12:10:00, 12:30:00, 12:50:00, 13:10:00, 13:30:00, 13:50:00, 14:10:00, 14:30:00, 14:50:00, 15:10:00, 15:30:00, 15:50:00, 16:10:00, 16:30:00, 16:50:00, 17:10:00, 17:30:00, 17:50:00, 18:10:00, 18:30:00, 18:50:00, 19:10:00, 19:30:00, 19:50:00, 20:10:00, 20:30:00, 20:50:00, 21:15:00, 21:45:00, 22:15:00, 22:45:00, 23:15:00]
+    stop_times: 
+      - stop_name: Makkosház
+        stop_code: 105
+        stop_time: 00:00:00
+      - stop_name: Ipoly sor
+        stop_code: 106
+        stop_time: 00:01:00
+      - stop_name: Makkosházi krt.
+        stop_code: 107
+        stop_time: 00:03:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:04:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:05:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:06:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:12:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:14:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 122
+        stop_time: 00:16:00
+      - stop_name: Honvéd tér
+        stop_code: 125
+        stop_time: 00:17:00
+      - stop_name: SZTK Rendelő
+        stop_code: 127
+        stop_time: 00:18:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:19:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:20:00
+      - stop_name: Bem u.
+        stop_code: 129
+        stop_time: 00:21:00
+      - stop_name: Szabadsajtó u.
+        stop_code: 103
+        stop_time: 00:22:00
+      - stop_name: Csonka u.
+        stop_code: 104
+        stop_time: 00:23:00
+      - stop_name: Szabadság tér
+        stop_code: 134
+        stop_time: 00:24:00
+      - stop_name: Vadkerti tér
+        stop_code: 135
+        stop_time: 00:26:00
+      - stop_name: Vadkerti tér, buszforduló
+        stop_code: 136
+        stop_time: 00:27:00
+  - trip_id:       9/8
+    service_id:    SZN
+    trip_headsign: Alsóváros, Vadkerti tér
+    direction_id:  outbound
+    departures: [4:45:00, 5:15:00, 5:45:00, 6:10:00, 6:30:00, 6:50:00, 7:10:00, 7:30:00, 7:50:00, 8:10:00, 8:30:00, 8:50:00, 9:10:00, 9:30:00, 9:50:00, 10:10:00, 10:30:00, 10:50:00, 11:10:00, 11:30:00, 11:50:00, 12:10:00, 12:30:00, 12:50:00, 13:10:00, 13:30:00, 13:50:00, 14:10:00, 14:30:00, 14:50:00, 15:10:00, 15:30:00, 15:50:00, 16:10:00, 16:30:00, 16:50:00, 17:10:00, 17:30:00, 17:50:00, 18:10:00, 18:30:00, 18:50:00, 19:10:00, 19:30:00, 19:50:00, 20:10:00, 20:30:00, 20:50:00, 21:15:00, 21:45:00, 22:15:00, 22:45:00, 23:15:00]
+    stop_times: 
+      - stop_name: Makkosház
+        stop_code: 105
+        stop_time: 00:00:00
+      - stop_name: Ipoly sor
+        stop_code: 106
+        stop_time: 00:01:00
+      - stop_name: Makkosházi krt.
+        stop_code: 107
+        stop_time: 00:03:00
+      - stop_name: Vértó
+        stop_code: 108
+        stop_time: 00:04:00
+      - stop_name: Rókusi II. Sz. Ált. Isk.
+        stop_code: 109
+        stop_time: 00:05:00
+      - stop_name: Rókusi víztorony
+        stop_code: 110
+        stop_time: 00:06:00
+      - stop_name: Kisteleki u.
+        stop_code: 111
+        stop_time: 00:07:00
+      - stop_name: Vásárhelyi Pál u.
+        stop_code: 120
+        stop_time: 00:08:00
+      - stop_name: Damjanich u.
+        stop_code: 112
+        stop_time: 00:09:00
+      - stop_name: Tavasz u.
+        stop_code: 121
+        stop_time: 00:10:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:12:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:14:00
+      - stop_name: Gogol u. (Dugonics tér)
+        stop_code: 122
+        stop_time: 00:16:00
+      - stop_name: Honvéd tér
+        stop_code: 125
+        stop_time: 00:17:00
+      - stop_name: SZTK Rendelő
+        stop_code: 127
+        stop_time: 00:18:00
+      - stop_name: Bécsi krt.
+        stop_code: 87
+        stop_time: 00:19:00
+      - stop_name: Szent Ferenc u.
+        stop_code: 88
+        stop_time: 00:20:00
+      - stop_name: Bem u.
+        stop_code: 129
+        stop_time: 00:21:00
+      - stop_name: Szabadsajtó u.
+        stop_code: 103
+        stop_time: 00:22:00
+      - stop_name: Csonka u.
+        stop_code: 104
+        stop_time: 00:23:00
+      - stop_name: Szabadság tér
+        stop_code: 134
+        stop_time: 00:24:00
+      - stop_name: Vadkerti tér
+        stop_code: 135
+        stop_time: 00:26:00
+      - stop_name: Vadkerti tér, buszforduló
+        stop_code: 136
+        stop_time: 00:27:00

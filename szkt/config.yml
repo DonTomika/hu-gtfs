@@ -1,0 +1,4 @@
+feedmanager: HuGTFS::FeedManager::YaGTFS
+automatic: 1
+osm_operator_id: SZKT
+osm_stop_code: 'ref:gtfs'

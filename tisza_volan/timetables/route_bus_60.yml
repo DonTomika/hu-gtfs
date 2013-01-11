@@ -1,0 +1,404 @@
+---
+route_id:         21
+agency_id:        Tisza Volan
+route_type:       bus
+route_short_name: 60
+route_color:      0000FF
+route_text_color: FFFFFF
+trips:
+  - trip_id:       79/25
+    service_id:    MN
+    trip_headsign: Szőreg
+    direction_id:  outbound
+    departures: [4:35:00, 5:05:00, 5:35:00, 5:55:00, 6:15:00, 6:35:00, 6:55:00, 7:15:00, 7:35:00, 8:05:00, 8:35:00, 9:05:00, 9:35:00, 10:05:00, 10:35:00, 11:05:00, 11:35:00, 12:05:00, 12:35:00, 13:05:00, 13:35:00, 13:55:00, 14:15:00, 14:35:00, 14:55:00, 15:15:00, 15:35:00, 15:55:00, 16:15:00, 16:35:00, 16:55:00, 17:15:00, 17:35:00, 18:15:00, 18:55:00, 19:35:00, 20:35:00, 21:35:00, 22:35:00]
+    stop_times: 
+      - stop_name: Mars tér (Szt. Rókus tér)
+        stop_code: 263
+        stop_time: 00:00:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:02:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:04:00
+      - stop_name: Széchenyi tér
+        stop_code: 155
+        stop_time: 00:06:00
+      - stop_name: Vedres u. (Székely sor)
+        stop_code: 159
+        stop_time: 00:09:00
+      - stop_name: Sportcsarnok
+        stop_code: 161
+        stop_time: 00:10:00
+      - stop_name: Kisstadion
+        stop_code: 317
+        stop_time: 00:11:00
+      - stop_name: Töltés u.
+        stop_code: 319
+        stop_time: 00:12:00
+      - stop_name: Diófa u. II.
+        stop_code: 320
+        stop_time: 00:13:00
+      - stop_name: Derkovits fasor
+        stop_code: 323
+        stop_time: 00:14:00
+      - stop_name: Traktor u.
+        stop_code: 324
+        stop_time: 00:15:00
+      - stop_name: Kamaratöltés
+        stop_code: 327
+        stop_time: 00:16:00
+      - stop_name: Kavics u.
+        stop_code: 329
+        stop_time: 00:17:00
+      - stop_name: Napfény köz
+        stop_code: 331
+        stop_time: 00:18:00
+      - stop_name: Barázda u.
+        stop_code: 332
+        stop_time: 00:19:00
+      - stop_name: Szőreg, ABC
+        stop_code: 334
+        stop_time: 00:20:00
+      - stop_name: Szerb u.
+        stop_code: 343
+        stop_time: 00:21:00
+      - stop_name: Hentesüzlet
+        stop_code: 336
+        stop_time: 00:22:00
+      - stop_name: Szűcs kovács
+        stop_code: 338
+        stop_time: 00:23:00
+      - stop_name: Gyár u.
+        stop_code: 340
+        stop_time: 00:24:00
+      - stop_name: Szőreg, malom
+        stop_code: 344
+        stop_time: 00:25:00
+  - trip_id:       80/28
+    service_id:    SZN
+    trip_headsign: Szőreg
+    direction_id:  outbound
+    departures: [4:35:00, 5:05:00, 5:35:00, 6:05:00, 6:35:00, 7:05:00, 7:35:00, 8:05:00, 8:35:00, 9:05:00, 9:35:00, 10:05:00, 10:35:00, 11:05:00, 11:35:00, 12:05:00, 12:35:00, 13:35:00, 14:15:00, 14:55:00, 15:35:00, 16:15:00, 16:55:00, 17:35:00, 18:15:00, 18:55:00, 19:35:00, 20:35:00, 21:35:00, 22:35:00]
+    stop_times: 
+      - stop_name: Mars tér (Szt. Rókus tér)
+        stop_code: 263
+        stop_time: 00:00:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:02:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:04:00
+      - stop_name: Széchenyi tér
+        stop_code: 155
+        stop_time: 00:06:00
+      - stop_name: Vedres u. (Székely sor)
+        stop_code: 159
+        stop_time: 00:09:00
+      - stop_name: Sportcsarnok
+        stop_code: 161
+        stop_time: 00:10:00
+      - stop_name: Kisstadion
+        stop_code: 317
+        stop_time: 00:11:00
+      - stop_name: Töltés u.
+        stop_code: 319
+        stop_time: 00:12:00
+      - stop_name: Diófa u. II.
+        stop_code: 320
+        stop_time: 00:13:00
+      - stop_name: Derkovits fasor
+        stop_code: 323
+        stop_time: 00:14:00
+      - stop_name: Traktor u.
+        stop_code: 324
+        stop_time: 00:15:00
+      - stop_name: Kamaratöltés
+        stop_code: 327
+        stop_time: 00:16:00
+      - stop_name: Kavics u.
+        stop_code: 329
+        stop_time: 00:17:00
+      - stop_name: Napfény köz
+        stop_code: 331
+        stop_time: 00:18:00
+      - stop_name: Barázda u.
+        stop_code: 332
+        stop_time: 00:19:00
+      - stop_name: Szőreg, ABC
+        stop_code: 334
+        stop_time: 00:20:00
+      - stop_name: Szerb u.
+        stop_code: 343
+        stop_time: 00:21:00
+      - stop_name: Hentesüzlet
+        stop_code: 336
+        stop_time: 00:22:00
+      - stop_name: Szűcs kovács
+        stop_code: 338
+        stop_time: 00:23:00
+      - stop_name: Gyár u.
+        stop_code: 340
+        stop_time: 00:24:00
+      - stop_name: Szőreg, malom
+        stop_code: 344
+        stop_time: 00:25:00
+  - trip_id:       81/17
+    service_id:    MSZ
+    trip_headsign: Szőreg
+    direction_id:  outbound
+    departures: [4:55:00, 5:35:00, 6:15:00, 6:55:00, 7:35:00, 8:15:00, 8:55:00, 9:35:00, 10:15:00, 10:55:00, 11:35:00, 12:15:00, 12:55:00, 13:35:00, 14:15:00, 14:55:00, 15:35:00, 16:15:00, 16:55:00, 17:35:00, 18:15:00, 18:55:00, 19:35:00, 20:35:00, 21:35:00, 22:35:00]
+    stop_times: 
+      - stop_name: Mars tér (Szt. Rókus tér)
+        stop_code: 263
+        stop_time: 00:00:00
+      - stop_name: Mars tér (aut. áll.)
+        stop_code: 84
+        stop_time: 00:02:00
+      - stop_name: Bartók tér
+        stop_code: 114
+        stop_time: 00:04:00
+      - stop_name: Széchenyi tér
+        stop_code: 155
+        stop_time: 00:06:00
+      - stop_name: Vedres u. (Székely sor)
+        stop_code: 159
+        stop_time: 00:09:00
+      - stop_name: Sportcsarnok
+        stop_code: 161
+        stop_time: 00:10:00
+      - stop_name: Kisstadion
+        stop_code: 317
+        stop_time: 00:11:00
+      - stop_name: Töltés u.
+        stop_code: 319
+        stop_time: 00:12:00
+      - stop_name: Diófa u. II.
+        stop_code: 320
+        stop_time: 00:13:00
+      - stop_name: Derkovits fasor
+        stop_code: 323
+        stop_time: 00:14:00
+      - stop_name: Traktor u.
+        stop_code: 324
+        stop_time: 00:15:00
+      - stop_name: Kamaratöltés
+        stop_code: 327
+        stop_time: 00:16:00
+      - stop_name: Kavics u.
+        stop_code: 329
+        stop_time: 00:17:00
+      - stop_name: Napfény köz
+        stop_code: 331
+        stop_time: 00:18:00
+      - stop_name: Barázda u.
+        stop_code: 332
+        stop_time: 00:19:00
+      - stop_name: Szőreg, ABC
+        stop_code: 334
+        stop_time: 00:20:00
+      - stop_name: Szerb u.
+        stop_code: 343
+        stop_time: 00:21:00
+      - stop_name: Hentesüzlet
+        stop_code: 336
+        stop_time: 00:22:00
+      - stop_name: Szűcs kovács
+        stop_code: 338
+        stop_time: 00:23:00
+      - stop_name: Gyár u.
+        stop_code: 340
+        stop_time: 00:24:00
+      - stop_name: Szőreg, malom
+        stop_code: 344
+        stop_time: 00:25:00
+  - trip_id:       82/1
+    service_id:    MN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:45:00, 5:15:00, 5:45:00, 6:10:00, 6:30:00, 6:50:00, 7:10:00, 7:30:00, 7:50:00, 8:15:00, 8:45:00, 9:15:00, 9:45:00, 10:15:00, 10:45:00, 11:15:00, 11:45:00, 12:15:00, 12:45:00, 13:15:00, 13:45:00, 14:10:00, 14:30:00, 14:50:00, 15:10:00, 15:30:00, 15:50:00, 16:10:00, 16:30:00, 16:50:00, 17:10:00, 17:30:00, 17:50:00, 18:30:00, 19:30:00, 20:30:00, 21:30:00, 22:30:00]
+    stop_times: 
+      - stop_name: Szőreg, malom
+        stop_code: 344
+        stop_time: 00:00:00
+      - stop_name: Gyár u.
+        stop_code: 341
+        stop_time: 00:01:00
+      - stop_name: Szűcs kovács
+        stop_code: 339
+        stop_time: 00:02:00
+      - stop_name: Hentesüzlet
+        stop_code: 337
+        stop_time: 00:03:00
+      - stop_name: Szerb u.
+        stop_code: 342
+        stop_time: 00:04:00
+      - stop_name: Szőreg, ABC
+        stop_code: 335
+        stop_time: 00:05:00
+      - stop_name: Barázda u.
+        stop_code: 333
+        stop_time: 00:06:00
+      - stop_name: Napfény köz
+        stop_code: 330
+        stop_time: 00:07:00
+      - stop_name: Kavics u.
+        stop_code: 328
+        stop_time: 00:08:00
+      - stop_name: Kamaratöltés
+        stop_code: 326
+        stop_time: 00:09:00
+      - stop_name: Traktor u.
+        stop_code: 325
+        stop_time: 00:10:00
+      - stop_name: Derkovits fasor
+        stop_code: 322
+        stop_time: 00:11:00
+      - stop_name: Diófa u. II.
+        stop_code: 321
+        stop_time: 00:12:00
+      - stop_name: Töltés u.
+        stop_code: 318
+        stop_time: 00:13:00
+      - stop_name: Sportcsarnok
+        stop_code: 162
+        stop_time: 00:15:00
+      - stop_name: Vedres u. (Székely sor)
+        stop_code: 160
+        stop_time: 00:16:00
+      - stop_name: Széchenyi tér
+        stop_code: 156
+        stop_time: 00:19:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:21:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:23:00
+  - trip_id:       83/29
+    service_id:    SZN
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [4:45:00, 5:15:00, 5:45:00, 6:15:00, 6:45:00, 7:15:00, 7:45:00, 8:15:00, 8:45:00, 9:15:00, 9:45:00, 10:15:00, 10:45:00, 11:15:00, 11:45:00, 12:20:00, 13:00:00, 13:40:00, 14:20:00, 15:00:00, 15:40:00, 16:20:00, 17:00:00, 17:40:00, 18:20:00, 19:00:00, 19:40:00, 20:30:00, 21:30:00, 22:30:00]
+    stop_times: 
+      - stop_name: Szőreg, malom
+        stop_code: 344
+        stop_time: 00:00:00
+      - stop_name: Gyár u.
+        stop_code: 341
+        stop_time: 00:01:00
+      - stop_name: Szűcs kovács
+        stop_code: 339
+        stop_time: 00:02:00
+      - stop_name: Hentesüzlet
+        stop_code: 337
+        stop_time: 00:03:00
+      - stop_name: Szerb u.
+        stop_code: 342
+        stop_time: 00:04:00
+      - stop_name: Szőreg, ABC
+        stop_code: 335
+        stop_time: 00:05:00
+      - stop_name: Barázda u.
+        stop_code: 333
+        stop_time: 00:06:00
+      - stop_name: Napfény köz
+        stop_code: 330
+        stop_time: 00:07:00
+      - stop_name: Kavics u.
+        stop_code: 328
+        stop_time: 00:08:00
+      - stop_name: Kamaratöltés
+        stop_code: 326
+        stop_time: 00:09:00
+      - stop_name: Traktor u.
+        stop_code: 325
+        stop_time: 00:10:00
+      - stop_name: Derkovits fasor
+        stop_code: 322
+        stop_time: 00:11:00
+      - stop_name: Diófa u. II.
+        stop_code: 321
+        stop_time: 00:12:00
+      - stop_name: Töltés u.
+        stop_code: 318
+        stop_time: 00:13:00
+      - stop_name: Sportcsarnok
+        stop_code: 162
+        stop_time: 00:15:00
+      - stop_name: Vedres u. (Székely sor)
+        stop_code: 160
+        stop_time: 00:16:00
+      - stop_name: Széchenyi tér
+        stop_code: 156
+        stop_time: 00:19:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:21:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:23:00
+  - trip_id:       84/7
+    service_id:    MSZ
+    trip_headsign: Mars tér
+    direction_id:  inbound
+    departures: [5:00:00, 5:40:00, 6:20:00, 7:00:00, 7:40:00, 8:20:00, 9:00:00, 9:40:00, 10:20:00, 11:00:00, 11:40:00, 12:20:00, 13:00:00, 13:40:00, 14:20:00, 15:00:00, 15:40:00, 16:20:00, 17:00:00, 17:40:00, 18:20:00, 19:00:00, 19:40:00, 20:30:00, 21:30:00, 22:30:00]
+    stop_times: 
+      - stop_name: Szőreg, malom
+        stop_code: 344
+        stop_time: 00:00:00
+      - stop_name: Gyár u.
+        stop_code: 341
+        stop_time: 00:01:00
+      - stop_name: Szűcs kovács
+        stop_code: 339
+        stop_time: 00:02:00
+      - stop_name: Hentesüzlet
+        stop_code: 337
+        stop_time: 00:03:00
+      - stop_name: Szerb u.
+        stop_code: 342
+        stop_time: 00:04:00
+      - stop_name: Szőreg, ABC
+        stop_code: 335
+        stop_time: 00:05:00
+      - stop_name: Barázda u.
+        stop_code: 333
+        stop_time: 00:06:00
+      - stop_name: Napfény köz
+        stop_code: 330
+        stop_time: 00:07:00
+      - stop_name: Kavics u.
+        stop_code: 328
+        stop_time: 00:08:00
+      - stop_name: Kamaratöltés
+        stop_code: 326
+        stop_time: 00:09:00
+      - stop_name: Traktor u.
+        stop_code: 325
+        stop_time: 00:10:00
+      - stop_name: Derkovits fasor
+        stop_code: 322
+        stop_time: 00:11:00
+      - stop_name: Diófa u. II.
+        stop_code: 321
+        stop_time: 00:12:00
+      - stop_name: Töltés u.
+        stop_code: 318
+        stop_time: 00:13:00
+      - stop_name: Sportcsarnok
+        stop_code: 162
+        stop_time: 00:15:00
+      - stop_name: Vedres u. (Székely sor)
+        stop_code: 160
+        stop_time: 00:16:00
+      - stop_name: Széchenyi tér
+        stop_code: 156
+        stop_time: 00:19:00
+      - stop_name: Centrum Áruház
+        stop_code: 123
+        stop_time: 00:21:00
+      - stop_name: Mars tér
+        stop_code: 207
+        stop_time: 00:23:00

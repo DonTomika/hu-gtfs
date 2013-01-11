@@ -1,0 +1,66 @@
+A small framework for creating GTFS timetables using OpenStreetMap
+geographic data.
+
+Parts:
+
+./bin/hugtfs.pl
+	A CLI interface to the various features supported by hu-gtfs:
+	* downloading agency data
+	* parsing agency data
+	* outputting gtfs
+	* merging feeds
+	* importing feeds into a PostgreSQL/PostGIS db
+	* "deploying" feeds (used for data.flaktack.net/transit)
+	* creating a KML of stops in a feed, with route stop there
+	* creating an SVG of trips in a feed
+
+./mav - MÁV-START Zrt.
+	National Train Company
+	Downloads data from elvira.mav-start.hu, then parses it to create
+	a GTFS feed.
+	Support using platform & railway track data from OSM.
+
+./bkv
+	Downloas GTFS data & replaces stop/shape data with the same from
+	OSM.
+
+./volanbusz
+./kisvasut_gyermekvasut
+	Downloads timetables & parses them creating partial GTFS data,
+	which then is paired with OSM data using HuGTFS::OSMMerger.
+
+./kompok
+	Creates GTFS from OSM route=ferry ways & hard coded timetables.
+
+./lib/HuGTFS/FeedManager/*
+	An assortment of "FeedManagers" which download & parse/create
+	agency data into partial GTFS data.
+
+./lib/Cal.pm
+	Various utility methods for working with services
+
+./lib/HuGTFS/Crawler.pm
+	Simple crawler for downloading transit agency data.
+
+./lib/HuGTFS/Dumper.pm
+	Code to dump perl objects into a gtfs feed.
+
+./lib/HuGTFS/KML.pm
+./lib/HuGTFS/SVG.pm
+	Code to create KML/SVG files of feeds
+
+./lib/HuGTFS/OSMMerger.pm
+	Code to extract route data from OSM, and then merge it with
+	the available GTFS data.
+	Currently only parses data from the older, Hungarian only
+	line_variant relations:
+	http://wiki.openstreetmap.org/wiki/WikiProject_Hungary/T%C3%B6megk%C3%B6zleked%C3%A9s
+	But can easily be modified to use proposed, newer route_variant
+	relations:
+	http://wiki.openstreetmap.org/wiki/Proposed_features/Public_Transport#Voting
+
+./lib/HuGTFS/Util.pm
+	Random utility methods.
+	
+./util/db-schema.sql
+	The DB schema used by the WFS & hugtfs.pl DB importer.

@@ -1,0 +1,8 @@
+tmp
+*/data
+*.swp
+*/gtfs/*.yml
+*/gtfs/*.txt
+bkv/stops-*.txt
+bkv/bkv-zrt_*.zip
+deploy
