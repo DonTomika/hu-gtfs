@@ -164,6 +164,13 @@ sub sanify
 {
 	my $self = shift;
 
+	for my $route ( values %{ $self->data->{routes} } ) {
+		next unless $route->{agency};
+		$route->{agency_id} = $route->{agency}->{agency_id};
+		$self->data->{agencies}->{ $route->{agency_id} } = $route->{agency};
+		delete $route->{agency};
+	}
+
 	for my $agency ( values %{ $self->data->{agencies} } ) {
 		next unless $agency->{routes};
 		for ( @{ $agency->{routes} } ) {
@@ -171,6 +178,12 @@ sub sanify
 			$self->data->{routes}->{ $_->{route_id} } = $_;
 		}
 		delete $agency->{routes};
+
+		if($agency->{services}) {
+			foreach my $s (keys %{$agency->{services}}) {
+				$agency->{services}->{$s} = $self->sanify_service( $agency->{services}->{$s} );
+			}
+		}
 	}
 
 	for my $trip ( values %{ $self->data->{trips} } ) {
@@ -191,10 +204,11 @@ sub sanify
 						next;
 					}
 
+					state $counter = 1;
 					my $new_trip = {
 						%$trip,
 						frequencies => [$frequency],
-						trip_id     => $trip->{trip_id} . "_$frequency->{start_time}",
+						trip_id     => $trip->{trip_id} . "_F" . $counter++,
 					};
 
 					$new_trip->{service}    = $frequency->{service};
@@ -209,19 +223,43 @@ sub sanify
 					delete $frequency->{service};
 					delete $frequency->{service_id};
 
+					delete $new_trip->{departures};
+
 					push @new_trips, $new_trip;
 				}
 
 				if ( scalar @keep_freq ) {
 					$trip->{frequencies} = \@keep_freq;
 					push @new_trips, $trip;
+				} elsif( $trip->{departures}) {
+					delete $trip->{frequencies};
+					push @new_trips, $trip;
 				}
+			} else {
+				push @new_trips, $trip;
 			}
 		}
+
+		$route->{trips} = \@new_trips;
 	}
 
 	foreach my $route ( values %{ $self->data->{routes} } ) {
 		my @new_trips = ();
+		my $services = {};
+
+		my $agency = $self->data->{agencies}->{$route->{agency_id}};
+		if($agency->{services}) {
+			foreach my $s (keys %{$agency->{services}}) {
+				$services->{$s} = $agency->{services}->{$s};
+			}
+		}
+
+		if($route->{services}) {
+			foreach my $s (keys %{$route->{services}}) {
+				$services->{$s} = $self->sanify_service( $route->{services}->{$s} );
+			}
+			delete $route->{services};
+		}
 
 		foreach my $trip ( @{ $route->{trips} } ) {
 
@@ -231,17 +269,9 @@ sub sanify
 			}
 
 			# Service periods
-			if ( ref $trip->{service} eq 'ARRAY' ) {
-				$trip->{service_id} = HuGTFS::Cal->descriptor( $trip->{service} )->service_id;
+			if ( $trip->{service} ) {
+				$trip->{service_id} = $self->sanify_service( $trip->{service} );
 				delete $trip->{service};
-			}
-			elsif ( ref $trip->{service} eq 'HASH' ) {
-				HuGTFS::Cal->load( %{ $trip->{service} } );
-				$trip->{service_id} = $trip->{service}->{service_id};
-				delete $trip->{service};
-			}
-			elsif ( $trip->{service} ) {
-				$log->warn("Unknown service specified for trip $trip->{trip_id}");
 			}
 
 			# Stop times
@@ -266,9 +296,14 @@ sub sanify
 
 			# Departures
 			if ( $trip->{departures} ) {
-				foreach my $departure ( @{ $trip->{departures} } ) {
+				my $handle_departure = sub {
+					my ($departure, $default_service) = @_;
 					my $wheelchair = ( $departure =~ m/A$/ );
 					$departure =~ s/A$//;
+
+					my ($service) = ( $departure =~ m/^(.*(?=-\d+:\d+)|[^0-9]+)/);
+					$departure =~ s/^(?:.*(?=-\d+:\d+)|[^0-9]+)//;
+					$service ||= $default_service;
 
 					my ( $offset, $start )
 						= ( _S( $trip->{stop_times}->[0]->{departure_time} ), _S($departure) );
@@ -284,16 +319,40 @@ sub sanify
 						} @{ $trip->{stop_times} }
 					];
 
+					if($service) {
+						$new_trip->{trip_id} .= '_' . $service;
+						$new_trip->{service_id} = $services->{$service};
+
+						unless($new_trip->{service_id}) {
+							$log->warn("Unknown service shorthand <$service> for route <$route->{route_id}> in trip <$new_trip->{trip_id}> at <$departure>");
+							$new_trip->{service_id} = 'NEVER';
+						}
+					}
+
 					for ( @{ $new_trip->{stop_times} } ) {
 						$_->{arrival_time} = _T( $start + _S( $_->{arrival_time} ) - $offset );
 						$_->{departure_time}
 							= _T( $start + _S( $_->{departure_time} ) - $offset );
 					}
-					push @new_trips, $new_trip;
 
 					delete $new_trip->{departures};
 					delete $new_trip->{frequencies};
+
+					return $new_trip;
+				};
+
+				if(ref $trip->{departures} eq 'HASH' ) {
+					foreach my $default_service ( keys %{ $trip->{departures} } ) {
+						foreach my $departure ( @{ $trip->{departures}->{$default_service} } ) {
+							push @new_trips, $handle_departure->($departure, $default_service);
+						}
+					}
+				} else {
+					foreach my $departure ( @{ $trip->{departures} } ) {
+						push @new_trips, $handle_departure->($departure);
+					}
 				}
+
 				delete $trip->{departures};
 
 				push @new_trips, $trip
@@ -308,6 +367,23 @@ sub sanify
 
 		$route->{trips} = \@new_trips;
 	}
+
+	for my $agency ( values %{ $self->data->{agencies} } ) {
+		delete $agency->{services};
+	}
+}
+
+sub sanify_service
+{
+	my ($self, $service) = @_;
+	if(ref $service eq 'ARRAY') {
+		return HuGTFS::Cal->descriptor($service)->service_id;
+	}
+	elsif(ref $service eq 'HASH') {
+		return HuGTFS::Cal->load($service)->service_id;
+	}
+
+	return $service;
 }
 
 sub create_geometries

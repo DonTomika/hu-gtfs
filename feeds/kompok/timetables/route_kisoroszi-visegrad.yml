@@ -16,47 +16,11 @@ agency:
       currency_type: HUF
       rules:
         - route_id: ANKERKETTE-KV
+services:
+  M: MUNKANAPON
+  T: TANITASI_MUNKANAPON
+  TSZ: TANSZUNETI_MUNKANAPON
 trips:
-  - trip_id: ANKERKETTE_TKV_A
-    direction_id: outbound
-    trip_bikes_allowed: 2
-    service_id: MUNKANAPON
-    stop_times:
-      - [00:00, "Kisoroszi"]
-      - [00:02, "Visegrád-Szentgyörgypuszta"]
-    departures: [5:10]
-  - trip_id: ANKERKETTE_TVK_A
-    direction_id: inbound
-    trip_bikes_allowed: 2
-    service_id: MUNKANAPON
-    stop_times:
-      - [00:00, "Visegrád-Szentgyörgypuszta"]
-      - [00:02, "Kisoroszi"]
-    departures: [5:05]
-  - trip_id: ANKERKETTE_TKV_B
-    direction_id: outbound
-    trip_bikes_allowed: 2
-    service_id: TANITASI_MUNKANAPON
-    stop_times:
-      - [00:00, "Kisoroszi"]
-      - [00:02, "Visegrád-Szentgyörgypuszta"]
-    departures: [6:50, 7:15]
-  - trip_id: ANKERKETTE_TVK_B
-    direction_id: inbound
-    trip_bikes_allowed: 2
-    service_id: TANITASI_MUNKANAPON
-    stop_times:
-      - [00:00, "Visegrád-Szentgyörgypuszta"]
-      - [00:02, "Kisoroszi"]
-    departures: [6:35, 6:55, 7:20]
-  - trip_id: ANKERKETTE_TVK_B
-    direction_id: inbound
-    trip_bikes_allowed: 2
-    service_id: TANSZUNETI_MUNKANAPON
-    stop_times:
-      - [00:00, "Visegrád-Szentgyörgypuszta"]
-      - [00:02, "Kisoroszi"]
-    departures: [6:45]
   - trip_id: ANKERKETTE_TKV_C
     direction_id: outbound
     trip_bikes_allowed: 2
@@ -64,7 +28,7 @@ trips:
     stop_times:
       - [00:00, "Kisoroszi"]
       - [00:02, "Visegrád-Szentgyörgypuszta"]
-    departures: [5:35, 6:10, 6:30, 7:30, 8:30, 19:30, 20:40, 21:40]
+    departures: [M5:10, 5:35, 6:10, 6:30, T6:50, T7:15, 7:30, 8:30, 19:30, 20:40, 21:40]
     frequencies:
       - start_time: 09:20:00
         end_time: 18:20:01
@@ -77,7 +41,7 @@ trips:
     stop_times:
       - [00:00, "Visegrád-Szentgyörgypuszta"]
       - [00:02, "Kisoroszi"]
-    departures: [5:45, 6:20, 19:50, 21:05, 22:00]
+    departures: [M5:05, 5:45, 6:20, T6:35, TSZ6:45, T6:55, T7:20, 19:50, 21:05, 22:00]
     frequencies:
       - start_time: 07:45:00
         end_time: 18:45:01

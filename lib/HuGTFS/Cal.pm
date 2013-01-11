@@ -68,6 +68,7 @@ sub load
 {
 	my ( $class, @services ) = @_;
 
+	my @nservice;
 	foreach my $service (@services) {
 
 		#end_date / start_date => new Date(..) ...;
@@ -85,7 +86,10 @@ sub load
 		bless $service, $class;
 
 		$services->{$service->{service_id}} = $service;
+		push @nservice, $service;
 	}
+
+	return wantarray ? @nservice : $nservice[0];
 }
 
 =head2 dump

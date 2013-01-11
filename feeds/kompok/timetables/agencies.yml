@@ -5,12 +5,12 @@ agency_phone: +36 70 701 9986
 agency_timezone: Europe/Budapest
 agency_url: http://umann.pl/rev/?command=show_ferry;ferry=16;lang=hu;mltype=html
 routes:
-  - route_id: RUDAS_ESZ
+  - route_id: RUDAS-ESZ
     route_type: ferry
     route_long_name: Ercsi - Szigetújfalu
     route_url: http://kompmenetrend.hu/ujfalu.html
     trips:
-      - trip_id: RUDAS_TSZE
+      - trip_id: RUDAS-TSZE
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
@@ -22,7 +22,7 @@ routes:
             end_time: 19:00:01
             headway_secs: 3600
             exact_times: 1
-      - trip_id: RUDAS_TESZ
+      - trip_id: RUDAS-TESZ
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
@@ -34,12 +34,15 @@ routes:
             end_time: 19:05:01
             headway_secs: 3600
             exact_times: 1
-  - route_id: RUDAS_HA
+  - route_id: RUDAS-HA
     route_type: ferry
     route_long_name: Horány (Szigetmonostor) - Alsógöd
     route_url: http://umann.pl/rev/?command=show_ferry;ferry=3;lang=hu;mltype=html
+    services:
+      M: MUNKANAPON
+      SZ: MUNKASZUNETINAPON
     trips:
-      - trip_id: RUDAS_THA
+      - trip_id: RUDAS-THA
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
@@ -51,8 +54,8 @@ routes:
             end_time: 20:20:01
             headway_secs: 3600
             exact_times: 1
-        departures: [6:20, 21:15, 22:15]
-      - trip_id: RUDAS_TAH
+        departures: [M5:00, M5:45, 6:20, M6:45, SZ7:20, M7:30, M8:00, SZ8:20, M9:00, SZ9:20, M10:00, SZ10:20, M11:00, SZ11:20, M12:00, SZ12:20, 21:15, 22:15]
+      - trip_id: RUDAS-TAH
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
@@ -64,84 +67,40 @@ routes:
             end_time: 20:30:01
             headway_secs: 3600
             exact_times: 1
-        departures: [6:25, 21:10, 22:20]
-      - trip_id: RUDAS_THA_A
-        direction_id: outbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Horány"]
-          - [00:02, "Alsógöd"]
-        departures: [5:00, 5:45, 6:45, 7:30, 8:00, 9:00, 10:00, 11:00, 12:00]
-      - trip_id: RUDAS_TAH_A
-        direction_id: inbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Alsógöd"]
-          - [00:02, "Horány"]
-        departures: [5:05, 5:50, 7:00, 7:35, 8:05, 9:15, 10:15, 11:15, 12:15]
-      - trip_id: RUDAS_THA_B
-        direction_id: outbound
-        trip_bikes_allowed: 2
-        service_id: MUNKASZUNETINAPON
-        stop_times:
-          - [00:00, "Horány"]
-          - [00:02, "Alsógöd"]
-        departures: [7:20, 8:20, 9:20, 10:20, 11:20, 12:20]
-      - trip_id: RUDAS_TAH_B
-        direction_id: inbound
-        trip_bikes_allowed: 2
-        service_id: MUNKASZUNETINAPON
-        stop_times:
-          - [00:00, "Alsógöd"]
-          - [00:02, "Horány"]
-        departures: [7:30, 8:30, 9:30, 10:30, 11:30, 12:30]
+        departures: [M5:05, M5:50, 6:25, M7:00, SZ7:30, M7:35, M8:05, SZ8:30, M9:15, SZ9:30, M10:15, SZ10:30, M11:15, SZ11:30, M12:15, SZ12:30, 21:10, 22:20]
   - route_id: RUDAS_UP
     route_type: ferry
     route_long_name: Újpest (Megyer) - Pünkösdfürdő (Békásmegyer)
     route_url: http://umann.pl/rev/?command=show_ferry;ferry=9;lang=hu;mltype=html
+    services:
+      M: MUNKANAPON
     trips:
-      - trip_id: RUDAS_TUP
+      - trip_id: RUDAS-TUP
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
           - [00:00, "Békásmegyer-Pünkösdfürdő"]
           - [00:02, "Újpest-Megyer"]
+        departures: [M5:00, M6:00, M21:00]
         frequencies:
           - start_time: 07:00:00
             end_time: 20:00:01
             headway_secs: 3600
             exact_times: 1
-      - trip_id: RUDAS_TPU
+      - trip_id: RUDAS-TPU
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
           - [00:00, "Újpest-Megyer"]
           - [00:02, "Békásmegyer-Pünkösdfürdő"]
+        departures: [M5:06, M6:06, M21:06]
         frequencies:
           - start_time: 07:06:00
             end_time: 20:06:01
             headway_secs: 3600
             exact_times: 1
-      - trip_id: RUDAS_TUP_A
-        direction_id: inbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Békásmegyer-Pünkösdfürdő"]
-          - [00:02, "Újpest-Megyer"]
-        departures: [5:00, 6:00, 21:00]
-      - trip_id: RUDAS_TPU_A
-        direction_id: outbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Újpest-Megyer"]
-          - [00:02, "Békásmegyer-Pünkösdfürdő"]
-        departures: [5:06, 6:06, 21:06]
 ---
 agency_id: SZB
 agency_lang: hu
@@ -149,47 +108,33 @@ agency_name: Szigetmonostor - Szentendre-Belváros rév
 agency_timezone: Europe/Budapest
 agency_url: http://umann.pl/rev/?command=show_ferry;ferry=12;lang=hu;mltype=html
 routes:
-  - route_id: SZB_SZB
+  - route_id: SZB-SZB
     route_type: ferry
     route_long_name: Szigetmonostor - Szentendre-Belváros
+    services:
+      M: MUNKANAPON
     trips:
-      - trip_id: SZB_TSZB_A
-        direction_id: outbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Szigetmonostor"]
-          - [00:02, "Szentendre-Belváros"]
-        departures: [5:00, 6:00]
-      - trip_id: SZB_TBSZ_A
-        direction_id: inbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Szentendre-Belváros"]
-          - [00:02, "Szigetmonostor"]
-        departures: [5:05, 6:05]
-      - trip_id: SZB_TSZB_C
+      - trip_id: SZB-TSZB
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
           - [00:00, "Szigetmonostor"]
           - [00:02, "Szentendre-Belváros"]
-        departures: [07:10]
+        departures: [M5:00, M6:00, 7:10]
         frequencies:
           - start_time: 08:30:00
             end_time: 19:30:01
             headway_secs: 3600
             exact_times: 1
-      - trip_id: SZB_TBSZ_C
+      - trip_id: SZB-TBSZ
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
           - [00:00, "Szentendre-Belváros"]
           - [00:02, "Szigetmonostor"]
-        departures: [07:15]
+        departures: [M5:05, M6:05, 7:15]
         frequencies:
           - start_time: 08:35:00
             end_time: 19:35:01
@@ -206,47 +151,18 @@ routes:
   - route_id: DUNAKOMP-PL
     route_type: ferry
     route_long_name: Pócsmegyer - Leányfalu
+    services:
+      M: MUNKANAPON
+      SZ: MUNKASZUNETINAPON
     trips:
-      - trip_id: DUNAKOMP-PL-A
-        direction_id: outbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Pócsmegyer"]
-          - [00:02, "Leányfalu"]
-        departures: [04:15, 05:20, 07:30, 14:10, 15:10, 16:10, 17:10]
-      - trip_id: DUNAKOMP-LP-A
-        direction_id: inbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Leányfalu"]
-          - [00:02, "Pócsmegyer"]
-        departures: [04:20, 05:25, 07:35, 14:30, 15:30, 16:30, 17:30]
-      - trip_id: DUNAKOMP-PL-B
-        direction_id: outbound
-        trip_bikes_allowed: 2
-        service_id: MUNKASZUNETINAPON
-        stop_times:
-          - [00:00, "Pócsmegyer"]
-          - [00:02, "Leányfalu"]
-        departures: [5:50]
-      - trip_id: DUNAKOMP-LP-B
-        direction_id: inbound
-        trip_bikes_allowed: 2
-        service_id: MUNKASZUNETINAPON
-        stop_times:
-          - [00:00, "Leányfalu"]
-          - [00:02, "Pócsmegyer"]
-        departures: [5:55]
-      - trip_id: DUNAKOMP-PL-C
+      - trip_id: DUNAKOMP-PL
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
           - [00:00, "Pócsmegyer"]
           - [00:02, "Leányfalu"]
-        departures: [5:00, 6:15, 18:30, 22:20]
+        departures: [M04:15, 5:00, M05:20, SZ5:50, 6:15, M07:30, M14:10, M15:10, M16:10, M17:10, 18:30, 22:20]
         frequencies:
           - start_time: 06:40:00
             end_time: 17:40:01
@@ -256,14 +172,14 @@ routes:
             end_time: 21:10:01
             headway_secs: 600
             exact_times: 1
-      - trip_id: DUNAKOMP-LP-C
+      - trip_id: DUNAKOMP-LP
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
           - [00:00, "Leányfalu"]
           - [00:02, "Pócsmegyer"]
-        departures: [5:05, 6:35, 18:10, 18:35]
+        departures: [M04:20, 5:05, M05:25, SZ5:55, 6:35, M07:35, M14:30, M15:30, M16:30, M17:30, 18:10, 18:35]
         frequencies:
           - start_time: 07:00:00
             end_time: 17:00:01
@@ -276,37 +192,23 @@ routes:
   - route_id: DUNAKOMP-HD
     route_type: ferry
     route_long_name: Horány - Dunakeszi
+    services:
+      M: MUNKANAPON
     trips:
-      - trip_id: DUNAKOMP-HD-A
-        direction_id: outbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Horány"]
-          - [00:02, "Dunakeszi"]
-        departures: [5:25, 5:45, 6:05, 6:45, 7:05, 8:05, 16:05, 17:05]
-      - trip_id: DUNAKOMP-DH-A
-        direction_id: inbound
-        trip_bikes_allowed: 2
-        service_id: MUNKANAPON
-        stop_times:
-          - [00:00, "Dunakeszi"]
-          - [00:02, "Horány"]
-        departures: [5:35, 5:55, 6:15, 6:35, 6:55, 7:15, 8:15, 16:15, 17:15]
-      - trip_id: DUNAKOMP-HD-B
+      - trip_id: DUNAKOMP-HD
         direction_id: outbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
           - [00:00, "Horány"]
           - [00:02, "Dunakeszi"]
-        departures: [6:25, 7:25, 8:25, 8:45, 9:25, 9:45, 10:25, 10:45, 11:25, 11:45, 12:25, 12:45, 13:25, 13:45, 14:25, 14:45, 15:25, 15:45, 16:25, 16:45, 17:25, 17:45, 18:25, 18:45, 19:25, 19:45, 20:25]
-      - trip_id: DUNAKOMP-DH-B
+        departures: [M5:25, M5:45, M6:05, 6:25, M6:45, M7:05, 7:25, M8:05, 8:25, 8:45, 9:25, 9:45, 10:25, 10:45, 11:25, 11:45, 12:25, 12:45, 13:25, 13:45, 14:25, 14:45, 15:25, 15:45, M16:05, 16:25, 16:45, M17:05, 17:25, 17:45, 18:25, 18:45, 19:25, 19:45, 20:25]
+      - trip_id: DUNAKOMP-DH
         direction_id: inbound
         trip_bikes_allowed: 2
         service_id: NAPONTA
         stop_times:
           - [00:00, "Dunakeszi"]
           - [00:02, "Horány"]
-        departures: [6:35, 7:35, 8:35, 8:55, 9:35, 9:55, 10:35, 10:55, 11:35, 11:55, 12:35, 12:55, 13:35, 13:55, 14:35, 14:55, 15:35, 15:55, 16:35, 16:55, 17:35, 17:55, 18:35, 18:55, 19:35, 19:55, 20:35]
+        departures: [M5:35, M5:55, M6:15, 6:35, M6:55, M7:15, 7:35, M8:15, 8:35, 8:55, 9:35, 9:55, 10:35, 10:55, 11:35, 11:55, 12:35, 12:55, 13:35, 13:55, 14:35, 14:55, 15:35, 15:55, M16:15, 16:35, 16:55, M17:15, 17:35, 17:55, 18:35, 18:55, 19:35, 19:55, 20:35]
 
