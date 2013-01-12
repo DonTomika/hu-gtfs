@@ -1095,6 +1095,13 @@ sub descriptor
 			$service->service_desc($desc) if $desc;
 			return $service;
 		},
+		'DESC' => sub {
+			my ( $service, $desc ) = @_;
+			$service = resolve_descriptor_service($service);
+			$service = $service->clone();
+			$service->service_desc($desc) if $desc;
+			return $service;
+		},
 		'ADD' => sub {
 			my ( $service, @limits ) = @_;
 			$service = resolve_descriptor_service($service);
