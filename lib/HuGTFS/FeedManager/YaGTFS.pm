@@ -302,9 +302,12 @@ sub sanify
 			# Stop times
 			for ( my $i = 0; $i <= $#{ $trip->{stop_times} }; $i++ ) {
 				my $st = $trip->{stop_times}->[$i];
-				if(ref $st eq 'ARRAY') {
+				if(ref $st eq 'ARRAY' && $#$st eq 1) {
 					$st = $trip->{stop_times}->[$i] = { stop_time => $st->[0], stop_name => $st->[1], };
+				} elsif(ref $st eq 'ARRAY' && $#$st eq 2) {
+					$st = $trip->{stop_times}->[$i] = { arrival_time => $st->[0], departure_time => $st->[1], stop_name => $st->[2], };
 				}
+
 
 				$st->{shape_dist_traveled} = $i unless $st->{shape_dist_traveled};
 

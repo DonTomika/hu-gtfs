@@ -1,0 +1,34 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-C91
+route_short_name: C91
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/87
+trips:
+  - departures: [⊕5:20, ⊗6:35, ⊕13:20, o21:20]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Városkapu körút"]
+      - [00:02:00, "Rózsa út"]
+      - [00:05:00, "Balatoni út"]
+      - [00:06:00, "Petőfi utca – Honvéd utca sarok"]
+      - [00:08:00, "Petőfi utca – Víztorony"]
+      - [00:09:00, "Kanizsatex"]
+      - [00:10:00, "Kenyérgyár"]
+      - [00:12:00, "Napraforgó tér"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C91-outbound
+  - departures: [⊕6:15, ⊕14:20, ⊕22:20]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Napraforgó tér"]
+      - [00:02:00, "Kenyérgyár"]
+      - [00:03:00, "Kanizsatex"]
+      - [00:04:00, "Petőfi utca – Víztorony"]
+      - [00:06:00, "Petőfi utca – Honvéd utca sarok"]
+      - [00:07:00, "Balatoni út"]
+      - [00:09:00, "Szolgáltatóház"]
+      - [00:10:00, "Rózsa út"]
+      - [00:12:00, "Városkapu körút"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C91-inbound

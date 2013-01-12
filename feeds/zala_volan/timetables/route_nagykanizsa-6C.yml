@@ -1,0 +1,36 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-6C
+route_short_name: 6C
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/81
+trips:
+  - departures:
+      ⊗: [5:15, 5:35, 5:55, 6:15, 6:35, 6:55, 7:05, 7:15, 7:25, 7:35, 8:15, 9:15, 10:15, 11:15, 12:15, 13:15, 13:55, 14:15, 14:35, 15:15, 15:55, 16:35, 17:45]
+      o: [7:25, 7:55, 8:25, 9:25, 9:55, 10:25, 10:55, 11:25]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Városkapu körút"]
+      - [00:02:00, "Rózsa utca"]
+      - [00:05:00, "Balatoni út"]
+      - [00:07:00, "Eötvös tér"]
+      - [00:09:00, "Deák tér"]
+      - [00:10:00, "Dél-Zalai Áruház"]
+      - [00:12:00, "Kalmár utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6C-outbound
+  - departures:
+      ⊗: [5:00, 5:20, 5:40, 6:00, 6:20, 6:40, 6:50, 7:10, 7:20, 7:30, 7:40, 8:00, 8:50, 9:50, 10:50, 11:50, 12:50, 13:40, 14:10, 14:30, 14:50, 15:30, 16:10, 17:35]
+      o: [7:10, 7:40, 8:10, 9:10, 9:40, 10:10, 10:40, 11:10]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Kalmár utca"]
+      - [00:03:00, "Dél-Zalai Áruház"]
+      - [00:04:00, "Deák tér"]
+      - [00:06:00, "Eötvös tér"]
+      - [00:08:00, "Balatoni út"]
+      - [00:09:00, "Szolgáltatóház"]
+      - [00:10:00, "Rózsa utca"]
+      - [00:12:00, "Városkapu körút"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6C-inbound

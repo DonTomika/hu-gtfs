@@ -1,0 +1,159 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-6
+route_short_name: 6
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/79
+trips:
+  - departures:
+      ⊗: [4:45, 5:00, 5:30, 6:00, 6:30, 7:00, 7:30, 8:00, 8:30, 13:30, 14:00, 15:00, 15:30, 16:00, 17:00, 18:00, 18:30, 19:30, 20:30, 21:30, 22:15]
+      ⊕: [o4:45, o5:00, 5:30, o6:00, 7:00, 7:30, 8:30, 9:30, 10:30, 11:30, 12:30, 13:30, 14:30, 15:30, 16:30, 17:30, 18:30, 19:30, 20:30, 21:30, 22:15]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Városkapu körút"]
+      - [00:02:00, "Rózsa út"]
+      - [00:04:00, "Hevesi Sándor utcai ABC"]
+      - [00:05:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:07:00, "Teleki utca – Víztorony"]
+      - [00:08:00, "Teleki utca – Kórház bejárati út"]
+      - [00:10:00, "Eötvös tér"]
+      - [00:11:00, "Deák tér"]
+      - [00:12:00, "Dél-Zalai Áruház"]
+      - [00:14:00, "DÉDÁSZ"]
+      - [00:15:00, "Gépgyár"]
+      - [00:17:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:18:00, "Gyógyszertár"]
+      - [00:20:00, "Templom tér"]
+      - [00:20:00, "Templom tér"]
+      - [00:21:00, "Hunyadi tér"]
+      - [00:22:00, "Rozmaring utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6-outbound
+  - departures:
+      ⊗: [4:45, 5:10, 7:25, 8:30, 10:00, 12:00, 13:55, 14:25, 14:55, 15:30, 15:55, 16:25, 16:55, 17:30, 18:00, 18:30, 19:00, 20:00, 21:00, 22:15]
+      ⊕: [4:45, o5:30, 6:00, o6:30, 6:55, 7:30, 9:00, 11:00, 12:00, 13:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:00, 22:15]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Rozmaring utca"]
+      - [00:02:00, "Szepetneki utca"]
+      - [00:04:00, "Hunyadi tér"]
+      - [00:05:00, "Templom tér"]
+      - [00:05:00, "Templom tér"]
+      - [00:07:00, "Gyógyszertár"]
+      - [00:08:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:10:00, "Gépgyár"]
+      - [00:11:00, "DÉDÁSZ"]
+      - [00:13:00, "Dél-Zalai Áruház"]
+      - [00:14:00, "Deák tér"]
+      - [00:15:00, "Eötvös tér"]
+      - [00:17:00, "Teleki utca – Kórház bejárati út"]
+      - [00:18:00, "Teleki utca – Víztorony"]
+      - [00:20:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:21:00, "Hevesi Sándor utcai ABC"]
+      - [00:23:00, "Rózsa út"]
+      - [00:25:00, "Városkapu körút"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6-inbound
+  - departures: [⊗10:30, ⊗12:30]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Városkapu körút"]
+      - [00:02:00, "Rózsa út"]
+      - [00:04:00, "Hevesi Sándor utcai ABC"]
+      - [00:05:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:07:00, "Teleki utca – Víztorony"]
+      - [00:08:00, "Teleki utca – Kórház bejárati út"]
+      - [00:10:00, "Eötvös tér"]
+      - [00:11:00, "Deák tér"]
+      - [00:12:00, "Dél-Zalai Áruház"]
+      - [00:13:00, "Kálmár utca"]
+# TODO: Times are incorrect after
+      - [00:14:00, "DÉDÁSZ"]
+      - [00:15:00, "Gépgyár"]
+      - [00:17:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:18:00, "Gyógyszertár"]
+      - [00:20:00, "Templom tér"]
+      - [00:20:00, "Templom tér"]
+      - [00:21:00, "Hunyadi tér"]
+      - [00:22:00, "Rozmaring utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6E-outbound
+  - departures: [⊗5:55, ⊗6:30]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Rozmaring utca"]
+      - [00:02:00, "Szepetneki utca"]
+      - [00:04:00, "Hunyadi tér"]
+      - [00:05:00, "Templom tér"]
+      - [00:05:00, "Templom tér"]
+      - [00:07:00, "Gyógyszertár"]
+      - [00:08:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:10:00, "Gépgyár"]
+      - [00:11:00, "DÉDÁSZ"]
+      - [00:12:00, "Kálmár utca"]
+# TODO: Times are incorrect after
+      - [00:13:00, "Dél-Zalai Áruház"]
+      - [00:14:00, "Deák tér"]
+      - [00:15:00, "Eötvös tér"]
+      - [00:17:00, "Teleki utca – Kórház bejárati út"]
+      - [00:18:00, "Teleki utca – Víztorony"]
+      - [00:20:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:21:00, "Hevesi Sándor utcai ABC"]
+      - [00:23:00, "Rózsa út"]
+      - [00:25:00, "Városkapu körút"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6E-inbound
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-6Y
+route_short_name: 6Y
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/79
+trips:
+  - departures: [⊕6:30, ⊗9:30, ⊗11:30, ⊗14:30, ⊗16:30, ⊗17:30]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Városkapu körút"]
+      - [00:02:00, "Rózsa út"]
+      - [00:04:00, "Hevesi Sándor utcai ABC"]
+      - [00:05:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:07:00, "Teleki utca – Víztorony"]
+      - [00:08:00, "Teleki utca – Kórház bejárati út"]
+      - [00:10:00, "Eötvös tér"]
+      - [00:11:00, "Deák tér"]
+      - [00:12:00, "Dél-Zalai Áruház"]
+      - [00:13:00, "DÉDÁSZ"]
+      - [00:14:00, "Gépgyár"]
+      - [00:16:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:17:00, "Gyógyszertár"]
+      - [00:19:00, "Templom tér"]
+      - [00:21:00, "Homokkomáromi utca, forduló'"]
+      - [00:23:00, "Templom tér"]
+      - [00:24:00, "Hunyadi tér"]
+      - [00:25:00, "Rozmaring utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6Y-outbound
+  - departures: [⊗5:30, ⊗6:55, ⊗7:55, ⊕8:00, ⊗9:00, ⊕9:55, ⊗11:00, ⊗13:00]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Rozmaring utca"]
+      - [00:02:00, "Szepetneki utca"]
+      - [00:04:00, "Hunyadi tér"]
+      - [00:05:00, "Templom tér"]
+      - [00:07:00, "Homokkomáromi utca, forduló'"]
+      - [00:09:00, "Templom tér"]
+      - [00:11:00, "Gyógyszertár"]
+      - [00:12:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:14:00, "Gépgyár"]
+      - [00:15:00, "DÉDÁSZ"]
+      - [00:16:00, "Dél-Zalai Áruház"]
+      - [00:17:00, "Deák tér"]
+      - [00:18:00, "Eötvös tér"]
+      - [00:20:00, "Teleki utca – Kórház bejárati út"]
+      - [00:21:00, "Teleki utca – Víztorony"]
+      - [00:23:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:24:00, "Hevesi Sándor utcai ABC"]
+      - [00:26:00, "Rózsa út"]
+      - [00:28:00, "Városkapu körút"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6Y-inbound

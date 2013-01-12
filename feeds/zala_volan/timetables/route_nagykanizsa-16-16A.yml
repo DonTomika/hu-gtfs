@@ -1,0 +1,137 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-16
+route_short_name: 16
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/72
+trips:
+  - departures: [⊗5:40, ⊗6:45, o9:15, ⊗10:00, +9:30, o13:00, ▲14:00, +14:25, ▲14:50]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Autóbuszállomás"]
+      - [00:02:00, "DÉDÁSZ"]
+      - [00:03:00, "Gépgyár"]
+      - [00:04:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:05:00, "Gyógyszertár"]
+      - [00:07:00, "Templom tér"]
+      - [00:08:00, "Szent Flórián tér"]
+      - [00:09:00, "Bajcsai utca 31-46."]
+      - [00:10:00, "Kiskanizsa, temető'"]
+      - [00:11:00, "Bajcsa, takarékszövetkezet gépműhely'"]
+      - [00:12:00, "MHSZ Sportreptér"]
+      - [00:15:00, "Bajcsa, takarékszövetkezet-telep'"]
+      - [00:16:00, "Bajcsa, Csemetekert'"]
+      - [00:17:00, "Törökvári út 1-30."]
+      - [00:18:00, "Bajcsa, szövetkezeti bolt'"]
+      - [00:19:00, "Törökvári út 143."]
+      - [00:20:00, "Bajcsa, Vízmű'"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-16-outbound
+  - departures: [⊗6:00, ⊗7:05, o9:35, +10:00, ⊗10:25, o13:25, ▲14:20, +14:50, ▲15:10]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Bajcsa, Vízmű'"]
+      - [00:01:00, "Törökvári út 143."]
+      - [00:02:00, "Bajcsa, szövetkezeti bolt'"]
+      - [00:03:00, "Törökvári út 1-30."]
+      - [00:04:00, "Bajcsa, Csemetekert'"]
+      - [00:05:00, "Bajcsa, takarékszövetkezet-telep'"]
+      - [00:08:00, "MHSZ Sportreptér"]
+      - [00:09:00, "Bajcsa, takarékszövetkezet gépműhely'"]
+      - [00:10:00, "Kiskanizsa, temető'"]
+      - [00:11:00, "Bajcsai utca 31-46."]
+      - [00:12:00, "Szent Flórián tér"]
+      - [00:13:00, "Templom tér"]
+      - [00:15:00, "Gyógyszertár"]
+      - [00:16:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:17:00, "Gépgyár"]
+      - [00:18:00, "DÉDÁSZ"]
+      - [00:20:00, "Autóbuszállomás"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-16-inbound
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-9480-16
+route_short_name: "9480 [H]"
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/72
+trips:
+  - departures: [o5:10, ⊗6:20, ⊕6:30, △7:25, ⊗9:00, 46-11:00, △11:40, ▲12:15, ⊗13:15, ▲14:40, 14:50, ⊗16:00, ⊗16:30, 17:20, ⊗18:20, 20:15, 22:35]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Autóbuszállomás"]
+      - [00:02:00, "DÉDÁSZ"]
+      - [00:03:00, "Gépgyár"]
+      - [00:04:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:05:00, "Gyógyszertár"]
+      - [00:07:00, "Templom tér"]
+      - [00:08:00, "Szent Flórián tér"]
+      - [00:09:00, "Bajcsai utca 31-46."]
+      - [00:10:00, "Kiskanizsa, temető'"]
+      - [00:11:00, "Bajcsa, takarékszövetkezet gépműhely'"]
+      - [00:12:00, "MHSZ Sportreptér"]
+      - [00:15:00, "Bajcsa, takarékszövetkezet-telep'"]
+      - [00:16:00, "Bajcsa, Csemetekert'"]
+      - [00:17:00, "Törökvári út 1-30."]
+      - [00:18:00, "Bajcsa, szövetkezeti bolt'"]
+      - [00:19:00, "Törökvári út 143."]
+      - [00:20:00, "Bajcsa, Vízmű'"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-9480-16-outbound
+  - departures: [x4:45, +5:00, x6:00, ⊗7:10m ⊕7:20, ⊗8:20, ⊗9:50, 13:05, ▲13:05, ⊗14:10, ▲15:15, 16:15, ⊗16:55, ⊗17:05, ⊕18:15, ⊗18:45, 21:05]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Bajcsa, Vízmű'"]
+      - [00:01:00, "Törökvári út 143."]
+      - [00:02:00, "Bajcsa, szövetkezeti bolt'"]
+      - [00:03:00, "Törökvári út 1-30."]
+      - [00:04:00, "Bajcsa, Csemetekert'"]
+      - [00:05:00, "Bajcsa, takarékszövetkezet-telep'"]
+      - [00:08:00, "MHSZ Sportreptér"]
+      - [00:09:00, "Bajcsa, takarékszövetkezet gépműhely'"]
+      - [00:10:00, "Kiskanizsa, temető'"]
+      - [00:11:00, "Bajcsai utca 31-46."]
+      - [00:12:00, "Szent Flórián tér"]
+      - [00:13:00, "Templom tér"]
+      - [00:15:00, "Gyógyszertár"]
+      - [00:16:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:17:00, "Gépgyár"]
+      - [00:18:00, "DÉDÁSZ"]
+      - [00:20:00, "Autóbuszállomás"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-9480-16-inbound
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-16A
+route_short_name: 16A
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/72
+trips:
+  - departures: [⊗6:30, ⊗7:25, ⊗9:15, ⊗11:15, ⊗12:25, ⊗13:30, ⊗19:20]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Autóbuszállomás"]
+      - [00:02:00, "DÉDÁSZ"]
+      - [00:03:00, "Gépgyár"]
+      - [00:04:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:05:00, "Gyógyszertár"]
+      - [00:07:00, "Templom tér"]
+      - [00:08:00, "Szent Flórián tér"]
+      - [00:09:00, "Bajcsai utca 31-46."]
+      - [00:10:00, "Kiskanizsa, temető'"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-16A-outbound
+  - departures: [⊗6:40, ⊗7:35, ⊗9:30, ⊗11:30, ⊗12:35, ⊗13:40, ⊗19:30]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Kiskanizsa, temető'"]
+      - [00:01:00, "Bajcsai utca 31-46."]
+      - [00:02:00, "Szent Flórián tér"]
+      - [00:03:00, "Templom tér"]
+      - [00:05:00, "Gyógyszertár"]
+      - [00:06:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:07:00, "Gépgyár"]
+      - [00:08:00, "DÉDÁSZ"]
+      - [00:10:00, "Autóbuszállomás"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-16A-inbound

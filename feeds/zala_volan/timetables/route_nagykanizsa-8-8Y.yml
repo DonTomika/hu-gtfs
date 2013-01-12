@@ -1,0 +1,133 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-8
+route_short_name: 8
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/82
+trips:
+  - departures:
+      ⊗: [4:50, 5:20, 5:50, 6:20, 7:30, 11:00, 12:00, 13:20, 14:15, 14:35, 15:10, 15:40, 16:30, 17:00, 18:05, 18:30, 19:30, 20:30, 21:25, 22:20]
+      ⊕: [5:25, 6:25, +9:10, o9:20, 12:45, 16:30, 18:10, 20:30, 22:20]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Napraforgó tér"]
+      - [00:02:00, "Kenyérgyár"]
+      - [00:03:00, "Vörösmarty utca sarok"]
+      - [00:04:00, "Király Pál utca sarok"]
+      - [00:06:00, "Rozgonyi utca 1."]
+      - [00:08:00, "Kalmár utca"]
+      - [00:12:00, "1.sz. posta"]
+      - [00:14:00, "Csengery utca – Kisfaludy utca sarok"]
+      - [00:15:00, "Csengery utca 55-58."]
+      - [00:16:00, "Véndiófa Vendéglő"]
+      - [00:17:00, "Sörgyár"]
+      - [00:18:00, "Csengery utca 86."]
+      - [00:19:00, "Ligetváros"]
+      - [00:20:00, "EYBL Kft."]
+      - [00:21:00, "Hűtőház"]
+      - [00:22:00, "Miklósfa, ABC'"]
+      - [00:23:00, "Kápolnatér"]
+      - [00:24:00, "Marek József utca"]
+      - [00:25:00, "Miklósfa, óvoda'"]
+      - [00:26:00, "Szentendrey Edgár utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-8-outbound
+  - departures:
+      ⊗: [4:55, 5:20, 5:50, 6:20, 6:50, 7:30, 8:00, 9:30, 12:30, 13:20, 14:40, 15:10, 15:40, 16:10, 16:40, 17:00, 17:30, 18:30, 19:00, 20:00, 21:00, 22:10]
+      ⊕: [5:00, 5:55, 7:00, 8:30, +9:40, o9:50, 11:45, 13:15, 14:10, 17:00, 18:40, 21:00]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Szentendrey Edgár utca"]
+      - [00:01:00, "Miklósfa, óvoda'"]
+      - [00:02:00, "Marek József utca"]
+      - [00:03:00, "Kápolnatér"]
+      - [00:04:00, "Miklósfa, ABC'"]
+      - [00:05:00, "Hűtőház"]
+      - [00:06:00, "EYBL Kft."]
+      - [00:07:00, "Ligetváros"]
+      - [00:08:00, "Csengery utca 86."]
+      - [00:09:00, "Sörgyár"]
+      - [00:10:00, "Véndiófa Vendéglő"]
+      - [00:11:00, "Csengery utca 55-58."]
+      - [00:12:00, "Csengery utca – Kisfaludy utca sarok"]
+      - [00:16:00, "Dél-Zalai Áruház"]
+      - [00:21:00, "Apolló Mozi"]
+      - [00:22:00, "Király Pál utca sarok"]
+      - [00:23:00, "Vörösmarty utca sarok"]
+      - [00:24:00, "Kenyérgyár"]
+      - [00:26:00, "Napraforgó tér"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-8-inbound
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-8Y
+route_short_name: 8Y
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/82
+trips:
+  - departures:
+      ⊗: [7:00, 8:00, 9:00, 10:00, 12:50, 16:10, 17:30]
+#TODO
+#K 4.35
+#K 12.40
+      ⊕: [8.00, 13.40, 14.35]
+#K 4.40
+#KY 11.15
+#K 19.15
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Napraforgó tér"]
+      - [00:02:00, "Kenyérgyár"]
+      - [00:03:00, "Vörösmarty utca sarok"]
+      - [00:04:00, "Király Pál utca sarok"]
+      - [00:06:00, "Rozgonyi utca 1."]
+      - [00:08:00, "Kalmár utca"]
+      - [00:12:00, "1.sz. posta"]
+      - [00:14:00, "Csengery utca – Kisfaludy utca sarok"]
+      - [00:16:00, "Vécsey utca"]
+      - [00:17:00, "Köztemető"]
+      - [00:18:00, "Tripamer úti ABC bolt"]
+      - [00:20:00, "Véndiófa Vendéglő"]
+      - [00:21:00, "Sörgyár"]
+      - [00:22:00, "Csengery utca 86."]
+      - [00:23:00, "Ligetváros"]
+      - [00:24:00, "EYBL Kft."]
+      - [00:25:00, "Hűtőház"]
+      - [00:26:00, "Miklósfa, ABC'"]
+      - [00:27:00, "Kápolnatér"]
+      - [00:28:00, "Marek József utca"]
+      - [00:29:00, "Miklósfa, óvoda'"]
+      - [00:30:00, "Szentendrey Edgár utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-8Y-outbound
+  - departures:
+      ⊗: [8:30, 10:30, 11:30, 13:00, 14:05, 18:00]
+#KY 7:10
+      ⊕: [15:05]
+#K 19.40 
+#K 22.46 
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Szentendrey Edgár utca"]
+      - [00:01:00, "Miklósfa, óvoda'"]
+      - [00:02:00, "Marek József utca"]
+      - [00:03:00, "Kápolnatér"]
+      - [00:04:00, "Miklósfa, ABC'"]
+      - [00:05:00, "Hűtőház"]
+      - [00:06:00, "EYBL Kft."]
+      - [00:07:00, "Ligetváros"]
+      - [00:08:00, "Csengery utca 86."]
+      - [00:09:00, "Sörgyár"]
+      - [00:10:00, "Véndiófa Vendéglő"]
+      - [00:12:00, "Tripamer úti ABC bolt"]
+      - [00:13:00, "Köztemető"]
+      - [00:14:00, "Vécsey utca"]
+      - [00:16:00, "Csengery utca – Kisfaludy utca sarok"]
+      - [00:21:00, "Dél-Zalai Áruház"]
+      - [00:26:00, "Apolló Mozi"]
+      - [00:27:00, "Király Pál utca sarok"]
+      - [00:28:00, "Vörösmarty utca sarok"]
+      - [00:29:00, "Kenyérgyár"]
+      - [00:30:00, "Napraforgó tér"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-8Y-inbound

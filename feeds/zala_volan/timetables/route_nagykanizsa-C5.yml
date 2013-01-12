@@ -1,0 +1,21 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-C5
+route_short_name: C5
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/85
+trips:
+  - departures: [⊗5:25, ⊗13:25, ⊗21:25]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Autóbuszállomás"]
+      - [00:05:00, "Napraforgó tér"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C5-outbound
+  - departures: [⊗6:10, ⊗14:15, ⊗22:20]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Napraforgó tér"]
+      - [00:05:00, "Autóbuszállomás"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C5-inbound

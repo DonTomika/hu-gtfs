@@ -1,0 +1,35 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-C3
+route_short_name: C3
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/83
+trips:
+  - departures:
+      ⊗: [7:30, 8:30, 9:30, 10:30, 11:30, 12:30, 15:30, 16:30, 17:30, 18:30, 19:30, 20:30, 21:30]
+      ⊕: [8:30, 9:30, 10:30, 11:30, 12:30, 13:30, 14:30, 15:30, 16:30, 17:30, 18:30, 19:30, o20:30, o21:30]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Autóbuszállomás"]
+      - [00:03:00, "Dél-Zalai Áruház"]
+      - [00:04:00, "Deák tér"]
+      - [00:05:00, "Eötvös tér"]
+      - [00:07:00, "Balatoni út"]
+      - [00:09:00, "Fortuna"]
+      - [00:10:00, "TESCO"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C3-outbound
+  - departures:
+      ⊗: [8:00, 9:00, 10:00, 11:00, 12:00, 13:00, 16:00, 17:00, 18:00, 19:00, 20:00, 21:15, 22:15]
+      ⊕: [9:00, 10:00, 11:00, 12:00, 13:00, 14:15, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00, o21:15, o22:15]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "TESCO"]
+      - [00:01:00, "Fortuna"]
+      - [00:03:00, "Balatoni út"]
+      - [00:05:00, "Eötvös tér"]
+      - [00:06:00, "Deák tér"]
+      - [00:07:00, "Dél-Zalai Áruház"]
+      - [00:10:00, "Autóbuszállomás"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C3-inbound

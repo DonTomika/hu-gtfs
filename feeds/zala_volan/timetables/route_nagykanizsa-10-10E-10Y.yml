@@ -1,0 +1,171 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-10
+route_short_name: 10
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/69
+trips:
+  - departures: [⊕5:35, ⊗6:35, o6:35, ⊗7:35, o10:05, 10:35, 12:50, ⊗14:00, 14:35, ⊕15:35, +19:35]
+# TODO
+#N+6.35 
+#N 8.35  
+#N 11.35 
+#N⊗16.10 
+#N⊕16.35
+#N⊗16.50
+#N⊗17.50 
+#N⊕18.35 
+#N⊗18.50 
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Kalmár utca"]
+      - [00:03:00, "Dél-Zalai Áruház"]
+      - [00:06:00, "Deák tér"]
+      - [00:07:00, "Eötvös tér"]
+      - [00:08:00, "Teleki utca – Kórház bejárati út"]
+      - [00:09:00, "Teleki utca – Víztorony"]
+      - [00:10:00, "Téglagyári út"]
+      - [00:11:00, "Sánc, óvoda'"]
+      - [00:13:00, "Sánc, temető"]
+      - [00:15:00, "Csónakázó-tó bejárati út"]
+      - [00:16:00, "Látóhegy"]
+      - [00:17:00, "Bagolasánc, Szeszfőzde'"]
+      - [00:18:00, "Bagolai elágazás"]
+      - [00:20:00, "Bagola, Bagoly út'"]
+      - [00:22:00, "Bagola, vegyesbolt'"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-10-outbound
+  - departures: [⊗5.00, 6.00, ⊗7.00, o7.00, ⊗8.00, ⊕8.15, ⊗10.00, o10.30, +10.40, 11.00, ⊕13.12, ⊗13.15, ⊗14.25, ⊕15.00, ⊗15.20, ⊕16.00, +20.00]
+#N+6.57 
+#N 9.00  
+#N 12.00 
+#N⊗16.35
+#N⊕17.00 
+#N⊗17.15 
+#N⊗18.12 
+#N⊕18.57 
+#N⊗19.12 
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Bagola, vegyesbolt'"]
+      - [00:02:00, "Bagola, Bagoly út'"]
+      - [00:04:00, "Bagolai elágazás"]
+      - [00:05:00, "Bagolasánc, Szeszfőzde'"]
+      - [00:06:00, "Látóhegy"]
+      - [00:07:00, "Csónakázó-tó bejárati út"]
+      - [00:07:00, "Csónakázó-tó bejárati út"]
+      - [00:09:00, "Sánc, temető"]
+      - [00:11:00, "Sánc, óvoda'"]
+      - [00:12:00, "Téglagyári út"]
+      - [00:13:00, "Teleki utca – Víztorony"]
+      - [00:14:00, "Teleki utca – Kórház bejárati út"]
+      - [00:15:00, "Eötvös tér"]
+      - [00:16:00, "Deák tér"]
+      - [00:19:00, "Dél-Zalai Áruház"]
+      - [00:22:00, "Kalmár utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-10-inbound
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-10E
+route_short_name: 10E
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/69
+trips:
+  - departures: [⊕7.50, ⊗9.35]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Kalmár utca"]
+      - [00:03:00, "Dél-Zalai Áruház"]
+      - [00:06:00, "Deák tér"]
+      - [00:07:00, "Eötvös tér"]
+      - [00:08:00, "Teleki utca – Kórház bejárati út"]
+      - [00:09:00, "Teleki utca – Víztorony"]
+      - [00:10:00, "Téglagyári út"]
+      - [00:11:00, "Sánc, óvoda'"]
+      - [00:13:00, "Sánc, temető"]
+      - [00:15:00, "Csónakázó-tó bejárati út"]
+      - [00:16:00, "Csónakázó-tó parkoló"]
+      - [00:17:00, "Csónakázó-tó bejárati út"]
+      - [00:18:00, "Látóhegy"]
+      - [00:19:00, "Bagolasánc, Szeszfőzde'"]
+      - [00:20:00, "Bagolai elágazás"]
+      - [00:22:00, "Bagola, Bagoly út'"]
+      - [00:24:00, "Bagola, vegyesbolt'"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-10E-outbound
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-10Y
+route_short_name: 10Y
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/69
+trips:
+  - departures: [⊗4.25, ⊗5.25, ⊗6.30, +10.05]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Kalmár utca"]
+      - [00:03:00, "Dél-Zalai Áruház"]
+      - [00:06:00, "Deák tér"]
+      - [00:07:00, "Eötvös tér"]
+      - [00:08:00, "Teleki utca – Kórház bejárati út"]
+      - [00:09:00, "Teleki utca – Víztorony"]
+      - [00:10:00, "Téglagyári út"]
+      - [00:11:00, "Sánc, óvoda'"]
+      - [00:13:00, "Sánc, temető"]
+      - [00:15:00, "Csónakázó-tó bejárati út"]
+      - [00:16:00, "Látóhegy"]
+      - [00:17:00, "Bagolasánc, Szeszfőzde'"]
+      - [00:18:00, "Bagolai elágazás"]
+      - [00:19:00, "Látóhegy felső"]
+      - [00:20:00, "Kisfakos"]
+      - [00:22:00, "Nagyfakos alsó"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-10Y-outbound
+  - departures: [⊗6.55, +7.07, 9.10, 12.10, ⊗16.45, ⊕17.10, ⊗17.25, ⊗18.22, ⊕19.07, ⊗19.22]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Nagyfakos alsó"]
+      - [00:02:00, "Kisfakos"]
+      - [00:03:00, "Látóhegy felső"]
+      - [00:04:00, "Bagolai elágazás"]
+      - [00:05:00, "Bagolasánc, Szeszfőzde'"]
+      - [00:06:00, "Látóhegy"]
+      - [00:07:00, "Csónakázó-tó bejárati út"]
+      - [00:09:00, "Sánc, temető"]
+      - [00:11:00, "Sánc, óvoda'"]
+      - [00:12:00, "Téglagyári út"]
+      - [00:13:00, "Teleki utca – Víztorony"]
+      - [00:14:00, "Teleki utca – Kórház bejárati út"]
+      - [00:15:00, "Eötvös tér"]
+      - [00:16:00, "Deák tér"]
+      - [00:19:00, "Dél-Zalai Áruház"]
+      - [00:22:00, "Kalmár utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-10Y-inbound
+  - departures: [⊗4.50, ⊗5.50, +10.27]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Nagyfakos alsó"]
+      - [00:02:00, "Kisfakos"]
+      - [00:03:00, "Látóhegy felső"]
+      - [00:04:00, "Bagolai elágazás"]
+      - [00:06:00, "Bagola, Bagoly út"]
+      - [00:08:00, "Bagola, vegyesbolt"]
+      - [00:10:00, "Bagola, Bagoly út"]
+      - [00:12:00, "Bagolai elágazás"]
+      - [00:13:00, "Bagolasánc, Szeszfőzde'"]
+      - [00:14:00, "Látóhegy"]
+      - [00:15:00, "Csónakázó-tó bejárati út"]
+      - [00:17:00, "Sánc, temető"]
+      - [00:19:00, "Sánc, óvoda'"]
+      - [00:20:00, "Téglagyári út"]
+      - [00:21:00, "Teleki utca – Víztorony"]
+      - [00:22:00, "Teleki utca – Kórház bejárati út"]
+      - [00:23:00, "Eötvös tér"]
+      - [00:24:00, "Deák tér"]
+      - [00:27:00, "Dél-Zalai Áruház"]
+      - [00:30:00, "Kalmár utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-10YB-inbound
+# TODO: HELYKÖZI

@@ -1,0 +1,26 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-C9
+route_short_name: C9
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrendek/14/87
+trips:
+  - departures: [⊕5:20, ⊗6:35, ⊕13:20, o21:20]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Városkapu körút"]
+      - [00:02:00, "Rózsa út"]
+      - [00:06:00, "7.sz. fő út – Petőfi út sarok"]
+      - [00:10:00, "Napraforgó tér"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C9-outbound
+  - departures: [⊕6:15, ⊕14:20, ⊕22:20]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Napraforgó tér"]
+      - [00:04:00, "7.sz. fő út – Petőfi út sarok"]
+      - [00:07:00, "Szolgáltatóház"]
+      - [00:08:00, "Rózsa út"]
+      - [00:10:00, "Városkapu körút"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C9-inbound

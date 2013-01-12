@@ -1,0 +1,38 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-2
+route_short_name: 2
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/76
+trips:
+  - departures: [⊗5:50, 6:20, ⊗6:50, ⊗7:20, 7:50, ⊗8:50, ⊘8:50, ⊗9:50, +9:50, ⊗10:50, ⊘10:50, ⊗11:50, ⊗12:50, ⊗13:50, +14:10 ⊗14:20, ⊘14:20, ⊗14:50, ⊗15:20, 15:50, ⊗16:20, ⊗16:50, ⊘16:50, 17:50, ⊗18:50, 19:50, +20:50]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Kalmár utca"]
+      - [00:02:00, "Magyar utca 60."]
+      - [00:04:00, "Lámpagyári utca"]
+      - [00:05:00, "DOMUS bejárati út"]
+      - [00:09:00, "Palin, Lakótelepi bejárati út'"]
+      - [00:10:00, "Palin, Új lakótelep'"]
+      - [00:11:00, "Palin, államigazdaság'"]
+      - [00:13:00, "Palin, Húsüzem'"]
+      - [00:14:00, "Palin, Magvető utca'"]
+      - [00:15:00, "Palin, futballpálya'"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-2-outbound
+  - departures: [⊗6:05, 6:35, ⊗7:05, ⊗7:35, 8:05, ⊗9:05, ⊘9:05, ⊗10:05, +10:05, ⊗11:05, ⊘11:05, ⊗12:05, ⊗13:05, ⊗14:05, +14:25, ⊗14:35, ⊘14:35, ⊗15:05, ⊗15:35, 16:05, ⊗16:35, ⊗17:05, 18:05, ⊗19:05, 20:05, ⊘21:05]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Palin, futballpálya'"]
+      - [00:02:00, "Palin, Magvető utca'"]
+      - [00:03:00, "Palin, Húsüzem'"]
+      - [00:04:00, "Palin, államigazdaság'"]
+      - [00:05:00, "Palin, Új lakótelep'"]
+      - [00:06:00, "Palin, Lakótelepi bejárati út'"]
+      - [00:10:00, "DOMUS bejárati út"]
+      - [00:11:00, "Lámpagyári utca"]
+      - [00:13:00, "Magyar utca 60."]
+      - [00:15:00, "Kalmár utca"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-2-inbound
+# TODO: HELYKÖZI

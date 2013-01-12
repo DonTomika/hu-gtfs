@@ -1,0 +1,41 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-C33
+route_short_name: C33
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/84
+trips:
+  - departures: [5:00, ⊗6:30, ▲7:20]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Városkapu körút"]
+      - [00:02:00, "Rózsa út"]
+      - [00:03:00, "Hevesi Sándor utcai ABC"]
+      - [00:04:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:06:00, "Teleki utca – Víztorony"]
+      - [00:07:00, "Teleki utca – Kórház bejárati út"]
+      - [00:08:00, "Eötvös tér"]
+      - [00:09:00, "Deák tér"]
+      - [00:11:00, "1.sz. posta"]
+      - [00:12:00, "Ady Endre út 39-40."]
+      - [00:14:00, "Cserháti SZKI"]
+      - [00:15:00, "Vasútállomás"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C33-outbound
+  - departures: [⊗6:45]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Vasútállomás"]
+      - [00:01:00, "Cserháti SZKI"]
+      - [00:03:00, "Ady Endre út 39-40."]
+      - [00:04:00, "1.sz. posta"]
+      - [00:06:00, "Deák tér"]
+      - [00:07:00, "Eötvös tér"]
+      - [00:08:00, "Teleki utca – Kórház bejárati út"]
+      - [00:09:00, "Teleki utca – Víztorony"]
+      - [00:11:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:12:00, "Hevesi Sándor utcai ABC"]
+      - [00:13:00, "Rózsa út"]
+      - [00:15:00, "Városkapu körút"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C33-inbound

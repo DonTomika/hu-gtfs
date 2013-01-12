@@ -1,0 +1,45 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-C7
+route_short_name: C7
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrend/14/86
+trips:
+  - departures: [6:15, 14:20, 22:2]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Napraforgó tér"]
+      - [00:01:00, "Lámpagyári utca"]
+      - [00:02:00, "Magyar utca 60."]
+      - [00:04:00, "Kalmár utca"]
+      - [00:06:00, "DÉDÁSZ"]
+      - [00:07:00, "Gépgyár"]
+      - [00:08:00, "Varasdi út"]
+      - [00:09:00, "Kisrác út"]
+      - [00:10:00, "Kisrác, óvoda'"]
+      - [00:12:00, "Nagyrác, iskola'"]
+      - [00:14:00, "Nagyrác, forduló'"]
+      - [00:16:00, "Nagyrác, iskola'"]
+      - [00:17:00, "Tőzike út"]
+      - [00:18:00, "Bornemissza út"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C7-outbound
+  - departures: [5:10, 13:10, 21:15]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Bornemissza út"]
+      - [00:01:00, "Tőzike út"]
+      - [00:02:00, "Nagyrác, iskola'"]
+      - [00:04:00, "Nagyrác, forduló'"]
+      - [00:06:00, "Nagyrác, iskola'"]
+      - [00:08:00, "Kisrác, óvoda'"]
+      - [00:09:00, "Kisrác út"]
+      - [00:10:00, "Varasdi út"]
+      - [00:11:00, "Gépgyár"]
+      - [00:12:00, "DÉDÁSZ"]
+      - [00:14:00, "Kalmár utca"]
+      - [00:16:00, "Magyar utca 60."]
+      - [00:17:00, "Lámpagyári utca"]
+      - [00:18:00, "Napraforgó tér"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-C7-inbound

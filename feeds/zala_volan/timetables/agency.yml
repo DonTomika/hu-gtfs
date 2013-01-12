@@ -1,0 +1,137 @@
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+agency_name: Zala Volán (Nagykanizsa)
+agency_phone: +36-93-509-732
+agency_lang: hu
+agency_timezone: Europe/Budapest
+agency_url: http://www.zalavolan.hu
+fares:
+  - fare_id: ZALA-VOLAN-NAGYKANIZSA-FARE
+    price:   320
+    currency_type: HUF
+    payment_method: onboard
+services: &services
+  5A:
+    - DESC
+    - [LIMIT, HETVEGEN, "20130301-20131102"]
+    - III. 1-től XI. 2-ig szabad- és munkaszüneti napokon közlekedik
+  4:
+    - DESC
+    - [AND, [SERVICE, thursday, 1], MUNKANAPON]
+    - csütörtöki munkanapokon
+  11:
+    - DESC
+    - [OR, TANITASI_MUNKANAPON, SZABADNAPON]
+    - iskolai előadási, valamint szabadnapokon
+  14F:
+    - DESC
+    - [FIRST-DAY, TANITASI_MUNKANAPON]
+    - a hetek első iskolai előadási napján
+  14L:
+    - DESC
+    - [LAST-DAY, TANITASI_MUNKANAPON]
+    - a hetek utolsó iskolai előadási napján
+  33:
+    - DESC
+    - [LIMIT, NAPONTA, "20130401-20130930"]
+    - VI. 1-től IX. 30-ig naponta
+  46:
+    - DESC
+    - [OR, TANITASI_MUNKANAPON, HETVEGEN]
+    - iskolai előadási napokon valamint szabad és munkaszüneti napokon
+  54:
+    - DESC
+    - [LIMIT, [INVERT, MUNKASZUNETINAPON], "20130501-20130930"]
+    - V. 1-től IX. 30-ig munkaszüneti napok kivételével naponta
+  59:
+    - DESC
+    - [PREV-DAY, TANITASI_MUNKANAPON]
+    - a hetek első iskolai előadási napját megelőző napon
+  65:
+    - DESC
+    - [OR, SZABADNAPON, TANSZUNETI_MUNKANAPON]
+    - szabadnapokon, valamint tanszünetben munkanapokon
+  70:
+    - DESC
+    - [SUBTRACT, MUNKASZUNETINAPON, [PREV-DAY, TANITASI_MUNKANAPON]]
+    - a hetek első iskolai előadási napját megelőző munkaszüneti napok kivételével munkaszüneti napokon
+  71:
+    - DESC
+    - [AND, [SERVICE, tuesday, 1, thursday, 1], TANSZUNETI_MUNKANAPON]
+    - tanszünetben keddi és csütörtöki munkanapokon
+  72:
+    - DESC
+    - [AND, [SERVICE, monday, 1, wednesday, 1, firday, 1, saturday, 1, sunday, 1], TANSZUNETI_MUNKANAPON]
+    - tanszünetben keddi és csütörtöki munkanap kivételével munkanapokon
+  75:
+    - DESC
+    - [SUBTRACT, MUNKANAPON, [LAST-DAY, TANITASI_MUNKANAPON]]
+    - a hét utolsó iskolai előadási napja kivételével munkanapokon
+  79:
+    - DESC
+    - [LIMIT, [INVERT, MUNKASZUNETINAPON], "-20130430,20131001-"]
+    - IV. 30-ig és X. 1-től munkaszüneti napok kivételével naponta
+  '?':
+    - DESC
+    - [PREV-DAY, MUNKANAPON]
+    - a hetek első munkanapját megelőző napokon
+  o:
+    - DESC
+    - SZABADNAPON
+    - szabadnap (szombat)
+  +:
+    - DESC
+    - MUNKASZUNETINAPON
+    - munkaszüneti napokon (vasár- és ünnepnap)
+  x:
+    - DESC
+    - [INVERT, MUNKASZUNETINAPON]
+    - munkaszüneti napok kivételével naponta (hétfőtől szombatig)
+  ⊗:
+    - DESC
+    - MUNKANAPON
+    - munkanapokon (hétfőtől péntekig)
+  ⊘:
+    - DESC
+    - [INVERT, SZABADNAPON]
+    - szabadnap kivételével naponta (hétfőtől péntekig, vasár- és ünnepnap)
+  ⊕:
+    - DESC
+    - HETVEGEN
+    - szabad- és munkaszüneti napokon (szombat, valamint vasár- és ünnepnap)
+  ▲:
+    - DESC
+    - TANITASI_MUNKANAPON
+    - iskolai előadási napokon
+  △:
+    - DESC
+    - TANSZUNETI_MUNKANAPON
+    - tanszünetben munkanapokon
+
+# 5A	III. 1-től XI. 2-ig szabad- és munkaszüneti napokon közlekedik
+
+# 4		csütörtöki munkanapokon
+# 11	iskolai előadási, valamint szabadnapokon
+# 14F	a hetek első iskolai előadási napján
+# 14L	a hetek utolsó iskolai előadási napján
+# 33	VI. 1-től IX. 30-ig naponta
+# 46	iskolai előadási napokon valamint szabad és munkaszüneti napokon
+# 54	V. 1-től IX. 30-ig munkaszüneti napok kivételével naponta
+# 59	a hetek első iskolai előadási napját megelőző napon
+# 65	szabadnapokon, valamint tanszünetben munkanapokon
+# 70	a hetek első iskolai előadási napját megelőző munkaszüneti napok kivételével
+#       munkaszüneti napokon
+# 71	tanszünetben keddi és csütörtöki munkanapokon
+# 72	tanszünetben keddi és csütörtöki munkanap kivételével munkanapokon
+# 75	a hét utolsó iskolai előadási napja kivételével munkanapokon
+# 79	IV. 30-ig és X. 1-től munkaszüneti napok kivételével naponta
+# ?		a hetek első munkanapját megelőző napokon
+
+# o		szabadnap (szombat)
+# +		munkaszüneti napokon (vasár- és ünnepnap)
+# x		munkaszüneti napok kivételével naponta (hétfőtől szombatig)
+
+# ⊗		munkanapokon (hétfőtől péntekig)
+# ⊘		szabadnap kivételével naponta (hétfőtől péntekig, vasár- és ünnepnap)
+# ⊕		szabad- és munkaszüneti napokon (szombat, valamint vasár- és ünnepnap)
+# ▲		iskolai előadási napokon
+# △		tanszünetben munkanapokon

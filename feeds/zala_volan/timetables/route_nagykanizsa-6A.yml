@@ -1,0 +1,54 @@
+---
+agency_id: ZALA-VOLAN-NAGYKANIZSA
+route_id: ZALA-VOLAN-NAGYKANIZSA-6A
+route_short_name: 6A
+route_type: bus
+route_url: http://zalavolan.hu/zalavolan/menetrendek/14/80
+trips:
+  - departures:
+      ⊗: [5:45, 6:45, 7:45, 10:00, 12:45, 13:45, 14:15, 15:45, 16:45]
+      ⊕: [+5:00, o5:45, +6:00, o7:15, 8:00, 9:00, +10:00, 11:00, 12:00, 13:00, 14:00, 15:00, +16:00, 17:00, 18:00, 19:00, +20:00]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Városkapu körút"]
+      - [00:02:00, "Rózsa út"]
+      - [00:05:00, "Attila utca – Rózsa utca sarok"]
+      - [00:06:00, "Rózsa utca 1-2."]
+      - [00:07:00, "Teleki utca – Kórház bejárati út"]
+      - [00:09:00, "Eötvös tér"]
+      - [00:10:00, "Deák tér"]
+      - [00:11:00, "Dél-Zalai Áruház"]
+      - [00:13:00, "DÉDÁSZ"]
+      - [00:14:00, "Gépgyár"]
+      - [00:16:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:17:00, "Gyógyszertár"]
+      - [00:19:00, "Templom tér"]
+      - [00:20:00, "Szent Flórián tér"]
+      - [00:21:00, "Bajcsay utca 31-46."]
+      - [00:22:00, "Kiskanizsa, temető'"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6A-outbound
+  - departures:
+      ⊗: [5:15, 6:15, 7:10, 8:10, 10:30, 13:20, 14:10, 14:40, 16:10, 17:10]
+      ⊕: [o5:15, +5:30, o6:15, +6:30, o7:45, 8:25, , 9:30, +10:30, 11:30, 12:30, 13:30, 14:30, , 15:30, +16:30, 17:30, 18:30, 19:30, +20:35]
+    direction_id: inbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, "Kiskanizsa, temető'"]
+      - [00:01:00, "Bajcsay utca 31-46."]
+      - [00:02:00, "Szent Flórián tér"]
+      - [00:03:00, "Templom tér"]
+      - [00:05:00, "Gyógyszertár"]
+      - [00:06:00, "Bajcsy-Zsilinszky út 13."]
+      - [00:08:00, "Gépgyár"]
+      - [00:09:00, "DÉDÁSZ"]
+      - [00:11:00, "Dél-Zalai Áruház"]
+      - [00:12:00, "Deák tér"]
+      - [00:13:00, "Eötvös tér"]
+      - [00:15:00, "Teleki utca – Kórház bejárati út"]
+      - [00:16:00, "Rózsa utca 1-2."]
+      - [00:17:00, "Attila utca – Rózsa utca sarok"]
+      - [00:19:00, "Szolgáltatóház"]
+      - [00:20:00, "Rózsa út"]
+      - [00:22:00, "Városkapu körút"]
+    trip_id: ZALA-VOLAN-NAGYKANIZSA-6A-inbound
