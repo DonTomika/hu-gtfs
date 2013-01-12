@@ -81,7 +81,7 @@ sub setup
 	chdir catdir( $FindBin::Bin, updir() );
 
 	$c->register_commands(
-		qw/db_import db_init db_clean download parse deploy deploy_all gtfs kml svg/);
+		qw/db_import db_init db_clean download convert parse deploy deploy_all gtfs kml svg/);
 
 	$c->getopt(
 		'v|verbose+',            'q|quiet+',
@@ -399,6 +399,28 @@ sub download : Help(Downloads agency data: [--force] [--automatic] agency)
 
 	return $fm->download( %{ $c->options } );
 }
+
+sub convert : Help(Converts agency data: agency [ agency specific args ] )
+{
+	my $c = shift;
+	my $agency = shift || $c->argv->[0];
+
+	$c->load_config( catfile curdir(), $feedsdir, $agency, 'config.yml' );
+	eval "require " . $c->config->{feedmanager} . ";"
+		or die "Failed to load feed manager: $@";
+
+	my $fm = $c->config->{feedmanager}->new(
+		options       => $c->config,
+		directory     => catdir( curdir(), $feedsdir, $agency ),
+		osm_file      => $c->stash->{osmfile},
+		reference_url => '',
+	);
+
+	die "FeedManager doesn't support converting" unless $fm->does('HuGTFS::FeedManagerConvert');
+
+	return $fm->convert( %{ $c->options } );
+}
+
 
 sub parse : Help(Parses agency data: [--osmfile=...] agency [ agency specific args ] )
 {
