@@ -137,6 +137,7 @@ sub load_data
 		foreach
 			my $agency_file ( glob( catfile( $self->timetable_directory, 'agency_*.yml' ) ) )
 		{
+			$log->debug("\t$agency_file");
 			my (@yaml) = YAML::Load( slurp $agency_file);
 			$self->data->{agencies}->{ $_->{agency_id} } = $_ for @yaml;
 		}
@@ -159,6 +160,7 @@ sub load_data
 		$log->debug("Loading routes:");
 		foreach my $route_file ( glob( catfile( $self->timetable_directory, 'route_*.yml' ) ) )
 		{
+			$log->debug("\t$route_file");
 			my (@yaml) = YAML::Load( slurp $route_file);
 			$self->data->{routes}->{ $_->{route_id} } = $_ for @yaml;
 		}
@@ -176,6 +178,7 @@ sub load_data
 	{
 		$log->debug("Loading trips:");
 		foreach my $trip_file ( glob( catfile( $self->timetable_directory, 'trip_*.yml' ) ) ) {
+			$log->debug("\t$trip_file");
 			my (@yaml) = YAML::Load( slurp $trip_file);
 			$self->data->{trips}->{ $_->{trip_id} } = $_ for @yaml;
 		}
