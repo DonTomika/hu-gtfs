@@ -172,10 +172,10 @@ Feldolgozásuk automatikus, amennyiben hibás az eredmény, ezt a
 
 LICENC
 ------------------
-[CC-BY-SA 2.0](http://creativecommons.org/licenses/by-sa/2.0/)
+[ODbL](http://opendatacommons.org/licenses/odbl/)
 
 [OpenStreetMap](http://www.openstreetmap.org) adatok is felhasználásra kerültek,
-melyek &copy; OpenStreetMap contributors ([ODbL](http://opendatacommons.org/licenses/odbl/)).
+melyek &copy; OpenStreetMap contributors, [ODbL](http://opendatacommons.org/licenses/odbl/).
 
 <http://www.openstreetmap.org/copyright>
 
@@ -199,8 +199,6 @@ A járat menetrendjének címe.
 Az OpenStreetMap-ből felhasznált objektum azonosítója.
 
 ### calendar.txt:service_desc
-
-### fare_attributes.txt:shape_dist_traveled
 
 EOF
 
