@@ -42,8 +42,6 @@ use Mouse;
 with 'HuGTFS::FeedManager';
 __PACKAGE__->meta->make_immutable;
 
-has 'dbh' => ( is => 'rw', );
-
 has 'ignore_non_hungarian' => (
 	is      => 'rw',
 	isa     => 'Bool',
@@ -548,30 +546,12 @@ sub parse
 		$self->selective( $params{selective} );
 	}
 
-	$self->dbh(
-		DBI->connect(
-			"dbi:CSV:",
-			undef, undef,
-			{
-				f_dir      => catdir( $self->directory, 'references' ),
-				f_encoding => 'utf8',
-				f_ext      => ".csv",
-				csv_eol    => "\n",
-				csv_null   => 1,
-				RaiseError => 1,
-				PrintError => 1,
-			}
-			)
-			or die $DBI::errstr
-	);
-
 	if ($caltest) {
 		init_cal();
 
 		my $service_id = create_service_from_text($caltest);
 		if($service_id) {
 			print "\n$caltest\n";
-			#print Dumper( HuGTFS::Cal->find($service_id)->DUMP );
 			HuGTFS::Cal->find($service_id)->PRINT;
 		} else {
 			print "$caltest\n\tFailed to parse\n";
@@ -1062,8 +1042,6 @@ sub parse
 
 	$dumper->deinit_dumper();
 
-	$self->dbh->disconnect;
-
 	# Reset defaults
 	( $PLATFORMS, $PLATFORM_NODE ) = ( {}, {} );
 	( $STOPS, $TRIPS, $STOP_CODE, $STOP_TYPE, $SERVICE_MAP, $PARSED_SERVICE_MAP, )
@@ -1331,7 +1309,7 @@ Handles timetable header definitions
 							$temp_route_id = $_->get_xpath( 'img', 0 )->att('alt');
 						}
 
-						@part_stops = restrict_stops( $stops, [ $from, $to ] );
+						@part_stops = limit_stops( $stops, $from, $to );
 
 						my $route_id = $routes->{$temp_route_id}->{route_id};
 
@@ -1694,7 +1672,7 @@ Stop restrictions:
 									$timetable[1]->{service_id},
 								);
 								create_trip(
-									$route_id,                $trip_id . '_AND',
+									$route_id,                $trip_id . '_AND2',
 									$service_and->service_id, $elvira_trip_id,
 									$trip_short_name,         $trip_bikes_allowed,
 									$wheelchair_accessible,   @$stops
@@ -1740,7 +1718,7 @@ Stop restrictions:
 							}
 						}
 					}
-					elsif ( scalar @timetable == 3 ) {
+					elsif ( 0 && scalar @timetable == 3 ) {
 						foreach my $part (@parts) {
 							my ( $route_id, $trip_id, $stops, $trip_bikes_allowed,
 								$wheelchair_accessible )
@@ -2081,6 +2059,22 @@ Stop restrictions:
 
 		return $id;
 	}
+}
+
+sub limit_stops {
+	my ($stops, $from, $to) = @_;
+	my @new_stops;
+
+	for(@$stops) {
+		if(!$from || $from eq $_->[0]) {
+			push @new_stops, $_;
+			undef $from;
+		}
+
+		last if($to eq $_->[0]);
+	}
+
+	return @new_stops;
 }
 
 sub restrict_stops
