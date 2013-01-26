@@ -197,12 +197,13 @@ sub sanify
 	}
 
 	for my $agency ( values %{ $self->data->{agencies} } ) {
-		next unless $agency->{routes};
-		for ( @{ $agency->{routes} } ) {
-			$_->{agency_id} = $agency->{agency_id};
-			$self->data->{routes}->{ $_->{route_id} } = $_;
+		if($agency->{routes}) {
+			for ( @{ $agency->{routes} } ) {
+				$_->{agency_id} = $agency->{agency_id};
+				$self->data->{routes}->{ $_->{route_id} } = $_;
+			}
+			delete $agency->{routes};
 		}
-		delete $agency->{routes};
 
 		if($agency->{services}) {
 			foreach my $s (keys %{$agency->{services}}) {
