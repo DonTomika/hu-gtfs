@@ -10,11 +10,11 @@ trips:
     service_id: NAPONTA
     stop_times:
       - [00:00:00, "Bornemissza út"]
-      - [00:01:00, "Tőzike út"]
-      - [00:02:00, "Nagyrác, iskola'"]
-      - [00:03:00, "Nagyrác, forduló'"]
-      - [00:05:00, "Nagyrác, iskola'"]
-      - [00:06:00, "Kisrác, óvoda'"]
+      - [00:01:00, "Tőzike utca"]
+      - [00:02:00, "Nagyrác, iskola"]
+      - [00:03:00, "Nagyrác, forduló"]
+      - [00:05:00, "Nagyrác, iskola"]
+      - [00:06:00, "Kisrác, óvoda"]
       - [00:07:00, "Kisrác út"]
       - [00:09:00, "Szent Flórián tér"]
       - [00:10:00, "Templom tér"]

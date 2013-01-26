@@ -95,6 +95,8 @@ sub cleanup
 	my ( $content, $mech, $url ) = @_;
 
 	$content =~ s{<head>}{<head>\n<base href="http://www.zalavolan.hu/" />}go;
+	$content =~ s{<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_.*?css" />}{}gosm;
+	$content =~ s{<script[^>]?src=.*?>}{}gosm;
 	$content =~ s{<div id="fejlec">.*?\n   </div>}{}gosm;
 	$content =~ s{<ul class='tabs primary'>.*?</ul>}{}gosm;
 	$content =~ s{<div id="jobbsav">.*?</div><!-- /sidebar-first -->}{}gosm;
@@ -125,7 +127,7 @@ sub name_files
 	return undef;
 }
 
-=head3
+=head3 convert
 
 =cut
 
@@ -268,6 +270,7 @@ sub get_name {
 		"Attila utca – Rózsa utca"           => "Attila utca – Rózsa utca sarok",
 		"Bagolai elág."                      => "Bagolai elágazás",
 		"Bagolasánc, Szeszf."                => "Bagolasánc, Szeszfőzde",
+		"Bajcsay utca 31-46."                => "Bajcsai utca 31-46.",
 		"Bajcsai u. 31-46."                  => "Bajcsai utca 31-46.",
 		"Bajcsa, sz.bolt"                    => "Bajcsa, szövetkezeti bolt",
 		"Bajcsa, tsz. gépműhely"             => "Bajcsa, takarékszövetkezet gépműhely",
@@ -277,10 +280,10 @@ sub get_name {
 		"Bajcsy Zsilinszky út 13."           => "Bajcsy-Zsilinszky út 13.",
 		"Bajcsy-Zsilinszky út 13."           => "Bajcsy-Zsilinszky út 13.",
 		"Bajcsy-Zs. U. 13."                  => "Bajcsy-Zsilinszky út 13.",
-		"Csengery – Kisfaludy u. s."         => "Csengery utca – Kisfaludy utca sarok",
 		"Csengery u. 55-58."                 => "Csengery utca 55-58.",
 		"Csengery út 55-58."                 => "Csengery utca 55-58.",
 		"Csengery u. 86."                    => "Csengery utca 86.",
+		"Csengery – Kisfaludy u. s."         => "Csengery utca – Kisfaludy utca sarok",
 		"Csengery út – Kisfaludy u. sarok"   => "Csengery utca – Kisfaludy utca sarok",
 		"Csónakázó-tó bej. út"               => "Csónakázó-tó bejárati út",
 		"Deák tér"                           => "Deák tér",
@@ -288,14 +291,14 @@ sub get_name {
 		"DOMUS bej. út"                      => "DOMUS bejárati út",
 		"Hevesi ABC"                         => "Hevesi Sándor utcai ABC",
 		"Hevesi S. úti ABC"                  => "Hevesi Sándor utcai ABC",
-		"Hevesi u. - Bartók Béla u. sarok"   => "Hevesi Sándor utca - Bartók Béla utca sarok",
+		"Hevesi u. - Bartók Béla u. sarok"   => "Hevesi Sándor utca – Bartók Béla utca sarok",
 		"Hevesi u. – Bartók u. sarok"        => "Hevesi Sándor utca – Bartók Béla utca sarok",
 		"Homokkomáromi u., ford."            => "Homokkomáromi utca, forduló",
 		"Kalmár u."                          => "Kalmár utca",
 		"Király P. u. sarok"                 => "Király Pál utca sarok",
 		"Kisfaludy – Batthyány sarok"        => "Kisfaludy utca – Batthyány utca sarok",
 		"Kisfaludy – Batthyány u. sarok"     => "Kisfaludy utca – Batthyány utca sarok",
-		"Kisfaludy – Csengery u. sarok"      => "Kisfaludy utca – Csengery utca sarok",
+		"Kisfaludy – Csengery u. sarok"      => "Csengery utca sarok – Kisfaludy utca",
 		"Kiskanizsa temető"                  => "Kiskanizsa, temető",
 		"Kisrácz út"                         => "Kisrác út",
 		"Kisrác Óvoda"                       => "Kisrác, óvoda",
@@ -311,7 +314,7 @@ sub get_name {
 		"Nagyrácz forduló"                   => "Nagyrác, forduló",
 		"Nagyrácz Iskola"                    => "Nagyrác, iskola",
 		"PALIN, ÁG."                         => "Palin, államigazdaság",
-		"Palin, Lakótelepi bej. út"          => "Palin, Lakótelepi bejárati út",
+		"Palin, Lakótelepi bej. út"          => "Palin, lakótelepi bejárati út",
 		"Palin, Magvető utca"                => "Palin, Magvető utca",
 		"Palin, Új lakótelep"                => "Palin, Új lakótelep",
 		"Petőfi – Honvéd u. sarok"           => "Petőfi utca – Honvéd utca sarok",
@@ -319,6 +322,7 @@ sub get_name {
 		"Petőfi u. Víztorony"                => "Petőfi utca – Víztorony",
 		"Rozgonyi u. 1."                     => "Rozgonyi utca 1.",
 		"Rozmaring utca"                     => "Rozmaring utca",
+		"Rózsa út"                           => "Rózsa utca",
 		"Rózsa u."                           => "Rózsa utca",
 		"Rózsa u. 1-2."                      => "Rózsa utca 1-2.",
 		"Sánc óvoda"                         => "Sánc, óvoda",
@@ -333,6 +337,8 @@ sub get_name {
 		"Teleki u. Víztorony"                => "Teleki utca – Víztorony",
 		"Templomtér"                         => "Templom tér",
 		"Templom tér"                        => "Templom tér",
+		"Tőzike út"                          => "Tőzike utca",
+		"Tripamer úti ABC bolt"              => "Tripamer úti ABC",
 		"Vörösmarty u. sarok"                => "Vörösmarty utca sarok",
 	};
 #>>>

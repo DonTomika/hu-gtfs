@@ -10,7 +10,7 @@ trips:
     service_id: NAPONTA
     stop_times:
       - [00:00:00, "Városkapu körút"]
-      - [00:02:00, "Rózsa út"]
+      - [00:02:00, "Rózsa utca"]
       - [00:05:00, "Balatoni út"]
       - [00:06:00, "Petőfi utca – Honvéd utca sarok"]
       - [00:08:00, "Petőfi utca – Víztorony"]
@@ -29,6 +29,6 @@ trips:
       - [00:06:00, "Petőfi utca – Honvéd utca sarok"]
       - [00:07:00, "Balatoni út"]
       - [00:09:00, "Szolgáltatóház"]
-      - [00:10:00, "Rózsa út"]
+      - [00:10:00, "Rózsa utca"]
       - [00:12:00, "Városkapu körút"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-C91-inbound

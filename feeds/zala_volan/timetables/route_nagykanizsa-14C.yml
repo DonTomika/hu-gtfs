@@ -10,7 +10,7 @@ trips:
     service_id: NAPONTA
     stop_times:
       - [00:00:00, "Városkapu körút"]
-      - [00:02:00, "Rózsa út"]
+      - [00:02:00, "Rózsa utca"]
       - [00:05:00, "Attila utca – Rózsa utca sarok"]
       - [00:06:00, "Rózsa utca 1-2."]
       - [00:07:00, "Teleki utca – Kórház bejárati út"]
@@ -18,7 +18,7 @@ trips:
       - [00:10:00, "Kisfaludy utca – Batthyány utca sarok"]
       - [00:11:00, "Csengery utca – Kisfaludy utca sarok"]
       - [00:12:00, "Csengery utca 55-58."]
-      - [00:15:00, "Tripamer úti ABC bolt"]
+      - [00:15:00, "Tripamer úti ABC"]
       - [00:16:00, "Köztemető"]
       - [00:18:00, "Kórház utca"]
       - [00:20:00, "Teleki utca – Kórház bejárati út"]

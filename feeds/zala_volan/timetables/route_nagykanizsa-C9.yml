@@ -10,7 +10,7 @@ trips:
     service_id: NAPONTA
     stop_times:
       - [00:00:00, "Városkapu körút"]
-      - [00:02:00, "Rózsa út"]
+      - [00:02:00, "Rózsa utca"]
       - [00:06:00, "7.sz. fő út – Petőfi út sarok"]
       - [00:10:00, "Napraforgó tér"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-C9-outbound
@@ -21,6 +21,6 @@ trips:
       - [00:00:00, "Napraforgó tér"]
       - [00:04:00, "7.sz. fő út – Petőfi út sarok"]
       - [00:07:00, "Szolgáltatóház"]
-      - [00:08:00, "Rózsa út"]
+      - [00:08:00, "Rózsa utca"]
       - [00:10:00, "Városkapu körút"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-C9-inbound

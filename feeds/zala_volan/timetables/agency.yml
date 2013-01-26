@@ -60,7 +60,7 @@ services: &services
     - tanszünetben keddi és csütörtöki munkanapokon
   72:
     - DESC
-    - [AND, [SERVICE, monday, 1, wednesday, 1, firday, 1, saturday, 1, sunday, 1], TANSZUNETI_MUNKANAPON]
+    - [AND, [SERVICE, monday, 1, wednesday, 1, friday, 1, saturday, 1, sunday, 1], TANSZUNETI_MUNKANAPON]
     - tanszünetben keddi és csütörtöki munkanap kivételével munkanapokon
   75:
     - DESC

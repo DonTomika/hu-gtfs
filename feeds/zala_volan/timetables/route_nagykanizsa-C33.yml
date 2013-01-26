@@ -10,9 +10,9 @@ trips:
     service_id: NAPONTA
     stop_times:
       - [00:00:00, "Városkapu körút"]
-      - [00:02:00, "Rózsa út"]
+      - [00:02:00, "Rózsa utca"]
       - [00:03:00, "Hevesi Sándor utcai ABC"]
-      - [00:04:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:04:00, "Hevesi Sándor utca – Bartók Béla utca sarok"]
       - [00:06:00, "Teleki utca – Víztorony"]
       - [00:07:00, "Teleki utca – Kórház bejárati út"]
       - [00:08:00, "Eötvös tér"]
@@ -34,8 +34,8 @@ trips:
       - [00:07:00, "Eötvös tér"]
       - [00:08:00, "Teleki utca – Kórház bejárati út"]
       - [00:09:00, "Teleki utca – Víztorony"]
-      - [00:11:00, "Hevesi Sándor utca - Bartók Béla utca sarok'"]
+      - [00:11:00, "Hevesi Sándor utca – Bartók Béla utca sarok"]
       - [00:12:00, "Hevesi Sándor utcai ABC"]
-      - [00:13:00, "Rózsa út"]
+      - [00:13:00, "Rózsa utca"]
       - [00:15:00, "Városkapu körút"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-C33-inbound

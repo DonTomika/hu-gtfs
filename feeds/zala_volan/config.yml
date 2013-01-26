@@ -1,2 +1,3 @@
 feedmanager: HuGTFS::FeedManager::Volan::Zala
 automatic: 1
+osm_operator_id: !!perl/regexp '(?^u:\b(?:Zala Volán \([^)]+\))(?:\b|\z|;))'

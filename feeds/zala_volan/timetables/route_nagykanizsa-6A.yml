@@ -12,7 +12,7 @@ trips:
     service_id: NAPONTA
     stop_times:
       - [00:00:00, "Városkapu körút"]
-      - [00:02:00, "Rózsa út"]
+      - [00:02:00, "Rózsa utca"]
       - [00:05:00, "Attila utca – Rózsa utca sarok"]
       - [00:06:00, "Rózsa utca 1-2."]
       - [00:07:00, "Teleki utca – Kórház bejárati út"]
@@ -25,8 +25,8 @@ trips:
       - [00:17:00, "Gyógyszertár"]
       - [00:19:00, "Templom tér"]
       - [00:20:00, "Szent Flórián tér"]
-      - [00:21:00, "Bajcsay utca 31-46."]
-      - [00:22:00, "Kiskanizsa, temető'"]
+      - [00:21:00, "Bajcsai utca 31-46."]
+      - [00:22:00, "Kiskanizsa, temető"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-6A-outbound
   - departures:
       ⊗: [5:15, 6:15, 7:10, 8:10, 10:30, 13:20, 14:10, 14:40, 16:10, 17:10]
@@ -34,8 +34,8 @@ trips:
     direction_id: inbound
     service_id: NAPONTA
     stop_times:
-      - [00:00:00, "Kiskanizsa, temető'"]
-      - [00:01:00, "Bajcsay utca 31-46."]
+      - [00:00:00, "Kiskanizsa, temető"]
+      - [00:01:00, "Bajcsai utca 31-46."]
       - [00:02:00, "Szent Flórián tér"]
       - [00:03:00, "Templom tér"]
       - [00:05:00, "Gyógyszertár"]
@@ -49,6 +49,6 @@ trips:
       - [00:16:00, "Rózsa utca 1-2."]
       - [00:17:00, "Attila utca – Rózsa utca sarok"]
       - [00:19:00, "Szolgáltatóház"]
-      - [00:20:00, "Rózsa út"]
+      - [00:20:00, "Rózsa utca"]
       - [00:22:00, "Városkapu körút"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-6A-inbound

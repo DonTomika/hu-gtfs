@@ -10,7 +10,7 @@ trips:
     service_id: NAPONTA
     stop_times:
       - [00:00:00, "Városkapu körút"]
-      - [00:02:00, "Rózsa út"]
+      - [00:02:00, "Rózsa utca"]
       - [00:05:00, "Attila utca – Rózsa utca sarok"]
       - [00:06:00, "Rózsa utca 1-2."]
       - [00:07:00, "Teleki utca – Kórház bejárati út"]
@@ -39,7 +39,7 @@ trips:
       - [00:11:00, "Rózsa utca 1-2."]
       - [00:12:00, "Attila utca – Rózsa utca sarok"]
       - [00:14:00, "Szolgáltatóház"]
-      - [00:15:00, "Rózsa út"]
+      - [00:15:00, "Rózsa utca"]
       - [00:17:00, "Városkapu körút"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-14-inbound
 ---
@@ -54,7 +54,7 @@ trips:
     service_id: NAPONTA
     stop_times:
       - [00:00:00, "Városkapu körút"]
-      - [00:02:00, "Rózsa út"]
+      - [00:02:00, "Rózsa utca"]
       - [00:05:00, "Attila utca – Rózsa utca sarok"]
       - [00:06:00, "Rózsa utca 1-2."]
       - [00:07:00, "Teleki utca – Kórház bejárati út"]
@@ -63,7 +63,7 @@ trips:
       - [00:10:00, "Csengery utca – Kisfaludy utca sarok"]
       - [00:12:00, "Vécsey utca"]
       - [00:13:00, "Köztemető"]
-      - [00:14:00, "Tripamer úti ABC bolt"]
+      - [00:14:00, "Tripamer úti ABC"]
       - [00:15:00, "Véndiófa Vendéglő"]
       - [00:17:00, "Sörgyár"]
       - [00:19:00, "Csengery utca 86."]
@@ -77,7 +77,7 @@ trips:
       - [00:01:00, "Csengery utca 86."]
       - [00:03:00, "Sörgyár"]
       - [00:05:00, "Véndiófa Vendéglő"]
-      - [00:06:00, "Tripamer úti ABC bolt"]
+      - [00:06:00, "Tripamer úti ABC"]
       - [00:07:00, "Köztemető"]
       - [00:08:00, "Vécsey utca"]
       - [00:10:00, "Csengery utca – Kisfaludy utca sarok"]
@@ -87,6 +87,6 @@ trips:
       - [00:14:00, "Rózsa utca 1-2."]
       - [00:15:00, "Attila utca – Rózsa utca sarok"]
       - [00:17:00, "Szolgáltatóház"]
-      - [00:18:00, "Rózsa út"]
+      - [00:18:00, "Rózsa utca"]
       - [00:20:00, "Városkapu körút"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-14Y-inbound
