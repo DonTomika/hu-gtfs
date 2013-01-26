@@ -82,7 +82,7 @@ trips:
       - [00:22:00, "Kórház utca"]
       - [00:23:00, "Kisfaludy utca – Batthyány utca sarok"]
       - [00:24:00, "Csengery utca – Kisfaludy utca sarok"]
-      - [00:26:00, "Ady Endre út 39-40."]
+      - [00:26:00, "Ady Endre utca 39-40."]
       - [00:27:00, "1.sz. posta"]
       - [00:30:00, "Kalmár utca"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-21E-outbound

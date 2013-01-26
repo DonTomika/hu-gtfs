@@ -12,7 +12,7 @@ trips:
       - [00:00:00, "Kalmár utca"]
       - [00:01:00, "Dél-Zalai Áruház"]
       - [00:05:00, "1.sz. posta"]
-      - [00:06:00, "Ady Endre út 39-40."]
+      - [00:06:00, "Ady Endre utca 39-40."]
       - [00:07:00, "Cserháti SZKI"]
       - [00:08:00, "Vasútállomás"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-18-outbound
@@ -22,7 +22,7 @@ trips:
     stop_times:
       - [00:00:00, "Vasútállomás"]
       - [00:01:00, "Cserháti SZKI"]
-      - [00:02:00, "Ady Endre út 39-40."]
+      - [00:02:00, "Ady Endre utca 39-40."]
       - [00:03:00, "1.sz. posta"]
       - [00:05:00, "Dél-Zalai Áruház"]
       - [00:08:00, "Kalmár utca"]

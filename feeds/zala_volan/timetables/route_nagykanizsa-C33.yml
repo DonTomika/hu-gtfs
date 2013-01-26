@@ -18,7 +18,7 @@ trips:
       - [00:08:00, "Eötvös tér"]
       - [00:09:00, "Deák tér"]
       - [00:11:00, "1.sz. posta"]
-      - [00:12:00, "Ady Endre út 39-40."]
+      - [00:12:00, "Ady Endre utca 39-40."]
       - [00:14:00, "Cserháti SZKI"]
       - [00:15:00, "Vasútállomás"]
     trip_id: ZALA-VOLAN-NAGYKANIZSA-C33-outbound
@@ -28,7 +28,7 @@ trips:
     stop_times:
       - [00:00:00, "Vasútállomás"]
       - [00:01:00, "Cserháti SZKI"]
-      - [00:03:00, "Ady Endre út 39-40."]
+      - [00:03:00, "Ady Endre utca 39-40."]
       - [00:04:00, "1.sz. posta"]
       - [00:06:00, "Deák tér"]
       - [00:07:00, "Eötvös tér"]
