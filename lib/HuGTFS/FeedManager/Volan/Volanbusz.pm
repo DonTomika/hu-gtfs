@@ -404,14 +404,15 @@ sub rat_name
 sub stop_is_match
 {
 	my ( $stop_osm, $stop_gtfs, $trip, $route, $data ) = @_;
-	my ( $name, $alt_name, $old_name, $alt_old_name ) = (
+	my ( $name, $alt_name, $old_name, $alt_old_name, $old_alt_name ) = (
 		rat_name( $stop_osm->{stop_name} ),
 		rat_name( $stop_osm->{alt_name}     || 'NOBODY' ),
 		rat_name( $stop_osm->{old_name}     || 'NOBODY' ),
-		rat_name( $stop_osm->{alt_old_name} || 'NOBODY' )
+		rat_name( $stop_osm->{alt_old_name} || 'NOBODY' ),
+		rat_name( $stop_osm->{old_alt_name} || 'NOBODY' )
 	);
 
-	return $stop_gtfs->{stop_name} =~ m/^(?:$name|$alt_name|$old_name|$alt_old_name)$/i;
+	return $stop_gtfs->{stop_name} =~ m/^(?:$name|$alt_name|$old_name|$alt_old_name|$old_alt_name)$/i;
 }
 
 sub create_stop
@@ -438,6 +439,7 @@ sub create_stop
 		delete $data->{stops}->{$stop_id}->{alt_name};
 		delete $data->{stops}->{$stop_id}->{old_name};
 		delete $data->{stops}->{$stop_id}->{alt_old_name};
+		delete $data->{stops}->{$stop_id}->{old_alt_name};
 
 		$data->{stops}->{$stop_id}->{zone_id} = join ',',
 			sort map { s/\s//g; $_ } split /,/, $zones;

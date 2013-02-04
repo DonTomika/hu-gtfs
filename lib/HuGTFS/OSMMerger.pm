@@ -75,7 +75,7 @@ Extracts useful data from an osm file.
 Returns:
 	{
 	  lines    => { $type => [line_variants] },
-	  stops    => { id => {ref, name, alt_name, old_name, alt_old_name, stop_lat, stop_lon },
+	  stops    => { id => {ref, name, alt_name, old_name, alt_old_name, old_alt_name, stop_lat, stop_lon },
 	  pathways => { ... },
 	}
 
@@ -396,6 +396,7 @@ sub create_stop
 		alt_name            => $site->tag("alt_name"),
 		old_name            => $site->tag("old_name"),
 		alt_old_name        => $site->tag("alt_old_name"),
+		old_alt_name        => $site->tag("old_alt_name"),
 		wheelchair_boarding => $site->tag("wheelchair"),
 	};
 
@@ -1413,11 +1414,12 @@ sub finalize_statistics
 sub default_stop_is_match
 {
 	my ( $stop_osm, $stop_gtfs, $trip, $route, $data, $gtfs ) = @_;
-	my ( $name, $alt_name, $old_name, $alt_old_name ) = (
+	my ( $name, $alt_name, $old_name, $alt_old_name, $old_alt_name ) = (
 		$stop_osm->{stop_name},
 		$stop_osm->{alt_name}     || 'NOBODY',
 		$stop_osm->{old_name}     || 'NOBODY',
-		$stop_osm->{alt_old_name} || 'NOBODY'
+		$stop_osm->{alt_old_name} || 'NOBODY',
+		$stop_osm->{old_alt_name} || 'NOBODY'
 	);
 
 	return $stop_osm->{stop_code} =~ m/\b$stop_gtfs->{stop_code}\b/
@@ -1430,7 +1432,7 @@ sub default_stop_is_match
 	{
 		use locale;
 		return $stop_gtfs->{stop_name}
-			=~ m/^(?:\Q$name\E|\Q$alt_name\E|\Q$old_name\E|\Q$alt_old_name\E)$/i;
+			=~ m/^(?:\Q$name\E|\Q$alt_name\E|\Q$old_name\E|\Q$alt_old_name\E|\Q$old_alt_name\E)$/i;
 	}
 }
 
@@ -1461,6 +1463,7 @@ sub default_create_stop
 		delete $stop->{alt_name};
 		delete $stop->{old_name};
 		delete $stop->{alt_old_name};
+		delete $stop->{old_alt_name};
 	}
 
 	if ( $stop_gtfs->{arrival_time} || $stop_gtfs->{departure_time} || $stop_gtfs->{stop_time} )
@@ -1475,7 +1478,7 @@ sub default_create_stop
 			$entrance->{stop_name} = $entrance->{name} || $data->{stops}->{$stop_id}->{stop_name};
 			$entrance->{stop_id}   = $stop_id . "_entrance_" . $entrance->{stop_osm_entity};
 
-			delete $entrance->{$_} for qw/alt_name old_name alt_old_name/;
+			delete $entrance->{$_} for qw/alt_name old_name alt_old_name old_alt_name/;
 		}
 	}
 
