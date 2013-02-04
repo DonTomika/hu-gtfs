@@ -491,8 +491,13 @@ sub parse
 	foreach my $file (@files) {
 		next if $file =~ /XX/;
 
-		my ($trips) = $self->parse_file($file);
-		push @$TRIPS, @$trips if $trips;
+		eval {
+			my ($trips) = $self->parse_file($file);
+			push @$TRIPS, @$trips if $trips;
+		};
+		if($@) {
+			$log->warn("Failed to parse $file: $@");
+		}
 	}
 
 	# Create routes...
@@ -1032,13 +1037,13 @@ sub parse_file
 			if( $img) {
 				$service = $img->att('alt');
 			} else {
-				$service = $td->get_xpath( './/span[@class =~ /jaratjel/]/span[@class =~ /jel_alt/]', 0 )->trimmed_text;
+				$service = $td->get_xpath( './/span[@class =~ /jaratjel/]/span[@class =~ /jel_/]', 0 )->trimmed_text;
 			}
 		} else {
 			$service = '';
 		}
 
-		if ( $td->get_xpath( './/span[@class =~ /jel_inv/]', 0 ) ) {
+		if ( $td->get_xpath( './/span[@class =~ /jaratinv/]/span[@class =~ /jel_inv/]', 0 ) ) {
 			$restriction = $td->get_xpath( './/span[@class =~ /jaratinv/]/span[@class =~ /jel_inv/]', 0 )->trimmed_text;
 		}
 
@@ -1320,6 +1325,8 @@ sub create_calendar
 			['LAST-DAY', 'VBS_I'],],
 		[['15', 'a hetek első iskolai előadási napját megelőző munkaszüneti napokon'],
 			['PREV-DAY', 'VBS_I'],],
+		[['16', 'tanév tartama alatt munkanapokon'],
+			['LIMIT', 'VBS_M', HuGTFS::Cal::CAL_TANEV],],
 		[['22', 'munkanapokon keddtől-péntekig'],
 			['AND', 'VBS_M', ['SERVICE', map { $_ => 1 } qw/tuesday wednesday thursday friday/]],],
 		[['23', 'nyári tanszünetben munkaszüneti napokon'],
