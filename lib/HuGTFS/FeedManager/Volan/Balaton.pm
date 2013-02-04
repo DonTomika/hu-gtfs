@@ -73,6 +73,7 @@ sub download
 sub cleanup
 {
 	my ( $content, $mech, $url ) = @_;
+	return $content if $url =~ m/\.pdf$/;
 
 	utf8::encode($content);
 	$content =~ s{<\?xml version="1\.0"\?>}{<?xml version="1.0" encoding="UTF-8"?>}o;
@@ -94,7 +95,7 @@ sub crawl_xml
 
 	my @matches = ($content =~ m/<option value="(9[12]\d\d[OV])">/go);
 
-	my @urls = map { "http://www.balatonvolan.hu/ez/xml/$_.xml" } @matches;
+	my @urls = map { ("http://www.balatonvolan.hu/ez/xml/$_.xml", "http://balatonvolan.hu/ez/pages/helyi" .(m/^91/? "vp": "bf"). "/$_.pdf") } @matches;
 	return ( [@urls], undef, undef, \&cleanup, );
 }
 
@@ -110,12 +111,12 @@ sub name_files
 		return "index.html";
 	}
 
-	if ( $url =~ m{xml/91(\d\d)([OV])\.xml$} ) {
-		return "veszprem-$1-$2.xml";
+	if ( $url =~ m{91(\d\d)([OV])\.(pdf|xml)$} ) {
+		return "veszprem-$1-$2.$3";
 	}
 
-	if ( $url =~ m{xml/92(\d\d)([OV])\.xml$} ) {
-		return "balatonfured-$1-$2.xml";
+	if ( $url =~ m{92(\d\d)([OV])\.(pdf|xml)$} ) {
+		return "balatonfured-$1-$2.$3";
 	}
 
 	return undef;
@@ -222,10 +223,9 @@ sub parse
 			$STOPS->{ $stop->{stop_code} } = $stop unless $STOPS->{ $stop->{stop_code} };
 
 			my $route = $ROUTES->{$route_id};
+			my ($city, $route_short_name) = ($route_id =~ m/^(\d\d)(\d\d)$/);
 
 			unless ($route) {
-				my ($city, $route_short_name) = ($route_id =~ m/^(\d\d)(\d\d)$/);
-
 				$route = $ROUTES->{$route_id} = {
 					route_id   => $route_id,
 					route_type => 'bus',
@@ -238,10 +238,12 @@ sub parse
 			my $trip = $TRIPS->{ $route_id . '-' . $trip_short_name };
 
 			unless ( $trip ) {
+				my $pdf_link = $self->reference_url . ($city eq '92' ? 'balatonfured' : 'veszprem') . '-' . $route_short_name . '-' . ($direction_id eq 'outbound' ? 'O' : 'V' ) . ".pdf"; 
 				$trip = $TRIPS->{ $route_id . '-' . $trip_short_name } = {
 					trip_id         => $route_id . '-' . $trip_short_name,
 					route_id        => $route_id,
 					direction_id    => $direction_id,
+					trip_url        => $pdf_link,
 					trip_short_name => $trip_short_name,
 					service_id      => map_service_id( $service_id ),
 					stop_times      => [],
