@@ -565,7 +565,7 @@ sub dump_trip
 	$trip->{shape_id} = $self->{prefix} . $trip->{shape_id}
 		if $self->{prefix} && $trip->{shape_id};
 
-	if ( !$trip->{direction_id} ) {
+	unless ( defined $trip->{direction_id} ) {
 		$trip->{direction_id} = '';
 	}
 	elsif ( $trip->{direction_id} eq 'outbound' ) {
