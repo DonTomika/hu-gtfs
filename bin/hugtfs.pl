@@ -474,7 +474,7 @@ sub gtfs :
 			if ( -f File::Spec->catfile( $d, "README.txt" ) ) {
 				$dumper->readme( slurp( File::Spec->catfile( curdir(), $feedsdir, $d, "README.txt" ) ) );
 			}
-			$dumper->load_data( $d, -d File::Spec->catdir( curdir(), $feedsdir, $d, 'gtfs' ) );
+			$dumper->load_data( File::Spec->catdir( curdir(), $feedsdir, $d, 'gtfs' ) );
 		}
 	}
 
