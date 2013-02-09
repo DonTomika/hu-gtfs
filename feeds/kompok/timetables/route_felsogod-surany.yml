@@ -20,7 +20,7 @@ trips:
   - trip_id: PEIKER-TFS
     direction_id: outbound
     trip_bikes_allowed: 2
-    service: ['LIMIT', 'NAPONTA', '20120501-20120930']
+    service: ['LIMIT', 'NAPONTA', '20130501-20130930']
     stop_times:
       - [00:00, "Felsőgöd"]
       - [00:05, "Surány"]
@@ -32,7 +32,7 @@ trips:
   - trip_id: PEIKER-TSF
     direction_id: inbound
     trip_bikes_allowed: 2
-    service: ['LIMIT', 'NAPONTA', '20120501-20120930']
+    service: ['LIMIT', 'NAPONTA', '20130501-20130930']
     stop_times:
       - [00:00, "Surány"]
       - [00:05, "Felsőgöd"]

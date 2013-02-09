@@ -44,7 +44,7 @@ trips:
   - trip_id: IPOLYTOURS-TPSZ-n10
     direction_id: outbound
     trip_bikes_allowed: 2
-    service: ['LIMIT', 'NAPONTA', '20120401-20120930']
+    service: ['LIMIT', 'NAPONTA', '20130401-20130930']
     stop_times:
       - [00:00, "Szob"]
       - [00:05, "Pilismarót-Basaharc"]
