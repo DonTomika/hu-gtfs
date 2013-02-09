@@ -19,7 +19,7 @@ Class for handling services. Currently only a single period for each service_id 
 =cut
 
 package HuGTFS::Cal;
-use Carp qw/cluck/;
+use Carp qw/cluck carp/;
 use DateTime;
 use Digest::JHash qw(jhash);
 use Calendar::Simple;
@@ -532,11 +532,19 @@ sub subtract_service
 	my ( $base, $subtract, $service_ret ) = @_;
 
 	unless ( ref $base ) {
-		$base = $services->{$base};
+		$base = $services->{$base} if $services->{$base};
 	}
 
 	unless ( ref $subtract ) {
-		$subtract = $services->{$subtract};
+		$subtract = $services->{$subtract} if $services->{$subtract};
+	}
+
+	unless ( ref $base ) {
+		carp "Missing service: $base";
+	}
+
+	unless ( ref $subtract ) {
+		carp "Missing service: $subtract";
 	}
 
 	if ( $service_ret && !ref $service_ret ) {
@@ -619,11 +627,19 @@ sub remove_service
 	my ( $base, $subtract ) = @_;
 
 	unless ( ref $base ) {
-		$base = $services->{$base};
+		$base = $services->{$base} if $services->{$base};
 	}
 
 	unless ( ref $subtract ) {
-		$subtract = $services->{$subtract};
+		$subtract = $services->{$subtract} if $services->{$subtract};
+	}
+
+	unless ( ref $base ) {
+		carp "Missing service: $base";
+	}
+
+	unless ( ref $subtract ) {
+		carp "Missing service: $subtract";
 	}
 
 	my $start = $base->start_date->clone;
@@ -697,11 +713,19 @@ sub and_service
 	my ( $service_a, $service_b, $service_ret ) = @_;
 
 	unless ( ref $service_a ) {
-		$service_a = $services->{$service_a};
+		$service_a = $services->{$service_a} if $services->{$service_a};
 	}
 
 	unless ( ref $service_b ) {
-		$service_b = $services->{$service_b};
+		$service_b = $services->{$service_b} if $services->{$service_b};
+	}
+
+	unless(ref $service_a) {
+		carp "Missing service: $service_a";
+	}
+
+	unless(ref $service_b) {
+		carp "Missing service: $service_b";
 	}
 
 	if ( $service_ret && !ref $service_ret ) {
@@ -793,11 +817,19 @@ sub or_service
 	my ( $service_a, $service_b, $service_ret ) = @_;
 
 	unless ( ref $service_a ) {
-		$service_a = $services->{$service_a};
+		$service_a = $services->{$service_a} if $services->{$service_a};
 	}
 
 	unless ( ref $service_b ) {
-		$service_b = $services->{$service_b};
+		$service_b = $services->{$service_b} if $services->{$service_b};
+	}
+
+	unless(ref $service_a) {
+		carp "Missing service: $service_a";
+	}
+
+	unless(ref $service_b) {
+		carp "Missing service: $service_b";
 	}
 
 	if ( $service_ret && !ref $service_ret ) {
@@ -890,7 +922,11 @@ sub limit_service
 {
 	my ( $service, $from, $to ) = @_;
 	unless ( ref $service ) {
-		$service = $services->{$service};
+		$service = $services->{$service} if $services->{$service};
+	}
+
+	unless ( ref $service ) {
+		carp "Missing service: $service";
 	}
 
 	my ( $start, $end ) = ( DateTime->new( _D $from ), DateTime->new( _D $to ) );
