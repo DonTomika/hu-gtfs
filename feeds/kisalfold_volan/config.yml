@@ -1,2 +1,2 @@
-feedmanager: HuGTFS::FeedManager::KisalfoldVolan
+feedmanager: HuGTFS::FeedManager::Volan::Kisalfold
 automatic: 1

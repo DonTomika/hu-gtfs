@@ -1,11 +1,11 @@
 
 =head1 NAME
 
-HuGTFS::FeedManager::KisalfoldVolan - HuGTFS feed manager for download + parsing Kisalföld Volán data
+HuGTFS::FeedManager::Volan::Kisalfold - HuGTFS feed manager for download + parsing Kisalföld Volán data
 
 =head1 SYNOPSIS
 
-	use HuGTFS::FeedManager::KisalfoldVolan;
+	use HuGTFS::FeedManager::Volan::Kisalfold;
 
 =head1 DESCRIPTION
 
@@ -13,7 +13,7 @@ HuGTFS::FeedManager::KisalfoldVolan - HuGTFS feed manager for download + parsing
 
 =cut
 
-package HuGTFS::FeedManager::KisalfoldVolan;
+package HuGTFS::FeedManager::Volan::Kisalfold;
 
 use 5.14.0;
 use utf8;
@@ -43,10 +43,10 @@ __PACKAGE__->meta->make_immutable;
 no Mouse;
 
 use constant {
-	CAL_START        => '20101212',
-	CAL_END          => '20111211',
-	CAL_SUMMER_START => '20110616',
-	CAL_SUMMER_END   => '20110831',
+	CAL_START        => '20130101',
+	CAL_END          => '20131231',
+	CAL_SUMMER_START => '20130617',
+	CAL_SUMMER_END   => '20130831',
 };
 
 my $log = Log::Log4perl->get_logger(__PACKAGE__);
@@ -61,8 +61,9 @@ sub download
 
 	return HuGTFS::Crawler->crawl(
 		[
-			'http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/lines.cgi?city=gyor',
+			#'http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/lines.cgi?city=gyor',
 			'http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/lines.cgi?city=sopron',
+			#'http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/lines.cgi?city=movar',
 		],
 		$self->data_directory,
 		\&crawl_city,
@@ -97,19 +98,30 @@ sub crawl_city
 	while ( $content =~ m/value="lines\.cgi\?city=([a-z]+)&term=(\d+)"/g ) {
 		my ( $city, $date ) = ( $1, $2 );
 
-		push @urls, (
-			map {
-				m/id=(.*)&dir=to&city=(.*)/;
-				"http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/$2/$date/$1.XML"
-				}
-				map { $_->url_abs } $mech->find_all_links(
-				url_abs_regex =>
-					qr{^http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/line.cgi\?id=.*&dir=to&city=.*}
-				)
-		);
-
-		push @urls, "http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/$city/$date/STOPS.XML";
+		push @urls, "http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/lines.cgi?city=$city&term=$date";
 	}
+
+	return ( [@urls], undef, \&crawl_date, \&cleanup, );
+}
+
+sub crawl_date {
+	my ( $content, $mech, $url ) = @_;
+	my @urls = ();
+
+	my ( $city, $date ) = ( $url =~ m/city=(.*?)&term=(.*?)$/ );
+
+	push @urls, (
+		map {
+			m/id=(.*)&dir=to&city=(.*?)&term=(.*?)$/;
+			"http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/$2/$3/$1.XML"
+			}
+			map { "" . $_->url_abs . "" } $mech->find_all_links(
+			url_abs_regex =>
+				qr{^http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/line\.cgi\?id=.*&dir=to&city=.*&term=.*}
+			)
+	);
+
+	push @urls, "http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/$city/$date/STOPS.XML";
 
 	return ( [@urls], undef, undef, \&cleanup, );
 }
@@ -147,19 +159,28 @@ sub parse
 
 	my @AGENCIES = (
 		{
-			agency_id       => 'KISALFOLD-SOPRON',
-			agency_phone    => '+36 (99) 311-130',
+			agency_id       => 'KISALFOLD-VOLAN-GYOR',
+			agency_phone    => '+36 (96) 318-755',
 			agency_lang     => 'hu',
-			agency_name     => 'Kisalföld Volán Zrt. (Sopron)',
+			agency_name     => 'Kisalföld Volán Zrt. (Győr)',
 			agency_url      => 'http://www.kvrt.hu',
 			agency_timezone => 'Europe/Budapest',
 			routes          => [],
 		},
 		{
-			agency_id       => 'KISALFOLD-GYOR',
-			agency_phone    => '+36 (96) 318-755',
+			agency_id       => 'KISALFOLD-VOLAN-MOVAR',
+			agency_phone    => '+36 (99) 311-130',
 			agency_lang     => 'hu',
-			agency_name     => 'Kisalföld Volán Zrt. (Győr)',
+			agency_name     => 'Kisalföld Volán Zrt. (Mosonmagyaróvár)',
+			agency_url      => 'http://www.kvrt.hu',
+			agency_timezone => 'Europe/Budapest',
+			routes          => [],
+		},
+		{
+			agency_id       => 'KISALFOLD-VOLAN-SOPRON',
+			agency_phone    => '+36 (99) 311-130',
+			agency_lang     => 'hu',
+			agency_name     => 'Kisalföld Volán Zrt. (Sopron)',
 			agency_url      => 'http://www.kvrt.hu',
 			agency_timezone => 'Europe/Budapest',
 			routes          => [],
@@ -211,14 +232,13 @@ sub parse
 
 	$log->info("Parsing routes...");
 
-	#my $rel_id = 1000;
-
 	foreach my $file ( glob( catfile( $self->data_directory, '*_*_route_*.xml' ) ) ) {
 		my ( $city, $date, $route_id ) = ( $file =~ m/([a-z]+)_(\d+)_route_(.*?)\.xml$/ );
 		my $route = {
 			route_id   => "$date-$route_id",
-			agency_id  => 'KISALFOLD-' . uc($city),
+			agency_id  => 'KISALFOLD-VOLAN-' . uc($city),
 			route_type => 'bus',
+			route_url  => "http://www.kisalfoldvolan.hu/uj_menetrend/ctp-nd/line.cgi?id=${route_id}&dir=to&city=${city}&term=${date}",
 		};
 
 		next
@@ -231,9 +251,7 @@ sub parse
 
 		my ($line_xml) = $twig->get_xpath("/line");
 		$route->{route_short_name} = $line_xml->att("id");
-		$route->{route_long_name}  = $line_xml->att("name");
-
-		#my @rels = ();
+		$route->{route_desc}  = $line_xml->att("name");
 
 		foreach my $direction ( 'to', 'back' ) {
 
@@ -241,10 +259,6 @@ sub parse
 			next unless $direction_xml;
 
 			my ( $normal_stop_times, $peak_stop_times ) = ( [], [] );
-
-			#print STDERR "\t<relation id='-$rel_id' action='modify' timestamp='2011-05-31T15:49:04Z' visible='true'>\n";
-			#push @rels, $rel_id;
-			#$rel_id++;
 
 			foreach my $stop_xml ( $direction_xml->get_xpath("stops/stop") ) {
 				my $st = {
@@ -296,20 +310,18 @@ sub parse
 
 					push @$peak_stop_times, $peak;
 				}
-
-				#print STDERR "\t\t<member type='node' ref='$ST->{$st->{stop_code}}' role='stop' />\n";
 			}
 
-			#print STDERR "\t\t<tag k='type' v='line_variant' />\n";
-			#print STDERR "\t\t<tag k='line_variant' v='bus' />\n";
-			#print STDERR "\t\t<tag k='ref'  v='$route_id' />\n";
-			#print STDERR "\t\t<tag k='from' v='$normal_stop_times->[0]->{stop_name}' />\n";
-			#print STDERR "\t\t<tag k='to'   v='$normal_stop_times->[-1]->{stop_name}' />\n";
-			#print STDERR "\t</relation>\n";
-
 			foreach my $service_xml ( $direction_xml->get_xpath("daytypes/daytype") ) {
-				our $service_id = HuGTFS::Cal->find( $service_xml->att("id") )
-					->limit( $date, $DATE_LIMITS->{$city}->{$date} )->service_id;
+				our $service_id
+					= $service_xml->att("id") . '_'
+					. $date . '-'
+					. $DATE_LIMITS->{$city}->{$date};
+
+				unless( HuGTFS::Cal->find( $service_id ) ) {
+					HuGTFS::Cal->find( $service_xml->att("id") )
+						->limit( $date, $DATE_LIMITS->{$city}->{$date} )->clone($service_id);
+				}
 
 				my @peaks = ();
 				foreach my $peak_xml ( $service_xml->get_xpath("peaks/peak") ) {
@@ -340,12 +352,6 @@ sub parse
 						}
 					}
 
-					local $service_id = $service_id;
-					$service_id
-						= HuGTFS::Cal::and_service( $service_id,
-						$departure_xml->att('daytype') )->service_id
-						if $departure_xml->att('daytype');
-
 					my $trip = {
 						trip_id               => "$route_id-$trip_num",
 						wheelchair_accessible => (
@@ -361,6 +367,9 @@ sub parse
 								@$stop_times
 						],
 					};
+
+					$trip->{service_id} = cal_if_not_exist( $departure_xml->att('daytype'),  $trip->{service_id}, ['AND', $departure_xml->att('daytype')] )
+						if $departure_xml->att('daytype');
 
 					$trip->{trip_headsign} = $trip->{stop_times}[-1]{stop_name};
 
@@ -383,27 +392,23 @@ sub parse
 						grep { not $_->{special} } @{ $trip->{stop_times} }
 					];
 
+					gyor_cal_munge($route, $trip);
+					sopron_cal_munge($route, $trip);
+
 					push @{ $route->{trips} }, $trip;
 				}
 			}
 		}
 
-		#print STDERR "\t<relation id='-$rel_id' action='modify' timestamp='2011-05-31T15:49:04Z' visible='true'>\n";
-		#for (@rels) {
-		#	print STDERR "\t\t<member type='relation' ref='-$_' role='' />\n";
-		#}
-		#print STDERR "\t\t<tag k='type' v='line' />\n";
-		#print STDERR "\t\t<tag k='line' v='bus' />\n";
-		#print STDERR "\t\t<tag k='ref' v='$route_id' />\n";
-		#print STDERR "\t\t<tag k='operator' v='Kisalföld Volán' />\n";
-		#print STDERR "\t\t<tag k='network'  v='local' />\n";
-		#print STDERR "\t</relation>\n";
-		#$rel_id++;
-
 		push @$ROUTES, $route;
 	}
 
-	my $osm_data = HuGTFS::OSMMerger->parse_osm( "Kisalföld Volán", $self->osm_file );
+	gyor_trip_munge($ROUTES);
+	sopron_trip_munge($ROUTES);
+
+	HuGTFS::Cal->keep_only_named;
+
+	my $osm_data = HuGTFS::OSMMerger->parse_osm( qr/\bKisalföld Volán(?: \(.*?\))?\b/, $self->osm_file );
 	my $data = HuGTFS::OSMMerger->new( { remove_geometryless => 1, }, $osm_data, { routes => $ROUTES, } );
 
 	{    # Create blocks
@@ -468,18 +473,106 @@ sub parse
 	$dumper->dump_stop($_) for ( map { $data->{stops}->{$_} } sort keys %{ $data->{stops} } );
 	$dumper->dump_calendar($_) for ( HuGTFS::Cal->dump() );
 
-	$dumper->dump_statistics( $data->statistics );
+	$dumper->dump_statistics( $data->{statistics} );
 
 	$dumper->deinit_dumper();
 }
 
+sub gyor_trip_munge {
+	# XXX
+}
+
+sub sopron_trip_munge {
+	my $ROUTES = shift;
+
+	foreach my $route (@$ROUTES) {
+		next unless $route->{agency_id} =~ m/SOPRON/;
+
+		# Aranyhegyi ipari park
+		if($route->{route_short_name} =~ m/^(?:27|27B)$/) {
+			foreach my $trip (@{ $route->{trips} } ) {
+				for (@{ $trip->{stop_times} }) {
+					delete $_->{stop_code} if $_->{stop_code} && $_->{stop_code} =~ m/IPRK/;
+				}
+			}
+		}
+
+		# Jereván lakótelep
+		foreach my $trip (@{ $route->{trips} } ) {
+			for (@{ $trip->{stop_times} }) {
+				delete $_->{stop_code} if $_->{stop_code} && $_->{stop_code} =~ m/JLTP/;
+			}
+		}
+
+		# Somfalvi út, Volán-telep
+		if($route->{route_short_name} =~ m/^(?:8)$/) {
+			foreach my $trip (@{ $route->{trips} } ) {
+				for (@{ $trip->{stop_times} }) {
+					delete $_->{stop_code} if $_->{stop_code} && $_->{stop_code} =~ m/^0000/;
+				}
+			}
+		}
+	}
+}
+
+sub cal_if_not_exist {
+	my ($postfix, $cal, $descr) = @_;
+	my $sid = "$cal-$postfix";
+	return $sid if HuGTFS::Cal->find($sid);
+
+	HuGTFS::Cal->find($cal)->descriptor($descr)->clone($sid);
+
+	return $sid;
+}
+
+sub gyor_cal_munge {
+	my ($route, $trip) = @_;
+	return unless $route->{agency_id} =~ m/GYOR/;
+
+	# XXX
+}
+
+sub sopron_cal_munge {
+	my ($route, $trip) = @_;
+	return unless $route->{agency_id} =~ m/SOPRON/;
+
+	#<<<
+
+	# A 8, 14, 14B, 21, 32, 33 számú autóbuszvonalak járatai munkaszüneti napi rend szerint
+	# közlekednek 2013. március 16-án, augusztus 19-én és november 2-án, illetve
+	# tanszünetes munkanapi menetrend szerint közlekednek december 31-én.
+
+	if($route->{route_short_name} =~ m/^(?:8|14|14B|21|32|33)$/) {
+
+		$trip->{service_id} = cal_if_not_exist('EX', $trip->{service_id}, [qw/ADD    20130316 20130819 20131102         /]) if $trip->{service_id} =~ m/^MSZNAP/;
+		$trip->{service_id} = cal_if_not_exist('EX', $trip->{service_id}, [qw/ADD                               20131231/]) if $trip->{service_id} =~ m/^TSMUNKANAP/;
+		$trip->{service_id} = cal_if_not_exist('EX', $trip->{service_id}, [qw/REMOVE 20130316 20130819 20131102 20131231/]) if $trip->{service_id} =~ m/^SZABADNAP/;
+	}
+
+	# 2013. december 24-én 16.00 órakor, 31-én 19.00 órakor indulnak az utolsó menetrend
+	# szerinti helyi autóbuszjáratok (a 8, 14, 14B, 21, 32, 33 vonalak kivételével).
+
+	if($route->{route_short_name} !~ m/^(?:8|14|14B|21|32|33)$/) {
+
+		$trip->{service_id} = cal_if_not_exist('DEC24', $trip->{service_id}, [qw/REMOVE 20131224/])
+			if $trip->{service_id} =~ m/^SZABADNAP/     && _S($trip->{stop_times}->[0]->{departure_time}) > _S('16:00:00');
+		$trip->{service_id} = cal_if_not_exist('DEC31', $trip->{service_id}, [qw/REMOVE 20131231/])
+			if $trip->{service_id} =~ m/^TSMUNKANAP/ && _S($trip->{stop_times}->[0]->{departure_time}) > _S('19:00:00');
+	}
+
+	#>>>
+}
+
 sub create_calendar
 {
+
 	my $data = [
 	#<<<
 		[
 			qw/service_id monday tuesday wednesday thursday friday saturday sunday start_date end_date service_desc/
 		],
+
+		# Daytypes
 
 		[ ["Iskolás munkanapokon (hétfőtől péntekig)"], "TNMUNKANAP",
 			1, 1, 1, 1, 1, 0, 0, CAL_START, CAL_END, ],
@@ -493,30 +586,27 @@ sub create_calendar
 		[ ["Vasárnap, ünnepnap"], "MSZNAP",
 			0, 0, 0, 0, 0, 0, 1, CAL_START, CAL_END, ],
 
-		[ ["hétfői munkanapokon közlekedik"], "H",
-			1, 0, 0, 0, 0, 0, 0, CAL_START, CAL_END, ],
-
-		[ ["hétfőtől csütörtökig, munkanapokon közlekedik"], "HC",
-			1, 1, 1, 1, 0, 0, 0, CAL_START, CAL_END, ],
+		# Restrictions
 
 		[ ["tanév tartama alatt (szeptember 1-től június 15-ig) közlekedik"], "J",
 			1, 1, 1, 1, 1, 1, 1, CAL_START, CAL_END, ],
 
-		[ ["hétfő kivételével munkanapokon közlekedik"], "KP",
-			0, 1, 1, 1, 1, 0, 0, CAL_START, CAL_END, ],
+		[ ["május 1-től október első vasárnapjáig közlekedik"], "NT",
+			1, 1, 1, 1, 1, 1, 1, 20130501, 20131006, ],
 
-		[ ["május 1-től október 2-ig közlekedik"], "NT",
-			1, 1, 1, 1, 1, 1, 1, 20110501, 20111002, ],
-
-		[ ["pénteki munkanapokon közlekedik"], "P",
-			0, 0, 0, 0, 1, 0, 0, CAL_START, CAL_END, ],
-
+		[ ["a VOLT Fesztivál alatt közlekedik"], "VNY",
+			1, 1, 1, 1, 1, 1, 1, 20130629, 20130703, ],
 		[ ["a VOLT Fesztivál alatt közlekedik"], "VO",
-			1, 1, 1, 1, 1, 1, 1, 20110629, 20110703, ],
+			1, 1, 1, 1, 1, 1, 1, 20130629, 20130703, ],
 
-		[ ["nyári tanszünetben (június 16-tól augusztus 31-ig) közlekedik"], "W",
+		[ ["április 30-ig és október 1-től közlekedik"], "DD",
+			1, 1, 1, 1, 1, 1, 1, 20130430, 20131001, ],
+
+		[ ["május 1-től szeptember 30-ig közlekedik"], "NY",
+			1, 1, 1, 1, 1, 1, 1, 20130501, 20130930, ],
+
+		[ ["nyári tanszünetben közlekedik"], "W",
 			1, 1, 1, 1, 1, 1, 1, CAL_SUMMER_START, CAL_SUMMER_END, ],
-
 	#>>>
 	];
 
@@ -535,44 +625,72 @@ sub create_calendar
 		@$exceptions,
 
 		# TNMUNKANAP
-		[qw/TNMUNKANAP 20110314 removed /],
-		[qw/TNMUNKANAP 20110315 removed /],
-		[qw/TNMUNKANAP 20110319 added   /],
-		[qw/TNMUNKANAP 20110321 removed /],
-		[qw/TNMUNKANAP 20110322 removed /],
-		[qw/TNMUNKANAP 20110325 removed /],
-		[qw/TNMUNKANAP 20110326 removed /],
-		[qw/TNMUNKANAP 20110613 removed /],
-		[qw/TNMUNKANAP 20111031 removed /],
-		[qw/TNMUNKANAP 20111101 removed /],
-		[qw/TNMUNKANAP 20111102 removed /],
-		[qw/TNMUNKANAP 20111103 removed /],
-		[qw/TNMUNKANAP 20111104 removed /],
+		[qw/TSMUNKANAP 20130102 removed /],
+		[qw/TSMUNKANAP 20130328 removed /],
+		[qw/TSMUNKANAP 20130329 removed /],
+		[qw/TSMUNKANAP 20130402 removed /],
+		[qw/TSMUNKANAP 20130824 added   /],
+		[qw/TSMUNKANAP 20131028 removed /],
+		[qw/TSMUNKANAP 20131029 removed /],
+		[qw/TSMUNKANAP 20131030 removed /],
+		[qw/TSMUNKANAP 20131031 removed /],
+		[qw/TSMUNKANAP 20131223 removed /],
+		[qw/TSMUNKANAP 20131230 removed /],
+
+		[qw/TNMUNKANAP 20130101 removed /],
+		[qw/TNMUNKANAP 20130315 removed /],
+		[qw/TNMUNKANAP 20130401 removed /],
+		[qw/TNMUNKANAP 20130420 removed /],
+		[qw/TNMUNKANAP 20130819 removed /],
+		[qw/TNMUNKANAP 20130820 removed /],
+		[qw/TNMUNKANAP 20130820 removed /],
+		[qw/TNMUNKANAP 20131023 removed /],
+		[qw/TNMUNKANAP 20131101 removed /],
+		[qw/TNMUNKANAP 20131207 added   /],
+		[qw/TNMUNKANAP 20131214 removed /],
+		[qw/TNMUNKANAP 20131221 added   /],
+		[qw/TNMUNKANAP 20131224 removed /],
+		[qw/TNMUNKANAP 20131225 removed /],
+		[qw/TNMUNKANAP 20131226 removed /],
+		[qw/TNMUNKANAP 20131227 removed /],
+		[qw/TNMUNKANAP 20131231 removed /],
 
 		# TSMUNKANAP
-		[qw/TSMUNKANAP 20110421 added   /],
-		[qw/TSMUNKANAP 20110422 added   /],
-		[qw/TSMUNKANAP 20110426 added   /],
-		[qw/TSMUNKANAP 20111102 added   /],
-		[qw/TSMUNKANAP 20111103 added   /],
-		[qw/TSMUNKANAP 20111104 added   /],
-		[qw/TSMUNKANAP 20111105 added   /],
+		[qw/TSMUNKANAP 20130102 added   /],
+		[qw/TSMUNKANAP 20130328 added   /],
+		[qw/TSMUNKANAP 20130329 added   /],
+		[qw/TSMUNKANAP 20130402 added   /],
+		[qw/TSMUNKANAP 20130819 removed /],
+		[qw/TSMUNKANAP 20130820 removed /],
+		[qw/TSMUNKANAP 20130824 added   /],
+		[qw/TSMUNKANAP 20131028 added   /],
+		[qw/TSMUNKANAP 20131029 added   /],
+		[qw/TSMUNKANAP 20131030 added   /],
+		[qw/TSMUNKANAP 20131031 added   /],
+		[qw/TSMUNKANAP 20131223 added   /],
+		[qw/TSMUNKANAP 20131230 added   /],
+
 
 		# SZABADNAP
-		[qw/SZABADNAP 20110101 removed /],
-		[qw/SZABADNAP 20110314 added   /],
-		[qw/SZABADNAP 20110319 removed /],
-		[qw/SZABADNAP 20110820 removed /],
-		[qw/SZABADNAP 20111031 added   /],
-		[qw/SZABADNAP 20111105 removed /],
+		[qw/SZABADNAP 20130819 added   /],
+		[qw/SZABADNAP 20130824 removed /],
+		[qw/SZABADNAP 20131207 removed /],
+		[qw/SZABADNAP 20131221 removed /],
+		[qw/SZABADNAP 20131224 added   /],
+		[qw/SZABADNAP 20131227 added   /],
+		[qw/SZABADNAP 20131231 added   /],
 
 		# MSZNAP
-		[qw/MSZNAP 20110101 added/],
-		[qw/MSZNAP 20110315 added/],
-		[qw/MSZNAP 20110425 added/],
-		[qw/MSZNAP 20110613 added/],
-		[qw/MSZNAP 20110820 added/],
-		[qw/MSZNAP 20111101 added/],
+		[qw/MSZNAP 20130101 added/],
+		[qw/MSZNAP 20130315 added/],
+		[qw/MSZNAP 20130401 added/],
+		[qw/MSZNAP 20130501 added/],
+		[qw/MSZNAP 20130520 added/],
+		[qw/MSZNAP 20130820 added/],
+		[qw/MSZNAP 20131023 added/],
+		[qw/MSZNAP 20131101 added/],
+		[qw/MSZNAP 20131225 added/],
+		[qw/MSZNAP 20131226 added/],
 	);
 
 	foreach my $i ( 1 .. $#$exceptions ) {
