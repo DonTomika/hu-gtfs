@@ -243,6 +243,19 @@ sub keep_only
 	}
 }
 
+=head2 keep_only_named
+
+Removes services which were auto-created.
+
+=cut
+
+sub keep_only_named
+{
+	my ( $self ) = @_;
+
+	$self->keep_only(qr/^(?!SC_COUNTER_\d+).*$/);
+}
+
 =head2 new
 
 Create a new service.
@@ -1037,6 +1050,8 @@ sub clone_service
 
 	$to->start_date( $from->start_date->clone );
 	$to->end_date( $from->end_date->clone );
+
+	$to->service_desc( $from->service_desc );
 
 	$to->exceptions( {} );
 
