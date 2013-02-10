@@ -446,6 +446,47 @@ sub active_after
 
 }
 
+
+=head2 has_active_day
+
+=cut
+
+sub has_active_day
+{
+	my ($self) = @_;
+	unless ( ref $self ) {
+		$self = $services->{$self};
+	}
+
+	return $self->has_enabled_day || $self->has_enabled_exception;
+}
+
+=head2 has_enabled_exception
+
+=cut
+
+sub has_enabled_exception
+{
+	my ($self) = @_;
+
+	unless ( ref $self ) {
+		$self = $services->{$self};
+	}
+
+	if(scalar keys %{ $self->{exceptions} })
+	{
+		foreach my $year (keys %{ $self->{exceptions} }) {
+			foreach my $month (keys %{ $self->{exceptions}{$year} }) {
+				foreach my $day (keys %{ $self->{exceptions}{$year}{$month} }) {
+					return 1 if $self->{exceptions}{$year}{$month}{$day} eq 'added';
+				}
+			}
+		}
+	}
+
+	return 0;
+}
+
 =head2 has_enabled_day
 
 =cut
