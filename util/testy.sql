@@ -56,11 +56,11 @@ $BODY$
 
 CREATE FUNCTION PT_DirectionalIntersection(geomA geometry, geomB geometry) RETURNS geometry AS $$
 DECLARE
-	i integer;
-	j integer;
-	d integer;
-	na integer;
-	nb integer;
+	i bigint;
+	j bigint;
+	d bigint;
+	na bigint;
+	nb bigint;
 	happy boolean;
 	result geometry;
 	sp geometry;
@@ -153,7 +153,7 @@ BEGIN
 END
 $$ LANGUAGE plpgsql COST 100;
 
-CREATE FUNCTION PT_fill_labeling() RETURNS integer AS $$
+CREATE FUNCTION PT_fill_labeling() RETURNS bigint AS $$
 DECLARE
 BEGIN
 	TRUNCATE TABLE public_transit_labeling;
@@ -183,7 +183,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE FUNCTION PT_create_labeling() RETURNS integer AS $$
+CREATE FUNCTION PT_create_labeling() RETURNS bigint AS $$
 DECLARE
 BEGIN
 	DROP TABLE IF EXISTS public_transit_labeling CASCADE;
@@ -198,7 +198,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE FUNCTION PT_copy_metadata() RETURNS integer AS $$
+CREATE FUNCTION PT_copy_metadata() RETURNS bigint AS $$
 DECLARE
 	-- Create fake line_variant ways -> copy operator, line_variant, ref, line_variant_direction, r.way
 	-- Copy refs -> halt -> group -> interchange
@@ -206,11 +206,11 @@ BEGIN
 END
 $$ LANGUAGE plpgsql;
 
-CREATE FUNCTION PT_mark_final_stations() RETURNS integer AS $$
+CREATE FUNCTION PT_mark_final_stations() RETURNS bigint AS $$
 DECLARE
 	rec record;
 	subrec record;
-	next_id integer;
+	next_id bigint;
 BEGIN
 
 
@@ -218,16 +218,16 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE FUNCTION PT_handle_site_relations() RETURNS integer AS $$
+CREATE FUNCTION PT_handle_site_relations() RETURNS bigint AS $$
 DECLARE
 	rec record;
 	subrec record;
-	next_id integer;
+	next_id bigint;
 	site_type text;
 
 	a_geom geometry;
 	t_geom geometry;
-	i integer;
+	i bigint;
 	n_operator text;
 	n_ref text;
 	n_name text;
@@ -271,23 +271,23 @@ BEGIN
 		i := array_lower(rec.members, 1);
 		WHILE  i < array_upper(rec.members, 1) LOOP
 			IF substr(rec.members[i], 1, 1) = 'n' THEN
-				SELECT ST_Point(lon / 100, lat / 100) INTO t_geom FROM planet_osm_nodes WHERE id = substr(rec.members[i], 2)::integer;
+				SELECT ST_Point(lon / 100, lat / 100) INTO t_geom FROM planet_osm_nodes WHERE id = substr(rec.members[i], 2)::bigint;
 				t_geom := ST_SetSRID(t_geom, Find_SRID('public', 'planet_osm_line', 'way'));
 				a_geom := ST_Collect(a_geom, t_geom);
-				UPDATE planet_osm_point SET site_relation_id = rec.id WHERE osm_id = substr(rec.members[i], 2)::integer;
+				UPDATE planet_osm_point SET site_relation_id = rec.id WHERE osm_id = substr(rec.members[i], 2)::bigint;
 			ELSIF substr(rec.members[i], 1, 1) = 'w' THEN
-				IF EXISTS(SELECT * FROM planet_osm_polygon WHERE osm_id = substr(rec.members[i], 2)::integer) THEN
-					SELECT ST_Collect(a_geom, way) INTO a_geom FROM planet_osm_polygon WHERE osm_id = substr(rec.members[i], 2)::integer;
-					UPDATE planet_osm_polygon SET site_relation_id = rec.id WHERE osm_id = substr(rec.members[i], 2)::integer;
-				ELSIF EXISTS(SELECT * FROM planet_osm_line WHERE osm_id = substr(rec.members[i], 2)::integer) THEN
-					SELECT ST_Collect(a_geom, way) INTO a_geom FROM planet_osm_line WHERE osm_id = substr(rec.members[i], 2)::integer;
-					UPDATE planet_osm_line SET site_relation_id = rec.id WHERE osm_id = substr(rec.members[i], 2)::integer;
+				IF EXISTS(SELECT * FROM planet_osm_polygon WHERE osm_id = substr(rec.members[i], 2)::bigint) THEN
+					SELECT ST_Collect(a_geom, way) INTO a_geom FROM planet_osm_polygon WHERE osm_id = substr(rec.members[i], 2)::bigint;
+					UPDATE planet_osm_polygon SET site_relation_id = rec.id WHERE osm_id = substr(rec.members[i], 2)::bigint;
+				ELSIF EXISTS(SELECT * FROM planet_osm_line WHERE osm_id = substr(rec.members[i], 2)::bigint) THEN
+					SELECT ST_Collect(a_geom, way) INTO a_geom FROM planet_osm_line WHERE osm_id = substr(rec.members[i], 2)::bigint;
+					UPDATE planet_osm_line SET site_relation_id = rec.id WHERE osm_id = substr(rec.members[i], 2)::bigint;
 				ELSE
 					RAISE NOTICE 'Create way? %', substr(rec.members[i], 2);
 				END IF;
 			ELSIF substr(rec.members[i], 1, 1) = 'r' THEN -- presumes polygon...
-				SELECT ST_Collect(a_geom, way) INTO a_geom FROM planet_osm_polygon WHERE -osm_id = substr(rec.members[i], 2)::integer;
-				UPDATE planet_osm_line SET site_relation_id = rec.id WHERE -osm_id = substr(rec.members[i], 2)::integer;
+				SELECT ST_Collect(a_geom, way) INTO a_geom FROM planet_osm_polygon WHERE -osm_id = substr(rec.members[i], 2)::bigint;
+				UPDATE planet_osm_line SET site_relation_id = rec.id WHERE -osm_id = substr(rec.members[i], 2)::bigint;
 			ELSE
 				NULL; -- ???
 			END IF;
@@ -352,14 +352,14 @@ BEGIN
 			END IF;
 
 			IF substr(rec.members[i], 1, 1) = 'n' THEN
-				--SELECT p.way INTO t_geom FROM planet_osm_polygon p WHERE EXISTS(SELECT n.way FROM planet_osm_point n WHERE n.osm_id = substr(rec.members[i], 2)::integer AND n.site_relation_id::integer = p.osm_id);
+				--SELECT p.way INTO t_geom FROM planet_osm_polygon p WHERE EXISTS(SELECT n.way FROM planet_osm_point n WHERE n.osm_id = substr(rec.members[i], 2)::bigint AND n.site_relation_id::bigint = p.osm_id);
 				--a_geom := ST_Union(a_geom, t_geom);
-				UPDATE planet_osm_polygon p SET site_relation_id = rec.id::text WHERE EXISTS(SELECT n.way FROM planet_osm_point n WHERE n.osm_id = substr(rec.members[i], 2)::integer AND n.site_relation_id::integer = p.osm_id);
+				UPDATE planet_osm_polygon p SET site_relation_id = rec.id::text WHERE EXISTS(SELECT n.way FROM planet_osm_point n WHERE n.osm_id = substr(rec.members[i], 2)::bigint AND n.site_relation_id::bigint = p.osm_id);
 			ELSIF substr(rec.members[i], 1, 1) = 'w' THEN
 				NULL;
 			ELSIF substr(rec.members[i], 1, 1) = 'r' THEN
-				--SELECT ST_Union(a_geom, way) INTO a_geom FROM planet_osm_polygon WHERE -osm_id = substr(rec.members[i], 2)::integer;
-				UPDATE planet_osm_polygon SET site_relation_id = rec.id WHERE -osm_id = substr(rec.members[i], 2)::integer;
+				--SELECT ST_Union(a_geom, way) INTO a_geom FROM planet_osm_polygon WHERE -osm_id = substr(rec.members[i], 2)::bigint;
+				UPDATE planet_osm_polygon SET site_relation_id = rec.id WHERE -osm_id = substr(rec.members[i], 2)::bigint;
 			ELSE
 				NULL; -- ???
 			END IF;
