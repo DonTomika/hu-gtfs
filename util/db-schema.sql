@@ -43,10 +43,13 @@ DROP FUNCTION IF EXISTS gtfs_departures(text, timestamp, timestamp);
 DROP FUNCTION IF EXISTS gtfs_departures_complete(text, timestamp, timestamp);
 DROP FUNCTION IF EXISTS entity_departures(text, timestamp, timestamp);
 DROP FUNCTION IF EXISTS entity_departures(text, timestamp, timestamp, integer);
+DROP FUNCTION IF EXISTS entity_departures(text, timestamp, timestamp, bigint);
 DROP FUNCTION IF EXISTS entity_departures(text);
 DROP FUNCTION IF EXISTS entity_departures(text, integer);
+DROP FUNCTION IF EXISTS entity_departures(text, bigint);
 DROP FUNCTION IF EXISTS entity_departures_(text, timestamp, timestamp);
 DROP FUNCTION IF EXISTS entity_departures_(text, timestamp, timestamp, integer);
+DROP FUNCTION IF EXISTS entity_departures_(text, timestamp, timestamp, bigint);
 DROP FUNCTION IF EXISTS entity_geom_update_operator();
 
 DROP TYPE IF EXISTS directions;
@@ -114,7 +117,7 @@ CREATE FUNCTION array_to_json(myarray text[]) RETURNS text
     AS $$
 DECLARE
 	ret text;
-	counter integer;
+	counter bigint;
 BEGIN
 	ret := '[';
 	FOR counter IN array_lower(myarray, 1) .. array_upper(myarray, 1) LOOP
@@ -133,7 +136,7 @@ CREATE FUNCTION entity_gtfs_map_insert() RETURNS trigger
     LANGUAGE plpgsql
     AS $$
 DECLARE
-	i integer;
+	i bigint;
 BEGIN
 	FOR i IN array_lower(NEW.entity_gtfs_ids , 1) .. array_upper(NEW.entity_gtfs_ids , 1) LOOP
 		INSERT INTO entity_gtfs_map (osm_entity_id, gtfs_id) VALUES (NEW.osm_entity_id, NEW.entity_gtfs_ids[i]);
@@ -147,7 +150,7 @@ CREATE FUNCTION entity_gtfs_map_update() RETURNS trigger
     LANGUAGE plpgsql
     AS $$
 DECLARE
-	i integer;
+	i bigint;
 BEGIN
 	DELETE FROM entity_gtfs_map WHERE osm_entity_id = OLD.osm_entity_id;
 
@@ -245,8 +248,8 @@ DECLARE
 	rec record;
 	rec3 record;
 	linemaking text;
-	buffer      integer;
-	buffer_poly integer;
+	buffer      bigint;
+	buffer_poly bigint;
 BEGIN
 	geom := NULL;
 
@@ -260,14 +263,14 @@ BEGIN
 	IF geom IS NULL THEN
 		IF position('node_' in mid) THEN
 			-- create point
-			SELECT lon, lat INTO rec FROM planet_osm_nodes WHERE id = substring(mid from 6)::integer;
+			SELECT lon, lat INTO rec FROM planet_osm_nodes WHERE id = substring(mid from 6)::bigint;
 			geom := ST_SetSRID(ST_GeomFromText('POINT(' || (rec.lon::float / 100::float)::text || ' ' || (rec.lat::float / 100::float)::text || ')'), 900913);
 			geom := ST_Buffer(geom_point, buffer);
 		ELSIF position('way_' in mid) THEN
-			SELECT way INTO geom FROM planet_osm_polygon WHERE osm_id = substring(mid from 5)::integer;
+			SELECT way INTO geom FROM planet_osm_polygon WHERE osm_id = substring(mid from 5)::bigint;
 			IF geom IS NULL THEN
 				-- create linestring
-				SELECT nodes INTO rec FROM planet_osm_ways WHERE id = substring(mid from 5)::integer;
+				SELECT nodes INTO rec FROM planet_osm_ways WHERE id = substring(mid from 5)::bigint;
 				--FOR i IN array_lower(rec.nodes, 1) .. array_upper(rec.nodes, 1) LOOP
 				--	geom_nodes[i] := create_entity_geom('node_' || rec.nodes[i]::text, true);
 				--END LOOP;
@@ -291,7 +294,7 @@ BEGIN
 				geom := ST_Buffer(geom, buffer_poly);
 			END IF;
 		ELSIF position('relation_' in mid) THEN
-			SELECT ST_MakePolygon(ST_ExteriorRing(way)) INTO geom FROM planet_osm_polygon WHERE osm_id = -1 * substring(mid from 10)::integer;
+			SELECT ST_MakePolygon(ST_ExteriorRing(way)) INTO geom FROM planet_osm_polygon WHERE osm_id = -1 * substring(mid from 10)::bigint;
 			geom := ST_Buffer(geom, buffer_poly);
 		END IF;
 
