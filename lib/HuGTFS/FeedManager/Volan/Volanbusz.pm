@@ -130,11 +130,11 @@ sub cleanup
 	return $content;
 }
 
-=head3 crawl_services
+=head3 crawl_end
 
 =cut
 
-sub crawl_services
+sub crawl_timetable
 {
 	my ( $content, $mech, $url ) = @_;
 
@@ -149,6 +149,27 @@ sub crawl_services
 	);
 }
 
+=head3 crawl_services
+
+=cut
+
+sub crawl_services
+{
+	my ( $content, $mech, $url ) = @_;
+
+	return (
+		[
+			map { $_->url_abs . "&service" }
+			$mech->find_all_links(
+				url_abs_regex => qr{^http://www\.volanbusz\.hu/menetrend\.php\?}
+			)
+		],
+		undef,
+		\&crawl_timetable,
+		\&cleanup,
+	);
+}
+
 =head3 crawl_routes
 
 =cut
@@ -159,6 +180,7 @@ sub crawl_routes
 
 	return (
 		[
+			map { $_->url_abs . "&route" }
 			$mech->find_all_links(
 				url_abs_regex => qr{^http://www\.volanbusz\.hu/menetrend\.php\?}
 			)
@@ -180,6 +202,7 @@ sub crawl_letters
 	if($url =~ m/belfoldi/) {
 		return (
 			[
+				map { $_->url_abs . "&letters" }
 				$mech->find_all_links(
 					url_abs_regex => qr{^http://www\.volanbusz\.hu/menetrend\.php\?}
 				)
@@ -214,15 +237,15 @@ sub name_files
 		return "naptar.html";
 	}
 
-	if ( $url =~ m{menetrend/helykozi/(.+)$} ) {
+	if ( $url =~ m{menetrend/helykozi/(.+)(?:&(?:route|service))?$} ) {
 		return "char_$1.html";
 	}
 
-	if ( $url =~ m{menetrend\.php\?menetrend=(.+?)&menetrend_id=(.+?)&type=helykozi$} ) {
+	if ( $url =~ m{menetrend\.php\?menetrend=(.+?)&menetrend_id=(.+?)&type=helykozi(?:&(?:route|service))?$} ) {
 		return "route_$1_XX_$2.html";
 	}
 
-	if ( $url =~ m{menetrend=(.+?)&menetrend_id=(.+?)&type=helykozi&dir=(to|from)$} ) {
+	if ( $url =~ m{menetrend=(.+?)&menetrend_id=(.+?)&type=helykozi&dir=(to|from)(?:&(?:route|service))?$} ) {
 		return "route_$1_$3_$2.html";
 	}
 
