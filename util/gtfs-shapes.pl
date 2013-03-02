@@ -3,7 +3,7 @@
 #
 #         FILE:  gtfs-shapes.pl
 #
-#        USAGE:  ./shape-gpx.pl
+#        USAGE:  ./gtfs-shapes.pl [gtfs-dir]
 #
 #  DESCRIPTION:
 #
@@ -29,7 +29,7 @@ my $way_l  = {};
 my $nodes  = {};
 my $node   = -100000;
 
-my $dir = 'bkv/gtfs';
+my $dir = $ARGV[0] || 'feeds/bkv/gtfs';
 
 my ( $file, $routes, $lines );
 
