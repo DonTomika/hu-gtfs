@@ -10,7 +10,7 @@
 #      OPTIONS:  ---
 # REQUIREMENTS:  ---
 #         BUGS:  ---
-#        NOTES:  BKV specific for now
+#        NOTES:  
 #       AUTHOR:  Zsombor Welker (flaktack), flaktack@welker.hu
 #      COMPANY:
 #      VERSION:  1.0
@@ -25,7 +25,10 @@ use warnings;
 no warnings qw(numeric);
 use autodie;
 
+my ($osm_file, $DIR, $ref_tag) = (shift, shift, shift);
+
 binmode( STDOUT, ':utf8' );
+binmode( STDERR, ':utf8' );
 
 use Data::Dumper;
 use Text::CSV::Encoded;
@@ -49,8 +52,6 @@ sub remove_bom(@)
 	return [ map { s/^\x{feff}//; $_ } @{ $_[0] } ];
 }
 
-my $DIR = shift || 'tmp';
-
 my ( $file, $agencies, $routes, $trips, $stops, $stop_names, $shapes );
 
 my $needed = { map { $_ => 1 } @ARGV };
@@ -67,30 +68,18 @@ while ( my $cols = $CSV->getline_hr($file) ) {
 open( $file, "$DIR/routes.txt" );
 $CSV->column_names( remove_bom $CSV->getline($file) );
 while ( my $cols = $CSV->getline_hr($file) ) {
-	my ( $id, $ref, $agency )
-		= ( $cols->{route_id}, $cols->{route_short_name}, $agencies->{ $cols->{agency_id} } );
+	my ( $id, $ref, $agency, $name )
+		= ( $cols->{route_id}, $cols->{route_short_name}, $agencies->{ $cols->{agency_id} }, $cols->{route_long_name} );
 
-	given ($id) {
-		when (m/^[0129]/) {
-			$routes->{$id} = [ $id, $ref, 'bus', $agency ];
+	given( $cols->{route_type} ) {
+		when(0) {
+			$routes->{$id} = [ $id, $ref, 'tram', $agency, $name ];
 		}
-		when (m/^3/) {
-			$routes->{$id} = [ $id, $ref, 'tram', $agency ];
+		when(3) {
+			$routes->{$id} = [ $id, $ref, 'bus', $agency, $name ];
 		}
-		when (m/^4/) {
-			$routes->{$id} = [ $id, $ref, 'trolleybus', $agency ];
-		}
-		when (m/^5/) {
-
-			#$routes->{$id} = [ $id, $ref, 'metro', $agency ];
-		}
-		when (m/^6/) {
-
-			#$routes->{$id} = [ $id, $ref, 'light_rail', $agency ];
-		}
-		when (m/^[VMH]/) {
-
-			# potló
+		when(800) {
+			$routes->{$id} = [ $id, $ref, 'trolleybus', $agency, $name ];
 		}
 		default {
 			warn $id;
@@ -140,7 +129,7 @@ my $t = XML::Twig->new(
 );
 
 # ./osmosis-0.39/bin/osmosis --read-xml hungary-current.osm.bz2 --bounding-box top=47.702 right=19.391 bottom=47.124 left=18.842 --write-xml hungary-pest.osm
-$t->parsefile('/home/flaktack/osm/hungary-pest.osm');
+$t->parsefile( $osm_file );
 $t->purge;
 
 sub tags
@@ -163,11 +152,9 @@ sub node
 	return
 		unless ( ( $tag->{highway} && $tag->{highway} eq 'bus_stop' )
 		|| ( $tag->{railway} && $tag->{railway} =~ m/^(?:halt|tram_stop)$/ ) )
-		&& $tag->{operator}
-		&& $tag->{operator} =~ m/\bBKV\b/
-		&& $tag->{'ref:bkv'};
+		&& $tag->{$ref_tag};
 
-	for ( split ';', $tag->{'ref:bkv'} ) {
+	for ( split ';', $tag->{$ref_tag} ) {
 		$stops->{$_} = [ 'node', $section->att('id'), $tag->{railway} ? 'stop' : 'platform',
 			$tag->{name} ];
 	}
@@ -182,7 +169,6 @@ sub relation
 
 	if (   $tag->{route_master}
 		&& $tag->{operator}
-		&& $tag->{operator} =~ m/\bBKV\b/
 		&& $tag->{ref} )
 	{
 		#$skip->{ $tag->{ref} } = 1;
@@ -195,10 +181,9 @@ sub relation
 			&& $tag->{operator}
 			&& $tag->{type}             eq 'public_transport'
 			&& $tag->{public_transport} eq 'stop'
-			&& $tag->{operator} =~ m/\bBKV\b/
-			&& $tag->{'ref:bkv'};
+			&& $tag->{$ref_tag};
 
-	for ( split ';', $tag->{'ref:bkv'} ) {
+	for ( split ';', $tag->{$ref_tag} ) {
 		$stops->{$_} = [ 'relation', $section->att('id'), 'stop', $tag->{name} ];
 	}
 
@@ -210,7 +195,7 @@ print <<EOF;
 <osm version="0.6" generator="bkv-gtfs-create-relations.pl">
 EOF
 
-my $id = 1000;
+my $id = 1233211000;
 for my $route ( keys %$shapes ) {
 	next if $skip->{ $routes->{$route}->[1] };
 	next if scalar @ARGV && not $needed->{ $routes->{$route}->[1] };
@@ -234,8 +219,17 @@ for my $route ( keys %$shapes ) {
 		<tag k="deduplicated" v="no" />
 		<tag k="type" v="route" />
 		<tag k="route" v="$routes->{$route}->[2]" />
+EOF
+		if ( $routes->{$route}->[1] ) {
+			$content .= <<EOF;
 		<tag k="ref" v="$routes->{$route}->[1]" />
 EOF
+		}
+		if ( $routes->{$route}->[4] ) {
+			$content .= <<EOF;
+		<tag k="name" v="$routes->{$route}->[4]" />
+EOF
+		}
 
 		if ( $stops->{ $stops[0] } ) {
 			$content .= <<EOF;
@@ -275,7 +269,20 @@ EOF
 $members
 		<tag k="type" v="route_master" />
 		<tag k="route_master" v="$routes->{$route}->[2]" />
+EOF
+
+	if($routes->{$route}->[1]) {
+		print <<EOF;
 		<tag k="ref" v="$routes->{$route}->[1]" />
+EOF
+	}
+	if($routes->{$route}->[4]) {
+		print <<EOF;
+		<tag k="name" v="$routes->{$route}->[4]" />
+EOF
+	}
+
+	print <<EOF;
 		<tag k="operator" v="$routes->{$route}->[3]" />
 		<tag k="network" v="local" />
 	</relation>
