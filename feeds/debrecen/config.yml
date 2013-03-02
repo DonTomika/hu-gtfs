@@ -1,0 +1,8 @@
+feedmanager: HuGTFS::FeedManager::GTFS
+automatic: 1
+gtfs_url: http://menetrend.derke.hu/feed/gtfs-debrecen.zip
+gtfs_stop_code: stop_id
+osm_agency_id: !!perl/regexp '(?^u:\b(?:DKV|Hajdú Volán(?: Zrt\.)|Komáromi és Társa Bt\.)(?:\b|\z|;))'
+osm_stop_code: "ref:derke"
+keep_existing: 1
+shape_strategy: relations

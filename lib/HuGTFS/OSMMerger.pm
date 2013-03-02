@@ -1470,7 +1470,7 @@ sub default_create_stop
 	{
 		delete $stop_gtfs->{$_}
 			for
-			qw/stop_name stop_code stop_zone zone_id stop_lat stop_lon location_type parent_station wheelchair_boarding/;
+			qw/stop_name stop_desc stop_code stop_zone zone_id stop_lat stop_lon location_type parent_station wheelchair_boarding/;
 	}
 
 	if($data->{stops}->{$stop_id}->{entrances}) {

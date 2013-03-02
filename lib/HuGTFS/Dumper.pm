@@ -52,7 +52,7 @@ local $| = 1;
 my $log = Log::Log4perl::get_logger(__PACKAGE__);
 
 our $HEADERS = {
-	'agency' => [qw/agency_id agency_name agency_url agency_timezone agency_lang agency_phone/],
+	'agency' => [qw/agency_id agency_name agency_url agency_fare_url agency_timezone agency_lang agency_phone/],
 	'calendar_dates' => [qw/service_id date exception_type/],
 	'calendar'       => [
 		qw/service_id service_desc monday tuesday wednesday thursday friday saturday sunday start_date end_date/

@@ -67,7 +67,7 @@ has 'osm_file' => (
 
 =head2 reference_url
 
-Base url where the reference data in C<data_directory> will be copeid.
+Base url where the reference data in C<data_directory> will be copied.
 May be used for links in the gtfs data.
 
 =cut
