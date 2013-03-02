@@ -75,149 +75,128 @@ my ($AGENCY) = (
 		'agency_name'     => 'MÁV-START Zrt.',
 		'agency_url'      => 'http://www.mav-start.hu',
 		'agency_timezone' => 'Europe/Budapest',
+		'routes'          => [
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'NEMZETKOZI-GYORS',
+				'route_long_name'  => 'nemzetközi gyorsvonat',
+				#'route_short_name' => 'NGY'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'NEMZETKOZI-SZEMELY',
+				'route_long_name'  => 'nemzetközi személyvonat',
+				#'route_short_name' => 'NSZ'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'BELFOLDI-EXPRESSZ',
+				'route_long_name'  => 'belföldi expresszvonat',
+				#'route_short_name' => 'E'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'BELFOLDI-GYORS',
+				'route_long_name'  => 'belföldi gyorsvonat',
+				'route_short_name' => 'GY'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'EUREGIO',
+				'route_long_name'  => 'EUREGIO',
+				#'route_short_name' => 'EUR'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'EUROCITY',
+				'route_long_name'  => 'EuroCity',
+				'route_short_name' => 'EC'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'EURONIGHT',
+				'route_long_name'  => 'EuroNight',
+				'route_short_name' => 'EN'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'INTERCITY',
+				'route_long_name'  => 'InterCity',
+				'route_short_name' => 'IC'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'INTERREGIO',
+				'route_long_name'  => 'InterRégió',
+				'route_short_name' => 'IR'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'RAILJET',
+				'route_long_name'  => 'railjet',
+				'route_short_name' => 'RJ'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'SEBES',
+				'route_long_name'  => 'sebesvonat',
+				'route_short_name' => 'S'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'SZEMELY',
+				'route_long_name'  => 'személyvonat',
+				'route_short_name' => 'SZ'
+			},
+			{
+				'route_type'       => 'bus',
+				'route_id'         => 'ICVONATPOTLO',
+				'route_long_name'  => 'InterCity pótló busz',
+				'route_short_name' => 'ICvp'
+			},
+			{
+				'route_type'       => 'bus',
+				'route_id'         => 'VONATPOTLO',
+				'route_long_name'  => 'vonatpótló autóbusz',
+				'route_short_name' => 'VP'
+			},
+
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'REGIONALIS',
+				'route_long_name'  => 'Regionalis vonat',
+				#'route_short_name' => 'R'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'EXPRESSZ',
+				'route_long_name'  => 'Expressz',
+				'route_short_name' => 'Ex'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'KULONVONAT',
+				'route_long_name'  => 'különvonat',
+				#'route_short_name' => 'K'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'POSTAVONAT',
+				'route_long_name'  => 'postavonat',
+				#'route_short_name' => 'pv'
+			},
+			{
+				'route_type'       => 'rail',
+				'route_id'         => 'S-BAHN',
+				'route_long_name'  => 'S-Bahn',
+				#'route_short_name' => ''
+			},
+		],
 	}
 );
-
-my ($ROUTES) = {
-	map { $_->{route_id} => $_ }{
-		'agency_id'       => 'MAVSTART',
-		'route_type'      => 'rail',
-		'route_id'        => 'NEMZETKOZI-GYORS',
-		'route_long_name' => 'nemzetközi gyorsvonat',
-		#'route_short_name' => 'NGY'
-	},
-	{
-		'agency_id'       => 'MAVSTART',
-		'route_type'      => 'rail',
-		'route_id'        => 'NEMZETKOZI-SZEMELY',
-		'route_long_name' => 'nemzetközi személyvonat',
-		#'route_short_name' => 'NSZ'
-	},
-	{
-		'agency_id'       => 'MAVSTART',
-		'route_type'      => 'rail',
-		'route_id'        => 'BELFOLDI-EXPRESSZ',
-		'route_long_name' => 'belföldi expresszvonat',
-		#'route_short_name' => 'E'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'BELFOLDI-GYORS',
-		'route_desc'       => 'belföldi gyorsvonat',
-		'route_short_name' => 'GY'
-	},
-	{
-		'agency_id'       => 'MAVSTART',
-		'route_type'      => 'rail',
-		'route_id'        => 'EUREGIO',
-		'route_long_name' => 'EUREGIO',
-		#'route_short_name' => 'EUR'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'EUROCITY',
-		'route_desc'       => 'EuroCity',
-		'route_short_name' => 'EC'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'EURONIGHT',
-		'route_desc'       => 'EuroNight',
-		'route_short_name' => 'EN'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'INTERCITY',
-		'route_desc'       => 'InterCity',
-		'route_short_name' => 'IC'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'INTERREGIO',
-		'route_desc'       => 'InterRégió',
-		'route_short_name' => 'IR'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'RAILJET',
-		'route_desc'       => 'railjet',
-		'route_short_name' => 'rj'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'SEBES',
-		'route_desc'       => 'sebesvonat',
-		'route_short_name' => 'S'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'SZEMELY',
-		'route_desc'       => 'személyvonat',
-		'route_short_name' => 'SZ'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'bus',
-		'route_id'         => 'ICVONATPOTLO',
-		'route_desc'       => 'InterCity pótló busz',
-		'route_short_name' => 'ICvp'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'bus',
-		'route_id'         => 'VONATPOTLO',
-		'route_desc'       => 'vonatpótló autóbusz',
-		'route_short_name' => 'VP'
-	},
-	{
-		'agency_id'       => 'MAVSTART',
-		'route_type'      => 'rail',
-		'route_id'        => 'REGIONALIS',
-		'route_long_name' => 'Regionalis vonat',
-		#'route_short_name' => 'R'
-	},
-	{
-		'agency_id'        => 'MAVSTART',
-		'route_type'       => 'rail',
-		'route_id'         => 'EXPRESSZ',
-		'route_long_name'  => 'Expressz',
-		'route_short_name' => 'Ex'
-	},
-	{
-		'agency_id'       => 'MAVSTART',
-		'route_type'      => 'rail',
-		'route_id'        => 'KULONVONAT',
-		'route_long_name' => 'különvonat',
-		#'route_short_name' => 'K'
-	},
-	{
-		'agency_id'       => 'MAVSTART',
-		'route_type'      => 'rail',
-		'route_id'        => 'POSTAVONAT',
-		'route_long_name' => 'postavonat',
-		#'route_short_name' => 'pv'
-	},
-	{
-		'agency_id'       => 'MAVSTART',
-		'route_type'      => 'rail',
-		'route_id'        => 'S-BAHN',
-		'route_long_name' => 'S-Bahn',
-		'route_desc'      => '',
-		#'route_short_name' => ''
-	},
-};
-
 my ($routes)
-	= { map { ( $_->{route_desc} || $_->{route_long_name} || $_->{route_short_name} ) => $_ } values %$ROUTES };
-
+	= { map { ( $_->{route_long_name} || $_->{route_short_name} ) => $_ }
+		@{ $AGENCY->{routes} } };
 my ( $STOPS, $TRIPS, $STOP_TYPE, $STOP_CODE, $SERVICE_MAP, $PARSED_SERVICE_MAP, $STOP_MAP,
 	%R_MONTH )
 	= ( {}, [], {}, {}, {}, {}, {}, () );
@@ -588,7 +567,6 @@ sub parse
 	';
 
 		$self->process_trips();
-		$self->remap_routes();
 	}
 
 	my $dumper = HuGTFS::Dumper->new( dir => catdir( $self->directory, 'gtfs' ) );
@@ -1059,7 +1037,6 @@ sub parse
 	}
 
 	$dumper->dump_agency($AGENCY);
-	$dumper->dump_route($_) for ( map { $ROUTES->{$_} } sort keys %$ROUTES );
 	$dumper->dump_calendar($_) for ( HuGTFS::Cal->dump );
 	$dumper->dump_stop($_) for ( map { $STOPS->{$_} } sort keys %$STOPS );
 
@@ -1375,9 +1352,6 @@ Handles timetable header definitions
 
 					$route_id = $routes->{$temp_route_id}->{route_id};
 
-					confess "Unknown train type: <$temp_route_id>" . Dumper( [ keys %$routes ] )
-						unless $route_id;
-
 					$trip_short_name = "IC $trip_short_name"
 						if $trip_short_name =~ m/^\d+$/ && $route_id eq 'INTERCITY';
 					$trip_short_name = "EN $trip_short_name"
@@ -1386,6 +1360,9 @@ Handles timetable header definitions
 						if $trip_short_name =~ m/^\d+$/ && $route_id eq 'RAILJET';
 					$trip_short_name = "S $trip_short_name"
 						if $trip_short_name =~ m/^\d+$/ && $route_id eq 'SEBES';
+
+					confess "Unknown train type: <$temp_route_id>" . Dumper( [ keys %$routes ] )
+						unless $route_id;
 
 					push @parts,
 						[ $route_id, 'MT_' . $trip_number . '_' . $elvira_trip_id, [@$stops] ];
@@ -2081,53 +2058,6 @@ Stop restrictions:
 		}
 
 		return $id;
-	}
-}
-
-sub remap_routes
-{
-	my ($self) = @_;
-
-	my $extended_routes = {};
-
-	sub top_stop {
-		my $stop = shift;
-		return $STOPS->{$stop->{parent_station}} if $stop->{parent_station};
-		return $stop;
-	}
-
-	sub get_stop {
-		my $st = shift;
-		return top_stop($STOPS->{$st->{stop_id}});
-	}
-
-	foreach my $trip (@$TRIPS) {
-		my $id = join "-", $trip->{route_id},
-			sort( get_stop($trip->{stop_times}[0])->{stop_id}, get_stop($trip->{stop_times}[-1])->{stop_id} );
-		push @{ $extended_routes->{$id} }, $trip;
-	}
-
-	foreach my $route_id ( keys %$extended_routes ) {
-		my $trips = $extended_routes->{$route_id};
-		#next unless $#$trips > 0;
-
-		my $exemplar = $trips->[0];
-		$ROUTES->{$route_id} = {
-			%{ $ROUTES->{ $exemplar->{route_id} } },
-			route_id        => $route_id,
-			route_long_name => (
-				join " - ",
-				sort map { get_stop($_)->{stop_name} } $exemplar->{stop_times}[0],
-				$exemplar->{stop_times}[-1]
-			),
-		};
-		$ROUTES->{$route_id}->{route_long_name}
-			.= " " . $ROUTES->{ $exemplar->{route_id} }->{route_long_name}
-			if $ROUTES->{ $exemplar->{route_id} }->{route_long_name};
-
-		foreach my $trip (@$trips) {
-			$trip->{route_id} = $route_id;
-		}
 	}
 }
 
@@ -4033,8 +3963,6 @@ sub create_service_from_text
 
 	$self->start_date($self->min_date);
 	$self->end_date($self->max_date);
-
-	return "M_NK" unless $self->has_active_day;
 
 	if ( !scalar @remove_exceptions ) {
 		$PARSED_SERVICE_MAP->{ $service_data->{descr} } = $service_data->{id};
