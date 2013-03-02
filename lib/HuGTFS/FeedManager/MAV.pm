@@ -3989,6 +3989,12 @@ sub service_remap
 			=> "naponta, 2013.V.04-től VIII.31-ig szombati közlekedési rend szerint kivételével naponta",
 		"2013.V.13-ig és 2013.VIII.26-tól naponta, de nem közlekedik 2013.V.03-tól VI.07-ig pénteki közlekedési rend szerint"
 			=> "2013.V.13-ig és 2013.VIII.26-tól naponta, 2013.V.03-tól VI.07-ig Nem közlekedik: pénteki közlekedési rend szerint",
+		"2013.VI.16-tól IX.15-ig vasárnap (Magyarországi közlekedése: hétfő)"
+			=> "2013.VI.16-tól IX.15-ig vasárnap",
+		"2013.VI.15-től IX.15-ig szerda és szombat (Magyarországi közlekedése: csütörtök és vasárnap)"
+			=> "2013.VI.15-től IX.15-ig szerda és szombat",
+		"2012.XII.23-ig 2013.I.01-től V.19-ig VI.23-tól vasárnapi közlekedési rend szerint2012.XII.24, 26, de nem közl: 2012.XII.25"
+			=> "2012.XII.23-ig 2013.I.01-től V.19-ig VI.23-tól vasárnapi közlekedési rend szerint 2012.XII.24, 26, de nem közl: 2012.XII.25"
 	};
 
 	my $service_text = shift;
