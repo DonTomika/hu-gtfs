@@ -463,13 +463,13 @@ sub create_stop
 					when ("stop") {
 						$spoint = $nodes->{ $m->ref };
 					}
-					when ("entrance") {
+					when (m/^entrance(?:-(\d+))?$/) {
 						if ( $m->member_type eq 'node' && $nodes->{ $m->ref } ) {
-							$stop->{entrances} = [] unless $stop->{entrances};
+							my $entrance = create_stop( $nodes->{ $m->ref }, $operator, $nodes, $ways, $relations );
+							$entrance->{traversal_time} = $1 if $1;
 
-							push @{ $stop->{entrances} },
-								create_stop( $nodes->{ $m->ref },
-								$operator, $nodes, $ways, $relations );
+							$stop->{entrances} = [] unless $stop->{entrances};
+							push @{ $stop->{entrances} }, $entrance;
 
 							# XXX -> pathways?
 						}
@@ -1475,8 +1475,29 @@ sub default_create_stop
 
 	if($data->{stops}->{$stop_id}->{entrances}) {
 		foreach my $entrance (@{$data->{stops}->{$stop_id}->{entrances}}) {
+			my $t = $entrance->{traversal_time} || 30;
+			delete $entrance->{traversal_time};
+
 			$entrance->{stop_name} = $entrance->{name} || $data->{stops}->{$stop_id}->{stop_name};
 			$entrance->{stop_id}   = $stop_id . "_entrance_" . $entrance->{stop_osm_entity};
+
+			# XXX: pathways
+			push @{ $data->{stops}->{$stop_id}->{pathways} },
+				{
+				pathway_id     => $stop_id . "-" . $entrance->{stop_id},
+				from_stop_id   => $stop_id,
+				to_stop_id     => $entrance->{stop_id},
+				pathway_type   => 'stop-street',
+				traversal_time => $t
+				};
+			push @{ $data->{stops}->{$stop_id}->{pathways} },
+				{
+				pathway_id     => $entrance->{stop_id} . "-" . $stop_id,
+				to_stop_id     => $stop_id,
+				from_stop_id   => $entrance->{stop_id},
+				pathway_type   => 'street-stop',
+				traversal_time => $t
+				};
 
 			delete $entrance->{$_} for qw/alt_name old_name alt_old_name old_alt_name/;
 		}

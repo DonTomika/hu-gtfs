@@ -61,6 +61,7 @@ our $HEADERS = {
 		[ qw/fare_id price currency_type payment_method transfers transfer_duration/ ],
 	'fare_rules'  => [qw/fare_id route_id origin_id destination_id contains_id/],
 	'frequencies' => [qw/trip_id start_time end_time headway_secs exact_times/],
+	'pathways'    => [qw/pathway_id from_stop_id to_stop_id pathway_type pathway_desc traversal_time wheelchair_pathway_desc wheelchair_traversal_time signposted_as/],
 	'routes'      => [
 		qw/route_id agency_id route_short_name route_long_name route_desc route_type route_url route_color route_text_color route_bikes_allowed/
 	],
@@ -93,6 +94,7 @@ my $FILES = {
 	'stops'           => \&dump_stop,
 	'stop_times'      => \&dump_stop_time,
 	'transfers'       => \&dump_transfer,
+	'pathways'        => \&dump_pathway,
 	'trips'           => \&dump_trip,
 };
 
@@ -701,6 +703,14 @@ sub dump_stop
 		delete $stop->{entrances};
 	}
 
+	if($stop->{pathways}) {
+		foreach my $pathway (@{$stop->{pathways}}) {
+			$self->dump_pathway( $pathway );
+		}
+
+		delete $stop->{pathways};
+	}
+
 	if($stop->{location_type}) {
 		$stop->{location_type} = 2 if $stop->{location_type} eq 'entrance';
 		$stop->{location_type} = 1 if $stop->{location_type} eq 'station';
@@ -713,6 +723,32 @@ sub dump_stop
 	}
 
 	$self->put_csv( 'stops', $stop );
+}
+
+=head2 dump_pathway
+
+=cut
+
+sub dump_pathway
+{
+	my ( $self, $pathway ) = @_;
+
+	$pathway->{pathway_id}   = $self->{prefix} . $pathway->{pathway_id}   if $self->{prefix} && length $pathway->{pathway_id} > 0;
+	$pathway->{from_stop_id} = $self->{prefix} . $pathway->{from_stop_id} if $self->{prefix};
+	$pathway->{to_stop_id}   = $self->{prefix} . $pathway->{to_stop_id}   if $self->{prefix};
+
+	if($pathway->{pathway_type}) {
+		$pathway->{pathway_type} = 1 if $pathway->{pathway_type} eq 'street-stop';
+		$pathway->{pathway_type} = 1 if $pathway->{pathway_type} eq 'stop-street';
+		$pathway->{pathway_type} = 2 if $pathway->{pathway_type} eq 'stop-stop';
+		$pathway->{pathway_type} = 3 if $pathway->{pathway_type} eq 'street-street';
+	}
+
+	if($pathway->{wheelchair_traversal_time}) {
+		$pathway->{wheelchair_traversal_time} = -1 if $pathway->{wheelchair_traversal_time} eq 'no';
+	}
+
+	$self->put_csv( 'pathways', $pathway );
 }
 
 =head2 dump_frequency
