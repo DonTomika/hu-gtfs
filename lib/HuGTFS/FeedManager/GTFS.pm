@@ -20,23 +20,15 @@ use utf8;
 use strict;
 use warnings;
 
-use YAML qw//;
-
-use HuGTFS::Cal;
 use HuGTFS::Util qw(:utils);
 use HuGTFS::Crawler;
 use HuGTFS::OSMMerger;
 use HuGTFS::ShapeFinder;
 use HuGTFS::Dumper;
 
-use File::Temp qw/tempfile/;
-use File::Spec::Functions qw/catfile tmpdir/;
+use File::Spec::Functions qw/catfile/;
 
 use Archive::Zip qw( :ERROR_CODES :CONSTANTS );
-
-use Digest::SHA qw(sha256_hex);
-
-use DateTime;
 
 use Mouse;
 
@@ -435,6 +427,8 @@ sub fixup_trip
 sub fixup_stop
 {
 	my ($self, $stop) = @_;
+
+	$stop->{stop_name} =~ s/^\s*(.*?)\s*$/$1/;
 
 	if ( $self->options->{gtfs_stop_code} ) {
 		$stop->{stop_code} = $stop->{ $self->options->{gtfs_stop_code} };
