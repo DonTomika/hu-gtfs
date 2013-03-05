@@ -156,9 +156,10 @@ if($ARGV[0] && $ARGV[0] eq '-') {
 }
 $CSV->column_names( remove_bom $CSV->getline($file) );
 while ( my $cols = $CSV->getline_hr($file) ) {
-	my ( $stop, $name, $lat, $lon, $type ) = (
-		$cols->{stop_id},  $cols->{stop_name}, $cols->{stop_lat},
-		$cols->{stop_lon}, $cols->{location_type}
+	my ( $stop, $code, $name, $lat, $lon, $type, $zone ) = (
+		$cols->{stop_id},  $cols->{stop_code}, $cols->{stop_name},
+		$cols->{stop_lat}, $cols->{stop_lon},  $cols->{location_type},
+		$cols->{zone_id},
 	);
 
 	next if $type;
@@ -168,11 +169,15 @@ while ( my $cols = $CSV->getline_hr($file) ) {
 
 	print <<EOF;
 	<node id='$i' lat='$lat' lon='$lon'>
-		<tag k='ref:bkv' v='$stop' />
+		<tag k='ref:bkv' v='$code' />
 		<tag k='name' v='$name' />
 		<tag k='verified' v='no' />
 		<tag k='deduplicated' v='no' />
 EOF
+
+	if ( $zone ) {
+		print "\t\t<tag k='gtfs:zone_id' v='$zone' />\n";
+	}
 
 	print "\t\t<tag k='operator' v='"
 		. ( join ';', sort keys %{ $stop_agency->{$stop} } )
