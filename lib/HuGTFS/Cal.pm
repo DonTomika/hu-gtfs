@@ -205,13 +205,17 @@ sub generic_services
 	$class->descriptor(['RENAME', [qw/OR SZABADNAPON MUNKASZUNETINAPON/     ], 'HETVEGEN'             , 'szabad- és munkaszüneti napokon']);
 	$class->descriptor(['RENAME', ['LIMIT', 'MUNKANAPON',    CAL_TANSZUNET()], 'TANSZUNETI_MUNKANAPON', 'tanszüneti munkanapokon'        ]);
 	$class->descriptor(['RENAME', ['LIMIT', 'MUNKANAPON',  CAL_A_TANSZUNET()], 'TANITASI_MUNKANAPON'  , 'tanítási munkanapokon'          ]);
+
+	$class->descriptor(['RENAME', ['LIMIT', 'NAPONTA',           CAL_TANEV()], 'TANEV'                , 'tanév tartama alatt'            ]);
+	$class->descriptor(['RENAME', ['LIMIT', 'NAPONTA',  CAL_TANSZUNET_NYAR()], 'TANSZUNET_NYAR'       , 'nyári tanszünetben'             ]);
 #>>>
 
 	# remove cruft from creating services
 	$services = {
 		map { $_->service_id => $_ }
 			@{$services}{
-			qw/NEVER NAPONTA MUNKANAPON SZABADNAPON MUNKASZUNETINAPON HETVEGEN TANSZUNETI_MUNKANAPON TANITASI_MUNKANAPON/
+			qw/NEVER NAPONTA MUNKANAPON SZABADNAPON MUNKASZUNETINAPON HETVEGEN TANSZUNETI_MUNKANAPON TANITASI_MUNKANAPON/,
+			qw/TANEV TANSZUNET_NYAR/
 			}
 	};
 }
