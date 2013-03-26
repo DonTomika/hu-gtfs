@@ -62,17 +62,17 @@ after 'fixup_route' => sub {
 	if ( $route->{route_short_name} =~ m/^(70|72|73|74|74A|75|76|77|78|79|80|80A|81|82|83)$/ ) {
 		$route->{route_type} = 'trolleybus';
 	}
+
+	if ( $route->{route_id} eq '3600' || $route->{route_id} =~ m/^6\d{3}$/ || $route->{route_id} =~ m/^HP\d{2}$/ ) {
+		$route->{route_bikes_allowed} = 2;
+	}
+	else {
+		$route->{route_bikes_allowed} = 1;
+	}
 };
 
 after 'fixup_trip' => sub {
 	my ($self, $trip) = @_;
-
-	if ( $trip->{route_id} eq '3600' || $trip->{route_id} =~ m/^6\d{3}$/ ) {
-		$trip->{trip_bikes_allowed} = 2;
-	}
-	else {
-		$trip->{trip_bikes_allowed} = 1;
-	}
 
 	delete $trip->{trips_bkk_ref};
 };
