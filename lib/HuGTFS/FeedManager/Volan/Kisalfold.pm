@@ -132,7 +132,7 @@ sub crawl_date {
 
 sub name_files
 {
-	my ( $url, $file ) = shift;
+	my ( $url, $file ) = @_;
 
 	if ( $url =~ m{lines.cgi\?city=(.+?)$} ) {
 		return "routes_$1.html";
