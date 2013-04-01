@@ -1,4 +1,4 @@
-feedmanager: HuGTFS::FeedManager::GTFS
+feedmanager: HuGTFS::FeedManager::Debrecen
 automatic: 1
 gtfs_url: http://menetrend.derke.hu/feed/gtfs-debrecen.zip
 gtfs_stop_code: stop_id
