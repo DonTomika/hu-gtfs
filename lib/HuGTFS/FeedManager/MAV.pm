@@ -26,7 +26,6 @@ use Carp qw/ cluck confess croak /;
 use WWW::Mechanize;
 use Data::Dumper;
 use File::Spec::Functions qw/catfile catdir/;
-use DBI;
 use Text::CSV::Encoded;
 use Text::Unidecode;
 use Digest::JHash qw(jhash);
@@ -36,6 +35,7 @@ use JSON qw/decode_json/;
 use HuGTFS::Cal;
 use HuGTFS::Util qw(:utils);
 use HuGTFS::Dumper;
+use HuGTFS::OSMMerger;
 
 use Mouse;
 
@@ -908,6 +908,7 @@ sub parse
 		if ($process_shapes) {
 			my $mech = WWW::Mechanize->new();
 			my $SP_CACHE = {};
+			my $SHAPE_CACHE = {};
 
 			$TRIPS = [ sort { $a->{trip_id} cmp $b->{trip_id} } @$TRIPS ];
 			while ( my $trip = shift @$TRIPS ) {
@@ -1012,7 +1013,7 @@ sub parse
 					$prev_stop = $stop;
 				}
 
-				$trip->{shape} = {
+				my $shape = {
 					shape_id     => $shape_id,
 					shape_points => [
 						map {
@@ -1024,6 +1025,14 @@ sub parse
 							} @path
 					],
 				};
+				my $shape_hash = HuGTFS::OSMMerger::shape_sha256( $shape );
+
+				if($SHAPE_CACHE->{$shape_hash} && HuGTFS::OSMMerger::shape_equals($shape, $SHAPE_CACHE->{$shape_hash})) {
+					$trip->{shape_id} = $SHAPE_CACHE->{$shape_hash}->{shape_id};
+				} else {
+					$SHAPE_CACHE->{$shape_hash} = $shape;
+					$trip->{shape} = $shape;
+				}
 
 				$dumper->dump_trip($trip);
 			}
