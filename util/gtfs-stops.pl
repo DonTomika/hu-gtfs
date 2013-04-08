@@ -110,6 +110,9 @@ while ( my $cols = $CSV->getline_hr($file) ) {
 			when ('4') {
 				$route_types->{$id} = 'ferry';
 			}
+			when ('800') {
+				$route_types->{$id} = 'trolleybus';
+			}
 		}
 	}
 }
