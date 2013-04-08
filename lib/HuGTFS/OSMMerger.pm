@@ -675,6 +675,10 @@ sub expand_linestring
 		$i--;
 	}
 
+	unless(scalar @$points) {
+		return 0;
+	}
+
 	#$Data::Dumper::Indent = 0;
 	#$Data::Dumper::Useqq = 1;
 	#print Data::Dumper::Dumper( $linestring, $points, $right_only ) . "\n";

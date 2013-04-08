@@ -64,7 +64,7 @@ use constant {
 
 my $log = Log::Log4perl->get_logger(__PACKAGE__);
 
-my $OPERATOR = qr/\b(?:MÁV|GySEV)\b/;
+my $OPERATOR = qr/\b(?:MÁV|GySEV)\b/i;
 
 my ( $PLATFORMS, $PLATFORM_NODE ) = ( {}, {} );
 my ($AGENCY) = (
