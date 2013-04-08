@@ -44,6 +44,12 @@ after 'fixup_route' => sub {
 	$route->{route_text_color} = '000000' if defined $route->{route_text_color} && $route->{route_text_color} eq '0';
 };
 
+after 'fixup_stop' => sub {
+	my ($self, $stop) = @_;
+
+	delete $stop->{stop_street};
+};
+
 1;
 
 =head1 COPYRIGHT
