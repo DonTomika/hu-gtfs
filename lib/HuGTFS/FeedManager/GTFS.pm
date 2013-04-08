@@ -361,7 +361,7 @@ OUTER:
 	$dumper->dump_stop($_) for ( map { $data->{stops}->{$_} } sort keys %{ $data->{stops} } );
 	$dumper->dump_stop($_) for ( map { $STOPS->{$_} } sort keys %$used_stops );
 
-	augment($dumper);
+	$self->augment_feed($dumper);
 
 	$dumper->dump_statistics( $data->{statistics} );
 
@@ -374,7 +374,7 @@ sub trip_shape_strategy {
 	return $self->options->{shape_strategy};
 }
 
-sub augment
+sub augment_feed
 {
 	my ($self, $dumper) = @_;
 }

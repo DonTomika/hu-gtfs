@@ -163,7 +163,7 @@ after 'fixup_stop' => sub {
 };
 
 # Add Sikló & Libegő
-after 'augment' => sub {
+after 'augment_feed' => sub {
 	my ($self, $dumper) = @_;
 
 	$dumper->dump_route($_)
