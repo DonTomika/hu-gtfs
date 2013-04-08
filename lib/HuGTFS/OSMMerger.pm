@@ -1045,6 +1045,7 @@ ROUTE:
 						route_id         => $route->{route_id},
 						route_type       => $route->{route_type},
 						route_short_name => $route->{route_short_name},
+						route_long_name  => $route->{route_long_name},
 					};
 				}
 				$data->{statistics}->{missing_route}->{ $route->{route_id} }->{count}++;
