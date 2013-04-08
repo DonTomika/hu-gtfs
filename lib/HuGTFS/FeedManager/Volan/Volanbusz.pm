@@ -709,12 +709,12 @@ sub parse_file
 	my ( $index_stop, $index_trip, $max_index_trip );
 	{
 		my $z = 1;
-		foreach ( $twig->get_xpath('table[@id="menetrend"]/tr[0]/td') ) {
-			if ( $_->att('class') =~ m/jarat/o ) {
+		foreach ( $twig->get_xpath('table[@id="menetrend"]/tr[2]/td') ) {
+			if ( $_->att('class') && $_->att('class') =~ m/jarat/o ) {
 				$max_index_trip = $z;
 				$index_trip = $z unless defined $index_trip;
 			}
-			if ( $_->text =~ m/Megállók/o ) {
+			elsif ( $_->text =~ m/Megállók/o ) {
 				$index_stop = $z;
 			}
 			$z++;
@@ -725,7 +725,7 @@ sub parse_file
 	my @stops;
 
 	my $last_td;
-	foreach my $td ( $twig->get_xpath("table[\@id=\"menetrend\"]/tr/td[$index_stop]") ) {
+	foreach my $td ( $twig->get_xpath("table[\@id=\"menetrend\"]/tr[\@class]/td[$index_stop]") ) {
 		my $stop;
 		$last_td = $td;
 
@@ -769,8 +769,8 @@ sub parse_file
 		}
 		push @stops, $stop;
 	}
-	$last_td->parent->delete;    # Empty row at the bottom of timetables
-	pop @stops;                  # Remove undef because of empty last row
+	#$last_td->parent->delete;    # Empty row at the bottom of timetables
+	#pop @stops;                  # Remove undef because of empty last row
 
 	my (@trips) = ();
 	my (@paths) = ();
@@ -794,9 +794,9 @@ sub parse_file
 					s/\x{2e}\x{2e}/../;
 					s/,/./;
 					$_ =~ m/S/ ? undef : $_;
-					} $twig->get_xpath("table[\@id=\"menetrend\"]/tr/td[$column_index]")
+				} $twig->get_xpath("table[\@id=\"menetrend\"]/tr[\@class]/td[$column_index]")
 			];
-			shift @$km if $km->[0] =~ m/km/i;
+			#shift @$km if $km->[0] =~ m/km/i;
 
 			my $first = 0;
 			$first++ while($first < $#$km && !(defined $km->[$first] && $km->[$first] =~ m/^\d+\.\d+$/));
@@ -1030,7 +1030,7 @@ sub parse_file
 	}
 
 	foreach my $trip_index ( $index_trip ... $max_index_trip ) {
-		my $td = $twig->get_xpath( "table[\@id=\"menetrend\"]/tr[0]/td[$trip_index]", 0 );
+		my $td = $twig->get_xpath( "table[\@id=\"menetrend\"]/tr[2]/td[$trip_index]", 0 );
 		if ( $td->get_xpath( './/a', 0 ) ) {
 			next;    # Subset of a trip from a differing route
 		}
@@ -1095,8 +1095,8 @@ sub parse_file
 		}
 
 		# $dist = -1 'case there is a bogus undef stop at start
-		my ( $crossed, $prev_time, $bksz, $switched, $i, $dist ) = ( 0, 0, 0, 0, 0, -1 );
-		foreach my $stopy ( $twig->get_xpath("table[\@id=\"menetrend\"]/tr/td[$trip_index]") ) {
+		my ( $crossed, $prev_time, $bksz, $switched, $i, $dist ) = ( 0, 0, 0, 0, 0, 0 );
+		foreach my $stopy ( $twig->get_xpath("table[\@id=\"menetrend\"]/tr[\@class]/td[$trip_index]") ) {
 			my $text = $stopy->text;
 			next unless $stops[$i];
 
