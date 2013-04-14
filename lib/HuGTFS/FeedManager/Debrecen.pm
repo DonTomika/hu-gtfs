@@ -27,9 +27,10 @@ __PACKAGE__->meta->make_immutable;
 my $log = Log::Log4perl->get_logger(__PACKAGE__);
 
 my $agencies = {
-	'HV_DB' => 'HAJDU-VOLAN-DEBRECEN',
-	'KT_DB' => 'KOMAROMI-TARSA-DEBRECEN',
-	'TESCO' => 'TESCO-DEBRECEN',
+	'HV_DB'        => 'HAJDU-VOLAN-DEBRECEN',
+	'KT_DB'        => 'KOMAROMI-TARSA-DEBRECEN',
+	'TESCO'        => 'TESCO-DEBRECEN',
+	'DKV-DEBRECEN' => 'DKV',
 };
 
 after 'fixup_agency' => sub {
@@ -48,6 +49,7 @@ after 'fixup_stop' => sub {
 	my ($self, $stop) = @_;
 
 	delete $stop->{stop_street};
+	delete $stop->{stop_angle};
 };
 
 1;
