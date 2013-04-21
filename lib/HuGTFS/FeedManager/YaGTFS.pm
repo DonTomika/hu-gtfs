@@ -39,7 +39,7 @@ with 'HuGTFS::FeedManager';
 has 'data' => (
 	is      => 'rw',
 	isa     => 'HashRef',
-	default => sub { { agencies => {}, routes => {}, trips => {}, stops => {}, } }
+	default => sub { { agencies => {}, routes => {}, trips => {}, stops => {}, shapes => {}, } }
 );
 
 __PACKAGE__->meta->make_immutable;
@@ -193,6 +193,21 @@ sub load_data
 			$self->data->{trips}->{ $_->{trip_id} } = $_ for @yaml;
 		}
 	}
+
+	if ( -f catfile( $self->timetable_directory, 'shapes.yml' ) ) {
+		$log->debug("Loading shapes.yml...");
+		$self->data->{shapes} = { map { $_->{shape_id} => $_ }
+				YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'shapes.yml' ) ) };
+	}
+
+	{
+		$log->debug("Loading shapes:");
+		foreach my $shape_file ( glob( catfile( $self->timetable_directory, 'shape_*.yml' ) ) ) {
+			$log->debug("\t$shape_file");
+			my (@yaml) = YAML::Syck::Load( slurp $shape_file);
+			$self->data->{shapes}->{ $_->{shape_id} } = $_ for @yaml;
+		}
+	}
 }
 
 sub sanify
@@ -279,6 +294,10 @@ sub sanify
 		$route->{trips} = \@new_trips;
 	}
 
+	foreach my $shape ( values %{ $self->data->{shapes} } ) {
+		sanify_shape($shape);
+	}
+
 	foreach my $route ( values %{ $self->data->{routes} } ) {
 		my @new_trips = ();
 		my $services = {};
@@ -311,17 +330,7 @@ sub sanify
 			}
 
 			if($trip->{shape}) {
-				$trip->{shape}->{shape_points} = [
-					map {
-						ref $_ eq 'ARRAY'
-							? {
-							shape_pt_lat        => $_->[0],
-							shape_pt_lon        => $_->[1],
-							shape_dist_traveled => $_->[2],
-							}
-							: $_
-					} @{ $trip->{shape}->{shape_points} }
-				];
+				sanify_shape($trip->{shape});
 			}
 
 			# Stop times
@@ -459,6 +468,22 @@ sub sanify_service
 	return $service;
 }
 
+sub sanify_shape {
+	my $shape = shift;
+
+	$shape->{shape_points} = [
+		map {
+			ref $_ eq 'ARRAY'
+				? {
+				shape_pt_lat        => $_->[0],
+				shape_pt_lon        => $_->[1],
+				shape_dist_traveled => $_->[2],
+				}
+				: $_
+		} @{ $shape->{shape_points} }
+	];
+}
+
 sub create_geometries
 {
 	my $self = shift;
@@ -494,6 +519,8 @@ sub dump
 		for ( sort { $a->{trip_id} cmp $b->{trip_id} } values %{ $self->data->{trips} } );
 	$dumper->dump_stop($_)
 		for ( map { $self->data->{stops}->{$_} } sort keys %{ $self->data->{stops} } );
+	$dumper->dump_shape($_)
+		for ( sort { $a->{shape_id} cmp $b->{shape_id} } values %{ $self->data->{shapes} } );
 	$dumper->dump_calendar($_) for ( HuGTFS::Cal->dump() );
 
 	if ( $self->data->{statistics} ) {
