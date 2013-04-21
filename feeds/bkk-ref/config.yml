@@ -1,0 +1,3 @@
+feedmanager: HuGTFS::FeedManager::YaGTFS
+automatic: 0
+no_generic_services: 1

@@ -1,0 +1,9 @@
+---
+agency_id: BKK
+agency_lang: hu
+agency_name: BKK
+agency_phone: +36 1 258-4636
+agency_timezone: Europe/Budapest
+agency_url: http://www.bkk.hu
+services:
+  REFERENCE: [SERVICE, service_desc, 'referencia útvonal', service_id, 'REFERENCE']
