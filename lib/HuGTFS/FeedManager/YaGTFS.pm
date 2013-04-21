@@ -24,7 +24,7 @@ use utf8;
 use strict;
 use warnings;
 
-use YAML qw//;
+use YAML::Syck qw//;
 use File::Spec::Functions qw/catfile/;
 
 use HuGTFS::Cal;
@@ -127,13 +127,13 @@ sub load_data
 	if ( -f catfile( $self->timetable_directory, 'agency.yml' ) ) {
 		$log->debug("Loading agency.yml");
 		$self->data->{agencies} = { map { $_->{agency_id} => $_ }
-				YAML::Load( slurp catfile( $self->timetable_directory, 'agency.yml' ) ) };
+				YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'agency.yml' ) ) };
 	}
 
 	if ( -f catfile( $self->timetable_directory, 'agencies.yml' ) ) {
 		$log->debug("Loading agencies.yml");
 		$self->data->{agencies} = { map { $_->{agency_id} => $_ }
-				YAML::Load( slurp catfile( $self->timetable_directory, 'agencies.yml' ) ) };
+				YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'agencies.yml' ) ) };
 	}
 
 	{
@@ -142,7 +142,7 @@ sub load_data
 			my $agency_file ( glob( catfile( $self->timetable_directory, 'agency_*.yml' ) ) )
 		{
 			$log->debug("\t$agency_file");
-			my (@yaml) = YAML::Load( slurp $agency_file);
+			my (@yaml) = YAML::Syck::Load( slurp $agency_file);
 			$self->data->{agencies}->{ $_->{agency_id} } = $_ for @yaml;
 		}
 	}
@@ -150,20 +150,20 @@ sub load_data
 	if ( -f catfile( $self->timetable_directory, 'calendar.yml' ) ) {
 		$log->debug("Loading calendar.yml...");
 		HuGTFS::Cal->load($_)
-			for YAML::Load( slurp catfile( $self->timetable_directory, 'calendar.yml' ) );
+			for YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'calendar.yml' ) );
 
 	}
 
 	if ( -f catfile( $self->timetable_directory, 'stops.yml' ) ) {
 		$log->debug("Loading stops.yml...");
 		$self->data->{stops} = { map { $_->{stop_id} => $_ }
-				YAML::Load( slurp catfile( $self->timetable_directory, 'stops.yml' ) ) };
+				YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'stops.yml' ) ) };
 	}
 
 	if ( -f catfile( $self->timetable_directory, 'routes.yml' ) ) {
 		$log->debug("Loading routes.yml...");
 		$self->data->{routes} = { map { $_->{route_id} => $_ }
-				YAML::Load( slurp catfile( $self->timetable_directory, 'routes.yml' ) ) };
+				YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'routes.yml' ) ) };
 	}
 
 	{
@@ -171,7 +171,7 @@ sub load_data
 		foreach my $route_file ( glob( catfile( $self->timetable_directory, 'route_*.yml' ) ) )
 		{
 			$log->debug("\t$route_file");
-			my (@yaml) = YAML::Load( slurp $route_file);
+			my (@yaml) = YAML::Syck::Load( slurp $route_file);
 			$self->data->{routes}->{ $_->{route_id} } = $_ for @yaml;
 		}
 	}
@@ -181,7 +181,7 @@ sub load_data
 		foreach my $route_file ( glob( catfile( $self->timetable_directory, 'route_*.yml' ) ) )
 		{
 			$self->data->{trips} = { map { $_->{trip_id} => $_ }
-					YAML::Load( slurp catfile( $self->timetable_directory, 'trips.yml' ) ) };
+					YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'trips.yml' ) ) };
 		}
 	}
 
@@ -189,7 +189,7 @@ sub load_data
 		$log->debug("Loading trips:");
 		foreach my $trip_file ( glob( catfile( $self->timetable_directory, 'trip_*.yml' ) ) ) {
 			$log->debug("\t$trip_file");
-			my (@yaml) = YAML::Load( slurp $trip_file);
+			my (@yaml) = YAML::Syck::Load( slurp $trip_file);
 			$self->data->{trips}->{ $_->{trip_id} } = $_ for @yaml;
 		}
 	}
