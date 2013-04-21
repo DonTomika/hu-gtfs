@@ -93,6 +93,7 @@ sub setup
 		'ignore_non_hungarian!', 'purge!',
 		'all!',                  'stations!',
 		'trips!',                'caltest:s',
+		'readme!',               'silent_merge!',
 	);
 
 	if ( $c->options->{v} ) {
@@ -445,7 +446,7 @@ sub gtfs :
 	Help(Creates a GTFS archive: [--prefix] [--osmfile=...] [--exclude=agency,agency,..] [--include=agency,agency,...] )
 {
 	my $c = shift;
-	$c->getopt( 'prefix!', 'osmfile:s', 'exclude:s', 'include:s' );
+	$c->getopt( 'prefix!', 'readme!', 'silent_merge!', 'osmfile:s', 'exclude:s', 'include:s' );
 
 	my $dest = $c->argv->[0];
 	my ( @all, @include, @exclude ) = ( map {m{^\./(.*)/$}} <./*/> );    # / balance
@@ -462,7 +463,11 @@ sub gtfs :
 		@all = @include;
 	}
 
-	my $dumper = HuGTFS::Dumper->new( prefix => $c->options->{prefix} );
+	my $dumper = HuGTFS::Dumper->new(
+		prefix       => $c->options->{prefix},
+		readme       => $c->options->{readme},
+		silent_merge => $c->options->{silent_merge}
+	);
 	$dumper->process_shapes;
 	$dumper->process_stops;
 	$dumper->clean_dir;

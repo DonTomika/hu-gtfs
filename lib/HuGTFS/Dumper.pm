@@ -149,6 +149,9 @@ sub new
 		gtfs_to_entity => {},
 		agencies       => "",
 		README         => undef,
+		readme         => $options{readme},
+		silent_merge   => $options{silent_merge},
+		seen_entities  => {},
 		min_service    => 20910224,
 		max_service    => 19910224,
 		process_stops  => 0,
@@ -298,7 +301,7 @@ sub deinit_dumper()
 {
 	my $self = shift;
 
-	{
+	if(!defined $self->{readme} || $self->{readme}) {
 		my $readme = IO::File->new( File::Spec->catfile( $self->{dir}, 'README.txt' ), 'w' );
 		$readme->binmode(':utf8');
 		$readme->print( $self->{README} . $self->{post_README} );
@@ -391,7 +394,7 @@ sub load_data
 # Add a line of data to specified file
 sub put_csv
 {
-	my ( $self, $file, $data ) = @_;
+	my ( $self, $file, $id, $data ) = @_;
 
 	$log->confess("No such file: <<$file>>") unless $FILES->{$file};
 
@@ -410,10 +413,18 @@ sub put_csv
 			} @{ $HEADERS->{$file} }
 	];
 
-	$CSV->print( $self->{IO}->{$file}, $cols );
+	if($self->{seen_entities}->{$file}->{$id}) {
+		unless($self->{silent_merge}) {
+			$log->warn("Duplicate $file for id: $id");
+		}
+	} else {
+		$self->{seen_entities}->{$file}->{$id} = 1;
 
-	# I like seeing what's being written to files...
-	$self->{IO}->{$file}->flush();
+		$CSV->print( $self->{IO}->{$file}, $cols );
+	
+		# I like seeing what's being written to files...
+		$self->{IO}->{$file}->flush();
+	}
 
 	if (%$data) {
 		$log->warn( "Unknown keys for <<$file>>: " . join " ", keys %$data );
@@ -449,7 +460,7 @@ sub dump_agency
 
 	$self->{agencies} .= '-' . $agency->{agency_id};
 
-	$self->put_csv( 'agency', $agency );
+	$self->put_csv( 'agency', $agency->{agency_id}, $agency );
 }
 
 =head2 dump_route
@@ -511,7 +522,7 @@ sub dump_route
 		$route->{route_type} = 7;
 	}
 
-	$self->put_csv( 'routes', $route );
+	$self->put_csv( 'routes', $route->{route_id}, $route );
 }
 
 =head2 dump_trip
@@ -586,7 +597,7 @@ sub dump_trip
 	$trip->{route_id} = $self->{prefix} . $trip->{route_id} if $self->{prefix};
 	$trip->{trip_id}  = $self->{prefix} . $trip->{trip_id}  if $self->{prefix};
 
-	$self->put_csv( 'trips', $trip );
+	$self->put_csv( 'trips', $trip->{trip_id}, $trip );
 }
 
 =head2 dump_stop
@@ -722,7 +733,7 @@ sub dump_stop
 		$stop->{wheelchair_boarding} = 2 if $stop->{wheelchair_boarding} eq 'no';
 	}
 
-	$self->put_csv( 'stops', $stop );
+	$self->put_csv( 'stops', $stop->{stop_id}, $stop );
 }
 
 =head2 dump_pathway
@@ -748,7 +759,7 @@ sub dump_pathway
 		$pathway->{wheelchair_traversal_time} = -1 if $pathway->{wheelchair_traversal_time} eq 'no';
 	}
 
-	$self->put_csv( 'pathways', $pathway );
+	$self->put_csv( 'pathways', $pathway->{pathway_id}, $pathway );
 }
 
 =head2 dump_frequency
@@ -761,7 +772,7 @@ sub dump_frequency
 
 	$frequency->{trip_id} = $self->{prefix} . $frequency->{trip_id} if $self->{prefix};
 
-	$self->put_csv( 'frequencies', $frequency );
+	$self->put_csv( 'frequencies', $frequency->{trip_id} . '-' . $frequency->{start_time}, $frequency );
 }
 
 =head2 dump_stop_time
@@ -787,7 +798,7 @@ sub dump_stop_time
 			->{ $self->{route_types}->{ $self->{trip_route}->{ $stop_time->{trip_id} } } } = 1;
 	}
 
-	$self->put_csv( 'stop_times', $stop_time );
+	$self->put_csv( 'stop_times', $stop_time->{trip_id} . '-' . $stop_time->{stop_sequence}, $stop_time );
 }
 
 =head2 dump_shape
@@ -802,13 +813,14 @@ sub dump_shape
 
 	if ( $shape->{shape_points} ) {
 		for ( 0 .. $#{ $shape->{shape_points} } ) {
-			$shape->{shape_points}->[$_]->{shape_id}          = $shape->{shape_id};
-			$shape->{shape_points}->[$_]->{shape_pt_sequence} = $_ + 1;
-			$self->put_csv( 'shapes', $shape->{shape_points}->[$_] );
+			my $pt = $shape->{shape_points}->[$_];
+			$pt->{shape_id}          = $shape->{shape_id};
+			$pt->{shape_pt_sequence} = $_ + 1;
+			$self->put_csv( 'shapes', $pt->{shape_id} . '-' . $pt->{shape_pt_sequence}, $pt );
 		}
 	}
 	else {
-		$self->put_csv( 'shapes', $shape );
+		$self->put_csv( 'shapes', $shape->{shape_id} . '-' . $shape->{shape_pt_sequence}, $shape );
 	}
 
 	delete $shape->{shape_points};
@@ -840,7 +852,7 @@ sub dump_calendar
 
 	$service->{service_id} = $self->{prefix} . $service->{service_id} if $self->{prefix};
 
-	$self->put_csv( 'calendar', $service );
+	$self->put_csv( 'calendar', $service->{service_id} . '-' . $service->{start_date}, $service );
 }
 
 =head2 dump_calendar_date
@@ -867,7 +879,7 @@ sub dump_calendar_date
 
 	$date->{service_id} = $self->{prefix} . $date->{service_id} if $self->{prefix};
 
-	$self->put_csv( 'calendar_dates', $date );
+	$self->put_csv( 'calendar_dates', $date->{service_id} . '-' . $date->{date}, $date );
 }
 
 =head2 dump_fare
@@ -895,7 +907,7 @@ sub dump_fare
 
 	$fare->{fare_id} = $self->{prefix} . $fare->{fare_id} if $self->{prefix};
 
-	$self->put_csv( 'fare_attributes', $fare );
+	$self->put_csv( 'fare_attributes', $fare->{fare_id}, $fare );
 }
 
 =head2 dump_fare_rule
@@ -909,7 +921,7 @@ sub dump_fare_rule
 	$rule->{fare_id}  = $self->{prefix} . $rule->{fare_id}  if $self->{prefix};
 	$rule->{route_id} = $self->{prefix} . $rule->{route_id} if $self->{prefix};
 
-	$self->put_csv( 'fare_rules', $rule );
+	$self->put_csv( 'fare_rules', (join '-', map { $rule->{$_} } sort keys %$rule), $rule );
 }
 
 sub dump_statistics
