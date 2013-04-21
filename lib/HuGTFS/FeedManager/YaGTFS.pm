@@ -78,7 +78,11 @@ sub parse
 
 	$self->check_data_times;
 
-	HuGTFS::Cal->generic_services;
+	HuGTFS::Cal->empty;
+
+	unless($self->options->{no_generic_services}) {
+		HuGTFS::Cal->generic_services;
+	}
 
 	# Load YAML files
 	$log->info("Loading data...");
@@ -148,6 +152,12 @@ sub load_data
 		HuGTFS::Cal->load($_)
 			for YAML::Load( slurp catfile( $self->timetable_directory, 'calendar.yml' ) );
 
+	}
+
+	if ( -f catfile( $self->timetable_directory, 'stops.yml' ) ) {
+		$log->debug("Loading stops.yml...");
+		$self->data->{stops} = { map { $_->{stop_id} => $_ }
+				YAML::Load( slurp catfile( $self->timetable_directory, 'stops.yml' ) ) };
 	}
 
 	if ( -f catfile( $self->timetable_directory, 'routes.yml' ) ) {
@@ -300,15 +310,46 @@ sub sanify
 				delete $trip->{service};
 			}
 
+			if($trip->{shape}) {
+				$trip->{shape}->{shape_points} = [
+					map {
+						ref $_ eq 'ARRAY'
+							? {
+							shape_pt_lat        => $_->[0],
+							shape_pt_lon        => $_->[1],
+							shape_dist_traveled => $_->[2],
+							}
+							: $_
+					} @{ $trip->{shape}->{shape_points} }
+				];
+			}
+
 			# Stop times
 			for ( my $i = 0; $i <= $#{ $trip->{stop_times} }; $i++ ) {
 				my $st = $trip->{stop_times}->[$i];
-				if(ref $st eq 'ARRAY' && $#$st eq 1) {
-					$st = $trip->{stop_times}->[$i] = { stop_time => $st->[0], stop_name => $st->[1], };
-				} elsif(ref $st eq 'ARRAY' && $#$st eq 2) {
-					$st = $trip->{stop_times}->[$i] = { arrival_time => $st->[0], departure_time => $st->[1], stop_name => $st->[2], };
-				}
+				if ( ref $st eq 'ARRAY' ) {
+					my $nst = {};
 
+					if ( $st->[1] =~ m/^\d\d?:\d\d(?::\d\d)?$/ ) {
+						$nst->{arrival_time}   = shift @$st;
+						$nst->{departure_time} = shift @$st;
+					}
+					else {
+						$nst->{arrival_time} = $nst->{departure_time} = shift @$st;
+					}
+
+					if ( $self->data->{stops}->{ $st->[0] } ) {
+						$nst->{stop_id} = shift @$st;
+					}
+					else {
+						$nst->{stop_name} = shift @$st;
+					}
+
+					if ($#$st) {
+						$nst->{shape_dist_traveled} = shift @$st;
+					}
+					$st = $trip->{stop_times}->[$i] = $nst;
+				}
 
 				$st->{shape_dist_traveled} = $i unless $st->{shape_dist_traveled};
 
@@ -320,7 +361,11 @@ sub sanify
 
 			# Headsign
 			unless ( $trip->{trip_headsign} ) {
-				$trip->{trip_headsign} = $trip->{stop_times}->[-1]->{stop_name};
+				$trip->{trip_headsign}
+					= $trip->{stop_times}->[-1]->{stop_id}
+					? $self->data->{stops}->{ $trip->{stop_times}->[-1]->{stop_id} }
+					->{stop_name}
+					: $trip->{stop_times}->[-1]->{stop_name};
 			}
 
 			# Departures
@@ -391,7 +436,6 @@ sub sanify
 			else {
 				push @new_trips, $trip;
 			}
-
 		}
 
 		$route->{trips} = \@new_trips;
@@ -418,6 +462,10 @@ sub sanify_service
 sub create_geometries
 {
 	my $self = shift;
+
+	unless($self->options->{osm_operator_id}) {
+		return;
+	}
 
 	my $osm_data
 		= HuGTFS::OSMMerger->parse_osm( $self->options->{osm_operator_id}, $self->osm_file );
