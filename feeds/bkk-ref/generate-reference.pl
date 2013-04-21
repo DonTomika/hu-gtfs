@@ -172,7 +172,8 @@ sub npad {
 foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes ) {
 	next if $route->{route_id} =~ m/^(?:0337)$/;
 
-	my @trips = ();
+	my @trips;
+	my @dump_shapes;
 
 	foreach my $dir ( sort keys %{ $route->{patterns} } ) {
 		if ( $route_trip_map->{ join "-", $route->{route_id}, $dir } ) {
@@ -208,6 +209,12 @@ foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes )
 		}
 	}
 
+	foreach my $trip (@trips) {
+		push @dump_shapes, $trip->{shape};
+		$trip->{shape_id} = $trip->{shape}->{shape_id};
+		delete $trip->{shape};
+	}
+
 	my $d_route = {
 		(
 			map { $_ => $route->{$_} }
@@ -216,13 +223,16 @@ foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes )
 		trips => \@trips,
 	};
 
-	my $yaml = YAML::Dump($d_route);
+	my $route_yaml = YAML::Dump($d_route);
+	my $shape_yaml = YAML::Dump(sort { $a->{shape_id} cmp $b->{shape_id} } @dump_shapes);
 
-	$yaml =~ s/- shape_dist_traveled: ([0-9.]+)\n\s*shape_pt_lat: ([0-9.]+)\n\s*shape_pt_lon: ([0-9.]+)(?=\n(?:\s*stop_times|\s*-))/"- [".npad($2).", ".npad($3).", ".spad($1)."]"/ge; # shapes
-	$yaml =~ s/- arrival_time: ([0-9:]+)\n\s*departure_time: \1\n\s*shape_dist_traveled: ([0-9.]+)\n\s*stop_id: (\w+)(?=\n(?:\s*trip_headsign|\s*-))/"- ['$1', '$3', " . spad($2) . "] # $stops->{$3}->{stop_name}"/ge;
-	$yaml =~ s/- arrival_time: ([0-9:]+)\n\s*departure_time: ([0-9:]+)\n\s*shape_dist_traveled: ([0-9.]+)\n\s*stop_id: (\w+)(?=\n(?:\s*trip_headsign|\s*-))/"- ['$1', '$2', '$4', " . spad($3) . "] # $stops->{$4}->{stop_name}"/ge;
+	$route_yaml =~ s/- arrival_time: ([0-9:]+)\n\s*departure_time: \1\n\s*shape_dist_traveled: ([0-9.]+)\n\s*stop_id: (\w+)(?=\n(?:\s*trip_headsign|\s*-))/"- ['$1', '$3', " . spad($2) . "] # $stops->{$3}->{stop_name}"/ge;
+	$route_yaml =~ s/- arrival_time: ([0-9:]+)\n\s*departure_time: ([0-9:]+)\n\s*shape_dist_traveled: ([0-9.]+)\n\s*stop_id: (\w+)(?=\n(?:\s*trip_headsign|\s*-))/"- ['$1', '$2', '$4', " . spad($3) . "] # $stops->{$4}->{stop_name}"/ge;
 
-	burp( 'timetables/route_' . $route->{route_id} . '.yml', $yaml);
+	$shape_yaml =~ s/- shape_dist_traveled: ([0-9.]+)\n\s*shape_pt_lat: ([0-9.]+)\n\s*shape_pt_lon: ([0-9.]+)/"- [".npad($2).", ".npad($3).", ".spad($1)."]"/ge;
+
+	burp( "timetables/route_$route->{route_id}.yml", $route_yaml);
+	burp( "timetables/shape_$route->{route_id}.yml", $shape_yaml);
 }
 
 burp( 'timetables/stops.yml', YAML::Dump( sort { $a->{stop_id} cmp $b->{stop_id} } values %$stops ) );
