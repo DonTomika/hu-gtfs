@@ -1,6 +1,6 @@
 feedmanager: HuGTFS::FeedManager::BKV
 automatic: 1
-gtfs_url: http://bkk.hu/gtfs/budapest_gtfs.zip
+gtfs_url: http://www.bkk.hu/gtfs/budapest_gtfs.zip
 gtfs_stop_code: stop_id
 osm_agency_id: !!perl/regexp (?^u:\b(?:BKV|BKK)(?:\b|\z|;))
 osm_stop_code: "ref:bkv"
