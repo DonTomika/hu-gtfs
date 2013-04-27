@@ -52,14 +52,8 @@ after 'fixup_route' => sub {
 	if ( $route->{route_id} =~ m/^6\d{3}$/) {
 		$route->{route_type} = 'light_rail';
 	}
-	if ( $route->{route_id} =~ m/^\d{3}7$/ && $route->{route_short_name} =~ m/^\d+$/) {
-		$route->{route_short_name} .= 'N';
-	}
-	if ( $route->{route_id} =~ m/^\d{3}8$/ && $route->{route_short_name} =~ m/^\d+$/) {
-		$route->{route_short_name} .= 'G';
-	}
 
-	if ( $route->{route_short_name} =~ m/^(70|72|73|74|74A|75|76|77|78|79|80|80A|81|82|83)$/ ) {
+	if ( $route->{route_id} =~ m/^4/ ) {
 		$route->{route_type} = 'trolleybus';
 	}
 
@@ -169,7 +163,7 @@ after 'augment_feed' => sub {
 	$dumper->dump_route($_)
 		for (
 		{
-			route_id         => 7001,
+			route_id         => 'E098',
 			agency_id        => 'BKV',
 			route_short_name => undef,
 			route_long_name  => 'Budavári Sikló',
@@ -180,7 +174,7 @@ after 'augment_feed' => sub {
 		},
 
 		{
-			route_id         => 7002,
+			route_id         => 'E095',
 			agency_id        => 'BKV',
 			route_short_name => undef,
 			route_long_name  => 'Zugligeti Libegő',
@@ -197,7 +191,7 @@ after 'augment_feed' => sub {
 		for (
 		{
 			trip_id               => 'SIKLO-1',
-			route_id              => '7001',
+			route_id              => 'E098',
 			service_id            => 'NAPONTA',
 			direction_id          => 'outbound',
 			trip_headsign         => 'Szent György tér',
@@ -232,7 +226,7 @@ after 'augment_feed' => sub {
 		},
 		{
 			trip_id               => 'SIKLO-2',
-			route_id              => '7001',
+			route_id              => 'E098',
 			service_id            => 'NAPONTA',
 			direction_id          => 'inbound',
 			trip_headsign         => 'Clark Ádám tér',
@@ -267,7 +261,7 @@ after 'augment_feed' => sub {
 		},
 		{
 			trip_id       => 'LIBEGO-1',
-			route_id      => '7002',
+			route_id      => 'E095',
 			service_id    => 'NAPONTA',
 			direction_id  => 'outbound',
 			trip_headsign => 'János-hegy',
@@ -302,7 +296,7 @@ after 'augment_feed' => sub {
 		},
 		{
 			trip_id       => 'LIBEGO-2',
-			route_id      => '7002',
+			route_id      => 'E095',
 			service_id    => 'NAPONTA',
 			direction_id  => 'inbound',
 			trip_headsign => 'Zugliget',
