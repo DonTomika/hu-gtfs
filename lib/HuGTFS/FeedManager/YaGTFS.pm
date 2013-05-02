@@ -123,6 +123,7 @@ sub check_data_times
 sub load_data
 {
 	my $self = shift;
+	local $YAML::Syck::ImplicitUnicode = 1;
 
 	if ( -f catfile( $self->timetable_directory, 'agency.yml' ) ) {
 		$log->debug("Loading agency.yml");
