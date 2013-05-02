@@ -50,6 +50,9 @@ after 'fixup_stop' => sub {
 
 	delete $stop->{stop_street};
 	delete $stop->{stop_angle};
+	delete $stop->{stop_shortname};
+	delete $stop->{stop_comment};
+	delete $stop->{stop_group_id};
 };
 
 1;
