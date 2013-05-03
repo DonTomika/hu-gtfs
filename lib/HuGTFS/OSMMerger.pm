@@ -982,7 +982,7 @@ sub merge
 	$data->{pathways} = [];
 
 	if ( ref $gtfs->{routes} eq 'HASH' ) {
-		$gtfs->{routes} = [ values %{ $gtfs->{routes} } ];
+		$gtfs->{routes} = [ sort { $a->{route_id} cmp $b->{route_id} } values %{ $gtfs->{routes} } ];
 	}
 
 	if ( $gtfs->{trips} ) {
