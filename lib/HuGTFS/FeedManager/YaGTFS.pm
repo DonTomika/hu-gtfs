@@ -381,13 +381,15 @@ sub sanify
 			# Departures
 			if ( $trip->{departures} ) {
 				my $handle_departure = sub {
-					my ($departure, $default_service) = @_;
-					my $wheelchair = ( $departure =~ m/A$/ );
-					$departure =~ s/A$//;
+					my ( $departure, $default_service ) = @_;
 
-					my ($service) = ( $departure =~ m/^(.*(?=-\d+:\d+)|[^0-9]+)/);
-					$departure =~ s/^(?:.*(?=-\d+:\d+)|[^0-9]+)//;
-					$service ||= $default_service;
+					$departure
+						=~ m/^(?:(?<service>.*)-|(?<service>[^0-9]+))?(?<departure>\d\d?:\d\d(?::\d\d)?)(?<wheelchair>A)?(?:-(?<block>.*))?$/;
+
+					$departure = $+{departure};
+					my $service    = $+{service} || $default_service;
+					my $wheelchair = !!$+{wheelchair};
+					my $block      = $+{block};
 
 					my ( $offset, $start )
 						= ( _S( $trip->{stop_times}->[0]->{departure_time} ), _S($departure) );
@@ -396,6 +398,7 @@ sub sanify
 						%$trip,
 						trip_id               => $trip->{trip_id} . "_$start",
 						wheelchair_accessible => $wheelchair || $trip->{wheelchair_accessible},
+						block_id              => $block,
 					};
 					$new_trip->{stop_times} = [
 						map {
@@ -406,11 +409,11 @@ sub sanify
 					if($service) {
 						$new_trip->{trip_id} .= '_' . $service;
 						$new_trip->{service_id} = $services->{$service};
+					}
 
-						unless($new_trip->{service_id}) {
-							$log->warn("Unknown service shorthand <$service> for route <$route->{route_id}> in trip <$new_trip->{trip_id}> at <$departure>");
-							$new_trip->{service_id} = 'NEVER';
-						}
+					unless($new_trip->{service_id}) {
+						$log->warn("Unknown service shorthand <$service> for route <$route->{route_id}> in trip <$new_trip->{trip_id}> at <$departure>");
+						$new_trip->{service_id} = 'NEVER';
 					}
 
 					for ( @{ $new_trip->{stop_times} } ) {
