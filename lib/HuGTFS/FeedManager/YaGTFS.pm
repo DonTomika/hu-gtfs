@@ -133,8 +133,10 @@ sub load_data
 
 	if ( -f catfile( $self->timetable_directory, 'agencies.yml' ) ) {
 		$log->debug("Loading agencies.yml");
-		$self->data->{agencies} = { map { $_->{agency_id} => $_ }
-				YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'agencies.yml' ) ) };
+		$self->data->{agencies}
+			= { map { $_->{agency_id} => $_ } map { ref $_ eq 'ARRAY' ? @$_ : $_ }
+				YAML::Syck::Load( slurp catfile( $self->timetable_directory, 'agencies.yml' ) )
+			};
 	}
 
 	{
