@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: 'Újpalota, Szentmihályi út / Újpest-Városkapu M'
+route_desc: 'Újpalota, Szentmihályi út / Újpest-Városkapu M (Temesvári utca)'
 route_id: 1961
 route_long_name: ''
 route_short_name: 196A
@@ -13,45 +13,45 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1961-0-1-P815
     stop_times:
-      - ['08:35:00', 'F03146',      0] # Újpalota, Szentmihályi út
-      - ['08:36:00', 'F03201',    374] # Erdőkerülő utca 28.
-      - ['08:37:00', 'F03209',    796] # Zsókavár utca
-      - ['08:37:00', 'F03154',   1019] # Fő tér
-      - ['08:39:00', 'F03159',   1449] # Vásárcsarnok
-      - ['08:40:00', 'F03193',   1766] # Sárfű utca
-      - ['08:41:00', 'F03125',   2122] # Bánkút utca
-      - ['08:42:00', 'F03129',   2469] # Rákospalotai köztemető
-      - ['08:44:00', 'F03061',   3382] # Fazekas sor
-      - ['08:45:00', '043342',   3693] # Régi Fóti út
-      - ['08:46:00', 'F03057',   4034] # Beller Imre utca
-      - ['08:48:00', 'F03053',   4424] # Hubay Jenő tér
-      - ['08:50:00', 'F00885',   5263] # Árpád Kórház
-      - ['08:52:00', 'F00835',   5720] # Árpád üzletház
-      - ['08:54:00', 'F00799',   6458] # Újpest-Központ M
-      - ['08:57:00', 'F00811',   7019] # Újpest-Városkapu M (Temesvári utca)
+      - ['00:00:00', 'F03146',      0] # Újpalota, Szentmihályi út
+      - ['00:01:00', 'F03201',    374] # Erdőkerülő utca 28.
+      - ['00:02:00', 'F03209',    796] # Zsókavár utca
+      - ['00:02:00', 'F03154',   1019] # Fő tér
+      - ['00:04:00', 'F03159',   1449] # Vásárcsarnok
+      - ['00:05:00', 'F03193',   1766] # Sárfű utca
+      - ['00:06:00', 'F03125',   2122] # Bánkút utca
+      - ['00:07:00', 'F03129',   2469] # Rákospalotai köztemető
+      - ['00:09:00', 'F03061',   3382] # Fazekas sor
+      - ['00:10:00', '043342',   3693] # Régi Fóti út
+      - ['00:11:00', 'F03057',   4034] # Beller Imre utca
+      - ['00:13:00', 'F03053',   4424] # Hubay Jenő tér
+      - ['00:15:00', 'F00885',   5263] # Árpád Kórház
+      - ['00:16:00', 'F00835',   5720] # Árpád üzletház
+      - ['00:18:00', 'F00799',   6458] # Újpest-Központ M
+      - ['00:21:00', 'F00811',   7019] # Újpest-Városkapu M (Temesvári utca)
     trip_headsign: Újpest-Városkapu M
     trip_id: REFERENCE-1961-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1961-1-1-H549
     stop_times:
-      - ['16:52:00', 'F00811',      0] # Újpest-Városkapu M (Temesvári utca)
-      - ['16:52:00', 'F00809',    217] # Újpest-Városkapu M
-      - ['16:54:00', 'F00802',    738] # Újpest-Központ M
-      - ['16:55:00', 'F00836',   1472] # Árpád üzletház
-      - ['16:56:00', 'F00886',   1719] # Árpád Kórház
-      - ['16:59:00', 'F03056',   2881] # Beller Imre utca
-      - ['17:00:00', 'F03060',   3320] # Szentmihályi út
-      - ['17:01:00', 'F03062',   3741] # Bezerédj Pál utca
-      - ['17:04:00', 'F03127',   4557] # Rákospalotai köztemető
-      - ['17:05:00', 'F03126',   5085] # Páskomliget utca
-      - ['17:06:00', 'F03194',   5412] # Sárfű utca
-      - ['17:07:00', 'F03160',   5667] # Vásárcsarnok
-      - ['17:09:00', 'F03153',   6157] # Fő tér
-      - ['17:10:00', 'F03150',   6496] # Erdőkerülő utca
-      - ['17:11:00', 'F03202',   6800] # Erdőkerülő utca 27.
-      - ['17:12:00', 'F03145',   7059] # Újpalota, Szentmihályi út
+      - ['00:00:00', 'F00811',      0] # Újpest-Városkapu M (Temesvári utca)
+      - ['00:01:00', 'F00809',    217] # Újpest-Városkapu M
+      - ['00:02:00', 'F00802',    738] # Újpest-Központ M
+      - ['00:04:00', 'F00836',   1472] # Árpád üzletház
+      - ['00:06:00', 'F00886',   1719] # Árpád Kórház
+      - ['00:08:00', 'F03056',   2881] # Beller Imre utca
+      - ['00:09:00', 'F03060',   3320] # Szentmihályi út
+      - ['00:10:00', 'F03062',   3741] # Bezerédj Pál utca
+      - ['00:12:00', 'F03127',   4557] # Rákospalotai köztemető
+      - ['00:13:00', 'F03126',   5085] # Páskomliget utca
+      - ['00:14:00', 'F03194',   5412] # Sárfű utca
+      - ['00:15:00', 'F03160',   5667] # Vásárcsarnok
+      - ['00:17:00', 'F03153',   6157] # Fő tér
+      - ['00:18:00', 'F03150',   6496] # Erdőkerülő utca
+      - ['00:19:00', 'F03202',   6800] # Erdőkerülő utca 27.
+      - ['00:20:00', 'F03145',   7059] # Újpalota, Szentmihályi út
     trip_headsign: 'Újpalota, Szentmihályi út'
     trip_id: REFERENCE-1961-1-1
     wheelchair_accessible: 1

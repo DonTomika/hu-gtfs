@@ -11,45 +11,45 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4820-0-1-S385
+    shape_id: REFERENCE-4820-0-1-E308
     stop_times:
-      - ['18:07:00', '008460',      0] # Uzsoki Utcai Kórház
-      - ['18:09:00', 'F02821',    502] # Thököly út
-      - ['18:10:00', 'F02819',    831] # Szugló utca
-      - ['18:12:00', 'F02816',   1303] # Nagy Lajos király útja
-      - ['18:13:00', 'F02944',   1703] # Fűrész utca
-      - ['18:14:00', 'F02812',   2112] # Komócsy utca
-      - ['18:16:00', 'F02802',   2572] # Egressy út
-      - ['18:17:00', 'F02791',   2842] # Mogyoródi út
-      - ['18:18:00', 'F02939',   3156] # Gödöllői utca
-      - ['18:20:00', 'F02788',   3574] # Fogarasi út
-      - ['18:21:00', 'F02933',   3825] # Tihamér utca
-      - ['18:23:00', 'F02774',   4167] # Füredi utca
-      - ['18:24:00', 'F02765',   4522] # Álmos vezér útja
-      - ['18:25:00', 'F02758',   4973] # Örs vezér tere M+H
+      - ['00:00:00', '008460',      0] # Uzsoki Utcai Kórház
+      - ['00:02:00', 'F02821',    502] # Thököly út
+      - ['00:03:00', 'F02819',    831] # Szugló utca
+      - ['00:05:00', 'F02816',   1303] # Nagy Lajos király útja
+      - ['00:06:00', 'F02944',   1703] # Fűrész utca
+      - ['00:07:00', 'F02812',   2112] # Komócsy utca
+      - ['00:09:00', 'F02802',   2572] # Egressy út
+      - ['00:10:00', 'F02791',   2842] # Mogyoródi út
+      - ['00:11:00', 'F02939',   3156] # Gödöllői utca
+      - ['00:13:00', 'F02788',   3574] # Fogarasi út
+      - ['00:14:00', 'F02933',   3825] # Tihamér utca
+      - ['00:16:00', 'F02774',   4167] # Füredi utca
+      - ['00:17:00', 'F02765',   4522] # Álmos vezér útja
+      - ['00:18:00', 'F02758',   4973] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-4820-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-4820-1-1-S386
+    shape_id: REFERENCE-4820-1-1-E307
     stop_times:
-      - ['23:38:00', 'F02758',      0] # Örs vezér tere M+H
-      - ['23:39:00', 'F02766',    735] # Álmos vezér útja
-      - ['23:40:00', 'F02773',   1154] # Vezér utca
-      - ['23:41:00', 'F02932',   1494] # Tihamér utca
-      - ['23:42:00', 'F02787',   1770] # Fogarasi út
-      - ['23:43:00', 'F02938',   2100] # Gödöllői utca
-      - ['23:44:00', 'F02790',   2440] # Mogyoródi út
-      - ['23:45:00', 'F02804',   2763] # Egressy út
-      - ['23:46:00', 'F02811',   3130] # Komócsy utca
-      - ['23:47:00', 'F02943',   3563] # Fűrész utca
-      - ['23:48:00', 'F02813',   3934] # Nagy Lajos király útja
-      - ['23:49:00', 'F02820',   4481] # Róna utca
-      - ['23:50:00', '008458',   4899] # Thököly út
-      - ['23:51:00', '008459',   5291] # Korong utca
-      - ['23:52:00', '008461',   5559] # Erzsébet királyné útja
-      - ['23:53:00', '008460',   5874] # Uzsoki Utcai Kórház
+      - ['00:00:00', 'F02758',      0] # Örs vezér tere M+H
+      - ['00:02:00', 'F02766',    735] # Álmos vezér útja
+      - ['00:04:00', 'F02773',   1154] # Vezér utca
+      - ['00:05:00', 'F02932',   1494] # Tihamér utca
+      - ['00:06:00', 'F02787',   1770] # Fogarasi út
+      - ['00:07:00', 'F02938',   2100] # Gödöllői utca
+      - ['00:08:00', 'F02790',   2440] # Mogyoródi út
+      - ['00:09:00', 'F02804',   2763] # Egressy út
+      - ['00:10:00', 'F02811',   3130] # Komócsy utca
+      - ['00:11:00', 'F02943',   3563] # Fűrész utca
+      - ['00:12:00', 'F02813',   3934] # Nagy Lajos király útja
+      - ['00:13:00', 'F02820',   4481] # Róna utca
+      - ['00:15:00', '008458',   4899] # Thököly út
+      - ['00:16:00', '008459',   5291] # Korong utca
+      - ['00:17:00', '008461',   5559] # Erzsébet királyné útja
+      - ['00:19:00', '008460',   5874] # Uzsoki Utcai Kórház
     trip_headsign: Uzsoki Utcai Kórház
     trip_id: REFERENCE-4820-1-1
     wheelchair_accessible: 2

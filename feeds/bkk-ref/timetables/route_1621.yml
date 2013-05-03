@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: 'Kőbánya alsó vasútállomás / Rákoskeresztúr, vkp. (metró felé)'
+route_desc: 'Kőbánya alsó vasútállomás / Rákoskeresztúr, városközpont'
 route_id: 1621
 route_long_name: ''
 route_short_name: 162A
@@ -13,61 +13,61 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1621-0-1-M023
     stop_times:
-      - ['21:52:00', '008379',      0] # Kőbánya alsó vasútállomás
-      - ['21:53:00', 'F01632',    673] # Halom utca
-      - ['21:54:00', 'F01654',   1037] # Szent László tér
-      - ['21:54:00', 'F01629',   1515] # Harmat utca
-      - ['21:55:00', 'F01628',   1878] # Élessarok
-      - ['21:56:00', 'F01621',   2341] # Sörgyár
-      - ['21:57:00', 'F01616',   2641] # Maglódi út
-      - ['21:58:00', 'F01824',   3173] # Orion
-      - ['21:58:00', 'F01822',   3454] # Téglavető utca
-      - ['21:59:00', 'F01818',   3709] # Tárna utca
-      - ['22:00:00', 'F01614',   4452] # Rákos vasútállomás
-      - ['22:01:00', 'F01604',   5015] # Athenaeum Nyomda
-      - ['22:02:00', 'F01606',   5462] # Kossuth Nyomda
-      - ['22:04:00', 'F01716',   6450] # Legényrózsa utca
-      - ['22:05:00', 'F01847',   6768] # Rézvirág utca
-      - ['22:06:00', 'F01849',   7225] # Dombhát utca
-      - ['22:07:00', 'F01722',   7786] # 501. utca
-      - ['22:08:00', 'F03549',   8435] # 509. utca
-      - ['22:09:00', '009543',   8771] # 513. utca
-      - ['22:09:00', 'F03547',   9046] # Borsó utca
-      - ['22:10:00', 'F03545',   9397] # Kis utca
-      - ['22:11:00', 'F03542',   9809] # Bakancsos utca
-      - ['22:12:00', 'F03593',  10384] # Szent kereszt tér
-      - ['22:13:00', '011724',  10811] # Rákoskeresztúr, városközpont
-    trip_headsign: 'Rákoskeresztúr, vkp. (metró felé)'
+      - ['00:00:00', '008379',      0] # Kőbánya alsó vasútállomás
+      - ['00:01:00', 'F01632',    673] # Halom utca
+      - ['00:02:00', 'F01654',   1037] # Szent László tér
+      - ['00:03:00', 'F01629',   1515] # Harmat utca
+      - ['00:04:00', 'F01628',   1878] # Élessarok
+      - ['00:05:00', 'F01621',   2341] # Sörgyár
+      - ['00:06:00', 'F01616',   2641] # Maglódi út
+      - ['00:07:00', 'F01824',   3173] # Orion
+      - ['00:08:00', 'F01822',   3454] # Téglavető utca
+      - ['00:09:00', 'F01818',   3709] # Tárna utca
+      - ['00:10:00', 'F01614',   4452] # Rákos vasútállomás
+      - ['00:11:00', 'F01604',   5015] # Athenaeum Nyomda
+      - ['00:12:00', 'F01606',   5462] # Kossuth Nyomda
+      - ['00:13:00', 'F01716',   6450] # Legényrózsa utca
+      - ['00:14:00', 'F01847',   6768] # Rézvirág utca
+      - ['00:15:00', 'F01849',   7225] # Dombhát utca
+      - ['00:16:00', 'F01722',   7786] # 501. utca
+      - ['00:17:00', 'F03549',   8435] # 509. utca
+      - ['00:18:00', '009543',   8771] # 513. utca
+      - ['00:19:00', 'F03547',   9046] # Borsó utca
+      - ['00:20:00', 'F03545',   9397] # Kis utca
+      - ['00:21:00', 'F03542',   9809] # Bakancsos utca
+      - ['00:22:00', 'F03593',  10384] # Szent kereszt tér
+      - ['00:24:00', '011724',  10811] # Rákoskeresztúr, városközpont
+    trip_headsign: 'Rákoskeresztúr, városközpont'
     trip_id: REFERENCE-1621-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1621-1-1-M022
     stop_times:
-      - ['11:17:00', '011726',      0] # Rákoskeresztúr, városközpont
-      - ['11:18:00', 'F03594',    417] # Szent kereszt tér
-      - ['11:19:00', 'F03541',    788] # Bakancsos utca
-      - ['11:20:00', 'F03544',   1252] # Kis utca
-      - ['11:21:00', 'F03546',   1652] # Borsó utca
-      - ['11:21:00', '011773',   2106] # Keresztúri út
-      - ['11:22:00', '011715',   2284] # 509. utca
-      - ['11:24:00', 'F01719',   3010] # 501. utca
-      - ['11:25:00', 'F01848',   3497] # Dombhát utca
-      - ['11:26:00', 'F01846',   4029] # Rézvirág utca
-      - ['11:26:00', 'F01715',   4260] # Legényrózsa utca
-      - ['11:28:00', 'F01605',   5162] # Kossuth Nyomda
-      - ['11:30:00', 'F01602',   5810] # Kozma utca
-      - ['11:31:00', 'F01613',   6188] # Rákos vasútállomás
-      - ['11:32:00', 'F01819',   6911] # Tárna utca
-      - ['11:33:00', 'F01823',   7327] # Téglavető utca
-      - ['11:34:00', 'F01825',   7663] # Orion
-      - ['11:35:00', 'F01615',   8092] # Maglódi út
-      - ['11:36:00', 'F01622',   8617] # Sörgyár
-      - ['11:37:00', 'F01627',   9037] # Élessarok
-      - ['11:38:00', 'F01828',   9462] # Ónodi utca
-      - ['11:39:00', 'F01648',   9906] # Szent László tér
-      - ['11:40:00', 'F01641',  10154] # Liget tér
-      - ['11:41:00', '008379',  10494] # Kőbánya alsó vasútállomás
+      - ['00:00:00', '011726',      0] # Rákoskeresztúr, városközpont
+      - ['00:01:00', 'F03594',    417] # Szent kereszt tér
+      - ['00:02:00', 'F03541',    788] # Bakancsos utca
+      - ['00:03:00', 'F03544',   1252] # Kis utca
+      - ['00:04:00', 'F03546',   1652] # Borsó utca
+      - ['00:04:00', '011773',   2106] # Keresztúri út
+      - ['00:05:00', '011715',   2284] # 509. utca
+      - ['00:07:00', 'F01719',   3010] # 501. utca
+      - ['00:08:00', 'F01848',   3497] # Dombhát utca
+      - ['00:09:00', 'F01846',   4029] # Rézvirág utca
+      - ['00:09:00', 'F01715',   4260] # Legényrózsa utca
+      - ['00:11:00', 'F01605',   5162] # Kossuth Nyomda
+      - ['00:13:00', 'F01602',   5810] # Kozma utca
+      - ['00:14:00', 'F01613',   6188] # Rákos vasútállomás
+      - ['00:15:00', 'F01819',   6911] # Tárna utca
+      - ['00:16:00', 'F01823',   7327] # Téglavető utca
+      - ['00:17:00', 'F01825',   7663] # Orion
+      - ['00:18:00', 'F01615',   8092] # Maglódi út
+      - ['00:19:00', 'F01622',   8617] # Sörgyár
+      - ['00:20:00', 'F01627',   9037] # Élessarok
+      - ['00:21:00', 'F01828',   9462] # Ónodi utca
+      - ['00:22:00', 'F01648',   9906] # Szent László tér
+      - ['00:23:00', 'F01641',  10154] # Liget tér
+      - ['00:24:00', '008379',  10494] # Kőbánya alsó vasútállomás
     trip_headsign: Kőbánya alsó vasútállomás
     trip_id: REFERENCE-1621-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

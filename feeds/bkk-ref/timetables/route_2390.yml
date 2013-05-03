@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2390-0-1-G567
     stop_times:
-      - ['16:52:00', 'F01171',      0] # Uránia
-      - ['16:54:00', 'F01017',    346] # Astoria M
-      - ['16:56:00', 'F01004',    668] # Ferenciek tere M
-      - ['17:00:00', 'F00008',   2286] # Sánc utca
-      - ['17:02:00', 'F00005',   2630] # Mészáros utca
-      - ['17:06:00', 'F02114',   4255] # Fehérló utca
-      - ['17:08:00', 'F02053',   5214] # Dayka Gábor utca
-      - ['17:09:00', 'F01926',   5679] # Sasadi út
-      - ['17:10:00', 'F01928',   6134] # Nagyszeben út
-      - ['17:11:00', 'F01931',   6611] # Gazdagréti út
-      - ['17:13:00', 'F02055',   7130] # Nagyszeben tér
-      - ['17:14:00', 'F02243',   7398] # Regős köz
-      - ['17:15:00', 'F02058',   7715] # Törökugrató utca
-      - ['17:16:00', 'F02060',   7982] # Torbágy utca
-      - ['17:17:00', 'F02072',   8219] # Tűzkő utca
-      - ['17:19:00', '008567',   8756] # Gazdagréti tér
+      - ['00:00:00', 'F01171',      0] # Uránia
+      - ['00:01:00', 'F01017',    346] # Astoria M
+      - ['00:03:00', 'F01004',    668] # Ferenciek tere M
+      - ['00:06:00', 'F00008',   2286] # Sánc utca
+      - ['00:08:00', 'F00005',   2630] # Mészáros utca
+      - ['00:11:00', 'F02114',   4255] # Fehérló utca
+      - ['00:13:00', 'F02053',   5214] # Dayka Gábor utca
+      - ['00:14:00', 'F01926',   5679] # Sasadi út
+      - ['00:15:00', 'F01928',   6134] # Nagyszeben út
+      - ['00:16:00', 'F01931',   6611] # Gazdagréti út
+      - ['00:17:00', 'F02055',   7130] # Nagyszeben tér
+      - ['00:18:00', 'F02243',   7398] # Regős köz
+      - ['00:19:00', 'F02058',   7715] # Törökugrató utca
+      - ['00:20:00', 'F02060',   7982] # Torbágy utca
+      - ['00:21:00', 'F02072',   8219] # Tűzkő utca
+      - ['00:22:00', '008567',   8756] # Gazdagréti tér
     trip_headsign: Gazdagréti tér
     trip_id: REFERENCE-2390-0-1
     wheelchair_accessible: 2
@@ -36,21 +36,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2390-1-1-P700
     stop_times:
-      - ['16:30:00', 'F02226',      0] # Gazdagréti tér
-      - ['16:31:00', 'F02071',    504] # Tűzkő utca
-      - ['16:32:00', 'F02059',    817] # Torbágy utca
-      - ['16:33:00', 'F02057',   1015] # Törökugrató utca
-      - ['16:34:00', 'F02242',   1338] # Regős köz
-      - ['16:35:00', 'F02056',   1602] # Nagyszeben tér
-      - ['16:37:00', 'F01929',   2351] # Neszmélyi út
-      - ['16:39:00', 'F01927',   3175] # Sasadi út
-      - ['16:40:00', 'F02054',   3610] # Dayka Gábor utca
-      - ['16:43:00', 'F02113',   4571] # Fehérló utca
-      - ['16:47:00', 'F00004',   6135] # Avar utca
-      - ['16:48:00', 'F00009',   6521] # Sánc utca
-      - ['16:51:00', 'F00951',   8098] # Ferenciek tere M
-      - ['16:52:00', 'F01016',   8582] # Astoria M
-      - ['16:54:00', 'F01170',   8922] # Uránia
+      - ['00:00:00', 'F02226',      0] # Gazdagréti tér
+      - ['00:01:00', 'F02071',    504] # Tűzkő utca
+      - ['00:02:00', 'F02059',    817] # Torbágy utca
+      - ['00:02:00', 'F02057',   1015] # Törökugrató utca
+      - ['00:03:00', 'F02242',   1338] # Regős köz
+      - ['00:04:00', 'F02056',   1602] # Nagyszeben tér
+      - ['00:06:00', 'F01929',   2351] # Neszmélyi út
+      - ['00:08:00', 'F01927',   3175] # Sasadi út
+      - ['00:09:00', 'F02054',   3610] # Dayka Gábor utca
+      - ['00:11:00', 'F02113',   4571] # Fehérló utca
+      - ['00:14:00', 'F00004',   6135] # Avar utca
+      - ['00:15:00', 'F00009',   6521] # Sánc utca
+      - ['00:18:00', 'F00951',   8098] # Ferenciek tere M
+      - ['00:19:00', 'F01016',   8582] # Astoria M
+      - ['00:21:00', 'F01170',   8922] # Uránia
     trip_headsign: Uránia
     trip_id: REFERENCE-2390-1-1
     wheelchair_accessible: 2

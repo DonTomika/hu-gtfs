@@ -13,30 +13,30 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0930-0-1-N927
     stop_times:
-      - ['08:05:00', '038687',      0] # Kőbánya-Kispest M
-      - ['08:07:00', 'F03945',    919] # Kispest, Kossuth tér
-      - ['08:09:00', 'F03905',   1678] # Árpád utca
-      - ['08:10:00', 'F04028',   2038] # Villanytelep
-      - ['08:11:00', 'F03735',   2255] # Lajosmizsei sorompó
-      - ['08:13:00', 'F03732',   2895] # Kispest vasútállomás
-      - ['08:14:00', 'F03730',   3314] # Bozsik Stadion
-      - ['08:15:00', 'F03837',   3602] # Kispesti temető
-      - ['08:16:00', 'F03728',   3895] # Csapó utca
-      - ['08:17:00', 'F03726',   4361] # Kolozsvár utca (Temető)
-      - ['08:18:00', 'F03997',   4532] # Kassa utca
-      - ['08:19:00', 'F03891',   5009] # Karton utca
-      - ['08:20:00', 'F03892',   5426] # Csiky utca
-      - ['08:21:00', 'F03723',   5881] # Iker utca
-      - ['08:22:00', 'F03764',   6178] # Margó Tivadar utca
-      - ['08:24:00', 'F03767',   6852] # Kossuth Lajos utca
-      - ['08:26:00', '009569',   7372] # Thököly út
-      - ['08:28:00', 'F03721',   7760] # Szarvas csárda tér
-      - ['08:29:00', 'F03706',   8163] # Regény utca
-      - ['08:30:00', 'F03702',   8621] # Lőrinci temető
-      - ['08:31:00', 'F03829',   8926] # Kosztolányi Dezső utca
-      - ['08:32:00', 'F03696',   9457] # Csévéző utca
-      - ['08:35:00', 'F03869',  11057] # Szemeretelep vasútállomás
-      - ['08:37:00', 'F03813',  12371] # Liszt Ferenc Airport 1
+      - ['00:00:00', '038687',      0] # Kőbánya-Kispest M
+      - ['00:01:00', 'F03945',    919] # Kispest, Kossuth tér
+      - ['00:03:00', 'F03905',   1678] # Árpád utca
+      - ['00:04:00', 'F04028',   2038] # Villanytelep
+      - ['00:05:00', 'F03735',   2255] # Lajosmizsei sorompó
+      - ['00:07:00', 'F03732',   2895] # Kispest vasútállomás
+      - ['00:08:00', 'F03730',   3314] # Bozsik Stadion
+      - ['00:09:00', 'F03837',   3602] # Kispesti temető
+      - ['00:10:00', 'F03728',   3895] # Csapó utca
+      - ['00:11:00', 'F03726',   4361] # Kolozsvár utca (Temető)
+      - ['00:12:00', 'F03997',   4532] # Kassa utca
+      - ['00:13:00', 'F03891',   5009] # Karton utca
+      - ['00:14:00', 'F03892',   5426] # Csíky utca
+      - ['00:15:00', 'F03723',   5881] # Iker utca
+      - ['00:16:00', 'F03764',   6178] # Margó Tivadar utca
+      - ['00:18:00', 'F03767',   6852] # Kossuth Lajos utca
+      - ['00:20:00', '009569',   7372] # Thököly út
+      - ['00:22:00', 'F03721',   7760] # Szarvas csárda tér
+      - ['00:23:00', 'F03706',   8163] # Regény utca
+      - ['00:24:00', 'F03702',   8621] # Lőrinci temető
+      - ['00:25:00', 'F03829',   8926] # Kosztolányi Dezső utca
+      - ['00:26:00', 'F03696',   9457] # Csévéző utca
+      - ['00:29:00', 'F03869',  11057] # Szemeretelep vasútállomás
+      - ['00:31:00', 'F03813',  12371] # Liszt Ferenc Airport 1
     trip_headsign: Liszt Ferenc Airport 1
     trip_id: REFERENCE-0930-0-1
     wheelchair_accessible: 2
@@ -44,33 +44,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0930-1-1-N928
     stop_times:
-      - ['16:05:00', 'F03813',      0] # Liszt Ferenc Airport 1
-      - ['16:07:00', 'F03870',    821] # Szemeretelep vasútállomás
-      - ['16:08:00', 'F03814',   1385] # Billentyű utca
-      - ['16:09:00', 'F03693',   2404] # Csévéző utca
-      - ['16:10:00', 'F03697',   2615] # Fedezék utca
-      - ['16:11:00', 'F03830',   2917] # Kosztolányi Dezső utca
-      - ['16:12:00', 'F03700',   3183] # Lőrinci temető
-      - ['16:13:00', 'F03703',   3662] # Gárdonyi Géza utca
-      - ['16:15:00', 'F03713',   4196] # Szarvas csárda tér
-      - ['16:16:00', 'F03707',   4788] # Thököly út
-      - ['16:17:00', 'F03769',   5067] # Baross utca
-      - ['16:18:00', 'F03762',   5579] # Margó Tivadar utca
-      - ['16:19:00', 'F03722',   6041] # Iker utca
-      - ['16:20:00', 'F03894',   6491] # Csiky utca
-      - ['16:21:00', 'F03890',   6897] # Karton utca
-      - ['16:22:00', 'F03999',   7383] # Kassa utca
-      - ['16:23:00', 'F03727',   7666] # Kolozsvár utca (Temető)
-      - ['16:24:00', 'F03729',   8010] # Csapó utca
-      - ['16:25:00', 'F03838',   8308] # Kispesti temető
-      - ['16:26:00', 'F03731',   8576] # Bozsik Stadion
-      - ['16:27:00', 'F03733',   9016] # Kispest vasútállomás
-      - ['16:28:00', '008047',   9472] # Lajosmizsei sorompó
-      - ['16:29:00', 'F04029',   9939] # Villanytelep
-      - ['16:30:00', 'F03906',  10407] # Árpád utca
-      - ['16:31:00', 'F03950',  10926] # Simonyi Zsigmond utca
-      - ['16:32:00', 'F03942',  11186] # Sós utca
-      - ['16:33:00', '038688',  12077] # Kőbánya-Kispest M
+      - ['00:00:00', 'F03813',      0] # Liszt Ferenc Airport 1
+      - ['00:02:00', 'F03870',    821] # Szemeretelep vasútállomás
+      - ['00:03:00', 'F03814',   1385] # Billentyű utca
+      - ['00:04:00', 'F03693',   2404] # Csévéző utca
+      - ['00:05:00', 'F03697',   2615] # Fedezék utca
+      - ['00:06:00', 'F03830',   2917] # Kosztolányi Dezső utca
+      - ['00:07:00', 'F03700',   3183] # Lőrinci temető
+      - ['00:08:00', 'F03703',   3662] # Gárdonyi Géza utca
+      - ['00:10:00', 'F03713',   4196] # Szarvas csárda tér
+      - ['00:12:00', 'F03707',   4788] # Thököly út
+      - ['00:13:00', 'F03769',   5067] # Baross utca
+      - ['00:14:00', 'F03762',   5579] # Margó Tivadar utca
+      - ['00:15:00', 'F03722',   6041] # Iker utca
+      - ['00:16:00', 'F03894',   6491] # Csíky utca
+      - ['00:17:00', 'F03890',   6897] # Karton utca
+      - ['00:18:00', 'F03999',   7383] # Kassa utca
+      - ['00:19:00', 'F03727',   7666] # Kolozsvár utca (Temető)
+      - ['00:20:00', 'F03729',   8010] # Csapó utca
+      - ['00:22:00', 'F03838',   8308] # Kispesti temető
+      - ['00:23:00', 'F03731',   8576] # Bozsik Stadion
+      - ['00:24:00', 'F03733',   9016] # Kispest vasútállomás
+      - ['00:25:00', '008047',   9472] # Lajosmizsei sorompó
+      - ['00:26:00', 'F04029',   9939] # Villanytelep
+      - ['00:27:00', 'F03906',  10407] # Árpád utca
+      - ['00:29:00', 'F03950',  10926] # Simonyi Zsigmond utca
+      - ['00:30:00', 'F03942',  11186] # Sós utca
+      - ['00:33:00', '038688',  12077] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-0930-1-1
     wheelchair_accessible: 1

@@ -13,69 +13,69 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9230-0-1-S045
     stop_times:
-      - ['26:15:00', 'F00461',      0] # Békásmegyer H
-      - ['26:16:00', 'F00458',    644] # Pünkösdfürdő utca
-      - ['26:19:00', 'F00478',   1908] # Mátyás király út
-      - ['26:21:00', 'F00492',   2915] # Rómaifürdő H
-      - ['26:23:00', 'F00667',   4152] # Aquincum H
-      - ['26:24:00', 'F00507',   4869] # Záhony utca
-      - ['26:25:00', 'F00509',   5372] # Kaszásdűlő H
-      - ['26:27:00', 'F00577',   6296] # Bogdáni út
-      - ['26:28:00', 'F00583',   6723] # Raktár utca
-      - ['26:29:00', 'F00612',   7029] # Flórián tér
-      - ['26:30:00', 'F00607',   7341] # Kiscelli utca
-      - ['26:31:00', 'F00605',   7891] # Tímár utca
-      - ['26:32:00', 'F00602',   8367] # Galagonya utca
-      - ['26:36:00', 'F00138',   8722] # Kolosy tér
-      - ['26:37:00', 'F00246',   9054] # Zsigmond tér
-      - ['26:38:00', 'F00248',   9561] # Császár-Komjádi uszoda
-      - ['26:39:00', 'F00235',  10045] # Margit híd, budai hídfő H
-      - ['26:42:00', 'F00930',  11260] # Jászai Mari tér
-      - ['26:47:00', 'F00934',  11843] # Nyugati pályaudvar M
-      - ['26:48:00', 'F01084',  12428] # Aradi utca
-      - ['26:49:00', 'F01087',  12659] # Oktogon M
-      - ['26:51:00', 'F01039',  12911] # Király utca
-      - ['26:52:00', 'F01114',  13291] # Wesselényi utca
-      - ['26:54:00', 'F01293',  13712] # Blaha Lujza tér M
-      - ['26:55:00', 'F01203',  14146] # Rákóczi tér
-      - ['26:56:00', 'F01198',  14449] # Harminckettesek tere
-      - ['26:58:00', 'F01195',  14970] # Corvin-negyed M
-      - ['26:59:00', '007888',  15295] # Mester utca
-      - ['27:05:00', 'F01514',  15802] # Boráros tér H
-      - ['27:06:00', '009042',  16438] # Haller utca
-      - ['27:07:00', '008239',  16884] # Millenniumi Kulturális Központ
-      - ['27:08:00', 'F01403',  17314] # Közvágóhíd H
-      - ['27:10:00', 'F01355',  17978] # Földváry utca
-      - ['27:11:00', 'F01352',  18285] # Beöthy utca H
-      - ['27:12:00', 'F01418',  18957] # Kén utca H
-      - ['27:13:00', 'F01430',  19460] # Soroksári út 150. (Timót utca)
-      - ['27:14:00', 'F01360',  19875] # Timót utca H
-      - ['27:15:00', 'F01432',  20361] # Szabadkai út
-      - ['27:16:00', 'F04143',  20989] # Pesterzsébet felső H
-      - ['27:20:00', 'F04145',  21413] # Pesterzsébet, Baross utca
-      - ['27:21:00', 'F04122',  21703] # Pesterzsébet, városközpont
-      - ['27:22:00', 'F04129',  22024] # Ady Endre utca (Topánka utca)
-      - ['27:23:00', 'F04134',  22307] # Szent Erzsébet tér
-      - ['27:24:00', 'F04137',  22709] # Tátra tér
-      - ['27:25:00', 'F04140',  23272] # Mártírok útja
-      - ['27:27:00', 'F04099',  23927] # Nagyszőlős utca
-      - ['27:28:00', 'F04171',  24179] # Mézes utca
-      - ['27:28:00', 'F04096',  24553] # Magyar utca
-      - ['27:29:00', 'F04089',  24940] # Temesvár utca
-      - ['27:30:00', 'F04045',  25476] # Pesterzsébet, Ady Endre tér
-      - ['27:31:00', 'F04069',  25721] # Eperjes utca
-      - ['27:31:00', 'F04067',  25987] # Szalárdi Mór utca
-      - ['27:32:00', 'F04071',  26138] # Pacsirta utca
-      - ['27:33:00', 'F04073',  26552] # Előd utca
-      - ['27:34:00', 'F04084',  26873] # Jahn Ferenc Kórház
-      - ['27:35:00', '008965',  27324] # Szent László utca
-      - ['27:36:00', '008967',  27930] # Mesgye utca (Szentlőrinci úti lakótelep)
-      - ['27:36:00', 'F04574',  28125] # Újtelep út
-      - ['27:37:00', 'F04524',  28269] # Dinnyehegyi út
-      - ['27:37:00', '045755',  28622] # Maros utca
-      - ['27:38:00', 'F04085',  28902] # Írisz utca
-      - ['27:41:00', '008096',  30880] # Nagykőrösi út
-      - ['27:42:00', '008472',  31232] # Dél-pesti autóbuszgarázs
+      - ['00:00:00', 'F00461',      0] # Békásmegyer H
+      - ['00:01:00', 'F00458',    644] # Pünkösdfürdő utca
+      - ['00:04:00', 'F00478',   1908] # Mátyás király út
+      - ['00:06:00', 'F00492',   2915] # Rómaifürdő H
+      - ['00:08:00', 'F00667',   4152] # Aquincum H
+      - ['00:09:00', 'F00507',   4869] # Záhony utca
+      - ['00:10:00', 'F00509',   5372] # Kaszásdűlő H
+      - ['00:12:00', 'F00577',   6296] # Bogdáni út
+      - ['00:13:00', 'F00583',   6723] # Raktár utca
+      - ['00:14:00', 'F00612',   7029] # Flórián tér
+      - ['00:15:00', 'F00607',   7341] # Kiscelli utca
+      - ['00:16:00', 'F00605',   7891] # Tímár utca
+      - ['00:17:00', 'F00602',   8367] # Galagonya utca
+      - ['00:21:00', 'F00138',   8722] # Kolosy tér
+      - ['00:22:00', 'F00246',   9054] # Zsigmond tér
+      - ['00:23:00', 'F00248',   9561] # Császár-Komjádi uszoda
+      - ['00:24:00', 'F00235',  10045] # Margit híd, budai hídfő H
+      - ['00:27:00', 'F00930',  11260] # Jászai Mari tér
+      - ['00:32:00', 'F00934',  11843] # Nyugati pályaudvar M
+      - ['00:33:00', 'F01084',  12428] # Aradi utca
+      - ['00:34:00', 'F01087',  12659] # Oktogon M
+      - ['00:36:00', 'F01039',  12911] # Király utca
+      - ['00:37:00', 'F01114',  13291] # Wesselényi utca
+      - ['00:39:00', 'F01293',  13712] # Blaha Lujza tér M
+      - ['00:40:00', 'F01203',  14146] # Rákóczi tér
+      - ['00:41:00', 'F01198',  14449] # Harminckettesek tere
+      - ['00:43:00', 'F01195',  14970] # Corvin-negyed M
+      - ['00:44:00', '007888',  15295] # Mester utca
+      - ['00:50:00', 'F01514',  15802] # Boráros tér H
+      - ['00:51:00', '009042',  16438] # Haller utca
+      - ['00:52:00', '008239',  16884] # Millenniumi Kulturális Központ
+      - ['00:53:00', 'F01403',  17314] # Közvágóhíd H
+      - ['00:55:00', 'F01355',  17978] # Földváry utca
+      - ['00:56:00', 'F01352',  18285] # Beöthy utca H
+      - ['00:57:00', 'F01418',  18957] # Kén utca H
+      - ['00:58:00', 'F01430',  19460] # Soroksári út 150. (Timót utca)
+      - ['00:59:00', 'F01360',  19875] # Timót utca H
+      - ['01:00:00', 'F01432',  20361] # Szabadkai út
+      - ['01:01:00', 'F04143',  20989] # Pesterzsébet felső H
+      - ['01:03:00', 'F04145',  21413] # Pesterzsébet, Baross utca
+      - ['01:04:00', 'F04122',  21703] # Pesterzsébet, városközpont
+      - ['01:05:00', 'F04129',  22024] # Ady Endre utca (Topánka utca)
+      - ['01:06:00', 'F04134',  22307] # Szent Erzsébet tér
+      - ['01:07:00', 'F04137',  22709] # Tátra tér
+      - ['01:08:00', 'F04140',  23272] # Mártírok útja
+      - ['01:10:00', 'F04099',  23927] # Nagyszőlős utca
+      - ['01:11:00', 'F04171',  24179] # Mézes utca
+      - ['01:11:00', 'F04096',  24553] # Magyar utca
+      - ['01:12:00', 'F04089',  24940] # Temesvár utca
+      - ['01:13:00', 'F04045',  25476] # Pesterzsébet, Ady Endre tér
+      - ['01:14:00', 'F04069',  25721] # Eperjes utca
+      - ['01:14:00', 'F04067',  25987] # Szalárdi Mór utca
+      - ['01:15:00', 'F04071',  26138] # Pacsirta utca
+      - ['01:16:00', 'F04073',  26552] # Előd utca
+      - ['01:17:00', 'F04084',  26873] # Jahn Ferenc Kórház
+      - ['01:18:00', '008965',  27324] # Szent László utca
+      - ['01:19:00', '008967',  27930] # Mesgye utca (Szentlőrinci úti lakótelep)
+      - ['01:19:00', 'F04574',  28125] # Újtelep út
+      - ['01:20:00', 'F04524',  28269] # Dinnyehegyi út
+      - ['01:20:00', '045755',  28622] # Maros utca
+      - ['01:21:00', 'F04085',  28902] # Írisz utca
+      - ['01:24:00', '008096',  30880] # Nagykőrösi út
+      - ['01:25:00', '008472',  31232] # Dél-pesti autóbuszgarázs
     trip_headsign: Dél-pesti autóbuszgarázs
     trip_id: REFERENCE-9230-0-1
     wheelchair_accessible: 2
@@ -83,75 +83,75 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9230-1-1-S048
     stop_times:
-      - ['25:48:00', '008471',      0] # Dél-pesti autóbuszgarázs
-      - ['25:49:00', '008095',    348] # Nagykőrösi út
-      - ['25:52:00', 'F04086',   2325] # Írisz utca
-      - ['25:53:00', 'F04525',   2761] # Dinnyehegyi út
-      - ['25:53:00', 'F04575',   3009] # Szent László utca
-      - ['25:54:00', '008966',   3277] # Mesgye utca
-      - ['25:55:00', '008964',   3875] # Tartsay utca
-      - ['25:56:00', 'F04082',   4324] # Jahn Ferenc Kórház
-      - ['25:57:00', 'F04075',   4551] # Előd utca
-      - ['25:58:00', 'F04070',   5209] # Eperjes utca
-      - ['25:59:00', 'F04068',   5610] # Wesselényi utca
-      - ['26:00:00', 'F04046',   5786] # Ady Endre tér
-      - ['26:01:00', 'F04090',   6450] # Mártírok útja
-      - ['26:02:00', 'F04097',   6718] # Magyar utca
-      - ['26:02:00', 'F04170',   7090] # Zobor utca
-      - ['26:03:00', 'F04101',   7516] # Nagysándor József utca
-      - ['26:04:00', 'F04141',   7966] # Kossuth Lajos utca
-      - ['26:06:00', 'F04136',   8571] # Tátra tér
-      - ['26:07:00', 'F04133',   8953] # Szent Erzsébet tér
-      - ['26:08:00', 'F04127',   9476] # Ady Endre utca (Topánka utca)
-      - ['26:09:00', 'F04123',   9701] # Pesterzsébet, városközpont
-      - ['26:11:00', 'F04144',   9988] # Pesterzsébet, Baross utca
-      - ['26:13:00', 'F04142',  10433] # Pesterzsébet felső H
-      - ['26:14:00', 'F01431',  10988] # Szabadkai út
-      - ['26:15:00', 'F01359',  11526] # Timót utca H
-      - ['26:16:00', 'F01429',  11865] # Soroksári út 150. (Timót utca)
-      - ['26:17:00', 'F01419',  12212] # Kén utca H
-      - ['26:18:00', 'F01351',  12966] # Beöthy utca H
-      - ['26:19:00', 'F01356',  13608] # Koppány utca
-      - ['26:24:00', 'F01404',  13896] # Közvágóhíd H
-      - ['26:25:00', '009310',  14252] # Millenniumi Kulturális Központ
-      - ['26:27:00', '009146',  14929] # Mester utca
-      - ['26:28:00', '009145',  15223] # Haller utca
-      - ['26:29:00', 'F01381',  15801] # Bokréta utca
-      - ['26:30:00', '007887',  16230] # Mester utca
-      - ['26:31:00', 'F01190',  16716] # Corvin-negyed M
-      - ['26:33:00', 'F01196',  17104] # Harminckettesek tere
-      - ['26:34:00', 'F01202',  17413] # Rákóczi tér
-      - ['26:35:00', 'F01295',  17749] # Népszínház utca
-      - ['26:36:00', 'F01167',  17941] # Blaha Lujza tér M
-      - ['26:37:00', 'F01113',  18273] # Wesselényi utca
-      - ['26:38:00', 'F01038',  18664] # Király utca
-      - ['26:40:00', 'F01083',  19059] # Oktogon M
-      - ['26:42:00', 'F01029',  19673] # Nyugati pályaudvar M
-      - ['26:47:00', 'F01028',  20052] # Nyugati pályaudvar M
-      - ['26:49:00', 'F00929',  20601] # Jászai Mari tér
-      - ['26:51:00', 'F00237',  21638] # Margit híd, budai hídfő H
-      - ['26:53:00', 'F00247',  22191] # Császár-Komjádi uszoda
-      - ['26:54:00', 'F00245',  22735] # Zsigmond tér
-      - ['26:56:00', 'F00137',  23144] # Kolosy tér
-      - ['26:57:00', 'F00603',  23516] # Nagyszombat utca
-      - ['26:58:00', 'F00604',  23885] # Tímár utca
-      - ['26:59:00', 'F00606',  24287] # Kiscelli utca
-      - ['27:00:00', 'F00611',  24777] # Flórián tér
-      - ['27:01:00', 'F00581',  25003] # Raktár utca
-      - ['27:03:00', 'F00576',  25592] # Bogdáni út
-      - ['27:04:00', 'F00508',  26382] # Kaszásdűlő H
-      - ['27:05:00', 'F00506',  26969] # Záhony utca
-      - ['27:07:00', 'F00666',  27546] # Aquincum H
-      - ['27:08:00', 'F00485',  27830] # Római tér
-      - ['27:10:00', 'F00489',  28480] # Rómaifürdő H
-      - ['27:11:00', 'F00490',  28905] # Czetz János köz
-      - ['27:11:00', 'F00493',  29126] # Attila utca
-      - ['27:12:00', 'F00495',  29385] # Pozsonyi utca
-      - ['27:13:00', 'F00497',  29805] # Mátyás király út
-      - ['27:14:00', 'F00682',  30172] # Bercsényi utca
-      - ['27:15:00', 'F00479',  30597] # Csillaghegy H
-      - ['27:17:00', 'F00459',  31760] # Pünkösdfürdő utca
-      - ['27:18:00', 'F00461',  32131] # Békásmegyer H
+      - ['00:00:00', '008471',      0] # Dél-pesti autóbuszgarázs
+      - ['00:01:00', '008095',    348] # Nagykőrösi út
+      - ['00:04:00', 'F04086',   2325] # Írisz utca
+      - ['00:05:00', 'F04525',   2761] # Dinnyehegyi út
+      - ['00:05:00', 'F04575',   3009] # Szent László utca
+      - ['00:06:00', '008966',   3277] # Mesgye utca
+      - ['00:07:00', '008964',   3875] # Tartsay utca
+      - ['00:08:00', 'F04082',   4324] # Jahn Ferenc Kórház
+      - ['00:09:00', 'F04075',   4551] # Előd utca
+      - ['00:10:00', 'F04070',   5209] # Eperjes utca
+      - ['00:11:00', 'F04068',   5610] # Wesselényi utca
+      - ['00:12:00', 'F04046',   5786] # Ady Endre tér
+      - ['00:13:00', 'F04090',   6450] # Mártírok útja
+      - ['00:14:00', 'F04097',   6718] # Magyar utca
+      - ['00:14:00', 'F04170',   7090] # Zobor utca
+      - ['00:15:00', 'F04101',   7516] # Nagysándor József utca
+      - ['00:16:00', 'F04141',   7966] # Kossuth Lajos utca
+      - ['00:18:00', 'F04136',   8571] # Tátra tér
+      - ['00:19:00', 'F04133',   8953] # Szent Erzsébet tér
+      - ['00:20:00', 'F04127',   9476] # Ady Endre utca (Topánka utca)
+      - ['00:21:00', 'F04123',   9701] # Pesterzsébet, városközpont
+      - ['00:23:00', 'F04144',   9988] # Pesterzsébet, Baross utca
+      - ['00:25:00', 'F04142',  10433] # Pesterzsébet felső H
+      - ['00:26:00', 'F01431',  10988] # Szabadkai út
+      - ['00:27:00', 'F01359',  11526] # Timót utca H
+      - ['00:28:00', 'F01429',  11865] # Soroksári út 150. (Timót utca)
+      - ['00:29:00', 'F01419',  12212] # Kén utca H
+      - ['00:30:00', 'F01351',  12966] # Beöthy utca H
+      - ['00:31:00', 'F01356',  13608] # Koppány utca
+      - ['00:36:00', 'F01404',  13896] # Közvágóhíd H
+      - ['00:37:00', '009310',  14252] # Millenniumi Kulturális Központ
+      - ['00:39:00', '009146',  14929] # Mester utca
+      - ['00:40:00', '009145',  15223] # Haller utca
+      - ['00:41:00', 'F01381',  15801] # Bokréta utca
+      - ['00:42:00', '007887',  16230] # Mester utca
+      - ['00:43:00', 'F01190',  16716] # Corvin-negyed M
+      - ['00:45:00', 'F01196',  17104] # Harminckettesek tere
+      - ['00:46:00', 'F01202',  17413] # Rákóczi tér
+      - ['00:47:00', 'F01295',  17749] # Népszínház utca
+      - ['00:48:00', 'F01167',  17941] # Blaha Lujza tér M
+      - ['00:49:00', 'F01113',  18273] # Wesselényi utca
+      - ['00:50:00', 'F01038',  18664] # Király utca
+      - ['00:52:00', 'F01083',  19059] # Oktogon M
+      - ['00:54:00', 'F01029',  19673] # Nyugati pályaudvar M
+      - ['00:59:00', 'F01028',  20052] # Nyugati pályaudvar M
+      - ['01:01:00', 'F00929',  20601] # Jászai Mari tér
+      - ['01:03:00', 'F00237',  21638] # Margit híd, budai hídfő H
+      - ['01:05:00', 'F00247',  22191] # Császár-Komjádi uszoda
+      - ['01:06:00', 'F00245',  22735] # Zsigmond tér
+      - ['01:08:00', 'F00137',  23144] # Kolosy tér
+      - ['01:09:00', 'F00603',  23516] # Nagyszombat utca
+      - ['01:10:00', 'F00604',  23885] # Tímár utca
+      - ['01:11:00', 'F00606',  24287] # Kiscelli utca
+      - ['01:12:00', 'F00611',  24777] # Flórián tér
+      - ['01:13:00', 'F00581',  25003] # Raktár utca
+      - ['01:15:00', 'F00576',  25592] # Bogdáni út
+      - ['01:16:00', 'F00508',  26382] # Kaszásdűlő H
+      - ['01:17:00', 'F00506',  26969] # Záhony utca
+      - ['01:19:00', 'F00666',  27546] # Aquincum H
+      - ['01:20:00', 'F00485',  27830] # Római tér
+      - ['01:22:00', 'F00489',  28480] # Rómaifürdő H
+      - ['01:23:00', 'F00490',  28905] # Czetz János köz
+      - ['01:23:00', 'F00493',  29126] # Attila utca
+      - ['01:24:00', 'F00495',  29385] # Pozsonyi utca
+      - ['01:25:00', 'F00497',  29805] # Mátyás király út
+      - ['01:26:00', 'F00682',  30172] # Bercsényi utca
+      - ['01:27:00', 'F00479',  30597] # Csillaghegy H
+      - ['01:29:00', 'F00459',  31760] # Pünkösdfürdő utca
+      - ['01:30:00', 'F00461',  32131] # Békásmegyer H
     trip_headsign: Békásmegyer H
     trip_id: REFERENCE-9230-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

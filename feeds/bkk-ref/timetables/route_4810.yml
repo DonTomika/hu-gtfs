@@ -13,16 +13,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-4810-0-1-O318
     stop_times:
-      - ['15:27:00', 'F02764',      0] # Örs vezér tere M+H
-      - ['15:29:00', 'F02768',    683] # Ond vezér útja
-      - ['15:30:00', 'F02770',    987] # Ond vezér park
-      - ['15:32:00', 'F02771',   1424] # Szentmihályi út
-      - ['15:32:00', '040608',   1641] # Zsivora park
-      - ['15:33:00', 'F02775',   1868] # Füredi utca
-      - ['15:34:00', 'F02778',   2116] # Csertő utca
-      - ['15:35:00', 'F02934',   2322] # Adóhivatal
-      - ['15:36:00', 'F02780',   2562] # Zsálya utca
-      - ['15:37:00', 'F02785',   2864] # Fogarasi út
+      - ['00:00:00', 'F02764',      0] # Örs vezér tere M+H
+      - ['00:02:00', 'F02768',    683] # Ond vezér útja
+      - ['00:03:00', 'F02770',    987] # Ond vezér park
+      - ['00:04:00', 'F02771',   1424] # Szentmihályi út
+      - ['00:05:00', '040608',   1641] # Zsivora park
+      - ['00:05:00', 'F02775',   1868] # Füredi utca
+      - ['00:06:00', 'F02778',   2116] # Csertő utca
+      - ['00:07:00', 'F02934',   2322] # Adóhivatal
+      - ['00:08:00', 'F02780',   2562] # Zsálya utca
+      - ['00:09:00', 'F02785',   2864] # Fogarasi út
     trip_headsign: Fogarasi út
     trip_id: REFERENCE-4810-0-1
     wheelchair_accessible: 2
@@ -30,15 +30,15 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-4810-1-1-E306
     stop_times:
-      - ['18:30:00', 'F02785',      0] # Fogarasi út
-      - ['18:31:00', 'F02781',    413] # Zsálya utca
-      - ['18:32:00', 'F02935',    593] # Adóhivatal
-      - ['18:33:00', 'F02777',    802] # Csertő utca
-      - ['18:34:00', 'F02776',   1111] # Szentmihályi út
-      - ['18:36:00', 'F02772',   1525] # Ond vezér útja
-      - ['18:37:00', 'F02769',   1887] # Ond vezér park
-      - ['18:38:00', 'F02767',   2324] # Füredi utca
-      - ['18:40:00', 'F02764',   2918] # Örs vezér tere M+H
+      - ['00:00:00', 'F02785',      0] # Fogarasi út
+      - ['00:01:00', 'F02781',    413] # Zsálya utca
+      - ['00:02:00', 'F02935',    593] # Adóhivatal
+      - ['00:03:00', 'F02777',    802] # Csertő utca
+      - ['00:04:00', 'F02776',   1111] # Szentmihályi út
+      - ['00:06:00', 'F02772',   1525] # Ond vezér útja
+      - ['00:07:00', 'F02769',   1887] # Ond vezér park
+      - ['00:08:00', 'F02767',   2324] # Füredi utca
+      - ['00:10:00', 'F02764',   2918] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-4810-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

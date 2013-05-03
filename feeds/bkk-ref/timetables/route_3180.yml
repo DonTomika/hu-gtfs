@@ -13,26 +13,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3180-0-1-I674
     stop_times:
-      - ['11:21:00', 'F02462',      0] # Széll Kálmán tér M
-      - ['11:23:00', 'F00026',    695] # Déli pályaudvar M
-      - ['11:24:00', 'F00090',   1091] # Mikó utca
-      - ['11:25:00', 'F00085',   1395] # Krisztina tér
-      - ['11:27:00', 'F00080',   1968] # Dózsa György tér
-      - ['11:29:00', 'F00103',   2507] # Döbrentei tér
-      - ['11:32:00', '008590',   3708] # Szent Gellért tér
-      - ['11:34:00', 'F02148',   4107] # Gárdonyi tér
-      - ['11:36:00', '008593',   4589] # Móricz Zsigmond körtér
-      - ['11:37:00', 'F01997',   4882] # Újbuda-központ
-      - ['11:39:00', 'F02238',   5398] # Fővárosi Művelődési Ház
-      - ['11:40:00', 'F02004',   5695] # Hauszmann Alajos utca
-      - ['11:42:00', 'F02010',   6232] # Hengermalom út
-      - ['11:43:00', 'F02240',   6639] # Kalotaszeg utca
-      - ['11:44:00', 'F02013',   6979] # Andor utca
-      - ['11:46:00', 'F02016',   7293] # Albertfalva, kitérő
-      - ['11:48:00', 'F02020',   7933] # Építész utca
-      - ['11:49:00', 'F02025',   8394] # Fonyód utca
-      - ['11:50:00', 'F02031',   8764] # Budafok kocsiszín
-      - ['11:52:00', '008864',   9539] # Savoya Park
+      - ['00:00:00', 'F02462',      0] # Széll Kálmán tér M
+      - ['00:02:00', 'F00026',    695] # Déli pályaudvar M
+      - ['00:03:00', 'F00090',   1091] # Mikó utca
+      - ['00:04:00', 'F00085',   1395] # Krisztina tér
+      - ['00:06:00', 'F00080',   1968] # Dózsa György tér
+      - ['00:08:00', 'F00103',   2507] # Döbrentei tér
+      - ['00:11:00', '008590',   3708] # Szent Gellért tér
+      - ['00:13:00', 'F02148',   4107] # Gárdonyi tér
+      - ['00:15:00', '008593',   4589] # Móricz Zsigmond körtér
+      - ['00:16:00', 'F01997',   4882] # Újbuda-központ
+      - ['00:18:00', 'F02238',   5398] # Fővárosi Művelődési Ház
+      - ['00:19:00', 'F02004',   5695] # Hauszmann Alajos utca
+      - ['00:21:00', 'F02010',   6232] # Hengermalom út
+      - ['00:22:00', 'F02240',   6639] # Kalotaszeg utca
+      - ['00:23:00', 'F02013',   6979] # Andor utca
+      - ['00:25:00', 'F02016',   7293] # Albertfalva, kitérő
+      - ['00:27:00', 'F02020',   7933] # Építész utca
+      - ['00:28:00', 'F02025',   8394] # Fonyód utca
+      - ['00:29:00', 'F02031',   8764] # Budafok kocsiszín
+      - ['00:31:00', '008864',   9539] # Savoya Park
     trip_headsign: Savoya Park
     trip_id: REFERENCE-3180-0-1
     wheelchair_accessible: 2
@@ -40,26 +40,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3180-1-1-I675
     stop_times:
-      - ['19:56:00', '008802',      0] # Savoya Park
-      - ['19:59:00', 'F02029',    967] # Budafok kocsiszín
-      - ['20:00:00', 'F02024',   1239] # Fonyód utca
-      - ['20:01:00', 'F02019',   1702] # Építész utca
-      - ['20:03:00', 'F02017',   2267] # Albertfalva, kitérő
-      - ['20:04:00', 'F02014',   2586] # Andor utca
-      - ['20:05:00', 'F02241',   2931] # Kalotaszeg utca
-      - ['20:07:00', 'F02009',   3316] # Hengermalom út
-      - ['20:08:00', 'F02003',   3874] # Hauszmann Alajos utca
-      - ['20:10:00', 'F02239',   4240] # Fővárosi Művelődési Ház
-      - ['20:11:00', 'F01999',   4753] # Újbuda-központ
-      - ['20:13:00', 'F02194',   5048] # Móricz Zsigmond körtér
-      - ['20:15:00', 'F02149',   5541] # Gárdonyi tér
-      - ['20:16:00', '008591',   5926] # Szent Gellért tér
-      - ['20:19:00', 'F00105',   7012] # Döbrentei tér
-      - ['20:21:00', 'F00081',   7613] # Dózsa György tér
-      - ['20:22:00', 'F00086',   8143] # Krisztina tér
-      - ['20:23:00', 'F00089',   8493] # Mikó utca
-      - ['20:25:00', 'F00027',   8943] # Déli pályaudvar M
-      - ['20:27:00', 'F02463',   9684] # Széll Kálmán tér M
+      - ['00:00:00', '008802',      0] # Savoya Park
+      - ['00:03:00', 'F02029',    967] # Budafok kocsiszín
+      - ['00:04:00', 'F02024',   1239] # Fonyód utca
+      - ['00:05:00', 'F02019',   1702] # Építész utca
+      - ['00:07:00', 'F02017',   2267] # Albertfalva, kitérő
+      - ['00:08:00', 'F02014',   2586] # Andor utca
+      - ['00:09:00', 'F02241',   2931] # Kalotaszeg utca
+      - ['00:11:00', 'F02009',   3316] # Hengermalom út
+      - ['00:12:00', 'F02003',   3874] # Hauszmann Alajos utca
+      - ['00:14:00', 'F02239',   4240] # Fővárosi Művelődési Ház
+      - ['00:15:00', 'F01999',   4753] # Újbuda-központ
+      - ['00:17:00', 'F02194',   5048] # Móricz Zsigmond körtér
+      - ['00:19:00', 'F02149',   5541] # Gárdonyi tér
+      - ['00:20:00', '008591',   5926] # Szent Gellért tér
+      - ['00:24:00', 'F00105',   7012] # Döbrentei tér
+      - ['00:26:00', 'F00081',   7613] # Dózsa György tér
+      - ['00:27:00', 'F00086',   8143] # Krisztina tér
+      - ['00:28:00', 'F00089',   8493] # Mikó utca
+      - ['00:30:00', 'F00027',   8943] # Déli pályaudvar M
+      - ['00:32:00', 'F02463',   9684] # Széll Kálmán tér M
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-3180-1-1
     wheelchair_accessible: 2

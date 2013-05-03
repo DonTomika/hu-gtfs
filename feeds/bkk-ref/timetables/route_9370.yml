@@ -13,20 +13,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9370-0-1-C123
     stop_times:
-      - ['25:35:00', 'F00570',      0] # Vörösvári út
-      - ['25:36:00', 'F00566',    211] # Farkastorki út
-      - ['25:37:00', 'F00564',    431] # Táborhegyi út
-      - ['25:38:00', 'F00672',    715] # Zúzmara utca
-      - ['25:39:00', 'F00536',    919] # Királyhelmec utca
-      - ['25:40:00', 'F00556',   1314] # Körtvélyes köz
-      - ['25:41:00', 'F00553',   1584] # Erdőalja út 43.
-      - ['25:42:00', 'F00551',   1935] # Hedvig utca
-      - ['25:43:00', 'F00546',   2508] # Erdőalja út
-      - ['25:44:00', 'F00552',   3025] # Hedvig utca
-      - ['25:45:00', 'F00554',   3491] # Viharhegyi út
-      - ['25:46:00', 'F00560',   3803] # Iskola
-      - ['25:47:00', 'F00562',   4066] # Királylaki út
-      - ['25:48:00', 'F00563',   4387] # Máramaros út
+      - ['00:00:00', 'F00570',      0] # Vörösvári út
+      - ['00:01:00', 'F00566',    211] # Farkastorki út
+      - ['00:02:00', 'F00564',    431] # Táborhegyi út
+      - ['00:03:00', 'F00672',    715] # Zúzmara utca
+      - ['00:04:00', 'F00536',    919] # Királyhelmec utca
+      - ['00:05:00', 'F00556',   1314] # Körtvélyes köz
+      - ['00:06:00', 'F00553',   1584] # Erdőalja út 43.
+      - ['00:07:00', 'F00551',   1935] # Hedvig utca
+      - ['00:08:00', 'F00546',   2508] # Erdőalja út
+      - ['00:09:00', 'F00552',   3025] # Hedvig utca
+      - ['00:10:00', 'F00554',   3491] # Viharhegyi út
+      - ['00:11:00', 'F00560',   3803] # Iskola
+      - ['00:12:00', 'F00562',   4066] # Királylaki út
+      - ['00:13:00', 'F00563',   4387] # Máramaros út
     trip_headsign: Máramaros út
     trip_id: REFERENCE-9370-0-1
     wheelchair_accessible: 2

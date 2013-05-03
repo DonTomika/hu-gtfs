@@ -13,27 +13,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0205-0-1-E687
     stop_times:
-      - ['11:32:00', 'F01154',      0] # Keleti pályaudvar M
-      - ['11:38:00', 'F01051',   2409] # Hősök tere M
-      - ['11:41:00', 'F02628',   3640] # Róbert Károly körút
-      - ['11:43:00', 'F02647',   4405] # Szegedi út
-      - ['11:46:00', 'F02549',   5677] # Futár utca
-      - ['11:52:00', 'F00820',   7726] # Chinoin utca
-      - ['11:53:00', 'F00817',   8087] # Tél utca
-      - ['11:54:00', 'F00879',   8531] # Erzsébet utca
-      - ['11:55:00', 'F00829',   8890] # Rózsa utca
-      - ['11:56:00', 'F00891',   9236] # Ősz utca
-      - ['11:57:00', 'F00834',   9662] # Árpád üzletház
-      - ['11:58:00', 'F00876',  10025] # Deák Ferenc utca
-      - ['11:59:00', 'F00789',  10208] # Szakorvosi rendelő
-      - ['12:00:00', 'F00780',  10553] # Szent László tér
-      - ['12:01:00', 'F00773',  10793] # Vécsey Károly utca
-      - ['12:02:00', 'F00761',  11238] # Fóti út
-      - ['12:02:00', 'F00752',  11520] # Vadgesztenye utca
-      - ['12:03:00', 'F00748',  11857] # Erdősor út
-      - ['12:04:00', 'F00733',  12170] # Művelődési Központ
-      - ['12:05:00', 'F00740',  12466] # Hajló utca
-      - ['12:06:00', 'F00742',  12693] # Káposztásmegyer, Szilas-patak
+      - ['00:00:00', 'F01154',      0] # Keleti pályaudvar M
+      - ['00:05:00', 'F01051',   2409] # Hősök tere M
+      - ['00:08:00', 'F02628',   3640] # Róbert Károly körút
+      - ['00:10:00', 'F02647',   4405] # Szegedi út
+      - ['00:13:00', 'F02549',   5677] # Futár utca
+      - ['00:18:00', 'F00820',   7726] # Chinoin utca
+      - ['00:19:00', 'F00817',   8087] # Tél utca
+      - ['00:20:00', 'F00879',   8531] # Erzsébet utca
+      - ['00:21:00', 'F00829',   8890] # Rózsa utca
+      - ['00:22:00', 'F00891',   9236] # Ősz utca
+      - ['00:23:00', 'F00834',   9662] # Árpád üzletház
+      - ['00:24:00', 'F00876',  10025] # Deák Ferenc utca
+      - ['00:25:00', 'F00789',  10208] # Szakorvosi rendelő
+      - ['00:25:00', 'F00780',  10553] # Szent László tér
+      - ['00:26:00', 'F00773',  10793] # Vécsey Károly utca
+      - ['00:27:00', 'F00761',  11238] # Fóti út
+      - ['00:27:00', 'F00752',  11520] # Vadgesztenye utca
+      - ['00:28:00', 'F00748',  11857] # Erdősor út
+      - ['00:29:00', 'F00733',  12170] # Művelődési Központ
+      - ['00:30:00', 'F00740',  12466] # Hajló utca
+      - ['00:31:00', 'F00742',  12693] # Káposztásmegyer, Szilas-patak
     trip_headsign: 'Káposztásmegyer, Szilas-patak'
     trip_id: REFERENCE-0205-0-1
     wheelchair_accessible: 1
@@ -41,26 +41,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0205-1-1-J364
     stop_times:
-      - ['19:50:00', 'F00746',      0] # Káposztásmegyer, Szilas-patak
-      - ['19:51:00', 'F00739',    327] # Hajló utca
-      - ['19:52:00', 'F00732',    592] # Művelődési Központ
-      - ['19:53:00', 'F00749',    926] # Erdősor út
-      - ['19:54:00', 'F00751',   1471] # Fóti út
-      - ['19:55:00', 'F00775',   1983] # Vécsey Károly utca
-      - ['19:55:00', 'F00779',   2355] # Szent László tér
-      - ['19:56:00', 'F00791',   2597] # Szakorvosi rendelő
-      - ['19:57:00', 'F00877',   2854] # Deák Ferenc utca
-      - ['19:58:00', 'F00833',   3109] # Árpád üzletház
-      - ['19:59:00', 'F00892',   3509] # Ősz utca
-      - ['20:00:00', 'F00828',   3914] # Tél utca
-      - ['20:01:00', 'F00878',   4301] # Erzsébet utca
-      - ['20:02:00', 'F00816',   4654] # Kassai utca
-      - ['20:03:00', 'F00821',   5083] # Pozsonyi utca
-      - ['20:07:00', 'F02550',   7097] # Futár utca
-      - ['20:10:00', 'F02645',   8224] # Szegedi út
-      - ['20:12:00', 'F02627',   9120] # Róbert Károly körút
-      - ['20:16:00', 'F01055',  10300] # Hősök tere M
-      - ['20:21:00', 'F01154',  12806] # Keleti pályaudvar M
+      - ['00:00:00', 'F00746',      0] # Káposztásmegyer, Szilas-patak
+      - ['00:01:00', 'F00739',    327] # Hajló utca
+      - ['00:02:00', 'F00732',    592] # Művelődési Központ
+      - ['00:03:00', 'F00749',    926] # Erdősor út
+      - ['00:04:00', 'F00751',   1471] # Fóti út
+      - ['00:05:00', 'F00775',   1983] # Vécsey Károly utca
+      - ['00:05:00', 'F00779',   2355] # Szent László tér
+      - ['00:06:00', 'F00791',   2597] # Szakorvosi rendelő
+      - ['00:07:00', 'F00877',   2854] # Deák Ferenc utca
+      - ['00:08:00', 'F00833',   3109] # Árpád üzletház
+      - ['00:09:00', 'F00892',   3509] # Ősz utca
+      - ['00:10:00', 'F00828',   3914] # Tél utca
+      - ['00:11:00', 'F00878',   4301] # Erzsébet utca
+      - ['00:12:00', 'F00816',   4654] # Kassai utca
+      - ['00:13:00', 'F00821',   5083] # Pozsonyi utca
+      - ['00:17:00', 'F02550',   7097] # Futár utca
+      - ['00:20:00', 'F02645',   8224] # Szegedi út
+      - ['00:22:00', 'F02627',   9120] # Róbert Károly körút
+      - ['00:26:00', 'F01055',  10300] # Hősök tere M
+      - ['00:31:00', 'F01154',  12806] # Keleti pályaudvar M
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-0205-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

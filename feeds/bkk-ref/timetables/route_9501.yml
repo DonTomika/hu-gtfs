@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 333333
-route_desc: 'Pestszentimre vasútállomás / Rákospalota, Kossuth utca'
+route_desc: 'Pestszentimre vasútállomás (Vasút utca) / Rákospalota, Kossuth utca'
 route_id: 9501
 route_long_name: ''
 route_short_name: 950A
@@ -13,71 +13,71 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9501-1-1-Q882
     stop_times:
-      - ['26:05:00', 'F03665',      0] # Pestszentimre vasútállomás (Vasút utca)
-      - ['26:06:00', 'F03662',    684] # Törvény utca
-      - ['26:07:00', 'F03661',   1017] # Vásáros tér
-      - ['26:08:00', 'F03664',   1674] # Ady Endre utca
-      - ['26:09:00', 'F03651',   2105] # Kisfaludy utca
-      - ['26:10:00', 'F03653',   2505] # Damjanich utca
-      - ['26:11:00', 'F03860',   2871] # Alacskai úti lakótelep
-      - ['26:12:00', 'F03799',   3397] # Alacskai út
-      - ['26:13:00', '008904',   3772] # Kétújfalu utca
-      - ['26:13:00', 'F03849',   4100] # Halomi út
-      - ['26:14:00', 'F03847',   4526] # Beszterce utca
-      - ['26:15:00', '008951',   5229] # Béke tér
-      - ['26:16:00', 'F03856',   5597] # Ungvár utca
-      - ['26:17:00', 'F03886',   6005] # Bajcsy-Zsilinszky út
-      - ['26:18:00', 'F03806',   6480] # Honvéd utca
-      - ['26:19:00', 'F03689',   6804] # Iparvasút
-      - ['26:20:00', 'F03824',   7175] # Madarász utca
-      - ['26:21:00', 'F03713',   7779] # Szarvas csárda tér
-      - ['26:22:00', 'F03707',   8371] # Thököly út
-      - ['26:23:00', 'F03772',   8653] # Baross utca
-      - ['26:24:00', 'F03836',   9003] # Kemény Zsigmond utca
-      - ['26:25:00', 'F03752',   9434] # Margó Tivadar utca
-      - ['26:26:00', 'F03740',   9764] # Tinódi utca
-      - ['26:26:00', '008047',   9919] # Lajosmizsei sorompó
-      - ['26:27:00', 'F04029',  10386] # Villanytelep
-      - ['26:28:00', 'F03906',  10854] # Árpád utca
-      - ['26:29:00', 'F03952',  11195] # Fő utca
-      - ['26:30:00', 'F03949',  11459] # Kossuth tér
-      - ['26:31:00', 'F03934',  11873] # Lehel utca
-      - ['26:32:00', 'F03902',  12396] # Nyáry Pál utca
-      - ['26:34:00', 'F03929',  12977] # Határ út M
-      - ['26:35:00', '044126',  13343] # Száva kocsiszín
-      - ['26:36:00', 'F01465',  13819] # Pöttyös utca M
-      - ['26:37:00', 'F01496',  14345] # Ecseri út M
-      - ['26:39:00', 'F01285',  15353] # Népliget M
-      - ['26:42:00', 'F01248',  16655] # Nagyvárad tér M
-      - ['26:44:00', 'F01234',  17534] # Klinikák M
-      - ['26:46:00', 'F01193',  18320] # Corvin-negyed M
-      - ['26:48:00', 'F01010',  19185] # Kálvin tér M
-      - ['26:49:00', 'F01013',  19681] # Astoria M
-      - ['26:53:00', '009309',  20179] # Deák Ferenc tér M
-      - ['26:55:00', 'F00942',  20861] # Arany János utca M
-      - ['26:56:00', 'F00940',  21322] # Podmaniczky utca
-      - ['26:58:00', 'F01029',  21722] # Nyugati pályaudvar M
-      - ['26:59:00', 'F01025',  21893] # Nyugati pályaudvar M
-      - ['27:01:00', 'F02617',  22727] # Lehel tér M
-      - ['27:03:00', 'F02609',  23685] # Váci út (Dózsa György út M)
-      - ['27:06:00', 'F02579',  24801] # Árpád híd M
-      - ['27:08:00', 'F02679',  25673] # Forgách utca M
-      - ['27:10:00', 'F02564',  26346] # Fiastyúk utca
-      - ['27:11:00', 'F02537',  26695] # Gyöngyösi utca M
-      - ['27:13:00', '008944',  27576] # Újpest-Városkapu M (Váci út)
-      - ['27:14:00', 'F00808',  28217] # Árpád út
-      - ['27:15:00', 'F00809',  28509] # Újpest-Városkapu M
-      - ['27:17:00', 'F00801',  29066] # Újpest-Központ M
-      - ['27:18:00', 'F00854',  29414] # Erzsébet utca
-      - ['27:19:00', 'F00836',  29765] # Árpád üzletház
-      - ['27:20:00', 'F00886',  30012] # Árpád Kórház
-      - ['27:20:00', 'F00838',  30331] # Víztorony
-      - ['27:22:00', 'F03048',  31179] # Hubay Jenő tér
-      - ['27:23:00', 'F03047',  31433] # Rákospalota, Széchenyi tér
-      - ['27:24:00', 'F03040',  31660] # Régi Fóti út
-      - ['27:25:00', 'F03037',  32225] # Csillagos köz
-      - ['27:26:00', 'F03035',  32512] # Kossuth utca, lakótelep
-      - ['27:27:00', 'F03029',  32913] # Rákospalota, Kossuth utca
+      - ['00:00:00', 'F03665',      0] # Pestszentimre vasútállomás (Vasút utca)
+      - ['00:01:00', 'F03662',    684] # Törvény utca
+      - ['00:02:00', 'F03661',   1017] # Vásáros tér
+      - ['00:03:00', 'F03664',   1674] # Ady Endre utca
+      - ['00:04:00', 'F03651',   2105] # Kisfaludy utca
+      - ['00:05:00', 'F03653',   2505] # Damjanich utca
+      - ['00:06:00', 'F03860',   2871] # Alacskai úti lakótelep
+      - ['00:07:00', 'F03799',   3397] # Alacskai út
+      - ['00:08:00', '008904',   3772] # Kétújfalu utca
+      - ['00:08:00', 'F03849',   4100] # Halomi út
+      - ['00:09:00', 'F03847',   4526] # Beszterce utca
+      - ['00:10:00', '008951',   5229] # Béke tér
+      - ['00:11:00', 'F03856',   5597] # Ungvár utca
+      - ['00:12:00', 'F03886',   6005] # Bajcsy-Zsilinszky út
+      - ['00:13:00', 'F03806',   6480] # Honvéd utca
+      - ['00:14:00', 'F03689',   6804] # Iparvasút
+      - ['00:15:00', 'F03824',   7175] # Madarász utca
+      - ['00:16:00', 'F03713',   7779] # Szarvas csárda tér
+      - ['00:17:00', 'F03707',   8371] # Thököly út
+      - ['00:18:00', 'F03772',   8653] # Baross utca
+      - ['00:19:00', 'F03836',   9003] # Kemény Zsigmond utca
+      - ['00:20:00', 'F03752',   9434] # Margó Tivadar utca
+      - ['00:21:00', 'F03740',   9764] # Tinódi utca
+      - ['00:21:00', '008047',   9919] # Lajosmizsei sorompó
+      - ['00:22:00', 'F04029',  10386] # Villanytelep
+      - ['00:23:00', 'F03906',  10854] # Árpád utca
+      - ['00:24:00', 'F03952',  11195] # Fő utca
+      - ['00:25:00', 'F03949',  11459] # Kossuth tér
+      - ['00:26:00', 'F03934',  11873] # Lehel utca
+      - ['00:27:00', 'F03902',  12396] # Nyáry Pál utca
+      - ['00:29:00', 'F03929',  12977] # Határ út M
+      - ['00:30:00', '044126',  13343] # Száva kocsiszín
+      - ['00:31:00', 'F01465',  13819] # Pöttyös utca M
+      - ['00:32:00', 'F01496',  14345] # Ecseri út M
+      - ['00:34:00', 'F01285',  15353] # Népliget M
+      - ['00:37:00', 'F01248',  16655] # Nagyvárad tér M
+      - ['00:39:00', 'F01234',  17534] # Klinikák M
+      - ['00:41:00', 'F01193',  18320] # Corvin-negyed M
+      - ['00:43:00', 'F01010',  19185] # Kálvin tér M
+      - ['00:44:00', 'F01013',  19681] # Astoria M
+      - ['00:48:00', '009309',  20179] # Deák Ferenc tér M
+      - ['00:50:00', 'F00942',  20861] # Arany János utca M
+      - ['00:51:00', 'F00940',  21322] # Podmaniczky utca
+      - ['00:53:00', 'F01029',  21722] # Nyugati pályaudvar M
+      - ['00:54:00', 'F01025',  21893] # Nyugati pályaudvar M
+      - ['00:56:00', 'F02617',  22727] # Lehel tér M
+      - ['00:58:00', 'F02609',  23685] # Váci út (Dózsa György út M)
+      - ['01:01:00', 'F02579',  24801] # Árpád híd M
+      - ['01:03:00', 'F02679',  25673] # Forgách utca M
+      - ['01:05:00', 'F02564',  26346] # Fiastyúk utca
+      - ['01:06:00', 'F02537',  26695] # Gyöngyösi utca M
+      - ['01:08:00', '008944',  27576] # Újpest-Városkapu M (Váci út)
+      - ['01:09:00', 'F00808',  28217] # Árpád út
+      - ['01:10:00', 'F00809',  28509] # Újpest-Városkapu M
+      - ['01:12:00', 'F00801',  29066] # Újpest-Központ M
+      - ['01:13:00', 'F00854',  29414] # Erzsébet utca
+      - ['01:14:00', 'F00836',  29765] # Árpád üzletház
+      - ['01:15:00', 'F00886',  30012] # Árpád Kórház
+      - ['01:15:00', 'F00838',  30331] # Víztorony
+      - ['01:17:00', 'F03048',  31179] # Hubay Jenő tér
+      - ['01:18:00', 'F03047',  31433] # Rákospalota, Széchenyi tér
+      - ['01:19:00', 'F03040',  31660] # Régi Fóti út
+      - ['01:20:00', 'F03037',  32225] # Csillagos köz
+      - ['01:21:00', 'F03035',  32512] # Kossuth utca, lakótelep
+      - ['01:22:00', 'F03029',  32913] # Rákospalota, Kossuth utca
     trip_headsign: 'Rákospalota, Kossuth utca'
     trip_id: REFERENCE-9501-1-1
     wheelchair_accessible: 2

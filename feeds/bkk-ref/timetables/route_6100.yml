@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: D36E70
-route_desc: Örs vezér tere M+H / Gödöllő
+route_desc: Örs vezér tere / Gödöllő
 route_id: 6100
 route_long_name: Gödöllői járat
 route_short_name: H8
@@ -13,26 +13,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-6100-0-1-1225
     stop_times:
-      - ['14:56:00', 'F01792',      0] # Örs vezér tere
-      - ['14:58:00', 'F01820',   1136] # Rákosfalva
-      - ['15:01:00', 'F03423',   2323] # Nagyicce
-      - ['15:03:00', 'F03425',   3242] # Sashalom
-      - ['15:05:00', 'F03419',   4439] # Mátyásföld, repülőtér
-      - ['15:06:00', 'F03417',   4901] # Mátyásföld, Imre utca
-      - ['15:08:00', 'F03415',   5489] # Mátyásföld alsó
-      - ['15:10:00', 'F03413',   6336] # Cinkota
-      - ['15:12:00', 'F03421',   7595] # Ilonatelep
-      - ['15:16:00', 'F04656',   9636] # Kistarcsa, kórház
-      - ['15:18:00', 'F04658',  10678] # Kistarcsa
-      - ['15:19:00', 'F04660',  11110] # Zsófialiget
-      - ['15:21:00', 'F04662',  11897] # Kerepes
-      - ['15:24:00', 'F04664',  13812] # Szilasliget
-      - ['15:28:00', 'F04668',  17051] # Mogyoród
-      - ['15:30:00', 'F04670',  18533] # Szentjakab
-      - ['15:36:00', 'F04672',  22674] # Gödöllő, Erzsébet park
-      - ['15:38:00', 'F04674',  23202] # Gödöllő, Szabadság tér
-      - ['15:41:00', 'F04676',  24069] # Gödöllő, Palotakert
-      - ['15:43:00', 'F04679',  24658] # Gödöllő
+      - ['00:00:00', 'F01792',      0] # Örs vezér tere
+      - ['00:02:00', 'F01820',   1136] # Rákosfalva
+      - ['00:05:00', 'F03423',   2323] # Nagyicce
+      - ['00:07:00', 'F03425',   3242] # Sashalom
+      - ['00:09:00', 'F03419',   4439] # Mátyásföld, repülőtér
+      - ['00:10:00', 'F03417',   4901] # Mátyásföld, Imre utca
+      - ['00:12:00', 'F03415',   5489] # Mátyásföld alsó
+      - ['00:14:00', 'F03413',   6336] # Cinkota
+      - ['00:16:00', 'F03421',   7595] # Ilonatelep
+      - ['00:20:00', 'F04656',   9636] # Kistarcsa, kórház
+      - ['00:22:00', 'F04658',  10678] # Kistarcsa
+      - ['00:23:00', 'F04660',  11110] # Zsófialiget
+      - ['00:25:00', 'F04662',  11897] # Kerepes
+      - ['00:28:00', 'F04664',  13812] # Szilasliget
+      - ['00:32:00', 'F04668',  17051] # Mogyoród
+      - ['00:34:00', 'F04670',  18533] # Szentjakab
+      - ['00:40:00', 'F04672',  22674] # Gödöllő, Erzsébet park
+      - ['00:42:00', 'F04674',  23202] # Gödöllő, Szabadság tér
+      - ['00:45:00', 'F04676',  24069] # Gödöllő, Palotakert
+      - ['00:47:00', 'F04679',  24658] # Gödöllő
     trip_headsign: Gödöllő
     trip_id: REFERENCE-6100-0-1
     wheelchair_accessible: 2
@@ -40,26 +40,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-6100-1-1-1226
     stop_times:
-      - ['11:48:00', 'F04679',      0] # Gödöllő
-      - ['11:50:00', 'F04677',    581] # Gödöllő, Palotakert
-      - ['11:53:00', 'F04675',   1387] # Gödöllő, Szabadság tér
-      - ['11:55:00', 'F04673',   2098] # Gödöllő, Erzsébet park
-      - ['12:01:00', 'F04671',   6113] # Szentjakab
-      - ['12:03:00', 'F04669',   7715] # Mogyoród
-      - ['12:07:00', 'F04665',  10947] # Szilasliget
-      - ['12:10:00', 'F04663',  12860] # Kerepes
-      - ['12:12:00', 'F04661',  13536] # Zsófialiget
-      - ['12:13:00', 'F04659',  13970] # Kistarcsa
-      - ['12:15:00', 'F04657',  15141] # Kistarcsa, kórház
-      - ['12:19:00', 'F03422',  17146] # Ilonatelep
-      - ['12:22:00', 'F03414',  18307] # Cinkota
-      - ['12:24:00', 'F03416',  19149] # Mátyásföld alsó
-      - ['12:26:00', 'F03418',  19867] # Mátyásföld, Imre utca
-      - ['12:27:00', 'F03420',  20318] # Mátyásföld, repülőtér
-      - ['12:29:00', 'F03426',  21531] # Sashalom
-      - ['12:31:00', 'F03424',  22318] # Nagyicce
-      - ['12:33:00', 'F01821',  23633] # Rákosfalva
-      - ['12:36:00', 'F01792',  24657] # Örs vezér tere
+      - ['00:00:00', 'F04679',      0] # Gödöllő
+      - ['00:02:00', 'F04677',    581] # Gödöllő, Palotakert
+      - ['00:05:00', 'F04675',   1387] # Gödöllő, Szabadság tér
+      - ['00:07:00', 'F04673',   2098] # Gödöllő, Erzsébet park
+      - ['00:13:00', 'F04671',   6113] # Szentjakab
+      - ['00:15:00', 'F04669',   7715] # Mogyoród
+      - ['00:19:00', 'F04665',  10947] # Szilasliget
+      - ['00:22:00', 'F04663',  12860] # Kerepes
+      - ['00:24:00', 'F04661',  13536] # Zsófialiget
+      - ['00:25:00', 'F04659',  13970] # Kistarcsa
+      - ['00:27:00', 'F04657',  15141] # Kistarcsa, kórház
+      - ['00:31:00', 'F03422',  17146] # Ilonatelep
+      - ['00:34:00', 'F03414',  18307] # Cinkota
+      - ['00:36:00', 'F03416',  19149] # Mátyásföld alsó
+      - ['00:38:00', 'F03418',  19867] # Mátyásföld, Imre utca
+      - ['00:39:00', 'F03420',  20318] # Mátyásföld, repülőtér
+      - ['00:41:00', 'F03426',  21531] # Sashalom
+      - ['00:43:00', 'F03424',  22318] # Nagyicce
+      - ['00:45:00', 'F01821',  23633] # Rákosfalva
+      - ['00:48:00', 'F01792',  24657] # Örs vezér tere
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-6100-1-1
     wheelchair_accessible: 2

@@ -13,24 +13,24 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0570-0-1-2375
     stop_times:
-      - ['09:10:00', '007976',      0] # Hűvösvölgy
-      - ['09:11:00', 'F00339',    188] # Hidegkúti út
-      - ['09:12:00', 'F00356',    543] # Bükkfa utca
-      - ['09:13:00', 'F00368',   1020] # Széchenyi utca
-      - ['09:14:00', 'F00370',   1275] # Turul utca
-      - ['09:15:00', 'F00362',   1777] # Kerényi Frigyes utca
-      - ['09:16:00', 'F00388',   2359] # Csatlós utca
-      - ['09:17:00', 'F00390',   2848] # Hímes utca
-      - ['09:18:00', 'F00392',   3190] # Bölény utca
-      - ['09:19:00', 'F00395',   3645] # Solymári elágazás
-      - ['09:20:00', 'F00401',   4081] # Templom utca
-      - ['09:21:00', 'F00403',   4402] # Községház utca
-      - ['09:22:00', 'F00405',   4800] # Mikszáth Kálmán utca
-      - ['09:23:00', 'F00407',   5301] # Kölcsey utca
-      - ['09:24:00', 'F00361',   5726] # Kossuth Lajos utca
-      - ['09:26:00', 'F00359',   6397] # Hunyadi János utca
-      - ['09:27:00', 'F00340',   6846] # Bátori László utca
-      - ['09:28:00', '007972',   7002] # Hűvösvölgy
+      - ['00:00:00', '007976',      0] # Hűvösvölgy
+      - ['00:01:00', 'F00339',    188] # Hidegkúti út
+      - ['00:02:00', 'F00356',    543] # Bükkfa utca
+      - ['00:03:00', 'F00368',   1020] # Széchenyi utca
+      - ['00:04:00', 'F00370',   1275] # Turul utca
+      - ['00:05:00', 'F00362',   1777] # Kerényi Frigyes utca
+      - ['00:06:00', 'F00388',   2359] # Csatlós utca
+      - ['00:07:00', 'F00390',   2848] # Hímes utca
+      - ['00:08:00', 'F00392',   3190] # Bölény utca
+      - ['00:09:00', 'F00395',   3645] # Solymári elágazás
+      - ['00:10:00', 'F00401',   4081] # Templom utca
+      - ['00:11:00', 'F00403',   4402] # Községház utca
+      - ['00:12:00', 'F00405',   4800] # Mikszáth Kálmán utca
+      - ['00:13:00', 'F00407',   5301] # Kölcsey utca
+      - ['00:14:00', 'F00361',   5726] # Kossuth Lajos utca
+      - ['00:16:00', 'F00359',   6397] # Hunyadi János utca
+      - ['00:17:00', 'F00340',   6846] # Bátori László utca
+      - ['00:18:00', '007972',   7002] # Hűvösvölgy
     trip_headsign: Hűvösvölgy
     trip_id: REFERENCE-0570-0-1
     wheelchair_accessible: 2

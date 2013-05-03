@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3190-0-1-J900
     stop_times:
-      - ['21:44:00', '007967',      0] # Kelenföldi pályaudvar
-      - ['21:45:00', 'F02039',    393] # Szent Gellért Templom
-      - ['21:47:00', 'F02040',    854] # Csóka utca
-      - ['21:49:00', 'F02046',   1254] # Tétényi út
-      - ['21:51:00', 'F02184',   1809] # Kosztolányi Dezső tér
-      - ['21:53:00', 'F02203',   2374] # Móricz Zsigmond körtér
-      - ['21:55:00', 'F02149',   2877] # Gárdonyi tér
-      - ['21:56:00', '008591',   3262] # Szent Gellért tér
-      - ['21:59:00', 'F00106',   4452] # Döbrentei tér
-      - ['22:00:00', '009675',   5091] # Clark Ádám tér
-      - ['22:02:00', 'F00052',   5616] # Halász utca
-      - ['22:03:00', '008750',   6063] # Batthyány tér M+H
+      - ['00:00:00', '007967',      0] # Kelenföldi pályaudvar
+      - ['00:01:00', 'F02039',    393] # Szent Gellért Templom
+      - ['00:03:00', 'F02040',    854] # Csóka utca
+      - ['00:05:00', 'F02046',   1254] # Tétényi út
+      - ['00:07:00', 'F02184',   1809] # Kosztolányi Dezső tér
+      - ['00:09:00', 'F02203',   2374] # Móricz Zsigmond körtér
+      - ['00:11:00', 'F02149',   2877] # Gárdonyi tér
+      - ['00:12:00', '008591',   3262] # Szent Gellért tér
+      - ['00:16:00', 'F00106',   4452] # Döbrentei tér
+      - ['00:17:00', '009675',   5091] # Clark Ádám tér
+      - ['00:19:00', 'F00052',   5616] # Halász utca
+      - ['00:20:00', '008750',   6063] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-3190-0-1
     wheelchair_accessible: 2
@@ -32,18 +32,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3190-1-1-J899
     stop_times:
-      - ['21:21:00', '008750',      0] # Batthyány tér M+H
-      - ['21:22:00', 'F00051',    400] # Halász utca
-      - ['21:24:00', '009676',   1009] # Clark Ádám tér
-      - ['21:25:00', 'F00107',   1639] # Döbrentei tér
-      - ['21:28:00', '008590',   2839] # Szent Gellért tér
-      - ['21:30:00', 'F02148',   3238] # Gárdonyi tér
-      - ['21:32:00', 'F02202',   3728] # Móricz Zsigmond körtér
-      - ['21:33:00', 'F02181',   4309] # Kosztolányi Dezső tér
-      - ['21:35:00', 'F02047',   4847] # Tétényi út
-      - ['21:37:00', 'F02042',   5272] # Csóka utca
-      - ['21:38:00', 'F02038',   5722] # Szent Gellért Templom
-      - ['21:40:00', '007967',   6064] # Kelenföldi pályaudvar
+      - ['00:00:00', '008750',      0] # Batthyány tér M+H
+      - ['00:01:00', 'F00051',    400] # Halász utca
+      - ['00:03:00', '009676',   1009] # Clark Ádám tér
+      - ['00:05:00', 'F00107',   1639] # Döbrentei tér
+      - ['00:08:00', '008590',   2839] # Szent Gellért tér
+      - ['00:10:00', 'F02148',   3238] # Gárdonyi tér
+      - ['00:12:00', 'F02202',   3728] # Móricz Zsigmond körtér
+      - ['00:14:00', 'F02181',   4309] # Kosztolányi Dezső tér
+      - ['00:16:00', 'F02047',   4847] # Tétényi út
+      - ['00:18:00', 'F02042',   5272] # Csóka utca
+      - ['00:20:00', 'F02038',   5722] # Szent Gellért Templom
+      - ['00:21:00', '007967',   6064] # Kelenföldi pályaudvar
     trip_headsign: Kelenföldi pályaudvar
     trip_id: REFERENCE-3190-1-1
     wheelchair_accessible: 2

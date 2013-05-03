@@ -13,15 +13,15 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0855-0-1-Q673
     stop_times:
-      - ['15:08:00', '008027',      0] # Örs vezér tere M+H
-      - ['15:15:00', 'F01831',   3031] # Kocka utca
-      - ['15:18:00', 'F01685',   4133] # Kada utca
-      - ['15:20:00', 'F01701',   4580] # Lavotta utca
-      - ['15:21:00', 'F01841',   5209] # Újhegyi sétány
-      - ['15:22:00', 'F01714',   5455] # Tavas utca
-      - ['15:23:00', 'F01695',   5818] # Mélytó utca
-      - ['15:24:00', 'F01844',   6146] # Bányató utca
-      - ['15:29:00', '038670',   7757] # Kőbánya-Kispest M
+      - ['00:00:00', '008027',      0] # Örs vezér tere M+H
+      - ['00:06:00', 'F01831',   3031] # Kocka utca
+      - ['00:09:00', 'F01685',   4133] # Kada utca
+      - ['00:11:00', 'F01701',   4580] # Lavotta utca
+      - ['00:12:00', 'F01841',   5209] # Újhegyi sétány
+      - ['00:13:00', 'F01714',   5455] # Tavas utca
+      - ['00:14:00', 'F01695',   5818] # Mélytó utca
+      - ['00:15:00', 'F01844',   6146] # Bányató utca
+      - ['00:18:00', '038670',   7757] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-0855-0-1
     wheelchair_accessible: 2
@@ -29,15 +29,15 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0855-1-1-Q672
     stop_times:
-      - ['07:18:00', '038683',      0] # Kőbánya-Kispest M
-      - ['07:22:00', 'F01843',   1878] # Bányató utca
-      - ['07:23:00', 'F01696',   2308] # Mélytó utca
-      - ['07:24:00', 'F01842',   2648] # Újhegyi sétány
-      - ['07:25:00', 'F01700',   2923] # Sibrik Miklós út
-      - ['07:27:00', 'F01703',   3578] # Lavotta utca
-      - ['07:28:00', 'F01683',   4003] # Kada utca
-      - ['07:30:00', 'F01832',   4826] # Kocka utca
-      - ['07:42:00', '008027',   7584] # Örs vezér tere M+H
+      - ['00:00:00', '038683',      0] # Kőbánya-Kispest M
+      - ['00:03:00', 'F01843',   1878] # Bányató utca
+      - ['00:04:00', 'F01696',   2308] # Mélytó utca
+      - ['00:05:00', 'F01842',   2648] # Újhegyi sétány
+      - ['00:06:00', 'F01700',   2923] # Sibrik Miklós út
+      - ['00:08:00', 'F01703',   3578] # Lavotta utca
+      - ['00:09:00', 'F01683',   4003] # Kada utca
+      - ['00:11:00', 'F01832',   4826] # Kocka utca
+      - ['00:22:00', '008027',   7584] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-0855-1-1
     wheelchair_accessible: 2

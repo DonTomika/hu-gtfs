@@ -13,16 +13,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3600-0-1-G368
     stop_times:
-      - ['16:48:00', 'F02330',      0] # Városmajor
-      - ['16:49:00', 'F02328',    400] # Szent János Kórház
-      - ['16:51:00', 'F02326',    888] # Orgonás
-      - ['16:53:00', 'F02324',   1250] # Esze Tamás iskola
-      - ['16:54:00', 'F02322',   1561] # Erdei iskola
-      - ['16:56:00', 'F02320',   2196] # Gyöngyvirág út
-      - ['16:58:00', 'F02318',   2548] # Városkút
-      - ['16:59:00', 'F02316',   2869] # Svábhegy
-      - ['17:01:00', 'F02314',   3339] # Művész út
-      - ['17:02:00', 'F02313',   3705] # Széchenyi-hegy, Gyermekvasút
+      - ['00:00:00', 'F02330',      0] # Városmajor
+      - ['00:01:00', 'F02328',    400] # Szent János Kórház
+      - ['00:03:00', 'F02326',    888] # Orgonás
+      - ['00:05:00', 'F02324',   1250] # Esze Tamás iskola
+      - ['00:06:00', 'F02322',   1561] # Erdei iskola
+      - ['00:08:00', 'F02320',   2196] # Gyöngyvirág út
+      - ['00:10:00', 'F02318',   2548] # Városkút
+      - ['00:11:00', 'F02316',   2869] # Svábhegy
+      - ['00:13:00', 'F02314',   3339] # Művész út
+      - ['00:14:00', 'F02313',   3705] # Széchenyi-hegy, Gyermekvasút
     trip_headsign: 'Széchenyi-hegy, Gyermekvasút'
     trip_id: REFERENCE-3600-0-1
     wheelchair_accessible: 2
@@ -30,16 +30,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3600-1-1-G367
     stop_times:
-      - ['06:00:00', 'F02313',      0] # Széchenyi-hegy, Gyermekvasút
-      - ['06:01:00', 'F02315',    400] # Művész út
-      - ['06:03:00', 'F02317',    892] # Svábhegy
-      - ['06:04:00', 'F02319',   1187] # Városkút
-      - ['06:06:00', 'F02321',   1548] # Gyöngyvirág út
-      - ['06:09:00', 'F02323',   2176] # Erdei iskola
-      - ['06:10:00', 'F02325',   2484] # Esze Tamás iskola
-      - ['06:12:00', 'F02327',   2866] # Orgonás
-      - ['06:14:00', 'F02329',   3334] # Szent János Kórház
-      - ['06:15:00', 'F02330',   3703] # Városmajor
+      - ['00:00:00', 'F02313',      0] # Széchenyi-hegy, Gyermekvasút
+      - ['00:01:00', 'F02315',    400] # Művész út
+      - ['00:03:00', 'F02317',    892] # Svábhegy
+      - ['00:04:00', 'F02319',   1187] # Városkút
+      - ['00:06:00', 'F02321',   1548] # Gyöngyvirág út
+      - ['00:09:00', 'F02323',   2176] # Erdei iskola
+      - ['00:10:00', 'F02325',   2484] # Esze Tamás iskola
+      - ['00:12:00', 'F02327',   2866] # Orgonás
+      - ['00:14:00', 'F02329',   3334] # Szent János Kórház
+      - ['00:15:00', 'F02330',   3703] # Városmajor
     trip_headsign: Városmajor
     trip_id: REFERENCE-3600-1-1
     wheelchair_accessible: 2

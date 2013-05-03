@@ -13,52 +13,52 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0050-0-1-J649
     stop_times:
-      - ['05:15:00', 'F00277',      0] # Pasaréti tér
-      - ['05:16:00', 'F00281',    525] # Harangvirág utca
-      - ['05:16:00', 'F00283',    752] # Lotz Károly utca
-      - ['05:17:00', 'F00285',   1174] # Gábor Áron utca
-      - ['05:18:00', 'F00287',   1472] # Júlia utca
-      - ['05:19:00', 'F00289',   1891] # Vasas sportpálya
-      - ['05:20:00', 'F00158',   2322] # Városmajor
-      - ['05:21:00', 'F00428',   2723] # Nyúl utca
-      - ['05:22:00', 'F02333',   3118] # Széll Kálmán tér M (Csaba utca)
-      - ['05:22:00', 'F00029',   3451] # Körmöci utca
-      - ['05:23:00', 'F00092',   3778] # Korlát utca
-      - ['05:24:00', 'F00088',   4155] # Mikó utca
-      - ['05:25:00', 'F00084',   4556] # Alagút utca
-      - ['05:27:00', 'F00079',   4950] # Dózsa György tér
-      - ['05:28:00', 'F00104',   5494] # Döbrentei tér
-      - ['05:30:00', 'F00951',   6492] # Ferenciek tere M
-      - ['05:32:00', 'F01016',   6976] # Astoria M
-      - ['05:33:00', 'F01170',   7316] # Uránia
-      - ['05:34:00', 'F01164',   7712] # Blaha Lujza tér M
-      - ['05:36:00', 'F01162',   8387] # Berzsenyi utca
-      - ['05:38:00', 'F01159',   8933] # Keleti pályaudvar M
-      - ['05:39:00', 'F01146',   9398] # Dózsa György út
-      - ['05:40:00', 'F02716',   9725] # Cházár András utca
-      - ['05:42:00', 'F02723',  10168] # Stefánia út
-      - ['05:43:00', 'F02725',  10538] # Zugló vasútállomás
-      - ['05:44:00', 'F02873',  11040] # Korong utca
-      - ['05:46:00', 'F02876',  11503] # Erzsébet királyné útja, aluljáró
-      - ['05:46:00', 'F02962',  11860] # Laky Adolf utca
-      - ['05:48:00', 'F02866',  12294] # Nagy Lajos király útja
-      - ['05:49:00', 'F02948',  12750] # Fűrész utca
-      - ['05:50:00', 'F02863',  13117] # Rákospatak utca
-      - ['05:51:00', 'F02911',  13586] # Miskolci utca
-      - ['05:52:00', 'F02857',  13885] # Öv utca
-      - ['05:54:00', 'F03206',  14381] # Tóth István utca
-      - ['05:55:00', 'F03100',  14713] # Széchenyi út
-      - ['05:55:00', 'F03168',  15032] # Opál utca
-      - ['05:57:00', 'F03082',  15601] # Rákos út
-      - ['05:57:00', 'F03204',  15831] # Szent Korona útja
-      - ['05:58:00', 'F03182',  16103] # Wesselényi utca
-      - ['05:59:00', 'F03116',  16390] # Szerencs utca
-      - ['05:59:00', 'F03072',  16648] # Rákos úti szakrendelő
-      - ['06:01:00', 'F03059',  17258] # Szentmihályi út
-      - ['06:02:00', 'F03039',  17608] # Cserba Elemér út
-      - ['06:03:00', 'F03037',  18164] # Csillagos köz
-      - ['06:04:00', 'F03035',  18451] # Kossuth utca, lakótelep
-      - ['06:05:00', '009657',  18791] # Rákospalota, Kossuth utca
+      - ['00:00:00', 'F00277',      0] # Pasaréti tér
+      - ['00:01:00', 'F00281',    525] # Harangvirág utca
+      - ['00:02:00', 'F00283',    752] # Lotz Károly utca
+      - ['00:03:00', 'F00285',   1174] # Gábor Áron utca
+      - ['00:04:00', 'F00287',   1472] # Júlia utca
+      - ['00:05:00', 'F00289',   1891] # Vasas sportpálya
+      - ['00:06:00', 'F00158',   2322] # Városmajor
+      - ['00:07:00', 'F00428',   2723] # Nyúl utca
+      - ['00:09:00', 'F02333',   3118] # Széll Kálmán tér M (Csaba utca)
+      - ['00:10:00', 'F00029',   3451] # Körmöci utca
+      - ['00:11:00', 'F00092',   3778] # Korlát utca
+      - ['00:13:00', 'F00088',   4155] # Mikó utca
+      - ['00:15:00', 'F00084',   4556] # Alagút utca
+      - ['00:17:00', 'F00079',   4950] # Dózsa György tér
+      - ['00:18:00', 'F00104',   5494] # Döbrentei tér
+      - ['00:20:00', 'F00951',   6492] # Ferenciek tere M
+      - ['00:22:00', 'F01016',   6976] # Astoria M
+      - ['00:23:00', 'F01170',   7316] # Uránia
+      - ['00:24:00', 'F01164',   7712] # Blaha Lujza tér M
+      - ['00:27:00', 'F01162',   8387] # Berzsenyi utca
+      - ['00:29:00', 'F01159',   8933] # Keleti pályaudvar M
+      - ['00:30:00', 'F01146',   9398] # Dózsa György út
+      - ['00:31:00', 'F02716',   9725] # Cházár András utca
+      - ['00:33:00', 'F02723',  10168] # Stefánia út
+      - ['00:34:00', 'F02725',  10538] # Zugló vasútállomás
+      - ['00:35:00', 'F02873',  11040] # Korong utca
+      - ['00:37:00', 'F02876',  11503] # Erzsébet királyné útja, aluljáró
+      - ['00:38:00', 'F02962',  11860] # Laky Adolf utca
+      - ['00:40:00', 'F02866',  12294] # Nagy Lajos király útja
+      - ['00:41:00', 'F02948',  12750] # Fűrész utca
+      - ['00:42:00', 'F02863',  13117] # Rákospatak utca
+      - ['00:43:00', 'F02911',  13586] # Miskolci utca
+      - ['00:44:00', 'F02857',  13885] # Öv utca
+      - ['00:46:00', 'F03206',  14381] # Tóth István utca
+      - ['00:47:00', 'F03100',  14713] # Széchenyi út
+      - ['00:47:00', 'F03168',  15032] # Opál utca
+      - ['00:49:00', 'F03082',  15601] # Rákos út
+      - ['00:50:00', 'F03204',  15831] # Szent Korona útja
+      - ['00:51:00', 'F03182',  16103] # Wesselényi utca
+      - ['00:51:00', 'F03116',  16390] # Szerencs utca
+      - ['00:52:00', 'F03072',  16648] # Rákos úti szakrendelő
+      - ['00:54:00', 'F03059',  17258] # Szentmihályi út
+      - ['00:55:00', 'F03039',  17608] # Cserba Elemér út
+      - ['00:57:00', 'F03037',  18164] # Csillagos köz
+      - ['00:57:00', 'F03035',  18451] # Kossuth utca, lakótelep
+      - ['00:59:00', '009657',  18791] # Rákospalota, Kossuth utca
     trip_headsign: 'Rákospalota, Kossuth utca'
     trip_id: REFERENCE-0050-0-1
     wheelchair_accessible: 2
@@ -66,51 +66,51 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0050-1-1-J648
     stop_times:
-      - ['06:23:00', 'F03033',      0] # Rákospalota, Kossuth utca
-      - ['06:23:00', 'F03034',    303] # Régi Fóti út
-      - ['06:24:00', 'F03036',    565] # Kazinczy utca
-      - ['06:25:00', 'F03038',    941] # Epres sor
-      - ['06:27:00', 'F03058',   1406] # Rákos út
-      - ['06:28:00', 'F03071',   2018] # Rákos úti szakrendelő
-      - ['06:29:00', 'F03181',   2411] # Wesselényi utca
-      - ['06:30:00', 'F03203',   2708] # Szent Korona útja
-      - ['06:31:00', 'F03083',   3069] # Széchenyi út
-      - ['06:32:00', 'F03169',   3585] # Opál utca
-      - ['06:34:00', 'F03101',   3928] # Kolozsvár utca
-      - ['06:34:00', 'F03205',   4199] # Tóth István utca
-      - ['06:36:00', 'F02858',   4714] # Öv utca
-      - ['06:37:00', 'F02909',   5004] # Miskolci utca
-      - ['06:38:00', 'F02861',   5432] # Rákospatak utca
-      - ['06:39:00', 'F02947',   5820] # Fűrész utca
-      - ['06:41:00', 'F02865',   6264] # Nagy Lajos király útja
-      - ['06:42:00', 'F02963',   6725] # Laky Adolf utca
-      - ['06:45:00', 'F02881',   7185] # Erzsébet királyné útja, aluljáró
-      - ['06:46:00', 'F02875',   7518] # Korong utca
-      - ['06:47:00', 'F02730',   7972] # Zugló vasútállomás
-      - ['06:49:00', 'F02722',   8520] # Stefánia út
-      - ['06:50:00', 'F02717',   8854] # Cházár András utca
-      - ['06:50:00', 'F01145',   9098] # Dózsa György út
-      - ['06:53:00', 'F01314',   9811] # Keleti pályaudvar M
-      - ['06:54:00', 'F01161',  10218] # Huszár utca
-      - ['06:56:00', 'F01166',  10720] # Blaha Lujza tér M
-      - ['06:57:00', 'F01171',  11252] # Uránia
-      - ['06:59:00', 'F01017',  11598] # Astoria M
-      - ['06:59:00', 'F01004',  11920] # Ferenciek tere M
-      - ['07:02:00', 'F00102',  13209] # Szarvas tér
-      - ['07:03:00', 'F00078',  13614] # Dózsa György tér
-      - ['07:04:00', 'F00082',  14147] # Alagút utca
-      - ['07:06:00', 'F00091',  14769] # Korlát utca
-      - ['07:07:00', 'F00028',  15106] # Körmöci utca
-      - ['07:08:00', 'F02332',  15469] # Széll Kálmán tér M
-      - ['07:09:00', 'F00427',  15951] # Nyúl utca
-      - ['07:09:00', 'F00155',  16187] # Városmajor
-      - ['07:11:00', 'F00288',  16723] # Vasas sportpálya
-      - ['07:11:00', 'F00286',  16992] # Júlia utca
-      - ['07:12:00', 'F00284',  17287] # Gábor Áron utca
-      - ['07:13:00', 'F00282',  17726] # Virág árok
-      - ['07:14:00', 'F00280',  18043] # Harangvirág utca
-      - ['07:15:00', 'F00276',  18431] # Pasaréti tér
-      - ['07:16:00', 'F00277',  18562] # Pasaréti tér
+      - ['00:00:00', 'F03033',      0] # Rákospalota, Kossuth utca
+      - ['00:00:00', 'F03034',    303] # Régi Fóti út
+      - ['00:01:00', 'F03036',    565] # Kazinczy utca
+      - ['00:02:00', 'F03038',    941] # Epres sor
+      - ['00:04:00', 'F03058',   1406] # Rákos út
+      - ['00:05:00', 'F03071',   2018] # Rákos úti szakrendelő
+      - ['00:06:00', 'F03181',   2411] # Wesselényi utca
+      - ['00:07:00', 'F03203',   2708] # Szent Korona útja
+      - ['00:08:00', 'F03083',   3069] # Széchenyi út
+      - ['00:09:00', 'F03169',   3585] # Opál utca
+      - ['00:11:00', 'F03101',   3928] # Kolozsvár utca
+      - ['00:11:00', 'F03205',   4199] # Tóth István utca
+      - ['00:13:00', 'F02858',   4714] # Öv utca
+      - ['00:14:00', 'F02909',   5004] # Miskolci utca
+      - ['00:15:00', 'F02861',   5432] # Rákospatak utca
+      - ['00:16:00', 'F02947',   5820] # Fűrész utca
+      - ['00:18:00', 'F02865',   6264] # Nagy Lajos király útja
+      - ['00:19:00', 'F02963',   6725] # Laky Adolf utca
+      - ['00:22:00', 'F02881',   7185] # Erzsébet királyné útja, aluljáró
+      - ['00:23:00', 'F02875',   7518] # Korong utca
+      - ['00:24:00', 'F02730',   7972] # Zugló vasútállomás
+      - ['00:26:00', 'F02722',   8520] # Stefánia út
+      - ['00:27:00', 'F02717',   8854] # Cházár András utca
+      - ['00:28:00', 'F01145',   9098] # Dózsa György út
+      - ['00:31:00', 'F01314',   9811] # Keleti pályaudvar M
+      - ['00:32:00', 'F01161',  10218] # Huszár utca
+      - ['00:33:00', 'F01166',  10720] # Blaha Lujza tér M
+      - ['00:35:00', 'F01171',  11252] # Uránia
+      - ['00:36:00', 'F01017',  11598] # Astoria M
+      - ['00:37:00', 'F01004',  11920] # Ferenciek tere M
+      - ['00:40:00', 'F00102',  13209] # Szarvas tér
+      - ['00:42:00', 'F00078',  13614] # Dózsa György tér
+      - ['00:43:00', 'F00082',  14147] # Alagút utca
+      - ['00:45:00', 'F00091',  14769] # Korlát utca
+      - ['00:46:00', 'F00028',  15106] # Körmöci utca
+      - ['00:47:00', 'F02332',  15469] # Széll Kálmán tér M
+      - ['00:48:00', 'F00427',  15951] # Nyúl utca
+      - ['00:49:00', 'F00155',  16187] # Városmajor
+      - ['00:51:00', 'F00288',  16723] # Vasas sportpálya
+      - ['00:51:00', 'F00286',  16992] # Júlia utca
+      - ['00:52:00', 'F00284',  17287] # Gábor Áron utca
+      - ['00:54:00', 'F00282',  17726] # Virág árok
+      - ['00:55:00', 'F00280',  18043] # Harangvirág utca
+      - ['00:56:00', 'F00276',  18431] # Pasaréti tér
+      - ['00:57:00', 'F00277',  18562] # Pasaréti tér
     trip_headsign: Pasaréti tér
     trip_id: REFERENCE-0050-1-1
     wheelchair_accessible: 2

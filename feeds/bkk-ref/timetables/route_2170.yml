@@ -13,29 +13,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2170-0-1-J371
     stop_times:
-      - ['22:20:00', '038791',      0] # Kőbánya alsó vasútállomás
-      - ['22:21:00', 'F01653',    655] # Szent László tér
-      - ['22:22:00', 'F01655',   1245] # Kápolna utca
-      - ['22:23:00', 'F01660',   1606] # Ihász utca
-      - ['22:24:00', 'F01665',   1897] # Kőér utca
-      - ['22:25:00', 'F01839',   2204] # Szlávy utca
-      - ['22:25:00', 'F01690',   2522] # Kada utca
-      - ['22:27:00', 'F01692',   2898] # Noszlopy utca
-      - ['22:28:00', 'F01694',   3613] # Gergely utca (Sibrik Miklós út)
-      - ['22:29:00', 'F01586',   4199] # Újhegyi út
-      - ['22:30:00', 'F01548',   4458] # Gyömrői út 132.
-      - ['22:31:00', 'F01546',   4852] # Hangár utca
-      - ['22:32:00', 'F01723',   5169] # Gyömrői út 156.
-      - ['22:33:00', 'F01545',   5815] # Felsőcsatári út
-      - ['22:34:00', 'F03880',   6233] # Pestszentlőrinc vasútállomás (átjáró)
-      - ['22:35:00', 'F03881',   6502] # Vajk utca
-      - ['22:36:00', 'F03882',   6822] # Csaba utca
-      - ['22:37:00', 'F03697',   7368] # Fedezék utca
-      - ['22:38:00', 'F03830',   7670] # Kosztolányi Dezső utca
-      - ['22:38:00', 'F03700',   7936] # Lőrinci temető
-      - ['22:39:00', 'F03703',   8415] # Gárdonyi Géza utca
-      - ['22:41:00', 'F03716',   8812] # Szarvas csárda tér
-      - ['22:42:00', '009208',   9106] # Pestszentlőrinc, Szarvas csárda tér
+      - ['00:00:00', '038791',      0] # Kőbánya alsó vasútállomás
+      - ['00:01:00', 'F01653',    655] # Szent László tér
+      - ['00:02:00', 'F01655',   1245] # Kápolna utca
+      - ['00:04:00', 'F01660',   1606] # Ihász utca
+      - ['00:04:00', 'F01665',   1897] # Kőér utca
+      - ['00:05:00', 'F01839',   2204] # Szlávy utca
+      - ['00:06:00', 'F01690',   2522] # Kada utca
+      - ['00:07:00', 'F01692',   2898] # Noszlopy utca
+      - ['00:08:00', 'F01694',   3613] # Gergely utca (Sibrik Miklós út)
+      - ['00:10:00', 'F01586',   4199] # Újhegyi út
+      - ['00:10:00', 'F01548',   4458] # Gyömrői út 132.
+      - ['00:12:00', 'F01546',   4852] # Hangár utca
+      - ['00:12:00', 'F01723',   5169] # Gyömrői út 156.
+      - ['00:14:00', 'F01545',   5815] # Felsőcsatári út
+      - ['00:15:00', 'F03880',   6233] # Pestszentlőrinc vasútállomás (átjáró)
+      - ['00:15:00', 'F03881',   6502] # Vajk utca
+      - ['00:16:00', 'F03882',   6822] # Csaba utca
+      - ['00:18:00', 'F03697',   7368] # Fedezék utca
+      - ['00:18:00', 'F03830',   7670] # Kosztolányi Dezső utca
+      - ['00:19:00', 'F03700',   7936] # Lőrinci temető
+      - ['00:20:00', 'F03703',   8415] # Gárdonyi Géza utca
+      - ['00:21:00', 'F03716',   8812] # Szarvas csárda tér
+      - ['00:23:00', '009208',   9106] # Pestszentlőrinc, Szarvas csárda tér
     trip_headsign: 'Pestszentlőrinc, Szarvas csárda tér'
     trip_id: REFERENCE-2170-0-1
     wheelchair_accessible: 1
@@ -43,31 +43,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2170-0-2-J369
     stop_times:
-      - ['21:40:00', '038791',      0] # Kőbánya alsó vasútállomás
-      - ['21:41:00', 'F01653',    655] # Szent László tér
-      - ['21:42:00', 'F01655',   1245] # Kápolna utca
-      - ['21:43:00', 'F01660',   1606] # Ihász utca
-      - ['21:44:00', 'F01665',   1897] # Kőér utca
-      - ['21:45:00', 'F01839',   2204] # Szlávy utca
-      - ['21:45:00', 'F01690',   2522] # Kada utca
-      - ['21:46:00', 'F01579',   2911] # Gyömrői út
-      - ['21:47:00', 'F01581',   3127] # Diósgyőri utca
-      - ['21:48:00', 'F01805',   3432] # Vasgyár utca
-      - ['21:48:00', 'F01807',   3862] # Sibrik Miklós út
-      - ['21:49:00', 'F01586',   4430] # Újhegyi út
-      - ['21:50:00', 'F01548',   4689] # Gyömrői út 132.
-      - ['21:51:00', 'F01546',   5083] # Hangár utca
-      - ['21:52:00', 'F01723',   5400] # Gyömrői út 156.
-      - ['21:53:00', 'F01545',   6046] # Felsőcsatári út
-      - ['21:54:00', 'F03880',   6464] # Pestszentlőrinc vasútállomás (átjáró)
-      - ['21:55:00', 'F03881',   6733] # Vajk utca
-      - ['21:56:00', 'F03882',   7053] # Csaba utca
-      - ['21:57:00', 'F03697',   7599] # Fedezék utca
-      - ['21:58:00', 'F03830',   7901] # Kosztolányi Dezső utca
-      - ['21:58:00', 'F03700',   8167] # Lőrinci temető
-      - ['21:59:00', 'F03703',   8646] # Gárdonyi Géza utca
-      - ['22:01:00', 'F03716',   9043] # Szarvas csárda tér
-      - ['22:02:00', '009208',   9337] # Pestszentlőrinc, Szarvas csárda tér
+      - ['00:00:00', '038791',      0] # Kőbánya alsó vasútállomás
+      - ['00:01:00', 'F01653',    655] # Szent László tér
+      - ['00:03:00', 'F01655',   1245] # Kápolna utca
+      - ['00:04:00', 'F01660',   1606] # Ihász utca
+      - ['00:05:00', 'F01665',   1897] # Kőér utca
+      - ['00:06:00', 'F01839',   2204] # Szlávy utca
+      - ['00:07:00', 'F01690',   2522] # Kada utca
+      - ['00:08:00', 'F01579',   2911] # Gyömrői út
+      - ['00:09:00', 'F01581',   3127] # Diósgyőri utca
+      - ['00:10:00', 'F01805',   3432] # Vasgyár utca
+      - ['00:11:00', 'F01807',   3862] # Sibrik Miklós út
+      - ['00:13:00', 'F01586',   4430] # Újhegyi út
+      - ['00:14:00', 'F01548',   4689] # Gyömrői út 132.
+      - ['00:15:00', 'F01546',   5083] # Hangár utca
+      - ['00:16:00', 'F01723',   5400] # Gyömrői út 156.
+      - ['00:17:00', 'F01545',   6046] # Felsőcsatári út
+      - ['00:19:00', 'F03880',   6464] # Pestszentlőrinc vasútállomás (átjáró)
+      - ['00:19:00', 'F03881',   6733] # Vajk utca
+      - ['00:20:00', 'F03882',   7053] # Csaba utca
+      - ['00:22:00', 'F03697',   7599] # Fedezék utca
+      - ['00:23:00', 'F03830',   7901] # Kosztolányi Dezső utca
+      - ['00:24:00', 'F03700',   8167] # Lőrinci temető
+      - ['00:25:00', 'F03703',   8646] # Gárdonyi Géza utca
+      - ['00:26:00', 'F03716',   9043] # Szarvas csárda tér
+      - ['00:28:00', '009208',   9337] # Pestszentlőrinc, Szarvas csárda tér
     trip_headsign: 'Pestszentlőrinc, Szarvas csárda tér'
     trip_id: REFERENCE-2170-0-2
     wheelchair_accessible: 1
@@ -75,59 +75,59 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2170-1-1-J372
     stop_times:
-      - ['06:30:00', '009208',      0] # Pestszentlőrinc, Szarvas csárda tér
-      - ['06:30:00', 'F03704',    486] # Gárdonyi Géza utca
-      - ['06:31:00', 'F03702',    923] # Lőrinci temető
-      - ['06:32:00', 'F03829',   1228] # Kosztolányi Dezső utca
-      - ['06:33:00', 'F03698',   1595] # Fedezék utca
-      - ['06:35:00', 'F03826',   2341] # Csaba utca
-      - ['06:36:00', 'F03843',   2728] # Vajk utca
-      - ['06:36:00', 'F03845',   2928] # Pestszentlőrinc vasútállomás (átjáró)
-      - ['06:37:00', 'F01870',   3449] # Felsőcsatári út
-      - ['06:39:00', 'F01658',   4020] # Gyula utca
-      - ['06:39:00', 'F01587',   4399] # Hangár utca
-      - ['06:40:00', 'F01547',   4589] # Gyömrői út 105.
-      - ['06:41:00', 'F01585',   5106] # Újhegyi út
-      - ['06:43:00', '009289',   5671] # Gergely utca
-      - ['06:44:00', '009225',   6258] # Noszlopy utca
-      - ['06:45:00', '009631',   6613] # Gergely utca 80.
-      - ['06:46:00', 'F01840',   6855] # Szlávy utca
-      - ['06:46:00', 'F01664',   7192] # Kőér utca
-      - ['06:47:00', 'F01659',   7557] # Ihász utca
-      - ['06:49:00', 'F01661',   7999] # Kápolna tér
-      - ['06:50:00', 'F01652',   8687] # Szent László tér
-      - ['06:52:00', 'F01635',   9159] # Kőbánya alsó vasútállomás
+      - ['00:00:00', '009208',      0] # Pestszentlőrinc, Szarvas csárda tér
+      - ['00:00:00', 'F03704',    486] # Gárdonyi Géza utca
+      - ['00:01:00', 'F03702',    923] # Lőrinci temető
+      - ['00:02:00', 'F03829',   1228] # Kosztolányi Dezső utca
+      - ['00:03:00', 'F03698',   1595] # Fedezék utca
+      - ['00:05:00', 'F03826',   2341] # Csaba utca
+      - ['00:06:00', 'F03843',   2728] # Vajk utca
+      - ['00:06:00', 'F03845',   2928] # Pestszentlőrinc vasútállomás (átjáró)
+      - ['00:07:00', 'F01870',   3449] # Felsőcsatári út
+      - ['00:09:00', 'F01658',   4020] # Gyula utca
+      - ['00:09:00', 'F01587',   4399] # Hangár utca
+      - ['00:10:00', 'F01547',   4589] # Gyömrői út 105.
+      - ['00:11:00', 'F01585',   5106] # Újhegyi út
+      - ['00:13:00', '009289',   5671] # Gergely utca
+      - ['00:14:00', '009225',   6258] # Noszlopy utca
+      - ['00:15:00', '009631',   6613] # Gergely utca 80.
+      - ['00:16:00', 'F01840',   6855] # Szlávy utca
+      - ['00:16:00', 'F01664',   7192] # Kőér utca
+      - ['00:17:00', 'F01659',   7557] # Ihász utca
+      - ['00:19:00', 'F01661',   7999] # Kápolna tér
+      - ['00:20:00', 'F01652',   8687] # Szent László tér
+      - ['00:22:00', 'F01635',   9159] # Kőbánya alsó vasútállomás
     trip_headsign: Kőbánya alsó vasútállomás
     trip_id: REFERENCE-2170-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2170-1-2-J370
     stop_times:
-      - ['10:50:00', '009208',      0] # Pestszentlőrinc, Szarvas csárda tér
-      - ['10:51:00', 'F03704',    486] # Gárdonyi Géza utca
-      - ['10:52:00', 'F03702',    923] # Lőrinci temető
-      - ['10:53:00', 'F03829',   1228] # Kosztolányi Dezső utca
-      - ['10:54:00', 'F03698',   1595] # Fedezék utca
-      - ['10:56:00', 'F03826',   2341] # Csaba utca
-      - ['10:57:00', 'F03843',   2728] # Vajk utca
-      - ['10:58:00', 'F03845',   2928] # Pestszentlőrinc vasútállomás (átjáró)
-      - ['10:59:00', 'F01870',   3449] # Felsőcsatári út
-      - ['11:00:00', 'F01658',   4020] # Gyula utca
-      - ['11:01:00', 'F01587',   4399] # Hangár utca
-      - ['11:02:00', 'F01547',   4589] # Gyömrői út 105.
-      - ['11:03:00', 'F01585',   5106] # Újhegyi út
-      - ['11:05:00', 'F01806',   5496] # Sibrik Miklós út
-      - ['11:06:00', 'F01804',   5928] # Vasgyár utca
-      - ['11:07:00', 'F01582',   6289] # Diósgyőri utca
-      - ['11:08:00', 'F01580',   6522] # Kada utca
-      - ['11:09:00', 'F01691',   6810] # Gergely utca
-      - ['11:10:00', 'F01840',   7111] # Szlávy utca
-      - ['11:10:00', 'F01664',   7448] # Kőér utca
-      - ['11:12:00', 'F01659',   7813] # Ihász utca
-      - ['11:13:00', 'F01661',   8255] # Kápolna tér
-      - ['11:15:00', 'F01652',   8943] # Szent László tér
-      - ['11:17:00', 'F01635',   9415] # Kőbánya alsó vasútállomás
+      - ['00:00:00', '009208',      0] # Pestszentlőrinc, Szarvas csárda tér
+      - ['00:01:00', 'F03704',    486] # Gárdonyi Géza utca
+      - ['00:02:00', 'F03702',    923] # Lőrinci temető
+      - ['00:03:00', 'F03829',   1228] # Kosztolányi Dezső utca
+      - ['00:04:00', 'F03698',   1595] # Fedezék utca
+      - ['00:06:00', 'F03826',   2341] # Csaba utca
+      - ['00:07:00', 'F03843',   2728] # Vajk utca
+      - ['00:08:00', 'F03845',   2928] # Pestszentlőrinc vasútállomás (átjáró)
+      - ['00:09:00', 'F01870',   3449] # Felsőcsatári út
+      - ['00:10:00', 'F01658',   4020] # Gyula utca
+      - ['00:11:00', 'F01587',   4399] # Hangár utca
+      - ['00:12:00', 'F01547',   4589] # Gyömrői út 105.
+      - ['00:13:00', 'F01585',   5106] # Újhegyi út
+      - ['00:15:00', 'F01806',   5496] # Sibrik Miklós út
+      - ['00:16:00', 'F01804',   5928] # Vasgyár utca
+      - ['00:17:00', 'F01582',   6289] # Diósgyőri utca
+      - ['00:18:00', 'F01580',   6522] # Kada utca
+      - ['00:19:00', 'F01691',   6810] # Gergely utca
+      - ['00:20:00', 'F01840',   7111] # Szlávy utca
+      - ['00:20:00', 'F01664',   7448] # Kőér utca
+      - ['00:22:00', 'F01659',   7813] # Ihász utca
+      - ['00:23:00', 'F01661',   8255] # Kápolna tér
+      - ['00:25:00', 'F01652',   8943] # Szent László tér
+      - ['00:27:00', 'F01635',   9415] # Kőbánya alsó vasútállomás
     trip_headsign: Kőbánya alsó vasútállomás
     trip_id: REFERENCE-2170-1-2
     wheelchair_accessible: 1

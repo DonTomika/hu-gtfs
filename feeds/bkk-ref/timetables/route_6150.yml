@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: D36E70
-route_desc: Örs vezér tere M+H / Csömör
+route_desc: Örs vezér tere / Csömör
 route_id: 6150
 route_long_name: Csömöri járat
 route_short_name: H9
@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-6150-0-1-1227
     stop_times:
-      - ['23:07:00', 'F01792',      0] # Örs vezér tere
-      - ['23:09:00', 'F01820',   1136] # Rákosfalva
-      - ['23:12:00', 'F03423',   2323] # Nagyicce
-      - ['23:14:00', 'F03425',   3242] # Sashalom
-      - ['23:16:00', 'F03419',   4439] # Mátyásföld, repülőtér
-      - ['23:17:00', 'F03417',   4901] # Mátyásföld, Imre utca
-      - ['23:19:00', 'F03415',   5489] # Mátyásföld alsó
-      - ['23:21:00', 'F03413',   6336] # Cinkota
-      - ['23:23:00', 'F03293',   7293] # Cinkota alsó
-      - ['23:25:00', 'F03409',   8290] # Árpádföld
-      - ['23:27:00', 'F03411',   9025] # Szabadságtelep
-      - ['23:31:00', 'F04655',  10739] # Csömör
+      - ['00:00:00', 'F01792',      0] # Örs vezér tere
+      - ['00:02:00', 'F01820',   1136] # Rákosfalva
+      - ['00:05:00', 'F03423',   2323] # Nagyicce
+      - ['00:07:00', 'F03425',   3242] # Sashalom
+      - ['00:09:00', 'F03419',   4439] # Mátyásföld, repülőtér
+      - ['00:10:00', 'F03417',   4901] # Mátyásföld, Imre utca
+      - ['00:12:00', 'F03415',   5489] # Mátyásföld alsó
+      - ['00:14:00', 'F03413',   6336] # Cinkota
+      - ['00:16:00', 'F03293',   7293] # Cinkota alsó
+      - ['00:18:00', 'F03409',   8290] # Árpádföld
+      - ['00:20:00', 'F03411',   9025] # Szabadságtelep
+      - ['00:24:00', 'F04655',  10739] # Csömör
     trip_headsign: 'Csömör, 2. vágány'
     trip_id: REFERENCE-6150-0-1
     wheelchair_accessible: 2
@@ -32,18 +32,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-6150-1-1-1228
     stop_times:
-      - ['08:57:00', 'F04655',      0] # Csömör
-      - ['09:01:00', 'F03412',   1820] # Szabadságtelep
-      - ['09:03:00', 'F03410',   2544] # Árpádföld
-      - ['09:05:00', 'F03294',   3540] # Cinkota alsó
-      - ['09:07:00', 'F03414',   4393] # Cinkota
-      - ['09:09:00', 'F03416',   5235] # Mátyásföld alsó
-      - ['09:11:00', 'F03418',   5953] # Mátyásföld, Imre utca
-      - ['09:12:00', 'F03420',   6404] # Mátyásföld, repülőtér
-      - ['09:14:00', 'F03426',   7617] # Sashalom
-      - ['09:16:00', 'F03424',   8404] # Nagyicce
-      - ['09:18:00', 'F01821',   9719] # Rákosfalva
-      - ['09:21:00', 'F01792',  10743] # Örs vezér tere
+      - ['00:00:00', 'F04655',      0] # Csömör
+      - ['00:04:00', 'F03412',   1820] # Szabadságtelep
+      - ['00:06:00', 'F03410',   2544] # Árpádföld
+      - ['00:08:00', 'F03294',   3540] # Cinkota alsó
+      - ['00:10:00', 'F03414',   4393] # Cinkota
+      - ['00:12:00', 'F03416',   5235] # Mátyásföld alsó
+      - ['00:14:00', 'F03418',   5953] # Mátyásföld, Imre utca
+      - ['00:15:00', 'F03420',   6404] # Mátyásföld, repülőtér
+      - ['00:17:00', 'F03426',   7617] # Sashalom
+      - ['00:19:00', 'F03424',   8404] # Nagyicce
+      - ['00:21:00', 'F01821',   9719] # Rákosfalva
+      - ['00:24:00', 'F01792',  10743] # Örs vezér tere
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-6150-1-1
     wheelchair_accessible: 2

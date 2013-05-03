@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1261-0-1-D610
     stop_times:
-      - ['07:40:00', 'F00859',      0] # Káposztásmegyer, Szilas-patak
-      - ['07:40:00', 'F00739',    235] # Hajló utca
-      - ['07:41:00', 'F00732',    500] # Művelődési Központ
-      - ['07:42:00', 'F00730',    987] # Gimnázium
-      - ['07:43:00', 'F00871',   1366] # Dunakeszi utca
-      - ['07:44:00', 'F00900',   1732] # Kordován tér
-      - ['07:44:00', 'F00726',   1971] # Szíjgyártó utca
-      - ['07:45:00', 'F00728',   2315] # Homoktövis utca
-      - ['07:47:00', 'F00724',   2781] # Megyeri út
-      - ['07:47:00', 'F00907',   3090] # Székpatak utca
-      - ['07:49:00', 'F00722',   3428] # Káposztásmegyer, Mogyoródi-patak
+      - ['00:00:00', 'F00859',      0] # Káposztásmegyer, Szilas-patak
+      - ['00:00:00', 'F00739',    235] # Hajló utca
+      - ['00:01:00', 'F00732',    500] # Művelődési Központ
+      - ['00:02:00', 'F00730',    987] # Gimnázium
+      - ['00:03:00', 'F00871',   1366] # Dunakeszi utca
+      - ['00:04:00', 'F00900',   1732] # Kordován tér
+      - ['00:04:00', 'F00726',   1971] # Szíjgyártó utca
+      - ['00:05:00', 'F00728',   2315] # Homoktövis utca
+      - ['00:07:00', 'F00724',   2781] # Megyeri út
+      - ['00:07:00', 'F00907',   3090] # Székpatak utca
+      - ['00:10:00', 'F00722',   3428] # Káposztásmegyer, Mogyoródi-patak
     trip_headsign: 'Káposztásmegyer, Mogyoródi-patak'
     trip_id: REFERENCE-1261-0-1
     wheelchair_accessible: 2
@@ -31,18 +31,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1261-1-1-D611
     stop_times:
-      - ['06:21:00', 'F00722',      0] # Káposztásmegyer, Mogyoródi-patak
-      - ['06:22:00', 'F00856',    464] # Homoktövis iskola
-      - ['06:23:00', 'F00721',    957] # Megyeri út
-      - ['06:24:00', 'F00909',   1346] # Sárpatak utca
-      - ['06:25:00', 'F00729',   1920] # Homoktövis utca (Óvoda)
-      - ['06:26:00', 'F00727',   2237] # Szíjgyártó utca
-      - ['06:27:00', 'F00901',   2487] # Kordován tér
-      - ['06:28:00', 'F00872',   2893] # Dunakeszi utca
-      - ['06:29:00', 'F00731',   3163] # Gimnázium
-      - ['06:30:00', 'F00733',   3636] # Művelődési Központ
-      - ['06:31:00', 'F00740',   3932] # Hajló utca
-      - ['06:33:00', 'F00742',   4159] # Káposztásmegyer, Szilas-patak
+      - ['00:00:00', 'F00722',      0] # Káposztásmegyer, Mogyoródi-patak
+      - ['00:01:00', 'F00856',    464] # Homoktövis iskola
+      - ['00:02:00', 'F00721',    957] # Megyeri út
+      - ['00:03:00', 'F00909',   1346] # Sárpatak utca
+      - ['00:04:00', 'F00729',   1920] # Homoktövis utca (Óvoda)
+      - ['00:05:00', 'F00727',   2237] # Szíjgyártó utca
+      - ['00:05:00', 'F00901',   2487] # Kordován tér
+      - ['00:06:00', 'F00872',   2893] # Dunakeszi utca
+      - ['00:07:00', 'F00731',   3163] # Gimnázium
+      - ['00:08:00', 'F00733',   3636] # Művelődési Központ
+      - ['00:09:00', 'F00740',   3932] # Hajló utca
+      - ['00:11:00', 'F00742',   4159] # Káposztásmegyer, Szilas-patak
     trip_headsign: 'Káposztásmegyer, Szilas-patak'
     trip_id: REFERENCE-1261-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

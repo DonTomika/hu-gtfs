@@ -13,38 +13,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9791-0-1-S032
     stop_times:
-      - ['24:09:00', 'F00946',      0] # Deák Ferenc tér M
-      - ['24:10:00', 'F01012',    384] # Astoria M
-      - ['24:12:00', 'F01007',   1059] # Kálvin tér M
-      - ['24:14:00', 'F01195',   1732] # Corvin-negyed M
-      - ['24:15:00', '007888',   2057] # Mester utca
-      - ['24:20:00', 'F01515',   2631] # Boráros tér H
-      - ['24:21:00', '009042',   3185] # Haller utca
-      - ['24:22:00', '008239',   3631] # Millenniumi Kulturális Központ
-      - ['24:23:00', 'F01403',   4061] # Közvágóhíd H
-      - ['24:24:00', 'F01411',   4743] # Helyi kikötő út
-      - ['24:24:00', 'F04297',   5038] # Csepeli híd
-      - ['24:28:00', 'F04358',   6789] # Szabadkikötő H
-      - ['24:29:00', 'F04311',   7510] # Corvin-csomópont
-      - ['24:30:00', 'F04314',   8028] # Csepel, Kossuth Lajos utca
-      - ['24:31:00', '008067',   8445] # Szent Imre tér
-      - ['24:32:00', 'F04278',   8999] # Karácsony Sándor utca
-      - ['24:34:00', 'F04191',   9215] # Széchenyi István utca
-      - ['24:34:00', 'F04193',   9448] # Szent István út
-      - ['24:35:00', 'F04292',   9863] # Völgy utca
-      - ['24:36:00', 'F04366',  10235] # Erdősor utca
-      - ['24:37:00', 'F04360',  10526] # Technikus utca
-      - ['24:38:00', 'F04201',  10915] # Kölcsey utca
-      - ['24:39:00', 'F04233',  11411] # Csikó sétány
-      - ['24:40:00', 'F04234',  11831] # Csille utca
-      - ['24:42:00', 'F04235',  12259] # Szent László utcai lakótelep
-      - ['24:42:00', 'F04236',  12537] # Fémmű utca
-      - ['24:43:00', 'F04237',  12822] # Posztó utca
-      - ['24:44:00', 'F04232',  13215] # Erdősor utca
-      - ['24:45:00', 'F04334',  13870] # Iskola tér
-      - ['24:46:00', 'F04281',  14122] # Szabadság utca
-      - ['24:47:00', 'F04282',  14510] # Jupiter utca
-      - ['24:48:00', 'F04277',  14815] # Csepel, Csillagtelep
+      - ['00:00:00', 'F00946',      0] # Deák Ferenc tér M
+      - ['00:01:00', 'F01012',    384] # Astoria M
+      - ['00:03:00', 'F01007',   1059] # Kálvin tér M
+      - ['00:05:00', 'F01195',   1732] # Corvin-negyed M
+      - ['00:06:00', '007888',   2057] # Mester utca
+      - ['00:11:00', 'F01515',   2631] # Boráros tér H
+      - ['00:12:00', '009042',   3185] # Haller utca
+      - ['00:13:00', '008239',   3631] # Millenniumi Kulturális Központ
+      - ['00:14:00', 'F01403',   4061] # Közvágóhíd H
+      - ['00:15:00', 'F01411',   4743] # Helyi kikötő út
+      - ['00:15:00', 'F04297',   5038] # Csepeli híd
+      - ['00:19:00', 'F04358',   6789] # Szabadkikötő H
+      - ['00:20:00', 'F04311',   7510] # Corvin-csomópont
+      - ['00:21:00', 'F04314',   8028] # Csepel, Kossuth Lajos utca
+      - ['00:22:00', '008067',   8445] # Szent Imre tér
+      - ['00:23:00', 'F04278',   8999] # Karácsony Sándor utca
+      - ['00:25:00', 'F04191',   9215] # Széchenyi István utca
+      - ['00:25:00', 'F04193',   9448] # Szent István út
+      - ['00:26:00', 'F04292',   9863] # Völgy utca
+      - ['00:27:00', 'F04366',  10235] # Erdősor utca
+      - ['00:28:00', 'F04360',  10526] # Technikus utca
+      - ['00:29:00', 'F04201',  10915] # Kölcsey utca
+      - ['00:30:00', 'F04233',  11411] # Csikó sétány
+      - ['00:31:00', 'F04234',  11831] # Csille utca
+      - ['00:33:00', 'F04235',  12259] # Szent László utcai lakótelep
+      - ['00:33:00', 'F04236',  12537] # Fémmű utca
+      - ['00:34:00', 'F04237',  12822] # Posztó utca
+      - ['00:35:00', 'F04232',  13215] # Erdősor utca
+      - ['00:36:00', 'F04334',  13870] # Iskola tér
+      - ['00:37:00', 'F04281',  14122] # Szabadság utca
+      - ['00:38:00', 'F04282',  14510] # Jupiter utca
+      - ['00:39:00', 'F04277',  14815] # Csepel, Csillagtelep
     trip_headsign: 'Csepel, Csillagtelep'
     trip_id: REFERENCE-9791-0-1
     wheelchair_accessible: 2
@@ -52,30 +52,30 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9791-1-1-S033
     stop_times:
-      - ['24:06:00', 'F04277',      0] # Csepel, Csillagtelep
-      - ['24:06:00', 'F04280',    277] # Kölcsey utca
-      - ['24:07:00', 'F04335',    583] # Iskola tér
-      - ['24:07:00', 'F04202',    821] # Kölcsey utca (Erdősor utca)
-      - ['24:08:00', 'F04361',   1251] # Technikus utca
-      - ['24:09:00', 'F04367',   1495] # Kossuth Lajos utca
-      - ['24:09:00', 'F04293',   1807] # Völgy utca
-      - ['24:11:00', 'F04192',   2399] # Széchenyi István utca
-      - ['24:12:00', 'F04279',   2822] # Karácsony Sándor utca
-      - ['24:13:00', 'F04324',   3264] # Szent Imre tér
-      - ['24:13:00', 'F04315',   3604] # Ady Endre út (Kossuth Lajos utca)
-      - ['24:14:00', 'F04312',   4020] # Corvin-csomópont
-      - ['24:15:00', 'F04359',   4770] # Szabadkikötő H
-      - ['24:19:00', 'F04298',   6569] # Csepeli híd
-      - ['24:19:00', 'F01412',   6885] # Helyi kikötő út
-      - ['24:24:00', 'F01404',   7493] # Közvágóhíd H
-      - ['24:25:00', '008240',   7971] # Millenniumi Kulturális Központ
-      - ['24:26:00', 'F01386',   8514] # Haller utca
-      - ['24:28:00', 'F01376',   9011] # Boráros tér H
-      - ['24:29:00', '008150',   9521] # Zsil utca
-      - ['24:31:00', '009361',  10127] # Vámház körút
-      - ['24:32:00', 'F01010',  10554] # Kálvin tér M
-      - ['24:34:00', 'F01013',  11050] # Astoria M
-      - ['24:36:00', '009309',  11548] # Deák Ferenc tér M
+      - ['00:00:00', 'F04277',      0] # Csepel, Csillagtelep
+      - ['00:00:00', 'F04280',    277] # Kölcsey utca
+      - ['00:01:00', 'F04335',    583] # Iskola tér
+      - ['00:01:00', 'F04202',    821] # Kölcsey utca (Erdősor utca)
+      - ['00:02:00', 'F04361',   1251] # Technikus utca
+      - ['00:03:00', 'F04367',   1495] # Kossuth Lajos utca
+      - ['00:03:00', 'F04293',   1807] # Völgy utca
+      - ['00:05:00', 'F04192',   2399] # Széchenyi István utca
+      - ['00:06:00', 'F04279',   2822] # Karácsony Sándor utca
+      - ['00:07:00', 'F04324',   3264] # Szent Imre tér
+      - ['00:07:00', 'F04315',   3604] # Ady Endre út (Kossuth Lajos utca)
+      - ['00:08:00', 'F04312',   4020] # Corvin-csomópont
+      - ['00:09:00', 'F04359',   4770] # Szabadkikötő H
+      - ['00:13:00', 'F04298',   6569] # Csepeli híd
+      - ['00:13:00', 'F01412',   6885] # Helyi kikötő út
+      - ['00:18:00', 'F01404',   7493] # Közvágóhíd H
+      - ['00:19:00', '008240',   7971] # Millenniumi Kulturális Központ
+      - ['00:20:00', 'F01386',   8514] # Haller utca
+      - ['00:22:00', 'F01376',   9011] # Boráros tér H
+      - ['00:23:00', '008150',   9521] # Zsil utca
+      - ['00:25:00', '009361',  10127] # Vámház körút
+      - ['00:26:00', 'F01010',  10554] # Kálvin tér M
+      - ['00:28:00', 'F01013',  11050] # Astoria M
+      - ['00:30:00', '009309',  11548] # Deák Ferenc tér M
     trip_headsign: Deák Ferenc tér M
     trip_id: REFERENCE-9791-1-1
     wheelchair_accessible: 2

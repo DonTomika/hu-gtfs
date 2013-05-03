@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 0000FF
-route_desc: Kőbánya-Kispest M / Újpest-Központ M
+route_desc: Kőbánya-Kispest / Újpest-Központ
 route_id: 5300
 route_long_name: ''
 route_short_name: M3
@@ -13,26 +13,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-5300-0-1-1113
     stop_times:
-      - ['05:04:00', 'F01543',      0] # Kőbánya-Kispest
-      - ['05:06:40', 'F01541',   1759] # Határ út
-      - ['05:08:03', 'F01878',   2514] # Pöttyös utca
-      - ['05:09:26', 'F01493',   3078] # Ecseri út
-      - ['05:11:05', 'F01282',   4071] # Népliget
-      - ['05:12:40', 'F01252',   4895] # Nagyvárad tér
-      - ['05:14:33', 'F01232',   5973] # Klinikák
-      - ['05:15:51', 'F01188',   6670] # Corvin-negyed
-      - ['05:17:32', 'F01289',   7450] # Kálvin tér
-      - ['05:18:49', 'F00952',   8026] # Ferenciek tere
-      - ['05:20:20', 'F00954',   8589] # Deák Ferenc tér
-      - ['05:21:47', 'F00956',   9184] # Arany János utca
-      - ['05:23:29', 'F00936',  10072] # Nyugati pályaudvar
-      - ['05:25:05', 'F02613',  10905] # Lehel tér
-      - ['05:26:38', 'F02680',  11691] # Dózsa György út
-      - ['05:28:20', 'F02637',  12597] # Árpád híd
-      - ['05:29:52', 'F02682',  13395] # Forgách utca
-      - ['05:31:46', 'F02684',  14536] # Gyöngyösi utca
-      - ['05:33:45', 'F00897',  15777] # Újpest-Városkapu
-      - ['05:35:00', 'F00912',  16594] # Újpest-Központ
+      - ['00:00:00', 'F01543',      0] # Kőbánya-Kispest
+      - ['00:02:40', 'F01541',   1759] # Határ út
+      - ['00:04:03', 'F01878',   2514] # Pöttyös utca
+      - ['00:05:26', 'F01493',   3078] # Ecseri út
+      - ['00:07:05', 'F01282',   4071] # Népliget
+      - ['00:08:40', 'F01252',   4895] # Nagyvárad tér
+      - ['00:10:33', 'F01232',   5973] # Klinikák
+      - ['00:11:51', 'F01188',   6670] # Corvin-negyed
+      - ['00:13:32', 'F01289',   7450] # Kálvin tér
+      - ['00:14:49', 'F00952',   8026] # Ferenciek tere
+      - ['00:16:20', 'F00954',   8589] # Deák Ferenc tér
+      - ['00:17:47', 'F00956',   9184] # Arany János utca
+      - ['00:19:29', 'F00936',  10072] # Nyugati pályaudvar
+      - ['00:21:05', 'F02613',  10905] # Lehel tér
+      - ['00:22:38', 'F02680',  11691] # Dózsa György út
+      - ['00:24:20', 'F02637',  12597] # Árpád híd
+      - ['00:25:52', 'F02682',  13395] # Forgách utca
+      - ['00:27:46', 'F02684',  14536] # Gyöngyösi utca
+      - ['00:29:45', 'F00897',  15777] # Újpest-Városkapu
+      - ['00:31:00', 'F00912',  16594] # Újpest-Központ
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-5300-0-1
     wheelchair_accessible: 2
@@ -40,26 +40,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-5300-1-1-1114
     stop_times:
-      - ['05:30:00', 'F00913',      0] # Újpest-Központ
-      - ['05:31:36', 'F00898',    861] # Újpest-Városkapu
-      - ['05:33:35', 'F02685',   2124] # Gyöngyösi utca
-      - ['05:35:31', 'F02683',   3264] # Forgách utca
-      - ['05:37:00', 'F02638',   4061] # Árpád híd
-      - ['05:38:36', 'F02681',   4951] # Dózsa György út
-      - ['05:40:15', 'F02614',   5740] # Lehel tér
-      - ['05:41:55', 'F00937',   6570] # Nyugati pályaudvar
-      - ['05:43:29', 'F00957',   7430] # Arany János utca
-      - ['05:45:00', 'F00955',   8040] # Deák Ferenc tér
-      - ['05:46:31', 'F00953',   8616] # Ferenciek tere
-      - ['05:47:48', 'F01290',   9115] # Kálvin tér
-      - ['05:49:34', 'F01189',   9904] # Corvin-negyed
-      - ['05:50:54', 'F01233',  10597] # Klinikák
-      - ['05:52:45', 'F01253',  11675] # Nagyvárad tér
-      - ['05:54:23', 'F01283',  12499] # Népliget
-      - ['05:56:02', 'F01494',  13457] # Ecseri út
-      - ['05:57:20', 'F01879',  14008] # Pöttyös utca
-      - ['05:58:45', 'F01542',  14734] # Határ út
-      - ['06:01:00', 'F01544',  16514] # Kőbánya-Kispest
+      - ['00:00:00', 'F00913',      0] # Újpest-Központ
+      - ['00:01:36', 'F00898',    861] # Újpest-Városkapu
+      - ['00:03:35', 'F02685',   2124] # Gyöngyösi utca
+      - ['00:05:31', 'F02683',   3264] # Forgách utca
+      - ['00:07:00', 'F02638',   4061] # Árpád híd
+      - ['00:08:36', 'F02681',   4951] # Dózsa György út
+      - ['00:10:15', 'F02614',   5740] # Lehel tér
+      - ['00:11:55', 'F00937',   6570] # Nyugati pályaudvar
+      - ['00:13:29', 'F00957',   7430] # Arany János utca
+      - ['00:15:00', 'F00955',   8040] # Deák Ferenc tér
+      - ['00:16:31', 'F00953',   8616] # Ferenciek tere
+      - ['00:17:48', 'F01290',   9115] # Kálvin tér
+      - ['00:19:34', 'F01189',   9904] # Corvin-negyed
+      - ['00:20:54', 'F01233',  10597] # Klinikák
+      - ['00:22:45', 'F01253',  11675] # Nagyvárad tér
+      - ['00:24:23', 'F01283',  12499] # Népliget
+      - ['00:26:02', 'F01494',  13457] # Ecseri út
+      - ['00:27:20', 'F01879',  14008] # Pöttyös utca
+      - ['00:28:45', 'F01542',  14734] # Határ út
+      - ['00:31:00', 'F01544',  16514] # Kőbánya-Kispest
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-5300-1-1
     wheelchair_accessible: 2

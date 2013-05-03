@@ -13,25 +13,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9380-0-1-Q449
     stop_times:
-      - ['24:50:00', 'F04330',      0] # Csepel, Szent Imre tér
-      - ['24:51:00', 'F04278',    696] # Karácsony Sándor utca
-      - ['24:52:00', 'F04191',    912] # Széchenyi István utca
-      - ['24:53:00', 'F04193',   1145] # Szent István út
-      - ['24:54:00', 'F04292',   1560] # Völgy utca
-      - ['24:55:00', 'F04366',   1932] # Erdősor utca
-      - ['24:56:00', 'F04274',   2596] # Vas Gereben utca
-      - ['24:57:00', 'F04284',   2872] # Tejút utca
-      - ['24:58:00', 'F04285',   3374] # Csepeli temető
-      - ['24:59:00', 'F04287',   4066] # Hárosi iskola
-      - ['25:00:00', 'F04351',   4804] # Szilvafa utca
-      - ['25:01:00', 'F04290',   5143] # Almafa utca
-      - ['25:01:00', 'F04353',   5544] # Vízművek lakótelep
-      - ['25:02:00', 'F04265',   6203] # Hárosi Csárda
-      - ['25:03:00', '008646',   6690] # Áruházi bekötőút
-      - ['25:03:00', 'F04639',   6906] # Háros
-      - ['25:04:00', 'F04641',   7492] # Gát utca
-      - ['25:05:00', 'F04680',   8006] # Lacházi fogadó
-      - ['25:06:00', 'F04653',   8332] # Lakihegy, Cseresznyés utca
+      - ['00:00:00', 'F04330',      0] # Csepel, Szent Imre tér
+      - ['00:01:00', 'F04278',    696] # Karácsony Sándor utca
+      - ['00:02:00', 'F04191',    912] # Széchenyi István utca
+      - ['00:03:00', 'F04193',   1145] # Szent István út
+      - ['00:04:00', 'F04292',   1560] # Völgy utca
+      - ['00:05:00', 'F04366',   1932] # Erdősor utca
+      - ['00:06:00', 'F04274',   2596] # Vas Gereben utca
+      - ['00:07:00', 'F04284',   2872] # Tejút utca
+      - ['00:08:00', 'F04285',   3374] # Csepeli temető
+      - ['00:09:00', 'F04287',   4066] # Hárosi iskola
+      - ['00:10:00', 'F04351',   4804] # Szilvafa utca
+      - ['00:11:00', 'F04290',   5143] # Almafa utca
+      - ['00:11:00', 'F04353',   5544] # Vízművek lakótelep
+      - ['00:12:00', 'F04265',   6203] # Hárosi Csárda
+      - ['00:13:00', '008646',   6690] # Áruházi bekötőút
+      - ['00:13:00', 'F04639',   6906] # Háros
+      - ['00:14:00', 'F04641',   7492] # Gát utca
+      - ['00:15:00', 'F04680',   8006] # Lacházi fogadó
+      - ['00:16:00', 'F04653',   8332] # Lakihegy, Cseresznyés utca
     trip_headsign: 'Lakihegy, Cseresznyés utca'
     trip_id: REFERENCE-9380-0-1
     wheelchair_accessible: 2
@@ -39,23 +39,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9380-1-1-Q450
     stop_times:
-      - ['26:24:00', 'F04653',      0] # Lakihegy, Cseresznyés utca
-      - ['26:25:00', 'F04681',    472] # Lacházi fogadó
-      - ['26:25:00', 'F04642',    837] # Gát utca
-      - ['26:27:00', '008647',   1738] # Áruházi bekötőút
-      - ['26:28:00', 'F04266',   2137] # Hárosi Csárda
-      - ['26:28:00', 'F04354',   2831] # Vízművek lakótelep
-      - ['26:29:00', 'F04289',   3295] # Almafa utca
-      - ['26:30:00', 'F04352',   3553] # Szilvafa utca
-      - ['26:31:00', 'F04288',   4358] # Hárosi iskola
-      - ['26:32:00', 'F04286',   5071] # Csepeli temető
-      - ['26:33:00', 'F04283',   5626] # Tejút utca
-      - ['26:34:00', 'F04273',   5974] # Szabadság utca
-      - ['26:35:00', 'F04367',   6553] # Kossuth Lajos utca
-      - ['26:36:00', 'F04293',   6865] # Völgy utca
-      - ['26:37:00', 'F04192',   7457] # Széchenyi István utca
-      - ['26:38:00', 'F04279',   7880] # Karácsony Sándor utca
-      - ['26:39:00', 'F04330',   8666] # Csepel, Szent Imre tér
+      - ['00:00:00', 'F04653',      0] # Lakihegy, Cseresznyés utca
+      - ['00:01:00', 'F04681',    472] # Lacházi fogadó
+      - ['00:01:00', 'F04642',    837] # Gát utca
+      - ['00:03:00', '008647',   1738] # Áruházi bekötőút
+      - ['00:04:00', 'F04266',   2137] # Hárosi Csárda
+      - ['00:04:00', 'F04354',   2831] # Vízművek lakótelep
+      - ['00:05:00', 'F04289',   3295] # Almafa utca
+      - ['00:06:00', 'F04352',   3553] # Szilvafa utca
+      - ['00:07:00', 'F04288',   4358] # Hárosi iskola
+      - ['00:08:00', 'F04286',   5071] # Csepeli temető
+      - ['00:09:00', 'F04283',   5626] # Tejút utca
+      - ['00:10:00', 'F04273',   5974] # Szabadság utca
+      - ['00:11:00', 'F04367',   6553] # Kossuth Lajos utca
+      - ['00:12:00', 'F04293',   6865] # Völgy utca
+      - ['00:13:00', 'F04192',   7457] # Széchenyi István utca
+      - ['00:14:00', 'F04279',   7880] # Karácsony Sándor utca
+      - ['00:15:00', 'F04330',   8666] # Csepel, Szent Imre tér
     trip_headsign: 'Csepel, Szent Imre tér'
     trip_id: REFERENCE-9380-1-1
     wheelchair_accessible: 2

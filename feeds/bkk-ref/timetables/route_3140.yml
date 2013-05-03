@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: 'Angyalföld kocsiszín / Káposztásmegyer, Megyeri út'
+route_desc: 'Káposztásmegyer, Megyeri út / Lehel tér M'
 route_id: 3140
 route_long_name: ''
 route_short_name: 14
@@ -13,31 +13,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3140-0-1-B116
     stop_times:
-      - ['09:28:00', 'F02615',      0] # Lehel tér M
-      - ['09:29:00', 'F01062',    413] # Dévai utca
-      - ['09:30:00', 'F02624',    773] # Dózsa György út
-      - ['09:32:00', 'F02668',   1345] # Hun utca
-      - ['09:34:00', 'F02591',   1725] # Róbert Károly körút
-      - ['09:35:00', 'F02587',   2138] # Béke tér
-      - ['09:36:00', 'F02673',   2680] # Frangepán utca
-      - ['09:38:00', 'F02554',   3408] # Fiastyúk utca
-      - ['09:39:00', 'F02659',   3655] # Rokolya utca
-      - ['09:41:00', 'F02544',   4089] # Gyöngyösi utca
-      - ['09:43:00', 'F00823',   4857] # Angyalföld kocsiszín
-      - ['09:45:00', 'F00818',   5309] # Tél utca
-      - ['09:47:00', 'F00797',   5754] # Újpest-Központ M
-      - ['09:48:00', 'F00796',   6095] # Szent István tér - Újpesti piac
-      - ['09:49:00', 'F00788',   6423] # Deák Ferenc utca
-      - ['09:50:00', 'F00915',   6697] # Corvin utca
-      - ['09:51:00', 'F00792',   6929] # Szakorvosi rendelő
-      - ['09:53:00', 'F00880',   7382] # Szülőotthon
-      - ['09:54:00', 'F00845',   7889] # Rákospalota-Újpest vasútállomás
-      - ['09:55:00', '009154',   8627] # Atlétikai stadion
-      - ['09:57:00', 'F00743',   9248] # Óceán-árok utca
-      - ['09:58:00', 'F00735',   9746] # Járműtelep utca
-      - ['09:59:00', 'F00826',  10094] # Bőröndös utca
-      - ['10:00:00', 'F00904',  10343] # Bőrfestő utca
-      - ['10:01:00', 'F00725',  10990] # Káposztásmegyer, Megyeri út
+      - ['00:00:00', 'F02615',      0] # Lehel tér M
+      - ['00:01:00', 'F01062',    413] # Dévai utca
+      - ['00:02:00', 'F02624',    773] # Dózsa György út
+      - ['00:04:00', 'F02668',   1345] # Hun utca
+      - ['00:06:00', 'F02591',   1725] # Róbert Károly körút
+      - ['00:07:00', 'F02587',   2138] # Béke tér
+      - ['00:08:00', 'F02673',   2680] # Frangepán utca
+      - ['00:10:00', 'F02554',   3408] # Fiastyúk utca
+      - ['00:11:00', 'F02659',   3655] # Rokolya utca
+      - ['00:14:00', 'F02544',   4089] # Gyöngyösi utca
+      - ['00:16:00', 'F00823',   4857] # Angyalföld kocsiszín
+      - ['00:18:00', 'F00818',   5309] # Tél utca
+      - ['00:20:00', 'F00797',   5754] # Újpest-Központ M
+      - ['00:21:00', 'F00796',   6095] # Szent István tér - Újpesti piac
+      - ['00:22:00', 'F00788',   6423] # Deák Ferenc utca
+      - ['00:23:00', 'F00915',   6697] # Corvin utca
+      - ['00:24:00', 'F00792',   6929] # Szakorvosi rendelő
+      - ['00:26:00', 'F00880',   7382] # Szülőotthon
+      - ['00:28:00', 'F00845',   7889] # Rákospalota-Újpest vasútállomás
+      - ['00:29:00', '009154',   8627] # Atlétikai stadion
+      - ['00:31:00', 'F00743',   9248] # Óceán-árok utca
+      - ['00:32:00', 'F00735',   9746] # Járműtelep utca
+      - ['00:33:00', 'F00826',  10094] # Bőröndös utca
+      - ['00:34:00', 'F00904',  10343] # Bőrfestő utca
+      - ['00:35:00', 'F00725',  10990] # Káposztásmegyer, Megyeri út
     trip_headsign: 'Káposztásmegyer, Megyeri út'
     trip_id: REFERENCE-3140-0-1
     wheelchair_accessible: 2
@@ -45,31 +45,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3140-1-1-B117
     stop_times:
-      - ['06:52:00', 'F00725',      0] # Káposztásmegyer, Megyeri út
-      - ['06:53:00', 'F00905',    692] # Bőrfestő utca
-      - ['06:54:00', 'F00827',    945] # Bőröndös utca
-      - ['06:55:00', 'F00736',   1294] # Járműtelep utca
-      - ['06:56:00', 'F00744',   1792] # Óceán-árok utca
-      - ['06:57:00', '009155',   2421] # Atlétikai stadion
-      - ['06:59:00', 'F00846',   3149] # Rákospalota-Újpest vasútállomás
-      - ['07:00:00', 'F00881',   3576] # Szülőotthon
-      - ['07:01:00', 'F00790',   3970] # Szakorvosi rendelő
-      - ['07:02:00', 'F00914',   4237] # Corvin utca
-      - ['07:03:00', 'F00786',   4657] # Deák Ferenc utca
-      - ['07:04:00', 'F00795',   4937] # Szent István tér - Újpesti piac
-      - ['07:06:00', 'F00798',   5181] # Újpest-Központ M
-      - ['07:07:00', 'F00819',   5835] # Tél utca
-      - ['07:09:00', 'F00822',   6115] # Angyalföld kocsiszín
-      - ['07:11:00', 'F02545',   6939] # Gyöngyösi utca
-      - ['07:12:00', 'F02660',   7318] # Rokolya utca
-      - ['07:13:00', 'F02553',   7623] # Fiastyúk utca
-      - ['07:15:00', 'F02674',   8361] # Frangepán utca
-      - ['07:17:00', 'F02585',   8896] # Béke tér
-      - ['07:19:00', 'F02593',   9319] # Róbert Károly körút
-      - ['07:20:00', 'F02667',   9606] # Hun utca
-      - ['07:22:00', 'F02621',  10176] # Dózsa György út
-      - ['07:24:00', 'F01061',  10620] # Dévai utca
-      - ['07:25:00', 'F02615',  10978] # Lehel tér M
+      - ['00:00:00', 'F00725',      0] # Káposztásmegyer, Megyeri út
+      - ['00:01:00', 'F00905',    692] # Bőrfestő utca
+      - ['00:02:00', 'F00827',    945] # Bőröndös utca
+      - ['00:03:00', 'F00736',   1294] # Járműtelep utca
+      - ['00:04:00', 'F00744',   1792] # Óceán-árok utca
+      - ['00:05:00', '009155',   2421] # Atlétikai stadion
+      - ['00:07:00', 'F00846',   3149] # Rákospalota-Újpest vasútállomás
+      - ['00:08:00', 'F00881',   3576] # Szülőotthon
+      - ['00:10:00', 'F00790',   3970] # Szakorvosi rendelő
+      - ['00:11:00', 'F00914',   4237] # Corvin utca
+      - ['00:12:00', 'F00786',   4657] # Deák Ferenc utca
+      - ['00:13:00', 'F00795',   4937] # Szent István tér - Újpesti piac
+      - ['00:15:00', 'F00798',   5181] # Újpest-Központ M
+      - ['00:16:00', 'F00819',   5835] # Tél utca
+      - ['00:18:00', 'F00822',   6115] # Angyalföld kocsiszín
+      - ['00:20:00', 'F02545',   6939] # Gyöngyösi utca
+      - ['00:21:00', 'F02660',   7318] # Rokolya utca
+      - ['00:23:00', 'F02553',   7623] # Fiastyúk utca
+      - ['00:25:00', 'F02674',   8361] # Frangepán utca
+      - ['00:27:00', 'F02585',   8896] # Béke tér
+      - ['00:29:00', 'F02593',   9319] # Róbert Károly körút
+      - ['00:30:00', 'F02667',   9606] # Hun utca
+      - ['00:32:00', 'F02621',  10176] # Dózsa György út
+      - ['00:34:00', 'F01061',  10620] # Dévai utca
+      - ['00:35:00', 'F02615',  10978] # Lehel tér M
     trip_headsign: Lehel tér M
     trip_id: REFERENCE-3140-1-1
     wheelchair_accessible: 2

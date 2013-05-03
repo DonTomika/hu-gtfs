@@ -13,76 +13,83 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1510-0-1-S853
     stop_times:
-      - ['10:36:00', 'F01803',      0] # Kőbánya alsó vasútállomás
-      - ['10:37:00', 'F01640',    459] # Vaspálya utca
-      - ['10:39:00', 'F01795',   1036] # Kelemen utca
-      - ['10:40:00', 'F01578',   1494] # Kőér utca
-      - ['10:41:00', 'F01796',   1798] # Gyógyszergyár
-      - ['10:43:00', 'F01581',   2251] # Diósgyőri utca
-      - ['10:44:00', 'F01805',   2556] # Vasgyár utca
-      - ['10:45:00', 'F01807',   2986] # Sibrik Miklós út
-      - ['10:46:00', 'F01583',   3299] # Felüljáró
-      - ['10:47:00', 'F03940',   3713] # Kőbánya-Kispest M
-      - ['10:49:00', 'F03945',   4210] # Kispest, Kossuth tér
-      - ['10:51:00', 'F03956',   4757] # Ady Endre út (Báthory utca)
-      - ['10:53:00', 'F03975',   5343] # Áchim András utca
-      - ['10:54:00', 'F03971',   5795] # Hunyadi tér
-      - ['10:56:00', 'F04042',   6460] # Nagykőrösi út
-      - ['10:57:00', 'F04098',   6833] # Mártírok útja
-      - ['10:58:00', 'F04104',   7179] # Jókai Mór utca
-      - ['11:00:00', 'F04115',   8066] # Török Flóris utca
-      - ['11:01:00', 'F04041',   8549] # Baross utca
-      - ['11:02:00', 'F04155',   8797] # Attila utca
-      - ['11:03:00', 'F04121',   9269] # Pesterzsébet vasútállomás
-      - ['11:04:00', 'F04147',   9605] # Csepeli átjáró
-      - ['11:06:00', 'F04148',  10170] # Sósfürdő
-      - ['11:08:00', 'F04307',  10743] # Papírgyár
-      - ['11:09:00', 'F04316',  11261] # Védgát utca
-      - ['11:11:00', 'F04314',  11745] # Csepel, Kossuth Lajos utca
-      - ['11:13:00', 'F04323',  12133] # Szent Imre tér
-      - ['11:14:00', 'F04278',  12716] # Karácsony Sándor utca
-      - ['11:15:00', 'F04191',  12932] # Széchenyi István utca
-      - ['11:16:00', 'F04196',  13450] # Bajcsy-Zsilinszky út
-      - ['11:17:00', 'F04338',  13860] # Rákóczi tér
-      - ['11:19:00', 'F04199',  14462] # Kikötő utca
-      - ['11:21:00', 'F04218',  14947] # Késmárki utca
-      - ['11:22:00', 'F04364',  15282] # Csepel, Határ utca
+      - ['00:00:00', 'F01803',      0] # Kőbánya alsó vasútállomás
+      - ['00:01:00', 'F01640',    459] # Vaspálya utca
+      - ['00:02:00', 'F01795',   1036] # Kelemen utca
+      - ['00:03:00', 'F01578',   1494] # Kőér utca
+      - ['00:04:00', 'F01796',   1798] # Gyógyszergyár
+      - ['00:05:00', 'F01581',   2251] # Diósgyőri utca
+      - ['00:06:00', 'F01805',   2556] # Vasgyár utca
+      - ['00:07:00', 'F01807',   2986] # Sibrik Miklós út
+      - ['00:08:00', 'F01583',   3299] # Felüljáró
+      - ['00:09:00', 'F03940',   3713] # Kőbánya-Kispest M
+      - ['00:11:00', 'F03945',   4210] # Kispest, Kossuth tér
+      - ['00:12:00', 'F03956',   4757] # Ady Endre út (Báthory utca)
+      - ['00:14:00', 'F03975',   5343] # Áchim András utca
+      - ['00:15:00', 'F03971',   5795] # Hunyadi tér
+      - ['00:16:00', 'F04042',   6460] # Nagykőrösi út
+      - ['00:17:00', 'F04098',   6833] # Mártírok útja
+      - ['00:18:00', 'F04104',   7179] # Jókai Mór utca
+      - ['00:20:00', 'F04115',   8066] # Török Flóris utca
+      - ['00:21:00', 'F04041',   8549] # Baross utca
+      - ['00:22:00', 'F04155',   8797] # Attila utca
+      - ['00:23:00', 'F04121',   9269] # Pesterzsébet vasútállomás
+      - ['00:24:00', 'F04147',   9605] # Csepeli átjáró
+      - ['00:25:00', 'F04148',  10170] # Sósfürdő
+      - ['00:26:00', 'F04307',  10743] # Papírgyár
+      - ['00:28:00', 'F04316',  11261] # Védgát utca
+      - ['00:29:00', 'F04314',  11745] # Csepel, Kossuth Lajos utca
+      - ['00:31:00', 'F04323',  12133] # Szent Imre tér
+      - ['00:32:00', 'F04278',  12716] # Karácsony Sándor utca
+      - ['00:33:00', 'F04191',  12932] # Széchenyi István utca
+      - ['00:34:00', 'F04196',  13450] # Bajcsy-Zsilinszky út
+      - ['00:35:00', 'F04338',  13860] # Rákóczi tér
+      - ['00:36:00', 'F04199',  14462] # Kikötő utca
+      - ['00:38:00', 'F04218',  14947] # Késmárki utca
+      - ['00:39:00', 'F04364',  15282] # Csepel, Határ utca
     trip_headsign: 'Csepel, Határ utca'
     trip_id: REFERENCE-1510-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-1510-1-1-S858
+    shape_id: REFERENCE-1510-1-1-S854
     stop_times:
-      - ['14:48:00', 'F04320',      0] # Szent Imre tér H
-      - ['14:50:00', 'F04315',    556] # Ady Endre út (Kossuth Lajos utca)
-      - ['14:51:00', 'F04317',   1107] # Védgát utca
-      - ['14:52:00', 'F04306',   1468] # Papírgyár
-      - ['14:55:00', 'F04149',   2220] # Sósfürdő
-      - ['14:56:00', 'F04145',   2728] # Pesterzsébet, Baross utca
-      - ['14:57:00', 'F04120',   3270] # Pesterzsébet vasútállomás
-      - ['14:59:00', 'F04156',   3830] # Attila utca
-      - ['15:00:00', 'F04117',   4110] # Vörösmarty utca
-      - ['15:01:00', 'F04113',   4484] # Török Flóris utca
-      - ['15:03:00', 'F04103',   5324] # Lázár utca
-      - ['15:04:00', 'F04100',   5849] # Zalán utca
-      - ['15:05:00', 'F04043',   6040] # Nagykőrösi út
-      - ['15:07:00', 'F03973',   6663] # Hunyadi tér
-      - ['15:09:00', 'F03976',   7124] # Áchim András utca
-      - ['15:10:00', 'F03957',   7569] # Ady Endre út (Hunyadi utca)
-      - ['15:11:00', 'F03955',   7876] # Kisfaludy utca
-      - ['15:13:00', 'F03950',   8395] # Simonyi Zsigmond utca
-      - ['15:13:00', 'F03942',   8655] # Sós utca
-      - ['15:15:00', 'F03941',   9130] # Kőbánya-Kispest M
-      - ['15:16:00', 'F01584',   9547] # Felüljáró (Gyömrői út)
-      - ['15:17:00', 'F01806',   9793] # Sibrik Miklós út
-      - ['15:19:00', 'F01804',  10225] # Vasgyár utca
-      - ['15:20:00', 'F01582',  10586] # Diósgyőri utca
-      - ['15:21:00', 'F01797',  10995] # Gyógyszergyár
-      - ['15:22:00', 'F01577',  11331] # Kőér utca
-      - ['15:24:00', 'F01794',  11742] # Kelemen utca
-      - ['15:26:00', 'F01639',  12344] # Liget tér
-      - ['15:27:00', 'F01803',  12605] # Kőbánya alsó vasútállomás
+      - ['00:00:00', 'F04364',      0] # Csepel, Határ utca
+      - ['00:01:00', 'F04217',    459] # Szebeni utca
+      - ['00:02:00', 'F04198',    972] # Kikötő utca
+      - ['00:03:00', 'F04337',   1471] # Rákóczi tér
+      - ['00:04:00', 'F04197',   1862] # Bajcsy-Zsilinszky út
+      - ['00:06:00', 'F04190',   2280] # Kossuth Lajos utca
+      - ['00:07:00', 'F04279',   2804] # Karácsony Sándor utca
+      - ['00:09:00', 'F04320',   3406] # Szent Imre tér H
+      - ['00:11:00', 'F04315',   3962] # Ady Endre út (Kossuth Lajos utca)
+      - ['00:12:00', 'F04317',   4513] # Védgát utca
+      - ['00:13:00', 'F04306',   4874] # Papírgyár
+      - ['00:16:00', 'F04149',   5626] # Sósfürdő
+      - ['00:17:00', 'F04145',   6134] # Pesterzsébet, Baross utca
+      - ['00:18:00', 'F04120',   6676] # Pesterzsébet vasútállomás
+      - ['00:20:00', 'F04156',   7236] # Attila utca
+      - ['00:21:00', 'F04117',   7516] # Vörösmarty utca
+      - ['00:22:00', 'F04113',   7890] # Török Flóris utca
+      - ['00:24:00', 'F04103',   8730] # Lázár utca
+      - ['00:25:00', 'F04100',   9255] # Zalán utca
+      - ['00:26:00', 'F04043',   9446] # Nagykőrösi út
+      - ['00:28:00', 'F03973',  10069] # Hunyadi tér
+      - ['00:30:00', 'F03976',  10530] # Áchim András utca
+      - ['00:31:00', 'F03957',  10975] # Ady Endre út (Hunyadi utca)
+      - ['00:32:00', 'F03955',  11282] # Kisfaludy utca
+      - ['00:33:00', 'F03950',  11801] # Simonyi Zsigmond utca
+      - ['00:34:00', 'F03942',  12061] # Sós utca
+      - ['00:36:00', 'F03941',  12536] # Kőbánya-Kispest M
+      - ['00:37:00', 'F01584',  12953] # Felüljáró (Gyömrői út)
+      - ['00:38:00', 'F01806',  13199] # Sibrik Miklós út
+      - ['00:39:00', 'F01804',  13631] # Vasgyár utca
+      - ['00:40:00', 'F01582',  13992] # Diósgyőri utca
+      - ['00:41:00', 'F01797',  14401] # Gyógyszergyár
+      - ['00:42:00', 'F01577',  14737] # Kőér utca
+      - ['00:44:00', 'F01794',  15148] # Kelemen utca
+      - ['00:46:00', 'F01639',  15750] # Liget tér
+      - ['00:47:00', 'F01803',  16011] # Kőbánya alsó vasútállomás
     trip_headsign: Kőbánya alsó vasútállomás
     trip_id: REFERENCE-1510-1-1
     wheelchair_accessible: 1

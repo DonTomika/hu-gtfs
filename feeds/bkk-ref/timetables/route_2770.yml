@@ -13,67 +13,67 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2770-0-1-D150
     stop_times:
-      - ['15:46:00', '008023',      0] # Örs vezér tere M+H
-      - ['15:48:00', 'F01770',    537] # Gyakorló köz
-      - ['15:49:00', 'F01851',    888] # Gépmadár utca
-      - ['15:50:00', 'F01774',   1359] # Halas utca
-      - ['15:51:00', 'F01853',   2122] # Pilisi utca
-      - ['15:52:00', 'F01788',   2577] # Dömsödi utca
-      - ['15:53:00', 'F01777',   3279] # Nagyicce H
-      - ['15:55:00', 'F03273',   3825] # Thököly út
-      - ['15:55:00', 'F03367',   3990] # Sashalmi tér
-      - ['15:56:00', 'F03366',   4356] # Sasvár utca
-      - ['15:57:00', 'F03270',   4815] # Budapesti út
-      - ['15:58:00', 'F03267',   5156] # Rákosi út
-      - ['15:59:00', 'F03364',   5502] # Szent Korona utca
-      - ['16:01:00', 'F03265',   6080] # Rákóczi út
-      - ['16:01:00', 'F03362',   6319] # Baross utca
-      - ['16:02:00', 'F02989',   6707] # Rákospalotai határút
-      - ['16:03:00', 'F03142',   7026] # Késmárk utca
-      - ['16:04:00', 'F03197',   7341] # Késmárk utca 20.
-      - ['16:04:00', 'F03199',   7789] # Fázis utca
-      - ['16:06:00', 'F03140',   8283] # Nyírpalota út
-      - ['16:07:00', 'F03137',   8615] # Apolló utca
-      - ['16:08:00', 'F03196',   9116] # Molnár Viktor utca
-      - ['16:10:00', 'F02849',   9888] # Cinkotai út
-      - ['16:11:00', 'F02847',  10248] # Miskolci utca
-      - ['16:12:00', 'F02844',  10487] # Rákospatak utca
-      - ['16:13:00', 'F02828',  11108] # Bosnyák tér
+      - ['00:00:00', '008023',      0] # Örs vezér tere M+H
+      - ['00:01:00', 'F01770',    537] # Gyakorló köz
+      - ['00:02:00', 'F01851',    888] # Gépmadár utca
+      - ['00:02:00', 'F01774',   1359] # Halas utca
+      - ['00:03:00', 'F01853',   2122] # Pilisi utca
+      - ['00:04:00', 'F01788',   2577] # Dömsödi utca
+      - ['00:05:00', 'F01777',   3279] # Nagyicce H
+      - ['00:06:00', 'F03273',   3825] # Thököly út
+      - ['00:06:00', 'F03367',   3990] # Sashalmi tér
+      - ['00:07:00', 'F03366',   4356] # Sasvár utca
+      - ['00:08:00', 'F03270',   4815] # Budapesti út
+      - ['00:09:00', 'F03267',   5156] # Rákosi út
+      - ['00:10:00', 'F03364',   5502] # Szent Korona utca
+      - ['00:12:00', 'F03265',   6080] # Rákóczi út
+      - ['00:12:00', 'F03362',   6319] # Baross utca
+      - ['00:13:00', 'F02989',   6707] # Rákospalotai határút
+      - ['00:14:00', 'F03142',   7026] # Késmárk utca
+      - ['00:15:00', 'F03197',   7341] # Késmárk utca 20.
+      - ['00:16:00', 'F03199',   7789] # Fázis utca
+      - ['00:18:00', 'F03140',   8283] # Nyírpalota út
+      - ['00:19:00', 'F03137',   8615] # Apolló utca
+      - ['00:20:00', 'F03196',   9116] # Molnár Viktor utca
+      - ['00:22:00', 'F02849',   9888] # Cinkotai út
+      - ['00:23:00', 'F02847',  10248] # Miskolci utca
+      - ['00:24:00', 'F02844',  10487] # Rákospatak utca
+      - ['00:25:00', 'F02828',  11108] # Bosnyák tér
     trip_headsign: Bosnyák tér
     trip_id: REFERENCE-2770-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2770-1-1-D151
     stop_times:
-      - ['04:28:00', 'F02828',      0] # Bosnyák tér
-      - ['04:29:00', 'F02854',    372] # Telepes utca
-      - ['04:29:00', 'F02853',    774] # Fűrész utca
-      - ['04:30:00', 'F02845',   1299] # Rákospatak utca
-      - ['04:31:00', 'F02846',   1678] # Miskolci utca
-      - ['04:32:00', 'F02848',   1874] # Cinkotai út
-      - ['04:33:00', 'F03195',   2623] # Molnár Viktor utca
-      - ['04:34:00', 'F03136',   3172] # Apolló utca
-      - ['04:35:00', 'F03141',   3322] # Késmárk utca
-      - ['04:35:00', 'F03200',   3870] # Fázis utca
-      - ['04:36:00', 'F03198',   4124] # Késmárk utca 9.
-      - ['04:37:00', 'F03143',   4510] # Késmárk utca 11.
-      - ['04:38:00', 'F02988',   4927] # Rákospalotai határút
-      - ['04:39:00', 'F03361',   5225] # Baross utca
-      - ['04:40:00', 'F03264',   5657] # Batthyány utca
-      - ['04:41:00', 'F03363',   6123] # Szent Korona utca
-      - ['04:41:00', 'F03269',   6379] # Rákosi út
-      - ['04:42:00', 'F03271',   6855] # Budapesti út
-      - ['04:43:00', 'F03365',   7243] # Őrmester utca
-      - ['04:44:00', 'F03368',   7568] # Sashalmi tér
-      - ['04:45:00', 'F03272',   7826] # Veres Péter út
-      - ['04:46:00', 'F01778',   8277] # Nagyicce H
-      - ['04:47:00', 'F01789',   8962] # Heves utca
-      - ['04:49:00', 'F01852',   9557] # Pilisi utca
-      - ['04:50:00', 'F01773',  10240] # Halas utca
-      - ['04:52:00', 'F01850',  10703] # Gépmadár utca
-      - ['04:53:00', 'F01769',  11156] # Gyakorló köz
-      - ['04:55:00', '008023',  11757] # Örs vezér tere M+H
+      - ['00:00:00', 'F02828',      0] # Bosnyák tér
+      - ['00:01:00', 'F02854',    372] # Telepes utca
+      - ['00:01:00', 'F02853',    774] # Fűrész utca
+      - ['00:02:00', 'F02845',   1299] # Rákospatak utca
+      - ['00:03:00', 'F02846',   1678] # Miskolci utca
+      - ['00:04:00', 'F02848',   1874] # Cinkotai út
+      - ['00:05:00', 'F03195',   2623] # Molnár Viktor utca
+      - ['00:06:00', 'F03136',   3172] # Apolló utca
+      - ['00:07:00', 'F03141',   3322] # Késmárk utca
+      - ['00:08:00', 'F03200',   3870] # Fázis utca
+      - ['00:08:00', 'F03198',   4124] # Késmárk utca 9.
+      - ['00:09:00', 'F03143',   4510] # Késmárk utca 11.
+      - ['00:10:00', 'F02988',   4927] # Rákospalotai határút
+      - ['00:11:00', 'F03361',   5225] # Baross utca
+      - ['00:13:00', 'F03264',   5657] # Batthyány utca
+      - ['00:14:00', 'F03363',   6123] # Szent Korona utca
+      - ['00:14:00', 'F03269',   6379] # Rákosi út
+      - ['00:15:00', 'F03271',   6855] # Budapesti út
+      - ['00:16:00', 'F03365',   7243] # Őrmester utca
+      - ['00:17:00', 'F03368',   7568] # Sashalmi tér
+      - ['00:18:00', 'F03272',   7826] # Veres Péter út
+      - ['00:19:00', 'F01778',   8277] # Nagyicce H
+      - ['00:20:00', 'F01789',   8962] # Heves utca
+      - ['00:22:00', 'F01852',   9557] # Pilisi utca
+      - ['00:23:00', 'F01773',  10240] # Halas utca
+      - ['00:25:00', 'F01850',  10703] # Gépmadár utca
+      - ['00:26:00', 'F01769',  11156] # Gyakorló köz
+      - ['00:28:00', '008023',  11757] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-2770-1-1
     wheelchair_accessible: 1

@@ -13,19 +13,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1850-0-1-3801
     stop_times:
-      - ['08:32:00', '008380',      0] # Kőbánya alsó vasútállomás
-      - ['08:33:00', 'F01653',    633] # Szent László tér
-      - ['08:36:00', 'F01631',   1466] # Harmat utca
-      - ['08:38:00', 'F01669',   2105] # Ihász utca
-      - ['08:38:00', 'F01671',   2345] # Csősztorony
-      - ['08:39:00', 'F01838',   2686] # Szlávy utca
-      - ['08:40:00', 'F01685',   3078] # Kada utca
-      - ['08:42:00', 'F01701',   3525] # Lavotta utca
-      - ['08:43:00', 'F01699',   3858] # Sibrik Miklós út
-      - ['08:44:00', 'F01704',   4265] # Mádi utca
-      - ['08:45:00', 'F01845',   4566] # Tavas utca
-      - ['08:46:00', 'F01590',   4855] # Dolomit utca
-      - ['08:47:00', 'F01588',   5114] # Újhegyi út, Sportliget
+      - ['00:00:00', '008380',      0] # Kőbánya alsó vasútállomás
+      - ['00:01:00', 'F01653',    633] # Szent László tér
+      - ['00:04:00', 'F01631',   1466] # Harmat utca
+      - ['00:06:00', 'F01669',   2105] # Ihász utca
+      - ['00:06:00', 'F01671',   2345] # Csősztorony
+      - ['00:07:00', 'F01838',   2686] # Szlávy utca
+      - ['00:08:00', 'F01685',   3078] # Kada utca
+      - ['00:10:00', 'F01701',   3525] # Lavotta utca
+      - ['00:11:00', 'F01699',   3858] # Sibrik Miklós út
+      - ['00:12:00', 'F01704',   4265] # Mádi utca
+      - ['00:13:00', 'F01845',   4566] # Tavas utca
+      - ['00:14:00', 'F01590',   4855] # Dolomit utca
+      - ['00:15:00', 'F01588',   5114] # Újhegyi út, Sportliget
     trip_headsign: 'Újhegyi út, Sportliget'
     trip_id: REFERENCE-1850-0-1
     wheelchair_accessible: 2
@@ -33,20 +33,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1850-1-1-J373
     stop_times:
-      - ['08:18:00', 'F01588',      0] # Újhegyi út, Sportliget
-      - ['08:18:00', 'F01842',    475] # Újhegyi sétány
-      - ['08:19:00', 'F01700',    750] # Sibrik Miklós út
-      - ['08:21:00', 'F01705',   1099] # Mádi utca
-      - ['08:22:00', 'F01703',   1405] # Lavotta utca
-      - ['08:23:00', 'F01683',   1830] # Kada utca
-      - ['08:25:00', 'F01837',   2198] # Kocka utca
-      - ['08:26:00', 'F01672',   2475] # Téglavető utca
-      - ['08:27:00', 'F01670',   2921] # Csősztorony
-      - ['08:29:00', 'F01668',   3250] # Ihász utca
-      - ['08:30:00', 'F01630',   3723] # Kőrösi Csoma Sándor út
-      - ['08:31:00', 'F01828',   4051] # Ónodi utca
-      - ['08:33:00', 'F01652',   4465] # Szent László tér
-      - ['08:35:00', 'F01635',   4937] # Kőbánya alsó vasútállomás
+      - ['00:00:00', 'F01588',      0] # Újhegyi út, Sportliget
+      - ['00:00:00', 'F01842',    475] # Újhegyi sétány
+      - ['00:01:00', 'F01700',    750] # Sibrik Miklós út
+      - ['00:03:00', 'F01705',   1099] # Mádi utca
+      - ['00:04:00', 'F01703',   1405] # Lavotta utca
+      - ['00:05:00', 'F01683',   1830] # Kada utca
+      - ['00:06:00', 'F01837',   2198] # Kocka utca
+      - ['00:07:00', 'F01672',   2475] # Téglavető utca
+      - ['00:09:00', 'F01670',   2921] # Csősztorony
+      - ['00:10:00', 'F01668',   3250] # Ihász utca
+      - ['00:12:00', 'F01630',   3723] # Kőrösi Csoma Sándor út
+      - ['00:13:00', 'F01828',   4051] # Ónodi utca
+      - ['00:14:00', 'F01652',   4465] # Szent László tér
+      - ['00:16:00', 'F01635',   4937] # Kőbánya alsó vasútállomás
     trip_headsign: Kőbánya alsó vasútállomás
     trip_id: REFERENCE-1850-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

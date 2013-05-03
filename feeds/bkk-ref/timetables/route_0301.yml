@@ -13,35 +13,35 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0301-0-1-H276
     stop_times:
-      - ['11:43:00', 'F01152',      0] # Keleti pályaudvar M
-      - ['11:44:00', 'F01150',    540] # Dózsa György út
-      - ['11:45:00', 'F01149',    798] # Thököly út
-      - ['11:47:00', 'F01140',   1202] # Ajtósi Dürer sor
-      - ['11:48:00', 'F01137',   1600] # Damjanich utca
-      - ['11:50:00', 'F01051',   2481] # Hősök tere M
-      - ['11:52:00', 'F01058',   2947] # Vágány utca
-      - ['11:54:00', 'F02628',   3712] # Róbert Károly körút
-      - ['11:56:00', 'F02647',   4477] # Szegedi út
-      - ['11:57:00', 'F02636',   4902] # Petneházy utca
-      - ['11:58:00', 'F02672',   5226] # Fáy utca
-      - ['12:00:00', 'F02549',   5750] # Futár utca
-      - ['12:01:00', 'F02655',   6101] # Rokolya utca
-      - ['12:02:00', 'F02657',   6429] # Kucsma utca
-      - ['12:03:00', 'F02543',   6925] # Béke utca
-      - ['12:05:00', 'F00693',   7502] # Angyalföld kocsiszín
-      - ['12:06:00', 'F00820',   7775] # Chinoin utca
-      - ['12:07:00', 'F00861',   8251] # Nyár utca
-      - ['12:08:00', 'F00814',   8534] # Munkásotthon utca
-      - ['12:10:00', 'F00804',   8731] # Újpest-Központ M
-      - ['12:11:00', 'F00784',   9225] # Deák Ferenc utca
-      - ['12:12:00', 'F00783',   9464] # Nádor utca
-      - ['12:13:00', 'F00777',  10001] # Türr István utca
-      - ['12:14:00', 'F00849',  10463] # Baross utca
-      - ['12:15:00', 'F00770',  10849] # Irányi Dániel utca
-      - ['12:16:00', 'F00755',  11156] # Fóti út
-      - ['12:18:00', 'F00714',  11749] # Fóti út (Megyeri út)
-      - ['12:19:00', 'F00710',  11904] # Megyeri temető
-      - ['12:21:00', 'F00716',  12521] # Megyer, Szondi utca
+      - ['00:00:00', 'F01152',      0] # Keleti pályaudvar M
+      - ['00:01:00', 'F01150',    540] # Dózsa György út
+      - ['00:02:00', 'F01149',    798] # Thököly út
+      - ['00:04:00', 'F01140',   1202] # Ajtósi Dürer sor
+      - ['00:05:00', 'F01137',   1600] # Damjanich utca
+      - ['00:07:00', 'F01051',   2481] # Hősök tere M
+      - ['00:09:00', 'F01058',   2947] # Vágány utca
+      - ['00:11:00', 'F02628',   3712] # Róbert Károly körút
+      - ['00:13:00', 'F02647',   4477] # Szegedi út
+      - ['00:14:00', 'F02636',   4902] # Petneházy utca
+      - ['00:15:00', 'F02672',   5226] # Fáy utca
+      - ['00:17:00', 'F02549',   5750] # Futár utca
+      - ['00:18:00', 'F02655',   6101] # Rokolya utca
+      - ['00:19:00', 'F02657',   6429] # Kucsma utca
+      - ['00:20:00', 'F02543',   6925] # Béke utca
+      - ['00:22:00', 'F00693',   7502] # Angyalföld kocsiszín
+      - ['00:23:00', 'F00820',   7775] # Chinoin utca
+      - ['00:24:00', 'F00861',   8251] # Nyár utca
+      - ['00:25:00', 'F00814',   8534] # Munkásotthon utca
+      - ['00:27:00', 'F00804',   8731] # Újpest-Központ M
+      - ['00:28:00', 'F00784',   9225] # Deák Ferenc utca
+      - ['00:29:00', 'F00783',   9464] # Nádor utca
+      - ['00:30:00', 'F00777',  10001] # Türr István utca
+      - ['00:31:00', 'F00849',  10463] # Baross utca
+      - ['00:32:00', 'F00770',  10849] # Irányi Dániel utca
+      - ['00:33:00', 'F00755',  11156] # Fóti út
+      - ['00:35:00', 'F00714',  11749] # Fóti út (Megyeri út)
+      - ['00:36:00', 'F00710',  11904] # Megyeri temető
+      - ['00:38:00', 'F00716',  12521] # Megyer, Szondi utca
     trip_headsign: 'Megyer, Szondi utca'
     trip_id: REFERENCE-0301-0-1
     wheelchair_accessible: 2
@@ -49,35 +49,35 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0301-1-1-J480
     stop_times:
-      - ['20:14:00', 'F00717',      0] # Megyer, Szondi utca
-      - ['20:15:00', 'F00709',    430] # Megyeri temető
-      - ['20:16:00', 'F00712',    827] # Megyeri út (Fóti út)
-      - ['20:17:00', 'F00754',   1210] # Baross utca
-      - ['20:18:00', 'F00769',   1508] # Irányi Dániel utca
-      - ['20:19:00', 'F00848',   1911] # Mildenberger utca
-      - ['20:20:00', 'F00778',   2409] # Nádor utca
-      - ['20:22:00', 'F00782',   3011] # Deák Ferenc utca
-      - ['20:22:00', 'F00785',   3254] # István út
-      - ['20:24:00', 'F00910',   3675] # Újpest-Központ M (Szt. István tér)
-      - ['20:24:00', 'F00815',   3947] # Újpest-Központ M (Munkásotthon utca)
-      - ['20:25:00', 'F00862',   4205] # Berda József utca
-      - ['20:26:00', 'F00821',   4689] # Pozsonyi utca
-      - ['20:28:00', 'F02542',   5388] # Gyöngyösi utca
-      - ['20:29:00', 'F02658',   5930] # Kucsma utca
-      - ['20:30:00', 'F02656',   6248] # Rokolya utca
-      - ['20:31:00', 'F02550',   6698] # Futár utca
-      - ['20:33:00', 'F02671',   7119] # Fáy utca
-      - ['20:34:00', 'F02635',   7503] # Petneházy utca
-      - ['20:35:00', 'F02645',   7825] # Szegedi út
-      - ['20:37:00', 'F02627',   8721] # Róbert Károly körút
-      - ['20:39:00', 'F01057',   9482] # Dózsa György út
-      - ['20:40:00', 'F01055',   9901] # Hősök tere M
-      - ['20:41:00', 'F01048',  10249] # Benczúr utca
-      - ['20:43:00', 'F01134',  10738] # Damjanich utca
-      - ['20:43:00', 'F01138',  10930] # Dembinszky utca
-      - ['20:45:00', 'F01144',  11496] # Thököly út
-      - ['20:46:00', 'F01151',  11889] # Verseny utca
-      - ['20:48:00', 'F01152',  12324] # Keleti pályaudvar M
+      - ['00:00:00', 'F00717',      0] # Megyer, Szondi utca
+      - ['00:01:00', 'F00709',    430] # Megyeri temető
+      - ['00:02:00', 'F00712',    827] # Megyeri út (Fóti út)
+      - ['00:03:00', 'F00754',   1210] # Baross utca
+      - ['00:04:00', 'F00769',   1508] # Irányi Dániel utca
+      - ['00:05:00', 'F00848',   1911] # Mildenberger utca
+      - ['00:07:00', 'F00778',   2409] # Nádor utca
+      - ['00:09:00', 'F00782',   3011] # Deák Ferenc utca
+      - ['00:09:00', 'F00785',   3254] # István út
+      - ['00:11:00', 'F00910',   3675] # Újpest-Központ M (Szt. István tér)
+      - ['00:12:00', 'F00815',   3947] # Újpest-Központ M (Munkásotthon utca)
+      - ['00:12:00', 'F00862',   4205] # Berda József utca
+      - ['00:14:00', 'F00821',   4689] # Pozsonyi utca
+      - ['00:15:00', 'F02542',   5388] # Gyöngyösi utca
+      - ['00:17:00', 'F02658',   5930] # Kucsma utca
+      - ['00:18:00', 'F02656',   6248] # Rokolya utca
+      - ['00:19:00', 'F02550',   6698] # Futár utca
+      - ['00:20:00', 'F02671',   7119] # Fáy utca
+      - ['00:21:00', 'F02635',   7503] # Petneházy utca
+      - ['00:22:00', 'F02645',   7825] # Szegedi út
+      - ['00:25:00', 'F02627',   8721] # Róbert Károly körút
+      - ['00:27:00', 'F01057',   9482] # Dózsa György út
+      - ['00:29:00', 'F01055',   9901] # Hősök tere M
+      - ['00:30:00', 'F01048',  10249] # Benczúr utca
+      - ['00:32:00', 'F01134',  10738] # Damjanich utca
+      - ['00:33:00', 'F01138',  10930] # Dembinszky utca
+      - ['00:35:00', 'F01144',  11496] # Thököly út
+      - ['00:36:00', 'F01151',  11889] # Verseny utca
+      - ['00:38:00', 'F01152',  12324] # Keleti pályaudvar M
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-0301-1-1
     wheelchair_accessible: 2

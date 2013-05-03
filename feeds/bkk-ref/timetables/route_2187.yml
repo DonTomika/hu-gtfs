@@ -13,56 +13,56 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2187-0-1-O258
     stop_times:
-      - ['12:30:00', 'F00621',      0] # Szentlélek tér H
-      - ['12:31:00', 'F00613',    511] # Flórián tér
-      - ['12:33:00', 'F00588',    890] # Vihar utca
-      - ['12:34:00', 'F00584',   1348] # Óbudai rendelőintézet
-      - ['12:35:00', 'F00680',   1790] # Bécsi út (Vörösvári út)
-      - ['12:36:00', 'F00518',   2463] # Orbán Balázs út
-      - ['12:37:00', 'F00520',   2967] # Bojtár utca (Bécsi út)
-      - ['12:38:00', 'F00549',   3254] # Kubik utca
-      - ['12:39:00', 'F00522',   3649] # Óbudai temető
-      - ['12:40:00', 'F00617',   4214] # ATI
-      - ['12:41:00', 'F00630',   4526] # Bóbita utca
-      - ['12:42:00', 'F00528',   4708] # Kocsis Sándor út
-      - ['12:44:00', 'F00530',   5215] # Ürömhegyi út
-      - ['12:45:00', 'F00532',   5986] # Üröm vasúti megállóhely
-      - ['12:47:00', 'F00433',   6551] # Tücsök utca
-      - ['12:48:00', 'F04817',   6987] # Solymár, téglagyári bekötőút
-      - ['12:49:00', 'F04774',   7464] # Külső Bécsi út 35.
-      - ['12:50:00', 'F04819',   7893] # Kövesbérci utca
-      - ['12:51:00', 'F04776',   8485] # Pilisborosjenő, Téglagyári tér
-      - ['12:53:00', '009065',   8844] # Solymár, Szarvas
-      - ['12:56:00', '009067',   9872] # Solymár, Auchan áruház
+      - ['00:00:00', 'F00621',      0] # Szentlélek tér H
+      - ['00:01:00', 'F00613',    511] # Flórián tér
+      - ['00:03:00', 'F00588',    890] # Vihar utca
+      - ['00:04:00', 'F00584',   1348] # Óbudai rendelőintézet
+      - ['00:05:00', 'F00680',   1790] # Bécsi út (Vörösvári út)
+      - ['00:06:00', 'F00518',   2463] # Orbán Balázs út
+      - ['00:07:00', 'F00520',   2967] # Bojtár utca (Bécsi út)
+      - ['00:08:00', 'F00549',   3254] # Kubik utca
+      - ['00:09:00', 'F00522',   3649] # Óbudai temető
+      - ['00:10:00', 'F00617',   4214] # ATI
+      - ['00:11:00', 'F00630',   4526] # Bóbita utca
+      - ['00:12:00', 'F00528',   4708] # Kocsis Sándor út
+      - ['00:14:00', 'F00530',   5215] # Ürömhegyi út
+      - ['00:15:00', 'F00532',   5986] # Üröm vasúti megállóhely
+      - ['00:17:00', 'F00433',   6551] # Tücsök utca
+      - ['00:18:00', 'F04817',   6987] # Solymár, téglagyári bekötőút
+      - ['00:19:00', 'F04774',   7464] # Külső Bécsi út 35.
+      - ['00:20:00', 'F04819',   7893] # Kövesbérci utca
+      - ['00:21:00', 'F04776',   8485] # Pilisborosjenő, Téglagyári tér
+      - ['00:23:00', '009065',   8844] # Solymár, Szarvas
+      - ['00:26:00', '009067',   9872] # Solymár, Auchan áruház
     trip_headsign: 'Solymár, Auchan áruház'
     trip_id: REFERENCE-2187-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2187-1-1-O259
     stop_times:
-      - ['07:32:00', '009067',      0] # Solymár, Auchan áruház
-      - ['07:35:00', '009066',   1239] # Solymár, Szarvas
-      - ['07:37:00', 'F04820',   2194] # Kövesbérci utca
-      - ['07:38:00', 'F04775',   2540] # Külső Bécsi út 35.
-      - ['07:39:00', 'F04818',   3093] # Solymár, téglagyári bekötőút
-      - ['07:41:00', 'F00434',   3426] # Tücsök utca
-      - ['07:43:00', 'F00533',   3960] # Üröm vasúti megállóhely
-      - ['07:45:00', 'F00531',   4720] # Ürömhegyi út
-      - ['07:47:00', 'F00529',   5134] # Sorompó
-      - ['07:49:00', 'F00631',   5570] # Bóbita utca
-      - ['07:50:00', 'F00618',   5868] # ATI
-      - ['07:52:00', 'F00558',   6509] # Óbudai temető
-      - ['07:53:00', 'F00550',   6867] # Kubik utca
-      - ['07:55:00', 'F00521',   7140] # Bojtár utca
-      - ['07:57:00', 'F00519',   7448] # Orbán Balázs út
-      - ['07:59:00', 'F00669',   7925] # Laborc utca
-      - ['08:01:00', 'F00570',   8380] # Vörösvári út
-      - ['08:03:00', 'F00585',   8835] # Óbudai rendelőintézet
-      - ['08:05:00', 'F00589',   9130] # Szőlő utca
-      - ['08:07:00', 'F00616',   9416] # Flórián tér
-      - ['08:09:00', '009295',   9977] # Serfőző utca
-      - ['08:12:00', 'F00621',  10289] # Szentlélek tér H
+      - ['00:00:00', '009067',      0] # Solymár, Auchan áruház
+      - ['00:02:00', '009066',   1239] # Solymár, Szarvas
+      - ['00:04:00', 'F04820',   2194] # Kövesbérci utca
+      - ['00:05:00', 'F04775',   2540] # Külső Bécsi út 35.
+      - ['00:06:00', 'F04818',   3093] # Solymár, téglagyári bekötőút
+      - ['00:06:00', 'F00434',   3426] # Tücsök utca
+      - ['00:08:00', 'F00533',   3960] # Üröm vasúti megállóhely
+      - ['00:09:00', 'F00531',   4720] # Ürömhegyi út
+      - ['00:10:00', 'F00529',   5134] # Sorompó
+      - ['00:12:00', 'F00631',   5570] # Bóbita utca
+      - ['00:13:00', 'F00618',   5868] # ATI
+      - ['00:14:00', 'F00558',   6509] # Óbudai temető
+      - ['00:15:00', 'F00550',   6867] # Kubik utca
+      - ['00:16:00', 'F00521',   7140] # Bojtár utca
+      - ['00:17:00', 'F00519',   7448] # Orbán Balázs út
+      - ['00:18:00', 'F00669',   7925] # Laborc utca
+      - ['00:20:00', 'F00570',   8380] # Vörösvári út
+      - ['00:22:00', 'F00585',   8835] # Óbudai rendelőintézet
+      - ['00:24:00', 'F00589',   9130] # Szőlő utca
+      - ['00:25:00', 'F00616',   9416] # Flórián tér
+      - ['00:27:00', '009295',   9977] # Serfőző utca
+      - ['00:28:00', 'F00621',  10289] # Szentlélek tér H
     trip_headsign: Szentlélek tér H
     trip_id: REFERENCE-2187-1-1
     wheelchair_accessible: 1

@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3120-0-1-B212
     stop_times:
-      - ['23:22:00', 'F03028',      0] # Rákospalota, Kossuth utca
-      - ['23:23:00', 'F03023',    367] # Dal utca
-      - ['23:24:00', 'F03020',    640] # Sződliget utca
-      - ['23:27:00', 'F00846',   1576] # Rákospalota-Újpest vasútállomás
-      - ['23:28:00', 'F00881',   2003] # Szülőotthon
-      - ['23:29:00', 'F00790',   2397] # Szakorvosi rendelő
-      - ['23:30:00', 'F00914',   2664] # Corvin utca
-      - ['23:31:00', 'F00786',   3084] # Deák Ferenc utca
-      - ['23:32:00', 'F00795',   3364] # Szent István tér - Újpesti piac
-      - ['23:34:00', 'F00798',   3608] # Újpest-Központ M
-      - ['23:35:00', 'F00819',   4262] # Tél utca
-      - ['23:37:00', 'F00822',   4542] # Angyalföld kocsiszín
+      - ['00:00:00', 'F03028',      0] # Rákospalota, Kossuth utca
+      - ['00:01:00', 'F03023',    367] # Dal utca
+      - ['00:02:00', 'F03020',    640] # Sződliget utca
+      - ['00:05:00', 'F00846',   1576] # Rákospalota-Újpest vasútállomás
+      - ['00:06:00', 'F00881',   2003] # Szülőotthon
+      - ['00:07:00', 'F00790',   2397] # Szakorvosi rendelő
+      - ['00:08:00', 'F00914',   2664] # Corvin utca
+      - ['00:09:00', 'F00786',   3084] # Deák Ferenc utca
+      - ['00:10:00', 'F00795',   3364] # Szent István tér - Újpesti piac
+      - ['00:12:00', 'F00798',   3608] # Újpest-Központ M
+      - ['00:13:00', 'F00819',   4262] # Tél utca
+      - ['00:15:00', 'F00822',   4542] # Angyalföld kocsiszín
     trip_headsign: Angyalföld kocsiszín
     trip_id: REFERENCE-3120-0-1
     wheelchair_accessible: 2
@@ -32,18 +32,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3120-1-1-B213
     stop_times:
-      - ['18:24:00', 'F00823',      0] # Angyalföld kocsiszín
-      - ['18:26:00', 'F00818',    452] # Tél utca
-      - ['18:28:00', 'F00797',    897] # Újpest-Központ M
-      - ['18:29:00', 'F00796',   1238] # Szent István tér - Újpesti piac
-      - ['18:30:00', 'F00788',   1566] # Deák Ferenc utca
-      - ['18:31:00', 'F00915',   1840] # Corvin utca
-      - ['18:32:00', 'F00792',   2072] # Szakorvosi rendelő
-      - ['18:34:00', 'F00880',   2525] # Szülőotthon
-      - ['18:35:00', 'F00845',   3032] # Rákospalota-Újpest vasútállomás
-      - ['18:37:00', 'F03019',   3945] # Sződliget utca
-      - ['18:38:00', 'F03024',   4341] # Fő út
-      - ['18:40:00', 'F03028',   4617] # Rákospalota, Kossuth utca
+      - ['00:00:00', 'F00823',      0] # Angyalföld kocsiszín
+      - ['00:02:00', 'F00818',    452] # Tél utca
+      - ['00:04:00', 'F00797',    897] # Újpest-Központ M
+      - ['00:05:00', 'F00796',   1238] # Szent István tér - Újpesti piac
+      - ['00:06:00', 'F00788',   1566] # Deák Ferenc utca
+      - ['00:07:00', 'F00915',   1840] # Corvin utca
+      - ['00:08:00', 'F00792',   2072] # Szakorvosi rendelő
+      - ['00:10:00', 'F00880',   2525] # Szülőotthon
+      - ['00:11:00', 'F00845',   3032] # Rákospalota-Újpest vasútállomás
+      - ['00:13:00', 'F03019',   3945] # Sződliget utca
+      - ['00:15:00', 'F03024',   4341] # Fő út
+      - ['00:17:00', 'F03028',   4617] # Rákospalota, Kossuth utca
     trip_headsign: 'Rákospalota, Kossuth utca'
     trip_id: REFERENCE-3120-1-1
     wheelchair_accessible: 2

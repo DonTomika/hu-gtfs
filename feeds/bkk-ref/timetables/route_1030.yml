@@ -13,19 +13,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1030-0-1-H157
     stop_times:
-      - ['09:30:00', '007898',      0] # Kelenföldi pályaudvar
-      - ['09:31:00', 'F02215',    399] # Bártfai utca
-      - ['09:32:00', 'F01955',    787] # Kelenföld, városközpont
-      - ['09:34:00', 'F02007',   1432] # Fehérvári út
-      - ['09:35:00', 'F02260',   1817] # Nándorfejérvári út
-      - ['09:37:00', 'F01983',   2229] # Budafoki út
-      - ['09:39:00', 'F02235',   2642] # Kelenföldi Erőmű
-      - ['09:41:00', 'F01985',   3130] # Dombóvári út
-      - ['09:45:00', 'F01528',   4755] # Közvágóhíd H
-      - ['09:47:00', 'F01509',   5621] # Mester utca
-      - ['09:49:00', 'F01505',   5898] # Ferencváros vasútállomás
-      - ['09:51:00', 'F01501',   6653] # Gyáli út
-      - ['09:53:00', 'F01530',   7012] # Népliget M
+      - ['00:00:00', '007898',      0] # Kelenföldi pályaudvar
+      - ['00:01:00', 'F02215',    399] # Bártfai utca
+      - ['00:02:00', 'F01955',    787] # Kelenföld, városközpont
+      - ['00:03:00', 'F02007',   1432] # Fehérvári út
+      - ['00:04:00', 'F02260',   1817] # Nándorfejérvári út
+      - ['00:05:00', 'F01983',   2229] # Budafoki út
+      - ['00:07:00', 'F02235',   2642] # Kelenföldi Erőmű
+      - ['00:08:00', 'F01985',   3130] # Dombóvári út
+      - ['00:11:00', 'F01528',   4755] # Közvágóhíd H
+      - ['00:13:00', 'F01509',   5621] # Mester utca
+      - ['00:14:00', 'F01505',   5898] # Ferencváros vasútállomás
+      - ['00:15:00', 'F01501',   6653] # Gyáli út
+      - ['00:17:00', 'F01530',   7012] # Népliget M
     trip_headsign: Népliget M
     trip_id: REFERENCE-1030-0-1
     wheelchair_accessible: 2
@@ -33,21 +33,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1030-1-1-H156
     stop_times:
-      - ['07:53:00', 'F01530',      0] # Népliget M
-      - ['07:55:00', '008287',    648] # Népliget M (Üllői út)
-      - ['07:56:00', 'F01500',   1005] # Gyáli út
-      - ['07:59:00', 'F01504',   1601] # Ferencváros vasútállomás
-      - ['08:00:00', 'F01508',   2047] # Mester utca
-      - ['08:02:00', 'F01527',   2870] # Közvágóhíd H
-      - ['08:06:00', '008280',   4035] # Pázmány Péter sétány
-      - ['08:09:00', 'F01984',   5057] # Prielle Kornélia utca
-      - ['08:10:00', 'F02234',   5545] # Kelenföldi Erőmű
-      - ['08:12:00', 'F01982',   5971] # Hengermalom út
-      - ['08:13:00', 'F02259',   6328] # Nándorfejérvári út
-      - ['08:15:00', 'F02006',   6779] # Fehérvári út (Hengermalom út)
-      - ['08:17:00', 'F01956',   7420] # Kelenföld, városközpont
-      - ['08:18:00', 'F02216',   7726] # Bártfai utca
-      - ['08:20:00', 'F02210',   8223] # Kelenföldi pályaudvar
+      - ['00:00:00', 'F01530',      0] # Népliget M
+      - ['00:02:00', '008287',    648] # Népliget M (Üllői út)
+      - ['00:03:00', 'F01500',   1005] # Gyáli út
+      - ['00:04:00', 'F01504',   1601] # Ferencváros vasútállomás
+      - ['00:05:00', 'F01508',   2047] # Mester utca
+      - ['00:07:00', 'F01527',   2870] # Közvágóhíd H
+      - ['00:10:00', '008280',   4035] # Pázmány Péter sétány
+      - ['00:12:00', 'F01984',   5057] # Prielle Kornélia utca
+      - ['00:13:00', 'F02234',   5545] # Kelenföldi Erőmű
+      - ['00:15:00', 'F01982',   5971] # Hengermalom út
+      - ['00:16:00', 'F02259',   6328] # Nándorfejérvári út
+      - ['00:17:00', 'F02006',   6779] # Fehérvári út (Hengermalom út)
+      - ['00:19:00', 'F01956',   7420] # Kelenföld, városközpont
+      - ['00:20:00', 'F02216',   7726] # Bártfai utca
+      - ['00:22:00', 'F02210',   8223] # Kelenföldi pályaudvar
     trip_headsign: Kelenföldi pályaudvar
     trip_id: REFERENCE-1030-1-1
     wheelchair_accessible: 1

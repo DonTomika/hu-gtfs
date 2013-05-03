@@ -13,48 +13,48 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0460-0-1-T413
     stop_times:
-      - ['14:26:00', '009376',      0] # Újpalota, Nyírpalota út
-      - ['14:27:00', 'F03158',    619] # Vásárcsarnok
-      - ['14:29:00', 'F03153',   1065] # Fő tér
-      - ['14:30:00', 'F03150',   1404] # Erdőkerülő utca
-      - ['14:30:00', 'F03202',   1708] # Erdőkerülő utca 27.
-      - ['14:31:00', '008903',   1990] # Szentmihályi út
-      - ['14:33:00', 'F02987',   3144] # János utca
-      - ['14:34:00', 'F03346',   3436] # Vörösmarty utca
-      - ['14:35:00', 'F03258',   3913] # Csömöri út
-      - ['14:37:00', 'F03223',   4369] # Diófa utca
-      - ['14:38:00', 'F03226',   4750] # Mátyás király utca
-      - ['14:39:00', 'F03213',   5318] # Csömöri út (Szlovák út)
-      - ['14:40:00', 'F03348',   5594] # Péterke utca
-      - ['14:40:00', 'F03218',   5881] # Timur utca
-      - ['14:41:00', 'F03351',   6256] # Szilas-patak
-      - ['14:43:00', 'F03227',   6769] # Mátyás király utca
-      - ['14:43:00', 'F03352',   6943] # Ida utca
-      - ['14:44:00', 'F03231',   7337] # Mátyásföldi tér
-      - ['14:45:00', 'F03232',   7729] # Sasvár utca
-      - ['14:46:00', 'F03340',   8208] # Margit utca
-      - ['14:47:00', 'F03408',   8568] # Gida utca
-      - ['14:49:00', 'F03308',   9107] # Mátyásföld, repülőtér H
-      - ['14:50:00', '009377',   9434] # Jókai Mór utca (Rendőrség)
-      - ['14:51:00', 'F03388',  10139] # Jókai Mór utca (Újszász utca)
-      - ['14:52:00', 'F03311',  10398] # Pilóta utca
-      - ['14:53:00', 'F03315',  10908] # Diósy Lajos utca
-      - ['14:54:00', 'F03318',  11350] # Bökényföldi út
-      - ['14:55:00', 'F03383',  11668] # Papír utca
-      - ['14:56:00', 'F03384',  12005] # Farkashalom utca
-      - ['14:56:00', 'F03325',  12304] # Anilin utca
-      - ['14:57:00', 'F03387',  12755] # Cinke utca
-      - ['14:59:00', 'F03328',  13241] # Georgina utca
-      - ['15:00:00', 'F03335',  13913] # Simongát utca
-      - ['15:02:00', 'F03337',  15029] # Erdei bekötőút
-      - ['15:04:00', 'F03286',  16044] # Cinkotai autóbuszgarázs
-      - ['15:05:00', 'F03450',  16531] # Vidor utca
-      - ['15:06:00', 'F03452',  16993] # Gyöngytyúk utca
-      - ['15:07:00', 'F03454',  17289] # Liget sor
-      - ['15:10:00', 'F03542',  18061] # Bakancsos utca
-      - ['15:11:00', 'F03593',  18636] # Szent kereszt tér
-      - ['15:12:00', '011722',  18969] # Rákoskeresztúr, városközpont
-      - ['15:13:00', '009684',  19117] # Városközpont, Posta
+      - ['00:00:00', '009376',      0] # Újpalota, Nyírpalota út
+      - ['00:01:00', 'F03158',    619] # Vásárcsarnok
+      - ['00:03:00', 'F03153',   1065] # Fő tér
+      - ['00:04:00', 'F03150',   1404] # Erdőkerülő utca
+      - ['00:04:00', 'F03202',   1708] # Erdőkerülő utca 27.
+      - ['00:05:00', '008903',   1990] # Szentmihályi út
+      - ['00:07:00', 'F02987',   3144] # János utca
+      - ['00:08:00', 'F03346',   3436] # Vörösmarty utca
+      - ['00:09:00', 'F03258',   3913] # Csömöri út
+      - ['00:11:00', 'F03223',   4369] # Diófa utca
+      - ['00:12:00', 'F03226',   4750] # Mátyás király utca
+      - ['00:13:00', 'F03213',   5318] # Csömöri út (Szlovák út)
+      - ['00:14:00', 'F03348',   5594] # Péterke utca
+      - ['00:14:00', 'F03218',   5881] # Timur utca
+      - ['00:15:00', 'F03351',   6256] # Szilas-patak
+      - ['00:17:00', 'F03227',   6769] # Mátyás király utca
+      - ['00:17:00', 'F03352',   6943] # Ida utca
+      - ['00:18:00', 'F03231',   7337] # Mátyásföldi tér
+      - ['00:19:00', 'F03232',   7729] # Sasvár utca
+      - ['00:20:00', 'F03340',   8208] # Margit utca
+      - ['00:21:00', 'F03408',   8568] # Gida utca
+      - ['00:23:00', 'F03308',   9107] # Mátyásföld, repülőtér H
+      - ['00:24:00', '009377',   9434] # Jókai Mór utca (Rendőrség)
+      - ['00:25:00', 'F03388',  10139] # Jókai Mór utca (Újszász utca)
+      - ['00:26:00', 'F03311',  10398] # Pilóta utca
+      - ['00:27:00', 'F03315',  10908] # Diósy Lajos utca
+      - ['00:28:00', 'F03318',  11350] # Bökényföldi út
+      - ['00:29:00', 'F03383',  11668] # Papír utca
+      - ['00:30:00', 'F03384',  12005] # Farkashalom utca
+      - ['00:30:00', 'F03325',  12304] # Anilin utca
+      - ['00:31:00', 'F03387',  12755] # Cinke utca
+      - ['00:33:00', 'F03328',  13241] # Georgina utca
+      - ['00:34:00', 'F03335',  13913] # Simongát utca
+      - ['00:36:00', 'F03337',  15029] # Erdei bekötőút
+      - ['00:38:00', 'F03286',  16044] # Cinkotai autóbuszgarázs
+      - ['00:39:00', 'F03450',  16531] # Vidor utca
+      - ['00:40:00', 'F03452',  16993] # Gyöngytyúk utca
+      - ['00:41:00', 'F03454',  17289] # Liget sor
+      - ['00:44:00', 'F03542',  18061] # Bakancsos utca
+      - ['00:45:00', 'F03593',  18636] # Szent kereszt tér
+      - ['00:46:00', '011722',  18969] # Rákoskeresztúr, városközpont
+      - ['00:47:00', '009684',  19117] # Városközpont, Posta
     trip_headsign: 'Városközpont, Posta'
     trip_id: REFERENCE-0460-0-1
     wheelchair_accessible: 2
@@ -62,65 +62,65 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0460-1-1-M041
     stop_times:
-      - ['20:35:00', '009684',      0] # Városközpont, Posta
-      - ['20:35:00', '009685',    213] # Akácvirág utca
-      - ['20:36:00', 'F03516',    667] # Széchenyi utca
-      - ['20:36:00', 'F03587',    956] # Bulyovszky utca
-      - ['20:38:00', 'F03519',   1520] # Szabadság utca
-      - ['20:39:00', '008577',   1759] # Rákoshegy vasútállomás
-      - ['20:40:00', 'F03532',   2422] # Lőrinci út
-      - ['20:42:00', '009137',   4060] # Újmajori utca
-      - ['20:43:00', '009139',   4625] # Dedics Ferenc utca
-      - ['20:45:00', 'F03531',   5803] # Lőrinci út
-      - ['20:46:00', 'F03530',   5940] # Lőrinci út (Szabadság utca)
-      - ['20:47:00', 'F03526',   6360] # Rákoshegy vasútállomás
-      - ['20:48:00', 'F03518',   6729] # Ferihegyi út
-      - ['20:49:00', 'F03588',   7210] # Bulyovszky utca
-      - ['20:50:00', 'F03517',   7595] # Széchenyi utca
-      - ['20:51:00', 'F03473',   8091] # Egészségház
-      - ['20:52:00', '21:02:00', '011726',   8389] # Rákoskeresztúr, városközpont
-      - ['21:02:00', 'F03594',   8806] # Szent kereszt tér
-      - ['21:03:00', 'F03541',   9177] # Bakancsos utca
-      - ['21:05:00', 'F03455',   9939] # Liget sor
-      - ['21:06:00', 'F03453',  10281] # Gyöngytyúk utca
-      - ['21:07:00', 'F03449',  10846] # Vidor utca
-      - ['21:08:00', 'F03287',  11300] # Cinkotai autóbuszgarázs
-      - ['21:09:00', 'F03338',  12288] # Erdei bekötőút
-      - ['21:11:00', 'F03336',  13332] # Nagytarcsai út
-      - ['21:13:00', 'F03327',  14189] # Vidámvásár utca (Georgina utca)
-      - ['21:14:00', 'F03386',  14542] # Cinke utca
-      - ['21:15:00', 'F03326',  15086] # Anilin utca
-      - ['21:15:00', 'F03385',  15338] # Farkashalom utca
-      - ['21:16:00', 'F03382',  15630] # Papír utca
-      - ['21:16:00', 'F03319',  15988] # Bökényföldi út
-      - ['21:17:00', 'F03314',  16375] # Diósy Lajos utca
-      - ['21:18:00', 'F03313',  16878] # Pilóta utca
-      - ['21:19:00', 'F03389',  17198] # Jókai Mór utca
-      - ['21:20:00', '009373',  17621] # Hunyadvár utca
-      - ['21:21:00', 'F03393',  17987] # Jókai Mór utca (Rendőrség)
-      - ['21:21:00', 'F03309',  18210] # Mátyásföld, repülőtér H
-      - ['21:23:00', 'F03407',  18687] # Gida utca
-      - ['21:24:00', 'F03339',  19181] # Margit utca
-      - ['21:24:00', 'F03233',  19499] # Sasvár utca
-      - ['21:25:00', 'F03230',  19946] # Mátyásföldi tér
-      - ['21:26:00', 'F03353',  20316] # Ida utca
-      - ['21:27:00', '008946',  20550] # Szénás utca
-      - ['21:27:00', '009375',  20975] # Szilas-patak
-      - ['21:29:00', 'F03217',  21353] # Timur utca
-      - ['21:30:00', 'F03347',  21623] # Péterke utca
-      - ['21:31:00', 'F03212',  21999] # Csömöri út
-      - ['21:32:00', 'F03224',  22493] # Mátyás király utca
-      - ['21:32:00', '043341',  22948] # György utca
-      - ['21:33:00', 'F03350',  23218] # Baross utca
-      - ['21:34:00', 'F03219',  23617] # Gusztáv utca
-      - ['21:34:00', 'F02984',  23872] # Rákospalotai határút
-      - ['21:35:00', 'F02985',  24110] # Szentmihályi út
-      - ['21:37:00', 'F03148',  25203] # Erdőkerülő utca
-      - ['21:38:00', 'F03201',  25481] # Erdőkerülő utca 28.
-      - ['21:39:00', 'F03209',  25903] # Zsókavár utca
-      - ['21:39:00', 'F03154',  26126] # Fő tér
-      - ['21:40:00', 'F03157',  26559] # Vásárcsarnok
-      - ['21:41:00', 'F03165',  26788] # Újpalota, Nyírpalota út
+      - ['00:00:00', '009684',      0] # Városközpont, Posta
+      - ['00:00:00', '009685',    213] # Akácvirág utca
+      - ['00:01:00', 'F03516',    667] # Széchenyi utca
+      - ['00:02:00', 'F03587',    956] # Bulyovszky utca
+      - ['00:03:00', 'F03519',   1520] # Szabadság utca
+      - ['00:04:00', '008577',   1759] # Rákoshegy vasútállomás
+      - ['00:05:00', 'F03532',   2422] # Lőrinci út
+      - ['00:08:00', '009137',   4060] # Újmajori utca
+      - ['00:09:00', '009139',   4625] # Dedics Ferenc utca
+      - ['00:11:00', 'F03531',   5803] # Lőrinci út
+      - ['00:11:00', 'F03530',   5940] # Lőrinci út (Szabadság utca)
+      - ['00:12:00', 'F03526',   6360] # Rákoshegy vasútállomás
+      - ['00:14:00', 'F03518',   6729] # Ferihegyi út
+      - ['00:15:00', 'F03588',   7210] # Bulyovszky utca
+      - ['00:16:00', 'F03517',   7595] # Széchenyi utca
+      - ['00:17:00', 'F03473',   8091] # Egészségház
+      - ['00:18:00', '00:25:00', '011726',   8389] # Rákoskeresztúr, városközpont
+      - ['00:25:00', 'F03594',   8806] # Szent kereszt tér
+      - ['00:26:00', 'F03541',   9177] # Bakancsos utca
+      - ['00:28:00', 'F03455',   9939] # Liget sor
+      - ['00:30:00', 'F03453',  10281] # Gyöngytyúk utca
+      - ['00:31:00', 'F03449',  10846] # Vidor utca
+      - ['00:32:00', 'F03287',  11300] # Cinkotai autóbuszgarázs
+      - ['00:33:00', 'F03338',  12288] # Erdei bekötőút
+      - ['00:35:00', 'F03336',  13332] # Nagytarcsai út
+      - ['00:37:00', 'F03327',  14189] # Vidámvásár utca (Georgina utca)
+      - ['00:38:00', 'F03386',  14542] # Cinke utca
+      - ['00:39:00', 'F03326',  15086] # Anilin utca
+      - ['00:40:00', 'F03385',  15338] # Farkashalom utca
+      - ['00:40:00', 'F03382',  15630] # Papír utca
+      - ['00:41:00', 'F03319',  15988] # Bökényföldi út
+      - ['00:42:00', 'F03314',  16375] # Diósy Lajos utca
+      - ['00:43:00', 'F03313',  16878] # Pilóta utca
+      - ['00:44:00', 'F03389',  17198] # Jókai Mór utca
+      - ['00:45:00', '009373',  17621] # Hunyadvár utca
+      - ['00:46:00', 'F03393',  17987] # Jókai Mór utca (Rendőrség)
+      - ['00:46:00', 'F03309',  18210] # Mátyásföld, repülőtér H
+      - ['00:48:00', 'F03407',  18687] # Gida utca
+      - ['00:49:00', 'F03339',  19181] # Margit utca
+      - ['00:50:00', 'F03233',  19499] # Sasvár utca
+      - ['00:51:00', 'F03230',  19946] # Mátyásföldi tér
+      - ['00:52:00', 'F03353',  20316] # Ida utca
+      - ['00:52:00', '008946',  20550] # Szénás utca
+      - ['00:53:00', '009375',  20975] # Szilas-patak
+      - ['00:55:00', 'F03217',  21353] # Timur utca
+      - ['00:56:00', 'F03347',  21623] # Péterke utca
+      - ['00:56:00', 'F03212',  21999] # Csömöri út
+      - ['00:58:00', 'F03224',  22493] # Mátyás király utca
+      - ['00:58:00', '043341',  22948] # György utca
+      - ['00:59:00', 'F03350',  23218] # Baross utca
+      - ['01:00:00', 'F03219',  23617] # Gusztáv utca
+      - ['01:01:00', 'F02984',  23872] # Rákospalotai határút
+      - ['01:02:00', 'F02985',  24110] # Szentmihályi út
+      - ['01:04:00', 'F03148',  25203] # Erdőkerülő utca
+      - ['01:04:00', 'F03201',  25481] # Erdőkerülő utca 28.
+      - ['01:05:00', 'F03209',  25903] # Zsókavár utca
+      - ['01:06:00', 'F03154',  26126] # Fő tér
+      - ['01:07:00', 'F03157',  26559] # Vásárcsarnok
+      - ['01:08:00', 'F03165',  26788] # Újpalota, Nyírpalota út
     trip_headsign: 'Újpalota, Nyírpalota út'
     trip_id: REFERENCE-0460-1-1
     wheelchair_accessible: 2

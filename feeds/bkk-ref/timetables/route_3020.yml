@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: Jászai Mari tér / Közvágóhíd
+route_desc: Jászai Mari tér / Közvágóhíd H
 route_id: 3020
 route_long_name: ''
 route_short_name: 2
@@ -11,33 +11,41 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-3020-0-1-U364
+    shape_id: REFERENCE-3020-0-1-0968
     stop_times:
-      - ['05:04:00', '048460',      0] # Kossuth Lajos tér (Széchenyi rakpart)
-      - ['05:05:00', 'F00973',    455] # Széchenyi István tér
-      - ['05:06:00', 'F00976',    776] # Eötvös tér
-      - ['05:07:00', 'F00967',   1054] # Vigadó tér
-      - ['05:09:00', 'F01000',   1664] # Március 15. tér
-      - ['05:10:00', 'F00919',   2224] # Fővám tér
-      - ['05:12:00', 'F01346',   2860] # Zsil utca
-      - ['05:13:00', 'F01519',   3318] # Boráros tér H
-      - ['05:16:00', 'F01384',   3970] # Haller utca
-    trip_headsign: Haller utca (Soroksári út)
+      - ['00:00:00', '008455',      0] # Jászai Mari tér
+      - ['00:02:00', 'F00969',    615] # Szalay utca
+      - ['00:04:00', 'F00971',    893] # Kossuth Lajos tér M
+      - ['00:05:00', 'F00973',   1555] # Széchenyi István tér
+      - ['00:06:00', 'F00976',   1876] # Eötvös tér
+      - ['00:07:00', 'F00967',   2154] # Vigadó tér
+      - ['00:09:00', 'F01000',   2764] # Március 15. tér
+      - ['00:10:00', 'F00919',   3324] # Fővám tér
+      - ['00:12:00', 'F01346',   3960] # Zsil utca
+      - ['00:14:00', 'F01519',   4418] # Boráros tér H
+      - ['00:16:00', 'F01384',   5070] # Haller utca
+      - ['00:17:00', 'F01396',   5556] # Millenniumi Kulturális Központ
+      - ['00:19:00', 'F01401',   5988] # Közvágóhíd H
+    trip_headsign: Közvágóhíd
     trip_id: REFERENCE-3020-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-3020-1-1-U365
+    shape_id: REFERENCE-3020-1-1-0969
     stop_times:
-      - ['17:19:00', '009041',      0] # Haller utca
-      - ['17:21:00', 'F01518',    678] # Boráros tér H
-      - ['17:22:00', 'F01343',   1064] # Zsil utca
-      - ['17:24:00', 'F00918',   1690] # Fővám tér
-      - ['17:26:00', 'F00999',   2316] # Március 15. tér
-      - ['17:28:00', 'F00966',   2874] # Vigadó tér
-      - ['17:29:00', 'F00975',   3157] # Eötvös tér
-      - ['17:31:00', 'F00974',   3482] # Széchenyi István tér
-      - ['17:32:00', '048460',   3935] # Kossuth Lajos tér (Széchenyi rakpart)
-    trip_headsign: Kossuth Lajos tér (Széchenyi rakpart)
+      - ['00:00:00', 'F01401',      0] # Közvágóhíd H
+      - ['00:01:00', 'F01397',    464] # Millenniumi Kulturális Központ
+      - ['00:03:00', '009041',    946] # Haller utca
+      - ['00:05:00', 'F01518',   1624] # Boráros tér H
+      - ['00:06:00', 'F01343',   2010] # Zsil utca
+      - ['00:08:00', 'F00918',   2636] # Fővám tér
+      - ['00:10:00', 'F00999',   3262] # Március 15. tér
+      - ['00:11:00', 'F00966',   3820] # Vigadó tér
+      - ['00:12:00', 'F00975',   4103] # Eötvös tér
+      - ['00:13:00', 'F00974',   4428] # Széchenyi István tér
+      - ['00:15:00', 'F00972',   5070] # Kossuth Lajos tér M
+      - ['00:17:00', 'F00968',   5474] # Szalay utca
+      - ['00:19:00', '008455',   5976] # Jászai Mari tér
+    trip_headsign: Jászai Mari tér
     trip_id: REFERENCE-3020-1-1
     wheelchair_accessible: 2

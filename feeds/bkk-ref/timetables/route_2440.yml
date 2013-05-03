@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2440-0-1-G182
     stop_times:
-      - ['10:48:00', 'F02762',      0] # Örs vezér tere M+H
-      - ['10:52:00', '009500',   1589] # Körvasút sor
-      - ['10:53:00', '009381',   2015] # Rózsa utca
-      - ['10:54:00', 'F03268',   2545] # Batthyány utca
-      - ['10:55:00', 'F03255',   3037] # József utca
-      - ['10:57:00', 'F03252',   3478] # János utca
-      - ['10:58:00', 'F03358',   3861] # Diófa utca
-      - ['11:00:00', 'F03352',   4456] # Ida utca
-      - ['11:00:00', 'F03231',   4850] # Mátyásföldi tér
-      - ['11:01:00', 'F03232',   5242] # Sasvár utca
-      - ['11:03:00', 'F03340',   5721] # Margit utca
-      - ['11:04:00', '11:05:00', 'F03341',   5948] # Centenáriumi lakótelep
-      - ['11:06:00', 'F03245',   6199] # Futórózsa utca
-      - ['11:07:00', 'F03354',   6708] # Sasvár utca
-      - ['11:08:00', 'F03246',   7047] # Budapesti út
+      - ['00:00:00', 'F02762',      0] # Örs vezér tere M+H
+      - ['00:04:00', '009500',   1589] # Körvasút sor
+      - ['00:05:00', '009381',   2015] # Rózsa utca
+      - ['00:06:00', 'F03268',   2545] # Batthyány utca
+      - ['00:07:00', 'F03255',   3037] # József utca
+      - ['00:09:00', 'F03252',   3478] # János utca
+      - ['00:10:00', 'F03358',   3861] # Diófa utca
+      - ['00:12:00', 'F03352',   4456] # Ida utca
+      - ['00:12:00', 'F03231',   4850] # Mátyásföldi tér
+      - ['00:13:00', 'F03232',   5242] # Sasvár utca
+      - ['00:15:00', 'F03340',   5721] # Margit utca
+      - ['00:16:00', '00:17:00', 'F03341',   5948] # Centenáriumi lakótelep
+      - ['00:18:00', 'F03245',   6199] # Futórózsa utca
+      - ['00:19:00', 'F03354',   6708] # Sasvár utca
+      - ['00:20:00', 'F03246',   7047] # Budapesti út
     trip_headsign: Budapesti út
     trip_id: REFERENCE-2440-0-1
     wheelchair_accessible: 2
@@ -35,17 +35,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2440-1-1-G181
     stop_times:
-      - ['20:14:00', 'F03246',      0] # Budapesti út
-      - ['20:14:00', 'F03234',    218] # Olga utca
-      - ['20:15:00', 'F03230',    650] # Mátyásföldi tér
-      - ['20:16:00', 'F03353',   1020] # Ida utca
-      - ['20:16:00', '009382',   1498] # Jávorfa utca
-      - ['20:17:00', '009383',   1995] # János utca
-      - ['20:19:00', 'F03254',   2515] # József utca
-      - ['20:20:00', 'F03266',   3005] # Batthyány utca
-      - ['20:21:00', 'F03283',   3464] # Rózsa utca
-      - ['20:22:00', '009501',   3766] # Körvasút sor
-      - ['20:26:00', 'F02757',   5471] # Örs vezér tere M+H
+      - ['00:00:00', 'F03246',      0] # Budapesti út
+      - ['00:00:00', 'F03234',    218] # Olga utca
+      - ['00:01:00', 'F03230',    650] # Mátyásföldi tér
+      - ['00:03:00', 'F03353',   1020] # Ida utca
+      - ['00:04:00', '009382',   1498] # Jávorfa utca
+      - ['00:05:00', '009383',   1995] # János utca
+      - ['00:07:00', 'F03254',   2515] # József utca
+      - ['00:08:00', 'F03266',   3005] # Batthyány utca
+      - ['00:10:00', 'F03283',   3464] # Rózsa utca
+      - ['00:11:00', '009501',   3766] # Körvasút sor
+      - ['00:16:00', 'F02757',   5471] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-2440-1-1
     wheelchair_accessible: 2

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Móricz Zsigmond körtér / Budaörsi Ipari és Technológiai Park
+route_desc: Móricz Zsigmond körtér (Villányi út) / Budaörsi Ipari és Technológiai Park
 route_id: 1885
 route_long_name: ''
 route_short_name: 188E
@@ -13,27 +13,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1885-0-1-L083
     stop_times:
-      - ['15:15:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['15:17:00', 'F02182',    686] # Kosztolányi Dezső tér
-      - ['15:21:00', 'F02053',   2452] # Dayka Gábor utca
-      - ['15:30:00', 'F04805',   9076] # Lévai utca
-      - ['15:32:00', 'F04714',   9749] # Gimnázium
-      - ['15:33:00', 'F04829',  10238] # Alcsíki dűlő
-      - ['15:34:00', 'F04837',  10510] # Lejtő utca
-      - ['15:35:00', 'F04710',  10833] # Ibolya utca
-      - ['15:36:00', 'F04801',  11185] # Csíki csárda
-      - ['15:37:00', 'F04803',  11810] # Csíki tanya
-      - ['15:38:00', 'F04739',  12431] # Hídépítő Zrt.
-      - ['15:43:00', '011327',  13543] # Budaörsi Ipari és Technológiai Park
+      - ['00:00:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02182',    686] # Kosztolányi Dezső tér
+      - ['00:06:00', 'F02053',   2452] # Dayka Gábor utca
+      - ['00:15:00', 'F04805',   9076] # Lévai utca
+      - ['00:17:00', 'F04714',   9749] # Gimnázium
+      - ['00:18:00', 'F04829',  10238] # Alcsíki dűlő
+      - ['00:19:00', 'F04837',  10510] # Lejtő utca
+      - ['00:20:00', 'F04710',  10833] # Ibolya utca
+      - ['00:21:00', 'F04801',  11185] # Csíki csárda
+      - ['00:22:00', 'F04803',  11810] # Csíki tanya
+      - ['00:23:00', 'F04739',  12431] # Hídépítő Zrt.
+      - ['00:28:00', '011327',  13543] # Budaörsi Ipari és Technológiai Park
     trip_headsign: Budaörsi Ipari és Technológiai Park
     trip_id: REFERENCE-1885-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1885-1-1-L084
     stop_times:
-      - ['14:47:00', '011327',      0] # Budaörsi Ipari és Technológiai Park
-      - ['14:50:00', 'F04833',   1308] # Budaörs, Tetra Pak
+      - ['00:00:00', '011327',      0] # Budaörsi Ipari és Technológiai Park
+      - ['00:03:00', 'F04833',   1308] # Budaörs, Tetra Pak
     trip_headsign: 'Budaörs, Tetra Pak'
     trip_id: REFERENCE-1885-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

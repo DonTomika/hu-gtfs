@@ -13,53 +13,53 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1231-0-1-J597
     stop_times:
-      - ['15:53:00', '008490',      0] # Határ út M
-      - ['15:55:00', 'F01456',    844] # Mészáros Lőrinc utca
-      - ['15:57:00', 'F01370',   1586] # Nagykőrösi út (Határ út)
-      - ['15:58:00', 'F01449',   2162] # Mártírok útja
-      - ['15:59:00', 'F04173',   2420] # Szigligeti utca
-      - ['16:00:00', 'F04139',   2820] # Kossuth Lajos utca (Mártírok útja)
-      - ['16:01:00', 'F04099',   3455] # Nagyszőlős utca
-      - ['16:02:00', 'F04171',   3707] # Mézes utca
-      - ['16:03:00', 'F04096',   4081] # Magyar utca
-      - ['16:04:00', 'F04089',   4468] # Temesvár utca
-      - ['16:06:00', 'F04045',   5004] # Pesterzsébet, Ady Endre tér
-      - ['16:07:00', 'F04069',   5249] # Eperjes utca
-      - ['16:08:00', 'F04067',   5515] # Szalárdi Mór utca
-      - ['16:09:00', 'F04071',   5666] # Pacsirta utca
-      - ['16:10:00', 'F04073',   6080] # Előd utca
-      - ['16:11:00', 'F04084',   6401] # Jahn Ferenc Kórház
-      - ['16:12:00', 'F04166',   6919] # Mesgye utca
-      - ['16:13:00', 'F04525',   7476] # Dinnyehegyi út
-      - ['16:14:00', 'F04575',   7724] # Szent László utca
-      - ['16:15:00', 'F04576',   8021] # Szentlőrinci úti lakótelep
+      - ['00:00:00', '008490',      0] # Határ út M
+      - ['00:02:00', 'F01456',    844] # Mészáros Lőrinc utca
+      - ['00:04:00', 'F01370',   1586] # Nagykőrösi út (Határ út)
+      - ['00:05:00', 'F01449',   2162] # Mártírok útja
+      - ['00:06:00', 'F04173',   2420] # Szigligeti utca
+      - ['00:07:00', 'F04139',   2820] # Kossuth Lajos utca (Mártírok útja)
+      - ['00:08:00', 'F04099',   3455] # Nagyszőlős utca
+      - ['00:09:00', 'F04171',   3707] # Mézes utca
+      - ['00:10:00', 'F04096',   4081] # Magyar utca
+      - ['00:11:00', 'F04089',   4468] # Temesvár utca
+      - ['00:12:00', 'F04045',   5004] # Pesterzsébet, Ady Endre tér
+      - ['00:13:00', 'F04069',   5249] # Eperjes utca
+      - ['00:14:00', 'F04067',   5515] # Szalárdi Mór utca
+      - ['00:15:00', 'F04071',   5666] # Pacsirta utca
+      - ['00:16:00', 'F04073',   6080] # Előd utca
+      - ['00:17:00', 'F04084',   6401] # Jahn Ferenc Kórház
+      - ['00:18:00', 'F04166',   6919] # Mesgye utca
+      - ['00:19:00', 'F04525',   7476] # Dinnyehegyi út
+      - ['00:20:00', 'F04575',   7724] # Szent László utca
+      - ['00:21:00', 'F04576',   8021] # Szentlőrinci úti lakótelep
     trip_headsign: Szentlőrinci úti lakótelep
     trip_id: REFERENCE-1231-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1231-1-1-T032
     stop_times:
-      - ['17:03:00', 'F04576',      0] # Szentlőrinci úti lakótelep
-      - ['17:04:00', 'F04574',    310] # Újtelep út
-      - ['17:05:00', 'F04524',    454] # Dinnyehegyi út
-      - ['17:05:00', '045755',    807] # Maros utca
-      - ['17:06:00', 'F04165',   1086] # Mesgye utca
-      - ['17:07:00', 'F04083',   1631] # Jahn Ferenc Kórház
-      - ['17:08:00', 'F04075',   1929] # Előd utca
-      - ['17:09:00', 'F04070',   2587] # Eperjes utca
-      - ['17:10:00', 'F04068',   2988] # Wesselényi utca
-      - ['17:11:00', 'F04046',   3164] # Ady Endre tér
-      - ['17:12:00', 'F04090',   3828] # Mártírok útja
-      - ['17:13:00', 'F04097',   4096] # Magyar utca
-      - ['17:14:00', 'F04170',   4468] # Zobor utca
-      - ['17:15:00', 'F04101',   4894] # Nagysándor József utca
-      - ['17:16:00', 'F04141',   5344] # Kossuth Lajos utca
-      - ['17:17:00', 'F04174',   5756] # Szigligeti utca
-      - ['17:18:00', 'F01450',   6201] # Határ út
-      - ['17:21:00', 'F01451',   6792] # Nagykőrösi út (Határ út)
-      - ['17:23:00', '008575',   7673] # Távíró utca
-      - ['17:26:00', '008490',   8720] # Határ út M
+      - ['00:00:00', 'F04576',      0] # Szentlőrinci úti lakótelep
+      - ['00:01:00', 'F04574',    310] # Újtelep út
+      - ['00:02:00', 'F04524',    454] # Dinnyehegyi út
+      - ['00:02:00', '045755',    807] # Maros utca
+      - ['00:03:00', 'F04165',   1086] # Mesgye utca
+      - ['00:04:00', 'F04083',   1631] # Jahn Ferenc Kórház
+      - ['00:05:00', 'F04075',   1929] # Előd utca
+      - ['00:06:00', 'F04070',   2587] # Eperjes utca
+      - ['00:07:00', 'F04068',   2988] # Wesselényi utca
+      - ['00:08:00', 'F04046',   3164] # Ady Endre tér
+      - ['00:09:00', 'F04090',   3828] # Mártírok útja
+      - ['00:10:00', 'F04097',   4096] # Magyar utca
+      - ['00:11:00', 'F04170',   4468] # Zobor utca
+      - ['00:12:00', 'F04101',   4894] # Nagysándor József utca
+      - ['00:13:00', 'F04141',   5344] # Kossuth Lajos utca
+      - ['00:14:00', 'F04174',   5756] # Szigligeti utca
+      - ['00:15:00', 'F01450',   6201] # Határ út
+      - ['00:18:00', 'F01451',   6792] # Nagykőrösi út (Határ út)
+      - ['00:21:00', '008575',   7673] # Távíró utca
+      - ['00:25:00', '008490',   8720] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-1231-1-1
     wheelchair_accessible: 2

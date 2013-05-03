@@ -13,20 +13,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1780-0-1-N863
     stop_times:
-      - ['10:05:00', 'F00100',      0] # Naphegy tér
-      - ['10:06:00', 'F00006',    554] # Sánc utca
-      - ['10:07:00', 'F00002',   1127] # Zsolt utca
-      - ['10:08:00', 'F00098',   1728] # Mészáros utca
-      - ['10:10:00', 'F00084',   2194] # Alagút utca
-      - ['10:12:00', 'F00079',   2588] # Dózsa György tér
-      - ['10:13:00', 'F00104',   3132] # Döbrentei tér
-      - ['10:15:00', 'F00951',   4130] # Ferenciek tere M
-      - ['10:17:00', 'F01016',   4614] # Astoria M
-      - ['10:18:00', 'F01170',   4954] # Uránia
-      - ['10:20:00', 'F01164',   5350] # Blaha Lujza tér M
-      - ['10:22:00', 'F01162',   6025] # Berzsenyi utca
-      - ['10:24:00', '009160',   6422] # Keleti pályaudvar M (Kerepesi út)
-      - ['10:26:00', '009163',   6645] # Keleti pályaudvar M
+      - ['00:00:00', 'F00100',      0] # Naphegy tér
+      - ['00:00:00', 'F00006',    554] # Sánc utca
+      - ['00:02:00', 'F00002',   1127] # Zsolt utca
+      - ['00:03:00', 'F00098',   1728] # Mészáros utca
+      - ['00:04:00', 'F00084',   2194] # Alagút utca
+      - ['00:06:00', 'F00079',   2588] # Dózsa György tér
+      - ['00:07:00', 'F00104',   3132] # Döbrentei tér
+      - ['00:09:00', 'F00951',   4130] # Ferenciek tere M
+      - ['00:11:00', 'F01016',   4614] # Astoria M
+      - ['00:12:00', 'F01170',   4954] # Uránia
+      - ['00:14:00', 'F01164',   5350] # Blaha Lujza tér M
+      - ['00:15:00', 'F01162',   6025] # Berzsenyi utca
+      - ['00:17:00', '009160',   6422] # Keleti pályaudvar M (Kerepesi út)
+      - ['00:18:00', '009163',   6645] # Keleti pályaudvar M
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-1780-0-1
     wheelchair_accessible: 1
@@ -34,19 +34,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1780-1-1-N864
     stop_times:
-      - ['04:40:00', '009163',      0] # Keleti pályaudvar M
-      - ['04:42:00', 'F01161',    518] # Huszár utca
-      - ['04:44:00', 'F01166',   1020] # Blaha Lujza tér M
-      - ['04:45:00', 'F01171',   1552] # Uránia
-      - ['04:47:00', 'F01017',   1898] # Astoria M
-      - ['04:48:00', 'F01004',   2220] # Ferenciek tere M
-      - ['04:51:00', 'F00102',   3509] # Szarvas tér
-      - ['04:52:00', 'F00078',   3914] # Dózsa György tér
-      - ['04:53:00', 'F00087',   4593] # Krisztina tér
-      - ['04:53:00', 'F00099',   4904] # Győző utca
-      - ['04:54:00', 'F00003',   5286] # Zsolt utca
-      - ['04:55:00', 'F00007',   5816] # Sánc utca
-      - ['04:57:00', '016729',   6407] # Naphegy tér
+      - ['00:00:00', '009163',      0] # Keleti pályaudvar M
+      - ['00:02:00', 'F01161',    518] # Huszár utca
+      - ['00:04:00', 'F01166',   1020] # Blaha Lujza tér M
+      - ['00:06:00', 'F01171',   1552] # Uránia
+      - ['00:08:00', 'F01017',   1898] # Astoria M
+      - ['00:09:00', 'F01004',   2220] # Ferenciek tere M
+      - ['00:12:00', 'F00102',   3509] # Szarvas tér
+      - ['00:13:00', 'F00078',   3914] # Dózsa György tér
+      - ['00:15:00', 'F00087',   4593] # Krisztina tér
+      - ['00:15:00', 'F00099',   4904] # Győző utca
+      - ['00:16:00', 'F00003',   5286] # Zsolt utca
+      - ['00:17:00', 'F00007',   5816] # Sánc utca
+      - ['00:19:00', '016729',   6407] # Naphegy tér
     trip_headsign: Naphegy tér
     trip_id: REFERENCE-1780-1-1
     wheelchair_accessible: 2

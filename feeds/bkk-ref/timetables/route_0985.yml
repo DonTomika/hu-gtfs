@@ -13,16 +13,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0985-0-1-N936
     stop_times:
-      - ['14:55:00', '038682',      0] # Kőbánya-Kispest M
-      - ['15:02:00', 'F01545',   2944] # Felsőcsatári út
-      - ['15:03:00', 'F03880',   3362] # Pestszentlőrinc vasútállomás (átjáró)
-      - ['15:05:00', 'F03695',   4481] # Csévéző utca
-      - ['15:10:00', 'F03563',   8086] # Bocskai István utca
-      - ['15:11:00', 'F03597',   8430] # Rákóczi Ferenc utca
-      - ['15:12:00', 'F03591',   8758] # Vörösmarty utca
-      - ['15:13:00', 'F03524',   8983] # Melczer utca
-      - ['15:14:00', 'F03590',   9338] # Ady Endre utca
-      - ['15:15:00', 'F03528',   9720] # Rákoshegy vasútállomás
+      - ['00:00:00', '038682',      0] # Kőbánya-Kispest M
+      - ['00:07:00', 'F01545',   2944] # Felsőcsatári út
+      - ['00:08:00', 'F03880',   3362] # Pestszentlőrinc vasútállomás (átjáró)
+      - ['00:10:00', 'F03695',   4481] # Csévéző utca
+      - ['00:15:00', 'F03563',   8086] # Bocskai István utca
+      - ['00:16:00', 'F03597',   8430] # Rákóczi Ferenc utca
+      - ['00:17:00', 'F03591',   8758] # Vörösmarty utca
+      - ['00:18:00', 'F03524',   8983] # Melczer utca
+      - ['00:19:00', 'F03590',   9338] # Ady Endre utca
+      - ['00:20:00', 'F03528',   9720] # Rákoshegy vasútállomás
     trip_headsign: Rákoshegy vasútállomás
     trip_id: REFERENCE-0985-0-1
     wheelchair_accessible: 2
@@ -30,20 +30,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0985-1-1-N937
     stop_times:
-      - ['06:18:00', 'F03528',      0] # Rákoshegy vasútállomás
-      - ['06:18:00', 'F03519',    511] # Szabadság utca
-      - ['06:19:00', '008577',    750] # Rákoshegy vasútállomás
-      - ['06:20:00', 'F03589',   1101] # Ady Endre utca
-      - ['06:21:00', 'F03523',   1487] # Melczer utca
-      - ['06:21:00', 'F03592',   1690] # Vörösmarty utca
-      - ['06:22:00', 'F03596',   2036] # Rákóczi Ferenc utca
-      - ['06:23:00', 'F03562',   2365] # Bocskai István utca
-      - ['06:28:00', 'F03694',   5922] # Gyömrői út
-      - ['06:29:00', 'F03826',   6436] # Csaba utca
-      - ['06:30:00', 'F03845',   7017] # Pestszentlőrinc vasútállomás (átjáró)
-      - ['06:31:00', 'F01870',   7538] # Felsőcsatári út
-      - ['06:36:00', '009592',  10034] # Kőbánya-Kispest M
-      - ['06:37:00', '038682',  10688] # Kőbánya-Kispest M
+      - ['00:00:00', 'F03528',      0] # Rákoshegy vasútállomás
+      - ['00:00:00', 'F03519',    511] # Szabadság utca
+      - ['00:01:00', '008577',    750] # Rákoshegy vasútállomás
+      - ['00:02:00', 'F03589',   1101] # Ady Endre utca
+      - ['00:03:00', 'F03523',   1487] # Melczer utca
+      - ['00:03:00', 'F03592',   1690] # Vörösmarty utca
+      - ['00:04:00', 'F03596',   2036] # Rákóczi Ferenc utca
+      - ['00:05:00', 'F03562',   2365] # Bocskai István utca
+      - ['00:10:00', 'F03694',   5922] # Gyömrői út
+      - ['00:11:00', 'F03826',   6436] # Csaba utca
+      - ['00:12:00', 'F03845',   7017] # Pestszentlőrinc vasútállomás (átjáró)
+      - ['00:13:00', 'F01870',   7538] # Felsőcsatári út
+      - ['00:18:00', '009592',  10034] # Kőbánya-Kispest M
+      - ['00:19:00', '038682',  10688] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-0985-1-1
     wheelchair_accessible: 2

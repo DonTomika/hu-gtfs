@@ -13,24 +13,24 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3510-0-1-N756
     stop_times:
-      - ['18:48:00', 'F01379',      0] # Mester utca (Ferenc körút)
-      - ['18:49:00', 'F01382',    407] # Bokréta utca
-      - ['18:50:00', '008702',    740] # Szakorvosi rendelő
-      - ['18:52:00', 'F01393',    962] # Haller utca
-      - ['18:54:00', 'F01398',   1258] # Vágóhíd utca
-      - ['18:56:00', 'F01506',   1727] # Könyves Kálmán körút
-      - ['18:58:00', 'F01341',   2330] # Koppány utca
-      - ['19:00:00', '040525',   2828] # Hentes utca
-      - ['19:01:00', 'F01414',   3201] # Magyar Aszfalt
-      - ['19:02:00', 'F01349',   3531] # Kén utca
-      - ['19:03:00', 'F01421',   3815] # Illatos út
-      - ['19:05:00', 'F01427',   4124] # Timót utca
-      - ['19:06:00', 'F01357',   4490] # FÉG
-      - ['19:07:00', 'F01436',   5103] # Gubacsi út
-      - ['19:09:00', 'F04152',   5358] # Török Flóris utca
-      - ['19:10:00', 'F04131',   5705] # János tér
-      - ['19:12:00', 'F04130',   6055] # Kossuth Lajos utca
-      - ['19:14:00', 'F04111',   6531] # Nagysándor József utca
+      - ['00:00:00', 'F01379',      0] # Mester utca (Ferenc körút)
+      - ['00:01:00', 'F01382',    407] # Bokréta utca
+      - ['00:02:00', '008702',    740] # Szakorvosi rendelő
+      - ['00:04:00', 'F01393',    962] # Haller utca
+      - ['00:06:00', 'F01398',   1258] # Vágóhíd utca
+      - ['00:08:00', 'F01506',   1727] # Könyves Kálmán körút
+      - ['00:10:00', 'F01341',   2330] # Koppány utca
+      - ['00:12:00', '040525',   2828] # Hentes utca
+      - ['00:13:00', 'F01414',   3201] # Magyar Aszfalt
+      - ['00:15:00', 'F01349',   3531] # Kén utca
+      - ['00:16:00', 'F01421',   3815] # Illatos út
+      - ['00:18:00', 'F01427',   4124] # Timót utca
+      - ['00:19:00', 'F01357',   4490] # FÉG
+      - ['00:20:00', 'F01436',   5103] # Gubacsi út
+      - ['00:22:00', 'F04152',   5358] # Török Flóris utca
+      - ['00:23:00', 'F04131',   5705] # János tér
+      - ['00:25:00', 'F04130',   6055] # Kossuth Lajos utca
+      - ['00:27:00', 'F04111',   6531] # Nagysándor József utca
     trip_headsign: Nagysándor József utca
     trip_id: REFERENCE-3510-0-1
     wheelchair_accessible: 2
@@ -38,27 +38,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3510-1-1-N757
     stop_times:
-      - ['20:38:00', 'F04111',      0] # Nagysándor József utca
-      - ['20:40:00', 'F04108',    248] # Szent Imre herceg utca
-      - ['20:41:00', 'F04107',    554] # Vécsey utca
-      - ['20:43:00', 'F04106',    824] # Szabótelep
-      - ['20:44:00', 'F04138',   1263] # Kossuth Lajos utca
-      - ['20:45:00', 'F04172',   1655] # Thököly utca
-      - ['20:46:00', 'F01446',   2098] # Jókai Mór utca (Határ út)
-      - ['20:47:00', 'F01443',   2593] # Ősz utca
-      - ['20:49:00', 'F01437',   2961] # Gubacsi út
-      - ['20:50:00', 'F01358',   3442] # FÉG
-      - ['20:51:00', 'F01428',   3862] # Timót utca
-      - ['20:52:00', 'F01424',   4073] # Illatos út
-      - ['20:54:00', 'F01350',   4513] # Kén utca
-      - ['20:55:00', 'F01413',   4795] # Magyar Aszfalt
-      - ['20:56:00', '040526',   5210] # Hentes utca
-      - ['20:57:00', 'F01342',   5656] # Koppány utca
-      - ['20:59:00', 'F01507',   6341] # Könyves Kálmán körút
-      - ['21:01:00', 'F01399',   6720] # Vágóhíd utca
-      - ['21:03:00', 'F01394',   7088] # Haller utca
-      - ['21:05:00', 'F01381',   7660] # Bokréta utca
-      - ['21:06:00', 'F01379',   8018] # Mester utca (Ferenc körút)
+      - ['00:00:00', 'F04111',      0] # Nagysándor József utca
+      - ['00:02:00', 'F04108',    246] # Szent Imre herceg utca
+      - ['00:03:00', 'F04107',    552] # Vécsey utca
+      - ['00:05:00', 'F04106',    822] # Szabótelep
+      - ['00:07:00', 'F04138',   1261] # Kossuth Lajos utca
+      - ['00:08:00', 'F04172',   1653] # Thököly utca
+      - ['00:09:00', 'F01446',   2096] # Jókai Mór utca (Határ út)
+      - ['00:11:00', 'F01443',   2591] # Ősz utca
+      - ['00:13:00', 'F01437',   2959] # Gubacsi út
+      - ['00:14:00', 'F01358',   3440] # FÉG
+      - ['00:15:00', 'F01428',   3860] # Timót utca
+      - ['00:16:00', 'F01424',   4071] # Illatos út
+      - ['00:18:00', 'F01350',   4511] # Kén utca
+      - ['00:19:00', 'F01413',   4793] # Magyar Aszfalt
+      - ['00:21:00', '040526',   5208] # Hentes utca
+      - ['00:22:00', 'F01342',   5654] # Koppány utca
+      - ['00:24:00', 'F01507',   6339] # Könyves Kálmán körút
+      - ['00:26:00', 'F01399',   6718] # Vágóhíd utca
+      - ['00:28:00', 'F01394',   7086] # Haller utca
+      - ['00:30:00', 'F01381',   7658] # Bokréta utca
+      - ['00:31:00', 'F01379',   8016] # Mester utca (Ferenc körút)
     trip_headsign: Mester utca (Ferenc körút)
     trip_id: REFERENCE-3510-1-1
     wheelchair_accessible: 2

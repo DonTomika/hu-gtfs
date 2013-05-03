@@ -13,45 +13,45 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1480-0-1-N952
     stop_times:
-      - ['07:05:00', '038690',      0] # Kőbánya-Kispest M
-      - ['07:06:00', 'F03945',   1010] # Kispest, Kossuth tér
-      - ['07:07:00', 'F03956',   1557] # Ady Endre út (Báthory utca)
-      - ['07:09:00', 'F03958',   1990] # Hungária út
-      - ['07:10:00', 'F03963',   2316] # Gutenberg körút
-      - ['07:11:00', 'F03923',   2921] # Kós Károly tér
-      - ['07:12:00', 'F03921',   3183] # Pannónia út
-      - ['07:13:00', 'F03970',   3823] # Zalaegerszeg utca
-      - ['07:14:00', 'F03967',   4190] # Thököly utca
-      - ['07:16:00', 'F03919',   4578] # Álmos utca
-      - ['07:18:00', 'F01370',   5057] # Nagykőrösi út (Határ út)
-      - ['07:19:00', 'F01449',   5633] # Mártírok útja
-      - ['07:20:00', 'F04173',   5891] # Szigligeti utca
-      - ['07:21:00', 'F04139',   6291] # Kossuth Lajos utca (Mártírok útja)
-      - ['07:22:00', 'F04136',   6879] # Tátra tér
-      - ['07:23:00', 'F04133',   7261] # Szent Erzsébet tér
-      - ['07:24:00', 'F04127',   7784] # Ady Endre utca (Topánka utca)
-      - ['07:25:00', 'F04123',   8009] # Pesterzsébet, városközpont
-      - ['07:27:00', 'F04144',   8296] # Pesterzsébet, Baross utca
-      - ['07:28:00', 'F04148',   8834] # Sósfürdő
-      - ['07:29:00', 'F04307',   9407] # Papírgyár
-      - ['07:30:00', 'F04316',   9925] # Védgát utca
-      - ['07:32:00', 'F04314',  10409] # Csepel, Kossuth Lajos utca
-      - ['07:34:00', '07:36:00', 'F04323',  10797] # Szent Imre tér
-      - ['07:37:00', 'F04278',  11380] # Karácsony Sándor utca
-      - ['07:38:00', 'F04191',  11596] # Széchenyi István utca
-      - ['07:40:00', 'F04204',  12208] # Sporttelep
-      - ['07:41:00', 'F04339',  12546] # Csepeli Mátyás utca
-      - ['07:42:00', 'F04248',  12915] # Martinász utca
-      - ['07:43:00', 'F04250',  13444] # Borz út
-      - ['07:44:00', 'F04252',  13701] # Pinty utca
-      - ['07:45:00', 'F04254',  14141] # Szarka utca
-      - ['07:46:00', 'F04257',  14490] # Repkény út
-      - ['07:47:00', 'F04258',  14998] # Királyerdei Művelődési Ház
-      - ['07:48:00', 'F04261',  15604] # Denevér utca
-      - ['07:48:00', 'F04263',  15795] # Sólyom utca
-      - ['07:49:00', 'F04264',  15988] # Sáska utca
-      - ['07:50:00', 'F04229',  16367] # Csepel, Hollandi út
-      - ['07:52:00', 'F04227',  17176] # Csepel, Soroksári rév
+      - ['00:00:00', '038690',      0] # Kőbánya-Kispest M
+      - ['00:01:00', 'F03945',   1010] # Kispest, Kossuth tér
+      - ['00:02:00', 'F03956',   1557] # Ady Endre út (Báthory utca)
+      - ['00:04:00', 'F03958',   1990] # Hungária út
+      - ['00:05:00', 'F03963',   2316] # Gutenberg körút
+      - ['00:06:00', 'F03923',   2921] # Kós Károly tér
+      - ['00:07:00', 'F03921',   3183] # Pannónia út
+      - ['00:08:00', 'F03970',   3823] # Zalaegerszeg utca
+      - ['00:09:00', 'F03967',   4190] # Thököly utca
+      - ['00:11:00', 'F03919',   4578] # Álmos utca
+      - ['00:13:00', 'F01370',   5057] # Nagykőrösi út (Határ út)
+      - ['00:14:00', 'F01449',   5633] # Mártírok útja
+      - ['00:15:00', 'F04173',   5891] # Szigligeti utca
+      - ['00:16:00', 'F04139',   6291] # Kossuth Lajos utca (Mártírok útja)
+      - ['00:17:00', 'F04136',   6879] # Tátra tér
+      - ['00:18:00', 'F04133',   7261] # Szent Erzsébet tér
+      - ['00:20:00', 'F04127',   7784] # Ady Endre utca (Topánka utca)
+      - ['00:21:00', 'F04123',   8009] # Pesterzsébet, városközpont
+      - ['00:23:00', 'F04144',   8296] # Pesterzsébet, Baross utca
+      - ['00:24:00', 'F04148',   8834] # Sósfürdő
+      - ['00:25:00', 'F04307',   9407] # Papírgyár
+      - ['00:26:00', 'F04316',   9925] # Védgát utca
+      - ['00:28:00', 'F04314',  10409] # Csepel, Kossuth Lajos utca
+      - ['00:30:00', 'F04323',  10797] # Szent Imre tér
+      - ['00:31:00', 'F04278',  11380] # Karácsony Sándor utca
+      - ['00:32:00', 'F04191',  11596] # Széchenyi István utca
+      - ['00:33:00', 'F04204',  12208] # Sporttelep
+      - ['00:34:00', 'F04339',  12546] # Csepeli Mátyás utca
+      - ['00:35:00', 'F04248',  12915] # Martinász utca
+      - ['00:36:00', 'F04250',  13444] # Borz út
+      - ['00:37:00', 'F04252',  13701] # Pinty utca
+      - ['00:38:00', 'F04254',  14141] # Szarka utca
+      - ['00:39:00', 'F04257',  14490] # Repkény út
+      - ['00:40:00', 'F04258',  14998] # Királyerdei Művelődési Ház
+      - ['00:41:00', 'F04261',  15604] # Denevér utca
+      - ['00:41:00', 'F04263',  15795] # Sólyom utca
+      - ['00:42:00', 'F04264',  15988] # Sáska utca
+      - ['00:43:00', 'F04229',  16367] # Csepel, Hollandi út
+      - ['00:45:00', 'F04227',  17176] # Csepel, Soroksári rév
     trip_headsign: 'Csepel, Soroksári rév'
     trip_id: REFERENCE-1480-0-1
     wheelchair_accessible: 2
@@ -59,44 +59,44 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1480-1-1-N953
     stop_times:
-      - ['12:01:00', 'F04226',      0] # Csepel, Soroksári rév
-      - ['12:02:00', 'F04228',    821] # Csepel, Hollandi út
-      - ['12:03:00', 'F04262',   1382] # Sólyom utca
-      - ['12:04:00', 'F04260',   1743] # Árnyas utca
-      - ['12:05:00', 'F04259',   2169] # Királyerdei Művelődési Ház
-      - ['12:06:00', 'F04256',   2826] # Repkény út
-      - ['12:07:00', 'F04255',   3040] # Iszalag utca
-      - ['12:08:00', 'F04253',   3403] # Tölgyes út
-      - ['12:09:00', 'F04251',   3749] # Orgonás utca
-      - ['12:10:00', 'F04249',   4256] # Nyárfás utca
-      - ['12:11:00', 'F04340',   4624] # Cseh Mihály utca
-      - ['12:12:00', 'F04203',   5082] # Sporttelep
-      - ['12:14:00', 'F04185',   5552] # II. Rákóczi Ferenc út
-      - ['12:16:00', 'F04177',   6052] # Karácsony Sándor utca H
-      - ['12:18:00', 'F04320',   6492] # Szent Imre tér H
-      - ['12:20:00', 'F04315',   7048] # Ady Endre út (Kossuth Lajos utca)
-      - ['12:21:00', 'F04317',   7599] # Védgát utca
-      - ['12:22:00', 'F04306',   7960] # Papírgyár
-      - ['12:24:00', 'F04149',   8712] # Sósfürdő
-      - ['12:26:00', 'F04145',   9220] # Pesterzsébet, Baross utca
-      - ['12:28:00', 'F04122',   9510] # Pesterzsébet, városközpont
-      - ['12:29:00', 'F04129',   9831] # Ady Endre utca (Topánka utca)
-      - ['12:30:00', 'F04134',  10114] # Szent Erzsébet tér
-      - ['12:31:00', 'F04137',  10516] # Tátra tér
-      - ['12:32:00', 'F04140',  11079] # Mártírok útja
-      - ['12:34:00', 'F04174',  11494] # Szigligeti utca
-      - ['12:36:00', 'F01450',  11939] # Határ út
-      - ['12:38:00', 'F01451',  12530] # Nagykőrösi út (Határ út)
-      - ['12:39:00', 'F03920',  12978] # Hungária út
-      - ['12:40:00', 'F03968',  13268] # Thököly utca
-      - ['12:41:00', 'F03969',  13784] # Pannónia út
-      - ['12:42:00', 'F03922',  14282] # Kós Károly tér
-      - ['12:43:00', 'F03964',  14714] # Gutenberg körút
-      - ['12:44:00', 'F03959',  15161] # Ady Endre út (Rendőrség)
-      - ['12:46:00', 'F03955',  15666] # Kisfaludy utca
-      - ['12:48:00', 'F03950',  16185] # Simonyi Zsigmond utca
-      - ['12:50:00', 'F03942',  16445] # Sós utca
-      - ['12:52:00', '038690',  17269] # Kőbánya-Kispest M
+      - ['00:00:00', 'F04226',      0] # Csepel, Soroksári rév
+      - ['00:01:00', 'F04228',    821] # Csepel, Hollandi út
+      - ['00:02:00', 'F04262',   1382] # Sólyom utca
+      - ['00:03:00', 'F04260',   1743] # Árnyas utca
+      - ['00:04:00', 'F04259',   2169] # Királyerdei Művelődési Ház
+      - ['00:05:00', 'F04256',   2826] # Repkény út
+      - ['00:05:00', 'F04255',   3040] # Iszalag utca
+      - ['00:06:00', 'F04253',   3403] # Tölgyes út
+      - ['00:07:00', 'F04251',   3749] # Orgonás utca
+      - ['00:08:00', 'F04249',   4256] # Nyárfás utca
+      - ['00:09:00', 'F04340',   4624] # Cseh Mihály utca
+      - ['00:10:00', 'F04203',   5082] # Sporttelep
+      - ['00:11:00', 'F04185',   5552] # II. Rákóczi Ferenc út
+      - ['00:12:00', 'F04177',   6052] # Karácsony Sándor utca H
+      - ['00:14:00', 'F04320',   6492] # Szent Imre tér H
+      - ['00:16:00', 'F04315',   7048] # Ady Endre út (Kossuth Lajos utca)
+      - ['00:17:00', 'F04317',   7599] # Védgát utca
+      - ['00:18:00', 'F04306',   7960] # Papírgyár
+      - ['00:19:00', 'F04149',   8712] # Sósfürdő
+      - ['00:20:00', 'F04145',   9220] # Pesterzsébet, Baross utca
+      - ['00:22:00', 'F04122',   9510] # Pesterzsébet, városközpont
+      - ['00:23:00', 'F04129',   9831] # Ady Endre utca (Topánka utca)
+      - ['00:24:00', 'F04134',  10114] # Szent Erzsébet tér
+      - ['00:25:00', 'F04137',  10516] # Tátra tér
+      - ['00:26:00', 'F04140',  11079] # Mártírok útja
+      - ['00:27:00', 'F04174',  11494] # Szigligeti utca
+      - ['00:29:00', 'F01450',  11939] # Határ út
+      - ['00:31:00', 'F01451',  12530] # Nagykőrösi út (Határ út)
+      - ['00:32:00', 'F03920',  12978] # Hungária út
+      - ['00:33:00', 'F03968',  13268] # Thököly utca
+      - ['00:34:00', 'F03969',  13784] # Pannónia út
+      - ['00:35:00', 'F03922',  14282] # Kós Károly tér
+      - ['00:36:00', 'F03964',  14714] # Gutenberg körút
+      - ['00:37:00', 'F03959',  15161] # Ady Endre út (Rendőrség)
+      - ['00:39:00', 'F03955',  15666] # Kisfaludy utca
+      - ['00:41:00', 'F03950',  16185] # Simonyi Zsigmond utca
+      - ['00:42:00', 'F03942',  16445] # Sós utca
+      - ['00:44:00', '038690',  17269] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-1480-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

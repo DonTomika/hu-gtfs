@@ -13,66 +13,66 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1041-0-1-K615
     stop_times:
-      - ['22:45:00', 'F03027',      0] # Rákospalota, Kossuth utca
-      - ['22:46:00', 'F03034',    452] # Régi Fóti út
-      - ['22:46:00', 'F03036',    714] # Kazinczy utca
-      - ['22:48:00', 'F03045',   1344] # Széchenyi tér
-      - ['22:49:00', 'F03053',   1916] # Hubay Jenő tér
-      - ['22:51:00', 'F00837',   2523] # Víztorony
-      - ['22:51:00', 'F00885',   2755] # Árpád Kórház
-      - ['22:53:00', 'F00835',   3212] # Árpád üzletház
-      - ['22:53:00', 'F00855',   3537] # Erzsébet utca
-      - ['22:54:00', 'F00799',   3956] # Újpest-Központ M
-      - ['22:55:00', 'F00810',   4359] # Újpest-Városkapu M
-      - ['22:56:00', 'F00706',   4791] # Újpest, Árpád út hajóállomás
-      - ['22:57:00', 'F00705',   5118] # Károlyi István utca
-      - ['22:58:00', 'F00703',   5554] # Zsilip utca
-      - ['22:59:00', 'F00701',   5952] # Megyeri út
-      - ['23:01:00', 'F00869',   6419] # Tungsram
-      - ['23:02:00', 'F00867',   6885] # Béla utca
-      - ['23:03:00', 'F00698',   7202] # Fóti út
-      - ['23:04:00', '009574',   7639] # Ungvári utca
-      - ['23:05:00', '009573',   8000] # Bagaria utca
-      - ['23:06:00', 'F00916',   9042] # Vízművek lakótelep
-      - ['23:07:00', '008644',   9294] # Vízművek
-      - ['23:08:00', '009421',  10104] # Ezred utca
-      - ['23:09:00', '009748',  10698] # Európa Center
-      - ['23:11:00', '009747',  11309] # Ezred utca, lakótelep
-      - ['23:11:00', '008642',  11717] # Székesdűlő
-      - ['23:13:00', '008649',  12318] # Székesdűlő, ipartelep
-      - ['23:18:00', '008650',  15095] # Székesdűlő, ipartelep
+      - ['00:00:00', 'F03027',      0] # Rákospalota, Kossuth utca
+      - ['00:01:00', 'F03034',    452] # Régi Fóti út
+      - ['00:02:00', 'F03036',    714] # Kazinczy utca
+      - ['00:03:00', 'F03045',   1344] # Széchenyi tér
+      - ['00:05:00', 'F03053',   1916] # Hubay Jenő tér
+      - ['00:07:00', 'F00837',   2523] # Víztorony
+      - ['00:07:00', 'F00885',   2755] # Árpád Kórház
+      - ['00:09:00', 'F00835',   3212] # Árpád üzletház
+      - ['00:10:00', 'F00855',   3537] # Erzsébet utca
+      - ['00:11:00', 'F00799',   3956] # Újpest-Központ M
+      - ['00:12:00', 'F00810',   4359] # Újpest-Városkapu M
+      - ['00:13:00', 'F00706',   4791] # Újpest, Árpád út hajóállomás
+      - ['00:14:00', 'F00705',   5118] # Károlyi István utca
+      - ['00:15:00', 'F00703',   5554] # Zsilip utca
+      - ['00:17:00', 'F00701',   5952] # Megyeri út
+      - ['00:18:00', 'F00869',   6419] # Tungsram
+      - ['00:19:00', 'F00867',   6885] # Béla utca
+      - ['00:20:00', 'F00698',   7202] # Fóti út
+      - ['00:21:00', '009574',   7639] # Ungvári utca
+      - ['00:23:00', '009573',   8000] # Bagaria utca
+      - ['00:24:00', 'F00916',   9042] # Vízművek lakótelep
+      - ['00:25:00', '008644',   9294] # Vízművek
+      - ['00:26:00', '009421',  10104] # Ezred utca
+      - ['00:27:00', '009748',  10698] # Európa Center
+      - ['00:29:00', '009747',  11309] # Ezred utca, lakótelep
+      - ['00:29:00', '008642',  11717] # Székesdűlő
+      - ['00:31:00', '008649',  12318] # Székesdűlő, ipartelep
+      - ['00:36:00', '008650',  15095] # Székesdűlő, ipartelep
     trip_headsign: 'Székesdűlő, ipartelep'
     trip_id: REFERENCE-1041-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1041-1-1-S061
     stop_times:
-      - ['20:49:00', '008650',      0] # Székesdűlő, ipartelep
-      - ['20:50:00', '008643',    559] # Székesdűlő
-      - ['20:51:00', '009422',   1219] # Ezred utca
-      - ['20:52:00', '008645',   2031] # Vízművek
-      - ['20:53:00', '008708',   2430] # Vízművek lakótelep
-      - ['20:55:00', '009572',   3569] # Bagaria utca
-      - ['20:56:00', '009575',   3913] # Ungvári utca
-      - ['20:56:00', '009576',   4186] # Rév utca
-      - ['20:57:00', 'F00697',   4450] # Fóti út
-      - ['20:58:00', 'F00868',   4685] # Béla utca
-      - ['21:00:00', 'F00870',   5139] # Tungsram
-      - ['21:01:00', 'F00700',   5575] # Tímár utca
-      - ['21:02:00', 'F00702',   6069] # Zsilip utca
-      - ['21:03:00', 'F00704',   6336] # Károlyi István utca
-      - ['21:03:00', '044557',   6707] # Újpest, Árpád út hajóállomás
-      - ['21:05:00', 'F00808',   6920] # Árpád út
-      - ['21:06:00', 'F00809',   7212] # Újpest-Városkapu M
-      - ['21:08:00', 'F00801',   7769] # Újpest-Központ M
-      - ['21:09:00', 'F00854',   8117] # Erzsébet utca
-      - ['21:10:00', 'F00836',   8468] # Árpád üzletház
-      - ['21:10:00', 'F00886',   8715] # Árpád Kórház
-      - ['21:11:00', 'F00838',   9034] # Víztorony
-      - ['21:14:00', 'F03048',   9882] # Hubay Jenő tér
-      - ['21:15:00', 'F03046',  10158] # Széchenyi tér
-      - ['21:17:00', 'F03027',  10705] # Rákospalota, Kossuth utca
+      - ['00:00:00', '008650',      0] # Székesdűlő, ipartelep
+      - ['00:01:00', '008643',    559] # Székesdűlő
+      - ['00:03:00', '009422',   1219] # Ezred utca
+      - ['00:04:00', '008645',   2031] # Vízművek
+      - ['00:05:00', '008708',   2430] # Vízművek lakótelep
+      - ['00:08:00', '009572',   3569] # Bagaria utca
+      - ['00:09:00', '009575',   3913] # Ungvári utca
+      - ['00:10:00', '009576',   4186] # Rév utca
+      - ['00:11:00', 'F00697',   4450] # Fóti út
+      - ['00:13:00', 'F00868',   4685] # Béla utca
+      - ['00:15:00', 'F00870',   5139] # Tungsram
+      - ['00:16:00', 'F00700',   5575] # Tímár utca
+      - ['00:18:00', 'F00702',   6069] # Zsilip utca
+      - ['00:19:00', 'F00704',   6336] # Károlyi István utca
+      - ['00:19:00', '044557',   6707] # Újpest, Árpád út hajóállomás
+      - ['00:22:00', 'F00808',   6920] # Árpád út
+      - ['00:23:00', 'F00809',   7212] # Újpest-Városkapu M
+      - ['00:26:00', 'F00801',   7769] # Újpest-Központ M
+      - ['00:27:00', 'F00854',   8117] # Erzsébet utca
+      - ['00:28:00', 'F00836',   8468] # Árpád üzletház
+      - ['00:29:00', 'F00886',   8715] # Árpád Kórház
+      - ['00:30:00', 'F00838',   9034] # Víztorony
+      - ['00:33:00', 'F03048',   9882] # Hubay Jenő tér
+      - ['00:34:00', 'F03046',  10158] # Széchenyi tér
+      - ['00:36:00', 'F03027',  10705] # Rákospalota, Kossuth utca
     trip_headsign: 'Rákospalota, Kossuth utca'
     trip_id: REFERENCE-1041-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1310-0-1-N502
     stop_times:
-      - ['10:21:00', 'F02756',      0] # Örs vezér tere M+H
-      - ['10:23:00', 'F02773',   1114] # Vezér utca
-      - ['10:24:00', 'F02932',   1453] # Tihamér utca
-      - ['10:25:00', 'F02787',   1729] # Fogarasi út
-      - ['10:26:00', 'F02783',   2063] # Fischer István utca
-      - ['10:29:00', 'F03276',   3211] # Pálya utca
-      - ['10:29:00', 'F03369',   3563] # Baross utca
-      - ['10:30:00', 'F02992',   4016] # Rákospalotai határút
-      - ['10:32:00', 'F02990',   4444] # Rákóczi út
-      - ['10:33:00', 'F02994',   4881] # József utca
-      - ['10:34:00', 'F02987',   5375] # János utca
-      - ['10:34:00', 'F03346',   5667] # Vörösmarty utca
-      - ['10:36:00', '10:37:00', 'F03258',   6144] # Csömöri út
-      - ['10:38:00', 'F03223',   6600] # Diófa utca
-      - ['10:39:00', 'F03226',   6981] # Mátyás király utca
-      - ['10:40:00', 'F03214',   7825] # Kisszentmihály, Baross utca
+      - ['00:00:00', 'F02756',      0] # Örs vezér tere M+H
+      - ['00:02:00', 'F02773',   1114] # Vezér utca
+      - ['00:03:00', 'F02932',   1453] # Tihamér utca
+      - ['00:04:00', 'F02787',   1729] # Fogarasi út
+      - ['00:05:00', 'F02783',   2063] # Fischer István utca
+      - ['00:08:00', 'F03276',   3211] # Pálya utca
+      - ['00:08:00', 'F03369',   3563] # Baross utca
+      - ['00:09:00', 'F02992',   4016] # Rákospalotai határút
+      - ['00:11:00', 'F02990',   4444] # Rákóczi út
+      - ['00:12:00', 'F02994',   4881] # József utca
+      - ['00:13:00', 'F02987',   5375] # János utca
+      - ['00:13:00', 'F03346',   5667] # Vörösmarty utca
+      - ['00:15:00', '00:16:00', 'F03258',   6144] # Csömöri út
+      - ['00:17:00', 'F03223',   6600] # Diófa utca
+      - ['00:18:00', 'F03226',   6981] # Mátyás király utca
+      - ['00:19:00', 'F03214',   7825] # Kisszentmihály, Baross utca
     trip_headsign: 'Kisszentmihály, Baross utca'
     trip_id: REFERENCE-1310-0-1
     wheelchair_accessible: 1
@@ -36,20 +36,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1310-1-1-N503
     stop_times:
-      - ['15:09:00', 'F03214',      0] # Kisszentmihály, Baross utca
-      - ['15:09:00', 'F03210',    409] # Gusztáv utca
-      - ['15:10:00', 'F02981',    703] # Besztercebányai utca
-      - ['15:11:00', 'F02985',   1698] # Szentmihályi út
-      - ['15:12:00', '009379',   2531] # József utca
-      - ['15:14:00', 'F02991',   3107] # Rigó utca
-      - ['15:15:00', 'F02993',   3571] # Pálya utca
-      - ['15:15:00', 'F03370',   3705] # Baross utca
-      - ['15:16:00', 'F03278',   4026] # Csömöri út
-      - ['15:19:00', 'F02784',   5353] # Fischer István utca
-      - ['15:20:00', 'F02788',   5674] # Fogarasi út
-      - ['15:21:00', 'F02933',   5926] # Tihamér utca
-      - ['15:22:00', 'F02774',   6268] # Füredi utca
-      - ['15:24:00', 'F02757',   7084] # Örs vezér tere M+H
+      - ['00:00:00', 'F03214',      0] # Kisszentmihály, Baross utca
+      - ['00:00:00', 'F03210',    409] # Gusztáv utca
+      - ['00:01:00', 'F02981',    703] # Besztercebányai utca
+      - ['00:03:00', 'F02985',   1698] # Szentmihályi út
+      - ['00:04:00', '009379',   2531] # József utca
+      - ['00:06:00', 'F02991',   3107] # Rigó utca
+      - ['00:07:00', 'F02993',   3571] # Pálya utca
+      - ['00:08:00', 'F03370',   3705] # Baross utca
+      - ['00:09:00', 'F03278',   4026] # Csömöri út
+      - ['00:12:00', 'F02784',   5353] # Fischer István utca
+      - ['00:13:00', 'F02788',   5674] # Fogarasi út
+      - ['00:14:00', 'F02933',   5926] # Tihamér utca
+      - ['00:15:00', 'F02774',   6268] # Füredi utca
+      - ['00:18:00', 'F02757',   7084] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-1310-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

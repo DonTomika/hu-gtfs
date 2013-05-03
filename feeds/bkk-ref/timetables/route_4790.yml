@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FF1818
-route_desc: Keleti pályaudvar M / Váci út (Dózsa György út M)
+route_desc: Keleti pályaudvar M (Garay utca) / Váci út (Dózsa György út M)
 route_id: 4790
 route_long_name: ''
 route_short_name: 79
@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-4790-0-1-T093
     stop_times:
-      - ['06:36:00', 'F01133',      0] # Keleti pályaudvar M (Garay utca)
-      - ['06:37:00', 'F01130',    365] # Nefelejcs utca
-      - ['06:39:00', 'F01142',    707] # Ajtósi Dürer sor
-      - ['06:41:00', 'F02710',    929] # 56-osok tere
-      - ['06:42:00', 'F02708',   1351] # Dvorzsák sétány
-      - ['06:43:00', 'F02705',   1549] # Olof Palme sétány
-      - ['06:45:00', 'F02691',   2044] # Hősök tere M
-      - ['06:47:00', 'F01053',   2583] # Gundel Károly út
-      - ['06:49:00', 'F01059',   3000] # Szabolcs utca
-      - ['06:50:00', 'F02620',   3363] # Lehel utca
-      - ['06:51:00', 'F02639',   3571] # Kassák Lajos utca
-      - ['06:52:00', 'F02609',   3968] # Váci út (Dózsa György út M)
+      - ['00:00:00', 'F01133',      0] # Keleti pályaudvar M (Garay utca)
+      - ['00:01:00', 'F01130',    365] # Nefelejcs utca
+      - ['00:03:00', 'F01142',    707] # Ajtósi Dürer sor
+      - ['00:05:00', 'F02710',    929] # 56-osok tere
+      - ['00:06:00', 'F02708',   1351] # Dvorzsák sétány
+      - ['00:07:00', 'F02705',   1549] # Olof Palme sétány
+      - ['00:08:00', 'F02691',   2044] # Hősök tere M
+      - ['00:10:00', 'F01053',   2583] # Gundel Károly út
+      - ['00:12:00', 'F01059',   3000] # Szabolcs utca
+      - ['00:13:00', 'F02620',   3363] # Lehel utca
+      - ['00:14:00', 'F02639',   3571] # Kassák Lajos utca
+      - ['00:15:00', 'F02609',   3968] # Váci út (Dózsa György út M)
     trip_headsign: Váci út (Dózsa György út M)
     trip_id: REFERENCE-4790-0-1
     wheelchair_accessible: 2
@@ -32,16 +32,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-4790-1-1-T094
     stop_times:
-      - ['14:28:00', 'F02609',      0] # Váci út (Dózsa György út M)
-      - ['14:29:00', 'F02640',    512] # Kassák Lajos utca
-      - ['14:30:00', 'F02623',    840] # Lehel utca
-      - ['14:31:00', 'F01060',   1041] # Szabolcs utca
-      - ['14:33:00', 'F01055',   1525] # Hősök tere M
-      - ['14:34:00', 'F01048',   1875] # Benczúr utca
-      - ['14:36:00', 'F01134',   2366] # Damjanich utca
-      - ['14:38:00', 'F01141',   2857] # Ajtósi Dürer sor
-      - ['14:39:00', 'F01143',   3271] # Cserhát utca
-      - ['14:41:00', 'F01133',   3556] # Keleti pályaudvar M (Garay utca)
+      - ['00:00:00', 'F02609',      0] # Váci út (Dózsa György út M)
+      - ['00:01:00', 'F02640',    512] # Kassák Lajos utca
+      - ['00:02:00', 'F02623',    840] # Lehel utca
+      - ['00:03:00', 'F01060',   1041] # Szabolcs utca
+      - ['00:05:00', 'F01055',   1525] # Hősök tere M
+      - ['00:06:00', 'F01048',   1875] # Benczúr utca
+      - ['00:08:00', 'F01134',   2366] # Damjanich utca
+      - ['00:10:00', 'F01141',   2857] # Ajtósi Dürer sor
+      - ['00:12:00', 'F01143',   3271] # Cserhát utca
+      - ['00:15:00', 'F01133',   3556] # Keleti pályaudvar M (Garay utca)
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-4790-1-1
     wheelchair_accessible: 2

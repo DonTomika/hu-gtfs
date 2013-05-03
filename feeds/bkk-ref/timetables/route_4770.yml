@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FF1818
-route_desc: Puskás Ferenc Stadion M / Öv utca (Egressy út)
+route_desc: Puskás Ferenc Stadion M (Ifjúság útja) / Öv utca (Egressy út)
 route_id: 4770
 route_long_name: ''
 route_short_name: 77
@@ -11,50 +11,50 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4770-0-1-S632
+    shape_id: REFERENCE-4770-0-1-E304
     stop_times:
-      - ['13:29:00', 'F01316',      0] # Puskás Ferenc Stadion M (Ifjúság útja)
-      - ['13:30:00', 'F02737',    460] # Szobránc köz
-      - ['13:31:00', 'F02735',    820] # Egressy út
-      - ['13:33:00', 'F02741',   1207] # Hungária körút
-      - ['13:33:00', 'F02918',   1471] # Törökőr utca
-      - ['13:34:00', 'F02956',   1845] # Posta Járműtelep
-      - ['13:36:00', 'F02916',   2197] # Róna utca
-      - ['13:37:00', 'F02799',   2512] # Egressy tér
-      - ['13:38:00', 'F02800',   3027] # Turán utca
-      - ['13:39:00', 'F02803',   3286] # Vezér utca
-      - ['13:41:00', 'F02811',   3683] # Komócsy utca
-      - ['13:42:00', 'F02942',   4210] # Miskolci utca
-      - ['13:43:00', 'F02809',   4491] # Cinkotai út (Szugló utca)
-      - ['13:44:00', 'F02806',   5114] # Rákosmezei tér
-      - ['13:45:00', 'F02805',   5327] # Kála utca
-      - ['13:47:00', 'F02792',   5853] # Mogyoródi út
-      - ['13:47:00', 'F02940',   6113] # Cinkotai út (Mogyoródi út)
-      - ['13:48:00', 'F02793',   6403] # Öv utca
-      - ['13:50:00', 'F02808',   6893] # Öv utca (Egressy út)
+      - ['00:00:00', 'F01316',      0] # Puskás Ferenc Stadion M (Ifjúság útja)
+      - ['00:01:00', 'F02737',    460] # Szobránc köz
+      - ['00:02:00', 'F02735',    820] # Egressy út
+      - ['00:04:00', 'F02741',   1207] # Hungária körút
+      - ['00:04:00', 'F02918',   1471] # Törökőr utca
+      - ['00:05:00', 'F02956',   1845] # Posta Járműtelep
+      - ['00:06:00', 'F02916',   2197] # Róna utca
+      - ['00:07:00', 'F02799',   2512] # Egressy tér
+      - ['00:08:00', 'F02800',   3027] # Turán utca
+      - ['00:08:00', 'F02803',   3286] # Vezér utca
+      - ['00:10:00', 'F02811',   3683] # Komócsy utca
+      - ['00:11:00', 'F02942',   4210] # Miskolci utca
+      - ['00:12:00', 'F02809',   4491] # Cinkotai út (Szugló utca)
+      - ['00:13:00', 'F02806',   5114] # Rákosmezei tér
+      - ['00:14:00', 'F02805',   5327] # Kála utca
+      - ['00:15:00', 'F02792',   5853] # Mogyoródi út
+      - ['00:16:00', 'F02940',   6113] # Cinkotai út (Mogyoródi út)
+      - ['00:16:00', 'F02793',   6403] # Öv utca
+      - ['00:18:00', 'F02808',   6893] # Öv utca (Egressy út)
     trip_headsign: Öv utca (Egressy út)
     trip_id: REFERENCE-4770-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-4770-1-1-S633
+    shape_id: REFERENCE-4770-1-1-E303
     stop_times:
-      - ['18:08:00', 'F02808',      0] # Öv utca (Egressy út)
-      - ['18:08:00', 'F02807',    329] # Rákosmezei tér
-      - ['18:10:00', 'F02810',    863] # Szugló utca
-      - ['18:10:00', 'F02941',   1209] # Miskolci utca
-      - ['18:12:00', 'F02812',   1639] # Komócsy utca
-      - ['18:13:00', '008844',   2071] # Egressy út
-      - ['18:14:00', 'F02801',   2471] # Turán utca
-      - ['18:16:00', 'F02798',   2858] # Egressy tér
-      - ['18:16:00', 'F02915',   3252] # Róna utca
-      - ['18:17:00', 'F02957',   3553] # Posta Járműtelep
-      - ['18:18:00', 'F02917',   3981] # Törökőr utca
-      - ['18:19:00', 'F02740',   4160] # Hungária körút
-      - ['18:21:00', 'F02734',   4604] # Stefánia út
-      - ['18:22:00', 'F02738',   4964] # Szobránc köz
-      - ['18:25:00', 'F01319',   5434] # Puskás Ferenc Stadion M
-      - ['18:27:00', 'F01316',   5806] # Puskás Ferenc Stadion M (Ifjúság útja)
+      - ['00:00:00', 'F02808',      0] # Öv utca (Egressy út)
+      - ['00:00:00', 'F02807',    329] # Rákosmezei tér
+      - ['00:02:00', 'F02810',    863] # Szugló utca
+      - ['00:02:00', 'F02941',   1209] # Miskolci utca
+      - ['00:04:00', 'F02812',   1639] # Komócsy utca
+      - ['00:05:00', '008844',   2071] # Egressy út
+      - ['00:05:00', 'F02801',   2471] # Turán utca
+      - ['00:07:00', 'F02798',   2858] # Egressy tér
+      - ['00:07:00', 'F02915',   3252] # Róna utca
+      - ['00:08:00', 'F02957',   3553] # Posta Járműtelep
+      - ['00:09:00', 'F02917',   3981] # Törökőr utca
+      - ['00:10:00', 'F02740',   4160] # Hungária körút
+      - ['00:11:00', 'F02734',   4604] # Stefánia út
+      - ['00:12:00', 'F02738',   4964] # Szobránc köz
+      - ['00:14:00', 'F01319',   5434] # Puskás Ferenc Stadion M
+      - ['00:16:00', 'F01316',   5806] # Puskás Ferenc Stadion M (Ifjúság útja)
     trip_headsign: Puskás Ferenc Stadion M
     trip_id: REFERENCE-4770-1-1
     wheelchair_accessible: 1

@@ -13,26 +13,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3500-0-1-1207
     stop_times:
-      - ['22:33:00', 'F03930',      0] # Határ út M
-      - ['22:35:00', 'F03899',    628] # Corvin körút
-      - ['22:37:00', 'F03931',   1173] # Lehel utca
-      - ['22:38:00', 'F03947',   1588] # Kossuth tér
-      - ['22:39:00', 'F03953',   1830] # Fő utca
-      - ['22:40:00', 'F03903',   2201] # Árpád utca
-      - ['22:41:00', 'F04030',   2635] # Villanytelep
-      - ['22:42:00', 'F03737',   2940] # Lajosmizsei sorompó
-      - ['22:43:00', 'F03739',   3244] # Tinódi utca
-      - ['22:44:00', 'F03755',   3584] # Margó Tivadar utca
-      - ['22:45:00', 'F03833',   4033] # Kemény Zsigmond utca
-      - ['22:46:00', 'F03768',   4295] # Baross utca
-      - ['22:47:00', 'F03708',   4669] # Thököly út
-      - ['22:48:00', 'F03719',   5259] # Szarvas csárda tér
-      - ['22:50:00', 'F03823',   5835] # Madarász utca
-      - ['22:51:00', 'F03692',   6081] # Iparvasút
-      - ['22:52:00', 'F03803',   6550] # Honvéd utca
-      - ['22:53:00', 'F03885',   7012] # Bajcsy-Zsilinszky út
-      - ['22:54:00', 'F03853',   7444] # Ungvár utca
-      - ['22:56:00', 'F03791',   7928] # Pestszentlőrinc, Béke tér
+      - ['00:00:00', 'F03930',      0] # Határ út M
+      - ['00:02:00', 'F03899',    628] # Corvin körút
+      - ['00:04:00', 'F03931',   1173] # Lehel utca
+      - ['00:05:00', 'F03947',   1588] # Kossuth tér
+      - ['00:06:00', 'F03953',   1830] # Fő utca
+      - ['00:07:00', 'F03903',   2201] # Árpád utca
+      - ['00:08:00', 'F04030',   2635] # Villanytelep
+      - ['00:09:00', 'F03737',   2940] # Lajosmizsei sorompó
+      - ['00:10:00', 'F03739',   3244] # Tinódi utca
+      - ['00:11:00', 'F03755',   3584] # Margó Tivadar utca
+      - ['00:12:00', 'F03833',   4033] # Kemény Zsigmond utca
+      - ['00:13:00', 'F03768',   4295] # Baross utca
+      - ['00:14:00', 'F03708',   4669] # Thököly út
+      - ['00:16:00', 'F03719',   5259] # Szarvas csárda tér
+      - ['00:18:00', 'F03823',   5835] # Madarász utca
+      - ['00:19:00', 'F03692',   6081] # Iparvasút
+      - ['00:20:00', 'F03803',   6550] # Honvéd utca
+      - ['00:21:00', 'F03885',   7012] # Bajcsy-Zsilinszky út
+      - ['00:22:00', 'F03853',   7444] # Ungvár utca
+      - ['00:24:00', 'F03791',   7928] # Pestszentlőrinc, Béke tér
     trip_headsign: 'Pestszentlőrinc, Béke tér'
     trip_id: REFERENCE-3500-0-1
     wheelchair_accessible: 2
@@ -40,26 +40,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3500-1-1-1208
     stop_times:
-      - ['09:09:00', 'F03791',      0] # Pestszentlőrinc, Béke tér
-      - ['09:11:00', 'F03854',    465] # Ungvár utca
-      - ['09:12:00', 'F03884',    955] # Bajcsy-Zsilinszky út
-      - ['09:13:00', 'F03805',   1346] # Honvéd utca
-      - ['09:15:00', 'F03690',   1760] # Iparvasút
-      - ['09:16:00', 'F03822',   2127] # Madarász utca
-      - ['09:18:00', 'F03718',   2735] # Szarvas csárda tér
-      - ['09:20:00', 'F03710',   3211] # Thököly út
-      - ['09:21:00', 'F03771',   3609] # Baross utca
-      - ['09:22:00', 'F03834',   3937] # Kemény Zsigmond utca
-      - ['09:24:00', 'F03756',   4320] # Margó Tivadar utca
-      - ['09:25:00', 'F03741',   4726] # Tinódi utca
-      - ['09:26:00', 'F03734',   4881] # Lajosmizsei sorompó
-      - ['09:27:00', 'F04031',   5305] # Villanytelep
-      - ['09:29:00', 'F03904',   5768] # Árpád utca
-      - ['09:30:00', 'F03954',   6140] # Fő utca
-      - ['09:31:00', 'F03946',   6383] # Kossuth tér
-      - ['09:32:00', 'F03932',   6710] # Lehel utca
-      - ['09:34:00', 'F03900',   7266] # Corvin körút
-      - ['09:36:00', 'F03930',   7924] # Határ út M
+      - ['00:00:00', 'F03791',      0] # Pestszentlőrinc, Béke tér
+      - ['00:02:00', 'F03854',    465] # Ungvár utca
+      - ['00:03:00', 'F03884',    955] # Bajcsy-Zsilinszky út
+      - ['00:04:00', 'F03805',   1346] # Honvéd utca
+      - ['00:06:00', 'F03690',   1760] # Iparvasút
+      - ['00:07:00', 'F03822',   2127] # Madarász utca
+      - ['00:09:00', 'F03718',   2735] # Szarvas csárda tér
+      - ['00:11:00', 'F03710',   3211] # Thököly út
+      - ['00:12:00', 'F03771',   3609] # Baross utca
+      - ['00:13:00', 'F03834',   3937] # Kemény Zsigmond utca
+      - ['00:14:00', 'F03756',   4320] # Margó Tivadar utca
+      - ['00:15:00', 'F03741',   4726] # Tinódi utca
+      - ['00:16:00', 'F03734',   4881] # Lajosmizsei sorompó
+      - ['00:17:00', 'F04031',   5305] # Villanytelep
+      - ['00:19:00', 'F03904',   5768] # Árpád utca
+      - ['00:20:00', 'F03954',   6140] # Fő utca
+      - ['00:21:00', 'F03946',   6383] # Kossuth tér
+      - ['00:22:00', 'F03932',   6710] # Lehel utca
+      - ['00:24:00', 'F03900',   7266] # Corvin körút
+      - ['00:26:00', 'F03930',   7924] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-3500-1-1
     wheelchair_accessible: 2

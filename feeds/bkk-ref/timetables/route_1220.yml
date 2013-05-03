@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1220-0-1-S089
     stop_times:
-      - ['16:00:00', '011762',      0] # Újpest-Városkapu M
-      - ['16:02:00', 'F00706',    405] # Újpest, Árpád út hajóállomás
-      - ['16:04:00', 'F00701',   1567] # Megyeri út
-      - ['16:05:00', '009148',   2022] # Szusza Ferenc stadion
-      - ['16:07:00', 'F00714',   2648] # Fóti út (Megyeri út)
-      - ['16:09:00', 'F00718',   3464] # Szondi utca
-      - ['16:11:00', '008284',   4146] # Óceán-árok utca
-      - ['16:13:00', '008841',   4675] # Íves út
-      - ['16:14:00', '009047',   5191] # Homoktövis utca
-      - ['16:15:00', '008911',   5634] # Homoktövis iskola
-      - ['16:17:00', 'F00899',   6076] # Káposztásmegyer, Mogyoródi-patak
+      - ['00:00:00', '011762',      0] # Újpest-Városkapu M
+      - ['00:02:00', 'F00706',    405] # Újpest, Árpád út hajóállomás
+      - ['00:04:00', 'F00701',   1567] # Megyeri út
+      - ['00:05:00', '009148',   2022] # Szusza Ferenc stadion
+      - ['00:06:00', 'F00714',   2648] # Fóti út (Megyeri út)
+      - ['00:08:00', 'F00718',   3464] # Szondi utca
+      - ['00:10:00', '008284',   4146] # Óceán-árok utca
+      - ['00:11:00', '008841',   4675] # Íves út
+      - ['00:12:00', '009047',   5191] # Homoktövis utca
+      - ['00:13:00', '008911',   5634] # Homoktövis iskola
+      - ['00:15:00', 'F00899',   6076] # Káposztásmegyer, Mogyoródi-patak
     trip_headsign: 'Káposztásmegyer, Mogyoródi-patak'
     trip_id: REFERENCE-1220-0-1
     wheelchair_accessible: 2
@@ -31,19 +31,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1220-1-1-S091
     stop_times:
-      - ['16:20:00', 'F00899',      0] # Káposztásmegyer, Mogyoródi-patak
-      - ['16:20:00', 'F00906',    299] # Székpatak utca
-      - ['16:21:00', 'F00723',    644] # Megyeri út
-      - ['16:22:00', 'F00908',    887] # Sárpatak utca
-      - ['16:23:00', 'F00720',   1156] # Homoktövis utca
-      - ['16:24:00', '008842',   1730] # Íves út
-      - ['16:25:00', '008283',   2274] # Óceán-árok utca
-      - ['16:27:00', 'F00717',   2973] # Megyer, Szondi utca
-      - ['16:29:00', 'F00713',   3827] # Aschner Lipót tér
-      - ['16:30:00', 'F00767',   4293] # Szusza Ferenc stadion
-      - ['16:32:00', 'F00700',   4699] # Tímár utca
-      - ['16:34:00', '044557',   5828] # Újpest, Árpád út hajóállomás
-      - ['16:36:00', '007902',   6348] # Újpest-Városkapu M
+      - ['00:00:00', 'F00899',      0] # Káposztásmegyer, Mogyoródi-patak
+      - ['00:00:00', 'F00906',    299] # Székpatak utca
+      - ['00:01:00', 'F00723',    644] # Megyeri út
+      - ['00:02:00', 'F00908',    887] # Sárpatak utca
+      - ['00:03:00', 'F00720',   1156] # Homoktövis utca
+      - ['00:04:00', '008842',   1730] # Íves út
+      - ['00:05:00', '008283',   2274] # Óceán-árok utca
+      - ['00:07:00', 'F00717',   2973] # Megyer, Szondi utca
+      - ['00:09:00', 'F00713',   3827] # Aschner Lipót tér
+      - ['00:10:00', 'F00767',   4293] # Szusza Ferenc stadion
+      - ['00:12:00', 'F00700',   4699] # Tímár utca
+      - ['00:14:00', '044557',   5828] # Újpest, Árpád út hajóállomás
+      - ['00:17:00', '007902',   6348] # Újpest-Városkapu M
     trip_headsign: Újpest-Városkapu M
     trip_id: REFERENCE-1220-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

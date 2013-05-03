@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1190-0-1-K779
     stop_times:
-      - ['12:33:00', 'F01434',      0] # Gubacsi út
-      - ['12:35:00', 'F04153',    292] # Török Flóris utca
-      - ['12:36:00', 'F04132',    656] # János tér
-      - ['12:38:00', 'F04127',   1039] # Ady Endre utca (Topánka utca)
-      - ['12:39:00', 'F04123',   1264] # Pesterzsébet, városközpont
-      - ['12:40:00', 'F04144',   1551] # Pesterzsébet, Baross utca
-      - ['12:41:00', '008893',   2020] # Csepeli átjáró
-      - ['12:42:00', '008894',   2315] # Vízisport utca
-      - ['12:43:00', '008895',   2485] # Teremszeg utca
-      - ['12:44:00', '008896',   2818] # Pesterzsébet vasútállomás
-      - ['12:45:00', '009715',   3272] # Zodony utca
+      - ['00:00:00', 'F01434',      0] # Gubacsi út
+      - ['00:02:00', 'F04153',    292] # Török Flóris utca
+      - ['00:03:00', 'F04132',    656] # János tér
+      - ['00:05:00', 'F04127',   1039] # Ady Endre utca (Topánka utca)
+      - ['00:06:00', 'F04123',   1264] # Pesterzsébet, városközpont
+      - ['00:07:00', 'F04144',   1551] # Pesterzsébet, Baross utca
+      - ['00:08:00', '008893',   2020] # Csepeli átjáró
+      - ['00:09:00', '008894',   2315] # Vízisport utca
+      - ['00:10:00', '008895',   2485] # Teremszeg utca
+      - ['00:11:00', '008896',   2818] # Pesterzsébet vasútállomás
+      - ['00:12:00', '009715',   3272] # Zodony utca
     trip_headsign: Zodony utca
     trip_id: REFERENCE-1190-0-1
     wheelchair_accessible: 1
@@ -31,17 +31,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1190-1-1-K780
     stop_times:
-      - ['09:46:00', '009715',      0] # Zodony utca
-      - ['09:47:00', '009716',    513] # Pesterzsébet vasútállomás
-      - ['09:48:00', '009717',    787] # Zamárdi utca
-      - ['09:49:00', '009718',   1020] # Vízisport utca
-      - ['09:50:00', '009719',   1330] # Csepeli átjáró
-      - ['09:52:00', 'F04145',   1729] # Pesterzsébet, Baross utca
-      - ['09:53:00', 'F04122',   2019] # Pesterzsébet, városközpont
-      - ['09:54:00', 'F04128',   2324] # Ady Endre utca
-      - ['09:55:00', '008898',   2531] # Szakorvosi rendelő
-      - ['09:56:00', '009582',   2695] # János tér
-      - ['09:58:00', 'F01434',   3614] # Gubacsi út
+      - ['00:00:00', '009715',      0] # Zodony utca
+      - ['00:01:00', '009716',    513] # Pesterzsébet vasútállomás
+      - ['00:02:00', '009717',    787] # Zamárdi utca
+      - ['00:03:00', '009718',   1020] # Vízisport utca
+      - ['00:04:00', '009719',   1330] # Csepeli átjáró
+      - ['00:06:00', 'F04145',   1729] # Pesterzsébet, Baross utca
+      - ['00:07:00', 'F04122',   2019] # Pesterzsébet, városközpont
+      - ['00:08:00', 'F04128',   2324] # Ady Endre utca
+      - ['00:09:00', '008898',   2531] # Szakorvosi rendelő
+      - ['00:10:00', '009582',   2695] # János tér
+      - ['00:12:00', 'F01434',   3614] # Gubacsi út
     trip_headsign: Gubacsi út
     trip_id: REFERENCE-1190-1-1
     wheelchair_accessible: 1

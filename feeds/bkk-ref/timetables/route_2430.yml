@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Békásmegyer H / Pince köz
+route_desc: Békásmegyer H - Pince köz - Békásmegyer H
 route_id: 2430
 route_long_name: ''
 route_short_name: 243
@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2430-0-1-O780
     stop_times:
-      - ['23:54:00', 'F00460',      0] # Békásmegyer H
-      - ['23:55:00', 'F00435',    538] # Pusztadombi utca
-      - ['23:56:00', 'F00436',    916] # Égető utca
-      - ['23:56:00', 'F00437',   1092] # Táncsics Mihály utca
-      - ['23:58:00', 'F00442',   1763] # Donát utca
-      - ['23:59:00', 'F00439',   2229] # Ezüsthegy utca
-      - ['24:00:00', 'F00446',   2524] # Templom utca
-      - ['24:00:00', 'F00447',   2890] # Hősök tere
-      - ['24:01:00', 'F00449',   3171] # Tamás utca
-      - ['24:03:00', 'F00451',   3691] # Pince köz
-      - ['24:04:00', 'F00450',   4153] # Tamás utca
-      - ['24:04:00', 'F00448',   4472] # Hősök tere
-      - ['24:05:00', 'F00455',   4791] # Zemplén Győző utca
-      - ['24:06:00', 'F00456',   5158] # Nád utca
-      - ['24:07:00', 'F00459',   5426] # Pünkösdfürdő utca
-      - ['24:08:00', 'F00460',   5848] # Békásmegyer H
+      - ['00:00:00', 'F00460',      0] # Békásmegyer H
+      - ['00:01:00', 'F00435',    538] # Pusztadombi utca
+      - ['00:02:00', 'F00436',    916] # Égető utca
+      - ['00:02:00', 'F00437',   1092] # Táncsics Mihály utca
+      - ['00:04:00', 'F00442',   1763] # Donát utca
+      - ['00:05:00', 'F00439',   2229] # Ezüsthegy utca
+      - ['00:06:00', 'F00446',   2524] # Templom utca
+      - ['00:06:00', 'F00447',   2890] # Hősök tere
+      - ['00:07:00', 'F00449',   3171] # Tamás utca
+      - ['00:09:00', 'F00451',   3691] # Pince köz
+      - ['00:10:00', 'F00450',   4153] # Tamás utca
+      - ['00:10:00', 'F00448',   4472] # Hősök tere
+      - ['00:11:00', 'F00455',   4791] # Zemplén Győző utca
+      - ['00:12:00', 'F00456',   5158] # Nád utca
+      - ['00:13:00', 'F00459',   5426] # Pünkösdfürdő utca
+      - ['00:14:00', 'F00460',   5848] # Békásmegyer H
     trip_headsign: Békásmegyer H
     trip_id: REFERENCE-2430-0-1
     wheelchair_accessible: 2

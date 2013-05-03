@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9630-0-1-Q691
     stop_times:
-      - ['26:04:00', '007973',      0] # Hűvösvölgy
-      - ['26:06:00', 'F00339',    372] # Hidegkúti út
-      - ['26:07:00', 'F00356',    727] # Bükkfa utca
-      - ['26:08:00', 'F00368',   1204] # Széchenyi utca
-      - ['26:08:00', 'F00353',   1593] # Határ utca
-      - ['26:11:00', 'F00351',   3083] # Adyliget
-      - ['26:11:00', 'F04821',   3550] # BM iskola
-      - ['26:12:00', 'F04778',   4257] # Rácski telep
-      - ['26:13:00', 'F04823',   4910] # Mészégető
-      - ['26:13:00', 'F04780',   5212] # Erdészház
-      - ['26:14:00', 'F04782',   6187] # 13-as kilométerkő
-      - ['26:15:00', 'F04784',   7159] # Nagykovácsi, lakótelep
-      - ['26:16:00', 'F04786',   7767] # Ady Endre utca
-      - ['26:17:00', 'F04825',   8067] # Posta
-      - ['26:18:00', 'F04827',   8464] # Nagykovácsi, községháza
-      - ['26:19:00', '031884',   8822] # Nagykovácsi, Tisza István tér
+      - ['00:00:00', '007973',      0] # Hűvösvölgy
+      - ['00:02:00', 'F00339',    372] # Hidegkúti út
+      - ['00:03:00', 'F00356',    727] # Bükkfa utca
+      - ['00:04:00', 'F00368',   1204] # Széchenyi utca
+      - ['00:04:00', 'F00353',   1593] # Határ utca
+      - ['00:07:00', 'F00351',   3083] # Adyliget
+      - ['00:07:00', 'F04821',   3550] # BM iskola
+      - ['00:08:00', 'F04778',   4257] # Rácski telep
+      - ['00:09:00', 'F04823',   4910] # Mészégető
+      - ['00:09:00', 'F04780',   5212] # Erdészház
+      - ['00:10:00', 'F04782',   6187] # 13-as kilométerkő
+      - ['00:11:00', 'F04784',   7159] # Nagykovácsi, lakótelep
+      - ['00:12:00', 'F04786',   7767] # Ady Endre utca
+      - ['00:13:00', 'F04825',   8067] # Posta
+      - ['00:14:00', 'F04827',   8464] # Nagykovácsi, községháza
+      - ['00:15:00', '031884',   8822] # Nagykovácsi, Tisza István tér
     trip_headsign: 'Nagykovácsi, Tisza István tér'
     trip_id: REFERENCE-9630-0-1
     wheelchair_accessible: 2
@@ -36,23 +36,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9630-1-1-Q690
     stop_times:
-      - ['28:02:00', '031884',      0] # Nagykovácsi, Tisza István tér
-      - ['28:03:00', 'F04828',    420] # Nagykovácsi, községháza
-      - ['28:03:00', 'F04826',    607] # Posta
-      - ['28:04:00', 'F04785',    939] # Ady Endre utca
-      - ['28:05:00', 'F04783',   1676] # Nagykovácsi, lakótelep
-      - ['28:06:00', 'F04781',   2634] # 13-as kilométerkő
-      - ['28:07:00', 'F04779',   3603] # Erdészház
-      - ['28:07:00', 'F04824',   3883] # Mészégető
-      - ['28:08:00', 'F04777',   4573] # Rácski telep
-      - ['28:09:00', 'F04822',   5353] # BM iskola
-      - ['28:10:00', 'F00352',   5810] # Adyliget
-      - ['28:11:00', 'F00350',   6418] # Ady lépcső
-      - ['28:12:00', 'F00354',   7343] # Villám utca
-      - ['28:13:00', 'F00369',   7716] # Széchenyi utca
-      - ['28:14:00', 'F00357',   8128] # Vezér utca
-      - ['28:16:00', 'F00340',   8575] # Bátori László utca
-      - ['28:17:00', '007972',   8731] # Hűvösvölgy
+      - ['00:00:00', '031884',      0] # Nagykovácsi, Tisza István tér
+      - ['00:01:00', 'F04828',    420] # Nagykovácsi, községháza
+      - ['00:01:00', 'F04826',    607] # Posta
+      - ['00:02:00', 'F04785',    939] # Ady Endre utca
+      - ['00:03:00', 'F04783',   1676] # Nagykovácsi, lakótelep
+      - ['00:04:00', 'F04781',   2634] # 13-as kilométerkő
+      - ['00:05:00', 'F04779',   3603] # Erdészház
+      - ['00:05:00', 'F04824',   3883] # Mészégető
+      - ['00:06:00', 'F04777',   4573] # Rácski telep
+      - ['00:07:00', 'F04822',   5353] # BM iskola
+      - ['00:08:00', 'F00352',   5810] # Adyliget
+      - ['00:09:00', 'F00350',   6418] # Ady lépcső
+      - ['00:10:00', 'F00354',   7343] # Villám utca
+      - ['00:11:00', 'F00369',   7716] # Széchenyi utca
+      - ['00:12:00', 'F00357',   8128] # Vezér utca
+      - ['00:14:00', 'F00340',   8575] # Bátori László utca
+      - ['00:15:00', '007972',   8731] # Hűvösvölgy
     trip_headsign: Hűvösvölgy
     trip_id: REFERENCE-9630-1-1
     wheelchair_accessible: 2

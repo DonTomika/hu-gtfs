@@ -13,43 +13,43 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1440-0-1-0028
     stop_times:
-      - ['17:43:00', 'F02761',      0] # Örs vezér tere M+H
-      - ['17:45:00', 'F02773',    910] # Vezér utca
-      - ['17:46:00', 'F02932',   1249] # Tihamér utca
-      - ['17:47:00', 'F02787',   1525] # Fogarasi út
-      - ['17:48:00', 'F02783',   1859] # Fischer István utca
-      - ['17:52:00', 'F03280',   2949] # Rózsa utca
-      - ['17:52:00', 'F03372',   3269] # Szent Korona utcai lakótelep
-      - ['17:53:00', 'F03282',   3509] # Rákosi út
-      - ['17:55:00', 'F03268',   4092] # Batthyány utca
-      - ['17:57:00', 'F03255',   4584] # József utca
-      - ['17:58:00', 'F03252',   5025] # János utca
-      - ['17:59:00', 'F03358',   5408] # Diófa utca
-      - ['18:01:00', 'F03228',   5945] # Mátyás király utca 71.
-      - ['18:02:00', 'F03343',   6242] # Szent Korona utca
-      - ['18:03:00', 'F03225',   6499] # Rákosszentmihály, Csömöri út
+      - ['00:00:00', 'F02761',      0] # Örs vezér tere M+H
+      - ['00:01:00', 'F02773',    910] # Vezér utca
+      - ['00:02:00', 'F02932',   1249] # Tihamér utca
+      - ['00:02:00', 'F02787',   1525] # Fogarasi út
+      - ['00:03:00', 'F02783',   1859] # Fischer István utca
+      - ['00:05:00', 'F03280',   2949] # Rózsa utca
+      - ['00:06:00', 'F03372',   3269] # Szent Korona utcai lakótelep
+      - ['00:06:00', 'F03282',   3509] # Rákosi út
+      - ['00:07:00', 'F03268',   4092] # Batthyány utca
+      - ['00:09:00', 'F03255',   4584] # József utca
+      - ['00:10:00', 'F03252',   5025] # János utca
+      - ['00:10:00', 'F03358',   5408] # Diófa utca
+      - ['00:11:00', 'F03228',   5945] # Mátyás király utca 71.
+      - ['00:12:00', 'F03343',   6242] # Szent Korona utca
+      - ['00:13:00', 'F03225',   6499] # Rákosszentmihály, Csömöri út
     trip_headsign: 'Rákosszentmihály, Csömöri út'
     trip_id: REFERENCE-1440-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1440-1-1-0030
     stop_times:
-      - ['06:35:00', 'F03225',      0] # Rákosszentmihály, Csömöri út
-      - ['06:36:00', 'F03221',    378] # György utca
-      - ['06:37:00', 'F03257',    752] # János utca
-      - ['06:38:00', 'F03357',   1166] # Szent Korona utca
-      - ['06:39:00', 'F03251',   1492] # Rákosi út
-      - ['06:41:00', 'F03254',   2021] # József utca
-      - ['06:42:00', 'F03266',   2511] # Batthyány utca
-      - ['06:43:00', 'F03283',   2970] # Rózsa utca
-      - ['06:44:00', 'F03371',   3375] # Szent Korona utcai lakótelep
-      - ['06:45:00', 'F03279',   3642] # Csömöri út
-      - ['06:48:00', 'F02784',   4797] # Fischer István utca
-      - ['06:49:00', 'F02788',   5118] # Fogarasi út
-      - ['06:50:00', 'F02933',   5370] # Tihamér utca
-      - ['06:51:00', 'F02774',   5712] # Füredi utca
-      - ['06:54:00', 'F02757',   6528] # Örs vezér tere M+H
+      - ['00:00:00', 'F03225',      0] # Rákosszentmihály, Csömöri út
+      - ['00:00:00', 'F03221',    378] # György utca
+      - ['00:01:00', 'F03257',    752] # János utca
+      - ['00:02:00', 'F03357',   1166] # Szent Korona utca
+      - ['00:03:00', 'F03251',   1492] # Rákosi út
+      - ['00:04:00', 'F03254',   2021] # József utca
+      - ['00:06:00', 'F03266',   2511] # Batthyány utca
+      - ['00:07:00', 'F03283',   2970] # Rózsa utca
+      - ['00:08:00', 'F03371',   3375] # Szent Korona utcai lakótelep
+      - ['00:08:00', 'F03279',   3642] # Csömöri út
+      - ['00:11:00', 'F02784',   4797] # Fischer István utca
+      - ['00:12:00', 'F02788',   5118] # Fogarasi út
+      - ['00:13:00', 'F02933',   5370] # Tihamér utca
+      - ['00:13:00', 'F02774',   5712] # Füredi utca
+      - ['00:16:00', 'F02757',   6528] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-1440-1-1
     wheelchair_accessible: 2

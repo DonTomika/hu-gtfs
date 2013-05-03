@@ -13,46 +13,46 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1550-0-1-R688
     stop_times:
-      - ['14:12:00', 'F02464',      0] # Széll Kálmán tér M
-      - ['14:14:00', 'F00155',   1064] # Városmajor
-      - ['14:15:00', '009558',   1372] # Szent János Kórház
-      - ['14:17:00', 'F02482',   1738] # Rendelőintézet
-      - ['14:17:00', 'F02348',   1893] # Pető Intézet
-      - ['14:18:00', 'F02350',   2200] # Virányos út
-      - ['14:19:00', 'F02357',   2424] # Kútvölgyi lejtő, Traumatológia
-      - ['14:20:00', 'F02355',   2686] # Fészek utca
-      - ['14:21:00', 'F02359',   3065] # Zirzen Janka utca
-      - ['14:22:00', 'F02360',   3292] # György Aladár utca
-      - ['14:23:00', 'F02374',   3517] # Galgóczy utca
-      - ['14:24:00', 'F02376',   3745] # Zalai út
-      - ['14:25:00', 'F02484',   4001] # Hunyad köz
-      - ['14:26:00', 'F02486',   4241] # Hunyad lejtő
-      - ['14:27:00', 'F02378',   4456] # Béla király út
-      - ['14:28:00', 'F02380',   4818] # Zugligeti út
+      - ['00:00:00', 'F02464',      0] # Széll Kálmán tér M
+      - ['00:02:00', 'F00155',   1064] # Városmajor
+      - ['00:02:00', '009558',   1372] # Szent János Kórház
+      - ['00:04:00', 'F02482',   1738] # Rendelőintézet
+      - ['00:04:00', 'F02348',   1893] # Pető Intézet
+      - ['00:05:00', 'F02350',   2200] # Virányos út
+      - ['00:06:00', 'F02357',   2424] # Kútvölgyi lejtő, Traumatológia
+      - ['00:07:00', 'F02355',   2686] # Fészek utca
+      - ['00:08:00', 'F02359',   3065] # Zirzen Janka utca
+      - ['00:09:00', 'F02360',   3292] # György Aladár utca
+      - ['00:10:00', 'F02374',   3517] # Galgóczy utca
+      - ['00:11:00', 'F02376',   3745] # Zalai út
+      - ['00:12:00', 'F02484',   4001] # Hunyad köz
+      - ['00:13:00', 'F02486',   4241] # Hunyad lejtő
+      - ['00:14:00', 'F02378',   4456] # Béla király út
+      - ['00:14:00', 'F02380',   4818] # Zugligeti út
     trip_headsign: Zugligeti út
     trip_id: REFERENCE-1550-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1550-1-1-R689
     stop_times:
-      - ['12:45:00', 'F02380',      0] # Zugligeti út
-      - ['12:45:00', 'F02379',    264] # Csillagvölgyi út
-      - ['12:46:00', 'F02487',    559] # Cinege út
-      - ['12:47:00', 'F02485',    748] # Hunyad köz
-      - ['12:48:00', 'F02377',    937] # Zalai út
-      - ['12:49:00', 'F02375',   1158] # Galgóczy utca
-      - ['12:49:00', 'F02361',   1445] # György Aladár utca
-      - ['12:50:00', 'F02362',   1695] # Kiss Áron utca
-      - ['12:51:00', '008737',   2139] # Dániel út
-      - ['12:52:00', 'F02356',   2366] # Fészek utca
-      - ['12:53:00', 'F02358',   2645] # Kútvölgyi lejtő, Traumatológia
-      - ['12:53:00', 'F02351',   2926] # Virányos út
-      - ['12:54:00', 'F02349',   3121] # Pető Intézet
-      - ['12:55:00', 'F02483',   3337] # Rendelőintézet
-      - ['12:56:00', 'F00410',   3667] # Szent János Kórház
-      - ['12:57:00', 'F00158',   3963] # Városmajor
-      - ['13:00:00', 'F02468',   4764] # Széll Kálmán tér M
+      - ['00:00:00', 'F02380',      0] # Zugligeti út
+      - ['00:00:00', 'F02379',    264] # Csillagvölgyi út
+      - ['00:01:00', 'F02487',    559] # Cinege út
+      - ['00:02:00', 'F02485',    748] # Hunyad köz
+      - ['00:03:00', 'F02377',    937] # Zalai út
+      - ['00:04:00', 'F02375',   1158] # Galgóczy utca
+      - ['00:04:00', 'F02361',   1445] # György Aladár utca
+      - ['00:05:00', 'F02362',   1695] # Kiss Áron utca
+      - ['00:06:00', '008737',   2139] # Dániel út
+      - ['00:07:00', 'F02356',   2366] # Fészek utca
+      - ['00:08:00', 'F02358',   2645] # Kútvölgyi lejtő, Traumatológia
+      - ['00:09:00', 'F02351',   2926] # Virányos út
+      - ['00:10:00', 'F02349',   3121] # Pető Intézet
+      - ['00:11:00', 'F02483',   3337] # Rendelőintézet
+      - ['00:12:00', 'F00410',   3667] # Szent János Kórház
+      - ['00:13:00', 'F00158',   3963] # Városmajor
+      - ['00:16:00', 'F02468',   4764] # Széll Kálmán tér M
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-1550-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

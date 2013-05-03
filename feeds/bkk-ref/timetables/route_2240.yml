@@ -13,36 +13,36 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2240-0-1-S119
     stop_times:
-      - ['11:00:00', '007919',      0] # Újpalota, Pólus Center
-      - ['11:02:00', '009415',    765] # Sárfű utca
-      - ['11:03:00', '008246',    966] # Rákospalotai köztemető
-      - ['11:07:00', '008361',   4067] # Áruházak
-      - ['11:12:00', '008243',   6243] # Szántóföld utca
-      - ['11:13:00', 'F03012',   6773] # Rákospalota, Bogáncs utca
-      - ['11:13:00', 'F03011',   7113] # Kosd utca
-      - ['11:14:00', 'F03013',   7506] # Közvágóhíd utca
-      - ['11:15:00', 'F03025',   7893] # Csobogós utca
-      - ['11:16:00', 'F03030',   8223] # Rákospalota, Kossuth utca
-      - ['11:17:00', 'F03045',   8595] # Széchenyi tér
-      - ['11:18:00', 'F03049',   9048] # Deák utca
-      - ['11:20:00', 'F03054',   9597] # Hubay Jenő tér
-      - ['11:21:00', 'F03056',   9851] # Beller Imre utca
-      - ['11:23:00', 'F03058',  10341] # Rákos út
-      - ['11:24:00', 'F03071',  10953] # Rákos úti szakrendelő
-      - ['11:25:00', 'F03181',  11346] # Wesselényi utca
-      - ['11:26:00', 'F03203',  11643] # Szent Korona útja
-      - ['11:27:00', 'F03083',  12004] # Széchenyi út
-      - ['11:28:00', 'F03169',  12520] # Opál utca
-      - ['11:29:00', 'F03101',  12863] # Kolozsvár utca
-      - ['11:30:00', '008245',  13343] # Kolozsvár utcai piac
-      - ['11:31:00', 'F02688',  13679] # Árvavár utca
-      - ['11:33:00', '008353',  14344] # Észak-Pesti Kórház
-      - ['11:35:00', 'F03098',  14905] # Sztárai Mihály tér
-      - ['11:36:00', 'F03135',  15364] # Thököly út
-      - ['11:38:00', 'F03139',  15744] # Madách utca
-      - ['11:39:00', 'F03152',  16060] # Fő tér
-      - ['11:40:00', 'F03157',  16555] # Vásárcsarnok
-      - ['11:42:00', '007919',  17654] # Újpalota, Pólus Center
+      - ['00:00:00', '007919',      0] # Újpalota, Pólus Center
+      - ['00:02:00', '009415',    765] # Sárfű utca
+      - ['00:03:00', '008246',    966] # Rákospalotai köztemető
+      - ['00:07:00', '008361',   4067] # Áruházak
+      - ['00:12:00', '008243',   6243] # Szántóföld utca
+      - ['00:13:00', 'F03012',   6773] # Rákospalota, Bogáncs utca
+      - ['00:13:00', 'F03011',   7113] # Kosd utca
+      - ['00:14:00', 'F03013',   7506] # Közvágóhíd utca
+      - ['00:15:00', 'F03025',   7893] # Csobogós utca
+      - ['00:16:00', 'F03030',   8223] # Rákospalota, Kossuth utca
+      - ['00:17:00', 'F03045',   8595] # Széchenyi tér
+      - ['00:18:00', 'F03049',   9048] # Deák utca
+      - ['00:20:00', 'F03054',   9597] # Hubay Jenő tér
+      - ['00:21:00', 'F03056',   9851] # Beller Imre utca
+      - ['00:23:00', 'F03058',  10341] # Rákos út
+      - ['00:24:00', 'F03071',  10953] # Rákos úti szakrendelő
+      - ['00:25:00', 'F03181',  11346] # Wesselényi utca
+      - ['00:26:00', 'F03203',  11643] # Szent Korona útja
+      - ['00:27:00', 'F03083',  12004] # Széchenyi út
+      - ['00:28:00', 'F03169',  12520] # Opál utca
+      - ['00:29:00', 'F03101',  12863] # Kolozsvár utca
+      - ['00:30:00', '008245',  13343] # Kolozsvár utcai piac
+      - ['00:31:00', 'F02688',  13679] # Árvavár utca
+      - ['00:33:00', '008353',  14344] # Észak-Pesti Kórház
+      - ['00:35:00', 'F03098',  14905] # Sztárai Mihály tér
+      - ['00:36:00', 'F03135',  15364] # Thököly út
+      - ['00:38:00', 'F03139',  15744] # Madách utca
+      - ['00:39:00', 'F03152',  16060] # Fő tér
+      - ['00:40:00', 'F03157',  16555] # Vásárcsarnok
+      - ['00:42:00', '007919',  17654] # Újpalota, Pólus Center
     trip_headsign: 'Újpalota, Pólus Center'
     trip_id: REFERENCE-2240-0-1
     wheelchair_accessible: 1

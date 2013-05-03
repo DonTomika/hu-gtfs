@@ -13,32 +13,32 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1110-0-1-K013
     stop_times:
-      - ['07:47:00', 'F00067',      0] # Batthyány tér M+H
-      - ['07:48:00', 'F00034',    696] # Fazekas utca
-      - ['07:50:00', 'F00193',   1026] # Margit körút
-      - ['07:52:00', 'F00195',   1287] # Mechwart liget
-      - ['07:53:00', 'F00201',   1843] # Füge utca
-      - ['07:54:00', 'F00203',   2084] # Rét utca
-      - ['07:55:00', 'F00205',   2297] # Ady Endre utca
-      - ['07:56:00', 'F00207',   2638] # Tapolcsányi utca
-      - ['07:57:00', 'F00209',   3010] # Eszter utca
-      - ['07:58:00', 'F00211',   3243] # Vend utca
-      - ['07:59:00', 'F00215',   3477] # Pusztaszeri körönd
-      - ['08:00:00', 'F00151',   3859] # Baba utca
-      - ['08:01:00', 'F00269',   4137] # Móricz Zsigmond Gimnázium
-      - ['08:02:00', 'F00267',   4439] # Tömörkény utca
-      - ['08:03:00', 'F00264',   4762] # Csatárka út
-      - ['08:04:00', 'F00263',   4854] # Törökvész út
-      - ['08:05:00', 'F00262',   5200] # Pitypang utca
-      - ['08:06:00', 'F00260',   5388] # Zöldkert út
-      - ['08:07:00', 'F00125',   5790] # Csalit utca
-      - ['08:08:00', 'F00258',   6189] # Felső Zöldmáli út
-      - ['08:09:00', 'F00256',   6398] # Szemlő-hegyi-barlang
-      - ['08:10:00', 'F00254',   6662] # Alsó Zöldmáli út
-      - ['08:11:00', 'F00252',   6806] # Pusztaszeri út 28.
-      - ['08:12:00', 'F00250',   7170] # Felhévízi utca
-      - ['08:13:00', 'F00131',   7501] # Ürömi utca
-      - ['08:13:00', 'F00134',   7805] # Kolosy tér
+      - ['00:00:00', 'F00067',      0] # Batthyány tér M+H
+      - ['00:01:00', 'F00034',    696] # Fazekas utca
+      - ['00:03:00', 'F00193',   1026] # Margit körút
+      - ['00:05:00', 'F00195',   1287] # Mechwart liget
+      - ['00:06:00', 'F00201',   1843] # Füge utca
+      - ['00:07:00', 'F00203',   2084] # Rét utca
+      - ['00:08:00', 'F00205',   2297] # Ady Endre utca
+      - ['00:09:00', 'F00207',   2638] # Tapolcsányi utca
+      - ['00:10:00', 'F00209',   3010] # Eszter utca
+      - ['00:11:00', 'F00211',   3243] # Vend utca
+      - ['00:12:00', 'F00215',   3477] # Pusztaszeri körönd
+      - ['00:13:00', 'F00151',   3859] # Baba utca
+      - ['00:14:00', 'F00269',   4137] # Móricz Zsigmond Gimnázium
+      - ['00:15:00', 'F00267',   4439] # Tömörkény utca
+      - ['00:16:00', 'F00264',   4762] # Csatárka út
+      - ['00:16:00', 'F00263',   4854] # Törökvész út
+      - ['00:17:00', 'F00262',   5200] # Pitypang utca
+      - ['00:18:00', 'F00260',   5388] # Zöldkert út
+      - ['00:19:00', 'F00125',   5790] # Csalit utca
+      - ['00:20:00', 'F00258',   6189] # Felső Zöldmáli út
+      - ['00:21:00', 'F00256',   6398] # Szemlő-hegyi-barlang
+      - ['00:22:00', 'F00254',   6662] # Alsó Zöldmáli út
+      - ['00:23:00', 'F00252',   6806] # Pusztaszeri út 28.
+      - ['00:24:00', 'F00250',   7170] # Felhévízi utca
+      - ['00:25:00', 'F00131',   7501] # Ürömi utca
+      - ['00:26:00', 'F00134',   7805] # Kolosy tér
     trip_headsign: Kolosy tér
     trip_id: REFERENCE-1110-0-1
     wheelchair_accessible: 2
@@ -46,31 +46,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1110-1-1-T395
     stop_times:
-      - ['17:30:00', 'F00134',      0] # Kolosy tér
-      - ['17:31:00', 'F00130',    303] # Ürömi utca
-      - ['17:32:00', 'F00249',    728] # Felhévízi utca
-      - ['17:33:00', 'F00251',    982] # Pusztaszeri út 25.
-      - ['17:34:00', 'F00253',   1124] # Alsó Zöldmáli út
-      - ['17:35:00', 'F00255',   1346] # Szemlő-hegyi-barlang
-      - ['17:35:00', 'F00257',   1547] # Zöldmáli lejtő
-      - ['17:37:00', 'F00124',   2013] # Csalit utca
-      - ['17:38:00', 'F00259',   2414] # Zöldkert út
-      - ['17:39:00', 'F00261',   2590] # Pitypang utca
-      - ['17:41:00', 'F00265',   3080] # Kapy utca
-      - ['17:42:00', 'F00268',   3466] # Tömörkény utca
-      - ['17:43:00', 'F00270',   3677] # Móricz Zsigmond Gimnázium
-      - ['17:44:00', 'F00152',   4007] # Baba utca
-      - ['17:45:00', 'F00216',   4398] # Pusztaszeri körönd
-      - ['17:46:00', 'F00212',   4672] # Vend utca
-      - ['17:47:00', 'F00210',   4854] # Eszter utca
-      - ['17:48:00', 'F00208',   5181] # Tapolcsányi utca
-      - ['17:49:00', 'F00206',   5473] # Ady Endre utca
-      - ['17:50:00', 'F00204',   5730] # Rét utca
-      - ['17:51:00', 'F00202',   5977] # Füge utca
-      - ['17:52:00', 'F00196',   6548] # Mechwart liget
-      - ['17:54:00', 'F00194',   6845] # Horvát utca
-      - ['17:56:00', 'F00035',   7151] # Csalogány utca
-      - ['17:59:00', 'F00067',   7775] # Batthyány tér M+H
+      - ['00:00:00', 'F00134',      0] # Kolosy tér
+      - ['00:01:00', 'F00130',    303] # Ürömi utca
+      - ['00:02:00', 'F00249',    728] # Felhévízi utca
+      - ['00:03:00', 'F00251',    982] # Pusztaszeri út 25.
+      - ['00:04:00', 'F00253',   1124] # Alsó Zöldmáli út
+      - ['00:05:00', 'F00255',   1346] # Szemlő-hegyi-barlang
+      - ['00:05:00', 'F00257',   1547] # Zöldmáli lejtő
+      - ['00:07:00', 'F00124',   2013] # Csalit utca
+      - ['00:08:00', 'F00259',   2414] # Zöldkert út
+      - ['00:09:00', 'F00261',   2590] # Pitypang utca
+      - ['00:11:00', 'F00265',   3080] # Kapy utca
+      - ['00:12:00', 'F00268',   3466] # Tömörkény utca
+      - ['00:13:00', 'F00270',   3677] # Móricz Zsigmond Gimnázium
+      - ['00:14:00', 'F00152',   4007] # Baba utca
+      - ['00:15:00', 'F00216',   4398] # Pusztaszeri körönd
+      - ['00:16:00', 'F00212',   4672] # Vend utca
+      - ['00:17:00', 'F00210',   4854] # Eszter utca
+      - ['00:18:00', 'F00208',   5181] # Tapolcsányi utca
+      - ['00:19:00', 'F00206',   5473] # Ady Endre utca
+      - ['00:20:00', 'F00204',   5730] # Rét utca
+      - ['00:21:00', 'F00202',   5977] # Füge utca
+      - ['00:22:00', 'F00196',   6548] # Mechwart liget
+      - ['00:24:00', 'F00194',   6845] # Horvát utca
+      - ['00:26:00', 'F00035',   7151] # Csalogány utca
+      - ['00:28:00', 'F00067',   7775] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-1110-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

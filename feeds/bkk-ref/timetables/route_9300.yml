@@ -13,16 +13,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9300-0-1-C085
     stop_times:
-      - ['25:54:00', '008697',      0] # Újpest-Központ M
-      - ['25:55:00', 'F00784',    523] # Deák Ferenc utca
-      - ['25:56:00', 'F00783',    762] # Nádor utca
-      - ['25:57:00', 'F00777',   1299] # Türr István utca
-      - ['25:58:00', 'F00849',   1761] # Baross utca
-      - ['25:59:00', 'F00770',   2147] # Irányi Dániel utca
-      - ['26:00:00', 'F00755',   2454] # Fóti út
-      - ['26:01:00', 'F00714',   3047] # Fóti út (Megyeri út)
-      - ['26:02:00', 'F00710',   3202] # Megyeri temető
-      - ['26:03:00', 'F00716',   3819] # Megyer, Szondi utca
+      - ['00:00:00', '008697',      0] # Újpest-Központ M
+      - ['00:01:00', 'F00784',    523] # Deák Ferenc utca
+      - ['00:02:00', 'F00783',    762] # Nádor utca
+      - ['00:03:00', 'F00777',   1299] # Türr István utca
+      - ['00:04:00', 'F00849',   1761] # Baross utca
+      - ['00:05:00', 'F00770',   2147] # Irányi Dániel utca
+      - ['00:06:00', 'F00755',   2454] # Fóti út
+      - ['00:07:00', 'F00714',   3047] # Fóti út (Megyeri út)
+      - ['00:08:00', 'F00710',   3202] # Megyeri temető
+      - ['00:09:00', 'F00716',   3819] # Megyer, Szondi utca
     trip_headsign: 'Megyer, Szondi utca'
     trip_id: REFERENCE-9300-0-1
     wheelchair_accessible: 2
@@ -30,16 +30,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9300-1-1-C086
     stop_times:
-      - ['27:26:00', 'F00717',      0] # Megyer, Szondi utca
-      - ['27:27:00', 'F00709',    430] # Megyeri temető
-      - ['27:28:00', 'F00712',    827] # Megyeri út (Fóti út)
-      - ['27:29:00', 'F00754',   1210] # Baross utca
-      - ['27:30:00', 'F00769',   1508] # Irányi Dániel utca
-      - ['27:31:00', 'F00848',   1911] # Mildenberger utca
-      - ['27:32:00', 'F00778',   2409] # Nádor utca
-      - ['27:33:00', 'F00782',   3011] # Deák Ferenc utca
-      - ['27:34:00', 'F00785',   3254] # István út
-      - ['27:35:00', 'F00803',   3973] # Újpest-Központ M
+      - ['00:00:00', 'F00717',      0] # Megyer, Szondi utca
+      - ['00:01:00', 'F00709',    430] # Megyeri temető
+      - ['00:02:00', 'F00712',    827] # Megyeri út (Fóti út)
+      - ['00:03:00', 'F00754',   1210] # Baross utca
+      - ['00:04:00', 'F00769',   1508] # Irányi Dániel utca
+      - ['00:05:00', 'F00848',   1911] # Mildenberger utca
+      - ['00:06:00', 'F00778',   2409] # Nádor utca
+      - ['00:07:00', 'F00782',   3011] # Deák Ferenc utca
+      - ['00:08:00', 'F00785',   3254] # István út
+      - ['00:09:00', 'F00803',   3973] # Újpest-Központ M
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-9300-1-1
     wheelchair_accessible: 2

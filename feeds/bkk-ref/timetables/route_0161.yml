@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Széll Kálmán tér M / Dísz tér
+route_desc: Széll Kálmán tér M (Várfok utca) / Dísz tér
 route_id: 0161
 route_long_name: ''
 route_short_name: 16A
@@ -13,12 +13,12 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0161-0-1-H294
     stop_times:
-      - ['07:42:00', 'F00074',      0] # Dísz tér
-      - ['07:43:00', 'F00073',    116] # Dísz tér
-      - ['07:44:00', 'F00072',    405] # Szentháromság tér
-      - ['07:46:00', 'F00069',    857] # Bécsi kapu tér
-      - ['07:47:00', 'F00030',   1105] # Ostrom utca
-      - ['07:48:00', 'F02472',   1496] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', 'F00074',      0] # Dísz tér
+      - ['00:00:00', 'F00073',    116] # Dísz tér
+      - ['00:01:00', 'F00072',    405] # Szentháromság tér
+      - ['00:03:00', 'F00069',    857] # Bécsi kapu tér
+      - ['00:04:00', 'F00030',   1105] # Ostrom utca
+      - ['00:05:00', 'F02472',   1496] # Széll Kálmán tér M (Várfok utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-0161-0-1
     wheelchair_accessible: 2
@@ -26,12 +26,12 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0161-1-1-H293
     stop_times:
-      - ['10:34:00', 'F02469',      0] # Széll Kálmán tér M (Várfok utca)
-      - ['10:35:00', 'F00031',    234] # Mátray utca
-      - ['10:36:00', 'F00070',    596] # Bécsi kapu tér
-      - ['10:37:00', 'F00114',    716] # Kapisztrán tér
-      - ['10:38:00', 'F00071',   1120] # Szentháromság tér
-      - ['10:40:00', 'F00074',   1524] # Dísz tér
+      - ['00:00:00', 'F02469',      0] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', 'F00031',    234] # Mátray utca
+      - ['00:01:00', 'F00070',    596] # Bécsi kapu tér
+      - ['00:02:00', 'F00114',    716] # Kapisztrán tér
+      - ['00:03:00', 'F00071',   1120] # Szentháromság tér
+      - ['00:04:00', 'F00074',   1524] # Dísz tér
     trip_headsign: Dísz tér
     trip_id: REFERENCE-0161-1-1
     wheelchair_accessible: 2

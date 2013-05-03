@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Móricz Zsigmond körtér / Budaörsi lakótelep
+route_desc: Móricz Zsigmond körtér (Villányi út) / Budaörsi lakótelep
 route_id: 2400
 route_long_name: ''
 route_short_name: 240
@@ -13,59 +13,59 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2400-0-1-K077
     stop_times:
-      - ['12:06:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['12:08:00', 'F02182',    686] # Kosztolányi Dezső tér
-      - ['12:09:00', 'F02123',    953] # Vincellér utca
-      - ['12:10:00', 'F02262',   1370] # Hollókő utca
-      - ['12:10:00', 'F02052',   1816] # Ajnácskő utca
-      - ['12:11:00', 'F02053',   2452] # Dayka Gábor utca
-      - ['12:12:00', 'F01926',   2917] # Sasadi út
-      - ['12:13:00', 'F01928',   3372] # Nagyszeben út
-      - ['12:14:00', 'F01931',   3849] # Gazdagréti út
-      - ['12:15:00', 'F01932',   4400] # Poprádi út
-      - ['12:16:00', 'F02266',   4867] # Madárhegy
-      - ['12:18:00', 'F02217',   5484] # Rupphegyi út
-      - ['12:19:00', 'F04795',   5796] # Budaörs, Felsőhatár utca
-      - ['12:20:00', 'F04791',   6327] # Tulipán utca
-      - ['12:21:00', 'F04735',   6684] # Aradi utca
-      - ['12:22:00', 'F04809',   7074] # Templom tér
-      - ['12:23:00', 'F04721',   7659] # Károly király utca
-      - ['12:24:00', 'F04719',   7968] # Kisfaludy utca
-      - ['12:25:00', 'F04807',   8230] # Kötő utca
-      - ['12:26:00', 'F04717',   8476] # Budaörs, városháza
-      - ['12:27:00', 'F04714',   8977] # Gimnázium
-      - ['12:28:00', 'F04712',   9335] # Budaörs, Patkó utca
-      - ['12:29:00', 'F04724',   9682] # Budaörsi lakótelep
+      - ['00:00:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02182',    686] # Kosztolányi Dezső tér
+      - ['00:03:00', 'F02123',    953] # Vincellér utca
+      - ['00:04:00', 'F02262',   1370] # Hollókő utca
+      - ['00:04:00', 'F02052',   1816] # Ajnácskő utca
+      - ['00:05:00', 'F02053',   2452] # Dayka Gábor utca
+      - ['00:06:00', 'F01926',   2917] # Sasadi út
+      - ['00:07:00', 'F01928',   3372] # Nagyszeben út
+      - ['00:08:00', 'F01931',   3849] # Gazdagréti út
+      - ['00:09:00', 'F01932',   4400] # Poprádi út
+      - ['00:10:00', 'F02266',   4867] # Madárhegy
+      - ['00:12:00', 'F02217',   5484] # Rupphegyi út
+      - ['00:13:00', 'F04795',   5796] # Budaörs, Felsőhatár utca
+      - ['00:14:00', 'F04791',   6327] # Tulipán utca
+      - ['00:15:00', 'F04735',   6684] # Aradi utca
+      - ['00:16:00', 'F04809',   7074] # Templom tér
+      - ['00:17:00', 'F04721',   7659] # Károly király utca
+      - ['00:18:00', 'F04719',   7968] # Kisfaludy utca
+      - ['00:19:00', 'F04807',   8230] # Kötő utca
+      - ['00:20:00', 'F04717',   8476] # Budaörs, városháza
+      - ['00:21:00', 'F04714',   8977] # Gimnázium
+      - ['00:22:00', 'F04712',   9335] # Budaörs, Patkó utca
+      - ['00:23:00', 'F04724',   9682] # Budaörsi lakótelep
     trip_headsign: Budaörsi lakótelep
     trip_id: REFERENCE-2400-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2400-1-1-R693
     stop_times:
-      - ['19:30:00', 'F04836',      0] # Budaörsi lakótelep
-      - ['19:31:00', 'F04713',    507] # Budaörs, Patkó utca
-      - ['19:32:00', 'F04715',    753] # Gimnázium
-      - ['19:33:00', 'F04716',   1328] # Budaörs, városháza
-      - ['19:34:00', 'F04808',   1581] # Kötő utca
-      - ['19:35:00', 'F04720',   1900] # Petőfi Sándor utca
-      - ['19:36:00', 'F04722',   2326] # Károly király utca
-      - ['19:37:00', 'F04810',   2691] # Templom tér
-      - ['19:38:00', 'F04736',   3031] # Aradi utca
-      - ['19:39:00', 'F04792',   3397] # Tulipán utca
-      - ['19:40:00', 'F04796',   3983] # Felsőhatár utca
-      - ['19:41:00', 'F02218',   4227] # Rupphegyi út
-      - ['19:42:00', 'F02267',   4969] # Madárhegy
-      - ['19:43:00', 'F01933',   5390] # Poprádi út
-      - ['19:44:00', 'F01930',   5817] # Gazdagréti út
-      - ['19:44:00', 'F01929',   6127] # Neszmélyi út
-      - ['19:46:00', 'F01927',   6951] # Sasadi út
-      - ['19:47:00', 'F02054',   7386] # Dayka Gábor utca
-      - ['19:49:00', 'F02113',   8347] # Fehérló utca
-      - ['19:51:00', 'F02173',   9107] # Villányi út
-      - ['19:52:00', 'F02118',   9412] # Karolina út
-      - ['19:53:00', 'F02125',   9870] # Badacsonyi utca
-      - ['19:54:00', 'F02201',  10690] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', 'F04836',      0] # Budaörsi lakótelep
+      - ['00:01:00', 'F04713',    507] # Budaörs, Patkó utca
+      - ['00:02:00', 'F04715',    753] # Gimnázium
+      - ['00:03:00', 'F04716',   1328] # Budaörs, városháza
+      - ['00:04:00', 'F04808',   1581] # Kötő utca
+      - ['00:05:00', 'F04720',   1900] # Petőfi Sándor utca
+      - ['00:06:00', 'F04722',   2326] # Károly király utca
+      - ['00:07:00', 'F04810',   2691] # Templom tér
+      - ['00:08:00', 'F04736',   3031] # Aradi utca
+      - ['00:09:00', 'F04792',   3397] # Tulipán utca
+      - ['00:10:00', 'F04796',   3983] # Felsőhatár utca
+      - ['00:11:00', 'F02218',   4227] # Rupphegyi út
+      - ['00:12:00', 'F02267',   4969] # Madárhegy
+      - ['00:13:00', 'F01933',   5390] # Poprádi út
+      - ['00:14:00', 'F01930',   5817] # Gazdagréti út
+      - ['00:14:00', 'F01929',   6127] # Neszmélyi út
+      - ['00:16:00', 'F01927',   6951] # Sasadi út
+      - ['00:17:00', 'F02054',   7386] # Dayka Gábor utca
+      - ['00:19:00', 'F02113',   8347] # Fehérló utca
+      - ['00:21:00', 'F02173',   9107] # Villányi út
+      - ['00:22:00', 'F02118',   9412] # Karolina út
+      - ['00:23:00', 'F02125',   9870] # Badacsonyi utca
+      - ['00:24:00', 'F02201',  10690] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-2400-1-1
     wheelchair_accessible: 2

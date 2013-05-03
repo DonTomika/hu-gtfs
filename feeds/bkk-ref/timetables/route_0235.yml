@@ -11,39 +11,37 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-0235-0-1-U439
+    shape_id: REFERENCE-0235-0-1-J667
     stop_times:
-      - ['13:57:00', 'F01515',      0] # Boráros tér H
-      - ['13:58:00', '009042',    554] # Haller utca
-      - ['14:01:00', 'F01403',   1487] # Közvágóhíd H
-      - ['14:09:00', 'F01441',   4874] # Baross utca
-      - ['14:09:00', 'F04125',   5259] # János utca
-      - ['14:11:00', 'F04122',   5700] # Pesterzsébet, városközpont
-      - ['14:12:00', 'F04129',   6021] # Ady Endre utca (Topánka utca)
-      - ['14:15:00', 'F04137',   6707] # Tátra tér
-      - ['14:18:00', 'F04105',   7434] # Nagysándor József utca
-      - ['14:19:00', 'F04169',   7763] # Kiss Ernő utca
-      - ['14:20:00', 'F04095',   8133] # Magyar utca
-      - ['14:22:00', 'F04045',   8546] # Pesterzsébet, Ady Endre tér
+      - ['00:00:00', 'F01515',      0] # Boráros tér H
+      - ['00:04:00', 'F01403',   1437] # Közvágóhíd H
+      - ['00:09:00', 'F01441',   4824] # Baross utca
+      - ['00:10:00', 'F04125',   5209] # János utca
+      - ['00:13:00', 'F04122',   5650] # Pesterzsébet, városközpont
+      - ['00:14:00', 'F04129',   5971] # Ady Endre utca (Topánka utca)
+      - ['00:17:00', 'F04137',   6657] # Tátra tér
+      - ['00:20:00', 'F04105',   7384] # Nagysándor József utca
+      - ['00:21:00', 'F04169',   7713] # Kiss Ernő utca
+      - ['00:22:00', 'F04095',   8083] # Magyar utca
+      - ['00:24:00', 'F04045',   8496] # Pesterzsébet, Ady Endre tér
     trip_headsign: 'Pesterzsébet, Ady Endre tér'
     trip_id: REFERENCE-0235-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-0235-1-1-U438
+    shape_id: REFERENCE-0235-1-1-J666
     stop_times:
-      - ['17:02:00', 'F04092',      0] # Pesterzsébet, Ady Endre tér
-      - ['17:02:00', 'F04094',    314] # Magyar utca
-      - ['17:04:00', 'F04168',    726] # Mézes utca
-      - ['17:05:00', 'F04102',   1023] # Nagysándor József utca
-      - ['17:07:00', 'F04136',   1690] # Tátra tér
-      - ['17:11:00', 'F04127',   2595] # Ady Endre utca (Topánka utca)
-      - ['17:12:00', 'F04123',   2820] # Pesterzsébet, városközpont
-      - ['17:12:00', 'F04126',   3394] # János utca
-      - ['17:13:00', 'F01440',   3678] # Határ út
-      - ['17:18:00', 'F01404',   6958] # Közvágóhíd H
-      - ['17:21:00', 'F01386',   8000] # Haller utca
-      - ['17:23:00', '011765',   8436] # Boráros tér H
+      - ['00:00:00', 'F04092',      0] # Pesterzsébet, Ady Endre tér
+      - ['00:01:00', 'F04094',    314] # Magyar utca
+      - ['00:02:00', 'F04168',    726] # Mézes utca
+      - ['00:03:00', 'F04102',   1023] # Nagysándor József utca
+      - ['00:06:00', 'F04136',   1690] # Tátra tér
+      - ['00:09:00', 'F04127',   2595] # Ady Endre utca (Topánka utca)
+      - ['00:10:00', 'F04123',   2820] # Pesterzsébet, városközpont
+      - ['00:11:00', 'F04126',   3394] # János utca
+      - ['00:12:00', 'F01440',   3678] # Határ út
+      - ['00:17:00', 'F01404',   6958] # Közvágóhíd H
+      - ['00:22:00', '011765',   8415] # Boráros tér H
     trip_headsign: Boráros tér H
     trip_id: REFERENCE-0235-1-1
     wheelchair_accessible: 2

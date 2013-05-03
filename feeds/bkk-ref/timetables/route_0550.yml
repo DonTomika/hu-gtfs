@@ -13,92 +13,92 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0550-0-1-M129
     stop_times:
-      - ['14:50:00', 'F01376',      0] # Boráros tér H
-      - ['14:52:00', '009042',    698] # Haller utca
-      - ['14:53:00', '008239',   1144] # Millenniumi Kulturális Központ
-      - ['14:54:00', 'F01403',   1574] # Közvágóhíd H
-      - ['14:56:00', 'F01355',   2238] # Földváry utca
-      - ['14:57:00', 'F01352',   2545] # Beöthy utca H
-      - ['14:58:00', 'F01420',   3343] # Kén utca H (Illatos út)
-      - ['14:59:00', 'F01423',   3659] # Gubacsi út
-      - ['15:00:00', 'F01426',   4080] # Külső Mester utca
-      - ['15:01:00', 'F01475',   4662] # Táblás utca
-      - ['15:02:00', '008588',   5078] # Gyáli út
-      - ['15:04:00', 'F01371',   5587] # Nagykőrösi út (Határ út)
-      - ['15:05:00', 'F03897',   5863] # Rákóczi utca
-      - ['15:06:00', 'F03917',   6325] # Kossuth Lajos utca
-      - ['15:07:00', 'F04038',   6737] # Irányi utca
-      - ['15:07:00', 'F03915',   6888] # Nagysándor József utca
-      - ['15:08:00', 'F03896',   7354] # Debrecen utca
-      - ['15:09:00', 'F03914',   7803] # Radnó utca
-      - ['15:10:00', 'F03911',   8033] # Kéreg utca
-      - ['15:11:00', 'F03909',   8307] # Alvinc utca
-      - ['15:12:00', 'F03907',   8614] # Naszód utca (Használtcikk piac)
-      - ['15:13:00', 'F03889',   9423] # Autópiac
-      - ['15:14:00', 'F03632',  10376] # Szentlőrinci út
-      - ['15:15:00', 'F03681',  10915] # Kamiontelep
-      - ['15:16:00', 'F03679',  11148] # Közdűlő út
-      - ['15:17:00', 'F03871',  11665] # Zöldségpiac
-      - ['15:18:00', 'F03675',  12202] # Pestszentimre felső vasútállomás
-      - ['15:19:00', 'F03818',  12535] # Bethlen Gábor utca
-      - ['15:20:00', 'F03874',  13170] # Eke utca
-      - ['15:21:00', '008949',  13651] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['15:22:00', 'F03875',  14215] # Csolt utca
-      - ['15:23:00', 'F03657',  14631] # Ár utca
-      - ['15:24:00', 'F03779',  15197] # Kalász utca
-      - ['15:25:00', 'F04600',  15840] # Gyál felső vasútállomás
-      - ['15:26:00', 'F04605',  16360] # Ady Endre utca
-      - ['15:28:00', 'F04648',  16916] # Rákóczi Ferenc utca
-      - ['15:29:00', 'F04602',  17306] # Széchenyi István utca
-      - ['15:30:00', 'F04650',  17637] # Somogyi Béla utca
-      - ['15:31:00', 'F04649',  18246] # Bocskai István utca
-      - ['15:34:00', 'F04603',  18666] # Gyál, Vecsési út
+      - ['00:00:00', 'F01376',      0] # Boráros tér H
+      - ['00:02:00', '009042',    698] # Haller utca
+      - ['00:03:00', '008239',   1144] # Millenniumi Kulturális Központ
+      - ['00:04:00', 'F01403',   1574] # Közvágóhíd H
+      - ['00:06:00', 'F01355',   2238] # Földváry utca
+      - ['00:07:00', 'F01352',   2545] # Beöthy utca H
+      - ['00:08:00', 'F01420',   3343] # Kén utca H (Illatos út)
+      - ['00:09:00', 'F01423',   3659] # Gubacsi út
+      - ['00:10:00', 'F01426',   4080] # Külső Mester utca
+      - ['00:11:00', 'F01475',   4662] # Táblás utca
+      - ['00:12:00', '008588',   5078] # Gyáli út
+      - ['00:14:00', 'F01371',   5587] # Nagykőrösi út (Határ út)
+      - ['00:15:00', 'F03897',   5863] # Rákóczi utca
+      - ['00:16:00', 'F03917',   6325] # Kossuth Lajos utca
+      - ['00:17:00', 'F04038',   6737] # Irányi utca
+      - ['00:17:00', 'F03915',   6888] # Nagysándor József utca
+      - ['00:18:00', 'F03896',   7354] # Debrecen utca
+      - ['00:19:00', 'F03914',   7803] # Radnó utca
+      - ['00:20:00', 'F03911',   8033] # Kéreg utca
+      - ['00:21:00', 'F03909',   8307] # Alvinc utca
+      - ['00:22:00', 'F03907',   8614] # Naszód utca (Használtcikk piac)
+      - ['00:23:00', 'F03889',   9423] # Autópiac
+      - ['00:24:00', 'F03632',  10376] # Szentlőrinci út
+      - ['00:25:00', 'F03681',  10915] # Kamiontelep
+      - ['00:26:00', 'F03679',  11148] # Közdűlő út
+      - ['00:27:00', 'F03871',  11665] # Zöldségpiac
+      - ['00:28:00', 'F03675',  12202] # Pestszentimre felső vasútállomás
+      - ['00:29:00', 'F03818',  12535] # Bethlen Gábor utca
+      - ['00:30:00', 'F03874',  13170] # Eke utca
+      - ['00:31:00', '008949',  13651] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:32:00', 'F03875',  14215] # Csolt utca
+      - ['00:33:00', 'F03657',  14631] # Ár utca
+      - ['00:34:00', 'F03779',  15197] # Kalász utca
+      - ['00:35:00', 'F04600',  15840] # Gyál felső vasútállomás
+      - ['00:36:00', 'F04605',  16360] # Ady Endre utca
+      - ['00:38:00', 'F04648',  16916] # Rákóczi Ferenc utca
+      - ['00:39:00', 'F04602',  17306] # Széchenyi István utca
+      - ['00:40:00', 'F04650',  17637] # Somogyi Béla utca
+      - ['00:41:00', 'F04649',  18246] # Bocskai István utca
+      - ['00:44:00', 'F04603',  18666] # Gyál, Vecsési út
     trip_headsign: 'Gyál, Vecsési út'
     trip_id: REFERENCE-0550-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0550-1-1-M130
     stop_times:
-      - ['04:52:00', 'F04603',      0] # Gyál, Vecsési út
-      - ['04:52:00', 'F04647',    351] # Szent István utca
-      - ['04:53:00', 'F04604',    747] # Kőrösi út
-      - ['04:54:00', 'F04651',   1125] # Bocskai István utca
-      - ['04:55:00', 'F04652',   1682] # Somogyi Béla utca
-      - ['04:56:00', 'F04606',   2093] # Ady Endre utca
-      - ['04:58:00', 'F04601',   2613] # Gyál felső vasútállomás
-      - ['04:59:00', 'F03778',   3373] # Kalász utca
-      - ['05:00:00', 'F03658',   3904] # Paula utca
-      - ['05:01:00', 'F03876',   4322] # Csolt utca
-      - ['05:03:00', '008950',   5057] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['05:04:00', 'F03873',   5586] # Eke utca
-      - ['05:05:00', 'F03819',   5991] # Arany János utca
-      - ['05:06:00', 'F03674',   6515] # Pestszentimre felső vasútállomás
-      - ['05:07:00', 'F03872',   7036] # Zöldségpiac
-      - ['05:08:00', 'F03680',   7378] # Közdűlő út
-      - ['05:09:00', 'F03682',   7741] # Kamiontelep
-      - ['05:10:00', 'F03631',   8175] # Szentlőrinci út
-      - ['05:11:00', 'F03888',   9270] # Autópiac
-      - ['05:12:00', 'F03908',   9677] # Használtcikk piac
-      - ['05:13:00', 'F03912',  10413] # Vas Gereben utca
-      - ['05:13:00', 'F03913',  10719] # Zrínyi utca
-      - ['05:14:00', 'F03895',  11169] # Batthyány utca
-      - ['05:15:00', 'F03916',  11550] # Hunyadi utca
-      - ['05:16:00', 'F04037',  11760] # Pannónia út
-      - ['05:17:00', 'F03918',  12216] # Újlaki utca
-      - ['05:18:00', 'F03898',  12577] # Gomb utca
-      - ['05:19:00', 'F01453',  13000] # Nagykőrösi út (Határ út)
-      - ['05:20:00', '008587',  13278] # Gyáli út
-      - ['05:21:00', 'F01474',  13877] # Táblás utca
-      - ['05:22:00', 'F01425',  14424] # Külső Mester utca
-      - ['05:23:00', 'F01422',  14904] # Gubacsi út
-      - ['05:24:00', 'F01417',  15109] # Kén utca H (Illatos út)
-      - ['05:26:00', 'F01351',  15861] # Beöthy utca H
-      - ['05:27:00', 'F01356',  16503] # Koppány utca
-      - ['05:29:00', 'F01404',  16791] # Közvágóhíd H
-      - ['05:30:00', '008240',  17269] # Millenniumi Kulturális Központ
-      - ['05:32:00', 'F01386',  17812] # Haller utca
-      - ['05:34:00', 'F01376',  18309] # Boráros tér H
+      - ['00:00:00', 'F04603',      0] # Gyál, Vecsési út
+      - ['00:00:00', 'F04647',    351] # Szent István utca
+      - ['00:01:00', 'F04604',    747] # Kőrösi út
+      - ['00:02:00', 'F04651',   1125] # Bocskai István utca
+      - ['00:03:00', 'F04652',   1682] # Somogyi Béla utca
+      - ['00:04:00', 'F04606',   2093] # Ady Endre utca
+      - ['00:06:00', 'F04601',   2613] # Gyál felső vasútállomás
+      - ['00:07:00', 'F03778',   3373] # Kalász utca
+      - ['00:08:00', 'F03658',   3904] # Paula utca
+      - ['00:09:00', 'F03876',   4322] # Csolt utca
+      - ['00:12:00', '008950',   5057] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:13:00', 'F03873',   5586] # Eke utca
+      - ['00:14:00', 'F03819',   5991] # Arany János utca
+      - ['00:15:00', 'F03674',   6515] # Pestszentimre felső vasútállomás
+      - ['00:16:00', 'F03872',   7036] # Zöldségpiac
+      - ['00:17:00', 'F03680',   7378] # Közdűlő út
+      - ['00:18:00', 'F03682',   7741] # Kamiontelep
+      - ['00:19:00', 'F03631',   8175] # Szentlőrinci út
+      - ['00:20:00', 'F03888',   9270] # Autópiac
+      - ['00:21:00', 'F03908',   9677] # Használtcikk piac
+      - ['00:22:00', 'F03912',  10413] # Vas Gereben utca
+      - ['00:23:00', 'F03913',  10719] # Zrínyi utca
+      - ['00:24:00', 'F03895',  11169] # Batthyány utca
+      - ['00:25:00', 'F03916',  11550] # Hunyadi utca
+      - ['00:26:00', 'F04037',  11760] # Pannónia út
+      - ['00:27:00', 'F03918',  12216] # Újlaki utca
+      - ['00:28:00', 'F03898',  12577] # Gomb utca
+      - ['00:29:00', 'F01453',  13000] # Nagykőrösi út (Határ út)
+      - ['00:30:00', '008587',  13278] # Gyáli út
+      - ['00:31:00', 'F01474',  13877] # Táblás utca
+      - ['00:32:00', 'F01425',  14424] # Külső Mester utca
+      - ['00:33:00', 'F01422',  14904] # Gubacsi út
+      - ['00:34:00', 'F01417',  15109] # Kén utca H (Illatos út)
+      - ['00:36:00', 'F01351',  15861] # Beöthy utca H
+      - ['00:37:00', 'F01356',  16503] # Koppány utca
+      - ['00:39:00', 'F01404',  16791] # Közvágóhíd H
+      - ['00:40:00', '008240',  17269] # Millenniumi Kulturális Központ
+      - ['00:42:00', 'F01386',  17812] # Haller utca
+      - ['00:44:00', 'F01376',  18309] # Boráros tér H
     trip_headsign: Boráros tér H
     trip_id: REFERENCE-0550-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

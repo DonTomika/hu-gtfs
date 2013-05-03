@@ -13,30 +13,30 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2120-0-1-O579
     stop_times:
-      - ['19:11:00', 'F01514',      0] # Boráros tér H
-      - ['19:14:00', '009179',   1215] # Petőfi híd, budai hídfő
-      - ['19:15:00', 'F01990',   1762] # Budafoki út (Szerémi sor)
-      - ['19:16:00', '009709',   2332] # Újbuda-központ
-      - ['19:18:00', 'F02182',   2843] # Kosztolányi Dezső tér
-      - ['19:19:00', 'F02123',   3110] # Vincellér utca
-      - ['19:20:00', 'F02121',   3507] # Ortopédia, Vérellátó
-      - ['19:21:00', 'F02119',   3911] # Villányi út
-      - ['19:22:00', 'F02170',   4260] # Budaörsi út
-      - ['19:23:00', 'F02169',   4606] # BAH-csomópont (Budaörsi út)
-      - ['19:25:00', '009520',   5062] # Csörsz utca
-      - ['19:26:00', '009522',   5440] # Sirály utca
-      - ['19:28:00', 'F02307',   5814] # Kiss János altábornagy utca
-      - ['19:30:00', 'F02421',   6145] # Királyhágó tér
-      - ['19:31:00', 'F02413',   6238] # Királyhágó tér
-      - ['19:32:00', 'F02423',   6661] # Galántai utca
-      - ['19:33:00', 'F02399',   7092] # Szent Orbán tér
-      - ['19:34:00', 'F02395',   7603] # Pethényi út
-      - ['19:35:00', 'F02393',   7873] # Nógrádi utca
-      - ['19:36:00', 'F02391',   8304] # Óra út
-      - ['19:37:00', 'F02389',   8743] # Istenhegyi lejtő
-      - ['19:38:00', 'F02387',   9149] # Adonis utca
-      - ['19:39:00', 'F02440',   9500] # Költő utca
-      - ['19:40:00', 'F02442',   9845] # Svábhegy, fogaskerekű
+      - ['00:00:00', 'F01514',      0] # Boráros tér H
+      - ['00:03:00', '009179',   1215] # Petőfi híd, budai hídfő
+      - ['00:04:00', 'F01990',   1762] # Budafoki út (Szerémi sor)
+      - ['00:05:00', '009709',   2332] # Újbuda-központ
+      - ['00:07:00', 'F02182',   2843] # Kosztolányi Dezső tér
+      - ['00:08:00', 'F02123',   3110] # Vincellér utca
+      - ['00:09:00', 'F02121',   3507] # Ortopédia, Vérellátó
+      - ['00:10:00', 'F02119',   3911] # Villányi út
+      - ['00:11:00', 'F02170',   4260] # Budaörsi út
+      - ['00:12:00', 'F02169',   4606] # BAH-csomópont (Budaörsi út)
+      - ['00:14:00', '009520',   5062] # Csörsz utca
+      - ['00:15:00', '009522',   5440] # Sirály utca
+      - ['00:17:00', 'F02307',   5814] # Kiss János altábornagy utca
+      - ['00:19:00', 'F02421',   6145] # Királyhágó tér
+      - ['00:20:00', 'F02413',   6238] # Királyhágó tér
+      - ['00:21:00', 'F02423',   6661] # Galántai utca
+      - ['00:22:00', 'F02399',   7092] # Szent Orbán tér
+      - ['00:23:00', 'F02395',   7603] # Pethényi út
+      - ['00:24:00', 'F02393',   7873] # Nógrádi utca
+      - ['00:25:00', 'F02391',   8304] # Óra út
+      - ['00:26:00', 'F02389',   8743] # Istenhegyi lejtő
+      - ['00:27:00', 'F02387',   9149] # Adonis utca
+      - ['00:28:00', 'F02440',   9500] # Költő utca
+      - ['00:29:00', 'F02442',   9845] # Svábhegy, fogaskerekű
     trip_headsign: 'Svábhegy, fogaskerekű'
     trip_id: REFERENCE-2120-0-1
     wheelchair_accessible: 2
@@ -44,29 +44,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2120-1-1-O578
     stop_times:
-      - ['04:59:00', 'F02458',      0] # Svábhegy, fogaskerekű
-      - ['05:00:00', 'F02441',    475] # Költő utca
-      - ['05:01:00', 'F02388',    896] # Adonis utca
-      - ['05:01:00', 'F02390',   1203] # Lóránt út
-      - ['05:02:00', 'F02392',   1666] # Óra út
-      - ['05:03:00', 'F02394',   2042] # Nógrádi utca
-      - ['05:04:00', 'F02396',   2397] # Pethényi út
-      - ['05:05:00', 'F02400',   2804] # Szent Orbán tér
-      - ['05:06:00', 'F02424',   3228] # Galántai utca
-      - ['05:08:00', '008344',   3720] # Királyhágó tér
-      - ['05:09:00', 'F02308',   4093] # Kiss János altábornagy utca
-      - ['05:10:00', '009743',   4532] # Sirály utca
-      - ['05:11:00', '009521',   4851] # Csörsz utca
-      - ['05:13:00', 'F02165',   5094] # BAH-csomópont (Alkotás utca)
-      - ['05:14:00', 'F02173',   5675] # Villányi út
-      - ['05:15:00', 'F02120',   5993] # Karolina út
-      - ['05:16:00', 'F02122',   6398] # Ortopédia, Vérellátó
-      - ['05:17:00', 'F02124',   6826] # Vincellér utca
-      - ['05:19:00', 'F02180',   7316] # Kosztolányi Dezső tér
-      - ['05:21:00', 'F01995',   7733] # Újbuda-központ
-      - ['05:22:00', 'F01988',   8165] # Budafoki út (Szerémi sor)
-      - ['05:23:00', 'F02222',   8729] # Petőfi híd, budai hídfő
-      - ['05:25:00', 'F01514',   9737] # Boráros tér H
+      - ['00:00:00', 'F02458',      0] # Svábhegy, fogaskerekű
+      - ['00:01:00', 'F02441',    475] # Költő utca
+      - ['00:02:00', 'F02388',    896] # Adonis utca
+      - ['00:02:00', 'F02390',   1203] # Lóránt út
+      - ['00:03:00', 'F02392',   1666] # Óra út
+      - ['00:04:00', 'F02394',   2042] # Nógrádi utca
+      - ['00:05:00', 'F02396',   2397] # Pethényi út
+      - ['00:06:00', 'F02400',   2804] # Szent Orbán tér
+      - ['00:07:00', 'F02424',   3228] # Galántai utca
+      - ['00:09:00', '008344',   3720] # Királyhágó tér
+      - ['00:10:00', 'F02308',   4093] # Kiss János altábornagy utca
+      - ['00:12:00', '009743',   4532] # Sirály utca
+      - ['00:13:00', '009521',   4851] # Csörsz utca
+      - ['00:15:00', 'F02165',   5094] # BAH-csomópont (Alkotás utca)
+      - ['00:17:00', 'F02173',   5675] # Villányi út
+      - ['00:18:00', 'F02120',   5993] # Karolina út
+      - ['00:19:00', 'F02122',   6398] # Ortopédia, Vérellátó
+      - ['00:20:00', 'F02124',   6826] # Vincellér utca
+      - ['00:22:00', 'F02180',   7316] # Kosztolányi Dezső tér
+      - ['00:24:00', 'F01995',   7733] # Újbuda-központ
+      - ['00:25:00', 'F01988',   8165] # Budafoki út (Szerémi sor)
+      - ['00:27:00', 'F02222',   8729] # Petőfi híd, budai hídfő
+      - ['00:29:00', 'F01514',   9737] # Boráros tér H
     trip_headsign: Boráros tér H
     trip_id: REFERENCE-2120-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

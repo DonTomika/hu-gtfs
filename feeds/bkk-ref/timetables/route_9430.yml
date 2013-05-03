@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 333333
-route_desc: Békásmegyer H / Szentendre H
+route_desc: Békásmegyer H (Csobánka tér) / Szentendre H
 route_id: 9430
 route_long_name: ''
 route_short_name: 943
@@ -13,24 +13,24 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9430-0-1-Q806
     stop_times:
-      - ['24:45:00', '008359',      0] # Óbudai autóbuszgarázs
-      - ['24:46:00', '008410',    404] # Aranyhegyi lejtő
-      - ['24:46:00', '008408',   1124] # Ürömhegyi lejtő
-      - ['24:47:00', '009563',   1381] # Mészkő utca
-      - ['24:48:00', '008406',   1701] # Forrásliget lakópark
-      - ['24:49:00', '008404',   2221] # Csillaghegy H
-      - ['24:50:00', '008402',   2975] # Kert sor
-      - ['24:51:00', 'F00456',   3469] # Nád utca
-      - ['24:52:00', 'F00459',   3737] # Pünkösdfürdő utca
-      - ['24:53:00', '008939',   4307] # Békásmegyer H (Csobánka tér)
-      - ['24:56:00', '008428',   6550] # Budakalász, Budai út
-      - ['24:59:00', '008430',   7112] # Budakalász, Lenfonó H
-      - ['25:00:00', '008432',   8035] # Szentistvántelep H
-      - ['25:02:00', '008434',  10104] # Pomáz H
-      - ['25:03:00', '009170',  10413] # Pomáz, Dózsa György utca
-      - ['25:09:00', '008436',  14299] # Szentendre, Papírgyár
-      - ['25:10:00', '008438',  14710] # Egyetem
-      - ['25:12:00', '009119',  15965] # Szentendre H
+      - ['00:00:00', '008359',      0] # Óbudai autóbuszgarázs
+      - ['00:01:00', '008410',    404] # Aranyhegyi lejtő
+      - ['00:01:00', '008408',   1124] # Ürömhegyi lejtő
+      - ['00:02:00', '009563',   1381] # Mészkő utca
+      - ['00:03:00', '008406',   1701] # Forrásliget lakópark
+      - ['00:04:00', '008404',   2221] # Csillaghegy H
+      - ['00:05:00', '008402',   2975] # Kert sor
+      - ['00:06:00', 'F00456',   3469] # Nád utca
+      - ['00:07:00', 'F00459',   3737] # Pünkösdfürdő utca
+      - ['00:08:00', '008939',   4307] # Békásmegyer H (Csobánka tér)
+      - ['00:11:00', '008428',   6550] # Budakalász, Budai út
+      - ['00:14:00', '008430',   7112] # Budakalász, Lenfonó H
+      - ['00:15:00', '008432',   8035] # Szentistvántelep H
+      - ['00:17:00', '008434',  10104] # Pomáz H
+      - ['00:18:00', '009170',  10413] # Pomáz, Dózsa György utca
+      - ['00:24:00', '008436',  14299] # Szentendre, Papírgyár
+      - ['00:25:00', '008438',  14710] # Egyetem
+      - ['00:27:00', '009119',  15965] # Szentendre H
     trip_headsign: Szentendre H
     trip_id: REFERENCE-9430-0-1
     wheelchair_accessible: 2
@@ -38,15 +38,15 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9430-1-1-C224
     stop_times:
-      - ['25:20:00', '009119',      0] # Szentendre H
-      - ['25:22:00', '008439',    904] # Egyetem
-      - ['25:23:00', '008437',   1414] # Papírgyár
-      - ['25:29:00', '009171',   5152] # Pomáz, Dózsa György utca
-      - ['25:30:00', '008435',   5658] # Pomáz H
-      - ['25:33:00', '008433',   7701] # Szentistvántelep H
-      - ['25:34:00', '008431',   8310] # Budakalász, Lenfonó H
-      - ['25:36:00', '008429',   9077] # Budakalász, Budai út
-      - ['25:39:00', '008940',  11268] # Békásmegyer H (Csobánka tér)
+      - ['00:00:00', '009119',      0] # Szentendre H
+      - ['00:02:00', '008439',    904] # Egyetem
+      - ['00:03:00', '008437',   1414] # Papírgyár
+      - ['00:09:00', '009171',   5152] # Pomáz, Dózsa György utca
+      - ['00:10:00', '008435',   5658] # Pomáz H
+      - ['00:13:00', '008433',   7701] # Szentistvántelep H
+      - ['00:14:00', '008431',   8310] # Budakalász, Lenfonó H
+      - ['00:16:00', '008429',   9077] # Budakalász, Budai út
+      - ['00:19:00', '008940',  11268] # Békásmegyer H (Csobánka tér)
     trip_headsign: Békásmegyer H
     trip_id: REFERENCE-9430-1-1
     wheelchair_accessible: 2

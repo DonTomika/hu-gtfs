@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: Blaha Lujza tér M / Sörgyár
+route_desc: Blaha Lujza tér M (Népszínház utca) / Sörgyár
 route_id: 3371
 route_long_name: ''
 route_short_name: 37A
@@ -13,19 +13,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3371-0-1-R505
     stop_times:
-      - ['13:04:00', 'F01298',      0] # Blaha Lujza tér M (Népszínház utca)
-      - ['13:04:00', 'F01300',    302] # II. János Pál pápa tér
-      - ['13:06:00', 'F01330',    726] # Teleki László tér
-      - ['13:08:00', 'F01214',   1251] # Fiumei út
-      - ['13:12:00', 'F01279',   2587] # Asztalos Sándor út
-      - ['13:13:00', 'F01271',   2796] # Hidegkuti Nándor Stadion
-      - ['13:14:00', 'F01799',   3232] # Kőbányai garázs
-      - ['13:16:00', 'F01856',   3715] # Pongrácz úti lakótelep
-      - ['13:17:00', 'F01562',   4275] # Őrház
-      - ['13:18:00', 'F01730',   4544] # Halom utca
-      - ['13:20:00', 'F01728',   4896] # Kőbánya felső vasútállomás
-      - ['13:21:00', 'F01626',   5337] # Élessarok
-      - ['13:23:00', 'F01619',   5806] # Sörgyár
+      - ['00:00:00', 'F01298',      0] # Blaha Lujza tér M (Népszínház utca)
+      - ['00:01:00', 'F01300',    302] # II. János Pál pápa tér
+      - ['00:03:00', 'F01330',    726] # Teleki László tér
+      - ['00:05:00', 'F01214',   1251] # Fiumei út
+      - ['00:08:00', 'F01279',   2587] # Asztalos Sándor út
+      - ['00:09:00', 'F01271',   2796] # Hidegkuti Nándor Stadion
+      - ['00:11:00', 'F01799',   3232] # Kőbányai garázs
+      - ['00:12:00', 'F01856',   3715] # Pongrácz úti lakótelep
+      - ['00:13:00', 'F01562',   4275] # Őrház
+      - ['00:14:00', 'F01730',   4544] # Halom utca
+      - ['00:15:00', 'F01728',   4896] # Kőbánya felső vasútállomás
+      - ['00:17:00', 'F01626',   5337] # Élessarok
+      - ['00:19:00', 'F01619',   5806] # Sörgyár
     trip_headsign: Sörgyár
     trip_id: REFERENCE-3371-0-1
     wheelchair_accessible: 2
@@ -33,19 +33,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3371-1-1-R507
     stop_times:
-      - ['09:32:00', 'F01620',      0] # Sörgyár
-      - ['09:33:00', 'F01625',    467] # Élessarok
-      - ['09:34:00', 'F01727',    862] # Kőbánya felső vasútállomás
-      - ['09:35:00', 'F01729',   1218] # Halom utca
-      - ['09:36:00', 'F01561',   1538] # Őrház
-      - ['09:38:00', 'F01857',   2090] # Pongrácz úti lakótelep
-      - ['09:39:00', 'F01798',   2512] # Kőbányai garázs
-      - ['09:40:00', 'F01274',   2863] # Hidegkuti Nándor Stadion
-      - ['09:41:00', 'F01278',   3214] # Asztalos Sándor út
-      - ['09:45:00', 'F01184',   4440] # Fiumei út
-      - ['09:47:00', 'F01331',   4968] # Teleki László tér
-      - ['09:48:00', 'F01301',   5382] # II. János Pál pápa tér
-      - ['09:50:00', '009753',   5881] # Blaha Lujza tér M (Népszínház utca)
+      - ['00:00:00', 'F01620',      0] # Sörgyár
+      - ['00:02:00', 'F01625',    467] # Élessarok
+      - ['00:03:00', 'F01727',    862] # Kőbánya felső vasútállomás
+      - ['00:04:00', 'F01729',   1218] # Halom utca
+      - ['00:05:00', 'F01561',   1538] # Őrház
+      - ['00:06:00', 'F01857',   2090] # Pongrácz úti lakótelep
+      - ['00:07:00', 'F01798',   2512] # Kőbányai garázs
+      - ['00:08:00', 'F01274',   2863] # Hidegkuti Nándor Stadion
+      - ['00:10:00', 'F01278',   3214] # Asztalos Sándor út
+      - ['00:13:00', 'F01184',   4440] # Fiumei út
+      - ['00:15:00', 'F01331',   4968] # Teleki László tér
+      - ['00:17:00', 'F01301',   5382] # II. János Pál pápa tér
+      - ['00:18:00', '009753',   5881] # Blaha Lujza tér M (Népszínház utca)
     trip_headsign: Blaha Lujza tér M
     trip_id: REFERENCE-3371-1-1
     wheelchair_accessible: 2

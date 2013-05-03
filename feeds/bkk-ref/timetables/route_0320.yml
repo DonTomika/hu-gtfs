@@ -13,48 +13,48 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0320-0-1-H302
     stop_times:
-      - ['14:13:00', 'F02605',      0] # Árpád híd M
-      - ['14:14:00', 'F02677',    629] # Forgách utca M
-      - ['14:16:00', 'F02665',   1095] # Frangepán utca
-      - ['14:17:00', 'F02576',   1424] # Pap Károly utca
-      - ['14:18:00', 'F02584',   1892] # Béke utca
-      - ['14:20:00', 'F02590',   2306] # Béke tér
-      - ['14:21:00', 'F02646',   2520] # Reitter Ferenc utca
-      - ['14:23:00', 'F02627',   3408] # Róbert Károly körút
-      - ['14:27:00', 'F02925',   4812] # Amerikai út
-      - ['14:29:00', 'F02902',   5366] # Kassai tér
-      - ['14:30:00', 'F02867',   5752] # Erzsébet királyné útja
-      - ['14:32:00', 'F02830',   6479] # Bosnyák tér
-      - ['14:33:00', 'F02815',   6847] # Szugló utca
-      - ['14:35:00', 'F02794',   7389] # Egressy tér
-      - ['14:36:00', 'F02745',   7799] # Jeszenák János utca
-      - ['14:37:00', 'F02749',   8185] # Pongrátz Gergely tér
-      - ['14:39:00', 'F02754',   8809] # Bánki Donát utca
-      - ['14:41:00', 'F01752',   9250] # Örs vezér tere M+H
+      - ['00:00:00', 'F02605',      0] # Árpád híd M
+      - ['00:01:00', 'F02677',    629] # Forgách utca M
+      - ['00:03:00', 'F02665',   1095] # Frangepán utca
+      - ['00:04:00', 'F02576',   1424] # Pap Károly utca
+      - ['00:05:00', 'F02584',   1892] # Béke utca
+      - ['00:07:00', 'F02590',   2306] # Béke tér
+      - ['00:08:00', 'F02646',   2520] # Reitter Ferenc utca
+      - ['00:11:00', 'F02627',   3408] # Róbert Károly körút
+      - ['00:15:00', 'F02925',   4812] # Amerikai út
+      - ['00:16:00', 'F02902',   5366] # Kassai tér
+      - ['00:18:00', 'F02867',   5752] # Erzsébet királyné útja
+      - ['00:20:00', 'F02830',   6479] # Bosnyák tér
+      - ['00:21:00', 'F02815',   6847] # Szugló utca
+      - ['00:23:00', 'F02794',   7389] # Egressy tér
+      - ['00:24:00', 'F02745',   7799] # Jeszenák János utca
+      - ['00:25:00', 'F02749',   8185] # Pongrátz Gergely tér
+      - ['00:27:00', 'F02754',   8809] # Bánki Donát utca
+      - ['00:29:00', 'F01752',   9250] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-0320-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0320-1-1-E322
     stop_times:
-      - ['14:41:00', '008020',      0] # Örs vezér tere M+H
-      - ['14:42:00', 'F01756',    404] # Örs vezér tere - Zugló M+H
-      - ['14:44:00', 'F02970',    762] # Tihamér utca
-      - ['14:45:00', 'F02752',   1155] # Pongrátz Gergely tér
-      - ['14:46:00', 'F02973',   1530] # Jeszenák János utca
-      - ['14:48:00', 'F02795',   2175] # Egressy tér
-      - ['14:49:00', 'F02817',   2487] # Szugló utca
-      - ['14:51:00', 'F02837',   2947] # Bosnyák tér
-      - ['14:53:00', 'F02868',   3805] # Erzsébet királyné útja
-      - ['14:54:00', 'F02901',   4028] # Kassai tér
-      - ['14:57:00', 'F02974',   4990] # Kacsóh Pongrác út
-      - ['15:01:00', 'F02630',   6242] # Reitter Ferenc utca
-      - ['15:02:00', 'F02648',   6603] # Szegedi út
-      - ['15:03:00', 'F02589',   6959] # Béke tér
-      - ['15:04:00', 'F02583',   7413] # Hajdú utca
-      - ['15:06:00', '009420',   7881] # Honvédkórház
-      - ['15:08:00', 'F02605',   8357] # Árpád híd M
+      - ['00:00:00', '008020',      0] # Örs vezér tere M+H
+      - ['00:01:00', 'F01756',    404] # Örs vezér tere - Zugló M+H
+      - ['00:02:00', 'F02970',    762] # Tihamér utca
+      - ['00:04:00', 'F02752',   1155] # Pongrátz Gergely tér
+      - ['00:05:00', 'F02973',   1530] # Jeszenák János utca
+      - ['00:07:00', 'F02795',   2175] # Egressy tér
+      - ['00:08:00', 'F02817',   2487] # Szugló utca
+      - ['00:09:00', 'F02837',   2947] # Bosnyák tér
+      - ['00:12:00', 'F02868',   3805] # Erzsébet királyné útja
+      - ['00:13:00', 'F02901',   4028] # Kassai tér
+      - ['00:16:00', 'F02974',   4990] # Kacsóh Pongrác út
+      - ['00:19:00', 'F02630',   6242] # Reitter Ferenc utca
+      - ['00:20:00', 'F02648',   6603] # Szegedi út
+      - ['00:21:00', 'F02589',   6959] # Béke tér
+      - ['00:23:00', 'F02583',   7413] # Hajdú utca
+      - ['00:24:00', '009420',   7881] # Honvédkórház
+      - ['00:26:00', 'F02605',   8357] # Árpád híd M
     trip_headsign: Árpád híd M
     trip_id: REFERENCE-0320-1-1
     wheelchair_accessible: 1

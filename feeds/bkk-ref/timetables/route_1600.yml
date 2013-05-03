@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Batthyány tér M+H / Békásmegyer H
+route_desc: Batthyány tér M+H / Békásmegyer H (Csobánka tér)
 route_id: 1600
 route_long_name: ''
 route_short_name: 160
@@ -13,73 +13,73 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1600-0-1-G396
     stop_times:
-      - ['16:50:00', 'F00066',      0] # Batthyány tér M+H
-      - ['16:52:00', 'F00187',    831] # Bem József tér
-      - ['16:54:00', 'F00234',   1261] # Margit híd, budai hídfő H
-      - ['16:55:00', 'F00247',   1737] # Császár-Komjádi uszoda
-      - ['16:57:00', 'F00245',   2281] # Zsigmond tér
-      - ['16:59:00', 'F00137',   2690] # Kolosy tér
-      - ['17:00:00', 'F00600',   3214] # Nagyszombat utca
-      - ['17:02:00', 'F00686',   3794] # Selmeci utca
-      - ['17:03:00', 'F00596',   4232] # Szent Margit Kórház
-      - ['17:05:00', 'F00593',   4720] # Váradi utca
-      - ['17:07:00', 'F00584',   5362] # Óbudai rendelőintézet
-      - ['17:08:00', 'F00680',   5804] # Bécsi út (Vörösvári út)
-      - ['17:10:00', 'F00518',   6477] # Orbán Balázs út
-      - ['17:12:00', 'F00520',   6981] # Bojtár utca (Bécsi út)
-      - ['17:13:00', 'F00549',   7268] # Kubik utca
-      - ['17:15:00', 'F00523',   7673] # Óbudai temető
-      - ['17:17:00', 'F00678',   8045] # Óbudai autóbuszgarázs
-      - ['17:18:00', 'F00525',   8308] # Keled út
-      - ['17:19:00', 'F00527',   8624] # Óbuda vasútállomás
-      - ['17:20:00', 'F00526',   8791] # Pomázi út
-      - ['17:22:00', '008410',   9043] # Aranyhegyi lejtő
-      - ['17:24:00', '008408',   9763] # Ürömhegyi lejtő
-      - ['17:25:00', '009563',  10020] # Mészkő utca
-      - ['17:26:00', '008406',  10340] # Forrásliget lakópark
-      - ['17:27:00', '008404',  10860] # Csillaghegy H
-      - ['17:29:00', '008402',  11614] # Kert sor
-      - ['17:30:00', 'F00456',  12108] # Nád utca
-      - ['17:31:00', 'F00459',  12376] # Pünkösdfürdő utca
-      - ['17:32:00', 'F00461',  12747] # Békásmegyer H
-      - ['17:33:00', '008940',  12922] # Békásmegyer H (Csobánka tér)
+      - ['00:00:00', 'F00066',      0] # Batthyány tér M+H
+      - ['00:01:00', 'F00187',    831] # Bem József tér
+      - ['00:03:00', 'F00234',   1261] # Margit híd, budai hídfő H
+      - ['00:04:00', 'F00247',   1737] # Császár-Komjádi uszoda
+      - ['00:05:00', 'F00245',   2281] # Zsigmond tér
+      - ['00:06:00', 'F00137',   2690] # Kolosy tér
+      - ['00:08:00', 'F00600',   3214] # Nagyszombat utca
+      - ['00:09:00', 'F00686',   3794] # Selmeci utca
+      - ['00:10:00', 'F00596',   4232] # Szent Margit Kórház
+      - ['00:11:00', 'F00593',   4720] # Váradi utca
+      - ['00:13:00', 'F00584',   5362] # Óbudai rendelőintézet
+      - ['00:14:00', 'F00680',   5804] # Bécsi út (Vörösvári út)
+      - ['00:16:00', 'F00518',   6477] # Orbán Balázs út
+      - ['00:17:00', 'F00520',   6981] # Bojtár utca (Bécsi út)
+      - ['00:18:00', 'F00549',   7268] # Kubik utca
+      - ['00:19:00', 'F00523',   7673] # Óbudai temető
+      - ['00:20:00', 'F00678',   8045] # Óbudai autóbuszgarázs
+      - ['00:21:00', 'F00525',   8308] # Keled út
+      - ['00:22:00', 'F00527',   8624] # Óbuda vasútállomás
+      - ['00:23:00', 'F00526',   8791] # Pomázi út
+      - ['00:25:00', '008410',   9043] # Aranyhegyi lejtő
+      - ['00:26:00', '008408',   9763] # Ürömhegyi lejtő
+      - ['00:27:00', '009563',  10020] # Mészkő utca
+      - ['00:28:00', '008406',  10340] # Forrásliget lakópark
+      - ['00:29:00', '008404',  10860] # Csillaghegy H
+      - ['00:31:00', '008402',  11614] # Kert sor
+      - ['00:32:00', 'F00456',  12108] # Nád utca
+      - ['00:33:00', 'F00459',  12376] # Pünkösdfürdő utca
+      - ['00:34:00', 'F00461',  12747] # Békásmegyer H
+      - ['00:35:00', '008940',  12922] # Békásmegyer H (Csobánka tér)
     trip_headsign: Békásmegyer H
     trip_id: REFERENCE-1600-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 0
     service_id: REFERENCE
     shape_id: REFERENCE-1600-0-2-I366
     stop_times:
-      - ['09:03:00', 'F00066',      0] # Batthyány tér M+H
-      - ['09:05:00', 'F00187',    831] # Bem József tér
-      - ['09:06:00', 'F00234',   1261] # Margit híd, budai hídfő H
-      - ['09:07:00', 'F00247',   1737] # Császár-Komjádi uszoda
-      - ['09:09:00', 'F00245',   2281] # Zsigmond tér
-      - ['09:10:00', 'F00137',   2690] # Kolosy tér
-      - ['09:12:00', 'F00600',   3214] # Nagyszombat utca
-      - ['09:14:00', 'F00686',   3794] # Selmeci utca
-      - ['09:15:00', 'F00596',   4232] # Szent Margit Kórház
-      - ['09:16:00', '007881',   4669] # Váradi utca
-      - ['09:17:00', '008412',   5199] # Bécsi út
-      - ['09:18:00', 'F00680',   5382] # Bécsi út (Vörösvári út)
-      - ['09:19:00', 'F00518',   6055] # Orbán Balázs út
-      - ['09:20:00', 'F00520',   6559] # Bojtár utca (Bécsi út)
-      - ['09:21:00', 'F00549',   6846] # Kubik utca
-      - ['09:22:00', 'F00523',   7251] # Óbudai temető
-      - ['09:23:00', 'F00678',   7623] # Óbudai autóbuszgarázs
-      - ['09:24:00', 'F00525',   7886] # Keled út
-      - ['09:25:00', 'F00527',   8202] # Óbuda vasútállomás
-      - ['09:26:00', 'F00526',   8369] # Pomázi út
-      - ['09:28:00', '008410',   8621] # Aranyhegyi lejtő
-      - ['09:30:00', '008408',   9341] # Ürömhegyi lejtő
-      - ['09:31:00', '009563',   9598] # Mészkő utca
-      - ['09:32:00', '008406',   9918] # Forrásliget lakópark
-      - ['09:33:00', '008404',  10438] # Csillaghegy H
-      - ['09:35:00', '008402',  11192] # Kert sor
-      - ['09:36:00', 'F00456',  11686] # Nád utca
-      - ['09:37:00', 'F00459',  11954] # Pünkösdfürdő utca
-      - ['09:38:00', 'F00461',  12325] # Békásmegyer H
-      - ['09:39:00', '008940',  12500] # Békásmegyer H (Csobánka tér)
+      - ['00:00:00', 'F00066',      0] # Batthyány tér M+H
+      - ['00:02:00', 'F00187',    831] # Bem József tér
+      - ['00:03:00', 'F00234',   1261] # Margit híd, budai hídfő H
+      - ['00:04:00', 'F00247',   1737] # Császár-Komjádi uszoda
+      - ['00:06:00', 'F00245',   2281] # Zsigmond tér
+      - ['00:07:00', 'F00137',   2690] # Kolosy tér
+      - ['00:09:00', 'F00600',   3214] # Nagyszombat utca
+      - ['00:11:00', 'F00686',   3794] # Selmeci utca
+      - ['00:12:00', 'F00596',   4232] # Szent Margit Kórház
+      - ['00:13:00', '007881',   4669] # Váradi utca
+      - ['00:14:00', '008412',   5199] # Bécsi út
+      - ['00:15:00', 'F00680',   5382] # Bécsi út (Vörösvári út)
+      - ['00:16:00', 'F00518',   6055] # Orbán Balázs út
+      - ['00:17:00', 'F00520',   6559] # Bojtár utca (Bécsi út)
+      - ['00:18:00', 'F00549',   6846] # Kubik utca
+      - ['00:19:00', 'F00523',   7251] # Óbudai temető
+      - ['00:20:00', 'F00678',   7623] # Óbudai autóbuszgarázs
+      - ['00:21:00', 'F00525',   7886] # Keled út
+      - ['00:22:00', 'F00527',   8202] # Óbuda vasútállomás
+      - ['00:23:00', 'F00526',   8369] # Pomázi út
+      - ['00:25:00', '008410',   8621] # Aranyhegyi lejtő
+      - ['00:27:00', '008408',   9341] # Ürömhegyi lejtő
+      - ['00:28:00', '009563',   9598] # Mészkő utca
+      - ['00:29:00', '008406',   9918] # Forrásliget lakópark
+      - ['00:30:00', '008404',  10438] # Csillaghegy H
+      - ['00:32:00', '008402',  11192] # Kert sor
+      - ['00:33:00', 'F00456',  11686] # Nád utca
+      - ['00:34:00', 'F00459',  11954] # Pünkösdfürdő utca
+      - ['00:35:00', 'F00461',  12325] # Békásmegyer H
+      - ['00:36:00', '008940',  12500] # Békásmegyer H (Csobánka tér)
     trip_headsign: Békásmegyer H
     trip_id: REFERENCE-1600-0-2
     wheelchair_accessible: 1
@@ -87,38 +87,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1600-1-1-G397
     stop_times:
-      - ['15:24:00', '008939',      0] # Békásmegyer H (Csobánka tér)
-      - ['15:25:00', 'F00458',    445] # Pünkösdfürdő utca
-      - ['15:26:00', 'F00457',    769] # Hollós Korvin Lajos utca
-      - ['15:27:00', '008403',   1188] # Kert sor
-      - ['15:29:00', '008405',   1966] # Csillaghegy H
-      - ['15:30:00', '008407',   2450] # Forrásliget lakópark
-      - ['15:31:00', '009564',   2825] # Mészkő utca
-      - ['15:32:00', '008409',   3063] # Ürömhegyi lejtő
-      - ['15:33:00', '008411',   3748] # Aranyhegyi lejtő
-      - ['15:34:00', '044365',   4003] # Keled út
-      - ['15:35:00', '044366',   4320] # Óbuda vasútállomás
-      - ['15:36:00', '044367',   4487] # Pomázi út
-      - ['15:37:00', 'F00679',   4820] # Óbudai autóbuszgarázs
-      - ['15:38:00', 'F00524',   5185] # Óbudai temető, főbejárat
-      - ['15:40:00', 'F00558',   5349] # Óbudai temető
-      - ['15:41:00', 'F00550',   5707] # Kubik utca
-      - ['15:42:00', 'F00521',   5980] # Bojtár utca
-      - ['15:43:00', 'F00519',   6288] # Orbán Balázs út
-      - ['15:44:00', 'F00669',   6765] # Laborc utca
-      - ['15:45:00', 'F00570',   7220] # Vörösvári út
-      - ['15:46:00', 'F00585',   7675] # Óbudai rendelőintézet
-      - ['15:48:00', 'F00592',   8089] # Váradi utca
-      - ['15:50:00', 'F00597',   8725] # Szent Margit Kórház
-      - ['15:51:00', 'F00687',   9123] # Selmeci utca
-      - ['15:52:00', 'F00601',   9623] # Nagyszombat utca
-      - ['15:53:00', 'F00602',   9953] # Galagonya utca
-      - ['15:54:00', 'F00138',  10308] # Kolosy tér
-      - ['15:55:00', 'F00246',  10640] # Zsigmond tér
-      - ['15:56:00', 'F00248',  11147] # Császár-Komjádi uszoda
-      - ['15:58:00', 'F00235',  11631] # Margit híd, budai hídfő H
-      - ['15:59:00', 'F00188',  12110] # Bem József tér
-      - ['16:01:00', 'F00066',  12760] # Batthyány tér M+H
+      - ['00:00:00', '008939',      0] # Békásmegyer H (Csobánka tér)
+      - ['00:01:00', 'F00458',    445] # Pünkösdfürdő utca
+      - ['00:01:00', 'F00457',    769] # Hollós Korvin Lajos utca
+      - ['00:03:00', '008403',   1188] # Kert sor
+      - ['00:05:00', '008405',   1966] # Csillaghegy H
+      - ['00:06:00', '008407',   2450] # Forrásliget lakópark
+      - ['00:07:00', '009564',   2825] # Mészkő utca
+      - ['00:08:00', '008409',   3063] # Ürömhegyi lejtő
+      - ['00:09:00', '008411',   3748] # Aranyhegyi lejtő
+      - ['00:10:00', '044365',   4003] # Keled út
+      - ['00:11:00', '044366',   4320] # Óbuda vasútállomás
+      - ['00:12:00', '044367',   4487] # Pomázi út
+      - ['00:12:00', 'F00679',   4820] # Óbudai autóbuszgarázs
+      - ['00:14:00', 'F00524',   5185] # Óbudai temető, főbejárat
+      - ['00:15:00', 'F00558',   5349] # Óbudai temető
+      - ['00:16:00', 'F00550',   5707] # Kubik utca
+      - ['00:17:00', 'F00521',   5980] # Bojtár utca
+      - ['00:18:00', 'F00519',   6288] # Orbán Balázs út
+      - ['00:19:00', 'F00669',   6765] # Laborc utca
+      - ['00:21:00', 'F00570',   7220] # Vörösvári út
+      - ['00:23:00', 'F00585',   7675] # Óbudai rendelőintézet
+      - ['00:24:00', 'F00592',   8089] # Váradi utca
+      - ['00:26:00', 'F00597',   8725] # Szent Margit Kórház
+      - ['00:28:00', 'F00687',   9123] # Selmeci utca
+      - ['00:29:00', 'F00601',   9623] # Nagyszombat utca
+      - ['00:31:00', 'F00602',   9953] # Galagonya utca
+      - ['00:33:00', 'F00138',  10308] # Kolosy tér
+      - ['00:34:00', 'F00246',  10640] # Zsigmond tér
+      - ['00:35:00', 'F00248',  11147] # Császár-Komjádi uszoda
+      - ['00:37:00', 'F00235',  11631] # Margit híd, budai hídfő H
+      - ['00:39:00', 'F00188',  12110] # Bem József tér
+      - ['00:41:00', 'F00066',  12760] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-1600-1-1
     wheelchair_accessible: 1
@@ -126,37 +126,37 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1600-1-2-I367
     stop_times:
-      - ['04:56:00', '008939',      0] # Békásmegyer H (Csobánka tér)
-      - ['04:57:00', 'F00458',    445] # Pünkösdfürdő utca
-      - ['04:57:00', 'F00457',    769] # Hollós Korvin Lajos utca
-      - ['04:59:00', '008403',   1188] # Kert sor
-      - ['05:01:00', '008405',   1966] # Csillaghegy H
-      - ['05:02:00', '008407',   2450] # Forrásliget lakópark
-      - ['05:03:00', '009564',   2825] # Mészkő utca
-      - ['05:04:00', '008409',   3063] # Ürömhegyi lejtő
-      - ['05:07:00', '008411',   3748] # Aranyhegyi lejtő
-      - ['05:07:00', 'F00525',   4001] # Keled út
-      - ['05:09:00', 'F00527',   4317] # Óbuda vasútállomás
-      - ['05:09:00', 'F00526',   4484] # Pomázi út
-      - ['05:10:00', 'F00679',   4819] # Óbudai autóbuszgarázs
-      - ['05:12:00', 'F00524',   5184] # Óbudai temető, főbejárat
-      - ['05:13:00', 'F00558',   5348] # Óbudai temető
-      - ['05:13:00', 'F00550',   5706] # Kubik utca
-      - ['05:14:00', 'F00521',   5979] # Bojtár utca
-      - ['05:15:00', 'F00519',   6287] # Orbán Balázs út
-      - ['05:16:00', 'F00669',   6764] # Laborc utca
-      - ['05:18:00', 'F00570',   7219] # Vörösvári út
-      - ['05:19:00', '007882',   7917] # Váradi utca
-      - ['05:20:00', 'F00597',   8369] # Szent Margit Kórház
-      - ['05:21:00', 'F00687',   8767] # Selmeci utca
-      - ['05:22:00', 'F00601',   9267] # Nagyszombat utca
-      - ['05:23:00', 'F00602',   9597] # Galagonya utca
-      - ['05:25:00', 'F00138',   9952] # Kolosy tér
-      - ['05:25:00', 'F00246',  10284] # Zsigmond tér
-      - ['05:27:00', 'F00248',  10791] # Császár-Komjádi uszoda
-      - ['05:28:00', 'F00235',  11275] # Margit híd, budai hídfő H
-      - ['05:29:00', 'F00188',  11754] # Bem József tér
-      - ['05:32:00', 'F00066',  12404] # Batthyány tér M+H
+      - ['00:00:00', '008939',      0] # Békásmegyer H (Csobánka tér)
+      - ['00:01:00', 'F00458',    445] # Pünkösdfürdő utca
+      - ['00:01:00', 'F00457',    769] # Hollós Korvin Lajos utca
+      - ['00:03:00', '008403',   1188] # Kert sor
+      - ['00:05:00', '008405',   1966] # Csillaghegy H
+      - ['00:06:00', '008407',   2450] # Forrásliget lakópark
+      - ['00:07:00', '009564',   2825] # Mészkő utca
+      - ['00:08:00', '008409',   3063] # Ürömhegyi lejtő
+      - ['00:11:00', '008411',   3748] # Aranyhegyi lejtő
+      - ['00:11:00', 'F00525',   4001] # Keled út
+      - ['00:13:00', 'F00527',   4317] # Óbuda vasútállomás
+      - ['00:13:00', 'F00526',   4484] # Pomázi út
+      - ['00:14:00', 'F00679',   4819] # Óbudai autóbuszgarázs
+      - ['00:16:00', 'F00524',   5184] # Óbudai temető, főbejárat
+      - ['00:17:00', 'F00558',   5348] # Óbudai temető
+      - ['00:17:00', 'F00550',   5706] # Kubik utca
+      - ['00:18:00', 'F00521',   5979] # Bojtár utca
+      - ['00:19:00', 'F00519',   6287] # Orbán Balázs út
+      - ['00:20:00', 'F00669',   6764] # Laborc utca
+      - ['00:22:00', 'F00570',   7219] # Vörösvári út
+      - ['00:23:00', '007882',   7917] # Váradi utca
+      - ['00:24:00', 'F00597',   8369] # Szent Margit Kórház
+      - ['00:25:00', 'F00687',   8767] # Selmeci utca
+      - ['00:26:00', 'F00601',   9267] # Nagyszombat utca
+      - ['00:27:00', 'F00602',   9597] # Galagonya utca
+      - ['00:29:00', 'F00138',   9952] # Kolosy tér
+      - ['00:29:00', 'F00246',  10284] # Zsigmond tér
+      - ['00:31:00', 'F00248',  10791] # Császár-Komjádi uszoda
+      - ['00:32:00', 'F00235',  11275] # Margit híd, budai hídfő H
+      - ['00:33:00', 'F00188',  11754] # Bem József tér
+      - ['00:36:00', 'F00066',  12404] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-1600-1-2
     wheelchair_accessible: 1

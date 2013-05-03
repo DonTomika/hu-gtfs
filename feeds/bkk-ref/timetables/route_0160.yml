@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Széll Kálmán tér M / Deák Ferenc tér M
+route_desc: Széll Kálmán tér M (Várfok utca) / Deák Ferenc tér M
 route_id: 0160
 route_long_name: ''
 route_short_name: 16
@@ -13,16 +13,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0160-0-1-H292
     stop_times:
-      - ['23:00:00', 'F00985',      0] # Deák Ferenc tér M
-      - ['23:01:00', 'F00981',    287] # Hild tér
-      - ['23:02:00', '008238',    750] # Széchenyi István tér
-      - ['23:04:00', 'F00047',   1409] # Clark Ádám tér
-      - ['23:05:00', 'F00045',   1875] # Donáti utca
-      - ['23:07:00', 'F00073',   2539] # Dísz tér
-      - ['23:08:00', 'F00072',   2828] # Szentháromság tér
-      - ['23:09:00', 'F00069',   3280] # Bécsi kapu tér
-      - ['23:10:00', 'F00030',   3528] # Ostrom utca
-      - ['23:11:00', 'F02472',   3919] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', 'F00985',      0] # Deák Ferenc tér M
+      - ['00:02:00', 'F00981',    287] # Hild tér
+      - ['00:03:00', '008238',    750] # Széchenyi István tér
+      - ['00:05:00', 'F00047',   1409] # Clark Ádám tér
+      - ['00:06:00', 'F00045',   1875] # Donáti utca
+      - ['00:08:00', 'F00073',   2539] # Dísz tér
+      - ['00:09:00', 'F00072',   2828] # Szentháromság tér
+      - ['00:10:00', 'F00069',   3280] # Bécsi kapu tér
+      - ['00:11:00', 'F00030',   3528] # Ostrom utca
+      - ['00:12:00', 'F02472',   3919] # Széll Kálmán tér M (Várfok utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-0160-0-1
     wheelchair_accessible: 2
@@ -30,19 +30,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0160-1-1-H291
     stop_times:
-      - ['17:36:00', 'F02469',      0] # Széll Kálmán tér M (Várfok utca)
-      - ['17:37:00', 'F00031',    234] # Mátray utca
-      - ['17:38:00', 'F00070',    596] # Bécsi kapu tér
-      - ['17:39:00', 'F00114',    716] # Kapisztrán tér
-      - ['17:40:00', 'F00071',   1120] # Szentháromság tér
-      - ['17:42:00', 'F00075',   1584] # Dísz tér
-      - ['17:44:00', 'F00076',   2492] # Palota út, gyorslift
-      - ['17:45:00', 'F00077',   2833] # Attila út
-      - ['17:47:00', 'F00083',   3387] # Krisztina tér
-      - ['17:49:00', 'F00048',   3907] # Clark Ádám tér
-      - ['17:51:00', '008218',   4514] # Széchenyi István tér
-      - ['17:53:00', 'F00979',   4794] # József nádor tér
-      - ['17:56:00', 'F00985',   5410] # Deák Ferenc tér M
+      - ['00:00:00', 'F02469',      0] # Széll Kálmán tér M (Várfok utca)
+      - ['00:01:00', 'F00031',    234] # Mátray utca
+      - ['00:02:00', 'F00070',    596] # Bécsi kapu tér
+      - ['00:03:00', 'F00114',    716] # Kapisztrán tér
+      - ['00:04:00', 'F00071',   1120] # Szentháromság tér
+      - ['00:06:00', 'F00075',   1584] # Dísz tér
+      - ['00:08:00', 'F00076',   2492] # Palota út, gyorslift
+      - ['00:09:00', 'F00077',   2833] # Attila út
+      - ['00:11:00', 'F00083',   3387] # Krisztina tér
+      - ['00:13:00', 'F00048',   3907] # Clark Ádám tér
+      - ['00:15:00', '008218',   4514] # Széchenyi István tér
+      - ['00:18:00', 'F00979',   4794] # József nádor tér
+      - ['00:21:00', 'F00985',   5410] # Deák Ferenc tér M
     trip_headsign: Deák Ferenc tér M
     trip_id: REFERENCE-0160-1-1
     wheelchair_accessible: 2

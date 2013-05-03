@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: Blaha Lujza tér M / Új köztemető (Kozma utca)
+route_desc: Blaha Lujza tér M (Népszínház utca) / Új köztemető (Kozma utca)
 route_id: 3370
 route_long_name: ''
 route_short_name: 37
@@ -13,28 +13,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3370-0-1-R497
     stop_times:
-      - ['07:18:00', 'F01298',      0] # Blaha Lujza tér M (Népszínház utca)
-      - ['07:19:00', 'F01300',    302] # II. János Pál pápa tér
-      - ['07:21:00', 'F01330',    726] # Teleki László tér
-      - ['07:23:00', 'F01214',   1251] # Fiumei út
-      - ['07:26:00', 'F01279',   2587] # Asztalos Sándor út
-      - ['07:27:00', 'F01271',   2796] # Hidegkuti Nándor Stadion
-      - ['07:29:00', 'F01799',   3232] # Kőbányai garázs
-      - ['07:30:00', 'F01856',   3715] # Pongrácz úti lakótelep
-      - ['07:31:00', 'F01562',   4275] # Őrház
-      - ['07:32:00', 'F01730',   4544] # Halom utca
-      - ['07:33:00', 'F01728',   4896] # Kőbánya felső vasútállomás
-      - ['07:35:00', 'F01626',   5337] # Élessarok
-      - ['07:37:00', 'F01619',   5806] # Sörgyár
-      - ['07:39:00', 'F01618',   6153] # Jászberényi út
-      - ['07:40:00', 'F01674',   6631] # Gitár utca
-      - ['07:41:00', 'F01830',   6947] # Kocka utca
-      - ['07:42:00', 'F01676',   7255] # Kada utca
-      - ['07:43:00', 'F01835',   7691] # Bajcsy-Zsilinszky Kórház
-      - ['07:45:00', 'F01707',   8074] # Sibrik Miklós út
-      - ['07:46:00', 'F01712',   8704] # Sírkert út
-      - ['07:47:00', 'F01596',   9170] # Új köztemető
-      - ['07:48:00', 'F01866',   9364] # Új köztemető (Kozma utca)
+      - ['00:00:00', 'F01298',      0] # Blaha Lujza tér M (Népszínház utca)
+      - ['00:01:00', 'F01300',    302] # II. János Pál pápa tér
+      - ['00:03:00', 'F01330',    726] # Teleki László tér
+      - ['00:05:00', 'F01214',   1251] # Fiumei út
+      - ['00:08:00', 'F01279',   2587] # Asztalos Sándor út
+      - ['00:09:00', 'F01271',   2796] # Hidegkuti Nándor Stadion
+      - ['00:11:00', 'F01799',   3232] # Kőbányai garázs
+      - ['00:12:00', 'F01856',   3715] # Pongrácz úti lakótelep
+      - ['00:13:00', 'F01562',   4275] # Őrház
+      - ['00:14:00', 'F01730',   4544] # Halom utca
+      - ['00:15:00', 'F01728',   4896] # Kőbánya felső vasútállomás
+      - ['00:17:00', 'F01626',   5337] # Élessarok
+      - ['00:19:00', 'F01619',   5806] # Sörgyár
+      - ['00:21:00', 'F01618',   6153] # Jászberényi út
+      - ['00:22:00', 'F01674',   6631] # Gitár utca
+      - ['00:23:00', 'F01830',   6947] # Kocka utca
+      - ['00:24:00', 'F01676',   7255] # Kada utca
+      - ['00:25:00', 'F01835',   7691] # Bajcsy-Zsilinszky Kórház
+      - ['00:27:00', 'F01707',   8074] # Sibrik Miklós út
+      - ['00:28:00', 'F01712',   8704] # Sírkert út
+      - ['00:29:00', 'F01596',   9170] # Új köztemető
+      - ['00:30:00', 'F01866',   9364] # Új köztemető (Kozma utca)
     trip_headsign: Új köztemető (Kozma utca)
     trip_id: REFERENCE-3370-0-1
     wheelchair_accessible: 2
@@ -42,28 +42,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3370-1-1-R498
     stop_times:
-      - ['15:38:00', 'F01867',      0] # Új köztemető (Kozma utca)
-      - ['15:39:00', 'F01594',    175] # Új köztemető
-      - ['15:40:00', 'F01713',    648] # Sírkert út
-      - ['15:42:00', 'F01708',   1225] # Sibrik Miklós út
-      - ['15:43:00', 'F01836',   1590] # Bajcsy-Zsilinszky Kórház
-      - ['15:44:00', 'F01679',   2023] # Kada utca
-      - ['15:45:00', 'F01829',   2343] # Kocka utca
-      - ['15:46:00', 'F01673',   2666] # Gitár utca
-      - ['15:47:00', 'F01617',   3114] # Jászberényi út
-      - ['15:49:00', 'F01620',   3535] # Sörgyár
-      - ['15:51:00', 'F01625',   4002] # Élessarok
-      - ['15:52:00', 'F01727',   4397] # Kőbánya felső vasútállomás
-      - ['15:53:00', 'F01729',   4753] # Halom utca
-      - ['15:54:00', 'F01561',   5073] # Őrház
-      - ['15:55:00', 'F01857',   5625] # Pongrácz úti lakótelep
-      - ['15:56:00', 'F01798',   6047] # Kőbányai garázs
-      - ['15:57:00', 'F01274',   6398] # Hidegkuti Nándor Stadion
-      - ['15:59:00', 'F01278',   6749] # Asztalos Sándor út
-      - ['16:02:00', 'F01184',   7975] # Fiumei út
-      - ['16:04:00', 'F01331',   8503] # Teleki László tér
-      - ['16:06:00', 'F01301',   8917] # II. János Pál pápa tér
-      - ['16:07:00', '009753',   9416] # Blaha Lujza tér M (Népszínház utca)
+      - ['00:00:00', 'F01867',      0] # Új köztemető (Kozma utca)
+      - ['00:01:00', 'F01594',    175] # Új köztemető
+      - ['00:02:00', 'F01713',    648] # Sírkert út
+      - ['00:04:00', 'F01708',   1225] # Sibrik Miklós út
+      - ['00:05:00', 'F01836',   1590] # Bajcsy-Zsilinszky Kórház
+      - ['00:06:00', 'F01679',   2023] # Kada utca
+      - ['00:07:00', 'F01829',   2343] # Kocka utca
+      - ['00:08:00', 'F01673',   2666] # Gitár utca
+      - ['00:09:00', 'F01617',   3114] # Jászberényi út
+      - ['00:11:00', 'F01620',   3535] # Sörgyár
+      - ['00:13:00', 'F01625',   4002] # Élessarok
+      - ['00:14:00', 'F01727',   4397] # Kőbánya felső vasútállomás
+      - ['00:15:00', 'F01729',   4753] # Halom utca
+      - ['00:16:00', 'F01561',   5073] # Őrház
+      - ['00:17:00', 'F01857',   5625] # Pongrácz úti lakótelep
+      - ['00:18:00', 'F01798',   6047] # Kőbányai garázs
+      - ['00:20:00', 'F01274',   6398] # Hidegkuti Nándor Stadion
+      - ['00:22:00', 'F01278',   6749] # Asztalos Sándor út
+      - ['00:25:00', 'F01184',   7975] # Fiumei út
+      - ['00:27:00', 'F01331',   8503] # Teleki László tér
+      - ['00:29:00', 'F01301',   8917] # II. János Pál pápa tér
+      - ['00:30:00', '009753',   9416] # Blaha Lujza tér M (Népszínház utca)
     trip_headsign: Blaha Lujza tér M
     trip_id: REFERENCE-3370-1-1
     wheelchair_accessible: 2

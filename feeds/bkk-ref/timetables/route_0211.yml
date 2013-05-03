@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Széll Kálmán tér M / Normafa
+route_desc: Széll Kálmán tér M (Várfok utca) / Normafa
 route_id: 0211
 route_long_name: ''
 route_short_name: 21A
@@ -13,23 +13,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0211-0-1-N820
     stop_times:
-      - ['08:15:00', 'F02471',      0] # Széll Kálmán tér M (Várfok utca)
-      - ['08:17:00', 'F00021',    877] # Déli pályaudvar M
-      - ['08:18:00', '011495',   1289] # Németvölgyi út
-      - ['08:19:00', '009698',   1670] # Galántai utca
-      - ['08:20:00', 'F02397',   2114] # Szent Orbán tér
-      - ['08:21:00', 'F02395',   2612] # Pethényi út
-      - ['08:22:00', 'F02393',   2882] # Nógrádi utca
-      - ['08:23:00', 'F02391',   3313] # Óra út
-      - ['08:24:00', 'F02389',   3752] # Istenhegyi lejtő
-      - ['08:25:00', 'F02387',   4158] # Adonis utca
-      - ['08:26:00', 'F02440',   4509] # Költő utca
-      - ['08:27:00', 'F02442',   4854] # Svábhegy, fogaskerekű
-      - ['08:28:00', 'F02443',   5609] # Ordas út
-      - ['08:29:00', 'F02445',   5962] # Őzike köz
-      - ['08:30:00', 'F02447',   6239] # Fülemile út
-      - ['08:31:00', 'F02449',   6463] # Normafa, Gyermekvasút
-      - ['08:34:00', 'F02489',   6903] # Normafa
+      - ['00:00:00', 'F02471',      0] # Széll Kálmán tér M (Várfok utca)
+      - ['00:03:00', 'F00021',    877] # Déli pályaudvar M
+      - ['00:04:00', '011495',   1289] # Németvölgyi út
+      - ['00:05:00', '009698',   1670] # Galántai utca
+      - ['00:06:00', 'F02397',   2114] # Szent Orbán tér
+      - ['00:08:00', 'F02395',   2612] # Pethényi út
+      - ['00:09:00', 'F02393',   2882] # Nógrádi utca
+      - ['00:10:00', 'F02391',   3313] # Óra út
+      - ['00:11:00', 'F02389',   3752] # Istenhegyi lejtő
+      - ['00:12:00', 'F02387',   4158] # Adonis utca
+      - ['00:13:00', 'F02440',   4509] # Költő utca
+      - ['00:14:00', 'F02442',   4854] # Svábhegy, fogaskerekű
+      - ['00:15:00', 'F02443',   5609] # Ordas út
+      - ['00:16:00', 'F02445',   5962] # Őzike köz
+      - ['00:17:00', 'F02447',   6239] # Fülemile út
+      - ['00:18:00', 'F02449',   6463] # Normafa, Gyermekvasút
+      - ['00:21:00', 'F02489',   6903] # Normafa
     trip_headsign: Normafa
     trip_id: REFERENCE-0211-0-1
     wheelchair_accessible: 2
@@ -37,23 +37,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0211-1-1-N819
     stop_times:
-      - ['13:45:00', 'F02490',      0] # Normafa
-      - ['13:46:00', 'F02450',    507] # Normafa, Gyermekvasút
-      - ['13:46:00', 'F02448',    697] # Fülemile út
-      - ['13:47:00', 'F02446',    996] # Őzike köz
-      - ['13:48:00', 'F02444',   1336] # Ordas út
-      - ['13:49:00', 'F02459',   1983] # Svábhegy, fogaskerekű
-      - ['13:50:00', 'F02441',   2489] # Költő utca
-      - ['13:51:00', 'F02388',   2910] # Adonis utca
-      - ['13:52:00', 'F02390',   3217] # Lóránt út
-      - ['13:53:00', 'F02392',   3680] # Óra út
-      - ['13:54:00', 'F02394',   4056] # Nógrádi utca
-      - ['13:55:00', 'F02396',   4411] # Pethényi út
-      - ['13:56:00', 'F02398',   4917] # Szent Orbán tér
-      - ['13:57:00', '009699',   5339] # Galántai utca
-      - ['13:59:00', 'F02411',   5755] # Németvölgyi út
-      - ['14:01:00', 'F00022',   6117] # Déli pályaudvar M
-      - ['14:04:00', 'F02470',   6880] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', 'F02490',      0] # Normafa
+      - ['00:01:00', 'F02450',    507] # Normafa, Gyermekvasút
+      - ['00:01:00', 'F02448',    697] # Fülemile út
+      - ['00:02:00', 'F02446',    996] # Őzike köz
+      - ['00:03:00', 'F02444',   1336] # Ordas út
+      - ['00:04:00', 'F02459',   1983] # Svábhegy, fogaskerekű
+      - ['00:05:00', 'F02441',   2489] # Költő utca
+      - ['00:06:00', 'F02388',   2910] # Adonis utca
+      - ['00:07:00', 'F02390',   3217] # Lóránt út
+      - ['00:08:00', 'F02392',   3680] # Óra út
+      - ['00:09:00', 'F02394',   4056] # Nógrádi utca
+      - ['00:10:00', 'F02396',   4411] # Pethényi út
+      - ['00:11:00', 'F02398',   4917] # Szent Orbán tér
+      - ['00:12:00', '009699',   5339] # Galántai utca
+      - ['00:14:00', 'F02411',   5755] # Németvölgyi út
+      - ['00:16:00', 'F00022',   6117] # Déli pályaudvar M
+      - ['00:18:00', 'F02470',   6880] # Széll Kálmán tér M (Várfok utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-0211-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

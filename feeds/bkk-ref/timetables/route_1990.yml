@@ -13,38 +13,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1990-0-1-G556
     stop_times:
-      - ['09:54:00', 'F04017',      0] # Határ út M
-      - ['09:55:00', 'F03924',    601] # Corvin körút
-      - ['09:56:00', 'F03923',   1021] # Kós Károly tér
-      - ['09:57:00', 'F03921',   1283] # Pannónia út
-      - ['09:58:00', 'F03966',   1687] # Zoltán utca
-      - ['09:59:00', 'F03972',   2080] # Hunyadi tér
-      - ['10:00:00', 'F04025',   2453] # Batthyány utca
-      - ['10:02:00', 'F03983',   2878] # Kossuth Lajos utca
-      - ['10:03:00', 'F03991',   3288] # Pincér utca
-      - ['10:04:00', 'F04033',   3507] # Garázs utca
-      - ['10:05:00', 'F03992',   3753] # Hofherr Albert utca
-      - ['10:06:00', 'F03994',   4201] # Áchim András utca
+      - ['00:00:00', 'F04017',      0] # Határ út M
+      - ['00:01:00', 'F03924',    601] # Corvin körút
+      - ['00:02:00', 'F03923',   1021] # Kós Károly tér
+      - ['00:03:00', 'F03921',   1283] # Pannónia út
+      - ['00:04:00', 'F03966',   1687] # Zoltán utca
+      - ['00:05:00', 'F03972',   2080] # Hunyadi tér
+      - ['00:06:00', 'F04025',   2453] # Batthyány utca
+      - ['00:08:00', 'F03983',   2878] # Kossuth Lajos utca
+      - ['00:09:00', 'F03991',   3288] # Pincér utca
+      - ['00:10:00', 'F04033',   3507] # Garázs utca
+      - ['00:11:00', 'F03992',   3753] # Hofherr Albert utca
+      - ['00:12:00', 'F03994',   4201] # Áchim András utca
     trip_headsign: Áchim András utca
     trip_id: REFERENCE-1990-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1990-1-1-G557
     stop_times:
-      - ['12:06:00', 'F03994',      0] # Áchim András utca
-      - ['12:07:00', 'F04000',    470] # Ady Endre út
-      - ['12:08:00', 'F04002',    970] # Vas Gereben utca (Ady Endre út)
-      - ['12:08:00', 'F04036',   1224] # Szegfű utca
-      - ['12:09:00', 'F04035',   1594] # Mészáros Lőrinc utca
-      - ['12:10:00', 'F03989',   1874] # Vas Gereben utca
-      - ['12:11:00', 'F03981',   2221] # Kossuth Lajos utca
-      - ['12:12:00', 'F04024',   2529] # Batthyány utca
-      - ['12:13:00', 'F03974',   2867] # Hunyadi tér
-      - ['12:14:00', 'F03965',   3297] # Zoltán utca
-      - ['12:15:00', 'F03922',   3778] # Kós Károly tér
-      - ['12:17:00', 'F03925',   4374] # Corvin körút
-      - ['12:20:00', 'F04014',   5090] # Határ út M
+      - ['00:00:00', 'F03994',      0] # Áchim András utca
+      - ['00:00:00', 'F04000',    470] # Ady Endre út
+      - ['00:01:00', 'F04002',    970] # Vas Gereben utca (Ady Endre út)
+      - ['00:02:00', 'F04036',   1224] # Szegfű utca
+      - ['00:02:00', 'F04035',   1594] # Mészáros Lőrinc utca
+      - ['00:03:00', 'F03989',   1874] # Vas Gereben utca
+      - ['00:03:00', 'F03981',   2221] # Kossuth Lajos utca
+      - ['00:04:00', 'F04024',   2529] # Batthyány utca
+      - ['00:05:00', 'F03974',   2867] # Hunyadi tér
+      - ['00:07:00', 'F03965',   3297] # Zoltán utca
+      - ['00:08:00', 'F03922',   3778] # Kós Károly tér
+      - ['00:10:00', 'F03925',   4374] # Corvin körút
+      - ['00:12:00', 'F04014',   5090] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-1990-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

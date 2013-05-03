@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Békásmegyer H / Pince köz
+route_desc: Békásmegyer H - Pince köz - Békásmegyer H
 route_id: 1430
 route_long_name: ''
 route_short_name: 143
@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1430-0-1-O779
     stop_times:
-      - ['06:50:00', 'F00460',      0] # Békásmegyer H
-      - ['06:51:00', 'F00435',    538] # Pusztadombi utca
-      - ['06:52:00', 'F00436',    916] # Égető utca
-      - ['06:53:00', 'F00437',   1092] # Táncsics Mihály utca
-      - ['06:54:00', 'F00439',   1417] # Ezüsthegy utca
-      - ['06:55:00', 'F00446',   1712] # Templom utca
-      - ['06:56:00', 'F00447',   2078] # Hősök tere
-      - ['06:57:00', 'F00449',   2359] # Tamás utca
-      - ['06:59:00', 'F00451',   2879] # Pince köz
-      - ['07:00:00', 'F00450',   3341] # Tamás utca
-      - ['07:00:00', 'F00448',   3660] # Hősök tere
-      - ['07:01:00', 'F00455',   3979] # Zemplén Győző utca
-      - ['07:02:00', 'F00456',   4346] # Nád utca
-      - ['07:03:00', 'F00459',   4614] # Pünkösdfürdő utca
-      - ['07:05:00', 'F00460',   5036] # Békásmegyer H
+      - ['00:00:00', 'F00460',      0] # Békásmegyer H
+      - ['00:01:00', 'F00435',    538] # Pusztadombi utca
+      - ['00:02:00', 'F00436',    916] # Égető utca
+      - ['00:03:00', 'F00437',   1092] # Táncsics Mihály utca
+      - ['00:04:00', 'F00439',   1417] # Ezüsthegy utca
+      - ['00:05:00', 'F00446',   1712] # Templom utca
+      - ['00:06:00', 'F00447',   2078] # Hősök tere
+      - ['00:07:00', 'F00449',   2359] # Tamás utca
+      - ['00:09:00', 'F00451',   2879] # Pince köz
+      - ['00:10:00', 'F00450',   3341] # Tamás utca
+      - ['00:10:00', 'F00448',   3660] # Hősök tere
+      - ['00:11:00', 'F00455',   3979] # Zemplén Győző utca
+      - ['00:12:00', 'F00456',   4346] # Nád utca
+      - ['00:13:00', 'F00459',   4614] # Pünkösdfürdő utca
+      - ['00:15:00', 'F00460',   5036] # Békásmegyer H
     trip_headsign: Békásmegyer H
     trip_id: REFERENCE-1430-0-1
     wheelchair_accessible: 2

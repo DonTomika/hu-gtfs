@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1735-0-1-E974
     stop_times:
-      - ['15:32:00', '007899',      0] # Kelenföldi pályaudvar
-      - ['15:33:00', 'F02215',    395] # Bártfai utca
-      - ['15:34:00', 'F01958',    909] # Kelenföld, városközpont
-      - ['15:36:00', 'F02034',   1479] # Szent Imre Kórház
-      - ['15:39:00', 'F02176',   2560] # Kosztolányi Dezső tér
-      - ['15:41:00', 'F02192',   3044] # Móricz Zsigmond körtér
-      - ['15:46:00', 'F00951',   5556] # Ferenciek tere M
-      - ['15:50:00', 'F01164',   6776] # Blaha Lujza tér M
-      - ['15:53:00', 'F01159',   7997] # Keleti pályaudvar M
-      - ['15:59:00', 'F02725',   9602] # Zugló vasútállomás
-      - ['16:03:00', 'F02835',  11033] # Bosnyák tér
-      - ['16:07:00', 'F03195',  13066] # Molnár Viktor utca
-      - ['16:09:00', 'F03152',  14214] # Fő tér
-      - ['16:10:00', 'F03157',  14709] # Vásárcsarnok
-      - ['16:12:00', 'F03165',  14938] # Újpalota, Nyírpalota út
+      - ['00:00:00', '007899',      0] # Kelenföldi pályaudvar
+      - ['00:01:00', 'F02215',    395] # Bártfai utca
+      - ['00:02:00', 'F01958',    909] # Kelenföld, városközpont
+      - ['00:04:00', 'F02034',   1479] # Szent Imre Kórház
+      - ['00:07:00', 'F02176',   2560] # Kosztolányi Dezső tér
+      - ['00:09:00', 'F02192',   3044] # Móricz Zsigmond körtér
+      - ['00:14:00', 'F00951',   5556] # Ferenciek tere M
+      - ['00:18:00', 'F01164',   6776] # Blaha Lujza tér M
+      - ['00:21:00', 'F01159',   7997] # Keleti pályaudvar M
+      - ['00:27:00', 'F02725',   9602] # Zugló vasútállomás
+      - ['00:31:00', 'F02835',  11033] # Bosnyák tér
+      - ['00:35:00', 'F03195',  13066] # Molnár Viktor utca
+      - ['00:37:00', 'F03152',  14214] # Fő tér
+      - ['00:38:00', 'F03157',  14709] # Vásárcsarnok
+      - ['00:40:00', 'F03165',  14938] # Újpalota, Nyírpalota út
     trip_headsign: 'Újpalota, Nyírpalota út'
     trip_id: REFERENCE-1735-0-1
     wheelchair_accessible: 2
@@ -35,21 +35,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1735-1-1-E968
     stop_times:
-      - ['17:58:00', 'F03163',      0] # Újpalota, Nyírpalota út
-      - ['17:59:00', 'F03158',    577] # Vásárcsarnok
-      - ['18:01:00', 'F03151',   1058] # Fő tér
-      - ['18:03:00', 'F03196',   2116] # Molnár Viktor utca
-      - ['18:07:00', 'F02829',   4167] # Bosnyák tér
-      - ['18:10:00', 'F02730',   5504] # Zugló vasútállomás
-      - ['18:16:00', 'F01314',   7343] # Keleti pályaudvar M
-      - ['18:19:00', 'F01166',   8252] # Blaha Lujza tér M
-      - ['18:23:00', 'F01004',   9452] # Ferenciek tere M
-      - ['18:29:00', 'F02193',  12262] # Móricz Zsigmond körtér
-      - ['18:31:00', 'F02183',  12885] # Kosztolányi Dezső tér
-      - ['18:33:00', 'F02035',  13870] # Szent Imre Kórház
-      - ['18:34:00', 'F01957',  14312] # Kelenföld, városközpont
-      - ['18:35:00', 'F02216',  14713] # Bártfai utca
-      - ['18:37:00', 'F02210',  15210] # Kelenföldi pályaudvar
+      - ['00:00:00', 'F03163',      0] # Újpalota, Nyírpalota út
+      - ['00:01:00', 'F03158',    577] # Vásárcsarnok
+      - ['00:03:00', 'F03151',   1058] # Fő tér
+      - ['00:05:00', 'F03196',   2116] # Molnár Viktor utca
+      - ['00:09:00', 'F02829',   4167] # Bosnyák tér
+      - ['00:12:00', 'F02730',   5504] # Zugló vasútállomás
+      - ['00:18:00', 'F01314',   7343] # Keleti pályaudvar M
+      - ['00:21:00', 'F01166',   8252] # Blaha Lujza tér M
+      - ['00:25:00', 'F01004',   9452] # Ferenciek tere M
+      - ['00:31:00', 'F02193',  12262] # Móricz Zsigmond körtér
+      - ['00:33:00', 'F02183',  12885] # Kosztolányi Dezső tér
+      - ['00:35:00', 'F02035',  13870] # Szent Imre Kórház
+      - ['00:36:00', 'F01957',  14312] # Kelenföld, városközpont
+      - ['00:37:00', 'F02216',  14713] # Bártfai utca
+      - ['00:39:00', 'F02210',  15210] # Kelenföldi pályaudvar
     trip_headsign: Kelenföldi pályaudvar
     trip_id: REFERENCE-1735-1-1
     wheelchair_accessible: 2

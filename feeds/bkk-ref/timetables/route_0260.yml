@@ -13,38 +13,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0260-0-1-0740
     stop_times:
-      - ['09:54:00', 'F01027',      0] # Nyugati pályaudvar M
-      - ['09:57:00', 'F00929',    585] # Jászai Mari tér
-      - ['09:58:00', 'F00143',   1276] # Szigeti bejáró
-      - ['09:59:00', 'F02492',   1686] # Hajós Alfréd uszoda
-      - ['10:00:00', 'F02505',   2046] # Parkmozi köz
-      - ['10:01:00', 'F02494',   2699] # Palatinus strand
-      - ['10:02:00', 'F02496',   2940] # Szabadtéri Színpad
-      - ['10:03:00', 'F02498',   3319] # Szállodák (Hotels)
-      - ['10:04:00', 'F02500',   3615] # Zenélőkút
-      - ['10:08:00', 'F02526',   4302] # Népfürdő utca
-      - ['10:10:00', 'F02581',   5237] # Árpád híd M
+      - ['00:00:00', 'F01027',      0] # Nyugati pályaudvar M
+      - ['00:02:00', 'F00929',    585] # Jászai Mari tér
+      - ['00:03:00', 'F00143',   1276] # Szigeti bejáró
+      - ['00:04:00', 'F02492',   1686] # Hajós Alfréd uszoda
+      - ['00:05:00', 'F02505',   2046] # Parkmozi köz
+      - ['00:06:00', 'F02494',   2699] # Palatinus strand
+      - ['00:07:00', 'F02496',   2940] # Szabadtéri Színpad
+      - ['00:08:00', 'F02498',   3319] # Szállodák (Hotels)
+      - ['00:09:00', 'F02500',   3615] # Zenélőkút
+      - ['00:11:00', 'F02526',   4302] # Népfürdő utca
+      - ['00:12:00', 'F02581',   5237] # Árpád híd M
     trip_headsign: Árpád híd M
     trip_id: REFERENCE-0260-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0260-1-1-0741
     stop_times:
-      - ['15:10:00', 'F02581',      0] # Árpád híd M
-      - ['15:11:00', 'F02602',    258] # Árpád híd M (Váci út)
-      - ['15:12:00', 'F02525',    803] # Népfürdő utca
-      - ['15:14:00', 'F02501',   1521] # Zenélőkút
-      - ['15:15:00', 'F02499',   1852] # Szállodák (Hotels)
-      - ['15:16:00', 'F02497',   2268] # Szabadtéri Színpad
-      - ['15:17:00', 'F02495',   2522] # Palatinus strand
-      - ['15:18:00', 'F02506',   3113] # Parkmozi köz
-      - ['15:19:00', 'F02493',   3439] # Hajós Alfréd uszoda
-      - ['15:20:00', 'F00144',   3891] # Szigeti bejáró
-      - ['15:22:00', 'F00237',   4491] # Margit híd, budai hídfő H
-      - ['15:23:00', 'F00235',   4758] # Margit híd, budai hídfő H
-      - ['15:28:00', 'F00930',   5973] # Jászai Mari tér
-      - ['15:30:00', 'F01025',   6553] # Nyugati pályaudvar M
+      - ['00:00:00', 'F02581',      0] # Árpád híd M
+      - ['00:01:00', 'F02602',    258] # Árpád híd M (Váci út)
+      - ['00:02:00', 'F02525',    803] # Népfürdő utca
+      - ['00:04:00', 'F02501',   1521] # Zenélőkút
+      - ['00:04:00', 'F02499',   1852] # Szállodák (Hotels)
+      - ['00:05:00', 'F02497',   2268] # Szabadtéri Színpad
+      - ['00:06:00', 'F02495',   2522] # Palatinus strand
+      - ['00:07:00', 'F02506',   3113] # Parkmozi köz
+      - ['00:08:00', 'F02493',   3439] # Hajós Alfréd uszoda
+      - ['00:09:00', 'F00144',   3891] # Szigeti bejáró
+      - ['00:11:00', 'F00237',   4491] # Margit híd, budai hídfő H
+      - ['00:12:00', 'F00235',   4758] # Margit híd, budai hídfő H
+      - ['00:16:00', 'F00930',   5973] # Jászai Mari tér
+      - ['00:18:00', 'F01025',   6553] # Nyugati pályaudvar M
     trip_headsign: Nyugati pályaudvar M
     trip_id: REFERENCE-0260-1-1
     wheelchair_accessible: 1

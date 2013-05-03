@@ -13,55 +13,55 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0910-0-1-H088
     stop_times:
-      - ['12:40:00', 'F02464',      0] # Széll Kálmán tér M
-      - ['12:41:00', 'F00427',    835] # Nyúl utca
-      - ['12:42:00', 'F00155',   1071] # Városmajor
-      - ['12:44:00', 'F00159',   1514] # Szent János Kórház
-      - ['12:45:00', 'F00160',   2059] # Nagyajtai utca
-      - ['12:46:00', '009581',   2288] # Gábor Áron utca
-      - ['12:48:00', '009510',   2482] # Pasaréti út
-      - ['12:49:00', '009509',   2819] # Orló utca
-      - ['12:50:00', '009514',   3141] # Bimbó út
-      - ['12:51:00', 'F00295',   3321] # Endrődi Sándor utca
-      - ['12:52:00', 'F00214',   3816] # Pusztaszeri körönd
-      - ['12:53:00', 'F00218',   4035] # Vend utca
-      - ['12:54:00', 'F00220',   4277] # Cimbalom utca
-      - ['12:55:00', 'F00222',   4777] # Vérhalom tér
-      - ['12:56:00', 'F00224',   5146] # Mandula utca
-      - ['12:58:00', 'F00229',   5493] # Rómer Flóris utca
-      - ['12:59:00', 'F00231',   5770] # Zivatar utca
-      - ['13:01:00', 'F00232',   6069] # Margit körút
-      - ['13:03:00', 'F00190',   6565] # Margit híd, budai hídfő H
-      - ['13:06:00', 'F00930',   7414] # Jászai Mari tér
-      - ['13:08:00', 'F01025',   7994] # Nyugati pályaudvar M
+      - ['00:00:00', 'F02464',      0] # Széll Kálmán tér M
+      - ['00:01:00', 'F00427',    835] # Nyúl utca
+      - ['00:02:00', 'F00155',   1071] # Városmajor
+      - ['00:03:00', 'F00159',   1514] # Szent János Kórház
+      - ['00:04:00', 'F00160',   2059] # Nagyajtai utca
+      - ['00:04:00', '009581',   2288] # Gábor Áron utca
+      - ['00:05:00', '009510',   2482] # Pasaréti út
+      - ['00:06:00', '009509',   2819] # Orló utca
+      - ['00:07:00', '009514',   3141] # Bimbó út
+      - ['00:07:00', 'F00295',   3321] # Endrődi Sándor utca
+      - ['00:08:00', 'F00214',   3816] # Pusztaszeri körönd
+      - ['00:09:00', 'F00218',   4035] # Vend utca
+      - ['00:10:00', 'F00220',   4277] # Cimbalom utca
+      - ['00:11:00', 'F00222',   4777] # Vérhalom tér
+      - ['00:12:00', 'F00224',   5146] # Mandula utca
+      - ['00:14:00', 'F00229',   5493] # Rómer Flóris utca
+      - ['00:15:00', 'F00231',   5770] # Zivatar utca
+      - ['00:16:00', 'F00232',   6069] # Margit körút
+      - ['00:18:00', 'F00190',   6565] # Margit híd, budai hídfő H
+      - ['00:21:00', 'F00930',   7414] # Jászai Mari tér
+      - ['00:23:00', 'F01025',   7994] # Nyugati pályaudvar M
     trip_headsign: Nyugati pályaudvar M
     trip_id: REFERENCE-0910-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0910-1-1-H089
     stop_times:
-      - ['18:05:00', 'F01023',      0] # Nyugati pályaudvar M
-      - ['18:07:00', 'F00929',    692] # Jászai Mari tér
-      - ['18:10:00', 'F00191',   1766] # Margit híd, budai hídfő H
-      - ['18:12:00', 'F00233',   2243] # Apostol utca
-      - ['18:13:00', 'F00230',   2522] # Zivatar utca
-      - ['18:14:00', 'F00228',   2854] # Szemlőhegy utca
-      - ['18:15:00', 'F00223',   3208] # Vérhalom utca
-      - ['18:15:00', 'F00221',   3565] # Vérhalom tér
-      - ['18:16:00', 'F00219',   3997] # Pusztaszeri út
-      - ['18:17:00', 'F00217',   4238] # Vend utca
-      - ['18:18:00', 'F00213',   4472] # Pusztaszeri körönd
-      - ['18:19:00', '009512',   4908] # Endrődi Sándor utca
-      - ['18:20:00', '009513',   5265] # Bimbó út
-      - ['18:21:00', '009508',   5430] # Orló utca
-      - ['18:22:00', '009511',   5775] # Pasaréti út
-      - ['18:23:00', '009540',   5962] # Szilágyi Erzsébet fasor
-      - ['18:25:00', 'F00162',   6195] # Nagyajtai utca
-      - ['18:26:00', 'F00410',   6903] # Szent János Kórház
-      - ['18:27:00', 'F00158',   7199] # Városmajor
-      - ['18:29:00', 'F00428',   7600] # Nyúl utca
-      - ['18:31:00', 'F02468',   8009] # Széll Kálmán tér M
+      - ['00:00:00', 'F01023',      0] # Nyugati pályaudvar M
+      - ['00:02:00', 'F00929',    692] # Jászai Mari tér
+      - ['00:06:00', 'F00191',   1766] # Margit híd, budai hídfő H
+      - ['00:08:00', 'F00233',   2243] # Apostol utca
+      - ['00:10:00', 'F00230',   2522] # Zivatar utca
+      - ['00:11:00', 'F00228',   2854] # Szemlőhegy utca
+      - ['00:12:00', 'F00223',   3208] # Vérhalom utca
+      - ['00:13:00', 'F00221',   3565] # Vérhalom tér
+      - ['00:14:00', 'F00219',   3997] # Pusztaszeri út
+      - ['00:15:00', 'F00217',   4238] # Vend utca
+      - ['00:16:00', 'F00213',   4472] # Pusztaszeri körönd
+      - ['00:17:00', '009512',   4908] # Endrődi Sándor utca
+      - ['00:18:00', '009513',   5265] # Bimbó út
+      - ['00:19:00', '009508',   5430] # Orló utca
+      - ['00:20:00', '009511',   5775] # Pasaréti út
+      - ['00:21:00', '009540',   5962] # Szilágyi Erzsébet fasor
+      - ['00:23:00', 'F00162',   6195] # Nagyajtai utca
+      - ['00:24:00', 'F00410',   6903] # Szent János Kórház
+      - ['00:25:00', 'F00158',   7199] # Városmajor
+      - ['00:27:00', 'F00428',   7600] # Nyúl utca
+      - ['00:29:00', 'F02468',   8009] # Széll Kálmán tér M
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-0910-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

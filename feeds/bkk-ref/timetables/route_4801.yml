@@ -13,45 +13,45 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-4801-0-1-G762
     stop_times:
-      - ['18:38:00', '009162',      0] # Keleti pályaudvar M
-      - ['18:39:00', '009161',     95] # Keleti pályaudvar M (Kerepesi út)
-      - ['18:40:00', 'F01251',    658] # Arena Plaza
-      - ['18:41:00', 'F01183',   1077] # Gumigyár
-      - ['18:44:00', 'F01321',   2035] # Puskás Ferenc Stadion M (Hungária körút)
-      - ['18:47:00', 'F01738',   2548] # Várna utca
-      - ['18:48:00', 'F02929',   2861] # Pillangó utca
-      - ['18:50:00', 'F02747',   3328] # Róna utca
-      - ['18:51:00', 'F02931',   3625] # Kaffka Margit utca
-      - ['18:52:00', 'F02751',   3812] # Pongrátz Gergely tér
-      - ['18:53:00', 'F02936',   4276] # Mályva utca
-      - ['18:55:00', 'F02786',   4669] # Vezér utca
-      - ['18:56:00', 'F02783',   4924] # Fischer István utca
-      - ['18:57:00', 'F02781',   5273] # Zsálya utca
-      - ['18:58:00', 'F02935',   5453] # Adóhivatal
-      - ['18:59:00', 'F02777',   5662] # Csertő utca
+      - ['00:00:00', '009162',      0] # Keleti pályaudvar M
+      - ['00:01:00', '009161',     95] # Keleti pályaudvar M (Kerepesi út)
+      - ['00:02:00', 'F01251',    658] # Arena Plaza
+      - ['00:03:00', 'F01183',   1077] # Gumigyár
+      - ['00:06:00', 'F01321',   2035] # Puskás Ferenc Stadion M (Hungária körút)
+      - ['00:08:00', 'F01738',   2548] # Várna utca
+      - ['00:09:00', 'F02929',   2861] # Pillangó utca
+      - ['00:10:00', 'F02747',   3328] # Róna utca
+      - ['00:11:00', 'F02931',   3625] # Kaffka Margit utca
+      - ['00:12:00', 'F02751',   3812] # Pongrátz Gergely tér
+      - ['00:13:00', 'F02936',   4276] # Mályva utca
+      - ['00:14:00', 'F02786',   4669] # Vezér utca
+      - ['00:15:00', 'F02783',   4924] # Fischer István utca
+      - ['00:16:00', 'F02781',   5273] # Zsálya utca
+      - ['00:17:00', 'F02935',   5453] # Adóhivatal
+      - ['00:18:00', 'F02777',   5662] # Csertő utca
     trip_headsign: Csertő utca
     trip_id: REFERENCE-4801-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-4801-1-1-G763
     stop_times:
-      - ['14:51:00', 'F02779',      0] # Csertő utca
-      - ['14:52:00', 'F02934',    192] # Adóhivatal
-      - ['14:52:00', 'F02782',    367] # Zsálya utca
-      - ['14:53:00', 'F02784',    838] # Fischer István utca
-      - ['14:54:00', 'F02789',   1126] # Vezér utca
-      - ['14:55:00', 'F02937',   1503] # Mályva utca
-      - ['14:57:00', 'F02750',   1867] # Pongrátz Gergely tér
-      - ['14:58:00', 'F02930',   2074] # Kaffka Margit utca
-      - ['14:59:00', 'F02746',   2374] # Róna utca
-      - ['15:01:00', 'F02928',   2850] # Pillangó utca
-      - ['15:02:00', 'F01737',   3151] # Várna utca
-      - ['15:04:00', 'F01735',   3426] # Őrnagy utca
-      - ['15:07:00', '008545',   3831] # Puskás Ferenc Stadion M
-      - ['15:09:00', 'F01182',   4679] # Gumigyár
-      - ['15:10:00', 'F01250',   5130] # Arena Plaza
-      - ['15:12:00', '009162',   5656] # Keleti pályaudvar M
+      - ['00:00:00', 'F02779',      0] # Csertő utca
+      - ['00:01:00', 'F02934',    192] # Adóhivatal
+      - ['00:01:00', 'F02782',    367] # Zsálya utca
+      - ['00:02:00', 'F02784',    838] # Fischer István utca
+      - ['00:03:00', 'F02789',   1126] # Vezér utca
+      - ['00:04:00', 'F02937',   1503] # Mályva utca
+      - ['00:06:00', 'F02750',   1867] # Pongrátz Gergely tér
+      - ['00:07:00', 'F02930',   2074] # Kaffka Margit utca
+      - ['00:08:00', 'F02746',   2374] # Róna utca
+      - ['00:09:00', 'F02928',   2850] # Pillangó utca
+      - ['00:10:00', 'F01737',   3151] # Várna utca
+      - ['00:12:00', 'F01735',   3426] # Őrnagy utca
+      - ['00:15:00', '008545',   3831] # Puskás Ferenc Stadion M
+      - ['00:17:00', 'F01182',   4679] # Gumigyár
+      - ['00:18:00', 'F01250',   5130] # Arena Plaza
+      - ['00:20:00', '009162',   5656] # Keleti pályaudvar M
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-4801-1-1
     wheelchair_accessible: 2

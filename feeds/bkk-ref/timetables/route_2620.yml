@@ -13,20 +13,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2620-0-1-M095
     stop_times:
-      - ['20:57:00', '011723',      0] # Rákoskeresztúr, városközpont
-      - ['20:58:00', 'F03475',    727] # Szárny utca
-      - ['20:59:00', 'F03477',   1428] # Szabadság sugárút
-      - ['21:00:00', 'F03478',   1890] # Lemberg utca
-      - ['21:01:00', 'F03487',   2241] # Csabagyöngye utca
-      - ['21:02:00', 'F03567',   2660] # Óvónő utca
-      - ['21:03:00', 'F03490',   3079] # Alsódabas utca
-      - ['21:04:00', 'F03493',   3698] # Regélő utca
-      - ['21:05:00', 'F03602',   4045] # Császárfa utca
-      - ['21:05:00', 'F03495',   4324] # Nagyszentmiklósi út
-      - ['21:06:00', '008948',   4633] # Kucorgó tér
-      - ['21:07:00', 'F03586',   5254] # Rózsaszál utca
-      - ['21:09:00', 'F03507',   5835] # Rákoskert sugárút
-      - ['21:10:00', 'F03571',   6297] # Erzsébet körút
+      - ['00:00:00', '011723',      0] # Rákoskeresztúr, városközpont
+      - ['00:01:00', 'F03475',    727] # Szárny utca
+      - ['00:02:00', 'F03477',   1428] # Szabadság sugárút
+      - ['00:03:00', 'F03478',   1890] # Lemberg utca
+      - ['00:04:00', 'F03487',   2241] # Csabagyöngye utca
+      - ['00:05:00', 'F03567',   2660] # Óvónő utca
+      - ['00:06:00', 'F03490',   3079] # Alsódabas utca
+      - ['00:07:00', 'F03493',   3698] # Regélő utca
+      - ['00:08:00', 'F03602',   4045] # Császárfa utca
+      - ['00:09:00', 'F03495',   4324] # Nagyszentmiklósi út
+      - ['00:10:00', '008948',   4633] # Kucorgó tér
+      - ['00:11:00', 'F03586',   5254] # Rózsaszál utca
+      - ['00:12:00', 'F03507',   5835] # Rákoskert sugárút
+      - ['00:14:00', 'F03571',   6297] # Erzsébet körút
     trip_headsign: Erzsébet körút
     trip_id: REFERENCE-2620-0-1
     wheelchair_accessible: 2
@@ -34,23 +34,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2620-1-1-M099
     stop_times:
-      - ['11:45:00', 'F03571',      0] # Erzsébet körút
-      - ['11:46:00', 'F03505',    565] # Sáránd utca
-      - ['11:47:00', 'F03502',    924] # Pesti út
-      - ['11:48:00', 'F03500',   1289] # Nyomdász utca
-      - ['11:48:00', 'F03568',   1541] # Nyomdok utca
-      - ['11:49:00', 'F03574',   1861] # Olcsva utca
-      - ['11:50:00', '009482',   2307] # Kucorgó tér
-      - ['11:51:00', 'F03496',   2668] # Nagyszentmiklósi út
-      - ['11:52:00', 'F03603',   2941] # Császárfa utca
-      - ['11:53:00', 'F03494',   3295] # Regélő utca
-      - ['11:54:00', 'F03489',   4027] # Alsódabas utca
-      - ['11:55:00', 'F03566',   4434] # Óvónő utca
-      - ['11:55:00', 'F03486',   4718] # Lemberg utca
-      - ['11:57:00', 'F03479',   5184] # Péceli út
-      - ['11:57:00', 'F03476',   5510] # Szabadság sugárút
-      - ['11:59:00', 'F03474',   6218] # Szárny utca
-      - ['12:00:00', '011726',   7097] # Rákoskeresztúr, városközpont
+      - ['00:00:00', 'F03571',      0] # Erzsébet körút
+      - ['00:01:00', 'F03505',    565] # Sáránd utca
+      - ['00:01:00', 'F03502',    924] # Pesti út
+      - ['00:02:00', 'F03500',   1289] # Nyomdász utca
+      - ['00:03:00', 'F03568',   1541] # Nyomdok utca
+      - ['00:03:00', 'F03574',   1861] # Olcsva utca
+      - ['00:04:00', '009482',   2307] # Kucorgó tér
+      - ['00:05:00', 'F03496',   2668] # Nagyszentmiklósi út
+      - ['00:06:00', 'F03603',   2941] # Császárfa utca
+      - ['00:07:00', 'F03494',   3295] # Regélő utca
+      - ['00:08:00', 'F03489',   4027] # Alsódabas utca
+      - ['00:08:00', 'F03566',   4434] # Óvónő utca
+      - ['00:09:00', 'F03486',   4718] # Lemberg utca
+      - ['00:10:00', 'F03479',   5184] # Péceli út
+      - ['00:11:00', 'F03476',   5510] # Szabadság sugárút
+      - ['00:12:00', 'F03474',   6218] # Szárny utca
+      - ['00:13:00', '011726',   7097] # Rákoskeresztúr, városközpont
     trip_headsign: 'Rákoskeresztúr, vkp. (metró felé)'
     trip_id: REFERENCE-2620-1-1
     wheelchair_accessible: 1

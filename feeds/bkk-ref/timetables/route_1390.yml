@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Széll Kálmán tér M / Gazdagréti tér
+route_desc: Széll Kálmán tér M (Várfok utca) / Gazdagréti tér
 route_id: 1390
 route_long_name: ''
 route_short_name: 139
@@ -13,45 +13,45 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1390-0-1-U149
     stop_times:
-      - ['06:50:00', 'F02470',      0] # Széll Kálmán tér M (Várfok utca)
-      - ['06:52:00', 'F00023',    872] # Déli pályaudvar M
-      - ['06:54:00', 'F00017',   1317] # Királyhágó utca
-      - ['06:55:00', 'F02310',   1726] # Tartsay Vilmos utca
-      - ['06:57:00', 'F02165',   2176] # BAH-csomópont (Alkotás utca)
-      - ['06:58:00', 'F02174',   2789] # Muskotály köz
-      - ['07:00:00', 'F02114',   3352] # Fehérló utca
-      - ['07:01:00', 'F02053',   4311] # Dayka Gábor utca
-      - ['07:02:00', 'F01926',   4776] # Sasadi út
-      - ['07:03:00', 'F01928',   5231] # Nagyszeben út
-      - ['07:04:00', 'F01931',   5708] # Gazdagréti út
-      - ['07:05:00', 'F02055',   6227] # Nagyszeben tér
-      - ['07:06:00', 'F02243',   6495] # Regős köz
-      - ['07:07:00', 'F02058',   6812] # Törökugrató utca
-      - ['07:08:00', 'F02060',   7079] # Torbágy utca
-      - ['07:09:00', 'F02072',   7316] # Tűzkő utca
-      - ['07:10:00', '008567',   7853] # Gazdagréti tér
+      - ['00:00:00', 'F02470',      0] # Széll Kálmán tér M (Várfok utca)
+      - ['00:02:00', 'F00023',    872] # Déli pályaudvar M
+      - ['00:04:00', 'F00017',   1317] # Királyhágó utca
+      - ['00:05:00', 'F02310',   1726] # Tartsay Vilmos utca
+      - ['00:07:00', 'F02165',   2176] # BAH-csomópont (Alkotás utca)
+      - ['00:09:00', 'F02174',   2789] # Muskotály köz
+      - ['00:11:00', 'F02114',   3352] # Fehérló utca
+      - ['00:13:00', 'F02053',   4311] # Dayka Gábor utca
+      - ['00:15:00', 'F01926',   4776] # Sasadi út
+      - ['00:16:00', 'F01928',   5231] # Nagyszeben út
+      - ['00:17:00', 'F01931',   5708] # Gazdagréti út
+      - ['00:18:00', 'F02055',   6227] # Nagyszeben tér
+      - ['00:19:00', 'F02243',   6495] # Regős köz
+      - ['00:20:00', 'F02058',   6812] # Törökugrató utca
+      - ['00:21:00', 'F02060',   7079] # Torbágy utca
+      - ['00:22:00', 'F02072',   7316] # Tűzkő utca
+      - ['00:24:00', '008567',   7853] # Gazdagréti tér
     trip_headsign: Gazdagréti tér
     trip_id: REFERENCE-1390-0-1
     wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-1390-1-1-U150
+    shape_id: REFERENCE-1390-1-1-J953
     stop_times:
-      - ['19:04:00', 'F02226',      0] # Gazdagréti tér
-      - ['19:05:00', 'F02071',    504] # Tűzkő utca
-      - ['19:06:00', 'F02059',    817] # Torbágy utca
-      - ['19:07:00', 'F02057',   1015] # Törökugrató utca
-      - ['19:08:00', 'F02242',   1338] # Regős köz
-      - ['19:09:00', 'F02056',   1602] # Nagyszeben tér
-      - ['19:11:00', 'F01929',   2351] # Neszmélyi út
-      - ['19:13:00', 'F01927',   3175] # Sasadi út
-      - ['19:14:00', 'F02054',   3610] # Dayka Gábor utca
-      - ['19:16:00', 'F02113',   4571] # Fehérló utca
-      - ['19:19:00', 'F02169',   5567] # BAH-csomópont (Budaörsi út)
-      - ['19:21:00', 'F02311',   6203] # Tartsay Vilmos utca
-      - ['19:22:00', 'F00014',   6429] # Márvány utca
-      - ['19:24:00', 'F00022',   7011] # Déli pályaudvar M
-      - ['19:26:00', 'F02470',   7774] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', 'F02226',      0] # Gazdagréti tér
+      - ['00:01:00', 'F02071',    504] # Tűzkő utca
+      - ['00:02:00', 'F02059',    817] # Torbágy utca
+      - ['00:02:00', 'F02057',   1015] # Törökugrató utca
+      - ['00:03:00', 'F02242',   1338] # Regős köz
+      - ['00:04:00', 'F02056',   1602] # Nagyszeben tér
+      - ['00:05:00', 'F01929',   2351] # Neszmélyi út
+      - ['00:07:00', 'F01927',   3175] # Sasadi út
+      - ['00:08:00', '00:09:00', 'F02054',   3610] # Dayka Gábor utca
+      - ['00:10:00', 'F02113',   4571] # Fehérló utca
+      - ['00:12:00', 'F02169',   5567] # BAH-csomópont (Budaörsi út)
+      - ['00:14:00', 'F02311',   6203] # Tartsay Vilmos utca
+      - ['00:15:00', 'F00014',   6429] # Márvány utca
+      - ['00:17:00', 'F00022',   7011] # Déli pályaudvar M
+      - ['00:19:00', 'F02470',   7774] # Széll Kálmán tér M (Várfok utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-1390-1-1
     wheelchair_accessible: 2

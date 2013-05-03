@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Rákospalota-Újpest vasútállomás / Újpest-Városkapu M
+route_desc: Rákospalota-Újpest vasútállomás / Újpest-Városkapu M (Temesvári utca)
 route_id: 1210
 route_long_name: ''
 route_short_name: 121
@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1210-0-1-0803
     stop_times:
-      - ['16:43:00', 'F00811',      0] # Újpest-Városkapu M (Temesvári utca)
-      - ['16:44:00', 'F00813',    515] # Aradi utca
-      - ['16:46:00', 'F00817',    982] # Tél utca
-      - ['16:47:00', 'F00879',   1426] # Erzsébet utca
-      - ['16:48:00', 'F00829',   1785] # Rózsa utca
-      - ['16:48:00', 'F00831',   2052] # Istvántelki út
-      - ['16:49:00', 'F00888',   2382] # Ősz utca
-      - ['16:51:00', 'F00840',   2936] # Árpád út
-      - ['16:52:00', 'F00841',   3282] # Kiss János utca
-      - ['16:53:00', 'F00853',   3513] # Görgey Artúr út
-      - ['16:54:00', 'F00847',   3887] # Rákospalota-Újpest vasútállomás
+      - ['00:00:00', 'F00811',      0] # Újpest-Városkapu M (Temesvári utca)
+      - ['00:01:00', 'F00813',    515] # Aradi utca
+      - ['00:03:00', 'F00817',    982] # Tél utca
+      - ['00:04:00', 'F00879',   1426] # Erzsébet utca
+      - ['00:05:00', 'F00829',   1785] # Rózsa utca
+      - ['00:05:00', 'F00831',   2052] # Istvántelki út
+      - ['00:06:00', 'F00888',   2382] # Ősz utca
+      - ['00:08:00', 'F00840',   2936] # Árpád út
+      - ['00:09:00', 'F00841',   3282] # Kiss János utca
+      - ['00:10:00', 'F00853',   3513] # Görgey Artúr út
+      - ['00:11:00', 'F00847',   3887] # Rákospalota-Újpest vasútállomás
     trip_headsign: Rákospalota-Újpest vasútállomás
     trip_id: REFERENCE-1210-0-1
     wheelchair_accessible: 2
@@ -31,16 +31,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1210-1-1-0802
     stop_times:
-      - ['09:46:00', 'F00843',      0] # Rákospalota-Újpest vasútállomás
-      - ['09:46:00', 'F00842',    134] # Árpád út
-      - ['09:48:00', 'F00838',    642] # Víztorony
-      - ['09:50:00', 'F00887',   1256] # Ősz utca
-      - ['09:51:00', 'F00830',   1599] # Elem utca
-      - ['09:52:00', 'F00828',   1990] # Tél utca
-      - ['09:53:00', 'F00878',   2377] # Erzsébet utca
-      - ['09:54:00', 'F00816',   2730] # Kassai utca
-      - ['09:56:00', 'F00812',   3395] # Csányi László utca
-      - ['09:58:00', 'F00811',   3764] # Újpest-Városkapu M (Temesvári utca)
+      - ['00:00:00', 'F00843',      0] # Rákospalota-Újpest vasútállomás
+      - ['00:00:00', 'F00842',    134] # Árpád út
+      - ['00:02:00', 'F00838',    642] # Víztorony
+      - ['00:03:00', 'F00887',   1256] # Ősz utca
+      - ['00:04:00', 'F00830',   1599] # Elem utca
+      - ['00:06:00', 'F00828',   1990] # Tél utca
+      - ['00:07:00', 'F00878',   2377] # Erzsébet utca
+      - ['00:08:00', 'F00816',   2730] # Kassai utca
+      - ['00:10:00', 'F00812',   3395] # Csányi László utca
+      - ['00:11:00', 'F00811',   3764] # Újpest-Városkapu M (Temesvári utca)
     trip_headsign: Újpest-Városkapu M
     trip_id: REFERENCE-1210-1-1
     wheelchair_accessible: 2

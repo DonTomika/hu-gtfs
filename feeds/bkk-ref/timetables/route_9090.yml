@@ -13,43 +13,43 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9090-0-1-A155
     stop_times:
-      - ['24:59:00', 'F00950',      0] # Deák Ferenc tér M
-      - ['25:00:00', 'F01012',    424] # Astoria M
-      - ['25:02:00', 'F01007',   1099] # Kálvin tér M
-      - ['25:03:00', 'F01174',   1365] # Szentkirályi utca
-      - ['25:04:00', 'F01205',   1808] # Harminckettesek tere
-      - ['25:05:00', 'F01208',   2251] # Horváth Mihály tér
-      - ['25:06:00', 'F01177',   2541] # Koszorú utca
-      - ['25:07:00', 'F01224',   2858] # Kálvária tér
-      - ['25:09:00', 'F01218',   3383] # Orczy tér
-      - ['25:10:00', '008037',   4277] # Kőbányai út 31.
-      - ['25:12:00', 'F01270',   4655] # Könyves Kálmán körút
-      - ['25:13:00', 'F01269',   4964] # Kőbányai út
-      - ['25:14:00', '008912',   5528] # Hidegkuti Nándor Stadion
-      - ['25:15:00', '008917',   5819] # Kőbányai garázs
-      - ['25:16:00', 'F01559',   6393] # Pongrácz úti lakótelep
-      - ['25:17:00', 'F01725',   6976] # Kistorony park
-      - ['25:18:00', 'F01570',   7300] # Kőbánya alsó vasútállomás
-      - ['25:20:00', 'F01642',   7787] # Liget tér
-      - ['25:21:00', 'F01651',   7990] # Szent László tér
-      - ['25:22:00', 'F01629',   8651] # Harmat utca
-      - ['25:26:00', 'F01628',   9014] # Élessarok
-      - ['25:27:00', 'F01621',   9477] # Sörgyár
-      - ['25:28:00', 'F01675',  10084] # Gitár utca
-      - ['25:29:00', 'F01671',  10880] # Csősztorony
-      - ['25:30:00', 'F01838',  11221] # Szlávy utca
-      - ['25:31:00', 'F01685',  11613] # Kada utca
-      - ['25:32:00', 'F01701',  12060] # Lavotta utca
-      - ['25:33:00', 'F01699',  12393] # Sibrik Miklós út
-      - ['25:34:00', 'F01841',  12690] # Újhegyi sétány
-      - ['25:34:00', 'F01714',  12936] # Tavas utca
-      - ['25:35:00', 'F01695',  13299] # Mélytó utca
-      - ['25:36:00', 'F01844',  13627] # Bányató utca
-      - ['25:37:00', '008863',  14002] # Gőzmozdony utca
-      - ['25:37:00', 'F01694',  14303] # Gergely utca (Sibrik Miklós út)
-      - ['25:38:00', 'F01583',  14655] # Felüljáró
-      - ['25:39:00', '043176',  15085] # Kőbánya-Kispest M
-      - ['25:42:00', 'F03948',  16194] # Kispest, Kossuth tér
+      - ['00:00:00', 'F00950',      0] # Deák Ferenc tér M
+      - ['00:01:00', 'F01012',    424] # Astoria M
+      - ['00:03:00', 'F01007',   1099] # Kálvin tér M
+      - ['00:04:00', 'F01174',   1365] # Szentkirályi utca
+      - ['00:05:00', 'F01205',   1808] # Harminckettesek tere
+      - ['00:06:00', 'F01208',   2251] # Horváth Mihály tér
+      - ['00:07:00', 'F01177',   2541] # Koszorú utca
+      - ['00:08:00', 'F01224',   2858] # Kálvária tér
+      - ['00:10:00', 'F01218',   3383] # Orczy tér
+      - ['00:11:00', '008037',   4277] # Kőbányai út 31.
+      - ['00:13:00', 'F01270',   4655] # Könyves Kálmán körút
+      - ['00:14:00', 'F01269',   4964] # Kőbányai út
+      - ['00:15:00', '008912',   5528] # Hidegkuti Nándor Stadion
+      - ['00:16:00', '008917',   5819] # Kőbányai garázs
+      - ['00:17:00', 'F01559',   6393] # Pongrácz úti lakótelep
+      - ['00:18:00', 'F01725',   6976] # Kistorony park
+      - ['00:19:00', 'F01570',   7300] # Kőbánya alsó vasútállomás
+      - ['00:21:00', 'F01642',   7787] # Liget tér
+      - ['00:22:00', 'F01651',   7990] # Szent László tér
+      - ['00:23:00', 'F01629',   8651] # Harmat utca
+      - ['00:27:00', 'F01628',   9014] # Élessarok
+      - ['00:28:00', 'F01621',   9477] # Sörgyár
+      - ['00:29:00', 'F01675',  10084] # Gitár utca
+      - ['00:30:00', 'F01671',  10880] # Csősztorony
+      - ['00:31:00', 'F01838',  11221] # Szlávy utca
+      - ['00:32:00', 'F01685',  11613] # Kada utca
+      - ['00:33:00', 'F01701',  12060] # Lavotta utca
+      - ['00:34:00', 'F01699',  12393] # Sibrik Miklós út
+      - ['00:35:00', 'F01841',  12690] # Újhegyi sétány
+      - ['00:35:00', 'F01714',  12936] # Tavas utca
+      - ['00:36:00', 'F01695',  13299] # Mélytó utca
+      - ['00:37:00', 'F01844',  13627] # Bányató utca
+      - ['00:38:00', '008863',  14002] # Gőzmozdony utca
+      - ['00:38:00', 'F01694',  14303] # Gergely utca (Sibrik Miklós út)
+      - ['00:39:00', 'F01583',  14655] # Felüljáró
+      - ['00:40:00', '043176',  15085] # Kőbánya-Kispest M
+      - ['00:43:00', 'F03948',  16194] # Kispest, Kossuth tér
     trip_headsign: 'Kispest, Kossuth tér'
     trip_id: REFERENCE-9090-0-1
     wheelchair_accessible: 2
@@ -57,43 +57,43 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9090-1-1-A156
     stop_times:
-      - ['23:47:00', 'F03948',      0] # Kispest, Kossuth tér
-      - ['23:48:00', 'F03950',    334] # Simonyi Zsigmond utca
-      - ['23:49:00', 'F03942',    594] # Sós utca
-      - ['23:50:00', 'F03941',   1069] # Kőbánya-Kispest M
-      - ['23:51:00', 'F01584',   1486] # Felüljáró (Gyömrői út)
-      - ['23:52:00', 'F01693',   1914] # Gergely utca (Sibrik Miklós út)
-      - ['23:53:00', 'F01843',   2535] # Bányató utca
-      - ['23:54:00', 'F01696',   2965] # Mélytó utca
-      - ['23:55:00', 'F01842',   3305] # Újhegyi sétány
-      - ['23:55:00', 'F01700',   3580] # Sibrik Miklós út
-      - ['23:56:00', 'F01705',   3929] # Mádi utca
-      - ['23:57:00', 'F01703',   4235] # Lavotta utca
-      - ['23:58:00', 'F01683',   4660] # Kada utca
-      - ['23:59:00', 'F01837',   5028] # Kocka utca
-      - ['23:59:00', 'F01672',   5305] # Téglavető utca
-      - ['24:01:00', '008915',   6324] # Jászberényi út
-      - ['24:06:00', 'F01622',   6810] # Sörgyár
-      - ['24:07:00', 'F01627',   7230] # Élessarok
-      - ['24:08:00', 'F01828',   7655] # Ónodi utca
-      - ['24:09:00', 'F01648',   8099] # Szent László tér
-      - ['24:10:00', 'F01641',   8347] # Liget tér
-      - ['24:11:00', 'F01569',   8700] # Kőbánya alsó vasútállomás
-      - ['24:12:00', 'F01726',   9103] # Kistorony park
-      - ['24:13:00', 'F01560',   9564] # Pongrácz úti lakótelep
-      - ['24:14:00', '008916',  10136] # Kőbányai garázs
-      - ['24:16:00', 'F01272',  10654] # Hidegkuti Nándor Stadion
-      - ['24:17:00', 'F01267',  11060] # Könyves Kálmán körút
-      - ['24:18:00', '008036',  11284] # Kőbányai út 31.
-      - ['24:20:00', 'F01187',  12340] # Orczy tér
-      - ['24:21:00', 'F01223',  12751] # Kálvária tér
-      - ['24:22:00', 'F01176',  13177] # Koszorú utca
-      - ['24:23:00', 'F01207',  13404] # Horváth Mihály tér
-      - ['24:24:00', 'F01204',  13811] # Harminckettesek tere
-      - ['24:25:00', 'F01175',  14151] # Szentkirályi utca
-      - ['24:26:00', 'F01010',  14634] # Kálvin tér M
-      - ['24:27:00', 'F01013',  15130] # Astoria M
-      - ['24:29:00', '009309',  15628] # Deák Ferenc tér M
+      - ['00:00:00', 'F03948',      0] # Kispest, Kossuth tér
+      - ['00:01:00', 'F03950',    334] # Simonyi Zsigmond utca
+      - ['00:02:00', 'F03942',    594] # Sós utca
+      - ['00:03:00', 'F03941',   1069] # Kőbánya-Kispest M
+      - ['00:04:00', 'F01584',   1486] # Felüljáró (Gyömrői út)
+      - ['00:05:00', 'F01693',   1914] # Gergely utca (Sibrik Miklós út)
+      - ['00:06:00', 'F01843',   2535] # Bányató utca
+      - ['00:07:00', 'F01696',   2965] # Mélytó utca
+      - ['00:08:00', 'F01842',   3305] # Újhegyi sétány
+      - ['00:08:00', 'F01700',   3580] # Sibrik Miklós út
+      - ['00:09:00', 'F01705',   3929] # Mádi utca
+      - ['00:10:00', 'F01703',   4235] # Lavotta utca
+      - ['00:11:00', 'F01683',   4660] # Kada utca
+      - ['00:12:00', 'F01837',   5028] # Kocka utca
+      - ['00:12:00', 'F01672',   5305] # Téglavető utca
+      - ['00:14:00', '008915',   6324] # Jászberényi út
+      - ['00:19:00', 'F01622',   6810] # Sörgyár
+      - ['00:20:00', 'F01627',   7230] # Élessarok
+      - ['00:21:00', 'F01828',   7655] # Ónodi utca
+      - ['00:22:00', 'F01648',   8099] # Szent László tér
+      - ['00:23:00', 'F01641',   8347] # Liget tér
+      - ['00:24:00', 'F01569',   8700] # Kőbánya alsó vasútállomás
+      - ['00:25:00', 'F01726',   9103] # Kistorony park
+      - ['00:26:00', 'F01560',   9564] # Pongrácz úti lakótelep
+      - ['00:27:00', '008916',  10136] # Kőbányai garázs
+      - ['00:29:00', 'F01272',  10654] # Hidegkuti Nándor Stadion
+      - ['00:30:00', 'F01267',  11060] # Könyves Kálmán körút
+      - ['00:31:00', '008036',  11284] # Kőbányai út 31.
+      - ['00:33:00', 'F01187',  12340] # Orczy tér
+      - ['00:34:00', 'F01223',  12751] # Kálvária tér
+      - ['00:35:00', 'F01176',  13177] # Koszorú utca
+      - ['00:36:00', 'F01207',  13404] # Horváth Mihály tér
+      - ['00:37:00', 'F01204',  13811] # Harminckettesek tere
+      - ['00:38:00', 'F01175',  14151] # Szentkirályi utca
+      - ['00:39:00', 'F01010',  14634] # Kálvin tér M
+      - ['00:40:00', 'F01013',  15130] # Astoria M
+      - ['00:42:00', '009309',  15628] # Deák Ferenc tér M
     trip_headsign: Deák Ferenc tér M
     trip_id: REFERENCE-9090-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

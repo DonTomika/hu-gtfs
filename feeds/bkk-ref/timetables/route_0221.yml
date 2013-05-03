@@ -13,27 +13,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0221-0-1-R309
     stop_times:
-      - ['13:19:00', 'F02466',      0] # Széll Kálmán tér M
-      - ['13:21:00', 'F00155',    971] # Városmajor
-      - ['13:22:00', 'F00159',   1414] # Szent János Kórház
-      - ['13:25:00', 'F00164',   2339] # Budagyöngye
-      - ['13:26:00', 'F00168',   2721] # Szépilona
-      - ['13:27:00', 'F00171',   3463] # Kuruclesi út
-      - ['13:28:00', 'F00147',   3744] # Labanc út
-      - ['13:29:00', '007877',   4025] # Bíróság
-      - ['13:30:00', 'F00173',   4386] # Vízművek
-      - ['13:31:00', 'F00149',   4790] # Dénes utca
-      - ['13:32:00', 'F00175',   5327] # Bölcsőde
-      - ['13:33:00', 'F00177',   5600] # Irén utca
-      - ['13:34:00', 'F00179',   6092] # Szépjuhászné, Gyermekvasút
-      - ['13:35:00', 'F00181',   6643] # Laktanya
-      - ['13:37:00', 'F00183',   7323] # Országos Korányi TBC Intézet
-      - ['13:38:00', 'F00115',   7647] # Szanatórium utca (Vadaspark)
-      - ['13:39:00', 'F04682',   8072] # Erkel Ferenc utca
-      - ['13:40:00', 'F04684',   8573] # Gyógyszertár
-      - ['13:41:00', 'F04708',   8972] # Budakeszi, városháza
-      - ['13:42:00', 'F04733',   9224] # Erdő utca
-      - ['13:43:00', 'F04790',   9699] # Budakeszi, Dózsa György tér
+      - ['00:00:00', 'F02466',      0] # Széll Kálmán tér M
+      - ['00:02:00', 'F00155',    971] # Városmajor
+      - ['00:03:00', 'F00159',   1414] # Szent János Kórház
+      - ['00:04:00', 'F00164',   2339] # Budagyöngye
+      - ['00:05:00', 'F00168',   2721] # Szépilona
+      - ['00:06:00', 'F00171',   3463] # Kuruclesi út
+      - ['00:06:00', 'F00147',   3744] # Labanc út
+      - ['00:07:00', '007877',   4025] # Bíróság
+      - ['00:08:00', 'F00173',   4386] # Vízművek
+      - ['00:09:00', 'F00149',   4790] # Dénes utca
+      - ['00:10:00', 'F00175',   5327] # Bölcsőde
+      - ['00:10:00', 'F00177',   5600] # Irén utca
+      - ['00:11:00', 'F00179',   6092] # Szépjuhászné, Gyermekvasút
+      - ['00:12:00', 'F00181',   6643] # Laktanya
+      - ['00:13:00', 'F00183',   7323] # Országos Korányi TBC Intézet
+      - ['00:14:00', 'F00115',   7647] # Szanatórium utca (Vadaspark)
+      - ['00:15:00', 'F04682',   8072] # Erkel Ferenc utca
+      - ['00:16:00', 'F04684',   8573] # Gyógyszertár
+      - ['00:17:00', 'F04708',   8972] # Budakeszi, városháza
+      - ['00:18:00', 'F04733',   9224] # Erdő utca
+      - ['00:19:00', 'F04790',   9699] # Budakeszi, Dózsa György tér
     trip_headsign: 'Budakeszi, Dózsa György tér'
     trip_id: REFERENCE-0221-0-1
     wheelchair_accessible: 2
@@ -41,28 +41,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0221-1-1-R308
     stop_times:
-      - ['07:59:00', 'F04788',      0] # Budakeszi, Dózsa György tér
-      - ['07:59:00', '044381',     79] # Dózsa György tér
-      - ['07:59:00', 'F04734',    455] # Erdő utca
-      - ['08:00:00', 'F04709',    761] # Budakeszi, városháza
-      - ['08:01:00', 'F04685',   1186] # Gyógyszertár
-      - ['08:02:00', 'F04683',   1552] # Erkel Ferenc utca
-      - ['08:04:00', 'F00116',   2037] # Szanatórium utca (Vadaspark)
-      - ['08:05:00', 'F00184',   2345] # Országos Korányi TBC Intézet
-      - ['08:06:00', 'F00182',   3085] # Laktanya
-      - ['08:07:00', 'F00180',   3642] # Szépjuhászné, Gyermekvasút
-      - ['08:08:00', 'F00178',   4113] # Irén utca
-      - ['08:08:00', 'F00176',   4350] # Bölcsőde
-      - ['08:09:00', 'F00150',   4889] # Dénes utca
-      - ['08:10:00', 'F00174',   5330] # Vízművek
-      - ['08:10:00', '007878',   5689] # Bíróság
-      - ['08:11:00', 'F00148',   5919] # Labanc út
-      - ['08:12:00', 'F00172',   6193] # Kuruclesi út
-      - ['08:13:00', 'F00169',   6835] # Szépilona
-      - ['08:14:00', 'F00166',   7240] # Budagyöngye
-      - ['08:17:00', 'F00410',   8439] # Szent János Kórház
-      - ['08:18:00', 'F00158',   8735] # Városmajor
-      - ['08:21:00', 'F00422',   9635] # Széll Kálmán tér M
+      - ['00:00:00', 'F04788',      0] # Budakeszi, Dózsa György tér
+      - ['00:00:00', '044381',     79] # Dózsa György tér
+      - ['00:01:00', 'F04734',    455] # Erdő utca
+      - ['00:02:00', 'F04709',    761] # Budakeszi, városháza
+      - ['00:03:00', 'F04685',   1186] # Gyógyszertár
+      - ['00:04:00', 'F04683',   1552] # Erkel Ferenc utca
+      - ['00:05:00', 'F00116',   2037] # Szanatórium utca (Vadaspark)
+      - ['00:06:00', 'F00184',   2345] # Országos Korányi TBC Intézet
+      - ['00:07:00', 'F00182',   3085] # Laktanya
+      - ['00:08:00', 'F00180',   3642] # Szépjuhászné, Gyermekvasút
+      - ['00:09:00', 'F00178',   4113] # Irén utca
+      - ['00:10:00', 'F00176',   4350] # Bölcsőde
+      - ['00:11:00', 'F00150',   4889] # Dénes utca
+      - ['00:12:00', 'F00174',   5330] # Vízművek
+      - ['00:13:00', '007878',   5689] # Bíróság
+      - ['00:14:00', 'F00148',   5919] # Labanc út
+      - ['00:15:00', 'F00172',   6193] # Kuruclesi út
+      - ['00:16:00', 'F00169',   6835] # Szépilona
+      - ['00:17:00', 'F00166',   7240] # Budagyöngye
+      - ['00:19:00', 'F00410',   8439] # Szent János Kórház
+      - ['00:19:00', 'F00158',   8735] # Városmajor
+      - ['00:21:00', 'F00422',   9635] # Széll Kálmán tér M
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-0221-1-1
     wheelchair_accessible: 2

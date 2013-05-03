@@ -13,51 +13,51 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0530-0-1-C569
     stop_times:
-      - ['13:05:00', '009570',      0] # Újbuda-központ
-      - ['13:07:00', 'F02182',    642] # Kosztolányi Dezső tér
-      - ['13:08:00', 'F02123',    909] # Vincellér utca
-      - ['13:09:00', 'F02262',   1326] # Hollókő utca
-      - ['13:11:00', 'F02052',   1772] # Ajnácskő utca
-      - ['13:12:00', 'F02053',   2408] # Dayka Gábor utca
-      - ['13:14:00', 'F01926',   2873] # Sasadi út
-      - ['13:15:00', 'F02094',   3338] # Sümegvár utca
-      - ['13:16:00', 'F02246',   3579] # Előpatak utca
-      - ['13:17:00', 'F02093',   3927] # Háromszék utca
-      - ['13:18:00', 'F02091',   4263] # Nagyszalonta köz
-      - ['13:19:00', 'F02089',   4533] # Tömös utca
-      - ['13:20:00', 'F02086',   4826] # Zajzon utca
-      - ['13:21:00', 'F02083',   5057] # Márton Áron tér
-      - ['13:22:00', 'F02365',   5376] # Orvosi rendelő
-      - ['13:22:00', 'F02278',   5613] # Hajnalka utca
-      - ['13:23:00', 'F02276',   5794] # Hó utca
-      - ['13:24:00', 'F02274',   6093] # Mindszenty József bíboros tér
+      - ['00:00:00', '009570',      0] # Újbuda-központ
+      - ['00:02:00', 'F02182',    642] # Kosztolányi Dezső tér
+      - ['00:03:00', 'F02123',    909] # Vincellér utca
+      - ['00:04:00', 'F02262',   1326] # Hollókő utca
+      - ['00:06:00', 'F02052',   1772] # Ajnácskő utca
+      - ['00:07:00', 'F02053',   2408] # Dayka Gábor utca
+      - ['00:08:00', 'F01926',   2873] # Sasadi út
+      - ['00:09:00', 'F02094',   3338] # Sümegvár utca
+      - ['00:10:00', 'F02246',   3579] # Előpatak utca
+      - ['00:11:00', 'F02093',   3927] # Háromszék utca
+      - ['00:12:00', 'F02091',   4263] # Nagyszalonta köz
+      - ['00:13:00', 'F02089',   4533] # Tömös utca
+      - ['00:14:00', 'F02086',   4826] # Zajzon utca
+      - ['00:15:00', 'F02083',   5057] # Márton Áron tér
+      - ['00:16:00', 'F02365',   5376] # Orvosi rendelő
+      - ['00:16:00', 'F02278',   5613] # Hajnalka utca
+      - ['00:17:00', 'F02276',   5794] # Hó utca
+      - ['00:18:00', 'F02274',   6093] # Mindszenty József bíboros tér
     trip_headsign: Mindszenty József bíboros tér
     trip_id: REFERENCE-0530-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0530-1-1-C570
     stop_times:
-      - ['09:00:00', 'F02274',      0] # Mindszenty József bíboros tér
-      - ['09:00:00', 'F02275',    220] # Hó utca
-      - ['09:01:00', 'F02277',    435] # Hajnalka utca
-      - ['09:01:00', 'F02364',    676] # Orvosi rendelő
-      - ['09:02:00', 'F02081',    895] # Márton Áron tér
-      - ['09:03:00', 'F02087',   1245] # Talaj köz
-      - ['09:04:00', 'F02088',   1439] # Cseresznye utca
-      - ['09:05:00', 'F02090',   1788] # Nagyszalonta köz
-      - ['09:06:00', 'F02092',   2182] # Bereck utca
-      - ['09:06:00', 'F02247',   2477] # Előpatak utca
-      - ['09:07:00', 'F02095',   2765] # Haraszt utca
-      - ['09:08:00', 'F01925',   3069] # Budaörsi út
-      - ['09:11:00', 'F01927',   4301] # Sasadi út
-      - ['09:12:00', 'F02054',   4736] # Dayka Gábor utca
-      - ['09:13:00', 'F02051',   5376] # Nagyszőlős utca
-      - ['09:15:00', 'F02261',   5762] # Hollókő utca
-      - ['09:16:00', 'F02124',   6249] # Vincellér utca
-      - ['09:18:00', 'F02180',   6739] # Kosztolányi Dezső tér
-      - ['09:19:00', 'F01995',   7156] # Újbuda-központ
-      - ['09:21:00', '009570',   7562] # Újbuda-központ
+      - ['00:00:00', 'F02274',      0] # Mindszenty József bíboros tér
+      - ['00:00:00', 'F02275',    220] # Hó utca
+      - ['00:01:00', 'F02277',    435] # Hajnalka utca
+      - ['00:01:00', 'F02364',    676] # Orvosi rendelő
+      - ['00:02:00', 'F02081',    895] # Márton Áron tér
+      - ['00:03:00', 'F02087',   1245] # Talaj köz
+      - ['00:04:00', 'F02088',   1439] # Cseresznye utca
+      - ['00:05:00', 'F02090',   1788] # Nagyszalonta köz
+      - ['00:06:00', 'F02092',   2182] # Bereck utca
+      - ['00:06:00', 'F02247',   2477] # Előpatak utca
+      - ['00:07:00', 'F02095',   2765] # Haraszt utca
+      - ['00:08:00', 'F01925',   3069] # Budaörsi út
+      - ['00:11:00', 'F01927',   4301] # Sasadi út
+      - ['00:12:00', 'F02054',   4736] # Dayka Gábor utca
+      - ['00:13:00', 'F02051',   5376] # Nagyszőlős utca
+      - ['00:15:00', 'F02261',   5762] # Hollókő utca
+      - ['00:16:00', 'F02124',   6249] # Vincellér utca
+      - ['00:18:00', 'F02180',   6739] # Kosztolányi Dezső tér
+      - ['00:19:00', 'F01995',   7156] # Újbuda-központ
+      - ['00:21:00', '009570',   7562] # Újbuda-központ
     trip_headsign: Újbuda-központ
     trip_id: REFERENCE-0530-1-1
     wheelchair_accessible: 2

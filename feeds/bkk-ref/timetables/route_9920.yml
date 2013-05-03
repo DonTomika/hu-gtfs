@@ -13,33 +13,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9920-0-1-Q607
     stop_times:
-      - ['24:45:00', 'F03289',      0] # Cinkotai autóbuszgarázs
-      - ['24:47:00', 'F03338',   1075] # Erdei bekötőút
-      - ['24:50:00', 'F03336',   2119] # Nagytarcsai út
-      - ['24:51:00', 'F03327',   2976] # Vidámvásár utca (Georgina utca)
-      - ['24:53:00', '044125',   3460] # Cinkota H
-      - ['24:54:00', '008775',   4396] # Ilonatelep H
-      - ['24:56:00', 'F03405',   5225] # Cinkotai köztemető
-      - ['24:57:00', 'F03284',   6207] # Raktárak
-      - ['24:59:00', 'F04584',   6851] # Kistarcsa, kórház H
-      - ['25:01:00', '009000',   8390] # Kistarcsa H
-      - ['25:04:00', '009002',   9525] # Kerepes H
-      - ['25:06:00', '009004',  10818] # Szilasligeti elágazás
-      - ['25:08:00', '009007',  12622] # Szilasliget, Posta
-      - ['25:09:00', '009009',  13156] # Szilasliget, Wesselényi utca
-      - ['25:10:00', '009011',  13541] # Szilasliget, Szondi utca
-      - ['25:11:00', '009013',  14093] # Szilasliget, Kemping
-      - ['25:12:00', '009012',  14564] # Szilasliget, Szondi utca
-      - ['25:12:00', '009010',  14970] # Szilasliget, Wesselényi utca
-      - ['25:13:00', '009008',  15506] # Szilasliget, Posta
-      - ['25:16:00', '009005',  17284] # Kerepes, Szabadság útja
-      - ['25:24:00', '009014',  22194] # Szentjakab H
-      - ['25:26:00', '009022',  23344] # Mogyoród H
-      - ['25:27:00', '009015',  24508] # Szentjakab H
-      - ['25:35:00', '009016',  30027] # Gödöllő, Szökőkút
-      - ['25:35:00', '009018',  30389] # Gödöllő, Szabadság tér H
-      - ['25:36:00', '009019',  30995] # Gödöllő, Palotakert H
-      - ['25:38:00', '009021',  31808] # Gödöllő H
+      - ['00:00:00', 'F03289',      0] # Cinkotai autóbuszgarázs
+      - ['00:02:00', 'F03338',   1075] # Erdei bekötőút
+      - ['00:05:00', 'F03336',   2119] # Nagytarcsai út
+      - ['00:06:00', 'F03327',   2976] # Vidámvásár utca (Georgina utca)
+      - ['00:08:00', '044125',   3460] # Cinkota H
+      - ['00:09:00', '008775',   4396] # Ilonatelep H
+      - ['00:11:00', 'F03405',   5225] # Cinkotai köztemető
+      - ['00:12:00', 'F03284',   6207] # Raktárak
+      - ['00:14:00', 'F04584',   6851] # Kistarcsa, kórház H
+      - ['00:16:00', '009000',   8390] # Kistarcsa H
+      - ['00:19:00', '009002',   9525] # Kerepes H
+      - ['00:21:00', '009004',  10818] # Szilasligeti elágazás
+      - ['00:23:00', '009007',  12622] # Szilasliget, Posta
+      - ['00:24:00', '009009',  13156] # Szilasliget, Wesselényi utca
+      - ['00:25:00', '009011',  13541] # Szilasliget, Szondi utca
+      - ['00:26:00', '009013',  14093] # Szilasliget, Kemping
+      - ['00:27:00', '009012',  14564] # Szilasliget, Szondi utca
+      - ['00:27:00', '009010',  14970] # Szilasliget, Wesselényi utca
+      - ['00:28:00', '009008',  15506] # Szilasliget, Posta
+      - ['00:31:00', '009005',  17284] # Kerepes, Szabadság útja
+      - ['00:39:00', '009014',  22194] # Szentjakab H
+      - ['00:41:00', '009022',  23344] # Mogyoród H
+      - ['00:42:00', '009015',  24508] # Szentjakab H
+      - ['00:50:00', '009016',  30027] # Gödöllő, Szökőkút
+      - ['00:50:00', '009018',  30389] # Gödöllő, Szabadság tér H
+      - ['00:51:00', '009019',  30995] # Gödöllő, Palotakert H
+      - ['00:53:00', '009021',  31808] # Gödöllő H
     trip_headsign: Gödöllő H
     trip_id: REFERENCE-9920-0-1
     wheelchair_accessible: 2
@@ -47,32 +47,32 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9920-1-1-Q608
     stop_times:
-      - ['26:50:00', '009021',      0] # Gödöllő H
-      - ['26:51:00', '009020',    734] # Gödöllő, Palotakert H
-      - ['26:52:00', '009017',   1643] # Gödöllő, Szabadság tér H
-      - ['27:00:00', '009014',   7071] # Szentjakab H
-      - ['27:02:00', '009022',   8221] # Mogyoród H
-      - ['27:03:00', '009015',   9385] # Szentjakab H
-      - ['27:11:00', '009006',  14236] # Szilasligeti elágazás
-      - ['27:14:00', '009007',  16032] # Szilasliget, Posta
-      - ['27:15:00', '009009',  16566] # Szilasliget, Wesselényi utca
-      - ['27:15:00', '009011',  16951] # Szilasliget, Szondi utca
-      - ['27:16:00', '009013',  17503] # Szilasliget, Kemping
-      - ['27:17:00', '009012',  17974] # Szilasliget, Szondi utca
-      - ['27:17:00', '009010',  18380] # Szilasliget, Wesselényi utca
-      - ['27:18:00', '009008',  18916] # Szilasliget, Posta
-      - ['27:21:00', '009005',  20694] # Kerepes, Szabadság útja
-      - ['27:24:00', '009003',  22225] # Kerepes H
-      - ['27:25:00', '009001',  23160] # Kistarcsa H
-      - ['27:28:00', 'F04584',  24822] # Kistarcsa, kórház H
-      - ['27:30:00', 'F03285',  25896] # Raktárak
-      - ['27:31:00', 'F03406',  26812] # Cinkotai köztemető
-      - ['27:33:00', 'F03334',  27575] # Ilonatelep H
-      - ['27:35:00', '008920',  28682] # Cinkota H
-      - ['27:36:00', 'F03328',  29474] # Georgina utca
-      - ['27:37:00', 'F03335',  30146] # Simongát utca
-      - ['27:40:00', 'F03337',  31262] # Erdei bekötőút
-      - ['27:43:00', '008181',  32392] # Cinkotai autóbuszgarázs
+      - ['00:00:00', '009021',      0] # Gödöllő H
+      - ['00:01:00', '009020',    734] # Gödöllő, Palotakert H
+      - ['00:02:00', '009017',   1643] # Gödöllő, Szabadság tér H
+      - ['00:10:00', '009014',   7071] # Szentjakab H
+      - ['00:12:00', '009022',   8221] # Mogyoród H
+      - ['00:13:00', '009015',   9385] # Szentjakab H
+      - ['00:21:00', '009006',  14236] # Szilasligeti elágazás
+      - ['00:24:00', '009007',  16032] # Szilasliget, Posta
+      - ['00:25:00', '009009',  16566] # Szilasliget, Wesselényi utca
+      - ['00:25:00', '009011',  16951] # Szilasliget, Szondi utca
+      - ['00:26:00', '009013',  17503] # Szilasliget, Kemping
+      - ['00:27:00', '009012',  17974] # Szilasliget, Szondi utca
+      - ['00:27:00', '009010',  18380] # Szilasliget, Wesselényi utca
+      - ['00:28:00', '009008',  18916] # Szilasliget, Posta
+      - ['00:31:00', '009005',  20694] # Kerepes, Szabadság útja
+      - ['00:34:00', '009003',  22225] # Kerepes H
+      - ['00:35:00', '009001',  23160] # Kistarcsa H
+      - ['00:38:00', 'F04584',  24822] # Kistarcsa, kórház H
+      - ['00:40:00', 'F03285',  25896] # Raktárak
+      - ['00:41:00', 'F03406',  26812] # Cinkotai köztemető
+      - ['00:43:00', 'F03334',  27575] # Ilonatelep H
+      - ['00:45:00', '008920',  28682] # Cinkota H
+      - ['00:46:00', 'F03328',  29474] # Georgina utca
+      - ['00:47:00', 'F03335',  30146] # Simongát utca
+      - ['00:50:00', 'F03337',  31262] # Erdei bekötőút
+      - ['00:53:00', '008181',  32392] # Cinkotai autóbuszgarázs
     trip_headsign: Cinkotai autóbuszgarázs
     trip_id: REFERENCE-9920-1-1
     wheelchair_accessible: 2

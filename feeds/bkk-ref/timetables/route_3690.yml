@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3690-0-1-1245
     stop_times:
-      - ['18:05:00', 'F03149',      0] # Újpalota, Erdőkerülő utca
-      - ['18:06:00', 'F03156',    461] # Fő tér
-      - ['18:08:00', 'F03162',    818] # Vásárcsarnok
-      - ['18:10:00', 'F03191',   1293] # Sárfű utca
-      - ['18:12:00', 'F03110',   2008] # Szerencs utca
-      - ['18:14:00', 'F03103',   2789] # Rákospalota, MÁV-telep
-      - ['18:15:00', 'F03205',   3240] # Tóth István utca
-      - ['18:17:00', 'F02858',   3755] # Öv utca
-      - ['18:18:00', 'F02909',   4048] # Miskolci utca
-      - ['18:20:00', 'F02861',   4476] # Rákospatak utca
-      - ['18:21:00', 'F02947',   4861] # Fűrész utca
-      - ['18:23:00', 'F02865',   5307] # Nagy Lajos király útja
-      - ['18:24:00', 'F02963',   5767] # Laky Adolf utca
-      - ['18:26:00', 'F02880',   6228] # Erzsébet királyné útja, aluljáró
-      - ['18:28:00', '008206',   6453] # Mexikói út M
+      - ['00:00:00', 'F03149',      0] # Újpalota, Erdőkerülő utca
+      - ['00:01:00', 'F03156',    461] # Fő tér
+      - ['00:03:00', 'F03162',    818] # Vásárcsarnok
+      - ['00:05:00', 'F03191',   1293] # Sárfű utca
+      - ['00:07:00', 'F03110',   2008] # Szerencs utca
+      - ['00:09:00', 'F03103',   2789] # Rákospalota, MÁV-telep
+      - ['00:10:00', 'F03205',   3240] # Tóth István utca
+      - ['00:12:00', 'F02858',   3755] # Öv utca
+      - ['00:13:00', 'F02909',   4048] # Miskolci utca
+      - ['00:15:00', 'F02861',   4476] # Rákospatak utca
+      - ['00:16:00', 'F02947',   4861] # Fűrész utca
+      - ['00:18:00', 'F02865',   5307] # Nagy Lajos király útja
+      - ['00:19:00', 'F02963',   5767] # Laky Adolf utca
+      - ['00:21:00', 'F02880',   6228] # Erzsébet királyné útja, aluljáró
+      - ['00:23:00', '008206',   6453] # Mexikói út M
     trip_headsign: Mexikói út M
     trip_id: REFERENCE-3690-0-1
     wheelchair_accessible: 2
@@ -35,21 +35,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3690-1-1-1246
     stop_times:
-      - ['22:26:00', '008206',      0] # Mexikói út M
-      - ['22:27:00', 'F02879',    254] # Erzsébet királyné útja, aluljáró
-      - ['22:29:00', 'F02962',    659] # Laky Adolf utca
-      - ['22:30:00', 'F02866',   1093] # Nagy Lajos király útja
-      - ['22:31:00', 'F02948',   1544] # Fűrész utca
-      - ['22:33:00', 'F02863',   1910] # Rákospatak utca
-      - ['22:34:00', 'F02911',   2377] # Miskolci utca
-      - ['22:35:00', 'F02857',   2659] # Öv utca
-      - ['22:37:00', 'F03206',   3169] # Tóth István utca
-      - ['22:38:00', 'F03102',   3718] # Rákospalota, MÁV-telep
-      - ['22:41:00', 'F03111',   4438] # Szerencs utca
-      - ['22:43:00', 'F03192',   5138] # Sárfű utca
-      - ['22:45:00', 'F03161',   5692] # Vásárcsarnok
-      - ['22:46:00', 'F03155',   6066] # Fő tér
-      - ['22:48:00', 'F03149',   6478] # Újpalota, Erdőkerülő utca
+      - ['00:00:00', '008206',      0] # Mexikói út M
+      - ['00:01:00', 'F02879',    254] # Erzsébet királyné útja, aluljáró
+      - ['00:03:00', 'F02962',    659] # Laky Adolf utca
+      - ['00:05:00', 'F02866',   1093] # Nagy Lajos király útja
+      - ['00:06:00', 'F02948',   1544] # Fűrész utca
+      - ['00:07:00', 'F02863',   1910] # Rákospatak utca
+      - ['00:09:00', 'F02911',   2377] # Miskolci utca
+      - ['00:10:00', 'F02857',   2659] # Öv utca
+      - ['00:12:00', 'F03206',   3169] # Tóth István utca
+      - ['00:14:00', 'F03102',   3718] # Rákospalota, MÁV-telep
+      - ['00:16:00', 'F03111',   4438] # Szerencs utca
+      - ['00:18:00', 'F03192',   5138] # Sárfű utca
+      - ['00:20:00', 'F03161',   5692] # Vásárcsarnok
+      - ['00:21:00', 'F03155',   6066] # Fő tér
+      - ['00:23:00', 'F03149',   6478] # Újpalota, Erdőkerülő utca
     trip_headsign: 'Újpalota, Erdőkerülő utca'
     trip_id: REFERENCE-3690-1-1
     wheelchair_accessible: 2

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: Közvágóhíd H / Bécsi út (Vörösvári út)
+route_desc: Közvágóhíd H / Bécsi út
 route_id: 3010
 route_long_name: ''
 route_short_name: 1
@@ -13,30 +13,30 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3010-0-1-L660
     stop_times:
-      - ['08:07:00', '008265',      0] # Közvágóhíd H
-      - ['08:09:00', '008153',    836] # Mester utca
-      - ['08:11:00', 'F01502',   1195] # Ferencváros vasútállomás
-      - ['08:12:00', 'F01499',   1786] # Gyáli út
-      - ['08:14:00', '008286',   2240] # Népliget M
-      - ['08:16:00', '008147',   2944] # Vajda Péter utca
-      - ['08:18:00', '008149',   3520] # Kőbányai út
-      - ['08:20:00', 'F01275',   4072] # Hidegkuti Nándor Stadion
-      - ['08:21:00', 'F01328',   4650] # Hős utca
-      - ['08:23:00', 'F01323',   5170] # Puskás Ferenc Stadion M
-      - ['08:25:00', 'F02743',   5938] # Egressy út
-      - ['08:27:00', 'F02732',   6534] # Zugló vasútállomás
-      - ['08:28:00', 'F02980',   6908] # Ajtósi Dürer sor
-      - ['08:30:00', 'F02924',   7361] # Erzsébet királyné útja
-      - ['08:31:00', 'F02893',   7717] # Kacsóh Pongrác út
-      - ['08:32:00', 'F02631',   8456] # Reitter Ferenc utca
-      - ['08:34:00', 'F02597',   8887] # Lehel utca
-      - ['08:37:00', 'F02642',   9579] # Honvédkórház
-      - ['08:38:00', 'F02578',   9868] # Árpád híd M
-      - ['08:40:00', 'F02527',  10662] # Népfürdő utca
-      - ['08:43:00', 'F00626',  11756] # Szentlélek tér H
-      - ['08:45:00', 'F00614',  12199] # Flórián tér
-      - ['08:48:00', 'F00586',  12914] # Óbudai rendelőintézet
-      - ['08:50:00', 'F00569',  13348] # Bécsi út
+      - ['00:00:00', '008265',      0] # Közvágóhíd H
+      - ['00:02:00', '008153',    836] # Mester utca
+      - ['00:04:00', 'F01502',   1195] # Ferencváros vasútállomás
+      - ['00:05:00', 'F01499',   1786] # Gyáli út
+      - ['00:07:00', '008286',   2240] # Népliget M
+      - ['00:09:00', '008147',   2944] # Vajda Péter utca
+      - ['00:11:00', '008149',   3520] # Kőbányai út
+      - ['00:13:00', 'F01275',   4072] # Hidegkuti Nándor Stadion
+      - ['00:14:00', 'F01328',   4650] # Hős utca
+      - ['00:16:00', 'F01323',   5170] # Puskás Ferenc Stadion M
+      - ['00:18:00', 'F02743',   5938] # Egressy út
+      - ['00:20:00', 'F02732',   6534] # Zugló vasútállomás
+      - ['00:21:00', 'F02980',   6908] # Ajtósi Dürer sor
+      - ['00:23:00', 'F02924',   7361] # Erzsébet királyné útja
+      - ['00:24:00', 'F02893',   7717] # Kacsóh Pongrác út
+      - ['00:25:00', 'F02631',   8456] # Reitter Ferenc utca
+      - ['00:27:00', 'F02597',   8887] # Lehel utca
+      - ['00:29:00', 'F02642',   9579] # Honvédkórház
+      - ['00:30:00', 'F02578',   9868] # Árpád híd M
+      - ['00:32:00', 'F02527',  10662] # Népfürdő utca
+      - ['00:35:00', 'F00626',  11756] # Szentlélek tér H
+      - ['00:37:00', 'F00614',  12199] # Flórián tér
+      - ['00:40:00', 'F00586',  12914] # Óbudai rendelőintézet
+      - ['00:42:00', 'F00569',  13348] # Bécsi út
     trip_headsign: Bécsi út (Vörösvári út)
     trip_id: REFERENCE-3010-0-1
     wheelchair_accessible: 2
@@ -44,30 +44,30 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3010-1-1-L662
     stop_times:
-      - ['16:47:00', 'F00569',      0] # Bécsi út
-      - ['16:49:00', 'F00587',    588] # Óbudai rendelőintézet
-      - ['16:51:00', 'F00615',   1192] # Flórián tér
-      - ['16:53:00', 'F00629',   1646] # Szentlélek tér H
-      - ['16:56:00', 'F02528',   2743] # Népfürdő utca
-      - ['16:58:00', 'F02600',   3347] # Árpád híd M
-      - ['16:59:00', 'F02643',   3918] # Honvédkórház
-      - ['17:01:00', 'F02596',   4527] # Lehel utca
-      - ['17:02:00', 'F02632',   4937] # Reitter Ferenc utca
-      - ['17:03:00', 'F02894',   5678] # Kacsóh Pongrác út
-      - ['17:05:00', 'F02923',   6027] # Erzsébet királyné útja
-      - ['17:07:00', 'F02979',   6483] # Ajtósi Dürer sor
-      - ['17:09:00', 'F02731',   6870] # Zugló vasútállomás
-      - ['17:11:00', 'F02744',   7453] # Egressy út
-      - ['17:13:00', 'F01322',   8223] # Puskás Ferenc Stadion M
-      - ['17:15:00', 'F01329',   8746] # Hős utca
-      - ['17:17:00', '008262',   9315] # Hidegkuti Nándor Stadion
-      - ['17:19:00', '008148',   9879] # Kőbányai út
-      - ['17:20:00', '008146',  10454] # Vajda Péter utca
-      - ['17:22:00', 'F01286',  11144] # Népliget M
-      - ['17:24:00', 'F01498',  11603] # Gyáli út
-      - ['17:26:00', 'F01503',  12194] # Ferencváros vasútállomás
-      - ['17:28:00', '008152',  12560] # Mester utca
-      - ['17:29:00', '008155',  13410] # Közvágóhíd H
+      - ['00:00:00', 'F00569',      0] # Bécsi út
+      - ['00:02:00', 'F00587',    588] # Óbudai rendelőintézet
+      - ['00:04:00', 'F00615',   1192] # Flórián tér
+      - ['00:06:00', 'F00629',   1646] # Szentlélek tér H
+      - ['00:08:00', 'F02528',   2743] # Népfürdő utca
+      - ['00:10:00', 'F02600',   3347] # Árpád híd M
+      - ['00:11:00', 'F02643',   3918] # Honvédkórház
+      - ['00:13:00', 'F02596',   4527] # Lehel utca
+      - ['00:14:00', 'F02632',   4937] # Reitter Ferenc utca
+      - ['00:15:00', 'F02894',   5678] # Kacsóh Pongrác út
+      - ['00:17:00', 'F02923',   6027] # Erzsébet királyné útja
+      - ['00:19:00', 'F02979',   6483] # Ajtósi Dürer sor
+      - ['00:21:00', 'F02731',   6870] # Zugló vasútállomás
+      - ['00:23:00', 'F02744',   7453] # Egressy út
+      - ['00:25:00', 'F01322',   8223] # Puskás Ferenc Stadion M
+      - ['00:27:00', 'F01329',   8746] # Hős utca
+      - ['00:29:00', '008262',   9315] # Hidegkuti Nándor Stadion
+      - ['00:31:00', '008148',   9879] # Kőbányai út
+      - ['00:32:00', '008146',  10454] # Vajda Péter utca
+      - ['00:34:00', 'F01286',  11144] # Népliget M
+      - ['00:36:00', 'F01498',  11603] # Gyáli út
+      - ['00:38:00', 'F01503',  12194] # Ferencváros vasútállomás
+      - ['00:40:00', '008152',  12560] # Mester utca
+      - ['00:41:00', '008155',  13410] # Közvágóhíd H
     trip_headsign: Közvágóhíd H
     trip_id: REFERENCE-3010-1-1
     wheelchair_accessible: 2

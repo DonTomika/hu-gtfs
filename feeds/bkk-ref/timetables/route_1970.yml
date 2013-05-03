@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1970-0-1-M689
     stop_times:
-      - ['08:01:00', '019313',      0] # Rákoskert vasútállomás
-      - ['08:02:00', 'F03507',    546] # Rákoskert sugárút
-      - ['08:03:00', 'F03571',   1008] # Erzsébet körút
-      - ['08:04:00', 'F03505',   1573] # Sáránd utca
-      - ['08:05:00', 'F03502',   1932] # Pesti út
-      - ['08:06:00', 'F03500',   2297] # Nyomdász utca
-      - ['08:07:00', 'F03568',   2549] # Nyomdok utca
-      - ['08:08:00', 'F03574',   2869] # Olcsva utca
-      - ['08:10:00', '009482',   3315] # Kucorgó tér
-      - ['08:11:00', 'F03586',   3945] # Rózsaszál utca
-      - ['08:12:00', '019314',   4433] # Rákoskert sugárút
-      - ['08:13:00', '019313',   5014] # Rákoskert vasútállomás
+      - ['00:00:00', '019313',      0] # Rákoskert vasútállomás
+      - ['00:01:00', 'F03507',    546] # Rákoskert sugárút
+      - ['00:02:00', 'F03571',   1008] # Erzsébet körút
+      - ['00:03:00', 'F03505',   1573] # Sáránd utca
+      - ['00:04:00', 'F03502',   1932] # Pesti út
+      - ['00:05:00', 'F03500',   2297] # Nyomdász utca
+      - ['00:06:00', 'F03568',   2549] # Nyomdok utca
+      - ['00:06:00', 'F03574',   2869] # Olcsva utca
+      - ['00:07:00', '009482',   3315] # Kucorgó tér
+      - ['00:08:00', 'F03586',   3945] # Rózsaszál utca
+      - ['00:09:00', '019314',   4433] # Rákoskert sugárút
+      - ['00:10:00', '019313',   5014] # Rákoskert vasútállomás
     trip_headsign: Rákoskert vasútállomás
     trip_id: REFERENCE-1970-0-1
     wheelchair_accessible: 1

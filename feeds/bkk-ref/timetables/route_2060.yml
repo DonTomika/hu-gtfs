@@ -13,38 +13,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2060-0-1-H803
     stop_times:
-      - ['16:40:00', 'F01028',      0] # Nyugati pályaudvar M
-      - ['16:42:00', 'F00929',    549] # Jászai Mari tér
-      - ['16:46:00', 'F00237',   1586] # Margit híd, budai hídfő H
-      - ['16:49:00', 'F00247',   2139] # Császár-Komjádi uszoda
-      - ['16:51:00', 'F00245',   2683] # Zsigmond tér
-      - ['16:54:00', 'F00137',   3092] # Kolosy tér
-      - ['16:56:00', 'F00603',   3464] # Nagyszombat utca
-      - ['16:58:00', 'F00604',   3833] # Tímár utca
-      - ['17:00:00', 'F00606',   4235] # Kiscelli utca
-      - ['17:02:00', 'F00611',   4725] # Flórián tér
-      - ['17:03:00', 'F00580',   4989] # Raktár utca
-      - ['17:05:00', 'F00573',   5734] # Óbuda, Bogdáni út
+      - ['00:00:00', 'F01028',      0] # Nyugati pályaudvar M
+      - ['00:01:00', 'F00929',    549] # Jászai Mari tér
+      - ['00:04:00', 'F00237',   1586] # Margit híd, budai hídfő H
+      - ['00:06:00', 'F00247',   2139] # Császár-Komjádi uszoda
+      - ['00:08:00', 'F00245',   2683] # Zsigmond tér
+      - ['00:09:00', 'F00137',   3092] # Kolosy tér
+      - ['00:10:00', 'F00603',   3464] # Nagyszombat utca
+      - ['00:11:00', 'F00604',   3833] # Tímár utca
+      - ['00:12:00', 'F00606',   4235] # Kiscelli utca
+      - ['00:14:00', 'F00611',   4725] # Flórián tér
+      - ['00:15:00', 'F00580',   4989] # Raktár utca
+      - ['00:17:00', 'F00573',   5734] # Óbuda, Bogdáni út
     trip_headsign: 'Óbuda, Bogdáni út'
     trip_id: REFERENCE-2060-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2060-1-1-H802
     stop_times:
-      - ['12:52:00', 'F00575',      0] # Óbuda, Bogdáni út
-      - ['12:53:00', 'F00577',    264] # Bogdáni út
-      - ['12:54:00', 'F00583',    691] # Raktár utca
-      - ['12:55:00', 'F00612',    997] # Flórián tér
-      - ['12:56:00', 'F00607',   1309] # Kiscelli utca
-      - ['12:58:00', 'F00605',   1859] # Tímár utca
-      - ['13:00:00', 'F00602',   2335] # Galagonya utca
-      - ['13:02:00', 'F00138',   2690] # Kolosy tér
-      - ['13:03:00', 'F00246',   3022] # Zsigmond tér
-      - ['13:05:00', 'F00248',   3529] # Császár-Komjádi uszoda
-      - ['13:06:00', 'F00235',   4013] # Margit híd, budai hídfő H
-      - ['13:10:00', 'F00930',   5228] # Jászai Mari tér
-      - ['13:12:00', 'F01025',   5808] # Nyugati pályaudvar M
+      - ['00:00:00', 'F00575',      0] # Óbuda, Bogdáni út
+      - ['00:01:00', 'F00577',    264] # Bogdáni út
+      - ['00:02:00', 'F00583',    691] # Raktár utca
+      - ['00:03:00', 'F00612',    997] # Flórián tér
+      - ['00:04:00', 'F00607',   1309] # Kiscelli utca
+      - ['00:05:00', 'F00605',   1859] # Tímár utca
+      - ['00:07:00', 'F00602',   2335] # Galagonya utca
+      - ['00:08:00', 'F00138',   2690] # Kolosy tér
+      - ['00:09:00', 'F00246',   3022] # Zsigmond tér
+      - ['00:10:00', 'F00248',   3529] # Császár-Komjádi uszoda
+      - ['00:11:00', 'F00235',   4013] # Margit híd, budai hídfő H
+      - ['00:15:00', 'F00930',   5228] # Jászai Mari tér
+      - ['00:17:00', 'F01025',   5808] # Nyugati pályaudvar M
     trip_headsign: Nyugati pályaudvar M
     trip_id: REFERENCE-2060-1-1
     wheelchair_accessible: 2

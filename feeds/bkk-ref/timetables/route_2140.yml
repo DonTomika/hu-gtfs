@@ -13,67 +13,67 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2140-0-1-Q354
     stop_times:
-      - ['07:58:00', 'F02185',      0] # Kosztolányi Dezső tér
-      - ['08:00:00', 'F02044',    704] # Tétényi út
-      - ['08:01:00', 'F02035',   1095] # Szent Imre Kórház
-      - ['08:02:00', 'F02033',   1287] # Tétényi út 39.
-      - ['08:04:00', 'F01959',   1534] # Kelenföld, városközpont
-      - ['08:06:00', 'F02008',   2317] # Hengermalom út
-      - ['08:08:00', 'F02015',   3027] # Andor utca
-      - ['08:10:00', 'F02021',   3941] # Építész utca
-      - ['08:12:00', 'F02027',   4404] # Fonyód utca
-      - ['08:12:00', 'F02030',   4640] # Budafok kocsiszín
-      - ['08:15:00', 'F04383',   5619] # Leányka utcai lakótelep
-      - ['08:16:00', 'F04402',   6075] # Savoyai Jenő tér
-      - ['08:17:00', 'F04403',   6367] # Városház tér
-      - ['08:18:00', 'F04408',   6931] # Tóth József utca
-      - ['08:19:00', 'F04436',   7858] # Vágóhíd utca
-      - ['08:20:00', 'F04433',   8352] # Háros vasútállomás
-      - ['08:21:00', 'F04432',   8878] # Háros utca
-      - ['08:22:00', 'F04453',   9335] # Jókai Mór utca
-      - ['08:24:00', 'F04456',   9724] # Lépcsős utca
-      - ['08:26:00', 'F04457',  10431] # Budatétényi sorompó
-      - ['08:27:00', 'F04468',  11011] # Dózsa György út
-      - ['08:27:00', 'F04512',  11324] # IV. utca
-      - ['08:28:00', 'F04470',  11763] # VIII. utca
-      - ['08:29:00', 'F04473',  12051] # X. utca
-      - ['08:30:00', 'F04475',  12460] # XIII. utca
-      - ['08:31:00', 'F04514',  12771] # XVI. utca
-      - ['08:32:00', 'F04476',  13276] # Baross Gábor-telep, Ispiláng utca
+      - ['00:00:00', 'F02185',      0] # Kosztolányi Dezső tér
+      - ['00:02:00', 'F02044',    704] # Tétényi út
+      - ['00:03:00', 'F02035',   1095] # Szent Imre Kórház
+      - ['00:04:00', 'F02033',   1287] # Tétényi út 39.
+      - ['00:06:00', 'F01959',   1534] # Kelenföld, városközpont
+      - ['00:08:00', 'F02008',   2317] # Hengermalom út
+      - ['00:10:00', 'F02015',   3027] # Andor utca
+      - ['00:12:00', 'F02021',   3941] # Építész utca
+      - ['00:14:00', 'F02027',   4404] # Fonyód utca
+      - ['00:14:00', 'F02030',   4640] # Budafok kocsiszín
+      - ['00:17:00', 'F04383',   5619] # Leányka utcai lakótelep
+      - ['00:18:00', 'F04402',   6075] # Savoyai Jenő tér
+      - ['00:19:00', 'F04403',   6367] # Városház tér
+      - ['00:20:00', 'F04408',   6931] # Tóth József utca
+      - ['00:21:00', 'F04436',   7858] # Vágóhíd utca
+      - ['00:22:00', 'F04433',   8352] # Háros vasútállomás
+      - ['00:23:00', 'F04432',   8878] # Háros utca
+      - ['00:24:00', 'F04453',   9335] # Jókai Mór utca
+      - ['00:26:00', 'F04456',   9724] # Lépcsős utca
+      - ['00:28:00', 'F04457',  10431] # Budatétényi sorompó
+      - ['00:29:00', 'F04468',  11005] # Dózsa György út
+      - ['00:29:00', 'F04512',  11318] # IV. utca
+      - ['00:30:00', 'F04470',  11757] # VIII. utca
+      - ['00:31:00', 'F04473',  12045] # X. utca
+      - ['00:32:00', 'F04475',  12454] # XIII. utca
+      - ['00:33:00', 'F04514',  12765] # XVI. utca
+      - ['00:34:00', 'F04476',  13270] # Baross Gábor-telep, Ispiláng utca
     trip_headsign: 'Baross Gábor-telep, Ispiláng utca'
     trip_id: REFERENCE-2140-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2140-1-1-Q353
     stop_times:
-      - ['11:38:00', 'F04476',      0] # Baross Gábor-telep, Ispiláng utca
-      - ['11:39:00', 'F04513',    545] # XVI. utca
-      - ['11:39:00', 'F04474',    875] # Dózsa György út
-      - ['11:40:00', 'F04472',   1280] # Bem tábornok utca
-      - ['11:41:00', 'F04471',   1577] # Szent László utca
-      - ['11:42:00', 'F04511',   1945] # Tátra utca
-      - ['11:43:00', 'F04469',   2286] # Dráva utca
-      - ['11:44:00', 'F04458',   2968] # Budatétényi sorompó
-      - ['11:45:00', 'F04455',   3643] # Lépcsős utca
-      - ['11:47:00', 'F04454',   4016] # Jókai Mór utca
-      - ['11:49:00', 'F04431',   4465] # Háros utca
-      - ['11:50:00', 'F04434',   5040] # Háros vasútállomás
-      - ['11:51:00', 'F04435',   5454] # Vágóhíd utca
-      - ['11:53:00', 'F04407',   6356] # Tóth József utca
-      - ['11:55:00', 'F04406',   6960] # Városház tér
-      - ['11:56:00', 'F04398',   7300] # Savoyai Jenő tér
-      - ['11:57:00', 'F04384',   7622] # Leányka utcai lakótelep
-      - ['11:59:00', 'F02028',   8701] # Budafok kocsiszín
-      - ['12:00:00', 'F02026',   8957] # Fonyód utca
-      - ['12:01:00', 'F02022',   9353] # Építész utca
-      - ['12:03:00', 'F02012',  10400] # Andor utca
-      - ['12:06:00', 'F02006',  11178] # Fehérvári út (Hengermalom út)
-      - ['12:07:00', 'F01958',  11799] # Kelenföld, városközpont
-      - ['12:08:00', 'F02032',  12032] # Tétényi út 30.
-      - ['12:09:00', 'F02034',  12370] # Szent Imre Kórház
-      - ['12:10:00', 'F02048',  12876] # Hamzsabégi út
-      - ['12:12:00', 'F02231',  13295] # Kosztolányi Dezső tér
+      - ['00:00:00', 'F04476',      0] # Baross Gábor-telep, Ispiláng utca
+      - ['00:01:00', 'F04513',    545] # XVI. utca
+      - ['00:01:00', 'F04474',    875] # Dózsa György út
+      - ['00:02:00', 'F04472',   1280] # Bem tábornok utca
+      - ['00:03:00', 'F04471',   1577] # Szent László utca
+      - ['00:04:00', 'F04511',   1945] # Tátra utca
+      - ['00:05:00', 'F04469',   2286] # Dráva utca
+      - ['00:06:00', 'F04458',   2968] # Budatétényi sorompó
+      - ['00:07:00', 'F04455',   3643] # Lépcsős utca
+      - ['00:09:00', 'F04454',   4016] # Jókai Mór utca
+      - ['00:11:00', 'F04431',   4465] # Háros utca
+      - ['00:12:00', 'F04434',   5040] # Háros vasútállomás
+      - ['00:13:00', 'F04435',   5454] # Vágóhíd utca
+      - ['00:15:00', 'F04407',   6356] # Tóth József utca
+      - ['00:17:00', 'F04406',   6960] # Városház tér
+      - ['00:18:00', 'F04398',   7300] # Savoyai Jenő tér
+      - ['00:19:00', 'F04384',   7622] # Leányka utcai lakótelep
+      - ['00:21:00', 'F02028',   8701] # Budafok kocsiszín
+      - ['00:22:00', 'F02026',   8957] # Fonyód utca
+      - ['00:23:00', 'F02022',   9353] # Építész utca
+      - ['00:25:00', 'F02012',  10400] # Andor utca
+      - ['00:28:00', 'F02006',  11178] # Fehérvári út (Hengermalom út)
+      - ['00:29:00', 'F01958',  11799] # Kelenföld, városközpont
+      - ['00:30:00', 'F02032',  12032] # Tétényi út 30.
+      - ['00:31:00', 'F02034',  12370] # Szent Imre Kórház
+      - ['00:32:00', 'F02048',  12876] # Hamzsabégi út
+      - ['00:34:00', 'F02231',  13295] # Kosztolányi Dezső tér
     trip_headsign: Kosztolányi Dezső tér
     trip_id: REFERENCE-2140-1-1
     wheelchair_accessible: 2

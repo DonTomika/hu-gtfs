@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Budatétény vasútállomás (Campona) / Uránia
+route_desc: Uránia / Budatétény vasútállomás (Campona)
 route_id: 2335
 route_long_name: ''
 route_short_name: 233E
@@ -13,28 +13,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2335-0-1-K995
     stop_times:
-      - ['17:51:00', 'F01171',      0] # Uránia
-      - ['17:52:00', 'F01017',    346] # Astoria M
-      - ['17:54:00', 'F01004',    668] # Ferenciek tere M
-      - ['17:59:00', 'F02142',   2858] # Szent Gellért tér
-      - ['18:04:00', 'F01986',   3811] # Budafoki út (Szerémi sor)
-      - ['18:07:00', 'F02234',   4919] # Kelenföldi Erőmű
-      - ['18:15:00', 'F04383',   8993] # Leányka utcai lakótelep
-      - ['18:16:00', 'F04402',   9449] # Savoyai Jenő tér
-      - ['18:17:00', 'F04403',   9741] # Városház tér
-      - ['18:19:00', 'F04436',  11232] # Vágóhíd utca
-      - ['18:19:00', 'F04433',  11726] # Háros vasútállomás
-      - ['18:20:00', 'F04432',  12252] # Háros utca
-      - ['18:21:00', 'F04453',  12709] # Jókai Mór utca
-      - ['18:22:00', 'F04456',  13098] # Lépcsős utca
-      - ['18:24:00', 'F04457',  13805] # Budatétényi sorompó
-      - ['18:25:00', 'F04459',  14139] # Tűzliliom utca
-      - ['18:26:00', 'F04461',  14336] # Rákóczi út
-      - ['18:27:00', 'F04463',  14663] # Terv utca
-      - ['18:28:00', '011313',  15089] # VII. utca
-      - ['18:29:00', 'F04511',  15353] # Tátra utca
-      - ['18:30:00', 'F04469',  15694] # Dráva utca
-      - ['18:33:00', '007999',  16788] # Budatétény vasútállomás (Campona)
+      - ['00:00:00', 'F01171',      0] # Uránia
+      - ['00:01:00', 'F01017',    346] # Astoria M
+      - ['00:03:00', 'F01004',    668] # Ferenciek tere M
+      - ['00:06:00', 'F02142',   2858] # Szent Gellért tér
+      - ['00:08:00', 'F01986',   3811] # Budafoki út (Szerémi sor)
+      - ['00:11:00', 'F02234',   4919] # Kelenföldi Erőmű
+      - ['00:19:00', 'F04383',   8993] # Leányka utcai lakótelep
+      - ['00:20:00', 'F04402',   9449] # Savoyai Jenő tér
+      - ['00:21:00', 'F04403',   9741] # Városház tér
+      - ['00:23:00', 'F04436',  11232] # Vágóhíd utca
+      - ['00:23:00', 'F04433',  11726] # Háros vasútállomás
+      - ['00:24:00', 'F04432',  12252] # Háros utca
+      - ['00:25:00', 'F04453',  12709] # Jókai Mór utca
+      - ['00:26:00', 'F04456',  13098] # Lépcsős utca
+      - ['00:28:00', 'F04457',  13805] # Budatétényi sorompó
+      - ['00:29:00', 'F04459',  14139] # Tűzliliom utca
+      - ['00:30:00', 'F04461',  14336] # Rákóczi út
+      - ['00:31:00', 'F04463',  14663] # Terv utca
+      - ['00:32:00', '011313',  15089] # VII. utca
+      - ['00:33:00', 'F04511',  15353] # Tátra utca
+      - ['00:34:00', 'F04469',  15694] # Dráva utca
+      - ['00:37:00', '007999',  16788] # Budatétény vasútállomás (Campona)
     trip_headsign: Budatétény vasútállomás (Campona)
     trip_id: REFERENCE-2335-0-1
     wheelchair_accessible: 2
@@ -42,21 +42,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2335-0-2-L882
     stop_times:
-      - ['07:50:00', 'F01171',      0] # Uránia
-      - ['07:51:00', 'F01017',    346] # Astoria M
-      - ['07:53:00', 'F01004',    668] # Ferenciek tere M
-      - ['07:58:00', 'F02142',   2858] # Szent Gellért tér
-      - ['08:01:00', 'F01986',   3811] # Budafoki út (Szerémi sor)
-      - ['08:04:00', 'F02234',   4919] # Kelenföldi Erőmű
-      - ['08:12:00', 'F04383',   8993] # Leányka utcai lakótelep
-      - ['08:13:00', 'F04402',   9449] # Savoyai Jenő tér
-      - ['08:14:00', 'F04403',   9741] # Városház tér
-      - ['08:16:00', 'F04436',  11232] # Vágóhíd utca
-      - ['08:17:00', 'F04433',  11726] # Háros vasútállomás
-      - ['08:18:00', 'F04432',  12252] # Háros utca
-      - ['08:19:00', 'F04453',  12709] # Jókai Mór utca
-      - ['08:20:00', 'F04456',  13098] # Lépcsős utca
-      - ['08:22:00', '007999',  13428] # Budatétény vasútállomás (Campona)
+      - ['00:00:00', 'F01171',      0] # Uránia
+      - ['00:01:00', 'F01017',    346] # Astoria M
+      - ['00:03:00', 'F01004',    668] # Ferenciek tere M
+      - ['00:06:00', 'F02142',   2858] # Szent Gellért tér
+      - ['00:08:00', 'F01986',   3811] # Budafoki út (Szerémi sor)
+      - ['00:11:00', 'F02234',   4919] # Kelenföldi Erőmű
+      - ['00:19:00', 'F04383',   8993] # Leányka utcai lakótelep
+      - ['00:20:00', 'F04402',   9449] # Savoyai Jenő tér
+      - ['00:21:00', 'F04403',   9741] # Városház tér
+      - ['00:23:00', 'F04436',  11232] # Vágóhíd utca
+      - ['00:23:00', 'F04433',  11726] # Háros vasútállomás
+      - ['00:24:00', 'F04432',  12252] # Háros utca
+      - ['00:25:00', 'F04453',  12709] # Jókai Mór utca
+      - ['00:26:00', 'F04456',  13098] # Lépcsős utca
+      - ['00:28:00', '007999',  13428] # Budatétény vasútállomás (Campona)
     trip_headsign: Budatétény vasútállomás (Campona)
     trip_id: REFERENCE-2335-0-2
     wheelchair_accessible: 2
@@ -64,28 +64,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2335-1-1-D343
     stop_times:
-      - ['07:09:00', '007996',      0] # Budatétény vasútállomás (Campona)
-      - ['07:12:00', 'F04468',   1004] # Dózsa György út
-      - ['07:13:00', 'F04512',   1317] # IV. utca
-      - ['07:14:00', '009390',   1747] # VII. utca
-      - ['07:15:00', 'F04464',   2099] # Terv utca
-      - ['07:16:00', 'F04462',   2456] # Rákóczi út
-      - ['07:17:00', 'F04460',   2607] # Tűzliliom utca
-      - ['07:18:00', 'F04458',   2999] # Budatétényi sorompó
-      - ['07:20:00', 'F04455',   3674] # Lépcsős utca
-      - ['07:22:00', 'F04454',   4047] # Jókai Mór utca
-      - ['07:23:00', 'F04431',   4496] # Háros utca
-      - ['07:25:00', 'F04434',   5071] # Háros vasútállomás
-      - ['07:26:00', 'F04435',   5485] # Vágóhíd utca
-      - ['07:29:00', 'F04406',   6991] # Városház tér
-      - ['07:30:00', 'F04398',   7331] # Savoyai Jenő tér
-      - ['07:32:00', 'F04384',   7653] # Leányka utcai lakótelep
-      - ['07:43:00', 'F02235',  11832] # Kelenföldi Erőmű
-      - ['07:46:00', 'F01991',  12772] # Budafoki út (Szerémi sor)
-      - ['07:51:00', 'F02143',  13899] # Szent Gellért tér
-      - ['07:55:00', 'F00951',  15685] # Ferenciek tere M
-      - ['07:57:00', 'F01016',  16169] # Astoria M
-      - ['07:59:00', 'F01170',  16509] # Uránia
+      - ['00:00:00', '007996',      0] # Budatétény vasútállomás (Campona)
+      - ['00:03:00', 'F04468',   1004] # Dózsa György út
+      - ['00:04:00', 'F04512',   1317] # IV. utca
+      - ['00:05:00', '009390',   1798] # VII. utca
+      - ['00:06:00', 'F04464',   2076] # Terv utca
+      - ['00:07:00', 'F04462',   2433] # Rákóczi út
+      - ['00:08:00', 'F04460',   2584] # Tűzliliom utca
+      - ['00:09:00', 'F04458',   2976] # Budatétényi sorompó
+      - ['00:10:00', 'F04455',   3651] # Lépcsős utca
+      - ['00:11:00', 'F04454',   4024] # Jókai Mór utca
+      - ['00:12:00', 'F04431',   4473] # Háros utca
+      - ['00:13:00', 'F04434',   5048] # Háros vasútállomás
+      - ['00:14:00', 'F04435',   5462] # Vágóhíd utca
+      - ['00:16:00', 'F04406',   6968] # Városház tér
+      - ['00:17:00', 'F04398',   7308] # Savoyai Jenő tér
+      - ['00:18:00', 'F04384',   7630] # Leányka utcai lakótelep
+      - ['00:27:00', 'F02235',  11809] # Kelenföldi Erőmű
+      - ['00:30:00', 'F01991',  12749] # Budafoki út (Szerémi sor)
+      - ['00:32:00', 'F02143',  13876] # Szent Gellért tér
+      - ['00:35:00', 'F00951',  15662] # Ferenciek tere M
+      - ['00:37:00', 'F01016',  16146] # Astoria M
+      - ['00:38:00', 'F01170',  16486] # Uránia
     trip_headsign: Uránia
     trip_id: REFERENCE-2335-1-1
     wheelchair_accessible: 2
@@ -93,21 +93,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2335-1-2-D344
     stop_times:
-      - ['17:30:00', '007996',      0] # Budatétény vasútállomás (Campona)
-      - ['17:32:00', 'F04455',    374] # Lépcsős utca
-      - ['17:34:00', 'F04454',    747] # Jókai Mór utca
-      - ['17:35:00', 'F04431',   1196] # Háros utca
-      - ['17:37:00', 'F04434',   1771] # Háros vasútállomás
-      - ['17:38:00', 'F04435',   2185] # Vágóhíd utca
-      - ['17:41:00', 'F04406',   3691] # Városház tér
-      - ['17:42:00', 'F04398',   4031] # Savoyai Jenő tér
-      - ['17:43:00', 'F04384',   4353] # Leányka utcai lakótelep
-      - ['17:52:00', 'F02235',   8532] # Kelenföldi Erőmű
-      - ['17:55:00', 'F01991',   9472] # Budafoki út (Szerémi sor)
-      - ['17:59:00', 'F02143',  10599] # Szent Gellért tér
-      - ['18:03:00', 'F00951',  12385] # Ferenciek tere M
-      - ['18:05:00', 'F01016',  12869] # Astoria M
-      - ['18:07:00', 'F01170',  13209] # Uránia
+      - ['00:00:00', '007996',      0] # Budatétény vasútállomás (Campona)
+      - ['00:02:00', 'F04455',    374] # Lépcsős utca
+      - ['00:03:00', 'F04454',    747] # Jókai Mór utca
+      - ['00:05:00', 'F04431',   1196] # Háros utca
+      - ['00:06:00', 'F04434',   1771] # Háros vasútállomás
+      - ['00:07:00', 'F04435',   2185] # Vágóhíd utca
+      - ['00:09:00', 'F04406',   3691] # Városház tér
+      - ['00:10:00', 'F04398',   4031] # Savoyai Jenő tér
+      - ['00:11:00', 'F04384',   4353] # Leányka utcai lakótelep
+      - ['00:20:00', 'F02235',   8532] # Kelenföldi Erőmű
+      - ['00:23:00', 'F01991',   9472] # Budafoki út (Szerémi sor)
+      - ['00:25:00', 'F02143',  10599] # Szent Gellért tér
+      - ['00:28:00', 'F00951',  12385] # Ferenciek tere M
+      - ['00:30:00', 'F01016',  12869] # Astoria M
+      - ['00:32:00', 'F01170',  13209] # Uránia
     trip_headsign: Uránia
     trip_id: REFERENCE-2335-1-2
     wheelchair_accessible: 2

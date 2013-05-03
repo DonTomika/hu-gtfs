@@ -13,32 +13,32 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1560-0-1-R691
     stop_times:
-      - ['11:30:00', 'F02464',      0] # Széll Kálmán tér M
-      - ['11:32:00', 'F00155',   1064] # Városmajor
-      - ['11:33:00', '009558',   1372] # Szent János Kórház
-      - ['11:35:00', 'F02482',   1738] # Rendelőintézet
-      - ['11:35:00', 'F02348',   1893] # Pető Intézet
-      - ['11:36:00', 'F02350',   2200] # Virányos út
-      - ['11:37:00', 'F02357',   2424] # Kútvölgyi lejtő, Traumatológia
-      - ['11:38:00', 'F02355',   2686] # Fészek utca
-      - ['11:40:00', '008736',   2896] # Dániel út
+      - ['00:00:00', 'F02464',      0] # Széll Kálmán tér M
+      - ['00:02:00', 'F00155',   1064] # Városmajor
+      - ['00:03:00', '009558',   1372] # Szent János Kórház
+      - ['00:05:00', 'F02482',   1738] # Rendelőintézet
+      - ['00:06:00', 'F02348',   1893] # Pető Intézet
+      - ['00:07:00', 'F02350',   2200] # Virányos út
+      - ['00:08:00', 'F02357',   2424] # Kútvölgyi lejtő, Traumatológia
+      - ['00:09:00', 'F02355',   2686] # Fészek utca
+      - ['00:11:00', '008736',   2896] # Dániel út
     trip_headsign: Dániel út
     trip_id: REFERENCE-1560-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1560-1-1-R692
     stop_times:
-      - ['10:42:00', '008736',      0] # Dániel út
-      - ['10:43:00', '008737',    152] # Dániel út
-      - ['10:44:00', 'F02356',    379] # Fészek utca
-      - ['10:45:00', 'F02358',    658] # Kútvölgyi lejtő, Traumatológia
-      - ['10:46:00', 'F02351',    939] # Virányos út
-      - ['10:47:00', 'F02349',   1134] # Pető Intézet
-      - ['10:48:00', 'F02483',   1350] # Rendelőintézet
-      - ['10:49:00', 'F00410',   1680] # Szent János Kórház
-      - ['10:50:00', 'F00158',   1976] # Városmajor
-      - ['10:53:00', 'F02468',   2777] # Széll Kálmán tér M
+      - ['00:00:00', '008736',      0] # Dániel út
+      - ['00:01:00', '008737',    152] # Dániel út
+      - ['00:02:00', 'F02356',    379] # Fészek utca
+      - ['00:03:00', 'F02358',    658] # Kútvölgyi lejtő, Traumatológia
+      - ['00:04:00', 'F02351',    939] # Virányos út
+      - ['00:05:00', 'F02349',   1134] # Pető Intézet
+      - ['00:06:00', 'F02483',   1350] # Rendelőintézet
+      - ['00:07:00', 'F00410',   1680] # Szent János Kórház
+      - ['00:08:00', 'F00158',   1976] # Városmajor
+      - ['00:11:00', 'F02468',   2777] # Széll Kálmán tér M
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-1560-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

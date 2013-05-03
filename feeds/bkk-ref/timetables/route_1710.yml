@@ -1,0 +1,55 @@
+---
+agency_id: BKK
+route_color: 1188FF
+route_desc: 'Csepel, Szent Imre tér / Csepel, Soroksári rév'
+route_id: 1710
+route_long_name: ''
+route_short_name: 171
+route_text_color: 000000
+route_type: 3
+route_url: ~
+trips:
+  - direction_id: 0
+    service_id: REFERENCE
+    shape_id: REFERENCE-1710-0-1-U118
+    stop_times:
+      - ['00:00:00', 'F04329',      0] # Csepel, Szent Imre tér
+      - ['00:01:00', 'F04182',    283] # Károli Gáspár utca
+      - ['00:02:00', 'F04296',    544] # Deák tér
+      - ['00:03:00', 'F04195',    871] # Görgey Artúr tér
+      - ['00:03:00', 'F04196',   1202] # Bajcsy-Zsilinszky út
+      - ['00:05:00', 'F04338',   1612] # Rákóczi tér
+      - ['00:06:00', 'F04199',   2214] # Kikötő utca
+      - ['00:07:00', 'F04218',   2699] # Késmárki utca
+      - ['00:08:00', 'F04363',   2967] # Határ utca
+      - ['00:09:00', 'F04342',   3627] # Hollandi csárda
+      - ['00:10:00', 'F04219',   4127] # Strandfürdő
+      - ['00:11:00', 'F04221',   4520] # Csepel csónakház
+      - ['00:12:00', 'F04223',   4899] # Ladik utca
+      - ['00:14:00', 'F04226',   5325] # Csepel, Soroksári rév
+    trip_headsign: 'Csepel, Soroksári rév'
+    trip_id: REFERENCE-1710-0-1
+    wheelchair_accessible: 2
+  - direction_id: 1
+    service_id: REFERENCE
+    shape_id: REFERENCE-1710-1-1-U119
+    stop_times:
+      - ['00:00:00', 'F04226',      0] # Csepel, Soroksári rév
+      - ['00:01:00', 'F04224',    462] # Ladik utca
+      - ['00:02:00', 'F04222',    796] # Csepel csónakház
+      - ['00:03:00', 'F04220',   1189] # Strandfürdő
+      - ['00:04:00', 'F04341',   1721] # Hollandi csárda
+      - ['00:05:00', 'F04362',   2352] # Határ utca
+      - ['00:06:00', 'F04217',   2720] # Szebeni utca
+      - ['00:07:00', 'F04198',   3233] # Kikötő utca
+      - ['00:08:00', 'F04337',   3732] # Rákóczi tér
+      - ['00:09:00', 'F04197',   4123] # Bajcsy-Zsilinszky út
+      - ['00:10:00', 'F04194',   4315] # Görgey Artúr tér
+      - ['00:11:00', 'F04295',   4766] # Deák tér
+      - ['00:12:00', 'F04325',   5289] # Kossuth Lajos utca
+      - ['00:14:00', '040609',   5708] # Szent Imre tér H
+      - ['00:15:00', 'F04321',   6006] # Kiss János altábornagy utca
+      - ['00:16:00', 'F04329',   6219] # Csepel, Szent Imre tér
+    trip_headsign: 'Csepel, Szent Imre tér'
+    trip_id: REFERENCE-1710-1-1
+    wheelchair_accessible: 2

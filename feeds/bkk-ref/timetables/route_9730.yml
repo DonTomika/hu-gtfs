@@ -13,67 +13,67 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9730-0-1-Q567
     stop_times:
-      - ['23:52:00', 'F03147',      0] # Újpalota, Szentmihályi út
-      - ['23:53:00', 'F03201',    345] # Erdőkerülő utca 28.
-      - ['23:53:00', 'F03209',    767] # Zsókavár utca
-      - ['23:54:00', 'F03154',    990] # Fő tér
-      - ['23:55:00', 'F03159',   1420] # Vásárcsarnok
-      - ['23:56:00', 'F03193',   1737] # Sárfű utca
-      - ['23:57:00', 'F03125',   2093] # Bánkút utca
-      - ['23:58:00', 'F03109',   2663] # Szerencs utca
-      - ['23:59:00', 'F03105',   3248] # Vasutastelep utca
-      - ['24:00:00', 'F03101',   3621] # Kolozsvár utca
-      - ['24:00:00', 'F03205',   3892] # Tóth István utca
-      - ['24:01:00', 'F02858',   4407] # Öv utca
-      - ['24:02:00', 'F02909',   4697] # Miskolci utca
-      - ['24:03:00', 'F02861',   5125] # Rákospatak utca
-      - ['24:04:00', 'F02947',   5513] # Fűrész utca
-      - ['24:05:00', 'F02865',   5957] # Nagy Lajos király útja
-      - ['24:06:00', 'F02963',   6418] # Laky Adolf utca
-      - ['24:07:00', 'F02881',   6878] # Erzsébet királyné útja, aluljáró
-      - ['24:08:00', 'F02875',   7211] # Korong utca
-      - ['24:12:00', 'F02730',   7665] # Zugló vasútállomás
-      - ['24:14:00', 'F02722',   8213] # Stefánia út
-      - ['24:15:00', 'F02717',   8547] # Cházár András utca
-      - ['24:16:00', 'F01145',   8791] # Dózsa György út
-      - ['24:18:00', 'F01314',   9504] # Keleti pályaudvar M
-      - ['24:19:00', 'F01161',   9911] # Huszár utca
-      - ['24:24:00', 'F01166',  10413] # Blaha Lujza tér M
-      - ['24:26:00', 'F01171',  10945] # Uránia
-      - ['24:31:00', 'F01017',  11291] # Astoria M
-      - ['24:32:00', 'F01004',  11613] # Ferenciek tere M
-      - ['24:34:00', 'F00113',  12314] # Erzsébet híd, budai hídfő
-      - ['24:34:00', 'F00108',  12695] # Rudas gyógyfürdő
-      - ['24:36:00', 'F02145',  13654] # Szent Gellért tér
-      - ['24:39:00', '008593',  14402] # Móricz Zsigmond körtér
-      - ['24:40:00', '008740',  14712] # Újbuda-központ
-      - ['24:42:00', '008486',  15218] # Fővárosi Művelődési Ház
-      - ['24:43:00', 'F02002',  15476] # Hauszmann Alajos utca
-      - ['24:45:00', 'F02008',  16137] # Hengermalom út
-      - ['24:46:00', 'F02015',  16847] # Andor utca
-      - ['24:48:00', 'F02021',  17761] # Építész utca
-      - ['24:49:00', 'F02027',  18224] # Fonyód utca
-      - ['24:50:00', 'F02030',  18460] # Budafok kocsiszín
-      - ['24:51:00', 'F04383',  19439] # Leányka utcai lakótelep
-      - ['24:52:00', 'F04402',  19895] # Savoyai Jenő tér
-      - ['24:53:00', 'F04403',  20187] # Városház tér
-      - ['24:54:00', 'F04408',  20751] # Tóth József utca
-      - ['24:55:00', 'F04436',  21678] # Vágóhíd utca
-      - ['24:56:00', 'F04433',  22172] # Háros vasútállomás
-      - ['24:57:00', 'F04432',  22698] # Háros utca
-      - ['24:58:00', 'F04453',  23155] # Jókai Mór utca
-      - ['24:59:00', 'F04456',  23544] # Lépcsős utca
-      - ['25:00:00', 'F04457',  24251] # Budatétényi sorompó
-      - ['25:01:00', 'F04467',  24887] # Dózsa György út
-      - ['25:02:00', 'F04509',  25341] # Tenkes utca
-      - ['25:03:00', 'F04480',  25794] # Bartók Béla út
-      - ['25:04:00', 'F04495',  26164] # Petőfi Sándor u.(Kastélymúzeum)
-      - ['25:05:00', 'F04496',  26609] # Szabadság utca
-      - ['25:05:00', 'F04499',  26886] # Angeli utca
-      - ['25:06:00', 'F04502',  27153] # Akó utca
-      - ['25:07:00', 'F04504',  27611] # Nagytétény vasútállomás
-      - ['25:08:00', 'F04505',  28528] # Vegyépszer
-      - ['25:09:00', 'F04508',  28930] # Nagytétény, Chinoin
+      - ['00:00:00', 'F03147',      0] # Újpalota, Szentmihályi út
+      - ['00:01:00', 'F03201',    345] # Erdőkerülő utca 28.
+      - ['00:01:00', 'F03209',    767] # Zsókavár utca
+      - ['00:02:00', 'F03154',    990] # Fő tér
+      - ['00:03:00', 'F03159',   1420] # Vásárcsarnok
+      - ['00:04:00', 'F03193',   1737] # Sárfű utca
+      - ['00:05:00', 'F03125',   2093] # Bánkút utca
+      - ['00:06:00', 'F03109',   2663] # Szerencs utca
+      - ['00:07:00', 'F03105',   3248] # Vasutastelep utca
+      - ['00:08:00', 'F03101',   3621] # Kolozsvár utca
+      - ['00:08:00', 'F03205',   3892] # Tóth István utca
+      - ['00:09:00', 'F02858',   4407] # Öv utca
+      - ['00:10:00', 'F02909',   4697] # Miskolci utca
+      - ['00:11:00', 'F02861',   5125] # Rákospatak utca
+      - ['00:12:00', 'F02947',   5513] # Fűrész utca
+      - ['00:13:00', 'F02865',   5957] # Nagy Lajos király útja
+      - ['00:14:00', 'F02963',   6418] # Laky Adolf utca
+      - ['00:15:00', 'F02881',   6878] # Erzsébet királyné útja, aluljáró
+      - ['00:16:00', 'F02875',   7211] # Korong utca
+      - ['00:20:00', 'F02730',   7665] # Zugló vasútállomás
+      - ['00:22:00', 'F02722',   8213] # Stefánia út
+      - ['00:23:00', 'F02717',   8547] # Cházár András utca
+      - ['00:24:00', 'F01145',   8791] # Dózsa György út
+      - ['00:26:00', 'F01314',   9504] # Keleti pályaudvar M
+      - ['00:27:00', 'F01161',   9911] # Huszár utca
+      - ['00:32:00', 'F01166',  10413] # Blaha Lujza tér M
+      - ['00:34:00', 'F01171',  10945] # Uránia
+      - ['00:39:00', 'F01017',  11291] # Astoria M
+      - ['00:40:00', 'F01004',  11613] # Ferenciek tere M
+      - ['00:42:00', 'F00113',  12314] # Erzsébet híd, budai hídfő
+      - ['00:42:00', 'F00108',  12695] # Rudas gyógyfürdő
+      - ['00:44:00', 'F02145',  13654] # Szent Gellért tér
+      - ['00:47:00', '008593',  14402] # Móricz Zsigmond körtér
+      - ['00:48:00', '008740',  14712] # Újbuda-központ
+      - ['00:50:00', '008486',  15218] # Fővárosi Művelődési Ház
+      - ['00:51:00', 'F02002',  15476] # Hauszmann Alajos utca
+      - ['00:53:00', 'F02008',  16137] # Hengermalom út
+      - ['00:54:00', 'F02015',  16847] # Andor utca
+      - ['00:56:00', 'F02021',  17761] # Építész utca
+      - ['00:57:00', 'F02027',  18224] # Fonyód utca
+      - ['00:58:00', 'F02030',  18460] # Budafok kocsiszín
+      - ['00:59:00', 'F04383',  19439] # Leányka utcai lakótelep
+      - ['01:00:00', 'F04402',  19895] # Savoyai Jenő tér
+      - ['01:01:00', 'F04403',  20187] # Városház tér
+      - ['01:02:00', 'F04408',  20751] # Tóth József utca
+      - ['01:03:00', 'F04436',  21678] # Vágóhíd utca
+      - ['01:04:00', 'F04433',  22172] # Háros vasútállomás
+      - ['01:05:00', 'F04432',  22698] # Háros utca
+      - ['01:06:00', 'F04453',  23155] # Jókai Mór utca
+      - ['01:07:00', 'F04456',  23544] # Lépcsős utca
+      - ['01:08:00', 'F04457',  24251] # Budatétényi sorompó
+      - ['01:09:00', 'F04467',  24887] # Dózsa György út
+      - ['01:10:00', 'F04509',  25341] # Tenkes utca
+      - ['01:11:00', 'F04480',  25794] # Bartók Béla út
+      - ['01:12:00', 'F04495',  26164] # Petőfi Sándor u.(Kastélymúzeum)
+      - ['01:13:00', 'F04496',  26609] # Szabadság utca
+      - ['01:13:00', 'F04499',  26886] # Angeli utca
+      - ['01:14:00', 'F04502',  27153] # Akó utca
+      - ['01:15:00', 'F04504',  27611] # Nagytétény vasútállomás
+      - ['01:16:00', 'F04505',  28528] # Vegyépszer
+      - ['01:17:00', 'F04508',  28930] # Nagytétény, Chinoin
     trip_headsign: 'Nagytétény, Chinoin'
     trip_id: REFERENCE-9730-0-1
     wheelchair_accessible: 2
@@ -81,66 +81,66 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9730-1-1-K212
     stop_times:
-      - ['27:49:00', 'F04507',      0] # Nagytétény, Chinoin
-      - ['27:50:00', 'F04506',    446] # Vegyépszer
-      - ['27:51:00', 'F04503',   1322] # Nagytétény vasútállomás
-      - ['27:52:00', 'F04501',   1716] # Vasút utca
-      - ['27:52:00', '008170',   1980] # Angeli utca
-      - ['27:53:00', 'F04497',   2354] # Szabadság utca
-      - ['27:54:00', 'F04494',   2710] # Petőfi Sándor utca
-      - ['27:55:00', 'F04479',   3022] # Bartók Béla út
-      - ['27:56:00', 'F04510',   3478] # Tenkes utca
-      - ['27:57:00', 'F04466',   4102] # Dózsa György út
-      - ['27:58:00', 'F04458',   4725] # Budatétényi sorompó
-      - ['27:59:00', 'F04455',   5400] # Lépcsős utca
-      - ['28:00:00', 'F04454',   5773] # Jókai Mór utca
-      - ['28:01:00', 'F04431',   6222] # Háros utca
-      - ['28:02:00', 'F04434',   6797] # Háros vasútállomás
-      - ['28:03:00', 'F04435',   7211] # Vágóhíd utca
-      - ['28:04:00', 'F04407',   8113] # Tóth József utca
-      - ['28:06:00', 'F04406',   8717] # Városház tér
-      - ['28:07:00', 'F04398',   9057] # Savoyai Jenő tér
-      - ['28:08:00', 'F04384',   9379] # Leányka utcai lakótelep
-      - ['28:09:00', 'F02028',  10458] # Budafok kocsiszín
-      - ['28:10:00', 'F02026',  10714] # Fonyód utca
-      - ['28:11:00', 'F02022',  11110] # Építész utca
-      - ['28:13:00', 'F02012',  12157] # Andor utca
-      - ['28:14:00', 'F02011',  12799] # Hengermalom út
-      - ['28:16:00', 'F02005',  13418] # Hauszmann Alajos utca
-      - ['28:17:00', '009425',  13666] # Fővárosi Művelődési Ház
-      - ['28:19:00', '008613',  14225] # Újbuda-központ
-      - ['28:22:00', 'F02192',  14534] # Móricz Zsigmond körtér
-      - ['28:24:00', 'F02144',  15203] # Szent Gellért tér
-      - ['28:26:00', 'F00111',  16188] # Rudas gyógyfürdő
-      - ['28:28:00', 'F00951',  17009] # Ferenciek tere M
-      - ['28:34:00', 'F01016',  17493] # Astoria M
-      - ['28:35:00', 'F01170',  17833] # Uránia
-      - ['28:36:00', 'F01164',  18229] # Blaha Lujza tér M
-      - ['28:38:00', 'F01162',  18904] # Berzsenyi utca
-      - ['28:39:00', 'F01159',  19450] # Keleti pályaudvar M
-      - ['28:41:00', 'F01146',  19915] # Dózsa György út
-      - ['28:42:00', 'F02716',  20242] # Cházár András utca
-      - ['28:43:00', 'F02723',  20685] # Stefánia út
-      - ['28:45:00', '009426',  21140] # Zugló vasútállomás
-      - ['28:46:00', 'F02873',  21577] # Korong utca
-      - ['28:47:00', 'F02876',  22040] # Erzsébet királyné útja, aluljáró
-      - ['28:48:00', 'F02962',  22397] # Laky Adolf utca
-      - ['28:49:00', 'F02866',  22831] # Nagy Lajos király útja
-      - ['28:50:00', 'F02948',  23287] # Fűrész utca
-      - ['28:51:00', 'F02863',  23654] # Rákospatak utca
-      - ['28:52:00', 'F02911',  24123] # Miskolci utca
-      - ['28:52:00', 'F02857',  24422] # Öv utca
-      - ['28:53:00', 'F03206',  24918] # Tóth István utca
-      - ['28:54:00', 'F03100',  25250] # Széchenyi út
-      - ['28:55:00', 'F03104',  25629] # Vasutastelep utca
-      - ['28:56:00', 'F03108',  26282] # Szerencs utca
-      - ['28:57:00', 'F03126',  26813] # Páskomliget utca
-      - ['28:58:00', 'F03194',  27140] # Sárfű utca
-      - ['28:58:00', 'F03160',  27395] # Vásárcsarnok
-      - ['28:59:00', 'F03153',  27885] # Fő tér
-      - ['29:00:00', 'F03150',  28224] # Erdőkerülő utca
-      - ['29:01:00', 'F03202',  28528] # Erdőkerülő utca 27.
-      - ['29:02:00', 'F03145',  28787] # Újpalota, Szentmihályi út
+      - ['00:00:00', 'F04507',      0] # Nagytétény, Chinoin
+      - ['00:01:00', 'F04506',    446] # Vegyépszer
+      - ['00:02:00', 'F04503',   1322] # Nagytétény vasútállomás
+      - ['00:03:00', 'F04501',   1716] # Vasút utca
+      - ['00:03:00', '008170',   1980] # Angeli utca
+      - ['00:04:00', 'F04497',   2354] # Szabadság utca
+      - ['00:05:00', 'F04494',   2710] # Petőfi Sándor utca
+      - ['00:06:00', 'F04479',   3022] # Bartók Béla út
+      - ['00:07:00', 'F04510',   3478] # Tenkes utca
+      - ['00:08:00', 'F04466',   4102] # Dózsa György út
+      - ['00:09:00', 'F04458',   4725] # Budatétényi sorompó
+      - ['00:10:00', 'F04455',   5400] # Lépcsős utca
+      - ['00:11:00', 'F04454',   5773] # Jókai Mór utca
+      - ['00:12:00', 'F04431',   6222] # Háros utca
+      - ['00:13:00', 'F04434',   6797] # Háros vasútállomás
+      - ['00:14:00', 'F04435',   7211] # Vágóhíd utca
+      - ['00:15:00', 'F04407',   8113] # Tóth József utca
+      - ['00:17:00', 'F04406',   8717] # Városház tér
+      - ['00:18:00', 'F04398',   9057] # Savoyai Jenő tér
+      - ['00:19:00', 'F04384',   9379] # Leányka utcai lakótelep
+      - ['00:20:00', 'F02028',  10458] # Budafok kocsiszín
+      - ['00:21:00', 'F02026',  10714] # Fonyód utca
+      - ['00:22:00', 'F02022',  11110] # Építész utca
+      - ['00:24:00', 'F02012',  12157] # Andor utca
+      - ['00:25:00', 'F02011',  12799] # Hengermalom út
+      - ['00:27:00', 'F02005',  13418] # Hauszmann Alajos utca
+      - ['00:28:00', '009425',  13666] # Fővárosi Művelődési Ház
+      - ['00:30:00', '008613',  14225] # Újbuda-központ
+      - ['00:33:00', 'F02192',  14534] # Móricz Zsigmond körtér
+      - ['00:35:00', 'F02144',  15203] # Szent Gellért tér
+      - ['00:37:00', 'F00111',  16188] # Rudas gyógyfürdő
+      - ['00:39:00', 'F00951',  17009] # Ferenciek tere M
+      - ['00:45:00', 'F01016',  17493] # Astoria M
+      - ['00:46:00', 'F01170',  17833] # Uránia
+      - ['00:47:00', 'F01164',  18229] # Blaha Lujza tér M
+      - ['00:49:00', 'F01162',  18904] # Berzsenyi utca
+      - ['00:50:00', 'F01159',  19450] # Keleti pályaudvar M
+      - ['00:52:00', 'F01146',  19915] # Dózsa György út
+      - ['00:53:00', 'F02716',  20242] # Cházár András utca
+      - ['00:54:00', 'F02723',  20685] # Stefánia út
+      - ['00:56:00', '009426',  21140] # Zugló vasútállomás
+      - ['00:57:00', 'F02873',  21577] # Korong utca
+      - ['00:58:00', 'F02876',  22040] # Erzsébet királyné útja, aluljáró
+      - ['00:59:00', 'F02962',  22397] # Laky Adolf utca
+      - ['01:00:00', 'F02866',  22831] # Nagy Lajos király útja
+      - ['01:01:00', 'F02948',  23287] # Fűrész utca
+      - ['01:02:00', 'F02863',  23654] # Rákospatak utca
+      - ['01:03:00', 'F02911',  24123] # Miskolci utca
+      - ['01:03:00', 'F02857',  24422] # Öv utca
+      - ['01:04:00', 'F03206',  24918] # Tóth István utca
+      - ['01:05:00', 'F03100',  25250] # Széchenyi út
+      - ['01:06:00', 'F03104',  25629] # Vasutastelep utca
+      - ['01:07:00', 'F03108',  26282] # Szerencs utca
+      - ['01:08:00', 'F03126',  26813] # Páskomliget utca
+      - ['01:09:00', 'F03194',  27140] # Sárfű utca
+      - ['01:09:00', 'F03160',  27395] # Vásárcsarnok
+      - ['01:10:00', 'F03153',  27885] # Fő tér
+      - ['01:11:00', 'F03150',  28224] # Erdőkerülő utca
+      - ['01:12:00', 'F03202',  28528] # Erdőkerülő utca 27.
+      - ['01:13:00', 'F03145',  28787] # Újpalota, Szentmihályi út
     trip_headsign: 'Újpalota, Szentmihályi út'
     trip_id: REFERENCE-9730-1-1
     wheelchair_accessible: 2

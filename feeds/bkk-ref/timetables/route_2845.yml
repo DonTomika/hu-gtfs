@@ -13,50 +13,50 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2845-0-1-N983
     stop_times:
-      - ['17:20:00', '038680',      0] # Kőbánya-Kispest M
-      - ['17:25:00', 'F01545',   2742] # Felsőcsatári út
-      - ['17:31:00', 'F03700',   4839] # Lőrinci temető
-      - ['17:32:00', 'F03705',   5434] # Regény utca
-      - ['17:33:00', 'F03720',   5740] # Szarvas csárda tér
-      - ['17:34:00', 'F03684',   6077] # Wlassics Gyula utca
-      - ['17:34:00', 'F03686',   6306] # Dobozi utca
-      - ['17:35:00', 'F03634',   6517] # Varjú utca
-      - ['17:36:00', 'F03636',   7080] # Obszervatórium
-      - ['17:37:00', 'F03641',   8003] # Péterhalmi út
-      - ['17:38:00', 'F03644',   8797] # Kettős-Körös utca
-      - ['17:39:00', 'F03645',   9347] # Szálfa utca
-      - ['17:40:00', 'F03687',   9645] # Törvény utca
-      - ['17:41:00', 'F03647',   9918] # Vezér utca
-      - ['17:42:00', 'F03652',  10328] # Kisfaludy utca
-      - ['17:43:00', 'F03656',  10924] # Szigeti Kálmán utca
-      - ['17:44:00', 'F03724',  11232] # Kapocs utca
-      - ['17:46:00', 'F03800',  11742] # Pestszentimre, Benjámin utca
+      - ['00:00:00', '038680',      0] # Kőbánya-Kispest M
+      - ['00:04:00', 'F01545',   2742] # Felsőcsatári út
+      - ['00:08:00', 'F03700',   4839] # Lőrinci temető
+      - ['00:09:00', 'F03705',   5434] # Regény utca
+      - ['00:10:00', 'F03720',   5740] # Szarvas csárda tér
+      - ['00:11:00', 'F03684',   6077] # Wlassics Gyula utca
+      - ['00:11:00', 'F03686',   6306] # Dobozi utca
+      - ['00:12:00', 'F03634',   6517] # Varjú utca
+      - ['00:13:00', 'F03636',   7080] # Obszervatórium
+      - ['00:14:00', 'F03641',   8003] # Péterhalmi út
+      - ['00:15:00', 'F03644',   8797] # Kettős-Körös utca
+      - ['00:16:00', 'F03645',   9347] # Szálfa utca
+      - ['00:17:00', 'F03687',   9645] # Törvény utca
+      - ['00:18:00', 'F03647',   9918] # Vezér utca
+      - ['00:19:00', 'F03652',  10328] # Kisfaludy utca
+      - ['00:20:00', 'F03656',  10924] # Szigeti Kálmán utca
+      - ['00:21:00', 'F03724',  11232] # Kapocs utca
+      - ['00:23:00', 'F03800',  11742] # Pestszentimre, Benjámin utca
     trip_headsign: 'Pestszentimre, Benjámin utca'
     trip_id: REFERENCE-2845-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2845-1-1-N984
     stop_times:
-      - ['04:20:00', 'F03800',      0] # Pestszentimre, Benjámin utca
-      - ['04:21:00', 'F03725',    382] # Kapocs utca
-      - ['04:22:00', 'F03655',    888] # Szigeti Kálmán utca
-      - ['04:23:00', 'F03649',   1460] # Kisfaludy utca (Nemes utca)
-      - ['04:24:00', 'F03648',   1737] # Vezér utca
-      - ['04:25:00', 'F03688',   2124] # Törvény utca
-      - ['04:26:00', 'F03646',   2296] # Szálfa utca
-      - ['04:27:00', 'F03643',   2812] # Kettős-Körös utca
-      - ['04:28:00', 'F03642',   3718] # Péterhalmi út
-      - ['04:29:00', 'F03635',   4647] # Obszervatórium
-      - ['04:30:00', 'F03633',   5143] # Varjú utca
-      - ['04:31:00', 'F03685',   5349] # Dobozi utca
-      - ['04:31:00', 'F03683',   5559] # Wlassics Gyula utca
-      - ['04:32:00', 'F03721',   5962] # Szarvas csárda tér
-      - ['04:33:00', 'F03706',   6365] # Regény utca
-      - ['04:34:00', 'F03702',   6823] # Lőrinci temető
-      - ['04:39:00', 'F01870',   9358] # Felsőcsatári út
-      - ['04:42:00', '009592',  11854] # Kőbánya-Kispest M
-      - ['04:44:00', '038674',  12381] # Kőbánya-Kispest M
+      - ['00:00:00', 'F03800',      0] # Pestszentimre, Benjámin utca
+      - ['00:01:00', 'F03725',    382] # Kapocs utca
+      - ['00:02:00', 'F03655',    888] # Szigeti Kálmán utca
+      - ['00:03:00', 'F03649',   1460] # Kisfaludy utca (Nemes utca)
+      - ['00:04:00', 'F03648',   1737] # Vezér utca
+      - ['00:05:00', 'F03688',   2124] # Törvény utca
+      - ['00:06:00', 'F03646',   2296] # Szálfa utca
+      - ['00:07:00', 'F03643',   2812] # Kettős-Körös utca
+      - ['00:08:00', 'F03642',   3718] # Péterhalmi út
+      - ['00:10:00', 'F03635',   4647] # Obszervatórium
+      - ['00:11:00', 'F03633',   5143] # Varjú utca
+      - ['00:12:00', 'F03685',   5349] # Dobozi utca
+      - ['00:12:00', 'F03683',   5559] # Wlassics Gyula utca
+      - ['00:13:00', 'F03721',   5962] # Szarvas csárda tér
+      - ['00:14:00', 'F03706',   6365] # Regény utca
+      - ['00:15:00', 'F03702',   6823] # Lőrinci temető
+      - ['00:21:00', 'F01870',   9358] # Felsőcsatári út
+      - ['00:25:00', '009592',  11854] # Kőbánya-Kispest M
+      - ['00:27:00', '038674',  12381] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-2845-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Széll Kálmán tér M / Városkúti út
+route_desc: Széll Kálmán tér M (Várfok utca) / Városkúti út
 route_id: 1280
 route_long_name: ''
 route_short_name: 128
@@ -13,36 +13,36 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1280-0-1-J086
     stop_times:
-      - ['06:58:00', 'F02473',      0] # Széll Kálmán tér M (Várfok utca)
-      - ['06:59:00', 'F02335',    203] # Maros utca
-      - ['07:00:00', 'F02338',    518] # Városmajor utca
-      - ['07:01:00', 'F02339',    845] # Érsebészeti Klinika
-      - ['07:02:00', 'F02341',   1306] # Szent János Kórház
-      - ['07:04:00', 'F02344',   1806] # Rőzse köz
-      - ['07:05:00', 'F02346',   2098] # Józsa Béla köz
-      - ['07:06:00', 'F02427',   2391] # Tarpatak utca
-      - ['07:07:00', 'F02366',   2687] # Fészek utca
-      - ['07:08:00', 'F02368',   2930] # Lelesz utca
-      - ['07:09:00', 'F02370',   3260] # Galgóczy utca
-      - ['07:10:00', 'F02372',   3493] # Városkúti út
+      - ['00:00:00', 'F02473',      0] # Széll Kálmán tér M (Várfok utca)
+      - ['00:01:00', 'F02335',    203] # Maros utca
+      - ['00:02:00', 'F02338',    518] # Városmajor utca
+      - ['00:03:00', 'F02339',    845] # Érsebészeti Klinika
+      - ['00:04:00', 'F02341',   1306] # Szent János Kórház
+      - ['00:06:00', 'F02344',   1806] # Rőzse köz
+      - ['00:07:00', 'F02346',   2098] # Józsa Béla köz
+      - ['00:08:00', 'F02427',   2391] # Tarpatak utca
+      - ['00:09:00', 'F02366',   2687] # Fészek utca
+      - ['00:10:00', 'F02368',   2930] # Lelesz utca
+      - ['00:11:00', 'F02370',   3260] # Galgóczy utca
+      - ['00:12:00', 'F02372',   3493] # Városkúti út
     trip_headsign: Városkúti út
     trip_id: REFERENCE-1280-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1280-1-1-J087
     stop_times:
-      - ['16:26:00', 'F02373',      0] # Városkúti út
-      - ['16:26:00', 'F02371',    185] # Felső Svábhegyi út
-      - ['16:27:00', 'F02369',    517] # Lelesz utca
-      - ['16:28:00', 'F02367',    776] # Fészek utca
-      - ['16:29:00', 'F02428',   1079] # Tarpatak utca
-      - ['16:30:00', 'F02347',   1360] # Diós árok
-      - ['16:31:00', 'F02345',   1734] # Szamóca utca
-      - ['16:32:00', 'F02343',   2066] # Szent János Kórház
-      - ['16:34:00', 'F02340',   2670] # Érsebészeti Klinika
-      - ['16:37:00', 'F02337',   3014] # Csaba utca
-      - ['16:40:00', 'F02474',   3539] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', 'F02373',      0] # Városkúti út
+      - ['00:00:00', 'F02371',    185] # Felső Svábhegyi út
+      - ['00:01:00', 'F02369',    517] # Lelesz utca
+      - ['00:02:00', 'F02367',    776] # Fészek utca
+      - ['00:03:00', 'F02428',   1079] # Tarpatak utca
+      - ['00:04:00', 'F02347',   1360] # Diós árok
+      - ['00:05:00', 'F02345',   1734] # Szamóca utca
+      - ['00:06:00', 'F02343',   2066] # Szent János Kórház
+      - ['00:08:00', 'F02340',   2670] # Érsebészeti Klinika
+      - ['00:09:00', 'F02337',   3014] # Csaba utca
+      - ['00:12:00', 'F02474',   3539] # Széll Kálmán tér M (Várfok utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-1280-1-1
     wheelchair_accessible: 2

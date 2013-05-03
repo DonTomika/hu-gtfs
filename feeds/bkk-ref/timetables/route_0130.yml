@@ -13,63 +13,63 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0130-0-1-C660
     stop_times:
-      - ['13:23:00', '008120',      0] # Budatétény vasútállomás (Campona)
-      - ['13:25:00', 'F04457',    439] # Budatétényi sorompó
-      - ['13:26:00', '008168',   1082] # Dózsa György út
-      - ['13:27:00', '008119',   1474] # Mátra utca
-      - ['13:28:00', '008110',   1993] # Barosstelep vasútállomás
-      - ['13:29:00', '008109',   2367] # Damjanich utca
-      - ['13:30:00', '008114',   2590] # Barackos út
-      - ['13:31:00', '008113',   3259] # Szilvafa utca
-      - ['13:32:00', '008112',   3815] # Szakiskola utca
-      - ['13:33:00', '008111',   4224] # Angeli utca
-      - ['13:34:00', 'F04516',   4698] # Diósdi utca
-      - ['13:34:00', 'F04484',   4954] # Németh-villa
-      - ['13:35:00', 'F04482',   5395] # Szerafin-villa
-      - ['13:37:00', 'F04767',   6056] # Diósd, Törökbálinti elágazás
-      - ['13:38:00', 'F04770',   6562] # Sashegyi út
-      - ['13:39:00', '009301',   6949] # Gárdonyi Géza utca
-      - ['13:40:00', 'F04771',   7406] # Gyár utca
-      - ['13:41:00', '008479',   7873] # Homokbánya utca
-      - ['13:42:00', '009094',   8309] # Petőfi Sándor utca
-      - ['13:43:00', '009095',   8643] # Pacsirta utca
-      - ['13:44:00', '009097',   9038] # Nóra utca
-      - ['13:45:00', '009099',   9477] # Katinka utca
-      - ['13:46:00', '009101',   9894] # Tátika utca
-      - ['13:47:00', '009103',  10115] # Valéria utca
-      - ['13:49:00', '009105',  10554] # Diósd, Búzavirág utca
+      - ['00:00:00', '008120',      0] # Budatétény vasútállomás (Campona)
+      - ['00:01:00', 'F04457',    439] # Budatétényi sorompó
+      - ['00:02:00', '008168',   1082] # Dózsa György út
+      - ['00:03:00', '008119',   1474] # Mátra utca
+      - ['00:04:00', '008110',   1993] # Barosstelep vasútállomás
+      - ['00:05:00', '008109',   2367] # Damjanich utca
+      - ['00:06:00', '008114',   2590] # Barackos út
+      - ['00:07:00', '008113',   3259] # Szilvafa utca
+      - ['00:08:00', '008112',   3815] # Szakiskola utca
+      - ['00:09:00', '008111',   4224] # Angeli utca
+      - ['00:10:00', 'F04516',   4698] # Diósdi utca
+      - ['00:10:00', 'F04484',   4954] # Németh-villa
+      - ['00:11:00', 'F04482',   5395] # Szerafin-villa
+      - ['00:13:00', 'F04767',   6056] # Diósd, Törökbálinti elágazás
+      - ['00:14:00', 'F04770',   6562] # Sashegyi út
+      - ['00:15:00', '009301',   6949] # Gárdonyi Géza utca
+      - ['00:16:00', 'F04771',   7406] # Gyár utca
+      - ['00:17:00', '008479',   7873] # Homokbánya utca
+      - ['00:18:00', '009094',   8309] # Petőfi Sándor utca
+      - ['00:19:00', '009095',   8643] # Pacsirta utca
+      - ['00:20:00', '009097',   9038] # Nóra utca
+      - ['00:21:00', '009099',   9477] # Katinka utca
+      - ['00:22:00', '009101',   9894] # Tátika utca
+      - ['00:22:00', '009103',  10115] # Valéria utca
+      - ['00:24:00', '009105',  10554] # Diósd, Búzavirág utca
     trip_headsign: 'Diósd, Búzavirág utca'
     trip_id: REFERENCE-0130-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0130-1-1-B042
     stop_times:
-      - ['07:10:00', '009105',      0] # Diósd, Búzavirág utca
-      - ['07:11:00', '009104',    374] # Valéria utca
-      - ['07:12:00', '009102',    616] # Tátika utca
-      - ['07:13:00', '009100',   1033] # Katinka utca
-      - ['07:14:00', '009098',   1457] # Nóra utca
-      - ['07:15:00', '009096',   1833] # Pacsirta utca
-      - ['07:16:00', '008480',   2253] # Petőfi Sándor utca
-      - ['07:17:00', 'F04773',   2723] # Csapágygyár
-      - ['07:18:00', 'F04816',   3132] # Kölcsey Ferenc utca
-      - ['07:19:00', 'F04772',   3384] # Diósd, községháza
-      - ['07:20:00', 'F04769',   3771] # Diósd, Sashegyi út
-      - ['07:22:00', 'F04768',   4379] # Diósd, Törökbálinti elágazás
-      - ['07:23:00', 'F04481',   4919] # Szerafin-villa
-      - ['07:24:00', 'F04483',   5354] # Németh-villa
-      - ['07:24:00', 'F04515',   5582] # Diósdi utca
-      - ['07:25:00', 'F04485',   5878] # Barackos út
-      - ['07:26:00', 'F04487',   6613] # Szakiskola utca
-      - ['07:27:00', 'F04488',   7203] # Szilvafa utca
-      - ['07:28:00', 'F04489',   7798] # Bartók Béla út
-      - ['07:29:00', 'F04477',   8056] # Damjanich utca
-      - ['07:30:00', 'F04478',   8397] # Barosstelep vasútállomás
-      - ['07:31:00', 'F04521',   9050] # Mátra utca
-      - ['07:32:00', '008169',   9377] # Dózsa György út
-      - ['07:33:00', 'F04458',  10034] # Budatétényi sorompó
-      - ['07:36:00', '007999',  10446] # Budatétény vasútállomás (Campona)
+      - ['00:00:00', '009105',      0] # Diósd, Búzavirág utca
+      - ['00:01:00', '009104',    374] # Valéria utca
+      - ['00:02:00', '009102',    616] # Tátika utca
+      - ['00:03:00', '009100',   1033] # Katinka utca
+      - ['00:04:00', '009098',   1457] # Nóra utca
+      - ['00:05:00', '009096',   1833] # Pacsirta utca
+      - ['00:06:00', '008480',   2253] # Petőfi Sándor utca
+      - ['00:07:00', 'F04773',   2723] # Csapágygyár
+      - ['00:08:00', 'F04816',   3132] # Kölcsey Ferenc utca
+      - ['00:09:00', 'F04772',   3384] # Diósd, községháza
+      - ['00:10:00', 'F04769',   3771] # Diósd, Sashegyi út
+      - ['00:12:00', 'F04768',   4379] # Diósd, Törökbálinti elágazás
+      - ['00:13:00', 'F04481',   4919] # Szerafin-villa
+      - ['00:14:00', 'F04483',   5354] # Németh-villa
+      - ['00:14:00', 'F04515',   5582] # Diósdi utca
+      - ['00:15:00', 'F04485',   5878] # Barackos út
+      - ['00:16:00', 'F04487',   6613] # Szakiskola utca
+      - ['00:17:00', 'F04488',   7203] # Szilvafa utca
+      - ['00:18:00', 'F04489',   7798] # Bartók Béla út
+      - ['00:19:00', 'F04477',   8056] # Damjanich utca
+      - ['00:20:00', 'F04478',   8397] # Barosstelep vasútállomás
+      - ['00:21:00', 'F04521',   9050] # Mátra utca
+      - ['00:22:00', '008169',   9377] # Dózsa György út
+      - ['00:23:00', 'F04458',  10034] # Budatétényi sorompó
+      - ['00:26:00', '007999',  10446] # Budatétény vasútállomás (Campona)
     trip_headsign: Budatétény vasútállomás (Campona)
     trip_id: REFERENCE-0130-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

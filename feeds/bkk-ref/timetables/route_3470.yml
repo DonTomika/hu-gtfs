@@ -13,27 +13,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3470-0-1-1203
     stop_times:
-      - ['08:52:00', 'F04405',      0] # Budafok, Városház tér
-      - ['08:53:00', 'F04397',    339] # Savoyai Jenő tér
-      - ['08:55:00', 'F04382',    667] # Leányka utcai lakótelep
-      - ['08:56:00', 'F01905',   1005] # Budafoki elágazás
-      - ['08:58:00', 'F02029',   1712] # Budafok kocsiszín
-      - ['08:59:00', 'F02024',   1984] # Fonyód utca
-      - ['09:00:00', 'F02019',   2447] # Építész utca
-      - ['09:02:00', 'F02017',   3012] # Albertfalva, kitérő
-      - ['09:03:00', 'F02014',   3331] # Andor utca
-      - ['09:04:00', 'F02241',   3676] # Kalotaszeg utca
-      - ['09:06:00', 'F02009',   4061] # Hengermalom út
-      - ['09:07:00', 'F02003',   4619] # Hauszmann Alajos utca
-      - ['09:09:00', 'F02239',   4985] # Fővárosi Művelődési Ház
-      - ['09:11:00', 'F01999',   5498] # Újbuda-központ
-      - ['09:13:00', 'F02194',   5793] # Móricz Zsigmond körtér
-      - ['09:15:00', 'F02149',   6286] # Gárdonyi tér
-      - ['09:16:00', '008591',   6671] # Szent Gellért tér
-      - ['09:19:00', 'F00922',   7266] # Fővám tér
-      - ['09:21:00', 'F01006',   7648] # Kálvin tér M
-      - ['09:23:00', 'F01013',   8189] # Astoria M
-      - ['09:25:00', '007884',   8734] # Deák Ferenc tér M
+      - ['00:00:00', 'F04405',      0] # Budafok, Városház tér
+      - ['00:01:00', 'F04397',    339] # Savoyai Jenő tér
+      - ['00:03:00', 'F04382',    667] # Leányka utcai lakótelep
+      - ['00:04:00', 'F01905',   1005] # Budafoki elágazás
+      - ['00:06:00', 'F02029',   1712] # Budafok kocsiszín
+      - ['00:07:00', 'F02024',   1984] # Fonyód utca
+      - ['00:08:00', 'F02019',   2447] # Építész utca
+      - ['00:10:00', 'F02017',   3012] # Albertfalva, kitérő
+      - ['00:11:00', 'F02014',   3331] # Andor utca
+      - ['00:12:00', 'F02241',   3676] # Kalotaszeg utca
+      - ['00:14:00', 'F02009',   4061] # Hengermalom út
+      - ['00:15:00', 'F02003',   4619] # Hauszmann Alajos utca
+      - ['00:17:00', 'F02239',   4985] # Fővárosi Művelődési Ház
+      - ['00:18:00', 'F01999',   5498] # Újbuda-központ
+      - ['00:20:00', 'F02194',   5793] # Móricz Zsigmond körtér
+      - ['00:22:00', 'F02149',   6286] # Gárdonyi tér
+      - ['00:23:00', '008591',   6671] # Szent Gellért tér
+      - ['00:26:00', 'F00922',   7266] # Fővám tér
+      - ['00:28:00', 'F01006',   7648] # Kálvin tér M
+      - ['00:30:00', 'F01013',   8189] # Astoria M
+      - ['00:32:00', '007884',   8734] # Deák Ferenc tér M
     trip_headsign: Deák Ferenc tér M
     trip_id: REFERENCE-3470-0-1
     wheelchair_accessible: 2
@@ -41,27 +41,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3470-1-1-1204
     stop_times:
-      - ['14:38:00', '007884',      0] # Deák Ferenc tér M
-      - ['14:39:00', 'F01012',    482] # Astoria M
-      - ['14:41:00', 'F01005',   1108] # Kálvin tér M
-      - ['14:42:00', 'F00921',   1513] # Fővám tér
-      - ['14:45:00', '008590',   2094] # Szent Gellért tér
-      - ['14:47:00', 'F02148',   2493] # Gárdonyi tér
-      - ['14:49:00', '008593',   2975] # Móricz Zsigmond körtér
-      - ['14:50:00', 'F01997',   3268] # Újbuda-központ
-      - ['14:52:00', 'F02238',   3784] # Fővárosi Művelődési Ház
-      - ['14:53:00', 'F02004',   4081] # Hauszmann Alajos utca
-      - ['14:55:00', 'F02010',   4618] # Hengermalom út
-      - ['14:57:00', 'F02240',   5025] # Kalotaszeg utca
-      - ['14:58:00', 'F02013',   5365] # Andor utca
-      - ['15:00:00', 'F02016',   5679] # Albertfalva, kitérő
-      - ['15:02:00', 'F02020',   6319] # Építész utca
-      - ['15:03:00', 'F02025',   6780] # Fonyód utca
-      - ['15:04:00', 'F02031',   7150] # Budafok kocsiszín
-      - ['15:06:00', 'F01904',   7795] # Budafoki elágazás
-      - ['15:08:00', 'F04381',   8100] # Leányka utcai lakótelep
-      - ['15:09:00', 'F04396',   8356] # Savoyai Jenő tér
-      - ['15:10:00', 'F04404',   8770] # Budafok, Városház tér
+      - ['00:00:00', '007884',      0] # Deák Ferenc tér M
+      - ['00:01:00', 'F01012',    482] # Astoria M
+      - ['00:03:00', 'F01005',   1108] # Kálvin tér M
+      - ['00:04:00', 'F00921',   1513] # Fővám tér
+      - ['00:07:00', '008590',   2094] # Szent Gellért tér
+      - ['00:09:00', 'F02148',   2493] # Gárdonyi tér
+      - ['00:11:00', '008593',   2975] # Móricz Zsigmond körtér
+      - ['00:12:00', 'F01997',   3268] # Újbuda-központ
+      - ['00:13:00', 'F02238',   3784] # Fővárosi Művelődési Ház
+      - ['00:14:00', 'F02004',   4081] # Hauszmann Alajos utca
+      - ['00:16:00', 'F02010',   4618] # Hengermalom út
+      - ['00:17:00', 'F02240',   5025] # Kalotaszeg utca
+      - ['00:18:00', 'F02013',   5365] # Andor utca
+      - ['00:20:00', 'F02016',   5679] # Albertfalva, kitérő
+      - ['00:22:00', 'F02020',   6319] # Építész utca
+      - ['00:23:00', 'F02025',   6780] # Fonyód utca
+      - ['00:24:00', 'F02031',   7150] # Budafok kocsiszín
+      - ['00:26:00', 'F01904',   7795] # Budafoki elágazás
+      - ['00:28:00', 'F04381',   8100] # Leányka utcai lakótelep
+      - ['00:29:00', 'F04396',   8356] # Savoyai Jenő tér
+      - ['00:30:00', 'F04404',   8770] # Budafok, Városház tér
     trip_headsign: 'Budafok, Városház tér'
     trip_id: REFERENCE-3470-1-1
     wheelchair_accessible: 2

@@ -13,14 +13,14 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1860-0-1-0825
     stop_times:
-      - ['06:01:00', 'F00460',      0] # Békásmegyer H
-      - ['06:02:00', 'F00458',    603] # Pünkösdfürdő utca
-      - ['06:03:00', 'F00457',    927] # Hollós Korvin Lajos utca
-      - ['06:04:00', 'F00454',   1334] # Zemplén Győző utca
-      - ['06:05:00', 'F00452',   1498] # Hősök tere
-      - ['06:05:00', 'F00445',   1814] # Templom utca
-      - ['06:06:00', 'F00438',   2098] # Táncsics Mihály utca
-      - ['06:08:00', 'F00442',   2604] # Donát utca
+      - ['00:00:00', 'F00460',      0] # Békásmegyer H
+      - ['00:01:00', 'F00458',    603] # Pünkösdfürdő utca
+      - ['00:02:00', 'F00457',    927] # Hollós Korvin Lajos utca
+      - ['00:03:00', 'F00454',   1334] # Zemplén Győző utca
+      - ['00:03:00', 'F00452',   1498] # Hősök tere
+      - ['00:04:00', 'F00445',   1814] # Templom utca
+      - ['00:05:00', 'F00438',   2098] # Táncsics Mihály utca
+      - ['00:06:00', 'F00442',   2604] # Donát utca
     trip_headsign: Donát utca
     trip_id: REFERENCE-1860-0-1
     wheelchair_accessible: 2
@@ -28,14 +28,14 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1860-1-1-0826
     stop_times:
-      - ['08:32:00', 'F00442',      0] # Donát utca
-      - ['08:33:00', 'F00439',    466] # Ezüsthegy utca
-      - ['08:33:00', 'F00446',    761] # Templom utca
-      - ['08:34:00', 'F00453',   1015] # Hősök tere
-      - ['08:35:00', 'F00455',   1292] # Zemplén Győző utca
-      - ['08:36:00', 'F00456',   1659] # Nád utca
-      - ['08:37:00', 'F00459',   1927] # Pünkösdfürdő utca
-      - ['08:38:00', 'F00460',   2349] # Békásmegyer H
+      - ['00:00:00', 'F00442',      0] # Donát utca
+      - ['00:01:00', 'F00439',    466] # Ezüsthegy utca
+      - ['00:01:00', 'F00446',    761] # Templom utca
+      - ['00:02:00', 'F00453',   1015] # Hősök tere
+      - ['00:03:00', 'F00455',   1292] # Zemplén Győző utca
+      - ['00:04:00', 'F00456',   1659] # Nád utca
+      - ['00:05:00', 'F00459',   1927] # Pünkösdfürdő utca
+      - ['00:06:00', 'F00460',   2349] # Békásmegyer H
     trip_headsign: Békásmegyer H
     trip_id: REFERENCE-1860-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

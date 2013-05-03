@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: EC7C26
-route_desc: Boráros tér H / Csepel
+route_desc: Boráros tér / Csepel
 route_id: 6300
 route_long_name: Csepeli járat
 route_short_name: H7
@@ -13,12 +13,12 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-6300-0-1-S999
     stop_times:
-      - ['19:58:00', 'F01520',      0] # Boráros tér
-      - ['20:00:00', '008263',   1166] # Közvágóhíd
-      - ['20:04:00', 'F04368',   4006] # Szabadkikötő
-      - ['20:07:00', 'F04322',   5594] # Szent Imre tér
-      - ['20:09:00', 'F04183',   6023] # Karácsony Sándor utca
-      - ['20:11:00', 'F04272',   6675] # Csepel
+      - ['00:00:00', 'F01520',      0] # Boráros tér
+      - ['00:02:00', '008263',   1166] # Közvágóhíd
+      - ['00:06:00', 'F04368',   4006] # Szabadkikötő
+      - ['00:09:00', 'F04322',   5594] # Szent Imre tér
+      - ['00:11:00', 'F04183',   6023] # Karácsony Sándor utca
+      - ['00:13:00', 'F04272',   6675] # Csepel
     trip_headsign: 'Csepel, 2. vágány'
     trip_id: REFERENCE-6300-0-1
     wheelchair_accessible: 2
@@ -26,12 +26,12 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-6300-1-1-T002
     stop_times:
-      - ['10:38:00', 'F04272',      0] # Csepel
-      - ['10:40:00', 'F04184',    644] # Karácsony Sándor utca
-      - ['10:42:00', 'F04319',   1218] # Szent Imre tér
-      - ['10:45:00', 'F04369',   2771] # Szabadkikötő
-      - ['10:49:00', '008264',   5609] # Közvágóhíd
-      - ['10:51:00', 'F01520',   6674] # Boráros tér
+      - ['00:00:00', 'F04272',      0] # Csepel
+      - ['00:02:00', 'F04184',    644] # Karácsony Sándor utca
+      - ['00:04:00', 'F04319',   1218] # Szent Imre tér
+      - ['00:07:00', 'F04369',   2771] # Szabadkikötő
+      - ['00:11:00', '008264',   5609] # Közvágóhíd
+      - ['00:13:00', 'F01520',   6674] # Boráros tér
     trip_headsign: Boráros tér H
     trip_id: REFERENCE-6300-1-1
     wheelchair_accessible: 2

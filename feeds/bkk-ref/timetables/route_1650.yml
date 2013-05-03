@@ -13,24 +13,24 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1650-0-1-3158
     stop_times:
-      - ['06:36:00', 'F00133',      0] # Kolosy tér
-      - ['06:36:00', 'F00130',    283] # Ürömi utca
-      - ['06:37:00', 'F00128',    571] # Folyondár utca
-      - ['06:39:00', 'F00609',    890] # Mikoviny utca
-      - ['06:40:00', 'F00688',   1273] # Kolostor út
-      - ['06:41:00', 'F00608',   1593] # Remetehegyi út
+      - ['00:00:00', 'F00133',      0] # Kolosy tér
+      - ['00:01:00', 'F00130',    283] # Ürömi utca
+      - ['00:02:00', 'F00128',    571] # Folyondár utca
+      - ['00:03:00', 'F00609',    890] # Mikoviny utca
+      - ['00:04:00', 'F00688',   1273] # Kolostor út
+      - ['00:04:00', 'F00608',   1593] # Remetehegyi út
     trip_headsign: Remetehegyi út
     trip_id: REFERENCE-1650-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1650-1-1-3159
     stop_times:
-      - ['14:00:00', 'F00608',      0] # Remetehegyi út
-      - ['14:01:00', 'F00610',    335] # Kőzet utca
-      - ['14:02:00', 'F00129',    775] # Folyondár utca (Szépvölgyi út)
-      - ['14:03:00', 'F00131',   1041] # Ürömi utca
-      - ['14:05:00', 'F00133',   1365] # Kolosy tér
+      - ['00:00:00', 'F00608',      0] # Remetehegyi út
+      - ['00:01:00', 'F00610',    335] # Kőzet utca
+      - ['00:02:00', 'F00129',    775] # Folyondár utca (Szépvölgyi út)
+      - ['00:03:00', 'F00131',   1041] # Ürömi utca
+      - ['00:05:00', 'F00133',   1365] # Kolosy tér
     trip_headsign: Kolosy tér
     trip_id: REFERENCE-1650-1-1
     wheelchair_accessible: 2

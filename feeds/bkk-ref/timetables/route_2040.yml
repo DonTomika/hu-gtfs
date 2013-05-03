@@ -13,42 +13,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2040-0-1-S073
     stop_times:
-      - ['12:45:00', 'F03027',      0] # Rákospalota, Kossuth utca
-      - ['12:46:00', 'F03034',    452] # Régi Fóti út
-      - ['12:46:00', 'F03036',    714] # Kazinczy utca
-      - ['12:48:00', 'F03045',   1344] # Széchenyi tér
-      - ['12:50:00', 'F03053',   1916] # Hubay Jenő tér
-      - ['12:52:00', 'F00837',   2523] # Víztorony
-      - ['12:52:00', 'F00885',   2755] # Árpád Kórház
-      - ['12:54:00', 'F00835',   3212] # Árpád üzletház
-      - ['12:55:00', 'F00855',   3537] # Erzsébet utca
-      - ['12:56:00', 'F00799',   3956] # Újpest-Központ M
-      - ['12:57:00', 'F00810',   4359] # Újpest-Városkapu M
-      - ['12:58:00', 'F00706',   4791] # Újpest, Árpád út hajóállomás
-      - ['12:59:00', 'F00705',   5118] # Károlyi István utca
-      - ['13:00:00', 'F00703',   5554] # Zsilip utca
-      - ['13:01:00', 'F00701',   5952] # Megyeri út
-      - ['13:03:00', 'F00869',   6419] # Tungsram
-      - ['13:04:00', 'F00867',   6885] # Béla utca
-      - ['13:05:00', 'F00698',   7202] # Fóti út
-      - ['13:06:00', '009574',   7639] # Ungvári utca
-      - ['13:08:00', '009573',   8000] # Bagaria utca
-      - ['13:18:00', '009630',  13783] # Budakalász, Cora áruház
+      - ['00:00:00', 'F03027',      0] # Rákospalota, Kossuth utca
+      - ['00:01:00', 'F03034',    452] # Régi Fóti út
+      - ['00:01:00', 'F03036',    714] # Kazinczy utca
+      - ['00:03:00', 'F03045',   1344] # Széchenyi tér
+      - ['00:04:00', 'F03053',   1916] # Hubay Jenő tér
+      - ['00:06:00', 'F00837',   2523] # Víztorony
+      - ['00:06:00', 'F00885',   2755] # Árpád Kórház
+      - ['00:07:00', 'F00835',   3212] # Árpád üzletház
+      - ['00:08:00', 'F00855',   3537] # Erzsébet utca
+      - ['00:09:00', 'F00799',   3956] # Újpest-Központ M
+      - ['00:10:00', 'F00810',   4359] # Újpest-Városkapu M
+      - ['00:11:00', 'F00706',   4791] # Újpest, Árpád út hajóállomás
+      - ['00:12:00', 'F00705',   5118] # Károlyi István utca
+      - ['00:13:00', 'F00703',   5554] # Zsilip utca
+      - ['00:14:00', 'F00701',   5952] # Megyeri út
+      - ['00:15:00', 'F00869',   6419] # Tungsram
+      - ['00:16:00', 'F00867',   6885] # Béla utca
+      - ['00:17:00', 'F00698',   7202] # Fóti út
+      - ['00:19:00', '009574',   7639] # Ungvári utca
+      - ['00:20:00', '009573',   8000] # Bagaria utca
+      - ['00:29:00', '009630',  13783] # Budakalász, Cora áruház
     trip_headsign: 'Budakalász, Auchan áruház'
     trip_id: REFERENCE-2040-0-1
     wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-2040-1-1-S072
+    shape_id: REFERENCE-2040-1-1-K751
     stop_times:
-      - ['17:28:00', 'F00801',      0] # Újpest-Központ M
-      - ['17:29:00', 'F00854',    348] # Erzsébet utca
-      - ['17:30:00', 'F00836',    699] # Árpád üzletház
-      - ['17:30:00', 'F00886',    946] # Árpád Kórház
-      - ['17:31:00', 'F00838',   1265] # Víztorony
-      - ['17:34:00', 'F03048',   2113] # Hubay Jenő tér
-      - ['17:35:00', 'F03046',   2389] # Széchenyi tér
-      - ['17:37:00', 'F03027',   2936] # Rákospalota, Kossuth utca
-    trip_headsign: 'Rákospalota, Kossuth utca'
+      - ['00:00:00', '009584',      0] # Békásmegyer H
+      - ['00:00:00', 'F00462',    462] # Szolgáltatóház
+      - ['00:01:00', 'F00636',    680] # Hadrianus utca
+      - ['00:04:00', '009633',   2175] # Budakalász, Cora áruház
+    trip_headsign: 'Budakalász, Auchan áruház'
     trip_id: REFERENCE-2040-1-1
     wheelchair_accessible: 1

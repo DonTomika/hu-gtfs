@@ -13,57 +13,57 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2910-0-1-I014
     stop_times:
-      - ['10:35:00', 'F01023',      0] # Nyugati pályaudvar M
-      - ['10:37:00', 'F00929',    692] # Jászai Mari tér
-      - ['10:40:00', 'F00191',   1766] # Margit híd, budai hídfő H
-      - ['10:42:00', 'F00233',   2243] # Apostol utca
-      - ['10:44:00', 'F00230',   2522] # Zivatar utca
-      - ['10:45:00', 'F00228',   2854] # Szemlőhegy utca
-      - ['10:46:00', 'F00223',   3208] # Vérhalom utca
-      - ['10:46:00', 'F00221',   3565] # Vérhalom tér
-      - ['10:47:00', 'F00219',   3997] # Pusztaszeri út
-      - ['10:48:00', 'F00217',   4238] # Vend utca
-      - ['10:49:00', 'F00213',   4472] # Pusztaszeri körönd
-      - ['10:50:00', '009512',   4908] # Endrődi Sándor utca
-      - ['10:51:00', '009513',   5265] # Bimbó út
-      - ['10:52:00', '009508',   5430] # Orló utca
-      - ['10:53:00', '009511',   5775] # Pasaréti út
-      - ['10:54:00', '009540',   5962] # Szilágyi Erzsébet fasor
-      - ['10:55:00', 'F00164',   6247] # Budagyöngye
-      - ['10:56:00', 'F00168',   6629] # Szépilona
-      - ['10:57:00', 'F02352',   7049] # Zalai út
-      - ['10:59:00', 'F02385',   7552] # Szarvas Gábor út
-      - ['11:00:00', 'F02384',   7900] # Zugligeti út 64.
-      - ['11:01:00', 'F02382',   8192] # Zugliget, Libegő
+      - ['00:00:00', 'F01023',      0] # Nyugati pályaudvar M
+      - ['00:02:00', 'F00929',    692] # Jászai Mari tér
+      - ['00:06:00', 'F00191',   1766] # Margit híd, budai hídfő H
+      - ['00:08:00', 'F00233',   2243] # Apostol utca
+      - ['00:10:00', 'F00230',   2522] # Zivatar utca
+      - ['00:11:00', 'F00228',   2854] # Szemlőhegy utca
+      - ['00:12:00', 'F00223',   3208] # Vérhalom utca
+      - ['00:12:00', 'F00221',   3565] # Vérhalom tér
+      - ['00:13:00', 'F00219',   3997] # Pusztaszeri út
+      - ['00:14:00', 'F00217',   4238] # Vend utca
+      - ['00:15:00', 'F00213',   4472] # Pusztaszeri körönd
+      - ['00:16:00', '009512',   4908] # Endrődi Sándor utca
+      - ['00:17:00', '009513',   5265] # Bimbó út
+      - ['00:18:00', '009508',   5430] # Orló utca
+      - ['00:19:00', '009511',   5775] # Pasaréti út
+      - ['00:20:00', '009540',   5962] # Szilágyi Erzsébet fasor
+      - ['00:21:00', 'F00164',   6247] # Budagyöngye
+      - ['00:22:00', 'F00168',   6629] # Szépilona
+      - ['00:23:00', 'F02352',   7049] # Zalai út
+      - ['00:25:00', 'F02385',   7552] # Szarvas Gábor út
+      - ['00:26:00', 'F02384',   7900] # Zugligeti út 64.
+      - ['00:27:00', 'F02382',   8192] # Zugliget, Libegő
     trip_headsign: 'Zugliget, Libegő'
     trip_id: REFERENCE-2910-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2910-1-1-I016
     stop_times:
-      - ['18:00:00', 'F02381',      0] # Zugliget, Libegő
-      - ['18:01:00', 'F02383',    282] # Zugligeti út 64.
-      - ['18:02:00', 'F02386',    593] # Szarvas Gábor út
-      - ['18:03:00', 'F02353',   1121] # Zalai út
-      - ['18:04:00', 'F00170',   1541] # Szépilona
-      - ['18:05:00', 'F00166',   1812] # Budagyöngye
-      - ['18:06:00', '009581',   2209] # Gábor Áron utca
-      - ['18:08:00', '009510',   2403] # Pasaréti út
-      - ['18:09:00', '009509',   2740] # Orló utca
-      - ['18:10:00', '009514',   3062] # Bimbó út
-      - ['18:11:00', 'F00295',   3242] # Endrődi Sándor utca
-      - ['18:12:00', 'F00214',   3737] # Pusztaszeri körönd
-      - ['18:13:00', 'F00218',   3956] # Vend utca
-      - ['18:14:00', 'F00220',   4198] # Cimbalom utca
-      - ['18:15:00', 'F00222',   4698] # Vérhalom tér
-      - ['18:16:00', 'F00224',   5067] # Mandula utca
-      - ['18:18:00', 'F00229',   5414] # Rómer Flóris utca
-      - ['18:20:00', 'F00231',   5691] # Zivatar utca
-      - ['18:22:00', 'F00232',   5990] # Margit körút
-      - ['18:24:00', 'F00190',   6486] # Margit híd, budai hídfő H
-      - ['18:27:00', 'F00930',   7335] # Jászai Mari tér
-      - ['18:29:00', 'F01025',   7915] # Nyugati pályaudvar M
+      - ['00:00:00', 'F02381',      0] # Zugliget, Libegő
+      - ['00:00:00', 'F02383',    282] # Zugligeti út 64.
+      - ['00:01:00', 'F02386',    593] # Szarvas Gábor út
+      - ['00:02:00', 'F02353',   1121] # Zalai út
+      - ['00:02:00', 'F00170',   1541] # Szépilona
+      - ['00:03:00', 'F00166',   1812] # Budagyöngye
+      - ['00:04:00', '009581',   2209] # Gábor Áron utca
+      - ['00:05:00', '009510',   2403] # Pasaréti út
+      - ['00:06:00', '009509',   2740] # Orló utca
+      - ['00:07:00', '009514',   3062] # Bimbó út
+      - ['00:07:00', 'F00295',   3242] # Endrődi Sándor utca
+      - ['00:08:00', 'F00214',   3737] # Pusztaszeri körönd
+      - ['00:09:00', 'F00218',   3956] # Vend utca
+      - ['00:10:00', 'F00220',   4198] # Cimbalom utca
+      - ['00:11:00', 'F00222',   4698] # Vérhalom tér
+      - ['00:12:00', 'F00224',   5067] # Mandula utca
+      - ['00:14:00', 'F00229',   5414] # Rómer Flóris utca
+      - ['00:15:00', 'F00231',   5691] # Zivatar utca
+      - ['00:16:00', 'F00232',   5990] # Margit körút
+      - ['00:18:00', 'F00190',   6486] # Margit híd, budai hídfő H
+      - ['00:21:00', 'F00930',   7335] # Jászai Mari tér
+      - ['00:23:00', 'F01025',   7915] # Nyugati pályaudvar M
     trip_headsign: Nyugati pályaudvar M
     trip_id: REFERENCE-2910-1-1
     wheelchair_accessible: 1

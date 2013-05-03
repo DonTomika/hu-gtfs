@@ -13,37 +13,37 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1240-0-1-H424
     stop_times:
-      - ['20:34:00', 'F02827',      0] # Bosnyák tér
-      - ['20:35:00', 'F02854',    396] # Telepes utca
-      - ['20:35:00', 'F02853',    798] # Fűrész utca
-      - ['20:36:00', 'F02914',   1184] # Szentes utca
-      - ['20:37:00', 'F02851',   1755] # Öv utca
-      - ['20:38:00', 'F02946',   2172] # Kerékgyártó utca
-      - ['20:40:00', 'F02855',   2690] # Szuglói körvasút sor
-      - ['20:41:00', 'F02688',   3018] # Árvavár utca
-      - ['20:42:00', 'F03187',   3405] # Ady Endre utca
-      - ['20:43:00', 'F03094',   3743] # Pestújhelyi tér
-      - ['20:44:00', 'F03186',   4109] # Emlék tér
-      - ['20:45:00', 'F03097',   4455] # Sztárai Mihály tér
-      - ['20:45:00', 'F03133',   4721] # Templom tér
-      - ['20:46:00', 'F03130',   5001] # Szerencs utca
-      - ['20:47:00', 'F03106',   5430] # Bánkút utca
-      - ['20:48:00', 'F03123',   5791] # Bercsényi Miklós utca
-      - ['20:50:00', 'F03118',   6334] # Klapka György utca
-      - ['20:50:00', 'F03073',   6709] # Rákos úti szakrendelő
-      - ['20:52:00', 'F03059',   7307] # Szentmihályi út
-      - ['20:53:00', 'F03057',   7608] # Beller Imre utca
-      - ['20:54:00', 'F03050',   7996] # Hubay Jenő tér
-      - ['20:55:00', 'F03052',   8336] # Sződliget utca
-      - ['20:56:00', 'F03022',   8939] # Pozsony utca
-      - ['20:58:00', '009503',   9530] # Kovácsi Kálmán tér
-      - ['20:58:00', 'F03015',   9825] # Közvágóhíd tér
-      - ['21:00:00', 'F03014',  10052] # Esthajnal utca
-      - ['21:01:00', 'F03010',  10411] # Vághó Ferenc utca
-      - ['21:01:00', 'F03008',  10666] # Szántóföld utca
-      - ['21:02:00', 'F03032',  10961] # Sportcentrum
-      - ['21:03:00', 'F03009',  11293] # Régi Fóti út
-      - ['21:05:00', 'F03012',  11919] # Rákospalota, Bogáncs utca
+      - ['00:00:00', 'F02827',      0] # Bosnyák tér
+      - ['00:01:00', 'F02854',    396] # Telepes utca
+      - ['00:02:00', 'F02853',    798] # Fűrész utca
+      - ['00:03:00', 'F02914',   1184] # Szentes utca
+      - ['00:04:00', 'F02851',   1755] # Öv utca
+      - ['00:05:00', 'F02946',   2172] # Kerékgyártó utca
+      - ['00:07:00', 'F02855',   2690] # Szuglói körvasút sor
+      - ['00:08:00', 'F02688',   3018] # Árvavár utca
+      - ['00:09:00', 'F03187',   3405] # Ady Endre utca
+      - ['00:10:00', 'F03094',   3743] # Pestújhelyi tér
+      - ['00:11:00', 'F03186',   4109] # Emlék tér
+      - ['00:12:00', 'F03097',   4455] # Sztárai Mihály tér
+      - ['00:13:00', 'F03133',   4721] # Templom tér
+      - ['00:14:00', 'F03130',   5001] # Szerencs utca
+      - ['00:15:00', 'F03106',   5430] # Bánkút utca
+      - ['00:16:00', 'F03123',   5791] # Bercsényi Miklós utca
+      - ['00:18:00', 'F03118',   6334] # Klapka György utca
+      - ['00:19:00', 'F03073',   6709] # Rákos úti szakrendelő
+      - ['00:20:00', 'F03059',   7307] # Szentmihályi út
+      - ['00:21:00', 'F03057',   7608] # Beller Imre utca
+      - ['00:22:00', 'F03050',   7996] # Hubay Jenő tér
+      - ['00:23:00', 'F03052',   8336] # Sződliget utca
+      - ['00:25:00', 'F03022',   8939] # Pozsony utca
+      - ['00:27:00', '009503',   9530] # Kovácsi Kálmán tér
+      - ['00:28:00', 'F03015',   9825] # Közvágóhíd tér
+      - ['00:29:00', 'F03014',  10052] # Esthajnal utca
+      - ['00:30:00', 'F03010',  10411] # Vághó Ferenc utca
+      - ['00:31:00', 'F03008',  10666] # Szántóföld utca
+      - ['00:32:00', 'F03032',  10961] # Sportcentrum
+      - ['00:33:00', 'F03009',  11293] # Régi Fóti út
+      - ['00:35:00', 'F03012',  11919] # Rákospalota, Bogáncs utca
     trip_headsign: 'Rákospalota, Bogáncs utca'
     trip_id: REFERENCE-1240-0-1
     wheelchair_accessible: 2
@@ -51,34 +51,34 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1240-1-1-H425
     stop_times:
-      - ['07:08:00', 'F03012',      0] # Rákospalota, Bogáncs utca
-      - ['07:09:00', 'F03011',    340] # Kosd utca
-      - ['07:10:00', 'F03013',    733] # Közvágóhíd utca
-      - ['07:10:00', 'F03016',    930] # Közvágóhíd tér
-      - ['07:11:00', '009504',   1254] # Kovácsi Kálmán tér
-      - ['07:13:00', 'F03021',   1921] # Pozsony utca
-      - ['07:15:00', 'F03051',   2512] # Fő út
-      - ['07:17:00', 'F03054',   2869] # Hubay Jenő tér
-      - ['07:18:00', 'F03056',   3123] # Beller Imre utca
-      - ['07:19:00', 'F03058',   3613] # Rákos út
-      - ['07:20:00', 'F03070',   4080] # Rákos úti szakrendelő
-      - ['07:21:00', 'F03117',   4475] # Klapka György utca
-      - ['07:22:00', 'F03114',   4807] # Damjanich János utca
-      - ['07:23:00', 'F03124',   5099] # Bercsényi Miklós utca
-      - ['07:24:00', 'F03107',   5435] # Bánkút utca
-      - ['07:26:00', 'F03131',   5821] # Pestújhelyi út
-      - ['07:26:00', '008341',   6077] # Templom tér
-      - ['07:27:00', 'F03096',   6360] # Sztárai Mihály tér
-      - ['07:28:00', 'F03185',   6743] # Emlék tér
-      - ['07:29:00', 'F03095',   7072] # Pestújhelyi tér
-      - ['07:31:00', 'F03188',   7416] # Ady Endre utca
-      - ['07:32:00', 'F02687',   7895] # Árvavár utca
-      - ['07:33:00', 'F02859',   8312] # Öv utca
-      - ['07:34:00', 'F02945',   8637] # Kerékgyártó utca
-      - ['07:36:00', 'F02850',   9131] # Telepes utca
-      - ['07:37:00', 'F02913',   9620] # Szentes utca
-      - ['07:39:00', 'F02852',  10116] # Fűrész utca
-      - ['07:41:00', 'F02827',  10635] # Bosnyák tér
+      - ['00:00:00', 'F03012',      0] # Rákospalota, Bogáncs utca
+      - ['00:00:00', 'F03011',    340] # Kosd utca
+      - ['00:01:00', 'F03013',    733] # Közvágóhíd utca
+      - ['00:02:00', 'F03016',    930] # Közvágóhíd tér
+      - ['00:03:00', '009504',   1254] # Kovácsi Kálmán tér
+      - ['00:05:00', 'F03021',   1921] # Pozsony utca
+      - ['00:06:00', 'F03051',   2512] # Fő út
+      - ['00:08:00', 'F03054',   2869] # Hubay Jenő tér
+      - ['00:09:00', 'F03056',   3123] # Beller Imre utca
+      - ['00:10:00', 'F03058',   3613] # Rákos út
+      - ['00:11:00', 'F03070',   4080] # Rákos úti szakrendelő
+      - ['00:12:00', 'F03117',   4475] # Klapka György utca
+      - ['00:13:00', 'F03114',   4807] # Damjanich János utca
+      - ['00:14:00', 'F03124',   5099] # Bercsényi Miklós utca
+      - ['00:15:00', 'F03107',   5435] # Bánkút utca
+      - ['00:16:00', 'F03131',   5821] # Pestújhelyi út
+      - ['00:17:00', '008341',   6077] # Templom tér
+      - ['00:18:00', 'F03096',   6360] # Sztárai Mihály tér
+      - ['00:19:00', 'F03185',   6743] # Emlék tér
+      - ['00:20:00', 'F03095',   7072] # Pestújhelyi tér
+      - ['00:21:00', 'F03188',   7416] # Ady Endre utca
+      - ['00:22:00', 'F02687',   7895] # Árvavár utca
+      - ['00:24:00', 'F02859',   8312] # Öv utca
+      - ['00:25:00', 'F02945',   8637] # Kerékgyártó utca
+      - ['00:26:00', 'F02850',   9131] # Telepes utca
+      - ['00:27:00', 'F02913',   9620] # Szentes utca
+      - ['00:29:00', 'F02852',  10116] # Fűrész utca
+      - ['00:31:00', 'F02827',  10635] # Bosnyák tér
     trip_headsign: Bosnyák tér
     trip_id: REFERENCE-1240-1-1
     wheelchair_accessible: 2

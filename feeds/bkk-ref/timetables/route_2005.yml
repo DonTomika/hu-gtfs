@@ -13,16 +13,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2005-0-1-R555
     stop_times:
-      - ['11:36:00', '038675',      0] # Kőbánya-Kispest M
-      - ['11:40:00', 'F01545',   2648] # Felsőcsatári út
-      - ['11:42:00', 'F03696',   4132] # Csévéző utca
-      - ['11:44:00', 'F03869',   5732] # Szemeretelep vasútállomás
-      - ['11:46:00', '007928',   6791] # Ferihegy vasútállomás
-      - ['11:48:00', 'F03783',   8454] # Repülőtér, D porta
-      - ['11:49:00', 'F03781',   8827] # Repülőtéri Rendőr Igazgatóság
-      - ['11:52:00', 'F04596',  10127] # Vecsés-nyugat
-      - ['11:55:00', 'F04598',  12157] # Repülőtér, E porta
-      - ['11:58:00', 'F04599',  12730] # Liszt Ferenc Airport 2
+      - ['00:00:00', '038675',      0] # Kőbánya-Kispest M
+      - ['00:04:00', 'F01545',   2648] # Felsőcsatári út
+      - ['00:06:00', 'F03696',   4132] # Csévéző utca
+      - ['00:08:00', 'F03869',   5732] # Szemeretelep vasútállomás
+      - ['00:10:00', '007928',   6791] # Ferihegy vasútállomás
+      - ['00:12:00', 'F03783',   8454] # Repülőtér, D porta
+      - ['00:13:00', 'F03781',   8827] # Repülőtéri Rendőr Igazgatóság
+      - ['00:15:00', 'F04596',  10127] # Vecsés-nyugat
+      - ['00:18:00', 'F04598',  12157] # Repülőtér, E porta
+      - ['00:21:00', 'F04599',  12730] # Liszt Ferenc Airport 2
     trip_headsign: Liszt Ferenc Airport 2
     trip_id: REFERENCE-2005-0-1
     wheelchair_accessible: 1
@@ -30,16 +30,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2005-1-1-R554
     stop_times:
-      - ['06:06:00', 'F04599',      0] # Liszt Ferenc Airport 2
-      - ['06:09:00', 'F04597',   2191] # Vecsés-nyugat
-      - ['06:10:00', 'F03780',   3337] # Repülőtéri Rendőr Igazgatóság
-      - ['06:11:00', 'F03782',   3852] # Repülőtér, D porta
-      - ['06:13:00', '007927',   5539] # Ferihegy vasútállomás
-      - ['06:15:00', 'F03870',   6495] # Szemeretelep vasútállomás
-      - ['06:17:00', 'F03693',   8079] # Csévéző utca
-      - ['06:20:00', 'F01870',   9712] # Felsőcsatári út
-      - ['06:23:00', '009592',  12208] # Kőbánya-Kispest M
-      - ['06:27:00', '038674',  12735] # Kőbánya-Kispest M
+      - ['00:00:00', 'F04599',      0] # Liszt Ferenc Airport 2
+      - ['00:03:00', 'F04597',   2191] # Vecsés-nyugat
+      - ['00:04:00', 'F03780',   3337] # Repülőtéri Rendőr Igazgatóság
+      - ['00:05:00', 'F03782',   3852] # Repülőtér, D porta
+      - ['00:07:00', '007927',   5539] # Ferihegy vasútállomás
+      - ['00:09:00', 'F03870',   6495] # Szemeretelep vasútállomás
+      - ['00:11:00', 'F03693',   8079] # Csévéző utca
+      - ['00:14:00', 'F01870',   9712] # Felsőcsatári út
+      - ['00:18:00', '009592',  12208] # Kőbánya-Kispest M
+      - ['00:22:00', '038674',  12735] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-2005-1-1
     wheelchair_accessible: 1

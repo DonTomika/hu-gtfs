@@ -13,54 +13,54 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9961-0-1-C182
     stop_times:
-      - ['26:08:00', '008569',      0] # Cinkotai autóbuszgarázs
-      - ['26:09:00', 'F03291',    440] # Injekcióüzem
-      - ['26:10:00', 'F03403',   1099] # EGIS Gyógyszergyár
-      - ['26:11:00', 'F03402',   2132] # Zsemlékes út
-      - ['26:12:00', 'F03400',   2577] # Petőfi tér
-      - ['26:13:00', 'F03316',   2932] # Újszász utca
-      - ['26:14:00', 'F03320',   3389] # Hunyadvár utca
-      - ['26:14:00', 'F03323',   3638] # Veres Péter út
-      - ['26:18:00', 'F03397',   3840] # Mátyásföld, Imre utca H
-      - ['26:20:00', 'F03407',   4683] # Gida utca
-      - ['26:20:00', 'F03341',   5097] # Centenáriumi lakótelep
-      - ['26:21:00', 'F03245',   5348] # Futórózsa utca
-      - ['26:22:00', 'F03354',   5857] # Sasvár utca
-      - ['26:23:00', 'F03246',   6196] # Budapesti út
-      - ['26:23:00', 'F03234',   6414] # Olga utca
-      - ['26:24:00', 'F03230',   6846] # Mátyásföldi tér
-      - ['26:25:00', 'F03353',   7216] # Ida utca
-      - ['26:26:00', 'F03228',   7486] # Mátyás király utca 71.
-      - ['26:26:00', 'F03343',   7783] # Szent Korona utca
-      - ['26:27:00', 'F03225',   8040] # Rákosszentmihály, Csömöri út
-      - ['26:28:00', 'F03221',   8418] # György utca
-      - ['26:28:00', 'F03350',   8776] # Baross utca
-      - ['26:29:00', 'F03219',   9175] # Gusztáv utca
-      - ['26:30:00', 'F02984',   9430] # Rákospalotai határút
-      - ['26:30:00', 'F02985',   9668] # Szentmihályi út
-      - ['26:32:00', 'F03148',  10761] # Erdőkerülő utca
-      - ['26:33:00', 'F03201',  11039] # Erdőkerülő utca 28.
-      - ['26:33:00', 'F03209',  11461] # Zsókavár utca
-      - ['26:34:00', 'F03154',  11684] # Fő tér
-      - ['26:35:00', 'F03159',  12114] # Vásárcsarnok
-      - ['26:36:00', 'F03193',  12431] # Sárfű utca
-      - ['26:37:00', 'F03125',  12787] # Bánkút utca
-      - ['26:38:00', 'F03109',  13357] # Szerencs utca
-      - ['26:39:00', 'F03105',  13942] # Vasutastelep utca
-      - ['26:40:00', 'F03168',  14375] # Opál utca
-      - ['26:41:00', 'F03082',  14944] # Rákos út
-      - ['26:42:00', 'F03204',  15174] # Szent Korona útja
-      - ['26:42:00', 'F03182',  15446] # Wesselényi utca
-      - ['26:43:00', 'F03116',  15733] # Szerencs utca
-      - ['26:44:00', 'F03072',  15991] # Rákos úti szakrendelő
-      - ['26:45:00', 'F03059',  16601] # Szentmihályi út
-      - ['26:46:00', 'F03057',  16902] # Beller Imre utca
-      - ['26:47:00', 'F03053',  17292] # Hubay Jenő tér
-      - ['26:48:00', 'F00837',  17899] # Víztorony
-      - ['26:49:00', 'F00885',  18131] # Árpád Kórház
-      - ['26:50:00', 'F00835',  18588] # Árpád üzletház
-      - ['26:51:00', 'F00855',  18913] # Erzsébet utca
-      - ['26:52:00', 'F00803',  19189] # Újpest-Központ M
+      - ['00:00:00', '008569',      0] # Cinkotai autóbuszgarázs
+      - ['00:01:00', 'F03291',    440] # Injekcióüzem
+      - ['00:02:00', 'F03403',   1099] # EGIS Gyógyszergyár
+      - ['00:03:00', 'F03402',   2132] # Zsemlékes út
+      - ['00:04:00', 'F03400',   2577] # Petőfi tér
+      - ['00:05:00', 'F03316',   2932] # Újszász utca
+      - ['00:06:00', 'F03320',   3389] # Hunyadvár utca
+      - ['00:06:00', 'F03323',   3638] # Veres Péter út
+      - ['00:10:00', 'F03397',   3840] # Mátyásföld, Imre utca H
+      - ['00:12:00', 'F03407',   4683] # Gida utca
+      - ['00:12:00', 'F03341',   5097] # Centenáriumi lakótelep
+      - ['00:13:00', 'F03245',   5348] # Futórózsa utca
+      - ['00:14:00', 'F03354',   5857] # Sasvár utca
+      - ['00:15:00', 'F03246',   6196] # Budapesti út
+      - ['00:15:00', 'F03234',   6414] # Olga utca
+      - ['00:16:00', 'F03230',   6846] # Mátyásföldi tér
+      - ['00:17:00', 'F03353',   7216] # Ida utca
+      - ['00:18:00', 'F03228',   7486] # Mátyás király utca 71.
+      - ['00:18:00', 'F03343',   7783] # Szent Korona utca
+      - ['00:19:00', 'F03225',   8040] # Rákosszentmihály, Csömöri út
+      - ['00:20:00', 'F03221',   8418] # György utca
+      - ['00:20:00', 'F03350',   8776] # Baross utca
+      - ['00:21:00', 'F03219',   9175] # Gusztáv utca
+      - ['00:22:00', 'F02984',   9430] # Rákospalotai határút
+      - ['00:22:00', 'F02985',   9668] # Szentmihályi út
+      - ['00:24:00', 'F03148',  10761] # Erdőkerülő utca
+      - ['00:25:00', 'F03201',  11039] # Erdőkerülő utca 28.
+      - ['00:25:00', 'F03209',  11461] # Zsókavár utca
+      - ['00:26:00', 'F03154',  11684] # Fő tér
+      - ['00:27:00', 'F03159',  12114] # Vásárcsarnok
+      - ['00:28:00', 'F03193',  12431] # Sárfű utca
+      - ['00:29:00', 'F03125',  12787] # Bánkút utca
+      - ['00:30:00', 'F03109',  13357] # Szerencs utca
+      - ['00:31:00', 'F03105',  13942] # Vasutastelep utca
+      - ['00:32:00', 'F03168',  14375] # Opál utca
+      - ['00:33:00', 'F03082',  14944] # Rákos út
+      - ['00:34:00', 'F03204',  15174] # Szent Korona útja
+      - ['00:34:00', 'F03182',  15446] # Wesselényi utca
+      - ['00:35:00', 'F03116',  15733] # Szerencs utca
+      - ['00:36:00', 'F03072',  15991] # Rákos úti szakrendelő
+      - ['00:37:00', 'F03059',  16601] # Szentmihályi út
+      - ['00:38:00', 'F03057',  16902] # Beller Imre utca
+      - ['00:39:00', 'F03053',  17292] # Hubay Jenő tér
+      - ['00:40:00', 'F00837',  17899] # Víztorony
+      - ['00:41:00', 'F00885',  18131] # Árpád Kórház
+      - ['00:42:00', 'F00835',  18588] # Árpád üzletház
+      - ['00:43:00', 'F00855',  18913] # Erzsébet utca
+      - ['00:44:00', 'F00803',  19189] # Újpest-Központ M
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-9961-0-1
     wheelchair_accessible: 2
@@ -68,49 +68,49 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9961-1-1-C584
     stop_times:
-      - ['25:07:00', 'F00803',      0] # Újpest-Központ M
-      - ['25:09:00', 'F00854',    623] # Erzsébet utca
-      - ['25:10:00', 'F00836',    974] # Árpád üzletház
-      - ['25:11:00', 'F00886',   1221] # Árpád Kórház
-      - ['25:12:00', 'F00838',   1540] # Víztorony
-      - ['25:14:00', 'F03056',   2380] # Beller Imre utca
-      - ['25:15:00', 'F03058',   2870] # Rákos út
-      - ['25:16:00', 'F03071',   3482] # Rákos úti szakrendelő
-      - ['25:17:00', 'F03181',   3875] # Wesselényi utca
-      - ['25:18:00', 'F03203',   4172] # Szent Korona útja
-      - ['25:19:00', 'F03083',   4533] # Széchenyi út
-      - ['25:20:00', 'F03169',   5049] # Opál utca
-      - ['25:21:00', 'F03104',   5685] # Vasutastelep utca
-      - ['25:22:00', 'F03108',   6338] # Szerencs utca
-      - ['25:23:00', 'F03126',   6869] # Páskomliget utca
-      - ['25:24:00', 'F03194',   7196] # Sárfű utca
-      - ['25:25:00', 'F03160',   7451] # Vásárcsarnok
-      - ['25:26:00', 'F03153',   7941] # Fő tér
-      - ['25:27:00', 'F03150',   8280] # Erdőkerülő utca
-      - ['25:27:00', 'F03202',   8584] # Erdőkerülő utca 27.
-      - ['25:28:00', '008903',   8866] # Szentmihályi út
-      - ['25:30:00', 'F02986',   9858] # Rákospalotai határút
-      - ['25:30:00', 'F02983',  10053] # György utca
-      - ['25:31:00', 'F03220',  10461] # Gusztáv utca
-      - ['25:31:00', 'F03349',  10705] # Baross utca
-      - ['25:32:00', 'F03222',  11083] # Csömöri út
-      - ['25:33:00', 'F03226',  11450] # Mátyás király utca
-      - ['25:33:00', 'F03342',  11849] # Szent Korona utca
-      - ['25:34:00', 'F03229',  12120] # Rákosi út
-      - ['25:35:00', 'F03352',  12297] # Ida utca
-      - ['25:36:00', 'F03231',  12691] # Mátyásföldi tér
-      - ['25:38:00', '009240',  13596] # Sasvár utca, korlátozott forg.mh.
-      - ['25:39:00', '009241',  14123] # Margit utca
-      - ['25:40:00', 'F03408',  14735] # Gida utca
-      - ['25:45:00', 'F03396',  15577] # Mátyásföld, Imre utca H
-      - ['25:45:00', 'F03324',  15780] # Bökényföldi út
-      - ['25:46:00', 'F03321',  16102] # Hunyadvár utca
-      - ['25:47:00', 'F03317',  16556] # Újszász utca
-      - ['25:48:00', 'F03399',  16952] # Nebántsvirág utca
-      - ['25:49:00', 'F03401',  17366] # Zsemlékes út
-      - ['25:50:00', 'F03404',  18509] # EGIS Gyógyszergyár
-      - ['25:51:00', 'F03290',  18980] # Injekcióüzem
-      - ['25:52:00', '008535',  19503] # Cinkotai autóbuszgarázs
+      - ['00:00:00', 'F00803',      0] # Újpest-Központ M
+      - ['00:02:00', 'F00854',    623] # Erzsébet utca
+      - ['00:03:00', 'F00836',    974] # Árpád üzletház
+      - ['00:04:00', 'F00886',   1221] # Árpád Kórház
+      - ['00:05:00', 'F00838',   1540] # Víztorony
+      - ['00:07:00', 'F03056',   2380] # Beller Imre utca
+      - ['00:08:00', 'F03058',   2870] # Rákos út
+      - ['00:09:00', 'F03071',   3482] # Rákos úti szakrendelő
+      - ['00:10:00', 'F03181',   3875] # Wesselényi utca
+      - ['00:11:00', 'F03203',   4172] # Szent Korona útja
+      - ['00:12:00', 'F03083',   4533] # Széchenyi út
+      - ['00:13:00', 'F03169',   5049] # Opál utca
+      - ['00:14:00', 'F03104',   5685] # Vasutastelep utca
+      - ['00:15:00', 'F03108',   6338] # Szerencs utca
+      - ['00:16:00', 'F03126',   6869] # Páskomliget utca
+      - ['00:17:00', 'F03194',   7196] # Sárfű utca
+      - ['00:18:00', 'F03160',   7451] # Vásárcsarnok
+      - ['00:19:00', 'F03153',   7941] # Fő tér
+      - ['00:20:00', 'F03150',   8280] # Erdőkerülő utca
+      - ['00:20:00', 'F03202',   8584] # Erdőkerülő utca 27.
+      - ['00:21:00', '008903',   8866] # Szentmihályi út
+      - ['00:23:00', 'F02986',   9858] # Rákospalotai határút
+      - ['00:23:00', 'F02983',  10053] # György utca
+      - ['00:24:00', 'F03220',  10461] # Gusztáv utca
+      - ['00:24:00', 'F03349',  10705] # Baross utca
+      - ['00:25:00', 'F03222',  11083] # Csömöri út
+      - ['00:26:00', 'F03226',  11450] # Mátyás király utca
+      - ['00:26:00', 'F03342',  11849] # Szent Korona utca
+      - ['00:27:00', 'F03229',  12120] # Rákosi út
+      - ['00:28:00', 'F03352',  12297] # Ida utca
+      - ['00:29:00', 'F03231',  12691] # Mátyásföldi tér
+      - ['00:31:00', '009240',  13596] # Sasvár utca, korlátozott forg.mh.
+      - ['00:32:00', '009241',  14123] # Margit utca
+      - ['00:33:00', 'F03408',  14735] # Gida utca
+      - ['00:38:00', 'F03396',  15577] # Mátyásföld, Imre utca H
+      - ['00:38:00', 'F03324',  15780] # Bökényföldi út
+      - ['00:39:00', 'F03321',  16102] # Hunyadvár utca
+      - ['00:40:00', 'F03317',  16556] # Újszász utca
+      - ['00:41:00', 'F03399',  16952] # Nebántsvirág utca
+      - ['00:42:00', 'F03401',  17366] # Zsemlékes út
+      - ['00:43:00', 'F03404',  18509] # EGIS Gyógyszergyár
+      - ['00:44:00', 'F03290',  18980] # Injekcióüzem
+      - ['00:45:00', '008535',  19503] # Cinkotai autóbuszgarázs
     trip_headsign: Cinkotai autóbuszgarázs
     trip_id: REFERENCE-9961-1-1
     wheelchair_accessible: 2

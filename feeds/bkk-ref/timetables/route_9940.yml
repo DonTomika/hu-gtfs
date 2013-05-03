@@ -13,25 +13,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9940-0-1-A178
     stop_times:
-      - ['26:23:00', '008471',      0] # Dél-pesti autóbuszgarázs
-      - ['26:24:00', '008095',    348] # Nagykőrösi út
-      - ['26:25:00', 'F03681',   1186] # Kamiontelep
-      - ['26:25:00', 'F03679',   1419] # Közdűlő út
-      - ['26:27:00', 'F03871',   1936] # Zöldségpiac
-      - ['26:28:00', 'F03675',   2473] # Pestszentimre felső vasútállomás
-      - ['26:28:00', 'F03818',   2806] # Bethlen Gábor utca
-      - ['26:29:00', 'F03874',   3441] # Eke utca
-      - ['26:31:00', '008949',   3922] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['26:32:00', 'F03875',   4486] # Csolt utca
-      - ['26:33:00', 'F03657',   4902] # Ár utca
-      - ['26:34:00', 'F03779',   5468] # Kalász utca
-      - ['26:35:00', 'F04600',   6111] # Gyál felső vasútállomás
-      - ['26:36:00', 'F04605',   6631] # Ady Endre utca
-      - ['26:37:00', 'F04648',   7187] # Rákóczi Ferenc utca
-      - ['26:38:00', 'F04602',   7577] # Széchenyi István utca
-      - ['26:39:00', 'F04650',   7908] # Somogyi Béla utca
-      - ['26:40:00', 'F04649',   8517] # Bocskai István utca
-      - ['26:41:00', 'F04603',   8937] # Gyál, Vecsési út
+      - ['00:00:00', '008471',      0] # Dél-pesti autóbuszgarázs
+      - ['00:01:00', '008095',    348] # Nagykőrösi út
+      - ['00:02:00', 'F03681',   1186] # Kamiontelep
+      - ['00:02:00', 'F03679',   1419] # Közdűlő út
+      - ['00:04:00', 'F03871',   1936] # Zöldségpiac
+      - ['00:05:00', 'F03675',   2473] # Pestszentimre felső vasútállomás
+      - ['00:05:00', 'F03818',   2806] # Bethlen Gábor utca
+      - ['00:06:00', 'F03874',   3441] # Eke utca
+      - ['00:08:00', '008949',   3922] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:09:00', 'F03875',   4486] # Csolt utca
+      - ['00:10:00', 'F03657',   4902] # Ár utca
+      - ['00:11:00', 'F03779',   5468] # Kalász utca
+      - ['00:12:00', 'F04600',   6111] # Gyál felső vasútállomás
+      - ['00:13:00', 'F04605',   6631] # Ady Endre utca
+      - ['00:14:00', 'F04648',   7187] # Rákóczi Ferenc utca
+      - ['00:15:00', 'F04602',   7577] # Széchenyi István utca
+      - ['00:16:00', 'F04650',   7908] # Somogyi Béla utca
+      - ['00:17:00', 'F04649',   8517] # Bocskai István utca
+      - ['00:18:00', 'F04603',   8937] # Gyál, Vecsési út
     trip_headsign: 'Gyál, Vecsési út'
     trip_id: REFERENCE-9940-0-1
     wheelchair_accessible: 1
@@ -39,33 +39,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9940-0-2-A180
     stop_times:
-      - ['24:30:00', '008471',      0] # Dél-pesti autóbuszgarázs
-      - ['24:31:00', '008095',    348] # Nagykőrösi út
-      - ['24:32:00', 'F03681',   1186] # Kamiontelep
-      - ['24:32:00', 'F03679',   1419] # Közdűlő út
-      - ['24:34:00', 'F03871',   1936] # Zöldségpiac
-      - ['24:35:00', 'F03675',   2473] # Pestszentimre felső vasútállomás
-      - ['24:35:00', 'F03818',   2806] # Bethlen Gábor utca
-      - ['24:36:00', 'F03874',   3441] # Eke utca
-      - ['24:38:00', '008949',   3922] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['24:39:00', 'F03875',   4486] # Csolt utca
-      - ['24:40:00', 'F03657',   4902] # Ár utca
-      - ['24:41:00', 'F03779',   5468] # Kalász utca
-      - ['24:42:00', 'F04600',   6111] # Gyál felső vasútállomás
-      - ['24:43:00', '008553',   6600] # Bajcsy-Zsilinszky utca
-      - ['24:44:00', '008552',   7015] # Erdősor utca
-      - ['24:45:00', '008551',   7572] # Bacsó Béla utca
-      - ['24:46:00', '008550',   7924] # Toldi Miklós utca
-      - ['24:47:00', '008549',   8296] # Kisfaludy Sándor utca
-      - ['24:48:00', '008548',   8629] # Gyál, Bem József utca
-      - ['24:49:00', 'F04651',   9658] # Bocskai István utca
-      - ['24:50:00', 'F04652',  10215] # Somogyi Béla utca
-      - ['24:51:00', 'F04606',  10626] # Ady Endre utca
-      - ['24:52:00', 'F04648',  11128] # Rákóczi Ferenc utca
-      - ['24:53:00', 'F04602',  11518] # Széchenyi István utca
-      - ['24:54:00', 'F04650',  11849] # Somogyi Béla utca
-      - ['24:55:00', 'F04649',  12458] # Bocskai István utca
-      - ['24:56:00', 'F04603',  12878] # Gyál, Vecsési út
+      - ['00:00:00', '008471',      0] # Dél-pesti autóbuszgarázs
+      - ['00:01:00', '008095',    348] # Nagykőrösi út
+      - ['00:02:00', 'F03681',   1186] # Kamiontelep
+      - ['00:02:00', 'F03679',   1419] # Közdűlő út
+      - ['00:04:00', 'F03871',   1936] # Zöldségpiac
+      - ['00:05:00', 'F03675',   2473] # Pestszentimre felső vasútállomás
+      - ['00:05:00', 'F03818',   2806] # Bethlen Gábor utca
+      - ['00:06:00', 'F03874',   3441] # Eke utca
+      - ['00:08:00', '008949',   3922] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:09:00', 'F03875',   4486] # Csolt utca
+      - ['00:10:00', 'F03657',   4902] # Ár utca
+      - ['00:11:00', 'F03779',   5468] # Kalász utca
+      - ['00:12:00', 'F04600',   6111] # Gyál felső vasútállomás
+      - ['00:13:00', '008553',   6600] # Bajcsy-Zsilinszky utca
+      - ['00:14:00', '008552',   7015] # Erdősor utca
+      - ['00:15:00', '008551',   7572] # Bacsó Béla utca
+      - ['00:16:00', '008550',   7924] # Toldi Miklós utca
+      - ['00:17:00', '008549',   8296] # Kisfaludy Sándor utca
+      - ['00:18:00', '008548',   8629] # Gyál, Bem József utca
+      - ['00:19:00', 'F04651',   9658] # Bocskai István utca
+      - ['00:20:00', 'F04652',  10215] # Somogyi Béla utca
+      - ['00:21:00', 'F04606',  10626] # Ady Endre utca
+      - ['00:22:00', 'F04648',  11128] # Rákóczi Ferenc utca
+      - ['00:23:00', 'F04602',  11518] # Széchenyi István utca
+      - ['00:24:00', 'F04650',  11849] # Somogyi Béla utca
+      - ['00:25:00', 'F04649',  12458] # Bocskai István utca
+      - ['00:26:00', 'F04603',  12878] # Gyál, Vecsési út
     trip_headsign: 'Gyál, Vecsési út'
     trip_id: REFERENCE-9940-0-2
     wheelchair_accessible: 2
@@ -73,25 +73,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9940-1-1-A179
     stop_times:
-      - ['25:18:00', 'F04603',      0] # Gyál, Vecsési út
-      - ['25:18:00', 'F04647',    351] # Szent István utca
-      - ['25:19:00', 'F04604',    747] # Kőrösi út
-      - ['25:19:00', 'F04651',   1125] # Bocskai István utca
-      - ['25:20:00', 'F04652',   1682] # Somogyi Béla utca
-      - ['25:21:00', 'F04606',   2093] # Ady Endre utca
-      - ['25:22:00', 'F04601',   2613] # Gyál felső vasútállomás
-      - ['25:24:00', 'F03778',   3373] # Kalász utca
-      - ['25:24:00', 'F03658',   3904] # Paula utca
-      - ['25:25:00', 'F03876',   4322] # Csolt utca
-      - ['25:27:00', '008950',   5057] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['25:28:00', 'F03873',   5586] # Eke utca
-      - ['25:29:00', 'F03819',   5991] # Arany János utca
-      - ['25:30:00', 'F03674',   6515] # Pestszentimre felső vasútállomás
-      - ['25:31:00', 'F03872',   7036] # Zöldségpiac
-      - ['25:31:00', 'F03680',   7378] # Közdűlő út
-      - ['25:32:00', 'F03682',   7741] # Kamiontelep
-      - ['25:34:00', '008096',   8504] # Nagykőrösi út
-      - ['25:35:00', '008472',   8856] # Dél-pesti autóbuszgarázs
+      - ['00:00:00', 'F04603',      0] # Gyál, Vecsési út
+      - ['00:00:00', 'F04647',    351] # Szent István utca
+      - ['00:01:00', 'F04604',    747] # Kőrösi út
+      - ['00:01:00', 'F04651',   1125] # Bocskai István utca
+      - ['00:02:00', 'F04652',   1682] # Somogyi Béla utca
+      - ['00:03:00', 'F04606',   2093] # Ady Endre utca
+      - ['00:04:00', 'F04601',   2613] # Gyál felső vasútállomás
+      - ['00:06:00', 'F03778',   3373] # Kalász utca
+      - ['00:06:00', 'F03658',   3904] # Paula utca
+      - ['00:07:00', 'F03876',   4322] # Csolt utca
+      - ['00:09:00', '008950',   5057] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:10:00', 'F03873',   5586] # Eke utca
+      - ['00:11:00', 'F03819',   5991] # Arany János utca
+      - ['00:12:00', 'F03674',   6515] # Pestszentimre felső vasútállomás
+      - ['00:13:00', 'F03872',   7036] # Zöldségpiac
+      - ['00:13:00', 'F03680',   7378] # Közdűlő út
+      - ['00:14:00', 'F03682',   7741] # Kamiontelep
+      - ['00:16:00', '008096',   8504] # Nagykőrösi út
+      - ['00:17:00', '008472',   8856] # Dél-pesti autóbuszgarázs
     trip_headsign: Dél-pesti autóbuszgarázs
     trip_id: REFERENCE-9940-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

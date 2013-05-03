@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Gazdagréti tér / Móricz Zsigmond körtér
+route_desc: Gazdagréti tér / Móricz Zsigmond körtér (Villányi út)
 route_id: 1530
 route_long_name: ''
 route_short_name: 153
@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1530-0-1-E820
     stop_times:
-      - ['15:10:00', 'F02195',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['15:12:00', 'F02182',    630] # Kosztolányi Dezső tér
-      - ['15:13:00', 'F02123',    897] # Vincellér utca
-      - ['15:14:00', 'F02262',   1314] # Hollókő utca
-      - ['15:15:00', 'F02052',   1760] # Ajnácskő utca
-      - ['15:17:00', 'F02053',   2396] # Dayka Gábor utca
-      - ['15:18:00', 'F01926',   2861] # Sasadi út
-      - ['15:19:00', 'F01928',   3316] # Nagyszeben út
-      - ['15:20:00', 'F01931',   3793] # Gazdagréti út
-      - ['15:22:00', 'F02062',   4189] # Regős utca
-      - ['15:23:00', 'F02064',   4469] # Törökugrató utca
-      - ['15:24:00', 'F02245',   4672] # Torbágy utca
-      - ['15:25:00', 'F02066',   4887] # Csíkihegyek utca
-      - ['15:26:00', 'F02068',   5084] # Tűzkő utca
-      - ['15:27:00', '008567',   5472] # Gazdagréti tér
+      - ['00:00:00', 'F02195',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02182',    630] # Kosztolányi Dezső tér
+      - ['00:03:00', 'F02123',    897] # Vincellér utca
+      - ['00:04:00', 'F02262',   1314] # Hollókő utca
+      - ['00:05:00', 'F02052',   1760] # Ajnácskő utca
+      - ['00:07:00', 'F02053',   2396] # Dayka Gábor utca
+      - ['00:08:00', 'F01926',   2861] # Sasadi út
+      - ['00:09:00', 'F01928',   3316] # Nagyszeben út
+      - ['00:11:00', 'F01931',   3793] # Gazdagréti út
+      - ['00:12:00', 'F02062',   4189] # Regős utca
+      - ['00:12:00', 'F02064',   4469] # Törökugrató utca
+      - ['00:13:00', 'F02245',   4672] # Torbágy utca
+      - ['00:14:00', 'F02066',   4887] # Csíkihegyek utca
+      - ['00:15:00', 'F02068',   5084] # Tűzkő utca
+      - ['00:16:00', '008567',   5472] # Gazdagréti tér
     trip_headsign: Gazdagréti tér
     trip_id: REFERENCE-1530-0-1
     wheelchair_accessible: 1
@@ -35,20 +35,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1530-1-1-E819
     stop_times:
-      - ['06:40:00', 'F02228',      0] # Gazdagréti tér
-      - ['06:41:00', 'F02067',    416] # Tűzkő utca
-      - ['06:41:00', 'F02065',    612] # Csíkihegyek utca
-      - ['06:42:00', 'F02244',    803] # Torbágy utca
-      - ['06:43:00', 'F02063',   1016] # Törökugrató utca
-      - ['06:44:00', 'F02061',   1313] # Regős utca
-      - ['06:45:00', 'F01929',   1922] # Neszmélyi út
-      - ['06:47:00', 'F01927',   2746] # Sasadi út
-      - ['06:48:00', 'F02054',   3181] # Dayka Gábor utca
-      - ['06:52:00', 'F02113',   4142] # Fehérló utca
-      - ['06:56:00', 'F02173',   4902] # Villányi út
-      - ['06:57:00', 'F02118',   5207] # Karolina út
-      - ['06:58:00', 'F02125',   5665] # Badacsonyi utca
-      - ['07:00:00', 'F02201',   6485] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', 'F02228',      0] # Gazdagréti tér
+      - ['00:01:00', 'F02067',    416] # Tűzkő utca
+      - ['00:01:00', 'F02065',    612] # Csíkihegyek utca
+      - ['00:02:00', 'F02244',    803] # Torbágy utca
+      - ['00:03:00', 'F02063',   1016] # Törökugrató utca
+      - ['00:04:00', 'F02061',   1313] # Regős utca
+      - ['00:04:00', 'F01929',   1922] # Neszmélyi út
+      - ['00:06:00', 'F01927',   2746] # Sasadi út
+      - ['00:07:00', 'F02054',   3181] # Dayka Gábor utca
+      - ['00:08:00', 'F02113',   4142] # Fehérló utca
+      - ['00:10:00', 'F02173',   4902] # Villányi út
+      - ['00:11:00', 'F02118',   5207] # Karolina út
+      - ['00:12:00', 'F02125',   5665] # Badacsonyi utca
+      - ['00:14:00', 'F02201',   6485] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-1530-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Széll Kálmán tér M / Széher út
+route_desc: Széll Kálmán tér M (Várfok utca) / Széher út
 route_id: 1290
 route_long_name: ''
 route_short_name: 129
@@ -13,37 +13,37 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1290-0-1-K028
     stop_times:
-      - ['15:30:00', 'F02473',      0] # Széll Kálmán tér M (Várfok utca)
-      - ['15:31:00', 'F02335',    203] # Maros utca
-      - ['15:32:00', 'F02338',    518] # Városmajor utca
-      - ['15:33:00', 'F02339',    845] # Érsebészeti Klinika
-      - ['15:34:00', 'F02341',   1306] # Szent János Kórház
-      - ['15:36:00', 'F00160',   2063] # Nagyajtai utca
-      - ['15:38:00', 'F00164',   2443] # Budagyöngye
-      - ['15:40:00', 'F00429',   3041] # Akadémia
-      - ['15:41:00', 'F00311',   3369] # Kelemen László utca
-      - ['15:42:00', 'F00323',   4013] # Bölöni György utca
-      - ['15:44:00', 'F00325',   4355] # Szerb Antal utca
-      - ['15:45:00', 'F00322',   4541] # Tárogató út
-      - ['15:46:00', 'F00321',   4844] # Széher út
+      - ['00:00:00', 'F02473',      0] # Széll Kálmán tér M (Várfok utca)
+      - ['00:01:00', 'F02335',    203] # Maros utca
+      - ['00:02:00', 'F02338',    518] # Városmajor utca
+      - ['00:03:00', 'F02339',    845] # Érsebészeti Klinika
+      - ['00:04:00', 'F02341',   1306] # Szent János Kórház
+      - ['00:06:00', 'F00160',   2063] # Nagyajtai utca
+      - ['00:08:00', 'F00164',   2443] # Budagyöngye
+      - ['00:10:00', 'F00429',   3041] # Akadémia
+      - ['00:11:00', 'F00311',   3369] # Kelemen László utca
+      - ['00:12:00', 'F00323',   4013] # Bölöni György utca
+      - ['00:13:00', 'F00325',   4355] # Szerb Antal utca
+      - ['00:14:00', 'F00322',   4541] # Tárogató út
+      - ['00:15:00', 'F00321',   4844] # Széher út
     trip_headsign: Széher út
     trip_id: REFERENCE-1290-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1290-1-1-K029
     stop_times:
-      - ['18:42:00', 'F00321',      0] # Széher út
-      - ['18:42:00', 'F00417',    348] # Bölöni György utca
-      - ['18:43:00', 'F00416',    741] # Széher út 12.
-      - ['18:44:00', 'F00320',   1108] # Budenz út
-      - ['18:45:00', 'F00431',   1601] # Akadémia
-      - ['18:46:00', 'F00166',   1988] # Budagyöngye
-      - ['18:47:00', 'F00162',   2476] # Nagyajtai utca
-      - ['18:49:00', 'F02342',   3188] # Szent János Kórház
-      - ['18:50:00', 'F02340',   3723] # Érsebészeti Klinika
-      - ['18:51:00', 'F02337',   4067] # Csaba utca
-      - ['18:54:00', 'F02474',   4592] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', 'F00321',      0] # Széher út
+      - ['00:00:00', 'F00417',    348] # Bölöni György utca
+      - ['00:01:00', 'F00416',    741] # Széher út 12.
+      - ['00:02:00', 'F00320',   1108] # Budenz út
+      - ['00:03:00', 'F00431',   1601] # Akadémia
+      - ['00:05:00', 'F00166',   1988] # Budagyöngye
+      - ['00:07:00', 'F00162',   2476] # Nagyajtai utca
+      - ['00:09:00', 'F02342',   3188] # Szent János Kórház
+      - ['00:11:00', 'F02340',   3723] # Érsebészeti Klinika
+      - ['00:12:00', 'F02337',   4067] # Csaba utca
+      - ['00:15:00', 'F02474',   4592] # Széll Kálmán tér M (Várfok utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-1290-1-1
     wheelchair_accessible: 1

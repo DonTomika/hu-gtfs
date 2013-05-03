@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: CC0000
-route_desc: Örs vezér tere M+H / Déli pályaudvar M
+route_desc: Örs vezér tere / Déli pályaudvar
 route_id: 5200
 route_long_name: ''
 route_short_name: M2
@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-5200-0-1-1111
     stop_times:
-      - ['11:13:45', 'F01749',      0] # Örs vezér tere
-      - ['11:15:47', 'F01742',   1177] # Pillangó utca
-      - ['11:17:45', 'F01324',   2220] # Puskás Ferenc Stadion
-      - ['11:20:30', 'F01335',   4038] # Keleti pályaudvar
-      - ['11:22:17', 'F01291',   4897] # Blaha Lujza tér
-      - ['11:23:43', 'F01018',   5574] # Astoria
-      - ['11:25:30', 'F00960',   6253] # Deák Ferenc tér
-      - ['11:27:19', 'F00958',   7363] # Kossuth Lajos tér
-      - ['11:28:44', 'F00062',   7991] # Batthyány tér
-      - ['11:30:29', 'F02480',   8904] # Széll Kálmán tér
-      - ['11:31:45', 'F00093',   9696] # Déli pályaudvar
+      - ['00:00:00', 'F01749',      0] # Örs vezér tere
+      - ['00:02:02', 'F01742',   1177] # Pillangó utca
+      - ['00:04:00', 'F01324',   2220] # Puskás Ferenc Stadion
+      - ['00:06:45', 'F01335',   4038] # Keleti pályaudvar
+      - ['00:08:32', 'F01291',   4897] # Blaha Lujza tér
+      - ['00:09:58', 'F01018',   5574] # Astoria
+      - ['00:11:45', 'F00960',   6253] # Deák Ferenc tér
+      - ['00:13:34', 'F00958',   7363] # Kossuth Lajos tér
+      - ['00:14:59', 'F00062',   7991] # Batthyány tér
+      - ['00:16:44', 'F02480',   8904] # Széll Kálmán tér
+      - ['00:18:00', 'F00093',   9696] # Déli pályaudvar
     trip_headsign: Déli pályaudvar M
     trip_id: REFERENCE-5200-0-1
     wheelchair_accessible: 2
@@ -31,17 +31,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-5200-1-1-1112
     stop_times:
-      - ['20:44:00', 'F00094',      0] # Déli pályaudvar
-      - ['20:45:34', 'F02481',    791] # Széll Kálmán tér
-      - ['20:47:12', 'F00063',   1788] # Batthyány tér
-      - ['20:48:36', 'F00959',   2398] # Kossuth Lajos tér
-      - ['20:50:30', 'F00961',   3427] # Deák Ferenc tér
-      - ['20:52:07', 'F01019',   4193] # Astoria
-      - ['20:53:32', 'F01292',   4869] # Blaha Lujza tér
-      - ['20:55:20', 'F01336',   5725] # Keleti pályaudvar
-      - ['20:58:00', 'F01325',   7541] # Puskás Ferenc Stadion
-      - ['20:59:46', 'F01743',   8601] # Pillangó utca
-      - ['21:02:00', 'F01749',   9688] # Örs vezér tere
+      - ['00:00:00', 'F00094',      0] # Déli pályaudvar
+      - ['00:01:34', 'F02481',    791] # Széll Kálmán tér
+      - ['00:03:12', 'F00063',   1788] # Batthyány tér
+      - ['00:04:36', 'F00959',   2398] # Kossuth Lajos tér
+      - ['00:06:30', 'F00961',   3427] # Deák Ferenc tér
+      - ['00:08:07', 'F01019',   4193] # Astoria
+      - ['00:09:32', 'F01292',   4869] # Blaha Lujza tér
+      - ['00:11:20', 'F01336',   5725] # Keleti pályaudvar
+      - ['00:14:00', 'F01325',   7541] # Puskás Ferenc Stadion
+      - ['00:15:46', 'F01743',   8601] # Pillangó utca
+      - ['00:18:00', 'F01749',   9688] # Örs vezér tere
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-5200-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

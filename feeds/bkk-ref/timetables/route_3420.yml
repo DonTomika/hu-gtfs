@@ -13,13 +13,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3420-0-1-C880
     stop_times:
-      - ['19:08:00', 'F01461',      0] # Határ út M
-      - ['19:10:00', 'F03926',    684] # Corvin körút
-      - ['19:12:00', 'F03960',   1302] # Hungária út
-      - ['19:13:00', 'F04022',   1875] # Templom tér
-      - ['19:14:00', 'F03980',   2249] # Kossuth Lajos utca
-      - ['19:15:00', 'F04003',   2615] # Vas Gereben utca
-      - ['19:16:00', 'F04039',   2946] # Kispest, Tulipán utca
+      - ['00:00:00', 'F01461',      0] # Határ út M
+      - ['00:02:00', 'F03926',    684] # Corvin körút
+      - ['00:03:00', 'F03960',   1302] # Hungária út
+      - ['00:04:00', 'F04022',   1875] # Templom tér
+      - ['00:05:00', 'F03980',   2249] # Kossuth Lajos utca
+      - ['00:06:00', 'F04003',   2615] # Vas Gereben utca
+      - ['00:07:00', 'F04039',   2946] # Kispest, Tulipán utca
     trip_headsign: 'Kispest, Tulipán utca'
     trip_id: REFERENCE-3420-0-1
     wheelchair_accessible: 2
@@ -27,13 +27,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3420-1-1-C881
     stop_times:
-      - ['06:47:00', 'F04039',      0] # Kispest, Tulipán utca
-      - ['06:48:00', 'F04004',    310] # Vas Gereben utca
-      - ['06:49:00', 'F03979',    675] # Kossuth Lajos utca
-      - ['06:50:00', 'F04021',   1109] # Templom tér
-      - ['06:52:00', 'F03961',   1597] # Hungária út
-      - ['06:54:00', 'F03927',   1604] # Corvin körút
-      - ['06:56:00', 'F01461',   2304] # Határ út M
+      - ['00:00:00', 'F04039',      0] # Kispest, Tulipán utca
+      - ['00:01:00', 'F04004',    310] # Vas Gereben utca
+      - ['00:02:00', 'F03979',    675] # Kossuth Lajos utca
+      - ['00:03:00', 'F04021',   1109] # Templom tér
+      - ['00:05:00', 'F03961',   1597] # Hungária út
+      - ['00:07:00', 'F03927',   1604] # Corvin körút
+      - ['00:09:00', 'F01461',   2304] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-3420-1-1
     wheelchair_accessible: 2

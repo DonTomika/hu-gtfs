@@ -13,41 +13,41 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1520-0-1-J107
     stop_times:
-      - ['10:16:00', 'F04328',      0] # Csepel, Szent Imre tér
-      - ['10:18:00', 'F04278',    672] # Karácsony Sándor utca
-      - ['10:19:00', 'F04191',    888] # Széchenyi István utca
-      - ['10:21:00', 'F04204',   1500] # Sporttelep
-      - ['10:22:00', 'F04208',   2021] # Völgy utca
-      - ['10:23:00', 'F04238',   2538] # Festő utca
-      - ['10:24:00', 'F04241',   3360] # Varrógép utca
-      - ['10:25:00', 'F04242',   3798] # Tihanyi utca
-      - ['10:26:00', 'F04244',   4142] # Fátra utca
-      - ['10:27:00', 'F04347',   4567] # Olt utca
-      - ['10:28:00', 'F04343',   4912] # Uzsoki utca
-      - ['10:29:00', 'F04345',   5221] # Csorbatói utca
-      - ['10:31:00', 'F04247',   5698] # Csepel, Királyerdő út
+      - ['00:00:00', 'F04328',      0] # Csepel, Szent Imre tér
+      - ['00:02:00', 'F04278',    672] # Karácsony Sándor utca
+      - ['00:03:00', 'F04191',    888] # Széchenyi István utca
+      - ['00:04:00', 'F04204',   1500] # Sporttelep
+      - ['00:05:00', 'F04208',   2021] # Völgy utca
+      - ['00:06:00', 'F04238',   2538] # Festő utca
+      - ['00:07:00', 'F04241',   3360] # Varrógép utca
+      - ['00:08:00', 'F04242',   3798] # Tihanyi utca
+      - ['00:09:00', 'F04244',   4142] # Fátra utca
+      - ['00:09:00', 'F04347',   4567] # Olt utca
+      - ['00:10:00', 'F04343',   4912] # Uzsoki utca
+      - ['00:11:00', 'F04345',   5221] # Csorbatói utca
+      - ['00:13:00', 'F04247',   5698] # Csepel, Királyerdő út
     trip_headsign: 'Csepel, Királyerdő út'
     trip_id: REFERENCE-1520-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1520-1-1-J108
     stop_times:
-      - ['18:20:00', 'F04247',      0] # Csepel, Királyerdő út
-      - ['18:21:00', 'F04346',    318] # Csorbatói utca
-      - ['18:22:00', 'F04344',    614] # Uzsoki utca
-      - ['18:23:00', 'F04348',    950] # Orsova utca
-      - ['18:24:00', 'F04245',   1374] # Fátra utca
-      - ['18:25:00', 'F04243',   1820] # Tihanyi utca
-      - ['18:26:00', 'F04240',   2222] # Varrógép utca
-      - ['18:27:00', 'F04239',   2974] # Martinász utca
-      - ['18:28:00', 'F04209',   3454] # Kölcsey utca
-      - ['18:29:00', 'F04203',   4146] # Sporttelep
-      - ['18:30:00', 'F04185',   4616] # II. Rákóczi Ferenc út
-      - ['18:31:00', 'F04177',   5116] # Karácsony Sándor utca H
-      - ['18:32:00', '040609',   5631] # Szent Imre tér H
-      - ['18:33:00', 'F04321',   5929] # Kiss János altábornagy utca
-      - ['18:35:00', 'F04328',   6150] # Csepel, Szent Imre tér
+      - ['00:00:00', 'F04247',      0] # Csepel, Királyerdő út
+      - ['00:01:00', 'F04346',    318] # Csorbatói utca
+      - ['00:01:00', 'F04344',    614] # Uzsoki utca
+      - ['00:02:00', 'F04348',    950] # Orsova utca
+      - ['00:03:00', 'F04245',   1374] # Fátra utca
+      - ['00:03:00', 'F04243',   1820] # Tihanyi utca
+      - ['00:04:00', 'F04240',   2222] # Varrógép utca
+      - ['00:06:00', 'F04239',   2974] # Martinász utca
+      - ['00:07:00', 'F04209',   3454] # Kölcsey utca
+      - ['00:08:00', 'F04203',   4146] # Sporttelep
+      - ['00:09:00', 'F04185',   4616] # II. Rákóczi Ferenc út
+      - ['00:10:00', 'F04177',   5116] # Karácsony Sándor utca H
+      - ['00:11:00', '040609',   5631] # Szent Imre tér H
+      - ['00:12:00', 'F04321',   5929] # Kiss János altábornagy utca
+      - ['00:13:00', 'F04328',   6150] # Csepel, Szent Imre tér
     trip_headsign: 'Csepel, Szent Imre tér'
     trip_id: REFERENCE-1520-1-1
     wheelchair_accessible: 2

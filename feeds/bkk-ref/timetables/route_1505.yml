@@ -13,11 +13,11 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1505-0-1-H257
     stop_times:
-      - ['14:08:00', '009579',      0] # Újbuda-központ
-      - ['14:09:00', 'F02182',    665] # Kosztolányi Dezső tér
-      - ['14:14:00', 'F01926',   2895] # Sasadi út
-      - ['14:16:00', 'F01924',   3827] # Neszmélyi út
-      - ['14:18:00', 'F01921',   4216] # Őrmezői lakótelep, Menyecske utca
+      - ['00:00:00', '009579',      0] # Újbuda-központ
+      - ['00:01:00', 'F02182',    665] # Kosztolányi Dezső tér
+      - ['00:06:00', 'F01926',   2895] # Sasadi út
+      - ['00:08:00', 'F01924',   3827] # Neszmélyi út
+      - ['00:10:00', 'F01921',   4216] # Őrmezői lakótelep, Menyecske utca
     trip_headsign: 'Őrmezői lakótelep, Menyecske utca'
     trip_id: REFERENCE-1505-0-1
     wheelchair_accessible: 2
@@ -25,12 +25,12 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1505-1-1-J336
     stop_times:
-      - ['08:37:00', 'F01921',      0] # Őrmezői lakótelep, Menyecske utca
-      - ['08:38:00', 'F01923',    255] # Kérő utca
-      - ['08:40:00', 'F01927',   1163] # Sasadi út
-      - ['08:46:00', 'F02180',   3659] # Kosztolányi Dezső tér
-      - ['08:48:00', 'F01995',   4076] # Újbuda-központ
-      - ['08:50:00', '009579',   4459] # Újbuda-központ
+      - ['00:00:00', 'F01921',      0] # Őrmezői lakótelep, Menyecske utca
+      - ['00:00:00', 'F01923',    255] # Kérő utca
+      - ['00:02:00', 'F01927',   1163] # Sasadi út
+      - ['00:06:00', 'F02180',   3659] # Kosztolányi Dezső tér
+      - ['00:08:00', 'F01995',   4076] # Újbuda-központ
+      - ['00:10:00', '009579',   4459] # Újbuda-központ
     trip_headsign: Újbuda-központ
     trip_id: REFERENCE-1505-1-1
     wheelchair_accessible: 2

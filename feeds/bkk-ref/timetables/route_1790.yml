@@ -13,48 +13,48 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1790-0-1-Q589
     stop_times:
-      - ['14:53:00', '009290',      0] # Közvágóhíd H
-      - ['14:54:00', 'F01411',    482] # Helyi kikötő út
-      - ['14:54:00', 'F04297',    777] # Csepeli híd
-      - ['14:57:00', 'F04358',   2528] # Szabadkikötő H
-      - ['14:58:00', 'F04303',   3285] # Szállító utca
-      - ['14:59:00', 'F04299',   3904] # Szállító utca 6.
-      - ['15:00:00', 'F04356',   4148] # Vámhivatal
-      - ['15:01:00', 'F04301',   4432] # Közterületfenntartó Zrt.
-      - ['15:04:00', 'F04311',   5186] # Corvin-csomópont
-      - ['15:06:00', 'F04314',   5704] # Csepel, Kossuth Lajos utca
-      - ['15:09:00', '008067',   6121] # Szent Imre tér
-      - ['15:10:00', 'F04318',   6470] # Szent Imre tér H
-      - ['15:11:00', 'F04268',   6862] # Karácsony Sándor utca H
-      - ['15:12:00', 'F04269',   7224] # Mansfeld Péter utca
-      - ['15:12:00', '044076',   7564] # Déli utca
-      - ['15:13:00', '041092',   7736] # Csepeli Kórház
-      - ['15:15:00', '041093',   8416] # Duna utca
-      - ['15:17:00', '041094',   8987] # Színesfém utca
-      - ['15:19:00', '041095',   9355] # Szent Imre tér H
-      - ['15:20:00', 'F04321',   9667] # Kiss János altábornagy utca
-      - ['15:22:00', 'F04329',   9880] # Csepel, Szent Imre tér
+      - ['00:00:00', '009290',      0] # Közvágóhíd H
+      - ['00:00:00', 'F01411',    482] # Helyi kikötő út
+      - ['00:01:00', 'F04297',    777] # Csepeli híd
+      - ['00:04:00', 'F04358',   2528] # Szabadkikötő H
+      - ['00:05:00', 'F04303',   3285] # Szállító utca
+      - ['00:06:00', 'F04299',   3904] # Szállító utca 6.
+      - ['00:07:00', 'F04356',   4148] # Vámhivatal
+      - ['00:08:00', 'F04301',   4432] # Közterületfenntartó Zrt.
+      - ['00:10:00', 'F04311',   5186] # Corvin-csomópont
+      - ['00:13:00', 'F04314',   5704] # Csepel, Kossuth Lajos utca
+      - ['00:15:00', '008067',   6121] # Szent Imre tér
+      - ['00:15:00', 'F04318',   6470] # Szent Imre tér H
+      - ['00:16:00', 'F04268',   6862] # Karácsony Sándor utca H
+      - ['00:17:00', 'F04269',   7224] # Mansfeld Péter utca
+      - ['00:17:00', '044076',   7564] # Déli utca
+      - ['00:18:00', '041092',   7736] # Csepeli Kórház
+      - ['00:20:00', '041093',   8416] # Duna utca
+      - ['00:22:00', '041094',   8987] # Színesfém utca
+      - ['00:24:00', '041095',   9355] # Szent Imre tér H
+      - ['00:25:00', 'F04321',   9667] # Kiss János altábornagy utca
+      - ['00:27:00', 'F04329',   9880] # Csepel, Szent Imre tér
     trip_headsign: 'Csepel, Szent Imre tér'
     trip_id: REFERENCE-1790-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1790-1-1-E277
     stop_times:
-      - ['15:32:00', 'F04329',      0] # Csepel, Szent Imre tér
-      - ['15:33:00', 'F04324',    316] # Szent Imre tér
-      - ['15:34:00', 'F04315',    656] # Ady Endre út (Kossuth Lajos utca)
-      - ['15:35:00', 'F04312',   1072] # Corvin-csomópont
-      - ['15:38:00', 'F04302',   1939] # Szállító utca
-      - ['15:39:00', 'F04357',   2574] # Szállító utca 6.
-      - ['15:40:00', 'F04355',   2818] # Vámhivatal
-      - ['15:41:00', 'F04300',   3100] # Közterületfenntartó Zrt.
-      - ['15:42:00', 'F04359',   3705] # Szabadkikötő H
-      - ['15:44:00', 'F04298',   5504] # Csepeli híd
-      - ['15:45:00', 'F01412',   5820] # Helyi kikötő út
-      - ['15:47:00', 'F01407',   6238] # Közvágóhíd H (Kvassay Jenő út)
-      - ['15:48:00', 'F01404',   6434] # Közvágóhíd H
-      - ['15:50:00', '009290',   6975] # Közvágóhíd H
+      - ['00:00:00', 'F04329',      0] # Csepel, Szent Imre tér
+      - ['00:00:00', 'F04324',    316] # Szent Imre tér
+      - ['00:01:00', 'F04315',    656] # Ady Endre út (Kossuth Lajos utca)
+      - ['00:03:00', 'F04312',   1072] # Corvin-csomópont
+      - ['00:05:00', 'F04302',   1939] # Szállító utca
+      - ['00:07:00', 'F04357',   2574] # Szállító utca 6.
+      - ['00:08:00', 'F04355',   2818] # Vámhivatal
+      - ['00:09:00', 'F04300',   3100] # Közterületfenntartó Zrt.
+      - ['00:10:00', 'F04359',   3705] # Szabadkikötő H
+      - ['00:12:00', 'F04298',   5504] # Csepeli híd
+      - ['00:13:00', 'F01412',   5820] # Helyi kikötő út
+      - ['00:15:00', 'F01407',   6238] # Közvágóhíd H (Kvassay Jenő út)
+      - ['00:16:00', 'F01404',   6434] # Közvágóhíd H
+      - ['00:18:00', '009290',   6975] # Közvágóhíd H
     trip_headsign: Közvágóhíd H
     trip_id: REFERENCE-1790-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

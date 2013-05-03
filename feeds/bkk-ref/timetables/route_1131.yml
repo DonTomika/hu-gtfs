@@ -13,20 +13,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1131-0-1-B964
     stop_times:
-      - ['08:23:00', '008120',      0] # Budatétény vasútállomás (Campona)
-      - ['08:25:00', 'F04457',    439] # Budatétényi sorompó
-      - ['08:26:00', '008168',   1082] # Dózsa György út
-      - ['08:27:00', '008119',   1474] # Mátra utca
-      - ['08:28:00', '008110',   1993] # Barosstelep vasútállomás
-      - ['08:29:00', '008109',   2367] # Damjanich utca
-      - ['08:30:00', '008114',   2590] # Barackos út
-      - ['08:31:00', '008113',   3259] # Szilvafa utca
-      - ['08:32:00', '008112',   3815] # Szakiskola utca
-      - ['08:33:00', '008111',   4224] # Angeli utca
-      - ['08:35:00', 'F04490',   4925] # Nagytétény-Diósd vasútállomás
-      - ['08:36:00', 'F04492',   5294] # Nagytétényi temető
-      - ['08:37:00', 'F04499',   5811] # Angeli utca
-      - ['08:38:00', 'F04498',   5865] # Nagytétény, Angeli utca
+      - ['00:00:00', '008120',      0] # Budatétény vasútállomás (Campona)
+      - ['00:02:00', 'F04457',    439] # Budatétényi sorompó
+      - ['00:03:00', '008168',   1082] # Dózsa György út
+      - ['00:04:00', '008119',   1474] # Mátra utca
+      - ['00:05:00', '008110',   1993] # Barosstelep vasútállomás
+      - ['00:06:00', '008109',   2367] # Damjanich utca
+      - ['00:07:00', '008114',   2590] # Barackos út
+      - ['00:08:00', '008113',   3259] # Szilvafa utca
+      - ['00:09:00', '008112',   3815] # Szakiskola utca
+      - ['00:10:00', '008111',   4224] # Angeli utca
+      - ['00:12:00', 'F04490',   4925] # Nagytétény-Diósd vasútállomás
+      - ['00:13:00', 'F04492',   5294] # Nagytétényi temető
+      - ['00:14:00', 'F04499',   5811] # Angeli utca
+      - ['00:15:00', 'F04498',   5865] # Nagytétény, Angeli utca
     trip_headsign: 'Nagytétény, Angeli utca'
     trip_id: REFERENCE-1131-0-1
     wheelchair_accessible: 2
@@ -34,19 +34,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1131-1-1-B965
     stop_times:
-      - ['17:12:00', 'F04498',      0] # Nagytétény, Angeli utca
-      - ['17:13:00', 'F04493',    436] # Nagytétényi temető
-      - ['17:14:00', 'F04491',    862] # Nagytétény-Diósd vasútállomás
-      - ['17:15:00', 'F04486',   1266] # Barackos út
-      - ['17:16:00', 'F04487',   1931] # Szakiskola utca
-      - ['17:17:00', 'F04488',   2521] # Szilvafa utca
-      - ['17:18:00', 'F04489',   3116] # Bartók Béla út
-      - ['17:19:00', 'F04477',   3374] # Damjanich utca
-      - ['17:20:00', 'F04478',   3715] # Barosstelep vasútállomás
-      - ['17:21:00', 'F04521',   4368] # Mátra utca
-      - ['17:22:00', '008169',   4695] # Dózsa György út
-      - ['17:23:00', 'F04458',   5352] # Budatétényi sorompó
-      - ['17:26:00', '007999',   5764] # Budatétény vasútállomás (Campona)
+      - ['00:00:00', 'F04498',      0] # Nagytétény, Angeli utca
+      - ['00:01:00', 'F04493',    436] # Nagytétényi temető
+      - ['00:02:00', 'F04491',    862] # Nagytétény-Diósd vasútállomás
+      - ['00:03:00', 'F04486',   1266] # Barackos út
+      - ['00:04:00', 'F04487',   1931] # Szakiskola utca
+      - ['00:05:00', 'F04488',   2521] # Szilvafa utca
+      - ['00:06:00', 'F04489',   3116] # Bartók Béla út
+      - ['00:07:00', 'F04477',   3374] # Damjanich utca
+      - ['00:08:00', 'F04478',   3715] # Barosstelep vasútállomás
+      - ['00:09:00', 'F04521',   4368] # Mátra utca
+      - ['00:10:00', '008169',   4695] # Dózsa György út
+      - ['00:11:00', 'F04458',   5352] # Budatétényi sorompó
+      - ['00:14:00', '007999',   5764] # Budatétény vasútállomás (Campona)
     trip_headsign: Budatétény vasútállomás (Campona)
     trip_id: REFERENCE-1131-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

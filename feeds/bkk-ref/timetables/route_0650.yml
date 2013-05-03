@@ -13,29 +13,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0650-0-1-Q547
     stop_times:
-      - ['15:06:00', 'F00132',      0] # Kolosy tér
-      - ['15:06:00', 'F00130',    268] # Ürömi utca
-      - ['15:07:00', 'F00128',    556] # Folyondár utca
-      - ['15:08:00', 'F00126',    835] # Virág Benedek utca
-      - ['15:09:00', 'F00634',   1387] # Szélvész utca
-      - ['15:10:00', 'F00122',   1693] # Pál-völgyi cseppkőbarlang
-      - ['15:11:00', 'F00120',   2188] # Nyereg út
-      - ['15:14:00', '044029',   2911] # Fenyőgyöngye
+      - ['00:00:00', 'F00132',      0] # Kolosy tér
+      - ['00:01:00', 'F00130',    268] # Ürömi utca
+      - ['00:01:00', 'F00128',    556] # Folyondár utca
+      - ['00:02:00', 'F00126',    835] # Virág Benedek utca
+      - ['00:03:00', 'F00634',   1387] # Szélvész utca
+      - ['00:04:00', 'F00122',   1693] # Pál-völgyi cseppkőbarlang
+      - ['00:05:00', 'F00120',   2188] # Nyereg út
+      - ['00:07:00', '044029',   2911] # Fenyőgyöngye
     trip_headsign: Fenyőgyöngye
     trip_id: REFERENCE-0650-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0650-1-1-Q546
     stop_times:
-      - ['11:47:00', 'F00119',      0] # Fenyőgyöngye
-      - ['11:48:00', 'F00121',    655] # Nyereg út
-      - ['11:50:00', 'F00123',   1259] # Pál-völgyi cseppkőbarlang
-      - ['11:51:00', 'F00635',   1582] # Szélvész utca
-      - ['11:52:00', 'F00127',   2050] # Szépvölgyi út
-      - ['11:53:00', 'F00129',   2395] # Folyondár utca (Szépvölgyi út)
-      - ['11:54:00', 'F00131',   2661] # Ürömi utca
-      - ['11:55:00', 'F00132',   3001] # Kolosy tér
+      - ['00:00:00', 'F00119',      0] # Fenyőgyöngye
+      - ['00:01:00', 'F00121',    655] # Nyereg út
+      - ['00:03:00', 'F00123',   1259] # Pál-völgyi cseppkőbarlang
+      - ['00:04:00', 'F00635',   1582] # Szélvész utca
+      - ['00:05:00', 'F00127',   2050] # Szépvölgyi út
+      - ['00:06:00', 'F00129',   2395] # Folyondár utca (Szépvölgyi út)
+      - ['00:07:00', 'F00131',   2661] # Ürömi utca
+      - ['00:08:00', 'F00132',   3001] # Kolosy tér
     trip_headsign: Kolosy tér
     trip_id: REFERENCE-0650-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

@@ -13,53 +13,53 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1340-0-1-P639
     stop_times:
-      - ['16:42:00', 'F00619',      0] # Szentlélek tér H
-      - ['16:43:00', 'F00611',    592] # Flórián tér
-      - ['16:44:00', 'F00581',    818] # Raktár utca
-      - ['16:46:00', 'F00576',   1407] # Bogdáni út
-      - ['16:48:00', 'F00508',   2197] # Kaszásdűlő H
-      - ['16:50:00', 'F00506',   2784] # Záhony utca
-      - ['16:51:00', 'F00666',   3361] # Aquincum H
-      - ['16:52:00', 'F00485',   3645] # Római tér
-      - ['16:54:00', 'F00489',   4295] # Rómaifürdő H
-      - ['16:55:00', 'F00490',   4720] # Czetz János köz
-      - ['16:56:00', 'F00493',   4941] # Attila utca
-      - ['16:56:00', 'F00495',   5200] # Pozsonyi utca
-      - ['16:57:00', 'F00497',   5620] # Mátyás király út
-      - ['16:58:00', 'F00682',   5987] # Bercsényi utca
-      - ['17:00:00', 'F00477',   6902] # Szent István utca
-      - ['17:01:00', 'F00475',   7200] # Pünkösdfürdő utca
-      - ['17:02:00', 'F00470',   7487] # Békásmegyer H
-      - ['17:03:00', 'F00465',   7856] # Hímző utca
-      - ['17:04:00', 'F00650',   8086] # Hatvany Lajos utca
-      - ['17:05:00', 'F00645',   8435] # Bálint György utca
-      - ['17:06:00', 'F00641',   8890] # Békásmegyer, Újmegyeri tér
+      - ['00:00:00', 'F00619',      0] # Szentlélek tér H
+      - ['00:01:00', 'F00611',    592] # Flórián tér
+      - ['00:02:00', 'F00581',    818] # Raktár utca
+      - ['00:04:00', 'F00576',   1407] # Bogdáni út
+      - ['00:06:00', 'F00508',   2197] # Kaszásdűlő H
+      - ['00:08:00', 'F00506',   2784] # Záhony utca
+      - ['00:09:00', 'F00666',   3361] # Aquincum H
+      - ['00:10:00', 'F00485',   3645] # Római tér
+      - ['00:12:00', 'F00489',   4295] # Rómaifürdő H
+      - ['00:13:00', 'F00490',   4720] # Czetz János köz
+      - ['00:14:00', 'F00493',   4941] # Attila utca
+      - ['00:14:00', 'F00495',   5200] # Pozsonyi utca
+      - ['00:15:00', 'F00497',   5620] # Mátyás király út
+      - ['00:16:00', 'F00682',   5987] # Bercsényi utca
+      - ['00:18:00', 'F00477',   6902] # Szent István utca
+      - ['00:19:00', 'F00475',   7200] # Pünkösdfürdő utca
+      - ['00:20:00', 'F00470',   7487] # Békásmegyer H
+      - ['00:21:00', 'F00465',   7856] # Hímző utca
+      - ['00:22:00', 'F00650',   8086] # Hatvany Lajos utca
+      - ['00:23:00', 'F00645',   8435] # Bálint György utca
+      - ['00:24:00', 'F00641',   8890] # Békásmegyer, Újmegyeri tér
     trip_headsign: 'Békásmegyer, Újmegyeri tér'
     trip_id: REFERENCE-1340-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1340-1-1-P640
     stop_times:
-      - ['21:53:00', 'F00642',      0] # Békásmegyer, Újmegyeri tér
-      - ['21:54:00', 'F00646',    301] # Bálint György utca
-      - ['21:55:00', 'F00649',    656] # Juhász Gyula utca
-      - ['21:56:00', 'F00464',   1027] # Hímző utca
-      - ['21:57:00', 'F00468',   1226] # Békásmegyer H
-      - ['21:58:00', 'F00476',   1702] # Pünkösdfürdő utca
-      - ['21:58:00', 'F00482',   2220] # Szent István utca
-      - ['22:00:00', 'F00478',   3027] # Mátyás király út
-      - ['22:01:00', 'F00683',   3392] # Bercsényi utca
-      - ['22:02:00', 'F00498',   3743] # Czetz János utca
-      - ['22:03:00', 'F00496',   4111] # Huba utca
-      - ['22:04:00', 'F00494',   4364] # Attila utca
-      - ['22:05:00', 'F00491',   4653] # Szentendrei út
-      - ['22:07:00', 'F00667',   6022] # Aquincum H
-      - ['22:09:00', 'F00507',   6739] # Záhony utca
-      - ['22:10:00', 'F00509',   7242] # Kaszásdűlő H
-      - ['22:12:00', 'F00577',   8166] # Bogdáni út
-      - ['22:13:00', 'F00582',   8546] # Raktár utca
-      - ['22:15:00', 'F00619',   9678] # Szentlélek tér H
+      - ['00:00:00', 'F00642',      0] # Békásmegyer, Újmegyeri tér
+      - ['00:01:00', 'F00646',    301] # Bálint György utca
+      - ['00:02:00', 'F00649',    656] # Juhász Gyula utca
+      - ['00:03:00', 'F00464',   1027] # Hímző utca
+      - ['00:04:00', 'F00468',   1226] # Békásmegyer H
+      - ['00:05:00', 'F00476',   1702] # Pünkösdfürdő utca
+      - ['00:05:00', 'F00482',   2220] # Szent István utca
+      - ['00:07:00', 'F00478',   3027] # Mátyás király út
+      - ['00:08:00', 'F00683',   3392] # Bercsényi utca
+      - ['00:09:00', 'F00498',   3743] # Czetz János utca
+      - ['00:10:00', 'F00496',   4111] # Huba utca
+      - ['00:11:00', 'F00494',   4364] # Attila utca
+      - ['00:12:00', 'F00491',   4653] # Szentendrei út
+      - ['00:14:00', 'F00667',   6022] # Aquincum H
+      - ['00:16:00', 'F00507',   6739] # Záhony utca
+      - ['00:17:00', 'F00509',   7242] # Kaszásdűlő H
+      - ['00:19:00', 'F00577',   8166] # Bogdáni út
+      - ['00:20:00', 'F00582',   8546] # Raktár utca
+      - ['00:24:00', 'F00619',   9678] # Szentlélek tér H
     trip_headsign: Szentlélek tér H
     trip_id: REFERENCE-1340-1-1
     wheelchair_accessible: 2

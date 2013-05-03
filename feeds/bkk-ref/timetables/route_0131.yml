@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0131-0-1-N783
     stop_times:
-      - ['20:27:00', '008120',      0] # Budatétény vasútállomás (Campona)
-      - ['20:28:00', 'F04457',    439] # Budatétényi sorompó
-      - ['20:29:00', '008168',   1082] # Dózsa György út
-      - ['20:30:00', '008119',   1474] # Mátra utca
-      - ['20:31:00', '008110',   1993] # Barosstelep vasútállomás
-      - ['20:32:00', '008109',   2367] # Damjanich utca
-      - ['20:33:00', '008114',   2590] # Barackos út
-      - ['20:34:00', '008113',   3259] # Szilvafa utca
-      - ['20:35:00', '008112',   3815] # Szakiskola utca
-      - ['20:36:00', '008111',   4224] # Angeli utca
-      - ['20:37:00', 'F04516',   4698] # Diósdi utca
-      - ['20:37:00', 'F04484',   4954] # Németh-villa
-      - ['20:38:00', 'F04482',   5395] # Szerafin-villa
-      - ['20:40:00', 'F04767',   6056] # Diósd, Törökbálinti elágazás
-      - ['20:41:00', 'F04770',   6562] # Sashegyi út
-      - ['20:42:00', 'F04769',   6771] # Diósd, Sashegyi út
+      - ['00:00:00', '008120',      0] # Budatétény vasútállomás (Campona)
+      - ['00:01:00', 'F04457',    439] # Budatétényi sorompó
+      - ['00:02:00', '008168',   1082] # Dózsa György út
+      - ['00:03:00', '008119',   1474] # Mátra utca
+      - ['00:04:00', '008110',   1993] # Barosstelep vasútállomás
+      - ['00:05:00', '008109',   2367] # Damjanich utca
+      - ['00:06:00', '008114',   2590] # Barackos út
+      - ['00:07:00', '008113',   3259] # Szilvafa utca
+      - ['00:08:00', '008112',   3815] # Szakiskola utca
+      - ['00:09:00', '008111',   4224] # Angeli utca
+      - ['00:10:00', 'F04516',   4698] # Diósdi utca
+      - ['00:10:00', 'F04484',   4954] # Németh-villa
+      - ['00:11:00', 'F04482',   5395] # Szerafin-villa
+      - ['00:13:00', 'F04767',   6056] # Diósd, Törökbálinti elágazás
+      - ['00:14:00', 'F04770',   6562] # Sashegyi út
+      - ['00:15:00', 'F04769',   6771] # Diósd, Sashegyi út
     trip_headsign: 'Diósd, Sashegyi út'
     trip_id: REFERENCE-0131-0-1
     wheelchair_accessible: 1
@@ -36,21 +36,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0131-1-1-N782
     stop_times:
-      - ['04:53:00', 'F04769',      0] # Diósd, Sashegyi út
-      - ['04:55:00', 'F04768',    608] # Diósd, Törökbálinti elágazás
-      - ['04:56:00', 'F04481',   1148] # Szerafin-villa
-      - ['04:57:00', 'F04483',   1583] # Németh-villa
-      - ['04:57:00', 'F04515',   1811] # Diósdi utca
-      - ['04:58:00', 'F04485',   2107] # Barackos út
-      - ['04:59:00', 'F04487',   2842] # Szakiskola utca
-      - ['05:00:00', 'F04488',   3432] # Szilvafa utca
-      - ['05:01:00', 'F04489',   4027] # Bartók Béla út
-      - ['05:01:00', 'F04477',   4285] # Damjanich utca
-      - ['05:02:00', 'F04478',   4626] # Barosstelep vasútállomás
-      - ['05:03:00', 'F04521',   5279] # Mátra utca
-      - ['05:03:00', '008169',   5606] # Dózsa György út
-      - ['05:04:00', 'F04458',   6263] # Budatétényi sorompó
-      - ['05:06:00', '007999',   6675] # Budatétény vasútállomás (Campona)
+      - ['00:00:00', 'F04769',      0] # Diósd, Sashegyi út
+      - ['00:02:00', 'F04768',    608] # Diósd, Törökbálinti elágazás
+      - ['00:03:00', 'F04481',   1148] # Szerafin-villa
+      - ['00:04:00', 'F04483',   1583] # Németh-villa
+      - ['00:04:00', 'F04515',   1811] # Diósdi utca
+      - ['00:05:00', 'F04485',   2107] # Barackos út
+      - ['00:06:00', 'F04487',   2842] # Szakiskola utca
+      - ['00:07:00', 'F04488',   3432] # Szilvafa utca
+      - ['00:08:00', 'F04489',   4027] # Bartók Béla út
+      - ['00:08:00', 'F04477',   4285] # Damjanich utca
+      - ['00:09:00', 'F04478',   4626] # Barosstelep vasútállomás
+      - ['00:10:00', 'F04521',   5279] # Mátra utca
+      - ['00:10:00', '008169',   5606] # Dózsa György út
+      - ['00:11:00', 'F04458',   6263] # Budatétényi sorompó
+      - ['00:13:00', '007999',   6675] # Budatétény vasútállomás (Campona)
     trip_headsign: Budatétény vasútállomás (Campona)
     trip_id: REFERENCE-0131-1-1
     wheelchair_accessible: 1

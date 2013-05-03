@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1470-0-1-0538
     stop_times:
-      - ['19:25:00', '008697',      0] # Újpest-Központ M
-      - ['19:25:00', 'F00793',    394] # Újpesti piac
-      - ['19:27:00', 'F00851',    866] # Attila utca
-      - ['19:28:00', 'F00894',   1307] # Langlet Waldemár utca
-      - ['19:29:00', 'F00895',   1736] # Perényi Zsigmond utca
-      - ['19:29:00', 'F00850',   2003] # Mildenberger utca
-      - ['19:30:00', 'F00770',   2365] # Irányi Dániel utca
-      - ['19:31:00', 'F00755',   2672] # Fóti út
-      - ['19:32:00', 'F00715',   3138] # Megyeri út
-      - ['19:34:00', 'F00711',   3628] # Fiumei út
-      - ['19:35:00', 'F00707',   3892] # Megyer, Julianus barát utca
+      - ['00:00:00', '008697',      0] # Újpest-Központ M
+      - ['00:00:00', 'F00793',    394] # Újpesti piac
+      - ['00:02:00', 'F00851',    866] # Attila utca
+      - ['00:03:00', 'F00894',   1307] # Langlet Waldemár utca
+      - ['00:04:00', 'F00895',   1736] # Perényi Zsigmond utca
+      - ['00:04:00', 'F00850',   2003] # Mildenberger utca
+      - ['00:05:00', 'F00770',   2365] # Irányi Dániel utca
+      - ['00:06:00', 'F00755',   2672] # Fóti út
+      - ['00:07:00', 'F00715',   3138] # Megyeri út
+      - ['00:09:00', 'F00711',   3628] # Fiumei út
+      - ['00:10:00', 'F00707',   3892] # Megyer, Julianus barát utca
     trip_headsign: 'Megyer, Julianus barát utca'
     trip_id: REFERENCE-1470-0-1
     wheelchair_accessible: 2
@@ -31,19 +31,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1470-1-1-0540
     stop_times:
-      - ['18:20:00', 'F00707',      0] # Megyer, Julianus barát utca
-      - ['18:20:00', 'F00708',    367] # Gárdonyi Géza utca
-      - ['18:21:00', 'F00709',    658] # Megyeri temető
-      - ['18:22:00', 'F00713',   1082] # Aschner Lipót tér
-      - ['18:23:00', 'F00768',   1426] # Irányi Dániel utca
-      - ['18:24:00', 'F00771',   1801] # Baross utca
-      - ['18:25:00', 'F00848',   2128] # Mildenberger utca
-      - ['18:26:00', 'F00896',   2471] # Tinódi utca
-      - ['18:27:00', 'F00893',   2854] # Langlet Waldemár utca
-      - ['18:28:00', 'F00852',   3356] # Attila utca
-      - ['18:29:00', 'F00794',   3693] # Templom utca
-      - ['18:31:00', 'F00785',   4193] # István út
-      - ['18:34:00', '008697',   4965] # Újpest-Központ M
+      - ['00:00:00', 'F00707',      0] # Megyer, Julianus barát utca
+      - ['00:01:00', 'F00708',    367] # Gárdonyi Géza utca
+      - ['00:01:00', 'F00709',    658] # Megyeri temető
+      - ['00:02:00', 'F00713',   1082] # Aschner Lipót tér
+      - ['00:03:00', 'F00768',   1426] # Irányi Dániel utca
+      - ['00:04:00', 'F00771',   1801] # Baross utca
+      - ['00:05:00', 'F00848',   2128] # Mildenberger utca
+      - ['00:06:00', 'F00896',   2471] # Tinódi utca
+      - ['00:07:00', 'F00893',   2854] # Langlet Waldemár utca
+      - ['00:09:00', 'F00852',   3356] # Attila utca
+      - ['00:10:00', 'F00794',   3693] # Templom utca
+      - ['00:12:00', 'F00785',   4193] # István út
+      - ['00:15:00', '008697',   4965] # Újpest-Központ M
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-1470-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

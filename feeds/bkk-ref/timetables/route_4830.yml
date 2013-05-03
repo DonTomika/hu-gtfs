@@ -11,35 +11,35 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4830-0-1-L875
+    shape_id: REFERENCE-4830-0-1-M161
     stop_times:
-      - ['06:38:00', 'F01007',      0] # Kálvin tér M
-      - ['06:39:00', 'F01174',    266] # Szentkirályi utca
-      - ['06:40:00', 'F01205',    709] # Harminckettesek tere
-      - ['06:42:00', 'F01208',   1152] # Horváth Mihály tér
-      - ['06:43:00', 'F01177',   1442] # Koszorú utca
-      - ['06:44:00', 'F01224',   1759] # Kálvária tér
-      - ['06:46:00', 'F01225',   2071] # Csobánc utca
-      - ['06:47:00', 'F01334',   2311] # Orczy út
-      - ['06:48:00', 'F01186',   2450] # Orczy tér
+      - ['00:00:00', 'F01007',      0] # Kálvin tér M
+      - ['00:02:00', 'F01174',    266] # Szentkirályi utca
+      - ['00:03:00', 'F01205',    709] # Harminckettesek tere
+      - ['00:05:00', 'F01208',   1152] # Horváth Mihály tér
+      - ['00:06:00', 'F01177',   1442] # Koszorú utca
+      - ['00:07:00', 'F01224',   1759] # Kálvária tér
+      - ['00:09:00', 'F01225',   2071] # Csobánc utca
+      - ['00:10:00', 'F01334',   2311] # Orczy út
+      - ['00:11:00', 'F01186',   2450] # Orczy tér
     trip_headsign: Orczy tér
     trip_id: REFERENCE-4830-0-1
-    wheelchair_accessible: 0
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-4830-1-1-L874
+    shape_id: REFERENCE-4830-1-1-M160
     stop_times:
-      - ['07:57:00', 'F01186',      0] # Orczy tér
-      - ['07:58:00', 'F01223',    369] # Kálvária tér
-      - ['08:00:00', 'F01176',    795] # Koszorú utca
-      - ['08:02:00', 'F01207',   1022] # Horváth Mihály tér
-      - ['08:04:00', 'F01204',   1429] # Harminckettesek tere
-      - ['08:06:00', 'F01185',   1875] # Üllői út
-      - ['08:07:00', 'F01339',   2141] # Ráday utca
-      - ['08:09:00', 'F01340',   2460] # Közraktár utca
-      - ['08:09:00', '009622',   2628] # Czuczor utca
-      - ['08:11:00', '009361',   3003] # Vámház körút
-      - ['08:14:00', 'F01007',   3467] # Kálvin tér M
+      - ['00:00:00', 'F01186',      0] # Orczy tér
+      - ['00:01:00', 'F01223',    369] # Kálvária tér
+      - ['00:03:00', 'F01176',    795] # Koszorú utca
+      - ['00:04:00', 'F01207',   1022] # Horváth Mihály tér
+      - ['00:05:00', 'F01204',   1429] # Harminckettesek tere
+      - ['00:07:00', 'F01185',   1872] # Üllői út
+      - ['00:08:00', 'F01339',   2138] # Ráday utca
+      - ['00:09:00', 'F01340',   2457] # Közraktár utca
+      - ['00:10:00', '009622',   2625] # Czuczor utca
+      - ['00:12:00', '009361',   3000] # Vámház körút
+      - ['00:14:00', 'F01007',   3451] # Kálvin tér M
     trip_headsign: Kálvin tér M
     trip_id: REFERENCE-4830-1-1
-    wheelchair_accessible: 0
+    wheelchair_accessible: 2

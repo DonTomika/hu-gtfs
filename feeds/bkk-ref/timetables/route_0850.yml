@@ -13,25 +13,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0850-0-1-Q662
     stop_times:
-      - ['20:56:00', '008030',      0] # Örs vezér tere M+H
-      - ['20:56:00', 'F01861',    398] # Finommechanikai Zrt.
-      - ['20:58:00', 'F01780',   1209] # Terebesi utca
-      - ['21:00:00', 'F01627',   1661] # Élessarok
-      - ['21:01:00', 'F01631',   2065] # Harmat utca
-      - ['21:03:00', 'F01669',   2704] # Ihász utca
-      - ['21:04:00', 'F01671',   2944] # Csősztorony
-      - ['21:04:00', 'F01838',   3285] # Szlávy utca
-      - ['21:05:00', 'F01685',   3677] # Kada utca
-      - ['21:07:00', 'F01701',   4124] # Lavotta utca
-      - ['21:08:00', 'F01699',   4457] # Sibrik Miklós út
-      - ['21:08:00', 'F01841',   4754] # Újhegyi sétány
-      - ['21:09:00', 'F01714',   5000] # Tavas utca
-      - ['21:10:00', 'F01695',   5363] # Mélytó utca
-      - ['21:11:00', 'F01844',   5691] # Bányató utca
-      - ['21:12:00', '008863',   6066] # Gőzmozdony utca
-      - ['21:13:00', 'F01694',   6367] # Gergely utca (Sibrik Miklós út)
-      - ['21:14:00', 'F01583',   6719] # Felüljáró
-      - ['21:16:00', '038670',   7348] # Kőbánya-Kispest M
+      - ['00:00:00', '008030',      0] # Örs vezér tere M+H
+      - ['00:00:00', 'F01861',    398] # Finommechanikai Zrt.
+      - ['00:02:00', 'F01780',   1209] # Terebesi utca
+      - ['00:04:00', 'F01627',   1661] # Élessarok
+      - ['00:05:00', 'F01631',   2065] # Harmat utca
+      - ['00:07:00', 'F01669',   2704] # Ihász utca
+      - ['00:08:00', 'F01671',   2944] # Csősztorony
+      - ['00:08:00', 'F01838',   3285] # Szlávy utca
+      - ['00:09:00', 'F01685',   3677] # Kada utca
+      - ['00:11:00', 'F01701',   4124] # Lavotta utca
+      - ['00:12:00', 'F01699',   4457] # Sibrik Miklós út
+      - ['00:12:00', 'F01841',   4754] # Újhegyi sétány
+      - ['00:13:00', 'F01714',   5000] # Tavas utca
+      - ['00:14:00', 'F01695',   5363] # Mélytó utca
+      - ['00:15:00', 'F01844',   5691] # Bányató utca
+      - ['00:16:00', '008863',   6066] # Gőzmozdony utca
+      - ['00:17:00', 'F01694',   6367] # Gergely utca (Sibrik Miklós út)
+      - ['00:18:00', 'F01583',   6719] # Felüljáró
+      - ['00:21:00', '038670',   7348] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-0850-0-1
     wheelchair_accessible: 1
@@ -39,26 +39,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0850-1-1-Q661
     stop_times:
-      - ['09:55:00', '038683',      0] # Kőbánya-Kispest M
-      - ['09:57:00', 'F01584',    887] # Felüljáró (Gyömrői út)
-      - ['09:58:00', 'F01693',   1315] # Gergely utca (Sibrik Miklós út)
-      - ['10:00:00', 'F01843',   1936] # Bányató utca
-      - ['10:01:00', 'F01696',   2366] # Mélytó utca
-      - ['10:02:00', 'F01842',   2706] # Újhegyi sétány
-      - ['10:03:00', 'F01700',   2981] # Sibrik Miklós út
-      - ['10:04:00', 'F01705',   3330] # Mádi utca
-      - ['10:05:00', 'F01703',   3636] # Lavotta utca
-      - ['10:06:00', 'F01683',   4061] # Kada utca
-      - ['10:07:00', 'F01837',   4429] # Kocka utca
-      - ['10:08:00', 'F01672',   4706] # Téglavető utca
-      - ['10:09:00', 'F01670',   5152] # Csősztorony
-      - ['10:10:00', 'F01668',   5481] # Ihász utca
-      - ['10:11:00', 'F01630',   5954] # Kőrösi Csoma Sándor út
-      - ['10:13:00', 'F01628',   6474] # Élessarok
-      - ['10:15:00', 'F01622',   6861] # Sörgyár
-      - ['10:16:00', 'F01781',   7178] # Terebesi utca
-      - ['10:18:00', 'F01860',   7882] # Finommechanikai Zrt.
-      - ['10:20:00', '008030',   8247] # Örs vezér tere M+H
+      - ['00:00:00', '038683',      0] # Kőbánya-Kispest M
+      - ['00:02:00', 'F01584',    887] # Felüljáró (Gyömrői út)
+      - ['00:03:00', 'F01693',   1315] # Gergely utca (Sibrik Miklós út)
+      - ['00:05:00', 'F01843',   1936] # Bányató utca
+      - ['00:06:00', 'F01696',   2366] # Mélytó utca
+      - ['00:07:00', 'F01842',   2706] # Újhegyi sétány
+      - ['00:08:00', 'F01700',   2981] # Sibrik Miklós út
+      - ['00:09:00', 'F01705',   3330] # Mádi utca
+      - ['00:10:00', 'F01703',   3636] # Lavotta utca
+      - ['00:11:00', 'F01683',   4061] # Kada utca
+      - ['00:12:00', 'F01837',   4429] # Kocka utca
+      - ['00:13:00', 'F01672',   4706] # Téglavető utca
+      - ['00:14:00', 'F01670',   5152] # Csősztorony
+      - ['00:15:00', 'F01668',   5481] # Ihász utca
+      - ['00:16:00', 'F01630',   5954] # Kőrösi Csoma Sándor út
+      - ['00:18:00', 'F01628',   6474] # Élessarok
+      - ['00:20:00', 'F01622',   6861] # Sörgyár
+      - ['00:21:00', 'F01781',   7178] # Terebesi utca
+      - ['00:22:00', 'F01860',   7882] # Finommechanikai Zrt.
+      - ['00:24:00', '008030',   8247] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-0850-1-1
     wheelchair_accessible: 1

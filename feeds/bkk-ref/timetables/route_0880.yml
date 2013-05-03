@@ -13,37 +13,37 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0880-0-1-0730
     stop_times:
-      - ['13:10:00', 'F01880',      0] # Kamaraerdő
-      - ['13:10:00', 'F01883',    187] # Szociális Otthon
-      - ['13:11:00', 'F01886',    529] # Kamaraerdei Ifjúsági Park
-      - ['13:12:00', 'F02069',    797] # Tüzéptelep
-      - ['13:13:00', 'F01906',   1251] # Vasút utca
-      - ['13:14:00', 'F01910',   1563] # Repülőgépes Szolgálat
-      - ['13:15:00', 'F04731',   2056] # Kinizsi utca
-      - ['13:16:00', 'F04730',   2722] # Agip utca
-      - ['13:18:00', 'F04728',   3400] # Csata utca
-      - ['13:19:00', '008598',   3950] # Szabadság út
-      - ['13:20:00', 'F04721',   4140] # Károly király utca
-      - ['13:21:00', 'F04719',   4449] # Kisfaludy utca
-      - ['13:22:00', 'F04807',   4711] # Kötő utca
-      - ['13:23:00', 'F04717',   4957] # Budaörs, városháza
-      - ['13:24:00', 'F04714',   5458] # Gimnázium
-      - ['13:25:00', 'F04829',   5947] # Alcsíki dűlő
-      - ['13:25:00', 'F04837',   6219] # Lejtő utca
-      - ['13:26:00', 'F04710',   6542] # Ibolya utca
-      - ['13:27:00', 'F04801',   6894] # Csíki csárda
-      - ['13:28:00', 'F04803',   7519] # Csíki tanya
-      - ['13:29:00', 'F04739',   8140] # Hídépítő Zrt.
-      - ['13:31:00', 'F04833',   8672] # Budaörs, Tetra Pak
-      - ['13:32:00', 'F04741',   9022] # Autópálya Főmérnökség
-      - ['13:33:00', 'F04743',   9741] # Tó utca - vasútállomás
-      - ['13:34:00', 'F04745',  10023] # Kerekdomb utca
-      - ['13:35:00', 'F04765',  10291] # Blaha Lujza utca
-      - ['13:37:00', 'F04762',  10879] # Kazinczy Ferenc utca
-      - ['13:38:00', '008345',  11479] # Katona József utca
-      - ['13:39:00', 'F04815',  11959] # Zrínyi utca
-      - ['13:40:00', 'F04758',  12310] # Harangláb
-      - ['13:42:00', '008320',  12734] # Törökbálint, Munkácsy Mihály utca
+      - ['00:00:00', 'F01880',      0] # Kamaraerdő
+      - ['00:00:00', 'F01883',    187] # Szociális Otthon
+      - ['00:01:00', 'F01886',    529] # Kamaraerdei Ifjúsági Park
+      - ['00:02:00', 'F02069',    797] # Tüzéptelep
+      - ['00:02:00', 'F01906',   1251] # Vasút utca
+      - ['00:03:00', 'F01910',   1563] # Repülőgépes Szolgálat
+      - ['00:04:00', 'F04731',   2056] # Kinizsi utca
+      - ['00:05:00', 'F04730',   2722] # Agip utca
+      - ['00:07:00', 'F04728',   3400] # Csata utca
+      - ['00:08:00', '008598',   3950] # Szabadság út
+      - ['00:09:00', 'F04721',   4140] # Károly király utca
+      - ['00:10:00', 'F04719',   4449] # Kisfaludy utca
+      - ['00:11:00', 'F04807',   4711] # Kötő utca
+      - ['00:12:00', 'F04717',   4957] # Budaörs, városháza
+      - ['00:13:00', 'F04714',   5458] # Gimnázium
+      - ['00:14:00', 'F04829',   5947] # Alcsíki dűlő
+      - ['00:14:00', 'F04837',   6219] # Lejtő utca
+      - ['00:15:00', 'F04710',   6542] # Ibolya utca
+      - ['00:16:00', 'F04801',   6894] # Csíki csárda
+      - ['00:17:00', 'F04803',   7519] # Csíki tanya
+      - ['00:18:00', 'F04739',   8140] # Hídépítő Zrt.
+      - ['00:20:00', 'F04833',   8672] # Budaörs, Tetra Pak
+      - ['00:21:00', 'F04741',   9022] # Autópálya Főmérnökség
+      - ['00:22:00', 'F04743',   9741] # Tó utca - vasútállomás
+      - ['00:23:00', 'F04745',  10023] # Kerekdomb utca
+      - ['00:24:00', 'F04765',  10291] # Blaha Lujza utca
+      - ['00:26:00', 'F04762',  10879] # Kazinczy Ferenc utca
+      - ['00:27:00', '008345',  11479] # Katona József utca
+      - ['00:28:00', 'F04815',  11959] # Zrínyi utca
+      - ['00:29:00', 'F04758',  12310] # Harangláb
+      - ['00:31:00', '008320',  12734] # Törökbálint, Munkácsy Mihály utca
     trip_headsign: 'Törökbálint, Munkácsy Mihály utca'
     trip_id: REFERENCE-0880-0-1
     wheelchair_accessible: 1
@@ -51,39 +51,39 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0880-1-1-0729
     stop_times:
-      - ['06:00:00', '008320',      0] # Törökbálint, Munkácsy Mihály utca
-      - ['06:01:00', 'F04754',    169] # Bartók Béla utca
-      - ['06:02:00', 'F04751',    557] # Baross Gábor utca
-      - ['06:03:00', 'F04757',    872] # Harangláb
-      - ['06:04:00', 'F04814',   1542] # Ady Endre utca
-      - ['06:05:00', 'F04759',   2032] # Őszibarack utca
-      - ['06:06:00', 'F04761',   2420] # Károlyi Mihály utca
-      - ['06:07:00', 'F04763',   2845] # Blaha Lujza utca
-      - ['06:08:00', 'F04764',   3330] # Köztársaság tér
-      - ['06:09:00', 'F04746',   3756] # Bajor Gizi utca
-      - ['06:10:00', 'F04744',   4014] # Tó utca - vasútállomás
-      - ['06:11:00', 'F04742',   4602] # Autópálya Főmérnökség
-      - ['06:12:00', 'F04834',   5086] # Tetra Pak
-      - ['06:14:00', 'F04740',   5527] # Hídépítő Zrt.
-      - ['06:15:00', 'F04804',   6270] # Csíki tanya
-      - ['06:16:00', 'F04802',   6738] # Csíki csárda
-      - ['06:17:00', 'F04711',   7166] # Ibolya utca
-      - ['06:18:00', 'F04838',   7568] # Lejtő utca
-      - ['06:19:00', 'F04830',   7794] # Alcsíki dűlő
-      - ['06:20:00', 'F04715',   8228] # Gimnázium
-      - ['06:21:00', 'F04716',   8803] # Budaörs, városháza
-      - ['06:22:00', 'F04808',   9056] # Kötő utca
-      - ['06:23:00', 'F04720',   9375] # Petőfi Sándor utca
-      - ['06:25:00', 'F04811',   9869] # Baross utca
-      - ['06:26:00', 'F04727',  10318] # Csata utca
-      - ['06:28:00', 'F04729',  11045] # Agip utca
-      - ['06:29:00', 'F04732',  11602] # Kinizsi utca
-      - ['06:30:00', 'F01911',  12084] # Repülőgépes Szolgálat
-      - ['06:31:00', 'F01907',  12428] # Vasút utca
-      - ['06:32:00', 'F02070',  12820] # Tüzéptelep
-      - ['06:33:00', 'F01887',  13087] # Kamaraerdei Ifjúsági Park
-      - ['06:34:00', 'F01884',  13369] # Szociális Otthon
-      - ['06:35:00', 'F01880',  13697] # Kamaraerdő
+      - ['00:00:00', '008320',      0] # Törökbálint, Munkácsy Mihály utca
+      - ['00:01:00', 'F04754',    169] # Bartók Béla utca
+      - ['00:02:00', 'F04751',    557] # Baross Gábor utca
+      - ['00:03:00', 'F04757',    872] # Harangláb
+      - ['00:04:00', 'F04814',   1542] # Ady Endre utca
+      - ['00:05:00', 'F04759',   2032] # Őszibarack utca
+      - ['00:06:00', 'F04761',   2420] # Károlyi Mihály utca
+      - ['00:07:00', 'F04763',   2845] # Blaha Lujza utca
+      - ['00:08:00', 'F04764',   3330] # Köztársaság tér
+      - ['00:09:00', 'F04746',   3756] # Bajor Gizi utca
+      - ['00:10:00', 'F04744',   4014] # Tó utca - vasútállomás
+      - ['00:11:00', 'F04742',   4602] # Autópálya Főmérnökség
+      - ['00:12:00', 'F04834',   5086] # Tetra Pak
+      - ['00:13:00', 'F04740',   5527] # Hídépítő Zrt.
+      - ['00:14:00', 'F04804',   6270] # Csíki tanya
+      - ['00:14:00', 'F04802',   6738] # Csíki csárda
+      - ['00:15:00', 'F04711',   7166] # Ibolya utca
+      - ['00:16:00', 'F04838',   7568] # Lejtő utca
+      - ['00:17:00', 'F04830',   7794] # Alcsíki dűlő
+      - ['00:18:00', 'F04715',   8228] # Gimnázium
+      - ['00:19:00', 'F04716',   8803] # Budaörs, városháza
+      - ['00:20:00', 'F04808',   9056] # Kötő utca
+      - ['00:21:00', 'F04720',   9375] # Petőfi Sándor utca
+      - ['00:22:00', 'F04811',   9869] # Baross utca
+      - ['00:23:00', 'F04727',  10318] # Csata utca
+      - ['00:25:00', 'F04729',  11045] # Agip utca
+      - ['00:26:00', 'F04732',  11602] # Kinizsi utca
+      - ['00:27:00', 'F01911',  12084] # Repülőgépes Szolgálat
+      - ['00:28:00', 'F01907',  12428] # Vasút utca
+      - ['00:28:00', 'F02070',  12820] # Tüzéptelep
+      - ['00:29:00', 'F01887',  13087] # Kamaraerdei Ifjúsági Park
+      - ['00:30:00', 'F01884',  13369] # Szociális Otthon
+      - ['00:31:00', 'F01880',  13697] # Kamaraerdő
     trip_headsign: Kamaraerdő
     trip_id: REFERENCE-0880-1-1
     wheelchair_accessible: 1

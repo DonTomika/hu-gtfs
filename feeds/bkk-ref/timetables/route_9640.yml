@@ -13,29 +13,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9640-0-1-R409
     stop_times:
-      - ['27:04:00', '007978',      0] # Hűvösvölgy
-      - ['27:05:00', 'F00339',    256] # Hidegkúti út
-      - ['27:06:00', 'F00358',    705] # Hunyadi János utca
-      - ['27:07:00', 'F00360',   1330] # Kossuth Lajos utca
-      - ['27:08:00', 'F00406',   1704] # Kölcsey utca
-      - ['27:09:00', 'F00404',   2170] # Mikszáth Kálmán utca
-      - ['27:10:00', 'F00402',   2576] # Községház utca
-      - ['27:11:00', 'F00400',   2923] # Templom utca
-      - ['27:12:00', 'F00394',   3372] # Solymári elágazás
-      - ['27:13:00', 'F00396',   3944] # Szarvashegy utca
-      - ['27:14:00', 'F00398',   4427] # Örökzöld utca
-      - ['27:15:00', 'F00117',   5138] # Solymár, Kökörcsin utca
-      - ['27:16:00', 'F04696',   5712] # Anna kápolna
-      - ['27:17:00', 'F04699',   6452] # Munkás utca
-      - ['27:18:00', 'F04798',   6750] # Bajcsy-Zsilinszky utca
-      - ['27:19:00', 'F04700',   7016] # Solymár, községháza
-      - ['27:20:00', 'F04704',   7446] # Dózsa György utca
-      - ['27:21:00', 'F04707',   7727] # Templom tér
-      - ['27:22:00', 'F04705',   8143] # József Attila utca
-      - ['27:23:00', 'F04702',   8603] # Solymár, községháza
-      - ['27:24:00', 'F04800',   9264] # Pilisvörösvári utca
-      - ['27:25:00', 'F04832',   9590] # Váci Mihály utca
-      - ['27:26:00', '044511',   9893] # Solymár, PEMÜ
+      - ['00:00:00', '007978',      0] # Hűvösvölgy
+      - ['00:01:00', 'F00339',    256] # Hidegkúti út
+      - ['00:02:00', 'F00358',    705] # Hunyadi János utca
+      - ['00:03:00', 'F00360',   1330] # Kossuth Lajos utca
+      - ['00:04:00', 'F00406',   1704] # Kölcsey utca
+      - ['00:05:00', 'F00404',   2170] # Mikszáth Kálmán utca
+      - ['00:06:00', 'F00402',   2576] # Községház utca
+      - ['00:07:00', 'F00400',   2923] # Templom utca
+      - ['00:08:00', 'F00394',   3372] # Solymári elágazás
+      - ['00:09:00', 'F00396',   3944] # Szarvashegy utca
+      - ['00:10:00', 'F00398',   4427] # Örökzöld utca
+      - ['00:11:00', 'F00117',   5138] # Solymár, Kökörcsin utca
+      - ['00:12:00', 'F04696',   5712] # Anna kápolna
+      - ['00:13:00', 'F04699',   6452] # Munkás utca
+      - ['00:14:00', 'F04798',   6750] # Bajcsy-Zsilinszky utca
+      - ['00:15:00', 'F04700',   7016] # Solymár, községháza
+      - ['00:16:00', 'F04704',   7446] # Dózsa György utca
+      - ['00:17:00', 'F04707',   7727] # Templom tér
+      - ['00:18:00', 'F04705',   8143] # József Attila utca
+      - ['00:19:00', 'F04702',   8603] # Solymár, községháza
+      - ['00:20:00', 'F04800',   9264] # Pilisvörösvári utca
+      - ['00:21:00', 'F04832',   9590] # Váci Mihály utca
+      - ['00:22:00', '044511',   9893] # Solymár, PEMÜ
     trip_headsign: 'Solymár, PEMÜ'
     trip_id: REFERENCE-9640-0-1
     wheelchair_accessible: 2
@@ -43,29 +43,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9640-1-1-R408
     stop_times:
-      - ['26:07:00', 'F04703',      0] # Solymár, PEMÜ
-      - ['26:08:00', 'F04831',    389] # Váci Mihály utca
-      - ['26:08:00', 'F04799',    653] # Pilisvörösvári utca
-      - ['26:10:00', 'F04700',   1365] # Solymár, községháza
-      - ['26:11:00', 'F04704',   1795] # Dózsa György utca
-      - ['26:12:00', 'F04706',   2046] # Solymár, Templom tér
-      - ['26:13:00', 'F04705',   2491] # József Attila utca
-      - ['26:14:00', 'F04701',   2930] # Solymár, községháza
-      - ['26:15:00', 'F04797',   3140] # Bajcsy-Zsilinszky utca
-      - ['26:16:00', 'F04698',   3506] # Munkás utca
-      - ['26:17:00', 'F04697',   4125] # Anna kápolna
-      - ['26:18:00', 'F00118',   4826] # Kökörcsin utca
-      - ['26:19:00', 'F00399',   5481] # Örökzöld utca
-      - ['26:19:00', 'F00397',   5896] # Szarvashegy utca
-      - ['26:20:00', 'F00395',   6452] # Solymári elágazás
-      - ['26:21:00', 'F00401',   6888] # Templom utca
-      - ['26:21:00', 'F00403',   7209] # Községház utca
-      - ['26:22:00', 'F00405',   7607] # Mikszáth Kálmán utca
-      - ['26:23:00', 'F00407',   8108] # Kölcsey utca
-      - ['26:24:00', 'F00361',   8533] # Kossuth Lajos utca
-      - ['26:25:00', 'F00359',   9204] # Hunyadi János utca
-      - ['26:26:00', 'F00340',   9653] # Bátori László utca
-      - ['26:27:00', '007972',   9809] # Hűvösvölgy
+      - ['00:00:00', 'F04703',      0] # Solymár, PEMÜ
+      - ['00:01:00', 'F04831',    389] # Váci Mihály utca
+      - ['00:01:00', 'F04799',    653] # Pilisvörösvári utca
+      - ['00:03:00', 'F04700',   1365] # Solymár, községháza
+      - ['00:04:00', 'F04704',   1795] # Dózsa György utca
+      - ['00:05:00', 'F04706',   2046] # Solymár, Templom tér
+      - ['00:06:00', 'F04705',   2491] # József Attila utca
+      - ['00:07:00', 'F04701',   2930] # Solymár, községháza
+      - ['00:08:00', 'F04797',   3140] # Bajcsy-Zsilinszky utca
+      - ['00:09:00', 'F04698',   3506] # Munkás utca
+      - ['00:10:00', 'F04697',   4125] # Anna kápolna
+      - ['00:11:00', 'F00118',   4826] # Kökörcsin utca
+      - ['00:12:00', 'F00399',   5481] # Örökzöld utca
+      - ['00:12:00', 'F00397',   5896] # Szarvashegy utca
+      - ['00:13:00', 'F00395',   6452] # Solymári elágazás
+      - ['00:14:00', 'F00401',   6888] # Templom utca
+      - ['00:14:00', 'F00403',   7209] # Községház utca
+      - ['00:15:00', 'F00405',   7607] # Mikszáth Kálmán utca
+      - ['00:16:00', 'F00407',   8108] # Kölcsey utca
+      - ['00:17:00', 'F00361',   8533] # Kossuth Lajos utca
+      - ['00:18:00', 'F00359',   9204] # Hunyadi János utca
+      - ['00:19:00', 'F00340',   9653] # Bátori László utca
+      - ['00:20:00', '007972',   9809] # Hűvösvölgy
     trip_headsign: Hűvösvölgy
     trip_id: REFERENCE-9640-1-1
     wheelchair_accessible: 2

@@ -13,53 +13,53 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2180-0-1-J035
     stop_times:
-      - ['22:32:00', 'F00621',      0] # Szentlélek tér H
-      - ['22:33:00', 'F00613',    511] # Flórián tér
-      - ['22:35:00', 'F00588',    890] # Vihar utca
-      - ['22:36:00', 'F00584',   1348] # Óbudai rendelőintézet
-      - ['22:37:00', 'F00680',   1790] # Bécsi út (Vörösvári út)
-      - ['22:38:00', 'F00518',   2463] # Orbán Balázs út
-      - ['22:39:00', 'F00520',   2967] # Bojtár utca (Bécsi út)
-      - ['22:40:00', 'F00549',   3254] # Kubik utca
-      - ['22:41:00', 'F00522',   3649] # Óbudai temető
-      - ['22:42:00', 'F00617',   4214] # ATI
-      - ['22:43:00', 'F00630',   4526] # Bóbita utca
-      - ['22:43:00', 'F00528',   4708] # Kocsis Sándor út
-      - ['22:44:00', 'F00530',   5215] # Ürömhegyi út
-      - ['22:45:00', 'F00532',   5986] # Üröm vasúti megállóhely
-      - ['22:46:00', 'F00433',   6551] # Tücsök utca
-      - ['22:47:00', 'F04817',   6987] # Solymár, téglagyári bekötőút
-      - ['22:48:00', 'F04774',   7464] # Külső Bécsi út 35.
-      - ['22:49:00', 'F04819',   7893] # Kövesbérci utca
-      - ['22:50:00', 'F04776',   8485] # Pilisborosjenő, Téglagyári tér
+      - ['00:00:00', 'F00621',      0] # Szentlélek tér H
+      - ['00:01:00', 'F00613',    511] # Flórián tér
+      - ['00:03:00', 'F00588',    890] # Vihar utca
+      - ['00:04:00', 'F00584',   1348] # Óbudai rendelőintézet
+      - ['00:05:00', 'F00680',   1790] # Bécsi út (Vörösvári út)
+      - ['00:06:00', 'F00518',   2463] # Orbán Balázs út
+      - ['00:07:00', 'F00520',   2967] # Bojtár utca (Bécsi út)
+      - ['00:08:00', 'F00549',   3254] # Kubik utca
+      - ['00:09:00', 'F00522',   3649] # Óbudai temető
+      - ['00:10:00', 'F00617',   4214] # ATI
+      - ['00:11:00', 'F00630',   4526] # Bóbita utca
+      - ['00:11:00', 'F00528',   4708] # Kocsis Sándor út
+      - ['00:12:00', 'F00530',   5215] # Ürömhegyi út
+      - ['00:13:00', 'F00532',   5986] # Üröm vasúti megállóhely
+      - ['00:14:00', 'F00433',   6551] # Tücsök utca
+      - ['00:15:00', 'F04817',   6987] # Solymár, téglagyári bekötőút
+      - ['00:16:00', 'F04774',   7464] # Külső Bécsi út 35.
+      - ['00:17:00', 'F04819',   7893] # Kövesbérci utca
+      - ['00:18:00', 'F04776',   8485] # Pilisborosjenő, Téglagyári tér
     trip_headsign: 'Pilisborosjenő, Téglagyári tér'
     trip_id: REFERENCE-2180-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2180-1-1-J036
     stop_times:
-      - ['11:02:00', 'F04776',      0] # Pilisborosjenő, Téglagyári tér
-      - ['11:03:00', 'F04820',    752] # Kövesbérci utca
-      - ['11:04:00', 'F04775',   1098] # Külső Bécsi út 35.
-      - ['11:05:00', 'F04818',   1651] # Solymár, téglagyári bekötőút
-      - ['11:05:00', 'F00434',   1984] # Tücsök utca
-      - ['11:07:00', 'F00533',   2518] # Üröm vasúti megállóhely
-      - ['11:08:00', 'F00531',   3278] # Ürömhegyi út
-      - ['11:09:00', 'F00529',   3692] # Sorompó
-      - ['11:10:00', 'F00631',   4128] # Bóbita utca
-      - ['11:11:00', 'F00618',   4426] # ATI
-      - ['11:12:00', 'F00558',   5067] # Óbudai temető
-      - ['11:13:00', 'F00550',   5425] # Kubik utca
-      - ['11:14:00', 'F00521',   5698] # Bojtár utca
-      - ['11:15:00', 'F00519',   6006] # Orbán Balázs út
-      - ['11:16:00', 'F00669',   6483] # Laborc utca
-      - ['11:18:00', 'F00570',   6938] # Vörösvári út
-      - ['11:19:00', 'F00585',   7393] # Óbudai rendelőintézet
-      - ['11:20:00', 'F00589',   7688] # Szőlő utca
-      - ['11:22:00', 'F00616',   7974] # Flórián tér
-      - ['11:24:00', '009295',   8535] # Serfőző utca
-      - ['11:25:00', 'F00621',   8847] # Szentlélek tér H
+      - ['00:00:00', 'F04776',      0] # Pilisborosjenő, Téglagyári tér
+      - ['00:02:00', 'F04820',    752] # Kövesbérci utca
+      - ['00:03:00', 'F04775',   1098] # Külső Bécsi út 35.
+      - ['00:04:00', 'F04818',   1651] # Solymár, téglagyári bekötőút
+      - ['00:04:00', 'F00434',   1984] # Tücsök utca
+      - ['00:05:00', 'F00533',   2518] # Üröm vasúti megállóhely
+      - ['00:06:00', 'F00531',   3278] # Ürömhegyi út
+      - ['00:07:00', 'F00529',   3692] # Sorompó
+      - ['00:08:00', 'F00631',   4128] # Bóbita utca
+      - ['00:09:00', 'F00618',   4426] # ATI
+      - ['00:10:00', 'F00558',   5067] # Óbudai temető
+      - ['00:11:00', 'F00550',   5425] # Kubik utca
+      - ['00:12:00', 'F00521',   5698] # Bojtár utca
+      - ['00:13:00', 'F00519',   6006] # Orbán Balázs út
+      - ['00:14:00', 'F00669',   6483] # Laborc utca
+      - ['00:15:00', 'F00570',   6938] # Vörösvári út
+      - ['00:16:00', 'F00585',   7393] # Óbudai rendelőintézet
+      - ['00:17:00', 'F00589',   7688] # Szőlő utca
+      - ['00:17:00', 'F00616',   7974] # Flórián tér
+      - ['00:19:00', '009295',   8535] # Serfőző utca
+      - ['00:20:00', 'F00621',   8847] # Szentlélek tér H
     trip_headsign: Szentlélek tér H
     trip_id: REFERENCE-2180-1-1
     wheelchair_accessible: 1

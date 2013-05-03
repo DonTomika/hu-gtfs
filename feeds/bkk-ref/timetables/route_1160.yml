@@ -13,13 +13,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1160-0-1-H373
     stop_times:
-      - ['08:30:00', 'F00074',      0] # Dísz tér
-      - ['08:31:00', 'F00073',    116] # Dísz tér
-      - ['08:32:00', 'F00072',    405] # Szentháromság tér
-      - ['08:33:00', 'F00069',    857] # Bécsi kapu tér
-      - ['08:34:00', 'F00030',   1105] # Ostrom utca
-      - ['08:35:00', '009730',   1526] # Széll Kálmán tér M (Várfok utca)
-      - ['08:37:00', '008087',   1789] # Fény utcai piac
+      - ['00:00:00', 'F00074',      0] # Dísz tér
+      - ['00:01:00', 'F00073',    116] # Dísz tér
+      - ['00:02:00', 'F00072',    405] # Szentháromság tér
+      - ['00:03:00', 'F00069',    857] # Bécsi kapu tér
+      - ['00:04:00', 'F00030',   1105] # Ostrom utca
+      - ['00:05:00', '009730',   1526] # Széll Kálmán tér M (Várfok utca)
+      - ['00:07:00', '008087',   1789] # Fény utcai piac
     trip_headsign: Fény utcai piac
     trip_id: REFERENCE-1160-0-1
     wheelchair_accessible: 2
@@ -27,9 +27,9 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1160-1-1-H438
     stop_times:
-      - ['13:09:00', '008087',      0] # Fény utcai piac
-      - ['13:10:00', 'F00305',     47] # Dékán utca
-      - ['13:13:00', 'F02469',    452] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', '008087',      0] # Fény utcai piac
+      - ['00:01:00', 'F00305',     47] # Dékán utca
+      - ['00:03:00', 'F02469',    452] # Széll Kálmán tér M (Várfok utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-1160-1-1
     wheelchair_accessible: 2

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FF1818
-route_desc: Jászai Mari tér / Keleti pályaudvar M
+route_desc: Keleti pályaudvar M (Garay utca) / Jászai Mari tér (Budai Nagy Antal utca)
 route_id: 4760
 route_long_name: ''
 route_short_name: 76
@@ -11,40 +11,40 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4760-0-1-S630
+    shape_id: REFERENCE-4760-0-1-L238
     stop_times:
-      - ['09:57:00', 'F02511',      0] # Jászai Mari tér (Budai Nagy Antal utca)
-      - ['09:58:00', 'F02649',    236] # Radnóti Miklós utca
-      - ['09:59:00', 'F02513',    513] # Szent István park
-      - ['10:00:00', 'F02515',    717] # Hegedűs Gyula utca
-      - ['10:02:00', '009039',   1058] # Lehel tér M (Csanády utca)
-      - ['10:04:00', 'F01072',   1795] # Izabella utca
-      - ['10:06:00', 'F01090',   2208] # Andrássy út (Vörösmarty utca M)
-      - ['10:08:00', 'F01040',   2632] # Király utca
-      - ['10:09:00', 'F01117',   3023] # Wesselényi utca
-      - ['10:10:00', 'F01121',   3429] # Rottenbiller utca
-      - ['10:12:00', '009417',   3870] # Keleti pályaudvar M (Garay utca)
+      - ['00:00:00', 'F02511',      0] # Jászai Mari tér (Budai Nagy Antal utca)
+      - ['00:01:00', 'F02649',    236] # Radnóti Miklós utca
+      - ['00:02:00', 'F02513',    513] # Szent István park
+      - ['00:03:00', 'F02515',    717] # Hegedűs Gyula utca
+      - ['00:05:00', '009039',   1058] # Lehel tér M (Csanády utca)
+      - ['00:08:00', 'F01072',   1795] # Izabella utca
+      - ['00:10:00', 'F01090',   2208] # Andrássy út (Vörösmarty utca M)
+      - ['00:12:00', 'F01040',   2632] # Király utca
+      - ['00:14:00', 'F01117',   3023] # Wesselényi utca
+      - ['00:15:00', 'F01121',   3429] # Rottenbiller utca
+      - ['00:17:00', '009417',   3870] # Keleti pályaudvar M (Garay utca)
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-4760-0-1
     wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-4760-1-1-S631
+    shape_id: REFERENCE-4760-1-1-L237
     stop_times:
-      - ['06:36:00', '009419',      0] # Keleti pályaudvar M (Garay utca)
-      - ['06:38:00', 'F01172',    306] # Péterfy Sándor utca
-      - ['06:39:00', 'F01122',    483] # István utca
-      - ['06:40:00', 'F01120',    713] # Wesselényi utca
-      - ['06:41:00', 'F01119',    931] # Dob utca
-      - ['06:43:00', 'F01042',   1262] # Király utca
-      - ['06:44:00', 'F01091',   1461] # Andrássy út (Vörösmarty utca M)
-      - ['06:46:00', 'F01071',   2017] # Podmaniczky utca
-      - ['06:48:00', 'F01066',   2639] # Lehel utca
-      - ['06:50:00', 'F02617',   2937] # Lehel tér M
-      - ['06:52:00', 'F02517',   3315] # Hegedűs Gyula utca
-      - ['06:54:00', 'F02512',   3709] # Szent István park
-      - ['06:55:00', 'F02650',   4002] # Radnóti Miklós utca
-      - ['06:56:00', 'F02511',   4281] # Jászai Mari tér (Budai Nagy Antal utca)
+      - ['00:00:00', '009419',      0] # Keleti pályaudvar M (Garay utca)
+      - ['00:01:00', 'F01172',    306] # Péterfy Sándor utca
+      - ['00:02:00', 'F01122',    483] # István utca
+      - ['00:03:00', 'F01120',    713] # Wesselényi utca
+      - ['00:04:00', 'F01119',    931] # Dob utca
+      - ['00:05:00', 'F01042',   1262] # Király utca
+      - ['00:06:00', 'F01091',   1461] # Andrássy út (Vörösmarty utca M)
+      - ['00:08:00', 'F01071',   2017] # Podmaniczky utca
+      - ['00:10:00', 'F01066',   2639] # Lehel utca
+      - ['00:12:00', 'F02617',   2937] # Lehel tér M
+      - ['00:13:00', 'F02517',   3315] # Hegedűs Gyula utca
+      - ['00:14:00', 'F02512',   3709] # Szent István park
+      - ['00:15:00', 'F02650',   4002] # Radnóti Miklós utca
+      - ['00:16:00', 'F02511',   4281] # Jászai Mari tér (Budai Nagy Antal utca)
     trip_headsign: Jászai Mari tér
     trip_id: REFERENCE-4760-1-1
     wheelchair_accessible: 1

@@ -13,28 +13,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1960-0-1-S092
     stop_times:
-      - ['07:10:00', 'F03146',      0] # Újpalota, Szentmihályi út
-      - ['07:11:00', 'F03201',    374] # Erdőkerülő utca 28.
-      - ['07:12:00', 'F03209',    796] # Zsókavár utca
-      - ['07:13:00', 'F03154',   1019] # Fő tér
-      - ['07:14:00', 'F03159',   1449] # Vásárcsarnok
-      - ['07:15:00', 'F03193',   1766] # Sárfű utca
-      - ['07:16:00', 'F03125',   2122] # Bánkút utca
-      - ['07:17:00', 'F03129',   2469] # Rákospalotai köztemető
-      - ['07:20:00', 'F03061',   3382] # Fazekas sor
-      - ['07:21:00', '043342',   3693] # Régi Fóti út
-      - ['07:22:00', 'F03057',   4034] # Beller Imre utca
-      - ['07:24:00', 'F03053',   4424] # Hubay Jenő tér
-      - ['07:28:00', 'F00885',   5263] # Árpád Kórház
-      - ['07:30:00', 'F00835',   5720] # Árpád üzletház
-      - ['07:33:00', 'F00799',   6458] # Újpest-Központ M
-      - ['07:34:00', 'F00810',   6861] # Újpest-Városkapu M
-      - ['07:35:00', 'F00706',   7293] # Újpest, Árpád út hajóállomás
-      - ['07:36:00', 'F00705',   7620] # Károlyi István utca
-      - ['07:37:00', 'F00703',   8056] # Zsilip utca
-      - ['07:39:00', 'F00701',   8454] # Megyeri út
-      - ['07:40:00', 'F00869',   8921] # Tungsram
-      - ['07:43:00', 'F00699',   9685] # Újpest, Fóti út
+      - ['00:00:00', 'F03146',      0] # Újpalota, Szentmihályi út
+      - ['00:01:00', 'F03201',    374] # Erdőkerülő utca 28.
+      - ['00:02:00', 'F03209',    796] # Zsókavár utca
+      - ['00:02:00', 'F03154',   1019] # Fő tér
+      - ['00:04:00', 'F03159',   1449] # Vásárcsarnok
+      - ['00:05:00', 'F03193',   1766] # Sárfű utca
+      - ['00:06:00', 'F03125',   2122] # Bánkút utca
+      - ['00:07:00', 'F03129',   2469] # Rákospalotai köztemető
+      - ['00:09:00', 'F03061',   3382] # Fazekas sor
+      - ['00:10:00', '043342',   3693] # Régi Fóti út
+      - ['00:11:00', 'F03057',   4034] # Beller Imre utca
+      - ['00:13:00', 'F03053',   4424] # Hubay Jenő tér
+      - ['00:15:00', 'F00885',   5263] # Árpád Kórház
+      - ['00:17:00', 'F00835',   5720] # Árpád üzletház
+      - ['00:19:00', 'F00799',   6458] # Újpest-Központ M
+      - ['00:20:00', 'F00810',   6861] # Újpest-Városkapu M
+      - ['00:21:00', 'F00706',   7293] # Újpest, Árpád út hajóállomás
+      - ['00:22:00', 'F00705',   7620] # Károlyi István utca
+      - ['00:23:00', 'F00703',   8056] # Zsilip utca
+      - ['00:25:00', 'F00701',   8454] # Megyeri út
+      - ['00:26:00', 'F00869',   8921] # Tungsram
+      - ['00:29:00', 'F00699',   9685] # Újpest, Fóti út
     trip_headsign: 'Újpest, Fóti út'
     trip_id: REFERENCE-1960-0-1
     wheelchair_accessible: 2
@@ -42,28 +42,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1960-1-1-S093
     stop_times:
-      - ['18:56:00', 'F00699',      0] # Újpest, Fóti út
-      - ['18:57:00', 'F00713',    609] # Aschner Lipót tér
-      - ['18:59:00', 'F00767',   1075] # Szusza Ferenc stadion
-      - ['19:00:00', 'F00700',   1481] # Tímár utca
-      - ['19:01:00', 'F00702',   1975] # Zsilip utca
-      - ['19:03:00', 'F00704',   2242] # Károlyi István utca
-      - ['19:03:00', '044557',   2613] # Újpest, Árpád út hajóállomás
-      - ['19:05:00', 'F00809',   3121] # Újpest-Városkapu M
-      - ['19:07:00', 'F00802',   3642] # Újpest-Központ M
-      - ['19:08:00', 'F00836',   4376] # Árpád üzletház
-      - ['19:09:00', 'F00886',   4623] # Árpád Kórház
-      - ['19:12:00', 'F03056',   5785] # Beller Imre utca
-      - ['19:13:00', 'F03060',   6224] # Szentmihályi út
-      - ['19:14:00', 'F03062',   6645] # Bezerédj Pál utca
-      - ['19:17:00', 'F03127',   7461] # Rákospalotai köztemető
-      - ['19:18:00', 'F03126',   7989] # Páskomliget utca
-      - ['19:19:00', 'F03194',   8316] # Sárfű utca
-      - ['19:20:00', 'F03160',   8571] # Vásárcsarnok
-      - ['19:22:00', 'F03153',   9061] # Fő tér
-      - ['19:23:00', 'F03150',   9400] # Erdőkerülő utca
-      - ['19:24:00', 'F03202',   9704] # Erdőkerülő utca 27.
-      - ['19:25:00', 'F03145',   9963] # Újpalota, Szentmihályi út
+      - ['00:00:00', 'F00699',      0] # Újpest, Fóti út
+      - ['00:01:00', 'F00713',    609] # Aschner Lipót tér
+      - ['00:03:00', 'F00767',   1075] # Szusza Ferenc stadion
+      - ['00:04:00', 'F00700',   1481] # Tímár utca
+      - ['00:05:00', 'F00702',   1975] # Zsilip utca
+      - ['00:07:00', 'F00704',   2242] # Károlyi István utca
+      - ['00:07:00', '044557',   2613] # Újpest, Árpád út hajóállomás
+      - ['00:09:00', 'F00809',   3121] # Újpest-Városkapu M
+      - ['00:11:00', 'F00802',   3642] # Újpest-Központ M
+      - ['00:12:00', 'F00836',   4376] # Árpád üzletház
+      - ['00:13:00', 'F00886',   4623] # Árpád Kórház
+      - ['00:16:00', 'F03056',   5785] # Beller Imre utca
+      - ['00:17:00', 'F03060',   6224] # Szentmihályi út
+      - ['00:18:00', 'F03062',   6645] # Bezerédj Pál utca
+      - ['00:21:00', 'F03127',   7461] # Rákospalotai köztemető
+      - ['00:22:00', 'F03126',   7989] # Páskomliget utca
+      - ['00:23:00', 'F03194',   8316] # Sárfű utca
+      - ['00:24:00', 'F03160',   8571] # Vásárcsarnok
+      - ['00:26:00', 'F03153',   9061] # Fő tér
+      - ['00:27:00', 'F03150',   9400] # Erdőkerülő utca
+      - ['00:28:00', 'F03202',   9704] # Erdőkerülő utca 27.
+      - ['00:29:00', 'F03145',   9963] # Újpalota, Szentmihályi út
     trip_headsign: 'Újpalota, Szentmihályi út'
     trip_id: REFERENCE-1960-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

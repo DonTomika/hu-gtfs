@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFAA00
-route_desc: Mexikói út M / Vörösmarty tér
+route_desc: Mexikói út / Vörösmarty tér
 route_id: 5100
 route_long_name: ''
 route_short_name: M1
@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-5100-0-1-1109
     stop_times:
-      - ['14:28:00', 'F02887',      0] # Mexikói út
-      - ['14:29:36', 'F02696',    754] # Széchenyi fürdő
-      - ['14:31:03', 'F01102',   1300] # Hősök tere
-      - ['14:32:13', 'F01100',   1733] # Bajza utca
-      - ['14:33:14', 'F01095',   2072] # Kodály körönd
-      - ['14:34:10', 'F01092',   2387] # Vörösmarty utca
-      - ['14:35:25', 'F01085',   2736] # Oktogon
-      - ['14:36:29', 'F01079',   3169] # Opera
-      - ['14:37:33', 'F00996',   3556] # Bajcsy-Zsilinszky út
-      - ['14:38:47', 'F00962',   3848] # Deák Ferenc tér
-      - ['14:39:40', 'F00964',   4154] # Vörösmarty tér
+      - ['00:00:00', 'F02887',      0] # Mexikói út
+      - ['00:01:36', 'F02696',    754] # Széchenyi fürdő
+      - ['00:03:03', 'F01102',   1300] # Hősök tere
+      - ['00:04:08', 'F01100',   1733] # Bajza utca
+      - ['00:05:04', 'F01095',   2072] # Kodály körönd
+      - ['00:06:00', 'F01092',   2387] # Vörösmarty utca
+      - ['00:07:10', 'F01085',   2736] # Oktogon
+      - ['00:08:14', 'F01079',   3169] # Opera
+      - ['00:09:18', 'F00996',   3556] # Bajcsy-Zsilinszky út
+      - ['00:10:27', 'F00962',   3848] # Deák Ferenc tér
+      - ['00:11:20', 'F00964',   4154] # Vörösmarty tér
     trip_headsign: Vörösmarty tér
     trip_id: REFERENCE-5100-0-1
     wheelchair_accessible: 2
@@ -31,17 +31,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-5100-1-1-1110
     stop_times:
-      - ['16:32:00', 'F00965',      0] # Vörösmarty tér
-      - ['16:33:24', 'F00963',    309] # Deák Ferenc tér
-      - ['16:34:30', 'F00997',    610] # Bajcsy-Zsilinszky út
-      - ['16:35:35', 'F01080',    995] # Opera
-      - ['16:36:55', 'F01086',   1424] # Oktogon
-      - ['16:37:55', 'F01093',   1773] # Vörösmarty utca
-      - ['16:38:55', 'F01096',   2088] # Kodály körönd
-      - ['16:39:51', 'F01101',   2442] # Bajza utca
-      - ['16:41:06', 'F01103',   2882] # Hősök tere
-      - ['16:42:27', 'F02697',   3406] # Széchenyi fürdő
-      - ['16:43:50', 'F02888',   4200] # Mexikói út
+      - ['00:00:00', 'F00965',      0] # Vörösmarty tér
+      - ['00:01:19', 'F00963',    309] # Deák Ferenc tér
+      - ['00:02:25', 'F00997',    610] # Bajcsy-Zsilinszky út
+      - ['00:03:30', 'F01080',    995] # Opera
+      - ['00:04:45', 'F01086',   1424] # Oktogon
+      - ['00:05:45', 'F01093',   1773] # Vörösmarty utca
+      - ['00:06:45', 'F01096',   2088] # Kodály körönd
+      - ['00:07:41', 'F01101',   2442] # Bajza utca
+      - ['00:08:56', 'F01103',   2882] # Hősök tere
+      - ['00:10:17', 'F02697',   3406] # Széchenyi fürdő
+      - ['00:11:40', 'F02888',   4200] # Mexikói út
     trip_headsign: Mexikói út M
     trip_id: REFERENCE-5100-1-1
     wheelchair_accessible: 2

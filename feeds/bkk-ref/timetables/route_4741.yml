@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FF1818
-route_desc: Csáktornya park / Mexikói út M
+route_desc: Mexikói út M / Csáktornya park
 route_id: 4741
 route_long_name: ''
 route_short_name: 74A
@@ -11,31 +11,31 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4741-0-1-S628
+    shape_id: REFERENCE-4741-0-1-1040
     stop_times:
-      - ['09:15:00', 'F02882',      0] # Mexikói út M
-      - ['09:18:00', 'F02900',    905] # Kassai tér
-      - ['09:19:00', 'F02953',   1232] # Fűrész utca
-      - ['09:20:00', 'F02904',   1616] # Rákospatak utca
-      - ['09:21:00', 'F02955',   2055] # Sárrét park
-      - ['09:22:00', 'F02906',   2400] # Róna park
-      - ['09:24:00', 'F02907',   2692] # Csáktornya park
+      - ['00:00:00', 'F02882',      0] # Mexikói út M
+      - ['00:03:00', 'F02900',    905] # Kassai tér
+      - ['00:04:00', 'F02953',   1232] # Fűrész utca
+      - ['00:05:00', 'F02904',   1616] # Rákospatak utca
+      - ['00:06:00', 'F02955',   2055] # Sárrét park
+      - ['00:07:00', 'F02906',   2400] # Róna park
+      - ['00:08:00', 'F02907',   2692] # Csáktornya park
     trip_headsign: Csáktornya park
     trip_id: REFERENCE-4741-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-4741-1-1-1039
     stop_times:
-      - ['18:50:00', 'F02907',      0] # Csáktornya park
-      - ['18:51:00', 'F02954',    351] # Sárrét park
-      - ['18:52:00', 'F02903',    939] # Rákospatak utca
-      - ['18:53:00', 'F02952',   1192] # Fűrész utca
-      - ['18:54:00', 'F02899',   1640] # Kassai tér
-      - ['18:56:00', '008241',   2217] # Szőnyi út
-      - ['18:57:00', '008242',   2615] # Teleki Blanka utca
-      - ['18:58:00', 'F02895',   2894] # Mexikói út
-      - ['18:59:00', 'F02882',   3268] # Mexikói út M
+      - ['00:00:00', 'F02907',      0] # Csáktornya park
+      - ['00:01:00', 'F02954',    351] # Sárrét park
+      - ['00:02:00', 'F02903',    939] # Rákospatak utca
+      - ['00:03:00', 'F02952',   1192] # Fűrész utca
+      - ['00:04:00', 'F02899',   1640] # Kassai tér
+      - ['00:06:00', '008241',   2217] # Szőnyi út
+      - ['00:07:00', '008242',   2615] # Teleki Blanka utca
+      - ['00:08:00', 'F02895',   2894] # Mexikói út
+      - ['00:09:00', 'F02882',   3268] # Mexikói út M
     trip_headsign: Mexikói út M
     trip_id: REFERENCE-4741-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

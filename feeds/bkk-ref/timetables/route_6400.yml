@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: A03472
-route_desc: Batthyány tér M+H / Szentendre
+route_desc: Batthyány tér / Szentendre
 route_id: 6400
 route_long_name: Szentendrei járat
 route_short_name: H5
@@ -13,23 +13,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-6400-0-1-1233
     stop_times:
-      - ['09:02:00', 'F00060',      0] # Batthyány tér
-      - ['09:04:00', 'F00185',   1008] # Margit híd, budai hídfő
-      - ['09:07:00', 'F00139',   2290] # Szépvölgyi út
-      - ['09:08:00', 'F00632',   3175] # Tímár utca
-      - ['09:10:00', 'F00624',   3800] # Szentlélek tér
-      - ['09:12:00', 'F00578',   5195] # Filatorigát
-      - ['09:14:00', 'F00510',   5744] # Kaszásdűlő
-      - ['09:16:00', 'F00483',   7056] # Aquincum
-      - ['09:18:00', 'F00487',   7982] # Rómaifürdő
-      - ['09:20:00', 'F00480',   9152] # Csillaghegy
-      - ['09:23:00', 'F00471',  10760] # Békásmegyer
-      - ['09:27:00', 'F04694',  12825] # Budakalász
-      - ['09:29:00', 'F04692',  13694] # Budakalász, lenfonó
-      - ['09:31:00', 'F04793',  14594] # Szentistvántelep
-      - ['09:34:00', 'F04690',  16399] # Pomáz
-      - ['09:39:00', 'F04688',  19574] # Pannóniatelep
-      - ['09:41:00', '009276',  20798] # Szentendre
+      - ['00:00:00', 'F00060',      0] # Batthyány tér
+      - ['00:02:00', 'F00185',   1008] # Margit híd, budai hídfő
+      - ['00:05:00', 'F00139',   2290] # Szépvölgyi út
+      - ['00:06:00', 'F00632',   3175] # Tímár utca
+      - ['00:08:00', 'F00624',   3800] # Szentlélek tér
+      - ['00:10:00', 'F00578',   5195] # Filatorigát
+      - ['00:12:00', 'F00510',   5744] # Kaszásdűlő
+      - ['00:14:00', 'F00483',   7056] # Aquincum
+      - ['00:16:00', 'F00487',   7982] # Rómaifürdő
+      - ['00:18:00', 'F00480',   9152] # Csillaghegy
+      - ['00:21:00', 'F00471',  10760] # Békásmegyer
+      - ['00:25:00', 'F04694',  12825] # Budakalász
+      - ['00:27:00', 'F04692',  13694] # Budakalász, Lenfonó
+      - ['00:29:00', 'F04793',  14594] # Szentistvántelep
+      - ['00:32:00', 'F04690',  16399] # Pomáz
+      - ['00:37:00', 'F04688',  19574] # Pannóniatelep
+      - ['00:39:00', '009276',  20798] # Szentendre
     trip_headsign: Szentendre
     trip_id: REFERENCE-6400-0-1
     wheelchair_accessible: 2
@@ -37,23 +37,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-6400-1-1-C754
     stop_times:
-      - ['05:03:00', '009276',      0] # Szentendre
-      - ['05:05:00', 'F04689',   1315] # Pannóniatelep
-      - ['05:10:00', 'F04691',   4475] # Pomáz
-      - ['05:13:00', 'F04794',   6324] # Szentistvántelep
-      - ['05:15:00', 'F04693',   7081] # Budakalász, lenfonó
-      - ['05:17:00', 'F04695',   7966] # Budakalász
-      - ['05:21:00', 'F00472',  10164] # Békásmegyer
-      - ['05:24:00', 'F00481',  11602] # Csillaghegy
-      - ['05:26:00', 'F00488',  12936] # Rómaifürdő
-      - ['05:28:00', 'F00484',  13682] # Aquincum
-      - ['05:30:00', 'F00511',  14992] # Kaszásdűlő
-      - ['05:32:00', 'F00579',  15593] # Filatorigát
-      - ['05:34:00', 'F00625',  16980] # Szentlélek tér
-      - ['05:35:00', 'F00633',  17725] # Tímár utca
-      - ['05:37:00', 'F00140',  18486] # Szépvölgyi út
-      - ['05:39:00', 'F00186',  19900] # Margit híd, budai hídfő
-      - ['05:42:00', 'F00060',  20802] # Batthyány tér
+      - ['00:00:00', '009276',      0] # Szentendre
+      - ['00:02:00', 'F04689',   1315] # Pannóniatelep
+      - ['00:07:00', 'F04691',   4475] # Pomáz
+      - ['00:10:00', 'F04794',   6324] # Szentistvántelep
+      - ['00:12:00', 'F04693',   7081] # Budakalász, Lenfonó
+      - ['00:14:00', 'F04695',   7966] # Budakalász
+      - ['00:18:00', 'F00472',  10164] # Békásmegyer
+      - ['00:21:00', 'F00481',  11602] # Csillaghegy
+      - ['00:23:00', 'F00488',  12936] # Rómaifürdő
+      - ['00:25:00', 'F00484',  13682] # Aquincum
+      - ['00:27:00', 'F00511',  14992] # Kaszásdűlő
+      - ['00:29:00', 'F00579',  15593] # Filatorigát
+      - ['00:31:00', 'F00625',  16980] # Szentlélek tér
+      - ['00:32:00', 'F00633',  17725] # Tímár utca
+      - ['00:34:00', 'F00140',  18486] # Szépvölgyi út
+      - ['00:36:00', 'F00186',  19900] # Margit híd, budai hídfő
+      - ['00:39:00', 'F00060',  20802] # Batthyány tér
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-6400-1-1
     wheelchair_accessible: 2

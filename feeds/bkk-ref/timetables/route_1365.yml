@@ -13,12 +13,12 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1365-0-1-N950
     stop_times:
-      - ['14:28:00', '038686',      0] # Kőbánya-Kispest M
-      - ['14:33:00', 'F03905',   1633] # Árpád utca
-      - ['14:39:00', 'F03753',   3131] # Margó Tivadar utca
-      - ['14:40:00', 'F03758',   3409] # Havanna utca
-      - ['14:42:00', 'F03763',   3982] # Baross utca
-      - ['14:44:00', 'F03765',   4491] # Fiatalság utca
+      - ['00:00:00', '038686',      0] # Kőbánya-Kispest M
+      - ['00:04:00', 'F03905',   1633] # Árpád utca
+      - ['00:08:00', 'F03753',   3131] # Margó Tivadar utca
+      - ['00:09:00', 'F03758',   3409] # Havanna utca
+      - ['00:10:00', 'F03763',   3982] # Baross utca
+      - ['00:14:00', 'F03765',   4491] # Fiatalság utca
     trip_headsign: Fiatalság utca
     trip_id: REFERENCE-1365-0-1
     wheelchair_accessible: 2
@@ -26,14 +26,14 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1365-1-1-N951
     stop_times:
-      - ['12:02:00', 'F03765',      0] # Fiatalság utca
-      - ['12:02:00', 'F03761',    281] # Barta Lajos utca
-      - ['12:03:00', 'F03760',    537] # Kondor Béla sétány
-      - ['12:03:00', 'F03759',    738] # Vörösmarty Mihály utca
-      - ['12:05:00', 'F03757',   1383] # Dembinszky utca
-      - ['12:07:00', 'F03752',   2004] # Margó Tivadar utca
-      - ['12:11:00', 'F03906',   3424] # Árpád utca
-      - ['12:16:00', '038688',   5092] # Kőbánya-Kispest M
+      - ['00:00:00', 'F03765',      0] # Fiatalság utca
+      - ['00:00:00', 'F03761',    281] # Barta Lajos utca
+      - ['00:01:00', 'F03760',    537] # Kondor Béla sétány
+      - ['00:02:00', 'F03759',    738] # Vörösmarty Mihály utca
+      - ['00:03:00', 'F03757',   1383] # Dembinszky utca
+      - ['00:05:00', 'F03752',   2004] # Margó Tivadar utca
+      - ['00:09:00', 'F03906',   3424] # Árpád utca
+      - ['00:15:00', '038688',   5092] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-1365-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

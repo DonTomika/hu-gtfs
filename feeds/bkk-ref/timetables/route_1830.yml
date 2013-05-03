@@ -13,20 +13,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1830-0-1-6833
     stop_times:
-      - ['11:12:00', 'F03711',      0] # Pestszentlőrinc, Szarvas csárda tér
-      - ['11:12:00', 'F03704',    361] # Gárdonyi Géza utca
-      - ['11:14:00', 'F03705',   1073] # Regény utca
-      - ['11:15:00', 'F03720',   1379] # Szarvas csárda tér
-      - ['11:16:00', 'F03684',   1716] # Wlassics Gyula utca
-      - ['11:16:00', 'F03686',   1945] # Dobozi utca
-      - ['11:17:00', 'F03634',   2156] # Varjú utca
-      - ['11:18:00', 'F03638',   2592] # Gilice tér
-      - ['11:19:00', 'F03857',   2924] # Sas utca
-      - ['11:20:00', 'F03640',   3276] # Dalmady Győző utca
-      - ['11:21:00', 'F03802',   3900] # Üllői út
-      - ['11:22:00', 'F03851',   4324] # Selmecbánya utca
-      - ['11:23:00', 'F03807',   4761] # Szent László utca
-      - ['11:25:00', 'F03808',   5194] # Szemeretelep vasútállomás
+      - ['00:00:00', 'F03711',      0] # Pestszentlőrinc, Szarvas csárda tér
+      - ['00:00:00', 'F03704',    361] # Gárdonyi Géza utca
+      - ['00:02:00', 'F03705',   1073] # Regény utca
+      - ['00:03:00', 'F03720',   1379] # Szarvas csárda tér
+      - ['00:03:00', 'F03684',   1716] # Wlassics Gyula utca
+      - ['00:04:00', 'F03686',   1945] # Dobozi utca
+      - ['00:05:00', 'F03634',   2156] # Varjú utca
+      - ['00:06:00', 'F03638',   2592] # Gilice tér
+      - ['00:07:00', 'F03857',   2924] # Sas utca
+      - ['00:08:00', 'F03640',   3276] # Dalmady Győző utca
+      - ['00:09:00', 'F03802',   3900] # Üllői út
+      - ['00:10:00', 'F03851',   4324] # Selmecbánya utca
+      - ['00:11:00', 'F03807',   4761] # Szent László utca
+      - ['00:12:00', 'F03808',   5194] # Szemeretelep vasútállomás
     trip_headsign: Szemeretelep vasútállomás
     trip_id: REFERENCE-1830-0-1
     wheelchair_accessible: 1
@@ -34,19 +34,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1830-1-1-0145
     stop_times:
-      - ['14:36:00', 'F03808',      0] # Szemeretelep vasútállomás
-      - ['14:37:00', 'F03809',    479] # Szent László utca
-      - ['14:37:00', 'F03852',    937] # Selmecbánya utca
-      - ['14:38:00', 'F03883',   1293] # Üllői út
-      - ['14:40:00', 'F03801',   1886] # Honvéd utca
-      - ['14:41:00', 'F03639',   2353] # Dalmady Győző utca
-      - ['14:42:00', 'F03858',   2774] # Sas utca
-      - ['14:43:00', 'F03637',   3087] # Gilice tér
-      - ['14:44:00', 'F03633',   3455] # Varjú utca
-      - ['14:44:00', 'F03685',   3661] # Dobozi utca
-      - ['14:45:00', 'F03683',   3871] # Wlassics Gyula utca
-      - ['14:46:00', 'F03721',   4274] # Szarvas csárda tér
-      - ['14:47:00', 'F03711',   4443] # Pestszentlőrinc, Szarvas csárda tér
+      - ['00:00:00', 'F03808',      0] # Szemeretelep vasútállomás
+      - ['00:01:00', 'F03809',    479] # Szent László utca
+      - ['00:01:00', 'F03852',    937] # Selmecbánya utca
+      - ['00:02:00', 'F03883',   1293] # Üllői út
+      - ['00:04:00', 'F03801',   1886] # Honvéd utca
+      - ['00:05:00', 'F03639',   2353] # Dalmady Győző utca
+      - ['00:06:00', 'F03858',   2774] # Sas utca
+      - ['00:07:00', 'F03637',   3087] # Gilice tér
+      - ['00:08:00', 'F03633',   3455] # Varjú utca
+      - ['00:08:00', 'F03685',   3661] # Dobozi utca
+      - ['00:09:00', 'F03683',   3871] # Wlassics Gyula utca
+      - ['00:10:00', 'F03721',   4274] # Szarvas csárda tér
+      - ['00:11:00', 'F03711',   4443] # Pestszentlőrinc, Szarvas csárda tér
     trip_headsign: 'Pestszentlőrinc, Szarvas csárda tér'
     trip_id: REFERENCE-1830-1-1
     wheelchair_accessible: 1

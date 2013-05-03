@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: 'Móricz Zsigmond körtér / Budaörs, Patkó utca'
+route_desc: 'Móricz Zsigmond körtér (Villányi út) / Budaörs, Patkó utca'
 route_id: 0405
 route_long_name: ''
 route_short_name: 40E
@@ -13,12 +13,12 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0405-0-1-6137
     stop_times:
-      - ['17:00:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['17:02:00', 'F02182',    686] # Kosztolányi Dezső tér
-      - ['17:06:00', 'F02053',   2452] # Dayka Gábor utca
-      - ['17:15:00', 'F04805',   9076] # Lévai utca
-      - ['17:17:00', 'F04714',   9749] # Gimnázium
-      - ['17:18:00', 'F04712',  10107] # Budaörs, Patkó utca
+      - ['00:00:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02182',    686] # Kosztolányi Dezső tér
+      - ['00:06:00', 'F02053',   2452] # Dayka Gábor utca
+      - ['00:15:00', 'F04805',   9076] # Lévai utca
+      - ['00:17:00', 'F04714',   9749] # Gimnázium
+      - ['00:18:00', 'F04712',  10107] # Budaörs, Patkó utca
     trip_headsign: 'Budaörs, Patkó utca'
     trip_id: REFERENCE-0405-0-1
     wheelchair_accessible: 2
@@ -26,10 +26,10 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0405-0-2-6133
     stop_times:
-      - ['06:15:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['06:17:00', 'F02182',    686] # Kosztolányi Dezső tér
-      - ['06:21:00', 'F02053',   2452] # Dayka Gábor utca
-      - ['06:30:00', 'F04713',   9279] # Budaörs, Patkó utca
+      - ['00:00:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02182',    686] # Kosztolányi Dezső tér
+      - ['00:06:00', 'F02053',   2452] # Dayka Gábor utca
+      - ['00:15:00', 'F04713',   9279] # Budaörs, Patkó utca
     trip_headsign: 'Budaörs, Patkó utca'
     trip_id: REFERENCE-0405-0-2
     wheelchair_accessible: 1
@@ -37,25 +37,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0405-1-1-6138
     stop_times:
-      - ['16:48:00', 'F04712',      0] # Budaörs, Patkó utca
-      - ['16:59:00', 'F02054',   7543] # Dayka Gábor utca
-      - ['17:05:00', 'F02176',   9611] # Kosztolányi Dezső tér
-      - ['17:07:00', 'F02192',  10095] # Móricz Zsigmond körtér
-      - ['17:09:00', 'F02198',  10345] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', 'F04712',      0] # Budaörs, Patkó utca
+      - ['00:11:00', 'F02054',   7543] # Dayka Gábor utca
+      - ['00:17:00', 'F02176',   9611] # Kosztolányi Dezső tér
+      - ['00:19:00', 'F02192',  10095] # Móricz Zsigmond körtér
+      - ['00:21:00', 'F02198',  10345] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-0405-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0405-1-2-6136
     stop_times:
-      - ['08:00:00', 'F04713',      0] # Budaörs, Patkó utca
-      - ['08:01:00', 'F04715',    246] # Gimnázium
-      - ['08:03:00', 'F04806',    989] # Lévai utca
-      - ['08:13:00', 'F02054',   7942] # Dayka Gábor utca
-      - ['08:21:00', 'F02176',  10010] # Kosztolányi Dezső tér
-      - ['08:23:00', 'F02192',  10494] # Móricz Zsigmond körtér
-      - ['08:25:00', 'F02198',  10744] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', 'F04713',      0] # Budaörs, Patkó utca
+      - ['00:01:00', 'F04715',    246] # Gimnázium
+      - ['00:03:00', 'F04806',    989] # Lévai utca
+      - ['00:13:00', 'F02054',   7942] # Dayka Gábor utca
+      - ['00:20:00', 'F02176',  10010] # Kosztolányi Dezső tér
+      - ['00:22:00', 'F02192',  10494] # Móricz Zsigmond körtér
+      - ['00:24:00', 'F02198',  10744] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-0405-1-2
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

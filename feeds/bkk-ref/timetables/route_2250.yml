@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2250-0-1-P830
     stop_times:
-      - ['06:15:00', 'F02886',      0] # Mexikói út M
-      - ['06:17:00', 'F02905',   1476] # Rákospatak utca
-      - ['06:21:00', 'F03087',   3240] # Széchenyi út
-      - ['06:22:00', 'F03113',   4111] # Szerencs utca
-      - ['06:26:00', 'F03063',   5814] # Fazekas sor
-      - ['06:26:00', '043342',   6129] # Régi Fóti út
-      - ['06:27:00', 'F03057',   6470] # Beller Imre utca
-      - ['06:29:00', 'F03050',   6858] # Hubay Jenő tér
-      - ['06:30:00', 'F03052',   7198] # Sződliget utca
-      - ['06:32:00', 'F03022',   7801] # Pozsony utca
-      - ['06:33:00', 'F03018',   8559] # Kovácsi Kálmán tér
-      - ['06:34:00', 'F03171',   8942] # Árokhát út
-      - ['06:35:00', 'F03176',   9254] # Székely Elek út
-      - ['06:36:00', '009659',   9625] # Mélyfúró utca
-      - ['06:37:00', 'F03175',  10214] # Rákospalota, Székely Elek út
+      - ['00:00:00', 'F02886',      0] # Mexikói út M
+      - ['00:02:00', 'F02905',   1476] # Rákospatak utca
+      - ['00:06:00', 'F03087',   3240] # Széchenyi út
+      - ['00:07:00', 'F03113',   4111] # Szerencs utca
+      - ['00:11:00', 'F03063',   5814] # Fazekas sor
+      - ['00:11:00', '043342',   6129] # Régi Fóti út
+      - ['00:12:00', 'F03057',   6470] # Beller Imre utca
+      - ['00:14:00', 'F03050',   6858] # Hubay Jenő tér
+      - ['00:15:00', 'F03052',   7198] # Sződliget utca
+      - ['00:17:00', 'F03022',   7801] # Pozsony utca
+      - ['00:18:00', 'F03018',   8559] # Kovácsi Kálmán tér
+      - ['00:19:00', 'F03171',   8942] # Árokhát út
+      - ['00:20:00', 'F03176',   9254] # Székely Elek út
+      - ['00:21:00', '009659',   9625] # Mélyfúró utca
+      - ['00:22:00', 'F03175',  10214] # Rákospalota, Székely Elek út
     trip_headsign: 'Rákospalota, Székely Elek út'
     trip_id: REFERENCE-2250-0-1
     wheelchair_accessible: 2
@@ -35,19 +35,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2250-1-1-N024
     stop_times:
-      - ['15:00:00', 'F03175',      0] # Rákospalota, Székely Elek út
-      - ['15:00:00', 'F03170',    335] # Árokhát út
-      - ['15:01:00', 'F03017',    736] # Kovácsi Kálmán tér
-      - ['15:03:00', 'F03021',   1496] # Pozsony utca
-      - ['15:04:00', 'F03051',   2087] # Fő út
-      - ['15:06:00', 'F03056',   2702] # Beller Imre utca
-      - ['15:08:00', 'F03060',   3141] # Szentmihályi út
-      - ['15:09:00', 'F03062',   3562] # Bezerédj Pál utca
-      - ['15:12:00', 'F03112',   4642] # Szerencs utca
-      - ['15:14:00', 'F03086',   5461] # Széchenyi út
-      - ['15:16:00', '009495',   7220] # Rákos-patak
-      - ['15:19:00', 'F02895',   8647] # Mexikói út
-      - ['15:21:00', 'F02885',   9080] # Mexikói út M
+      - ['00:00:00', 'F03175',      0] # Rákospalota, Székely Elek út
+      - ['00:00:00', 'F03170',    335] # Árokhát út
+      - ['00:01:00', 'F03017',    736] # Kovácsi Kálmán tér
+      - ['00:03:00', 'F03021',   1496] # Pozsony utca
+      - ['00:04:00', 'F03051',   2087] # Fő út
+      - ['00:06:00', 'F03056',   2702] # Beller Imre utca
+      - ['00:08:00', 'F03060',   3141] # Szentmihályi út
+      - ['00:09:00', 'F03062',   3562] # Bezerédj Pál utca
+      - ['00:12:00', 'F03112',   4642] # Szerencs utca
+      - ['00:14:00', 'F03086',   5461] # Széchenyi út
+      - ['00:16:00', '009495',   7220] # Rákos-patak
+      - ['00:19:00', 'F02895',   8647] # Mexikói út
+      - ['00:21:00', 'F02885',   9080] # Mexikói út M
     trip_headsign: Mexikói út M
     trip_id: REFERENCE-2250-1-1
     wheelchair_accessible: 2

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Sánc utca / Móricz Zsigmond körtér
+route_desc: Sánc utca / Móricz Zsigmond körtér (Villányi út)
 route_id: 0270
 route_long_name: ''
 route_short_name: 27
@@ -13,16 +13,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0270-0-1-0576
     stop_times:
-      - ['17:34:00', 'F00009',      0] # Sánc utca
-      - ['17:34:00', 'F00011',    286] # Szirtes út
-      - ['17:36:00', 'F02138',    765] # Búsuló Juhász (Citadella)
-      - ['17:36:00', 'F02137',   1095] # Kelenhegyi út 42.
-      - ['17:37:00', 'F02135',   1311] # Kelenhegyi lépcső
-      - ['17:38:00', 'F02133',   1588] # Balogh Tihamér utca
-      - ['17:39:00', 'F02131',   1866] # Iglói utca
-      - ['17:40:00', 'F02255',   2288] # Ménesi út
-      - ['17:40:00', 'F02129',   2498] # Villányi út
-      - ['17:43:00', 'F02201',   3315] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', 'F00009',      0] # Sánc utca
+      - ['00:00:00', 'F00011',    286] # Szirtes út
+      - ['00:02:00', 'F02138',    765] # Búsuló Juhász (Citadella)
+      - ['00:02:00', 'F02137',   1095] # Kelenhegyi út 42.
+      - ['00:03:00', 'F02135',   1311] # Kelenhegyi lépcső
+      - ['00:04:00', 'F02133',   1588] # Balogh Tihamér utca
+      - ['00:05:00', 'F02131',   1866] # Iglói utca
+      - ['00:06:00', 'F02255',   2288] # Ménesi út
+      - ['00:06:00', 'F02129',   2498] # Villányi út
+      - ['00:09:00', 'F02201',   3315] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-0270-0-1
     wheelchair_accessible: 2
@@ -30,17 +30,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0270-1-1-0575
     stop_times:
-      - ['17:08:00', 'F02196',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['17:09:00', 'F02128',    618] # Szüret utca
-      - ['17:10:00', 'F02254',    894] # Ménesi út
-      - ['17:11:00', 'F02130',   1319] # Somlói út
-      - ['17:12:00', 'F02132',   1622] # Balogh Tihamér utca
-      - ['17:13:00', 'F02134',   1814] # Somló lépcső
-      - ['17:14:00', 'F02136',   2140] # Kelenhegyi út 45.
-      - ['17:15:00', 'F00012',   2548] # Búsuló Juhász (Citadella)
-      - ['17:16:00', 'F00001',   2932] # Mihály utca
-      - ['17:17:00', 'F00010',   3275] # Szirtes út
-      - ['17:18:00', 'F00009',   3530] # Sánc utca
+      - ['00:00:00', 'F02196',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:01:00', 'F02128',    618] # Szüret utca
+      - ['00:02:00', 'F02254',    894] # Ménesi út
+      - ['00:02:00', 'F02130',   1319] # Somlói út
+      - ['00:03:00', 'F02132',   1622] # Balogh Tihamér utca
+      - ['00:04:00', 'F02134',   1814] # Somló lépcső
+      - ['00:04:00', 'F02136',   2140] # Kelenhegyi út 45.
+      - ['00:05:00', 'F00012',   2548] # Búsuló Juhász (Citadella)
+      - ['00:06:00', 'F00001',   2932] # Mihály utca
+      - ['00:07:00', 'F00010',   3275] # Szirtes út
+      - ['00:08:00', 'F00009',   3530] # Sánc utca
     trip_headsign: Sánc utca
     trip_id: REFERENCE-0270-1-1
     wheelchair_accessible: 2

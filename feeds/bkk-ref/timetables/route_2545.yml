@@ -13,29 +13,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2545-0-1-J486
     stop_times:
-      - ['16:00:00', '008174',      0] # Népliget M
-      - ['16:14:00', 'F03632',   8330] # Szentlőrinci út
-      - ['16:22:00', '009234',  11650] # Pestszentimre vasútállomás (Nemes utca)
-      - ['16:23:00', 'F03664',  11951] # Ady Endre utca
-      - ['16:24:00', 'F03651',  12382] # Kisfaludy utca
-      - ['16:25:00', 'F03653',  12782] # Damjanich utca
-      - ['16:26:00', 'F03860',  13148] # Alacskai úti lakótelep
-      - ['16:27:00', 'F03799',  13674] # Alacskai út
-      - ['16:28:00', 'F03862',  14487] # Alacskai úti lakótelep
+      - ['00:00:00', '008174',      0] # Népliget M
+      - ['00:14:00', 'F03632',   8330] # Szentlőrinci út
+      - ['00:22:00', '009234',  11650] # Pestszentimre vasútállomás (Nemes utca)
+      - ['00:23:00', 'F03664',  11951] # Ady Endre utca
+      - ['00:24:00', 'F03651',  12382] # Kisfaludy utca
+      - ['00:25:00', 'F03653',  12782] # Damjanich utca
+      - ['00:26:00', 'F03860',  13148] # Alacskai úti lakótelep
+      - ['00:27:00', 'F03799',  13674] # Alacskai út
+      - ['00:28:00', 'F03862',  14487] # Alacskai úti lakótelep
     trip_headsign: Alacskai úti lakótelep
     trip_id: REFERENCE-2545-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 0
     service_id: REFERENCE
     shape_id: REFERENCE-2545-0-2-E861
     stop_times:
-      - ['07:30:00', '008174',      0] # Népliget M
-      - ['07:43:00', 'F03632',   8330] # Szentlőrinci út
-      - ['07:51:00', '009234',  11650] # Pestszentimre vasútállomás (Nemes utca)
-      - ['07:51:00', 'F03664',  11951] # Ady Endre utca
-      - ['07:52:00', 'F03651',  12382] # Kisfaludy utca
-      - ['07:53:00', 'F03653',  12782] # Damjanich utca
-      - ['07:54:00', 'F03862',  13170] # Alacskai úti lakótelep
+      - ['00:00:00', '008174',      0] # Népliget M
+      - ['00:12:00', 'F03632',   8330] # Szentlőrinci út
+      - ['00:18:00', '009234',  11650] # Pestszentimre vasútállomás (Nemes utca)
+      - ['00:18:00', 'F03664',  11951] # Ady Endre utca
+      - ['00:19:00', 'F03651',  12382] # Kisfaludy utca
+      - ['00:20:00', 'F03653',  12782] # Damjanich utca
+      - ['00:21:00', 'F03862',  13170] # Alacskai úti lakótelep
     trip_headsign: Alacskai úti lakótelep
     trip_id: REFERENCE-2545-0-2
     wheelchair_accessible: 2
@@ -43,15 +43,15 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2545-1-1-M775
     stop_times:
-      - ['07:07:00', 'F03862',      0] # Alacskai úti lakótelep
-      - ['07:09:00', '022005',    982] # Tölgy utca
-      - ['07:10:00', 'F03859',   1307] # Alacskai úti lakótelep
-      - ['07:11:00', 'F03654',   1831] # Damjanich utca
-      - ['07:12:00', 'F03650',   2178] # Kisfaludy utca
-      - ['07:13:00', 'F03663',   2591] # Ady Endre utca
-      - ['07:15:00', '008950',   3056] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['07:22:00', 'F03631',   6174] # Szentlőrinci út
-      - ['07:38:00', '008174',  13865] # Népliget M
+      - ['00:00:00', 'F03862',      0] # Alacskai úti lakótelep
+      - ['00:02:00', '022005',    982] # Tölgy utca
+      - ['00:03:00', 'F03859',   1307] # Alacskai úti lakótelep
+      - ['00:04:00', 'F03654',   1831] # Damjanich utca
+      - ['00:05:00', 'F03650',   2178] # Kisfaludy utca
+      - ['00:06:00', 'F03663',   2591] # Ady Endre utca
+      - ['00:07:00', '008950',   3056] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:12:00', 'F03631',   6174] # Szentlőrinci út
+      - ['00:25:00', '008174',  13865] # Népliget M
     trip_headsign: Népliget M
     trip_id: REFERENCE-2545-1-1
     wheelchair_accessible: 2
@@ -59,13 +59,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2545-1-2-E860
     stop_times:
-      - ['15:56:00', 'F03862',      0] # Alacskai úti lakótelep
-      - ['15:57:00', 'F03654',    533] # Damjanich utca
-      - ['15:58:00', 'F03650',    880] # Kisfaludy utca
-      - ['15:59:00', 'F03663',   1293] # Ady Endre utca
-      - ['16:01:00', '008950',   1758] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['16:06:00', 'F03631',   4876] # Szentlőrinci út
-      - ['16:18:00', '008174',  12567] # Népliget M
+      - ['00:00:00', 'F03862',      0] # Alacskai úti lakótelep
+      - ['00:01:00', 'F03654',    533] # Damjanich utca
+      - ['00:02:00', 'F03650',    880] # Kisfaludy utca
+      - ['00:03:00', 'F03663',   1293] # Ady Endre utca
+      - ['00:05:00', '008950',   1758] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:10:00', 'F03631',   4876] # Szentlőrinci út
+      - ['00:21:00', '008174',  12567] # Népliget M
     trip_headsign: Népliget M
     trip_id: REFERENCE-2545-1-2
     wheelchair_accessible: 1

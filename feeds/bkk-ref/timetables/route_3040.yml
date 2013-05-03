@@ -13,25 +13,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3040-0-1-0977
     stop_times:
-      - ['20:15:00', 'F02477',      0] # Széll Kálmán tér M
-      - ['20:16:00', 'F00308',    229] # Széna tér
-      - ['20:18:00', 'F00199',    692] # Mechwart liget
-      - ['20:20:00', 'F00189',   1428] # Margit híd, budai hídfő H
-      - ['20:21:00', 'F00142',   1855] # Margitsziget
-      - ['20:23:00', 'F00926',   2225] # Jászai Mari tér
-      - ['20:25:00', 'F00935',   2899] # Nyugati pályaudvar M
-      - ['20:27:00', 'F01081',   3574] # Oktogon M
-      - ['20:29:00', 'F01037',   3976] # Király utca
-      - ['20:30:00', 'F01112',   4378] # Wesselényi utca
-      - ['20:31:00', 'F01169',   4798] # Blaha Lujza tér M
-      - ['20:33:00', 'F01201',   5229] # Rákóczi tér
-      - ['20:34:00', 'F01197',   5542] # Harminckettesek tere
-      - ['20:36:00', 'F01194',   5925] # Corvin-negyed M
-      - ['20:37:00', 'F01378',   6380] # Mester utca
-      - ['20:38:00', 'F01373',   6679] # Boráros tér H
-      - ['20:40:00', 'F02224',   7346] # Petőfi híd, budai hídfő
-      - ['20:42:00', 'F01989',   7911] # Budafoki út (Szerémi sor)
-      - ['20:44:00', 'F01998',   8364] # Újbuda-központ
+      - ['00:00:00', 'F02477',      0] # Széll Kálmán tér M
+      - ['00:01:00', 'F00308',    229] # Széna tér
+      - ['00:03:00', 'F00199',    692] # Mechwart liget
+      - ['00:05:00', 'F00189',   1428] # Margit híd, budai hídfő H
+      - ['00:06:00', 'F00142',   1855] # Margitsziget
+      - ['00:08:00', 'F00926',   2225] # Jászai Mari tér
+      - ['00:10:00', 'F00935',   2899] # Nyugati pályaudvar M
+      - ['00:12:00', 'F01081',   3574] # Oktogon M
+      - ['00:14:00', 'F01037',   3976] # Király utca
+      - ['00:15:00', 'F01112',   4378] # Wesselényi utca
+      - ['00:16:00', 'F01169',   4798] # Blaha Lujza tér M
+      - ['00:18:00', 'F01201',   5229] # Rákóczi tér
+      - ['00:19:00', 'F01197',   5542] # Harminckettesek tere
+      - ['00:21:00', 'F01194',   5925] # Corvin-negyed M
+      - ['00:22:00', 'F01378',   6380] # Mester utca
+      - ['00:23:00', 'F01373',   6679] # Boráros tér H
+      - ['00:25:00', 'F02224',   7346] # Petőfi híd, budai hídfő
+      - ['00:27:00', 'F01989',   7911] # Budafoki út (Szerémi sor)
+      - ['00:29:00', 'F01998',   8364] # Újbuda-központ
     trip_headsign: Újbuda-központ
     trip_id: REFERENCE-3040-0-1
     wheelchair_accessible: 1
@@ -39,25 +39,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3040-1-1-0976
     stop_times:
-      - ['09:47:00', 'F01998',      0] # Újbuda-központ
-      - ['09:49:00', 'F01992',    543] # Budafoki út (Szerémi sor)
-      - ['09:51:00', 'F02225',   1084] # Petőfi híd, budai hídfő
-      - ['09:53:00', 'F01374',   1740] # Boráros tér H
-      - ['09:55:00', 'F01380',   2061] # Mester utca
-      - ['09:56:00', 'F01191',   2380] # Corvin-negyed M
-      - ['09:57:00', 'F01199',   2918] # Harminckettesek tere
-      - ['09:58:00', 'F01200',   3197] # Rákóczi tér
-      - ['10:00:00', 'F01168',   3633] # Blaha Lujza tér M
-      - ['10:02:00', 'F01111',   4056] # Wesselényi utca
-      - ['10:03:00', 'F01035',   4453] # Király utca
-      - ['10:04:00', 'F01082',   4854] # Oktogon M
-      - ['10:07:00', 'F00933',   5526] # Nyugati pályaudvar M
-      - ['10:08:00', 'F00925',   6207] # Jászai Mari tér
-      - ['10:10:00', 'F00141',   6673] # Margitsziget
-      - ['10:11:00', 'F00192',   7003] # Margit híd, budai hídfő H
-      - ['10:14:00', 'F00198',   7743] # Mechwart liget
-      - ['10:16:00', 'F00307',   8216] # Széna tér
-      - ['10:17:00', 'F02476',   8431] # Széll Kálmán tér M
+      - ['00:00:00', 'F01998',      0] # Újbuda-központ
+      - ['00:02:00', 'F01992',    543] # Budafoki út (Szerémi sor)
+      - ['00:04:00', 'F02225',   1084] # Petőfi híd, budai hídfő
+      - ['00:06:00', 'F01374',   1740] # Boráros tér H
+      - ['00:08:00', 'F01380',   2061] # Mester utca
+      - ['00:09:00', 'F01191',   2380] # Corvin-negyed M
+      - ['00:10:00', 'F01199',   2918] # Harminckettesek tere
+      - ['00:11:00', 'F01200',   3197] # Rákóczi tér
+      - ['00:13:00', 'F01168',   3633] # Blaha Lujza tér M
+      - ['00:15:00', 'F01111',   4056] # Wesselényi utca
+      - ['00:16:00', 'F01035',   4453] # Király utca
+      - ['00:17:00', 'F01082',   4854] # Oktogon M
+      - ['00:20:00', 'F00933',   5526] # Nyugati pályaudvar M
+      - ['00:21:00', 'F00925',   6207] # Jászai Mari tér
+      - ['00:23:00', 'F00141',   6673] # Margitsziget
+      - ['00:24:00', 'F00192',   7003] # Margit híd, budai hídfő H
+      - ['00:27:00', 'F00198',   7743] # Mechwart liget
+      - ['00:29:00', 'F00307',   8216] # Széna tér
+      - ['00:30:00', 'F02476',   8431] # Széll Kálmán tér M
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-3040-1-1
     wheelchair_accessible: 1

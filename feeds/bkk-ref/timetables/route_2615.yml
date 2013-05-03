@@ -13,13 +13,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2615-0-1-M024
     stop_times:
-      - ['05:30:00', '008021',      0] # Örs vezér tere M+H
-      - ['05:43:00', '009543',   8656] # 513. utca
-      - ['05:44:00', 'F03547',   8931] # Borsó utca
-      - ['05:45:00', 'F03545',   9282] # Kis utca
-      - ['05:46:00', 'F03542',   9694] # Bakancsos utca
-      - ['05:47:00', 'F03593',  10269] # Szent kereszt tér
-      - ['05:49:00', '011724',  10696] # Rákoskeresztúr, városközpont
+      - ['00:00:00', '008021',      0] # Örs vezér tere M+H
+      - ['00:13:00', '009543',   8656] # 513. utca
+      - ['00:14:00', 'F03547',   8931] # Borsó utca
+      - ['00:15:00', 'F03545',   9282] # Kis utca
+      - ['00:16:00', 'F03542',   9694] # Bakancsos utca
+      - ['00:17:00', 'F03593',  10269] # Szent kereszt tér
+      - ['00:19:00', '011724',  10696] # Rákoskeresztúr, városközpont
     trip_headsign: 'Rákoskeresztúr, városközpont'
     trip_id: REFERENCE-2615-0-1
     wheelchair_accessible: 2
@@ -27,12 +27,12 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2615-1-1-M025
     stop_times:
-      - ['06:43:00', '011726',      0] # Rákoskeresztúr, városközpont
-      - ['06:44:00', 'F03594',    417] # Szent kereszt tér
-      - ['06:45:00', 'F03541',    788] # Bakancsos utca
-      - ['06:47:00', 'F03544',   1252] # Kis utca
-      - ['06:49:00', 'F03546',   1652] # Borsó utca
-      - ['07:06:00', '008021',  10486] # Örs vezér tere M+H
+      - ['00:00:00', '011726',      0] # Rákoskeresztúr, városközpont
+      - ['00:01:00', 'F03594',    417] # Szent kereszt tér
+      - ['00:02:00', 'F03541',    788] # Bakancsos utca
+      - ['00:03:00', 'F03544',   1252] # Kis utca
+      - ['00:05:00', 'F03546',   1652] # Borsó utca
+      - ['00:19:00', '008021',  10486] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-2615-1-1
     wheelchair_accessible: 2

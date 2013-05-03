@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2500-0-1-M650
     stop_times:
-      - ['09:16:00', '008127',      0] # Hír utca
-      - ['09:17:00', '008125',    203] # Arany János utca
-      - ['09:18:00', '008116',    589] # Szebeni utca
-      - ['09:19:00', '008793',    921] # Regényes utca
-      - ['09:20:00', 'F04422',   1127] # Kiránduló utca
-      - ['09:21:00', 'F04419',   1341] # Kertész utca
-      - ['09:22:00', 'F04417',   1773] # Lőcsei utca
-      - ['09:23:00', 'F04414',   2190] # Promontor utca
-      - ['09:24:00', 'F04413',   2452] # Mező utca
-      - ['09:25:00', 'F04410',   2965] # Komló utca
-      - ['09:26:00', 'F04409',   3427] # Nagytétényi út
-      - ['09:28:00', 'F04406',   4108] # Városház tér
-      - ['09:29:00', 'F04398',   4448] # Savoyai Jenő tér
-      - ['09:30:00', 'F04384',   4770] # Leányka utcai lakótelep
-      - ['09:33:00', '009578',   6396] # Savoya Park
+      - ['00:00:00', '008127',      0] # Hír utca
+      - ['00:01:00', '008125',    203] # Arany János utca
+      - ['00:02:00', '008116',    589] # Szebeni utca
+      - ['00:03:00', '008793',    921] # Regényes utca
+      - ['00:04:00', 'F04422',   1127] # Kiránduló utca
+      - ['00:05:00', 'F04419',   1341] # Kertész utca
+      - ['00:06:00', 'F04417',   1773] # Lőcsei utca
+      - ['00:07:00', 'F04414',   2190] # Promontor utca
+      - ['00:08:00', 'F04413',   2452] # Mező utca
+      - ['00:09:00', 'F04410',   2965] # Komló utca
+      - ['00:10:00', 'F04409',   3427] # Nagytétényi út
+      - ['00:12:00', 'F04406',   4108] # Városház tér
+      - ['00:13:00', 'F04398',   4448] # Savoyai Jenő tér
+      - ['00:15:00', 'F04384',   4770] # Leányka utcai lakótelep
+      - ['00:18:00', '009578',   6396] # Savoya Park
     trip_headsign: Savoya Park
     trip_id: REFERENCE-2500-0-1
     wheelchair_accessible: 1
@@ -35,29 +35,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2500-1-1-K088
     stop_times:
-      - ['05:36:00', 'F04374',      0] # Budafok, Vincellér út
-      - ['05:37:00', 'F04372',    477] # Tegzes utca
-      - ['05:38:00', 'F04370',    914] # Tordai út
-      - ['05:40:00', 'F01896',   1292] # Ady Endre út
-      - ['05:41:00', 'F01899',   1697] # Kápolna út
-      - ['05:42:00', 'F01900',   1986] # Olajfa utca
-      - ['05:43:00', 'F01915',   2361] # Alabástrom utca
-      - ['05:44:00', 'F01938',   2635] # Torma utca
-      - ['05:45:00', 'F01940',   2836] # Kecskeméti József utca
-      - ['05:45:00', 'F01941',   3128] # Duránci utca
-      - ['05:46:00', 'F01946',   3454] # Gépész utca
-      - ['05:47:00', 'F01916',   3828] # Őrmezei út
-      - ['05:48:00', 'F01918',   4132] # Neszmélyi út
-      - ['05:49:00', 'F01921',   4550] # Őrmezői lakótelep, Menyecske utca
-      - ['05:50:00', 'F01923',   4805] # Kérő utca
-      - ['05:52:00', 'F01927',   5713] # Sasadi út
-      - ['05:53:00', 'F02054',   6148] # Dayka Gábor utca
-      - ['05:54:00', 'F02051',   6788] # Nagyszőlős utca
-      - ['05:54:00', 'F02261',   7174] # Hollókő utca
-      - ['05:55:00', 'F02124',   7661] # Vincellér utca
-      - ['05:57:00', 'F02180',   8151] # Kosztolányi Dezső tér
-      - ['05:59:00', 'F01995',   8568] # Újbuda-központ
-      - ['06:00:00', 'F02000',   8875] # Újbuda-központ
+      - ['00:00:00', 'F04374',      0] # Budafok, Vincellér út
+      - ['00:01:00', 'F04372',    477] # Tegzes utca
+      - ['00:02:00', 'F04370',    914] # Tordai út
+      - ['00:04:00', 'F01896',   1292] # Ady Endre út
+      - ['00:05:00', 'F01899',   1697] # Kápolna út
+      - ['00:06:00', 'F01900',   1986] # Olajfa utca
+      - ['00:07:00', 'F01915',   2361] # Alabástrom utca
+      - ['00:08:00', 'F01938',   2635] # Torma utca
+      - ['00:09:00', 'F01940',   2836] # Kecskeméti József utca
+      - ['00:09:00', 'F01941',   3128] # Duránci utca
+      - ['00:10:00', 'F01946',   3454] # Gépész utca
+      - ['00:11:00', 'F01916',   3828] # Őrmezei út
+      - ['00:12:00', 'F01918',   4132] # Neszmélyi út
+      - ['00:13:00', 'F01921',   4550] # Őrmezői lakótelep, Menyecske utca
+      - ['00:14:00', 'F01923',   4805] # Kérő utca
+      - ['00:16:00', 'F01927',   5713] # Sasadi út
+      - ['00:17:00', 'F02054',   6148] # Dayka Gábor utca
+      - ['00:18:00', 'F02051',   6788] # Nagyszőlős utca
+      - ['00:19:00', 'F02261',   7174] # Hollókő utca
+      - ['00:21:00', 'F02124',   7661] # Vincellér utca
+      - ['00:23:00', 'F02180',   8151] # Kosztolányi Dezső tér
+      - ['00:25:00', 'F01995',   8568] # Újbuda-központ
+      - ['00:26:00', 'F02000',   8875] # Újbuda-központ
     trip_headsign: Újbuda-központ
     trip_id: REFERENCE-2500-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

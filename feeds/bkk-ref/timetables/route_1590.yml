@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1590-0-1-J105
     stop_times:
-      - ['09:33:00', 'F04327',      0] # Csepel, Szent Imre tér
-      - ['09:35:00', 'F04278',    677] # Karácsony Sándor utca
-      - ['09:36:00', 'F04191',    893] # Széchenyi István utca
-      - ['09:37:00', 'F04193',   1126] # Szent István út
-      - ['09:38:00', 'F04292',   1541] # Völgy utca
-      - ['09:39:00', 'F04366',   1913] # Erdősor utca
-      - ['09:40:00', 'F04360',   2204] # Technikus utca
-      - ['09:42:00', 'F04201',   2593] # Kölcsey utca
-      - ['09:43:00', 'F04233',   3089] # Csikó sétány
-      - ['09:44:00', 'F04234',   3509] # Csille utca
-      - ['09:46:00', 'F04235',   3937] # Szent László utcai lakótelep
+      - ['00:00:00', 'F04327',      0] # Csepel, Szent Imre tér
+      - ['00:02:00', 'F04278',    677] # Karácsony Sándor utca
+      - ['00:03:00', 'F04191',    893] # Széchenyi István utca
+      - ['00:04:00', 'F04193',   1126] # Szent István út
+      - ['00:05:00', 'F04292',   1541] # Völgy utca
+      - ['00:06:00', 'F04366',   1913] # Erdősor utca
+      - ['00:06:00', 'F04360',   2204] # Technikus utca
+      - ['00:08:00', 'F04201',   2593] # Kölcsey utca
+      - ['00:09:00', 'F04233',   3089] # Csikó sétány
+      - ['00:10:00', 'F04234',   3509] # Csille utca
+      - ['00:12:00', 'F04235',   3937] # Szent László utcai lakótelep
     trip_headsign: Szent László utcai lakótelep
     trip_id: REFERENCE-1590-0-1
     wheelchair_accessible: 1
@@ -31,19 +31,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1590-1-1-J106
     stop_times:
-      - ['12:36:00', 'F04235',      0] # Szent László utcai lakótelep
-      - ['12:36:00', 'F04236',    278] # Fémmű utca
-      - ['12:37:00', 'F04237',    563] # Posztó utca
-      - ['12:39:00', 'F04232',    956] # Erdősor utca
-      - ['12:41:00', 'F04202',   1472] # Kölcsey utca (Erdősor utca)
-      - ['12:42:00', 'F04361',   1902] # Technikus utca
-      - ['12:42:00', 'F04367',   2146] # Kossuth Lajos utca
-      - ['12:43:00', 'F04293',   2458] # Völgy utca
-      - ['12:45:00', 'F04185',   3013] # II. Rákóczi Ferenc út
-      - ['12:46:00', 'F04177',   3513] # Karácsony Sándor utca H
-      - ['12:48:00', '040609',   4028] # Szent Imre tér H
-      - ['12:50:00', 'F04321',   4326] # Kiss János altábornagy utca
-      - ['12:51:00', 'F04327',   4553] # Csepel, Szent Imre tér
+      - ['00:00:00', 'F04235',      0] # Szent László utcai lakótelep
+      - ['00:00:00', 'F04236',    278] # Fémmű utca
+      - ['00:01:00', 'F04237',    563] # Posztó utca
+      - ['00:02:00', 'F04232',    956] # Erdősor utca
+      - ['00:04:00', 'F04202',   1472] # Kölcsey utca (Erdősor utca)
+      - ['00:05:00', 'F04361',   1902] # Technikus utca
+      - ['00:06:00', 'F04367',   2146] # Kossuth Lajos utca
+      - ['00:07:00', 'F04293',   2458] # Völgy utca
+      - ['00:09:00', 'F04185',   3013] # II. Rákóczi Ferenc út
+      - ['00:10:00', 'F04177',   3513] # Karácsony Sándor utca H
+      - ['00:12:00', '040609',   4028] # Szent Imre tér H
+      - ['00:13:00', 'F04321',   4326] # Kiss János altábornagy utca
+      - ['00:14:00', 'F04327',   4553] # Csepel, Szent Imre tér
     trip_headsign: 'Csepel, Szent Imre tér'
     trip_id: REFERENCE-1590-1-1
     wheelchair_accessible: 1

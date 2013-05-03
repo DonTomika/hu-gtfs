@@ -13,38 +13,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1330-0-1-0448
     stop_times:
-      - ['17:55:00', 'F02618',      0] # Lehel tér M
-      - ['17:56:00', 'F02516',    418] # Victor Hugo utca
-      - ['17:57:00', 'F02519',    612] # Gogol utca
-      - ['17:58:00', 'F02606',   1042] # Vág utca
-      - ['18:00:00', 'F02509',   1393] # Dráva utca
-      - ['18:02:00', 'F02507',   2009] # Viza utca
-      - ['18:03:00', 'F02570',   2436] # Sporttelep
-      - ['18:04:00', 'F02568',   2801] # Dagály utca
-      - ['18:05:00', 'F02565',   3077] # Dagály fürdő
-      - ['18:07:00', 'F02566',   3629] # Cserhalom utca
-      - ['18:09:00', 'F02678',   4238] # Forgách utca M
-      - ['18:12:00', 'F02601',   4908] # Árpád híd M
+      - ['00:00:00', 'F02618',      0] # Lehel tér M
+      - ['00:01:00', 'F02516',    418] # Victor Hugo utca
+      - ['00:01:00', 'F02519',    612] # Gogol utca
+      - ['00:02:00', 'F02606',   1042] # Vág utca
+      - ['00:03:00', 'F02509',   1393] # Dráva utca
+      - ['00:05:00', 'F02507',   2009] # Viza utca
+      - ['00:06:00', 'F02570',   2436] # Sporttelep
+      - ['00:07:00', 'F02568',   2801] # Dagály utca
+      - ['00:08:00', 'F02565',   3077] # Dagály fürdő
+      - ['00:10:00', 'F02566',   3629] # Cserhalom utca
+      - ['00:12:00', 'F02678',   4238] # Forgách utca M
+      - ['00:14:00', 'F02601',   4908] # Árpád híd M
     trip_headsign: Árpád híd M
     trip_id: REFERENCE-1330-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1330-1-1-0449
     stop_times:
-      - ['05:32:00', 'F02601',      0] # Árpád híd M
-      - ['05:32:00', 'F02603',    171] # Árpád híd M
-      - ['05:33:00', 'F02572',    462] # Lomb utca
-      - ['05:35:00', 'F02571',    929] # Karikás Frigyes utca
-      - ['05:36:00', 'F02567',   1434] # Népfürdő utca
-      - ['05:37:00', 'F02569',   1800] # Sporttelep
-      - ['05:39:00', 'F02508',   2168] # Viza utca
-      - ['05:40:00', 'F02510',   2818] # Dráva utca
-      - ['05:41:00', 'F02504',   3084] # Pannónia utca
-      - ['05:43:00', 'F02520',   3549] # Gogol utca
-      - ['05:44:00', 'F02514',   3813] # Csanády utca
-      - ['05:46:00', 'F01067',   4273] # Lehel tér M (Csanády utca)
-      - ['05:47:00', 'F02618',   4569] # Lehel tér M
+      - ['00:00:00', 'F02601',      0] # Árpád híd M
+      - ['00:00:00', 'F02603',    171] # Árpád híd M
+      - ['00:01:00', 'F02572',    462] # Lomb utca
+      - ['00:03:00', 'F02571',    929] # Karikás Frigyes utca
+      - ['00:04:00', 'F02567',   1434] # Népfürdő utca
+      - ['00:05:00', 'F02569',   1800] # Sporttelep
+      - ['00:07:00', 'F02508',   2168] # Viza utca
+      - ['00:08:00', 'F02510',   2818] # Dráva utca
+      - ['00:09:00', 'F02504',   3084] # Pannónia utca
+      - ['00:11:00', 'F02520',   3549] # Gogol utca
+      - ['00:12:00', 'F02514',   3813] # Csanády utca
+      - ['00:14:00', 'F01067',   4273] # Lehel tér M (Csanády utca)
+      - ['00:15:00', 'F02618',   4569] # Lehel tér M
     trip_headsign: Lehel tér M
     trip_id: REFERENCE-1330-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

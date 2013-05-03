@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Szendrő utca / Széll Kálmán tér M
+route_desc: Szendrő utca / Széll Kálmán tér M (Csaba utca)
 route_id: 1020
 route_long_name: ''
 route_short_name: 102
@@ -13,39 +13,39 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1020-0-1-Q457
     stop_times:
-      - ['06:20:00', 'F02334',      0] # Széll Kálmán tér M (Csaba utca)
-      - ['06:20:00', 'F02335',    139] # Maros utca
-      - ['06:21:00', '007900',    361] # Szakorvosi Rendelőintézet
-      - ['06:23:00', 'F00021',    899] # Déli pályaudvar M
-      - ['06:24:00', 'F02409',   1300] # Istenhegyi út
-      - ['06:26:00', 'F02420',   1612] # Királyhágó tér
-      - ['06:27:00', 'F02308',   1891] # Kiss János altábornagy utca
-      - ['06:28:00', 'F02292',   2287] # Apor Vilmos tér
-      - ['06:29:00', 'F02291',   2633] # Németvölgyi út
-      - ['06:30:00', 'F02425',   2893] # Agárdi út
-      - ['06:31:00', 'F02399',   3284] # Szent Orbán tér
-      - ['06:33:00', 'F02429',   3664] # Vöröskő utca
-      - ['06:34:00', 'F02431',   4054] # Szendrő utca
+      - ['00:00:00', 'F02334',      0] # Széll Kálmán tér M (Csaba utca)
+      - ['00:00:00', 'F02335',    139] # Maros utca
+      - ['00:01:00', '007900',    361] # Szakorvosi Rendelőintézet
+      - ['00:03:00', 'F00021',    899] # Déli pályaudvar M
+      - ['00:04:00', 'F02409',   1300] # Istenhegyi út
+      - ['00:06:00', 'F02420',   1612] # Királyhágó tér
+      - ['00:07:00', 'F02308',   1891] # Kiss János altábornagy utca
+      - ['00:08:00', 'F02292',   2287] # Apor Vilmos tér
+      - ['00:10:00', 'F02291',   2633] # Németvölgyi út
+      - ['00:11:00', 'F02425',   2893] # Agárdi út
+      - ['00:12:00', 'F02399',   3284] # Szent Orbán tér
+      - ['00:14:00', 'F02429',   3664] # Vöröskő utca
+      - ['00:15:00', 'F02431',   4054] # Szendrő utca
     trip_headsign: Szendrő utca
     trip_id: REFERENCE-1020-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1020-1-1-Q456
     stop_times:
-      - ['17:18:00', 'F02431',      0] # Szendrő utca
-      - ['17:19:00', 'F02280',    271] # Tamási Áron utca
-      - ['17:20:00', 'F02282',    668] # Mártonhegyi út
-      - ['17:21:00', 'F02283',    934] # Kempelen Farkas utca
-      - ['17:22:00', 'F02285',   1221] # Ormódi utca
-      - ['17:23:00', 'F02288',   1643] # Németvölgyi út
-      - ['17:24:00', 'F02289',   1809] # Szendi árok
-      - ['17:25:00', 'F02295',   2020] # Apor Vilmos tér
-      - ['17:27:00', 'F02307',   2379] # Kiss János altábornagy utca
-      - ['17:28:00', 'F02421',   2710] # Királyhágó tér
-      - ['17:30:00', 'F02407',   3057] # Istenhegyi út
-      - ['17:32:00', 'F00022',   3419] # Déli pályaudvar M
-      - ['17:35:00', 'F02334',   4296] # Széll Kálmán tér M (Csaba utca)
+      - ['00:00:00', 'F02431',      0] # Szendrő utca
+      - ['00:00:00', 'F02280',    271] # Tamási Áron utca
+      - ['00:01:00', 'F02282',    668] # Mártonhegyi út
+      - ['00:02:00', 'F02283',    934] # Kempelen Farkas utca
+      - ['00:03:00', 'F02285',   1221] # Ormódi utca
+      - ['00:04:00', 'F02288',   1643] # Németvölgyi út
+      - ['00:05:00', 'F02289',   1809] # Szendi árok
+      - ['00:06:00', 'F02295',   2020] # Apor Vilmos tér
+      - ['00:08:00', 'F02307',   2379] # Kiss János altábornagy utca
+      - ['00:09:00', 'F02421',   2710] # Királyhágó tér
+      - ['00:10:00', 'F02407',   3057] # Istenhegyi út
+      - ['00:11:00', 'F00022',   3419] # Déli pályaudvar M
+      - ['00:14:00', 'F02334',   4296] # Széll Kálmán tér M (Csaba utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-1020-1-1
     wheelchair_accessible: 2

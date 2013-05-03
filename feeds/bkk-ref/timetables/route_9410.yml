@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 333333
-route_desc: Móricz Zsigmond körtér / Budatétény vasútállomás (Campona)
+route_desc: Móricz Zsigmond körtér (Villányi út) / Budatétény vasútállomás (Campona)
 route_id: 9410
 route_long_name: ''
 route_short_name: 941
@@ -13,59 +13,59 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9410-0-1-J092
     stop_times:
-      - ['24:15:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['24:17:00', 'F02183',    700] # Kosztolányi Dezső tér
-      - ['24:19:00', '009427',   1460] # Kelenföldi autóbuszgarázs
-      - ['24:20:00', 'F02049',   1780] # Hungária Biztosító
-      - ['24:22:00', 'F02053',   2500] # Dayka Gábor utca
-      - ['24:23:00', 'F01926',   2965] # Sasadi út
-      - ['24:25:00', 'F01922',   3892] # Kérő utca
-      - ['24:25:00', 'F01920',   4236] # Neszmélyi út
-      - ['24:26:00', 'F01919',   4485] # Péterhegyi út
-      - ['24:27:00', 'F01917',   4909] # Őrmezei út
-      - ['24:28:00', 'F01945',   5290] # Bazsalikom utca
-      - ['24:28:00', 'F01939',   5654] # Torma utca
-      - ['24:29:00', 'F01914',   5925] # Husáng utca
-      - ['24:29:00', 'F01901',   6140] # Péterhegyi köz
-      - ['24:30:00', 'F01898',   6454] # Kápolna út
-      - ['24:31:00', 'F01897',   6712] # Ady Endre út
-      - ['24:32:00', '008099',   7316] # Pék utca
-      - ['24:32:00', '008101',   7630] # Rózsavölgy felső
-      - ['24:33:00', '008104',   8303] # Rózsavölgy alsó
-      - ['24:34:00', '008106',   8957] # Vihar utca
-      - ['24:36:00', 'F04402',   9606] # Savoyai Jenő tér
-      - ['24:37:00', 'F04403',   9898] # Városház tér
-      - ['24:38:00', 'F04408',  10462] # Tóth József utca
-      - ['24:39:00', 'F04411',  10960] # Kereszt utca
-      - ['24:39:00', 'F04412',  11109] # Budafoki temető
-      - ['24:40:00', 'F04415',  11437] # Víg utca
-      - ['24:41:00', 'F04416',  11863] # Bocskai utca
-      - ['24:41:00', 'F04424',  12201] # Bem József utca
-      - ['24:42:00', 'F04426',  12469] # Kazinczy utca
-      - ['24:42:00', 'F04427',  12797] # Karácsony utca
-      - ['24:43:00', 'F04429',  13276] # Liszt Ferenc út
-      - ['24:44:00', 'F04395',  13693] # Balatoni út (Háros utca)
-      - ['24:45:00', '008918',  14256] # Budatétény, benzinkút
-      - ['24:46:00', '009546',  14837] # Memento Park
-      - ['24:46:00', 'F04438',  15013] # Brassói utca
-      - ['24:47:00', 'F04440',  15707] # Aradi utca
-      - ['24:48:00', 'F04442',  16214] # Nyél utca
-      - ['24:49:00', '008922',  16976] # Gyula vezér út
-      - ['24:49:00', '008952',  17176] # Rózsakert utca
-      - ['24:50:00', 'F04470',  17500] # VIII. utca
-      - ['24:51:00', 'F04473',  17788] # X. utca
-      - ['24:51:00', 'F04475',  18197] # XIII. utca
-      - ['24:52:00', 'F04514',  18508] # XVI. utca
-      - ['24:53:00', 'F04476',  19013] # Baross Gábor-telep, Ispiláng utca
-      - ['24:53:00', 'F04513',  19558] # XVI. utca
-      - ['24:54:00', 'F04474',  19888] # Dózsa György út
-      - ['24:55:00', 'F04472',  20293] # Bem tábornok utca
-      - ['24:56:00', 'F04471',  20590] # Szent László utca
-      - ['24:57:00', 'F04464',  20986] # Terv utca
-      - ['24:58:00', 'F04462',  21343] # Rákóczi út
-      - ['24:58:00', 'F04460',  21494] # Tűzliliom utca
-      - ['24:59:00', 'F04458',  21886] # Budatétényi sorompó
-      - ['25:01:00', '007999',  22298] # Budatétény vasútállomás (Campona)
+      - ['00:00:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02183',    700] # Kosztolányi Dezső tér
+      - ['00:04:00', '009427',   1460] # Kelenföldi autóbuszgarázs
+      - ['00:05:00', 'F02049',   1780] # Hungária Biztosító
+      - ['00:07:00', 'F02053',   2500] # Dayka Gábor utca
+      - ['00:08:00', 'F01926',   2965] # Sasadi út
+      - ['00:10:00', 'F01922',   3892] # Kérő utca
+      - ['00:10:00', 'F01920',   4236] # Neszmélyi út
+      - ['00:11:00', 'F01919',   4485] # Péterhegyi út
+      - ['00:12:00', 'F01917',   4909] # Őrmezei út
+      - ['00:13:00', 'F01945',   5290] # Bazsalikom utca
+      - ['00:13:00', 'F01939',   5654] # Torma utca
+      - ['00:14:00', 'F01914',   5925] # Husáng utca
+      - ['00:14:00', 'F01901',   6140] # Péterhegyi köz
+      - ['00:15:00', 'F01898',   6454] # Kápolna út
+      - ['00:16:00', 'F01897',   6712] # Ady Endre út
+      - ['00:17:00', '008099',   7316] # Pék utca
+      - ['00:17:00', '008101',   7630] # Rózsavölgy felső
+      - ['00:18:00', '008104',   8303] # Rózsavölgy alsó
+      - ['00:19:00', '008106',   8957] # Vihar utca
+      - ['00:21:00', 'F04402',   9606] # Savoyai Jenő tér
+      - ['00:22:00', 'F04403',   9898] # Városház tér
+      - ['00:23:00', 'F04408',  10462] # Tóth József utca
+      - ['00:24:00', 'F04411',  10960] # Kereszt utca
+      - ['00:24:00', 'F04412',  11109] # Budafoki temető
+      - ['00:25:00', 'F04415',  11437] # Víg utca
+      - ['00:26:00', 'F04416',  11863] # Bocskai utca
+      - ['00:26:00', 'F04424',  12201] # Bem József utca
+      - ['00:27:00', 'F04426',  12469] # Kazinczy utca
+      - ['00:27:00', 'F04427',  12797] # Karácsony utca
+      - ['00:28:00', 'F04429',  13276] # Liszt Ferenc út
+      - ['00:29:00', 'F04395',  13693] # Balatoni út (Háros utca)
+      - ['00:30:00', '008918',  14256] # Budatétény, benzinkút
+      - ['00:31:00', '009546',  14837] # Memento Park
+      - ['00:31:00', 'F04438',  15013] # Brassói utca
+      - ['00:32:00', 'F04440',  15707] # Aradi utca
+      - ['00:33:00', 'F04442',  16214] # Nyél utca
+      - ['00:34:00', '008922',  16976] # Gyula vezér út
+      - ['00:34:00', '008952',  17176] # Rózsakert utca
+      - ['00:35:00', 'F04470',  17500] # VIII. utca
+      - ['00:36:00', 'F04473',  17788] # X. utca
+      - ['00:36:00', 'F04475',  18197] # XIII. utca
+      - ['00:37:00', 'F04514',  18508] # XVI. utca
+      - ['00:38:00', 'F04476',  19013] # Baross Gábor-telep, Ispiláng utca
+      - ['00:38:00', 'F04513',  19558] # XVI. utca
+      - ['00:39:00', 'F04474',  19888] # Dózsa György út
+      - ['00:40:00', 'F04472',  20293] # Bem tábornok utca
+      - ['00:41:00', 'F04471',  20590] # Szent László utca
+      - ['00:42:00', 'F04464',  20986] # Terv utca
+      - ['00:43:00', 'F04462',  21343] # Rákóczi út
+      - ['00:43:00', 'F04460',  21494] # Tűzliliom utca
+      - ['00:44:00', 'F04458',  21886] # Budatétényi sorompó
+      - ['00:46:00', '007999',  22298] # Budatétény vasútállomás (Campona)
     trip_headsign: Budatétény vasútállomás (Campona)
     trip_id: REFERENCE-9410-0-1
     wheelchair_accessible: 2
@@ -73,54 +73,54 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9410-1-1-D934
     stop_times:
-      - ['27:18:00', '007996',      0] # Budatétény vasútállomás (Campona)
-      - ['27:19:00', 'F04457',    430] # Budatétényi sorompó
-      - ['27:19:00', 'F04459',    764] # Tűzliliom utca
-      - ['27:20:00', 'F04461',    961] # Rákóczi út
-      - ['27:20:00', 'F04463',   1288] # Terv utca
-      - ['27:21:00', '008971',   1594] # Gyula vezér út
-      - ['27:22:00', 'F04441',   2215] # Klauzál Gábor utca
-      - ['27:23:00', 'F04439',   2764] # Aradi utca
-      - ['27:24:00', 'F04437',   3460] # Brassói utca
-      - ['27:25:00', 'F04394',   3654] # Memento Park
-      - ['27:26:00', '008943',   4278] # Budatétény, benzinkút
-      - ['27:27:00', 'F04395',   4700] # Balatoni út (Háros utca)
-      - ['27:27:00', 'F04430',   5018] # Liszt Ferenc út
-      - ['27:28:00', 'F04428',   5502] # Szondi utca
-      - ['27:28:00', 'F04425',   5804] # Kazinczy utca
-      - ['27:29:00', 'F04423',   6110] # Arató utca
-      - ['27:29:00', 'F04417',   6444] # Lőcsei utca
-      - ['27:30:00', 'F04414',   6861] # Promontor utca
-      - ['27:30:00', 'F04413',   7123] # Mező utca
-      - ['27:31:00', 'F04410',   7636] # Komló utca
-      - ['27:32:00', 'F04409',   8098] # Nagytétényi út
-      - ['27:35:00', 'F04406',   8779] # Városház tér
-      - ['27:36:00', 'F04398',   9119] # Savoyai Jenő tér
-      - ['27:37:00', 'F04384',   9441] # Leányka utcai lakótelep
-      - ['27:38:00', '008128',   9829] # Ady Endre út
-      - ['27:39:00', '008103',  10387] # Rózsavölgy alsó
-      - ['27:40:00', '008102',  11069] # Rózsavölgy felső
-      - ['27:40:00', '008100',  11396] # Pék utca
-      - ['27:41:00', 'F01896',  11931] # Ady Endre út
-      - ['27:41:00', 'F01899',  12336] # Kápolna út
-      - ['27:42:00', 'F01900',  12625] # Olajfa utca
-      - ['27:43:00', 'F01915',  13000] # Alabástrom utca
-      - ['27:43:00', 'F01938',  13274] # Torma utca
-      - ['27:44:00', 'F01940',  13475] # Kecskeméti József utca
-      - ['27:44:00', 'F01941',  13767] # Duránci utca
-      - ['27:45:00', 'F01946',  14093] # Gépész utca
-      - ['27:46:00', 'F01916',  14467] # Őrmezei út
-      - ['27:47:00', 'F01918',  14771] # Neszmélyi út
-      - ['27:48:00', 'F01921',  15189] # Őrmezői lakótelep, Menyecske utca
-      - ['27:48:00', 'F01923',  15444] # Kérő utca
-      - ['27:50:00', 'F01927',  16352] # Sasadi út
-      - ['27:51:00', 'F02054',  16787] # Dayka Gábor utca
-      - ['27:52:00', 'F02050',  17457] # Hungária Biztosító
-      - ['27:52:00', 'F02221',  17899] # Kelenföldi autóbuszgarázs
-      - ['27:53:00', '009412',  18184] # Bartók Béla út
-      - ['27:55:00', 'F02176',  18834] # Kosztolányi Dezső tér
-      - ['27:56:00', 'F02192',  19318] # Móricz Zsigmond körtér
-      - ['27:58:00', 'F02198',  19568] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', '007996',      0] # Budatétény vasútállomás (Campona)
+      - ['00:01:00', 'F04457',    430] # Budatétényi sorompó
+      - ['00:01:00', 'F04459',    764] # Tűzliliom utca
+      - ['00:02:00', 'F04461',    961] # Rákóczi út
+      - ['00:02:00', 'F04463',   1288] # Terv utca
+      - ['00:03:00', '008971',   1594] # Gyula vezér út
+      - ['00:04:00', 'F04441',   2215] # Klauzál Gábor utca
+      - ['00:05:00', 'F04439',   2764] # Aradi utca
+      - ['00:06:00', 'F04437',   3460] # Brassói utca
+      - ['00:07:00', 'F04394',   3654] # Memento Park
+      - ['00:08:00', '008943',   4278] # Budatétény, benzinkút
+      - ['00:09:00', 'F04395',   4700] # Balatoni út (Háros utca)
+      - ['00:09:00', 'F04430',   5018] # Liszt Ferenc út
+      - ['00:10:00', 'F04428',   5502] # Szondi utca
+      - ['00:10:00', 'F04425',   5804] # Kazinczy utca
+      - ['00:11:00', 'F04423',   6110] # Arató utca
+      - ['00:11:00', 'F04417',   6444] # Lőcsei utca
+      - ['00:12:00', 'F04414',   6861] # Promontor utca
+      - ['00:12:00', 'F04413',   7123] # Mező utca
+      - ['00:13:00', 'F04410',   7636] # Komló utca
+      - ['00:14:00', 'F04409',   8098] # Nagytétényi út
+      - ['00:17:00', 'F04406',   8779] # Városház tér
+      - ['00:18:00', 'F04398',   9119] # Savoyai Jenő tér
+      - ['00:19:00', 'F04384',   9441] # Leányka utcai lakótelep
+      - ['00:20:00', '008128',   9829] # Ady Endre út
+      - ['00:21:00', '008103',  10387] # Rózsavölgy alsó
+      - ['00:22:00', '008102',  11069] # Rózsavölgy felső
+      - ['00:22:00', '008100',  11396] # Pék utca
+      - ['00:23:00', 'F01896',  11931] # Ady Endre út
+      - ['00:23:00', 'F01899',  12336] # Kápolna út
+      - ['00:24:00', 'F01900',  12625] # Olajfa utca
+      - ['00:25:00', 'F01915',  13000] # Alabástrom utca
+      - ['00:25:00', 'F01938',  13274] # Torma utca
+      - ['00:26:00', 'F01940',  13475] # Kecskeméti József utca
+      - ['00:26:00', 'F01941',  13767] # Duránci utca
+      - ['00:27:00', 'F01946',  14093] # Gépész utca
+      - ['00:28:00', 'F01916',  14467] # Őrmezei út
+      - ['00:29:00', 'F01918',  14771] # Neszmélyi út
+      - ['00:30:00', 'F01921',  15189] # Őrmezői lakótelep, Menyecske utca
+      - ['00:30:00', 'F01923',  15444] # Kérő utca
+      - ['00:32:00', 'F01927',  16352] # Sasadi út
+      - ['00:33:00', 'F02054',  16787] # Dayka Gábor utca
+      - ['00:34:00', 'F02050',  17457] # Hungária Biztosító
+      - ['00:34:00', 'F02221',  17899] # Kelenföldi autóbuszgarázs
+      - ['00:35:00', '009412',  18184] # Bartók Béla út
+      - ['00:37:00', 'F02176',  18834] # Kosztolányi Dezső tér
+      - ['00:38:00', 'F02192',  19318] # Móricz Zsigmond körtér
+      - ['00:40:00', 'F02198',  19568] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-9410-1-1
     wheelchair_accessible: 2

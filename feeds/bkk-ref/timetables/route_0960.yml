@@ -13,36 +13,36 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0960-0-1-H442
     stop_times:
-      - ['04:30:00', 'F03147',      0] # Újpalota, Szentmihályi út
-      - ['04:30:00', 'F03201',    345] # Erdőkerülő utca 28.
-      - ['04:32:00', 'F03209',    767] # Zsókavár utca
-      - ['04:32:00', 'F03154',    990] # Fő tér
-      - ['04:33:00', 'F03159',   1420] # Vásárcsarnok
-      - ['04:34:00', 'F03193',   1737] # Sárfű utca
-      - ['04:35:00', 'F03125',   2093] # Bánkút utca
-      - ['04:36:00', 'F03120',   2708] # Kozák tér
-      - ['04:37:00', 'F03121',   2952] # Szerencs utca
-      - ['04:39:00', 'F03115',   3309] # Klapka György utca
-      - ['04:40:00', 'F03072',   3746] # Rákos úti szakrendelő
-      - ['04:41:00', 'F03059',   4356] # Szentmihályi út
-      - ['04:43:00', 'F03057',   4657] # Beller Imre utca
-      - ['04:44:00', 'F03050',   5045] # Hubay Jenő tér
-      - ['04:44:00', 'F03052',   5385] # Sződliget utca
-      - ['04:46:00', 'F03022',   5988] # Pozsony utca
-      - ['04:47:00', '009555',   6420] # Szilágyi utca
-      - ['04:49:00', '009515',   7253] # Rákospalota-Újpest vasútállomás
-      - ['04:50:00', '009556',   7719] # Szülőotthon
-      - ['04:51:00', 'F00789',   8249] # Szakorvosi rendelő
-      - ['04:52:00', 'F00781',   8592] # Szent László tér
-      - ['04:53:00', 'F00776',   8947] # Nádor utca
-      - ['04:54:00', '009557',   9331] # Vécsey Károly utca
-      - ['04:55:00', 'F00757',   9734] # Bucka utca
-      - ['04:56:00', 'F00756',  10161] # Baross utca
-      - ['04:58:00', 'F00713',  10766] # Aschner Lipót tér
-      - ['04:59:00', 'F00767',  11232] # Szusza Ferenc stadion
-      - ['05:01:00', 'F00869',  11868] # Tungsram
-      - ['05:02:00', 'F00867',  12334] # Béla utca
-      - ['05:03:00', 'F00699',  12627] # Újpest, Fóti út
+      - ['00:00:00', 'F03147',      0] # Újpalota, Szentmihályi út
+      - ['00:00:00', 'F03201',    345] # Erdőkerülő utca 28.
+      - ['00:02:00', 'F03209',    767] # Zsókavár utca
+      - ['00:02:00', 'F03154',    990] # Fő tér
+      - ['00:03:00', 'F03159',   1420] # Vásárcsarnok
+      - ['00:04:00', 'F03193',   1737] # Sárfű utca
+      - ['00:05:00', 'F03125',   2093] # Bánkút utca
+      - ['00:06:00', 'F03120',   2708] # Kozák tér
+      - ['00:07:00', 'F03121',   2952] # Szerencs utca
+      - ['00:09:00', 'F03115',   3309] # Klapka György utca
+      - ['00:10:00', 'F03072',   3746] # Rákos úti szakrendelő
+      - ['00:11:00', 'F03059',   4356] # Szentmihályi út
+      - ['00:13:00', 'F03057',   4657] # Beller Imre utca
+      - ['00:14:00', 'F03050',   5045] # Hubay Jenő tér
+      - ['00:14:00', 'F03052',   5385] # Sződliget utca
+      - ['00:16:00', 'F03022',   5988] # Pozsony utca
+      - ['00:17:00', '009555',   6420] # Szilágyi utca
+      - ['00:19:00', '009515',   7253] # Rákospalota-Újpest vasútállomás
+      - ['00:20:00', '009556',   7719] # Szülőotthon
+      - ['00:21:00', 'F00789',   8249] # Szakorvosi rendelő
+      - ['00:22:00', 'F00781',   8592] # Szent László tér
+      - ['00:23:00', 'F00776',   8947] # Nádor utca
+      - ['00:24:00', '009557',   9331] # Vécsey Károly utca
+      - ['00:25:00', 'F00757',   9734] # Bucka utca
+      - ['00:26:00', 'F00756',  10161] # Baross utca
+      - ['00:28:00', 'F00713',  10766] # Aschner Lipót tér
+      - ['00:29:00', 'F00767',  11232] # Szusza Ferenc stadion
+      - ['00:31:00', 'F00869',  11868] # Tungsram
+      - ['00:32:00', 'F00867',  12334] # Béla utca
+      - ['00:33:00', 'F00699',  12627] # Újpest, Fóti út
     trip_headsign: 'Újpest, Fóti út'
     trip_id: REFERENCE-0960-0-1
     wheelchair_accessible: 2
@@ -50,33 +50,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0960-1-1-H443
     stop_times:
-      - ['22:06:00', 'F00699',      0] # Újpest, Fóti út
-      - ['22:07:00', 'F00712',    582] # Megyeri út (Fóti út)
-      - ['22:08:00', 'F00754',    965] # Baross utca
-      - ['22:09:00', 'F00758',   1455] # Nádor utca
-      - ['22:09:00', 'F00762',   1851] # Leiningen Károly utca
-      - ['22:11:00', 'F00775',   2303] # Vécsey Károly utca
-      - ['22:11:00', 'F00779',   2675] # Szent László tér
-      - ['22:12:00', 'F00791',   2917] # Szakorvosi rendelő
-      - ['22:13:00', 'F00882',   3288] # Szülőotthon
-      - ['22:14:00', '009516',   3891] # Rákospalota-Újpest vasútállomás
-      - ['22:16:00', 'F00764',   4751] # Szilágyi utca
-      - ['22:17:00', 'F03021',   5244] # Pozsony utca
-      - ['22:18:00', 'F03051',   5835] # Fő út
-      - ['22:19:00', 'F03054',   6192] # Hubay Jenő tér
-      - ['22:19:00', 'F03056',   6446] # Beller Imre utca
-      - ['22:21:00', 'F03058',   6936] # Rákos út
-      - ['22:22:00', 'F03071',   7548] # Rákos úti szakrendelő
-      - ['22:23:00', 'F03114',   8041] # Damjanich János utca
-      - ['22:24:00', 'F03122',   8316] # Bercsényi Miklós utca
-      - ['22:25:00', 'F03119',   8486] # Kozák tér
-      - ['22:26:00', 'F03126',   9202] # Páskomliget utca
-      - ['22:27:00', 'F03194',   9529] # Sárfű utca
-      - ['22:28:00', 'F03160',   9784] # Vásárcsarnok
-      - ['22:29:00', 'F03153',  10274] # Fő tér
-      - ['22:30:00', 'F03150',  10613] # Erdőkerülő utca
-      - ['22:31:00', 'F03202',  10917] # Erdőkerülő utca 27.
-      - ['22:32:00', 'F03145',  11176] # Újpalota, Szentmihályi út
+      - ['00:00:00', 'F00699',      0] # Újpest, Fóti út
+      - ['00:01:00', 'F00712',    582] # Megyeri út (Fóti út)
+      - ['00:02:00', 'F00754',    965] # Baross utca
+      - ['00:03:00', 'F00758',   1455] # Nádor utca
+      - ['00:04:00', 'F00762',   1851] # Leiningen Károly utca
+      - ['00:06:00', 'F00775',   2303] # Vécsey Károly utca
+      - ['00:07:00', 'F00779',   2675] # Szent László tér
+      - ['00:07:00', 'F00791',   2917] # Szakorvosi rendelő
+      - ['00:08:00', 'F00882',   3288] # Szülőotthon
+      - ['00:10:00', '009516',   3891] # Rákospalota-Újpest vasútállomás
+      - ['00:12:00', 'F00764',   4751] # Szilágyi utca
+      - ['00:13:00', 'F03021',   5244] # Pozsony utca
+      - ['00:15:00', 'F03051',   5835] # Fő út
+      - ['00:16:00', 'F03054',   6192] # Hubay Jenő tér
+      - ['00:17:00', 'F03056',   6446] # Beller Imre utca
+      - ['00:18:00', 'F03058',   6936] # Rákos út
+      - ['00:20:00', 'F03071',   7548] # Rákos úti szakrendelő
+      - ['00:21:00', 'F03114',   8041] # Damjanich János utca
+      - ['00:23:00', 'F03122',   8316] # Bercsényi Miklós utca
+      - ['00:24:00', 'F03119',   8486] # Kozák tér
+      - ['00:26:00', 'F03126',   9202] # Páskomliget utca
+      - ['00:27:00', 'F03194',   9529] # Sárfű utca
+      - ['00:28:00', 'F03160',   9784] # Vásárcsarnok
+      - ['00:30:00', 'F03153',  10274] # Fő tér
+      - ['00:31:00', 'F03150',  10613] # Erdőkerülő utca
+      - ['00:32:00', 'F03202',  10917] # Erdőkerülő utca 27.
+      - ['00:33:00', 'F03145',  11176] # Újpalota, Szentmihályi út
     trip_headsign: 'Újpalota, Szentmihályi út'
     trip_id: REFERENCE-0960-1-1
     wheelchair_accessible: 2

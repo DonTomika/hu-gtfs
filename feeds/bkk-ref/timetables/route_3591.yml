@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3591-0-1-G469
     stop_times:
-      - ['23:45:00', 'F02462',      0] # Széll Kálmán tér M
-      - ['23:47:00', 'F00024',    670] # Déli pályaudvar M
-      - ['23:49:00', 'F02408',   1190] # Istenhegyi út
-      - ['23:50:00', 'F02414',   1435] # Királyhágó tér
-      - ['23:51:00', 'F02306',   1876] # Kiss János altábornagy utca
-      - ['23:52:00', 'F02300',   2152] # Apor Vilmos tér
-      - ['23:52:00', 'F02298',   2382] # Zólyomi lépcső
-      - ['23:53:00', 'F02296',   2636] # Vas Gereben utca
-      - ['23:54:00', '008050',   3025] # Liptó utca
-      - ['23:55:00', 'F02100',   3296] # Farkasréti temető
-      - ['23:56:00', 'F02099',   3608] # Süveg utca
-      - ['23:58:00', 'F02082',   4084] # Farkasrét, Márton Áron tér
+      - ['00:00:00', 'F02462',      0] # Széll Kálmán tér M
+      - ['00:02:00', 'F00024',    670] # Déli pályaudvar M
+      - ['00:04:00', 'F02408',   1190] # Istenhegyi út
+      - ['00:05:00', 'F02414',   1435] # Királyhágó tér
+      - ['00:06:00', 'F02306',   1876] # Kiss János altábornagy utca
+      - ['00:07:00', 'F02300',   2152] # Apor Vilmos tér
+      - ['00:07:00', 'F02298',   2382] # Zólyomi lépcső
+      - ['00:08:00', 'F02296',   2636] # Vas Gereben utca
+      - ['00:09:00', '008050',   3025] # Liptó utca
+      - ['00:10:00', 'F02100',   3296] # Farkasréti temető
+      - ['00:11:00', 'F02099',   3608] # Süveg utca
+      - ['00:13:00', 'F02082',   4084] # Farkasrét, Márton Áron tér
     trip_headsign: 'Farkasrét, Márton Áron tér'
     trip_id: REFERENCE-3591-0-1
     wheelchair_accessible: 2
@@ -32,18 +32,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3591-1-1-G470
     stop_times:
-      - ['06:20:00', 'F02082',      0] # Farkasrét, Márton Áron tér
-      - ['06:22:00', 'F02097',    580] # Süveg utca
-      - ['06:23:00', 'F02101',    902] # Farkasréti temető
-      - ['06:23:00', '008051',   1123] # Liptó utca
-      - ['06:24:00', 'F02297',   1553] # Vas Gereben utca
-      - ['06:25:00', 'F02299',   1798] # Zólyomi lépcső
-      - ['06:26:00', 'F02301',   2032] # Apor Vilmos tér
-      - ['06:27:00', 'F02307',   2312] # Kiss János altábornagy utca
-      - ['06:28:00', 'F02421',   2655] # Királyhágó tér
-      - ['06:29:00', 'F02407',   3003] # Istenhegyi út
-      - ['06:31:00', 'F00025',   3514] # Déli pályaudvar M
-      - ['06:34:00', 'F02463',   4244] # Széll Kálmán tér M
+      - ['00:00:00', 'F02082',      0] # Farkasrét, Márton Áron tér
+      - ['00:02:00', 'F02097',    580] # Süveg utca
+      - ['00:03:00', 'F02101',    902] # Farkasréti temető
+      - ['00:03:00', '008051',   1123] # Liptó utca
+      - ['00:04:00', 'F02297',   1553] # Vas Gereben utca
+      - ['00:05:00', 'F02299',   1798] # Zólyomi lépcső
+      - ['00:06:00', 'F02301',   2032] # Apor Vilmos tér
+      - ['00:07:00', 'F02307',   2312] # Kiss János altábornagy utca
+      - ['00:08:00', 'F02421',   2655] # Királyhágó tér
+      - ['00:09:00', 'F02407',   3003] # Istenhegyi út
+      - ['00:11:00', 'F00025',   3514] # Déli pályaudvar M
+      - ['00:14:00', 'F02463',   4244] # Széll Kálmán tér M
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-3591-1-1
     wheelchair_accessible: 2

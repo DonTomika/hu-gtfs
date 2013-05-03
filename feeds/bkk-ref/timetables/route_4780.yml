@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FF1818
-route_desc: Keleti pályaudvar M / Kossuth Lajos tér M
+route_desc: Kossuth Lajos tér M / Keleti pályaudvar M (Garay utca)
 route_id: 4780
 route_long_name: ''
 route_short_name: 78
@@ -11,40 +11,40 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4780-0-1-S637
+    shape_id: REFERENCE-4780-0-1-1084
     stop_times:
-      - ['07:25:00', 'F00970',      0] # Kossuth Lajos tér M
-      - ['07:26:00', 'F00993',    390] # Honvéd utca
-      - ['07:28:00', 'F00939',    885] # Bajcsy-Zsilinszky út
-      - ['07:29:00', '009026',   1086] # Zichy Jenő utca
-      - ['07:30:00', 'F01076',   1368] # Andrássy út (Opera M)
-      - ['07:31:00', 'F01032',   1656] # Akácfa utca
-      - ['07:33:00', 'F01036',   1876] # Erzsébet körút
-      - ['07:35:00', 'F01043',   2237] # Izabella utca
-      - ['07:36:00', 'F01044',   2517] # Lövölde tér
-      - ['07:39:00', 'F01123',   3014] # Bethlen Gábor utca
-      - ['07:40:00', 'F01127',   3259] # Bethlen Gábor tér
-      - ['07:42:00', 'F01132',   3714] # Keleti pályaudvar M (Garay utca)
+      - ['00:00:00', 'F00970',      0] # Kossuth Lajos tér M
+      - ['00:01:00', 'F00993',    390] # Honvéd utca
+      - ['00:03:00', 'F00939',    885] # Bajcsy-Zsilinszky út
+      - ['00:04:00', '009026',   1086] # Zichy Jenő utca
+      - ['00:05:00', 'F01076',   1368] # Andrássy út (Opera M)
+      - ['00:06:00', 'F01032',   1656] # Akácfa utca
+      - ['00:07:00', 'F01036',   1876] # Erzsébet körút
+      - ['00:09:00', 'F01043',   2237] # Izabella utca
+      - ['00:10:00', 'F01044',   2517] # Lövölde tér
+      - ['00:12:00', 'F01123',   3014] # Bethlen Gábor utca
+      - ['00:13:00', 'F01127',   3259] # Bethlen Gábor tér
+      - ['00:15:00', 'F01132',   3714] # Keleti pályaudvar M (Garay utca)
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-4780-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-4780-1-1-S638
+    shape_id: REFERENCE-4780-1-1-1082
     stop_times:
-      - ['12:15:00', 'F01131',      0] # Keleti pályaudvar M (Garay utca)
-      - ['12:16:00', 'F01129',    333] # István utca
-      - ['12:18:00', 'F01124',    691] # Damjanich utca
-      - ['12:19:00', 'F01047',    899] # Bajza utca
-      - ['12:21:00', 'F01045',   1284] # Lövölde tér
-      - ['12:22:00', 'F01041',   1592] # Izabella utca
-      - ['12:24:00', 'F01034',   1910] # Teréz körút
-      - ['12:25:00', 'F01033',   2182] # Akácfa utca
-      - ['12:27:00', 'F01075',   2422] # Andrássy út (Opera M)
-      - ['12:28:00', '009025',   2739] # Zichy Jenő utca
-      - ['12:30:00', 'F00938',   3094] # Bajcsy-Zsilinszky út
-      - ['12:31:00', 'F00992',   3406] # Honvéd utca
-      - ['12:33:00', 'F00970',   3628] # Kossuth Lajos tér M
+      - ['00:00:00', 'F01131',      0] # Keleti pályaudvar M (Garay utca)
+      - ['00:01:00', 'F01129',    333] # István utca
+      - ['00:02:00', 'F01124',    691] # Damjanich utca
+      - ['00:02:00', 'F01047',    899] # Bajza utca
+      - ['00:04:00', 'F01045',   1284] # Lövölde tér
+      - ['00:05:00', 'F01041',   1592] # Izabella utca
+      - ['00:06:00', 'F01034',   1910] # Teréz körút
+      - ['00:07:00', 'F01033',   2182] # Akácfa utca
+      - ['00:08:00', 'F01075',   2422] # Andrássy út (Opera M)
+      - ['00:09:00', '009025',   2739] # Zichy Jenő utca
+      - ['00:10:00', 'F00938',   3094] # Bajcsy-Zsilinszky út
+      - ['00:11:00', 'F00992',   3406] # Honvéd utca
+      - ['00:12:00', 'F00970',   3628] # Kossuth Lajos tér M
     trip_headsign: Kossuth Lajos tér M
     trip_id: REFERENCE-4780-1-1
     wheelchair_accessible: 2

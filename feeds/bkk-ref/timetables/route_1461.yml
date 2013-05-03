@@ -13,13 +13,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1461-0-1-H939
     stop_times:
-      - ['06:10:00', 'F03289',      0] # Cinkotai autóbuszgarázs
-      - ['06:11:00', 'F03450',    491] # Vidor utca
-      - ['06:13:00', 'F03472',   1603] # Tarack utca
-      - ['06:14:00', '009706',   2278] # XVII. utca
-      - ['06:15:00', 'F03446',   2573] # Hősök tere
-      - ['06:16:00', 'F03459',   2875] # Rákosliget vasútállomás
-      - ['06:19:00', 'F03605',   3608] # Városközpont (Ferihegyi út)
+      - ['00:00:00', 'F03289',      0] # Cinkotai autóbuszgarázs
+      - ['00:01:00', 'F03450',    491] # Vidor utca
+      - ['00:03:00', 'F03472',   1603] # Tarack utca
+      - ['00:04:00', '009706',   2278] # XVII. utca
+      - ['00:05:00', 'F03446',   2573] # Hősök tere
+      - ['00:06:00', 'F03459',   2875] # Rákosliget vasútállomás
+      - ['00:09:00', 'F03605',   3608] # Városközpont (Ferihegyi út)
     trip_headsign: 'Rákoskeresztúr, városközpont'
     trip_id: REFERENCE-1461-0-1
     wheelchair_accessible: 2

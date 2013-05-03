@@ -13,34 +13,34 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0340-0-1-S578
     stop_times:
-      - ['20:20:00', 'F02579',      0] # Árpád híd M
-      - ['20:21:00', 'F02602',    197] # Árpád híd M (Váci út)
-      - ['20:22:00', 'F02525',    742] # Népfürdő utca
-      - ['20:23:00', 'F02503',   1200] # Szigeti bejáró
-      - ['20:24:00', 'F00627',   1847] # Szentlélek tér H
-      - ['20:25:00', 'F00611',   2438] # Flórián tér
-      - ['20:27:00', 'F00581',   2664] # Raktár utca
-      - ['20:28:00', 'F00576',   3253] # Bogdáni út
-      - ['20:30:00', 'F00508',   4043] # Kaszásdűlő H
-      - ['20:31:00', 'F00506',   4630] # Záhony utca
-      - ['20:33:00', 'F00666',   5207] # Aquincum H
-      - ['20:34:00', 'F00485',   5491] # Római tér
-      - ['20:35:00', 'F00489',   6141] # Rómaifürdő H
-      - ['20:36:00', 'F00501',   6872] # Dósa utca
-      - ['20:37:00', 'F00663',   7288] # Nánási út
-      - ['20:39:00', 'F00660',   7775] # Szent János utca
-      - ['20:40:00', 'F00676',   8116] # Szamos utca
-      - ['20:41:00', 'F00658',   8331] # Mátyás király út
-      - ['20:42:00', 'F00656',   8853] # Sinkovits Imre utca
-      - ['20:43:00', 'F00654',   9470] # Pünkösdfürdő
-      - ['20:44:00', 'F00653',   9870] # Boglár utca
-      - ['20:45:00', 'F00467',  10156] # Medgyessy Ferenc utca
-      - ['20:46:00', 'F00473',  10336] # Madzsar József utca
-      - ['20:47:00', 'F00470',  10612] # Békásmegyer H
-      - ['20:48:00', 'F00462',  11099] # Szolgáltatóház
-      - ['20:49:00', 'F00636',  11317] # Hadrianus utca
-      - ['20:49:00', 'F00639',  11664] # Hadrianus utca 3.
-      - ['20:50:00', 'F00641',  12047] # Békásmegyer, Újmegyeri tér
+      - ['00:00:00', 'F02579',      0] # Árpád híd M
+      - ['00:01:00', 'F02602',    197] # Árpád híd M (Váci út)
+      - ['00:02:00', 'F02525',    742] # Népfürdő utca
+      - ['00:03:00', 'F02503',   1200] # Szigeti bejáró
+      - ['00:04:00', 'F00627',   1847] # Szentlélek tér H
+      - ['00:05:00', 'F00611',   2438] # Flórián tér
+      - ['00:06:00', 'F00581',   2664] # Raktár utca
+      - ['00:07:00', 'F00576',   3253] # Bogdáni út
+      - ['00:08:00', 'F00508',   4043] # Kaszásdűlő H
+      - ['00:09:00', 'F00506',   4630] # Záhony utca
+      - ['00:11:00', 'F00666',   5207] # Aquincum H
+      - ['00:12:00', 'F00485',   5491] # Római tér
+      - ['00:13:00', 'F00489',   6141] # Rómaifürdő H
+      - ['00:14:00', 'F00501',   6872] # Dósa utca
+      - ['00:16:00', 'F00663',   7288] # Nánási út
+      - ['00:17:00', 'F00660',   7775] # Szent János utca
+      - ['00:18:00', 'F00676',   8116] # Szamos utca
+      - ['00:19:00', 'F00658',   8331] # Mátyás király út
+      - ['00:20:00', 'F00656',   8853] # Sinkovits Imre utca
+      - ['00:21:00', 'F00654',   9470] # Pünkösdfürdő
+      - ['00:22:00', 'F00653',   9870] # Boglár utca
+      - ['00:23:00', 'F00467',  10156] # Medgyessy Ferenc utca
+      - ['00:24:00', 'F00473',  10336] # Madzsar József utca
+      - ['00:25:00', 'F00470',  10612] # Békásmegyer H
+      - ['00:26:00', 'F00462',  11099] # Szolgáltatóház
+      - ['00:27:00', 'F00636',  11317] # Hadrianus utca
+      - ['00:27:00', 'F00639',  11664] # Hadrianus utca 3.
+      - ['00:28:00', 'F00641',  12047] # Békásmegyer, Újmegyeri tér
     trip_headsign: 'Békásmegyer, Újmegyeri tér'
     trip_id: REFERENCE-0340-0-1
     wheelchair_accessible: 2
@@ -48,31 +48,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0340-1-1-H307
     stop_times:
-      - ['17:12:00', 'F00644',      0] # Békásmegyer, Újmegyeri tér
-      - ['17:13:00', 'F00638',    431] # Hadrianus utca
-      - ['17:13:00', 'F00637',    676] # Madzsar József utca
-      - ['17:14:00', 'F00463',   1028] # Szolgáltatóház
-      - ['17:15:00', 'F00469',   1398] # Békásmegyer H
-      - ['17:16:00', 'F00474',   1807] # Pünkösdfürdő utca
-      - ['17:17:00', 'F00466',   2068] # Medgyessy Ferenc utca
-      - ['17:18:00', '009539',   2287] # Boglár utca
-      - ['17:19:00', 'F00655',   2696] # Pünkösdfürdő
-      - ['17:20:00', 'F00657',   3216] # Sinkovits Imre utca
-      - ['17:21:00', 'F00659',   3780] # Mátyás király út
-      - ['17:22:00', 'F00677',   4109] # Szamos utca
-      - ['17:23:00', 'F00661',   4463] # Pozsonyi utca
-      - ['17:24:00', 'F00662',   4834] # Nimród utca
-      - ['17:25:00', 'F00500',   5338] # Dósa utca
-      - ['17:27:00', 'F00491',   6111] # Szentendrei út
-      - ['17:29:00', 'F00667',   7480] # Aquincum H
-      - ['17:30:00', 'F00507',   8197] # Záhony utca
-      - ['17:32:00', 'F00509',   8700] # Kaszásdűlő H
-      - ['17:34:00', 'F00577',   9624] # Bogdáni út
-      - ['17:36:00', 'F00582',  10004] # Raktár utca
-      - ['17:39:00', 'F00628',  10875] # Szentlélek tér H
-      - ['17:40:00', 'F02502',  11580] # Szigeti bejáró
-      - ['17:41:00', 'F02526',  11988] # Népfürdő utca
-      - ['17:46:00', 'F02579',  12984] # Árpád híd M
+      - ['00:00:00', 'F00644',      0] # Békásmegyer, Újmegyeri tér
+      - ['00:01:00', 'F00638',    431] # Hadrianus utca
+      - ['00:01:00', 'F00637',    676] # Madzsar József utca
+      - ['00:02:00', 'F00463',   1028] # Szolgáltatóház
+      - ['00:03:00', 'F00469',   1398] # Békásmegyer H
+      - ['00:04:00', 'F00474',   1807] # Pünkösdfürdő utca
+      - ['00:05:00', 'F00466',   2068] # Medgyessy Ferenc utca
+      - ['00:06:00', '009539',   2287] # Boglár utca
+      - ['00:07:00', 'F00655',   2696] # Pünkösdfürdő
+      - ['00:08:00', 'F00657',   3216] # Sinkovits Imre utca
+      - ['00:09:00', 'F00659',   3780] # Mátyás király út
+      - ['00:10:00', 'F00677',   4109] # Szamos utca
+      - ['00:11:00', 'F00661',   4463] # Pozsonyi utca
+      - ['00:12:00', 'F00662',   4834] # Nimród utca
+      - ['00:13:00', 'F00500',   5338] # Dósa utca
+      - ['00:15:00', 'F00491',   6111] # Szentendrei út
+      - ['00:17:00', 'F00667',   7480] # Aquincum H
+      - ['00:18:00', 'F00507',   8197] # Záhony utca
+      - ['00:20:00', 'F00509',   8700] # Kaszásdűlő H
+      - ['00:22:00', 'F00577',   9624] # Bogdáni út
+      - ['00:24:00', 'F00582',  10004] # Raktár utca
+      - ['00:27:00', 'F00628',  10875] # Szentlélek tér H
+      - ['00:28:00', 'F02502',  11580] # Szigeti bejáró
+      - ['00:29:00', 'F02526',  11988] # Népfürdő utca
+      - ['00:33:00', 'F02579',  12984] # Árpád híd M
     trip_headsign: Árpád híd M
     trip_id: REFERENCE-0340-1-1
     wheelchair_accessible: 1

@@ -13,67 +13,67 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1300-0-1-L803
     stop_times:
-      - ['09:52:00', '008725',      0] # Puskás Ferenc Stadion M
-      - ['09:55:00', 'F01321',    880] # Puskás Ferenc Stadion M (Hungária körút)
-      - ['09:57:00', 'F01738',   1391] # Várna utca
-      - ['09:57:00', 'F02929',   1704] # Pillangó utca
-      - ['09:59:00', 'F02747',   2171] # Róna utca
-      - ['10:00:00', 'F02931',   2468] # Kaffka Margit utca
-      - ['10:01:00', 'F02751',   2655] # Pongrátz Gergely tér
-      - ['10:03:00', 'F02936',   3119] # Mályva utca
-      - ['10:04:00', 'F02786',   3511] # Vezér utca
-      - ['10:06:00', 'F02783',   3766] # Fischer István utca
-      - ['10:09:00', 'F03276',   4914] # Pálya utca
-      - ['10:10:00', 'F03263',   5438] # Rákóczi út
-      - ['10:10:00', 'F03262',   5806] # József utca
-      - ['10:11:00', 'F03259',   6238] # János utca
-      - ['10:13:00', '043341',   6764] # György utca
-      - ['10:13:00', 'F03350',   7034] # Baross utca
-      - ['10:15:00', 'F03219',   7433] # Gusztáv utca
-      - ['10:16:00', 'F02984',   7688] # Rákospalotai határút
-      - ['10:16:00', 'F02985',   7926] # Szentmihályi út
-      - ['10:19:00', 'F03148',   9019] # Erdőkerülő utca
-      - ['10:19:00', 'F03201',   9297] # Erdőkerülő utca 28.
-      - ['10:21:00', 'F03209',   9719] # Zsókavár utca
-      - ['10:22:00', 'F03154',   9942] # Fő tér
-      - ['10:23:00', 'F03159',  10372] # Vásárcsarnok
-      - ['10:24:00', 'F03193',  10689] # Sárfű utca
-      - ['10:25:00', 'F03125',  11045] # Bánkút utca
-      - ['10:27:00', 'F03129',  11392] # Rákospalotai köztemető
-      - ['10:29:00', 'F03167',  11846] # Újpalota, Sárfű utca
+      - ['00:00:00', '008725',      0] # Puskás Ferenc Stadion M
+      - ['00:03:00', 'F01321',    880] # Puskás Ferenc Stadion M (Hungária körút)
+      - ['00:05:00', 'F01738',   1391] # Várna utca
+      - ['00:05:00', 'F02929',   1704] # Pillangó utca
+      - ['00:07:00', 'F02747',   2171] # Róna utca
+      - ['00:08:00', 'F02931',   2468] # Kaffka Margit utca
+      - ['00:09:00', 'F02751',   2655] # Pongrátz Gergely tér
+      - ['00:11:00', 'F02936',   3119] # Mályva utca
+      - ['00:12:00', 'F02786',   3511] # Vezér utca
+      - ['00:14:00', 'F02783',   3766] # Fischer István utca
+      - ['00:17:00', 'F03276',   4914] # Pálya utca
+      - ['00:18:00', 'F03263',   5438] # Rákóczi út
+      - ['00:18:00', 'F03262',   5806] # József utca
+      - ['00:19:00', 'F03259',   6238] # János utca
+      - ['00:21:00', '043341',   6764] # György utca
+      - ['00:21:00', 'F03350',   7034] # Baross utca
+      - ['00:23:00', 'F03219',   7433] # Gusztáv utca
+      - ['00:24:00', 'F02984',   7688] # Rákospalotai határút
+      - ['00:24:00', 'F02985',   7926] # Szentmihályi út
+      - ['00:27:00', 'F03148',   9019] # Erdőkerülő utca
+      - ['00:27:00', 'F03201',   9297] # Erdőkerülő utca 28.
+      - ['00:29:00', 'F03209',   9719] # Zsókavár utca
+      - ['00:30:00', 'F03154',   9942] # Fő tér
+      - ['00:31:00', 'F03159',  10372] # Vásárcsarnok
+      - ['00:32:00', 'F03193',  10689] # Sárfű utca
+      - ['00:33:00', 'F03125',  11045] # Bánkút utca
+      - ['00:35:00', 'F03129',  11392] # Rákospalotai köztemető
+      - ['00:37:00', 'F03167',  11846] # Újpalota, Sárfű utca
     trip_headsign: 'Újpalota, Sárfű utca'
     trip_id: REFERENCE-1300-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1300-1-1-L804
     stop_times:
-      - ['17:06:00', 'F03167',      0] # Újpalota, Sárfű utca
-      - ['17:06:00', 'F03166',    303] # Nyírpalota út
-      - ['17:07:00', 'F03158',    607] # Vásárcsarnok
-      - ['17:09:00', 'F03153',   1053] # Fő tér
-      - ['17:10:00', 'F03150',   1392] # Erdőkerülő utca
-      - ['17:11:00', 'F03202',   1696] # Erdőkerülő utca 27.
-      - ['17:12:00', '008903',   1978] # Szentmihályi út
-      - ['17:14:00', 'F02986',   2970] # Rákospalotai határút
-      - ['17:14:00', 'F02983',   3165] # György utca
-      - ['17:16:00', 'F03220',   3573] # Gusztáv utca
-      - ['17:16:00', 'F03349',   3817] # Baross utca
-      - ['17:18:00', 'F03222',   4195] # Csömöri út
-      - ['17:18:00', 'F03257',   4545] # János utca
-      - ['17:20:00', 'F03260',   5066] # József utca
-      - ['17:21:00', 'F03264',   5596] # Batthyány utca
-      - ['17:22:00', 'F03277',   5937] # Pálya utca
-      - ['17:25:00', 'F02784',   7239] # Fischer István utca
-      - ['17:26:00', 'F02789',   7527] # Vezér utca
-      - ['17:27:00', 'F02937',   7904] # Mályva utca
-      - ['17:28:00', 'F02750',   8268] # Pongrátz Gergely tér
-      - ['17:28:00', 'F02930',   8475] # Kaffka Margit utca
-      - ['17:29:00', 'F02746',   8775] # Róna utca
-      - ['17:31:00', 'F02928',   9251] # Pillangó utca
-      - ['17:32:00', 'F01737',   9552] # Várna utca
-      - ['17:34:00', 'F01735',   9829] # Őrnagy utca
-      - ['17:37:00', '011583',  10236] # Puskás Ferenc Stadion M
+      - ['00:00:00', 'F03167',      0] # Újpalota, Sárfű utca
+      - ['00:00:00', 'F03166',    303] # Nyírpalota út
+      - ['00:01:00', 'F03158',    607] # Vásárcsarnok
+      - ['00:03:00', 'F03153',   1053] # Fő tér
+      - ['00:03:00', 'F03150',   1392] # Erdőkerülő utca
+      - ['00:04:00', 'F03202',   1696] # Erdőkerülő utca 27.
+      - ['00:05:00', '008903',   1978] # Szentmihályi út
+      - ['00:07:00', 'F02986',   2970] # Rákospalotai határút
+      - ['00:07:00', 'F02983',   3165] # György utca
+      - ['00:08:00', 'F03220',   3573] # Gusztáv utca
+      - ['00:09:00', 'F03349',   3817] # Baross utca
+      - ['00:10:00', 'F03222',   4195] # Csömöri út
+      - ['00:10:00', 'F03257',   4545] # János utca
+      - ['00:12:00', 'F03260',   5066] # József utca
+      - ['00:13:00', 'F03264',   5596] # Batthyány utca
+      - ['00:14:00', 'F03277',   5937] # Pálya utca
+      - ['00:17:00', 'F02784',   7239] # Fischer István utca
+      - ['00:18:00', 'F02789',   7527] # Vezér utca
+      - ['00:19:00', 'F02937',   7904] # Mályva utca
+      - ['00:20:00', 'F02750',   8268] # Pongrátz Gergely tér
+      - ['00:20:00', 'F02930',   8475] # Kaffka Margit utca
+      - ['00:21:00', 'F02746',   8775] # Róna utca
+      - ['00:23:00', 'F02928',   9251] # Pillangó utca
+      - ['00:24:00', 'F01737',   9552] # Várna utca
+      - ['00:26:00', 'F01735',   9829] # Őrnagy utca
+      - ['00:28:00', '011583',  10236] # Puskás Ferenc Stadion M
     trip_headsign: Puskás Ferenc Stadion M
     trip_id: REFERENCE-1300-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

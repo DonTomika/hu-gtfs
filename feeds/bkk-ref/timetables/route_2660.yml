@@ -13,49 +13,49 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2660-0-1-G201
     stop_times:
-      - ['15:35:00', 'F03665',      0] # Pestszentimre vasútállomás (Vasút utca)
-      - ['15:36:00', 'F03662',    684] # Törvény utca
-      - ['15:37:00', 'F03661',   1017] # Vásáros tér
-      - ['15:38:00', 'F03664',   1674] # Ady Endre utca
-      - ['15:39:00', 'F03651',   2105] # Kisfaludy utca
-      - ['15:40:00', 'F03653',   2505] # Damjanich utca
-      - ['15:41:00', 'F03860',   2871] # Alacskai úti lakótelep
-      - ['15:42:00', 'F03799',   3397] # Alacskai út
-      - ['15:43:00', '008904',   3772] # Kétújfalu utca
-      - ['15:44:00', 'F03849',   4100] # Halomi út
-      - ['15:46:00', 'F03847',   4526] # Beszterce utca
-      - ['15:48:00', 'F03788',   5081] # Béke tér (Nagybánya utca)
-      - ['15:49:00', 'F03785',   5499] # Duna utca
-      - ['15:51:00', 'F03810',   6171] # Ferihegy vasútállomás
+      - ['00:00:00', 'F03665',      0] # Pestszentimre vasútállomás (Vasút utca)
+      - ['00:01:00', 'F03662',    684] # Törvény utca
+      - ['00:02:00', 'F03661',   1017] # Vásáros tér
+      - ['00:03:00', 'F03664',   1674] # Ady Endre utca
+      - ['00:04:00', 'F03651',   2105] # Kisfaludy utca
+      - ['00:05:00', 'F03653',   2505] # Damjanich utca
+      - ['00:06:00', 'F03860',   2871] # Alacskai úti lakótelep
+      - ['00:07:00', 'F03799',   3397] # Alacskai út
+      - ['00:08:00', '008904',   3772] # Kétújfalu utca
+      - ['00:09:00', 'F03849',   4100] # Halomi út
+      - ['00:11:00', 'F03847',   4526] # Beszterce utca
+      - ['00:12:00', 'F03788',   5081] # Béke tér (Nagybánya utca)
+      - ['00:13:00', 'F03785',   5499] # Duna utca
+      - ['00:15:00', 'F03810',   6171] # Ferihegy vasútállomás
     trip_headsign: Ferihegy vasútállomás
     trip_id: REFERENCE-2660-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2660-1-1-M777
     stop_times:
-      - ['08:07:00', 'F03810',      0] # Ferihegy vasútállomás
-      - ['08:08:00', 'F03784',    391] # Duna utca
-      - ['08:09:00', 'F03789',    883] # Béke tér (Nagybánya utca)
-      - ['08:10:00', 'F03790',   1027] # Béke tér (Üllői út)
-      - ['08:11:00', 'F03867',   1245] # Háromszéki utca
-      - ['08:11:00', 'F03794',   1594] # Gyergyó utca
-      - ['08:12:00', 'F03797',   2020] # Benczúr utca
-      - ['08:13:00', 'F03795',   2378] # Pestszentlőrinc, Mednyánszky utca
-      - ['08:14:00', 'F03796',   2841] # Üllői út
-      - ['08:15:00', 'F03793',   3173] # Dávid Ferenc utca
-      - ['08:16:00', 'F03868',   3554] # Rába utca
-      - ['08:17:00', 'F03787',   3813] # Béke tér (Üllői út)
-      - ['08:18:00', '009410',   3945] # Béke tér (Királyhágó út)
-      - ['08:19:00', 'F03846',   4359] # Beszterce utca
-      - ['08:20:00', 'F03848',   4753] # Halomi út
-      - ['08:21:00', 'F03798',   5238] # Kétújfalu utca
-      - ['08:21:00', '022005',   5629] # Tölgy utca
-      - ['08:22:00', 'F03859',   5954] # Alacskai úti lakótelep
-      - ['08:23:00', 'F03654',   6478] # Damjanich utca
-      - ['08:24:00', 'F03650',   6825] # Kisfaludy utca
-      - ['08:25:00', 'F03663',   7238] # Ady Endre utca
-      - ['08:27:00', 'F03665',   7665] # Pestszentimre vasútállomás (Vasút utca)
+      - ['00:00:00', 'F03810',      0] # Ferihegy vasútállomás
+      - ['00:01:00', 'F03784',    391] # Duna utca
+      - ['00:02:00', 'F03789',    883] # Béke tér (Nagybánya utca)
+      - ['00:03:00', 'F03790',   1027] # Béke tér (Üllői út)
+      - ['00:04:00', 'F03867',   1245] # Háromszéki utca
+      - ['00:04:00', 'F03794',   1594] # Gyergyó utca
+      - ['00:05:00', 'F03797',   2020] # Benczúr utca
+      - ['00:06:00', 'F03795',   2378] # Pestszentlőrinc, Mednyánszky utca
+      - ['00:07:00', 'F03796',   2841] # Üllői út
+      - ['00:08:00', 'F03793',   3173] # Dávid Ferenc utca
+      - ['00:09:00', 'F03868',   3554] # Rába utca
+      - ['00:10:00', 'F03787',   3813] # Béke tér (Üllői út)
+      - ['00:11:00', '009410',   3945] # Béke tér (Királyhágó út)
+      - ['00:12:00', 'F03846',   4359] # Beszterce utca
+      - ['00:13:00', 'F03848',   4753] # Halomi út
+      - ['00:14:00', 'F03798',   5238] # Kétújfalu utca
+      - ['00:14:00', '022005',   5629] # Tölgy utca
+      - ['00:15:00', 'F03859',   5954] # Alacskai úti lakótelep
+      - ['00:16:00', 'F03654',   6478] # Damjanich utca
+      - ['00:17:00', 'F03650',   6825] # Kisfaludy utca
+      - ['00:18:00', 'F03663',   7238] # Ady Endre utca
+      - ['00:20:00', 'F03665',   7665] # Pestszentimre vasútállomás (Vasút utca)
     trip_headsign: Pestszentimre vasútállomás (Vasút utca)
     trip_id: REFERENCE-2660-1-1
     wheelchair_accessible: 2

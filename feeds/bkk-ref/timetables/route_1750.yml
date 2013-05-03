@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1750-0-1-D144
     stop_times:
-      - ['17:20:00', 'F03144',      0] # Újpalota, Szentmihályi út
-      - ['17:20:00', '008903',    226] # Szentmihályi út
-      - ['17:22:00', 'F02986',   1218] # Rákospalotai határút
-      - ['17:23:00', 'F02983',   1413] # György utca
-      - ['17:25:00', 'F02982',   2227] # Besztercebányai utca
-      - ['17:26:00', 'F03211',   2604] # Gusztáv utca
-      - ['17:27:00', 'F03215',   2985] # Baross utca
-      - ['17:28:00', 'F03213',   3321] # Csömöri út (Szlovák út)
-      - ['17:28:00', 'F03348',   3597] # Péterke utca
-      - ['17:29:00', 'F03218',   3884] # Timur utca
-      - ['17:30:00', 'F03295',   4409] # Állás utca
-      - ['17:32:00', 'F03378',   5113] # Felsőmalom utca
-      - ['17:33:00', 'F03391',   5397] # Alsómalom utca
-      - ['17:34:00', 'F03301',   5774] # Ostoros út 40.
-      - ['17:35:00', 'F03302',   6198] # Csókakő utca
-      - ['17:36:00', 'F03304',   6499] # Cinkota H
+      - ['00:00:00', 'F03144',      0] # Újpalota, Szentmihályi út
+      - ['00:00:00', '008903',    226] # Szentmihályi út
+      - ['00:02:00', 'F02986',   1218] # Rákospalotai határút
+      - ['00:03:00', 'F02983',   1413] # György utca
+      - ['00:04:00', 'F02982',   2227] # Besztercebányai utca
+      - ['00:05:00', 'F03211',   2604] # Gusztáv utca
+      - ['00:06:00', 'F03215',   2985] # Baross utca
+      - ['00:07:00', 'F03213',   3321] # Csömöri út (Szlovák út)
+      - ['00:07:00', 'F03348',   3597] # Péterke utca
+      - ['00:08:00', 'F03218',   3884] # Timur utca
+      - ['00:09:00', 'F03295',   4409] # Állás utca
+      - ['00:11:00', 'F03378',   5113] # Felsőmalom utca
+      - ['00:11:00', 'F03391',   5397] # Alsómalom utca
+      - ['00:12:00', 'F03301',   5774] # Ostoros út 40.
+      - ['00:13:00', 'F03302',   6198] # Csókakő utca
+      - ['00:14:00', 'F03304',   6499] # Cinkota H
     trip_headsign: Cinkota H
     trip_id: REFERENCE-1750-0-1
     wheelchair_accessible: 2
@@ -36,20 +36,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1750-1-1-D146
     stop_times:
-      - ['20:35:00', 'F03304',      0] # Cinkota H
-      - ['20:35:00', 'F03303',    328] # Csókakő utca
-      - ['20:36:00', 'F03300',    935] # Ostoros út 61.
-      - ['20:37:00', 'F03390',   1247] # Alsómalom utca
-      - ['20:37:00', 'F03377',   1533] # Felsőmalom utca
-      - ['20:38:00', 'F03296',   2112] # Állás utca
-      - ['20:39:00', 'F03217',   2630] # Timur utca
-      - ['20:40:00', 'F03347',   2900] # Péterke utca
-      - ['20:41:00', 'F03212',   3276] # Csömöri út
-      - ['20:41:00', 'F03214',   3632] # Kisszentmihály, Baross utca
-      - ['20:42:00', 'F03210',   4041] # Gusztáv utca
-      - ['20:43:00', 'F02981',   4335] # Besztercebányai utca
-      - ['20:45:00', 'F02985',   5330] # Szentmihályi út
-      - ['20:47:00', 'F03144',   6403] # Újpalota, Szentmihályi út
+      - ['00:00:00', 'F03304',      0] # Cinkota H
+      - ['00:00:00', 'F03303',    328] # Csókakő utca
+      - ['00:02:00', 'F03300',    935] # Ostoros út 61.
+      - ['00:02:00', 'F03390',   1247] # Alsómalom utca
+      - ['00:03:00', 'F03377',   1533] # Felsőmalom utca
+      - ['00:04:00', 'F03296',   2112] # Állás utca
+      - ['00:05:00', 'F03217',   2630] # Timur utca
+      - ['00:06:00', 'F03347',   2900] # Péterke utca
+      - ['00:07:00', 'F03212',   3276] # Csömöri út
+      - ['00:07:00', 'F03214',   3632] # Kisszentmihály, Baross utca
+      - ['00:08:00', 'F03210',   4041] # Gusztáv utca
+      - ['00:09:00', 'F02981',   4335] # Besztercebányai utca
+      - ['00:11:00', 'F02985',   5330] # Szentmihályi út
+      - ['00:14:00', 'F03144',   6403] # Újpalota, Szentmihályi út
     trip_headsign: 'Újpalota, Szentmihályi út'
     trip_id: REFERENCE-1750-1-1
     wheelchair_accessible: 1

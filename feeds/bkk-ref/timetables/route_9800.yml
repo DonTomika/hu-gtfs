@@ -13,35 +13,35 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9800-0-1-R882
     stop_times:
-      - ['25:42:00', '008921',      0] # Dél-pesti autóbuszgarázs
-      - ['25:43:00', 'F03626',    366] # Besence utca
-      - ['25:44:00', 'F03624',    724] # Ipacsfa utca
-      - ['25:46:00', '009480',   1493] # Margó Tivadar utca
-      - ['25:47:00', 'F03633',   2077] # Varjú utca
-      - ['25:47:00', 'F03685',   2283] # Dobozi utca
-      - ['25:48:00', 'F03683',   2493] # Wlassics Gyula utca
-      - ['25:49:00', 'F03721',   2896] # Szarvas csárda tér
-      - ['25:49:00', 'F03706',   3299] # Regény utca
-      - ['25:50:00', 'F03702',   3757] # Lőrinci temető
-      - ['25:51:00', 'F03829',   4062] # Kosztolányi Dezső utca
-      - ['25:52:00', 'F03698',   4429] # Fedezék utca
-      - ['25:53:00', 'F03695',   4638] # Csévéző utca
-      - ['25:54:00', 'F03428',   5063] # Frangepán utca
-      - ['25:55:00', 'F03601',   6399] # Homokiszőlők
-      - ['25:56:00', 'F03430',   6785] # Lőrinci út
-      - ['25:57:00', 'F03432',   7365] # Baross utca
-      - ['25:57:00', 'F03565',   7767] # Orgoványi utca
-      - ['25:58:00', 'F03563',   8210] # Bocskai István utca
-      - ['25:59:00', 'F03597',   8554] # Rákóczi Ferenc utca
-      - ['25:59:00', 'F03591',   8882] # Vörösmarty utca
-      - ['26:00:00', 'F03524',   9107] # Melczer utca
-      - ['26:01:00', 'F03590',   9462] # Ady Endre utca
-      - ['26:01:00', 'F03525',   9680] # Rákoshegy vasútállomás
-      - ['26:02:00', 'F03518',  10051] # Ferihegyi út
-      - ['26:03:00', 'F03588',  10532] # Bulyovszky utca
-      - ['26:04:00', 'F03517',  10917] # Széchenyi utca
-      - ['26:05:00', 'F03473',  11413] # Egészségház
-      - ['26:06:00', '011725',  11649] # Rákoskeresztúr, városközpont
+      - ['00:00:00', '008921',      0] # Dél-pesti autóbuszgarázs
+      - ['00:01:00', 'F03626',    366] # Besence utca
+      - ['00:02:00', 'F03624',    724] # Ipacsfa utca
+      - ['00:04:00', '009480',   1493] # Margó Tivadar utca
+      - ['00:05:00', 'F03633',   2077] # Varjú utca
+      - ['00:05:00', 'F03685',   2283] # Dobozi utca
+      - ['00:06:00', 'F03683',   2493] # Wlassics Gyula utca
+      - ['00:07:00', 'F03721',   2896] # Szarvas csárda tér
+      - ['00:07:00', 'F03706',   3299] # Regény utca
+      - ['00:08:00', 'F03702',   3757] # Lőrinci temető
+      - ['00:09:00', 'F03829',   4062] # Kosztolányi Dezső utca
+      - ['00:10:00', 'F03698',   4429] # Fedezék utca
+      - ['00:11:00', 'F03695',   4638] # Csévéző utca
+      - ['00:12:00', 'F03428',   5063] # Frangepán utca
+      - ['00:13:00', 'F03601',   6399] # Homokiszőlők
+      - ['00:14:00', 'F03430',   6785] # Lőrinci út
+      - ['00:15:00', 'F03432',   7365] # Baross utca
+      - ['00:15:00', 'F03565',   7767] # Orgoványi utca
+      - ['00:16:00', 'F03563',   8210] # Bocskai István utca
+      - ['00:17:00', 'F03597',   8554] # Rákóczi Ferenc utca
+      - ['00:17:00', 'F03591',   8882] # Vörösmarty utca
+      - ['00:18:00', 'F03524',   9107] # Melczer utca
+      - ['00:19:00', 'F03590',   9462] # Ady Endre utca
+      - ['00:19:00', 'F03525',   9680] # Rákoshegy vasútállomás
+      - ['00:20:00', 'F03518',  10051] # Ferihegyi út
+      - ['00:21:00', 'F03588',  10532] # Bulyovszky utca
+      - ['00:22:00', 'F03517',  10917] # Széchenyi utca
+      - ['00:23:00', 'F03473',  11413] # Egészségház
+      - ['00:24:00', '011725',  11649] # Rákoskeresztúr, városközpont
     trip_headsign: 'Rákoskeresztúr, városközpont'
     trip_id: REFERENCE-9800-0-1
     wheelchair_accessible: 2
@@ -49,35 +49,35 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9800-1-1-R883
     stop_times:
-      - ['24:15:00', '011723',      0] # Rákoskeresztúr, városközpont
-      - ['24:16:00', '009685',    300] # Akácvirág utca
-      - ['24:17:00', 'F03516',    754] # Széchenyi utca
-      - ['24:18:00', 'F03587',   1043] # Bulyovszky utca
-      - ['24:19:00', 'F03519',   1607] # Szabadság utca
-      - ['24:20:00', '008577',   1846] # Rákoshegy vasútállomás
-      - ['24:20:00', 'F03589',   2197] # Ady Endre utca
-      - ['24:21:00', 'F03523',   2583] # Melczer utca
-      - ['24:22:00', 'F03592',   2786] # Vörösmarty utca
-      - ['24:22:00', 'F03596',   3132] # Rákóczi Ferenc utca
-      - ['24:23:00', 'F03562',   3461] # Bocskai István utca
-      - ['24:24:00', 'F03564',   3929] # Orgoványi utca
-      - ['24:25:00', 'F03431',   4354] # Bélatelepi út
-      - ['24:25:00', 'F03429',   4779] # Lőrinci út
-      - ['24:26:00', 'F03600',   5237] # Homokiszőlők
-      - ['24:27:00', 'F03427',   6505] # Frangepán utca
-      - ['24:28:00', 'F03694',   7019] # Gyömrői út
-      - ['24:29:00', 'F03697',   7209] # Fedezék utca
-      - ['24:30:00', 'F03830',   7511] # Kosztolányi Dezső utca
-      - ['24:30:00', 'F03700',   7777] # Lőrinci temető
-      - ['24:31:00', 'F03705',   8372] # Regény utca
-      - ['24:32:00', 'F03720',   8678] # Szarvas csárda tér
-      - ['24:33:00', 'F03684',   9015] # Wlassics Gyula utca
-      - ['24:34:00', 'F03686',   9244] # Dobozi utca
-      - ['24:34:00', 'F03634',   9455] # Varjú utca
-      - ['24:35:00', '009551',  10061] # Margó Tivadar utca
-      - ['24:37:00', 'F03622',  10961] # Ipacsfa utca
-      - ['24:38:00', 'F03625',  11219] # Besence utca
-      - ['24:39:00', '008472',  11581] # Dél-pesti autóbuszgarázs
+      - ['00:00:00', '011723',      0] # Rákoskeresztúr, városközpont
+      - ['00:01:00', '009685',    300] # Akácvirág utca
+      - ['00:02:00', 'F03516',    754] # Széchenyi utca
+      - ['00:03:00', 'F03587',   1043] # Bulyovszky utca
+      - ['00:04:00', 'F03519',   1607] # Szabadság utca
+      - ['00:05:00', '008577',   1846] # Rákoshegy vasútállomás
+      - ['00:05:00', 'F03589',   2197] # Ady Endre utca
+      - ['00:06:00', 'F03523',   2583] # Melczer utca
+      - ['00:07:00', 'F03592',   2786] # Vörösmarty utca
+      - ['00:07:00', 'F03596',   3132] # Rákóczi Ferenc utca
+      - ['00:08:00', 'F03562',   3461] # Bocskai István utca
+      - ['00:09:00', 'F03564',   3929] # Orgoványi utca
+      - ['00:10:00', 'F03431',   4354] # Bélatelepi út
+      - ['00:10:00', 'F03429',   4779] # Lőrinci út
+      - ['00:11:00', 'F03600',   5237] # Homokiszőlők
+      - ['00:12:00', 'F03427',   6505] # Frangepán utca
+      - ['00:13:00', 'F03694',   7019] # Gyömrői út
+      - ['00:14:00', 'F03697',   7209] # Fedezék utca
+      - ['00:15:00', 'F03830',   7511] # Kosztolányi Dezső utca
+      - ['00:15:00', 'F03700',   7777] # Lőrinci temető
+      - ['00:16:00', 'F03705',   8372] # Regény utca
+      - ['00:17:00', 'F03720',   8678] # Szarvas csárda tér
+      - ['00:18:00', 'F03684',   9015] # Wlassics Gyula utca
+      - ['00:19:00', 'F03686',   9244] # Dobozi utca
+      - ['00:19:00', 'F03634',   9455] # Varjú utca
+      - ['00:20:00', '009551',  10061] # Margó Tivadar utca
+      - ['00:22:00', 'F03622',  10961] # Ipacsfa utca
+      - ['00:23:00', 'F03625',  11219] # Besence utca
+      - ['00:24:00', '008472',  11581] # Dél-pesti autóbuszgarázs
     trip_headsign: Dél-pesti autóbuszgarázs
     trip_id: REFERENCE-9800-1-1
     wheelchair_accessible: 2

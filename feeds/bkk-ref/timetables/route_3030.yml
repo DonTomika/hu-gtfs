@@ -13,39 +13,39 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3030-0-1-B099
     stop_times:
-      - ['09:36:00', '008206',      0] # Mexikói út M
-      - ['09:37:00', 'F02879',    254] # Erzsébet királyné útja, aluljáró
-      - ['09:39:00', 'F02962',    659] # Laky Adolf utca
-      - ['09:40:00', 'F02866',   1093] # Nagy Lajos király útja
-      - ['09:41:00', '008209',   1187] # Czobor utca
-      - ['09:42:00', 'F02966',   1444] # Kerékgyártó utca
-      - ['09:44:00', 'F02831',   1934] # Bosnyák tér
-      - ['09:46:00', 'F02814',   2319] # Szugló utca
-      - ['09:48:00', 'F02796',   2720] # Egressy tér
-      - ['09:49:00', 'F02971',   3266] # Jeszenák János utca
-      - ['09:50:00', 'F02748',   3643] # Pongrátz Gergely tér
-      - ['09:52:00', 'F02968',   4050] # Tihamér utca
-      - ['09:53:00', '008222',   4525] # Örs vezér tere - Zugló M+H
-      - ['09:55:00', '008383',   4646] # Örs vezér tere - Kőbánya M
-      - ['09:56:00', 'F01862',   4968] # Finommechanikai Zrt.
-      - ['09:58:00', 'F01782',   5693] # Terebesi utca
-      - ['10:00:00', 'F01623',   6228] # Élessarok
-      - ['10:03:00', 'F01827',   6583] # Ónodi utca
-      - ['10:06:00', 'F01649',   7058] # Szent László tér
-      - ['10:09:00', 'F01645',   7488] # Kőbánya alsó vasútállomás
-      - ['10:10:00', 'F01573',   7675] # Kőbánya alsó vasútállomás (Mázsa tér)
-      - ['10:11:00', 'F01575',   8123] # Szállás utca
-      - ['10:13:00', 'F01535',   8559] # Fertő utca
-      - ['10:15:00', 'F01531',   8883] # Balkán utca
-      - ['10:18:00', 'F01491',   9523] # Ecseri út M
-      - ['10:19:00', 'F01484',   9914] # Közterületfenntartó Zrt.
-      - ['10:20:00', 'F01525',  10412] # Csengettyű utca
-      - ['10:22:00', 'F01367',  10861] # Epreserdő utca
-      - ['10:24:00', 'F01452',  11475] # Nagykőrösi út
-      - ['10:26:00', 'F01447',  12055] # Mártírok útja
-      - ['10:27:00', 'F01444',  12497] # Jókai Mór utca
-      - ['10:28:00', 'F01443',  12951] # Ősz utca
-      - ['10:30:00', 'F01438',  13209] # Gubacsi út
+      - ['00:00:00', '008206',      0] # Mexikói út M
+      - ['00:01:00', 'F02879',    254] # Erzsébet királyné útja, aluljáró
+      - ['00:03:00', 'F02962',    659] # Laky Adolf utca
+      - ['00:04:00', 'F02866',   1093] # Nagy Lajos király útja
+      - ['00:05:00', '008209',   1187] # Czobor utca
+      - ['00:06:00', 'F02966',   1444] # Kerékgyártó utca
+      - ['00:08:00', 'F02831',   1934] # Bosnyák tér
+      - ['00:09:00', 'F02814',   2319] # Szugló utca
+      - ['00:11:00', 'F02796',   2720] # Egressy tér
+      - ['00:12:00', 'F02971',   3266] # Jeszenák János utca
+      - ['00:13:00', 'F02748',   3643] # Pongrátz Gergely tér
+      - ['00:15:00', 'F02968',   4050] # Tihamér utca
+      - ['00:16:00', '008222',   4525] # Örs vezér tere - Zugló M+H
+      - ['00:18:00', '00:20:00', '008383',   4646] # Örs vezér tere - Kőbánya M
+      - ['00:21:00', 'F01862',   4968] # Finommechanikai Zrt.
+      - ['00:23:00', 'F01782',   5693] # Terebesi utca
+      - ['00:25:00', 'F01623',   6228] # Élessarok
+      - ['00:27:00', 'F01827',   6583] # Ónodi utca
+      - ['00:30:00', 'F01649',   7058] # Szent László tér
+      - ['00:33:00', 'F01645',   7488] # Kőbánya alsó vasútállomás
+      - ['00:34:00', 'F01573',   7675] # Kőbánya alsó vasútállomás (Mázsa tér)
+      - ['00:35:00', 'F01575',   8123] # Szállás utca
+      - ['00:37:00', 'F01535',   8559] # Fertő utca
+      - ['00:39:00', 'F01531',   8883] # Balkán utca
+      - ['00:41:00', 'F01491',   9523] # Ecseri út M
+      - ['00:42:00', 'F01484',   9914] # Közterületfenntartó Zrt.
+      - ['00:43:00', 'F01525',  10412] # Csengettyű utca
+      - ['00:45:00', 'F01367',  10861] # Epreserdő utca
+      - ['00:47:00', 'F01452',  11475] # Nagykőrösi út
+      - ['00:49:00', 'F01447',  12055] # Mártírok útja
+      - ['00:50:00', 'F01444',  12497] # Jókai Mór utca
+      - ['00:51:00', 'F01443',  12951] # Ősz utca
+      - ['00:53:00', 'F01438',  13209] # Gubacsi út
     trip_headsign: Gubacsi út
     trip_id: REFERENCE-3030-0-1
     wheelchair_accessible: 2
@@ -53,38 +53,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3030-1-1-B098
     stop_times:
-      - ['10:27:00', 'F01439',      0] # Gubacsi út
-      - ['10:28:00', 'F01442',    386] # Ősz utca
-      - ['10:30:00', 'F01445',    800] # Jókai Mór utca
-      - ['10:32:00', 'F01448',   1315] # Mártírok útja
-      - ['10:33:00', 'F01454',   1894] # Nagykőrösi út
-      - ['10:35:00', 'F01366',   2479] # Epreserdő utca
-      - ['10:37:00', 'F01526',   2926] # Csengettyű utca
-      - ['10:38:00', 'F01485',   3472] # Közterületfenntartó Zrt.
-      - ['10:40:00', 'F01495',   3839] # Ecseri út M
-      - ['10:41:00', 'F01532',   4430] # Balkán utca
-      - ['10:43:00', 'F01538',   4750] # Fertő utca
-      - ['10:45:00', 'F01576',   5260] # Szállás utca
-      - ['10:47:00', 'F01574',   5661] # Kőbánya alsó vasútállomás (Mázsa tér)
-      - ['10:49:00', 'F01646',   5905] # Kőbánya alsó vasútállomás
-      - ['10:51:00', 'F01650',   6309] # Szent László tér
-      - ['10:54:00', 'F01826',   6821] # Ónodi utca
-      - ['10:56:00', 'F01624',   7178] # Élessarok
-      - ['10:58:00', 'F01783',   7730] # Terebesi utca
-      - ['11:00:00', 'F01863',   8357] # Finommechanikai Zrt.
-      - ['11:02:00', '008382',   8679] # Örs vezér tere - Kőbánya M
-      - ['11:03:00', 'F01757',   8857] # Örs vezér tere - Zugló M+H
-      - ['11:04:00', 'F02969',   9267] # Tihamér utca
-      - ['11:05:00', 'F02753',   9663] # Pongrátz Gergely tér
-      - ['11:07:00', 'F02972',  10044] # Jeszenák János utca
-      - ['11:09:00', 'F02797',  10552] # Egressy tér
-      - ['11:10:00', 'F02818',  10996] # Szugló utca
-      - ['11:12:00', 'F02832',  11335] # Bosnyák tér
-      - ['11:13:00', 'F02967',  11874] # Kerékgyártó utca
-      - ['11:15:00', 'F02869',  12192] # Czobor utca (Erzsébet királyné útja)
-      - ['11:17:00', 'F02963',  12657] # Laky Adolf utca
-      - ['11:19:00', 'F02880',  13118] # Erzsébet királyné útja, aluljáró
-      - ['11:20:00', '008206',  13343] # Mexikói út M
+      - ['00:00:00', 'F01439',      0] # Gubacsi út
+      - ['00:01:00', 'F01442',    386] # Ősz utca
+      - ['00:03:00', 'F01445',    800] # Jókai Mór utca
+      - ['00:04:00', 'F01448',   1315] # Mártírok útja
+      - ['00:06:00', 'F01454',   1894] # Nagykőrösi út
+      - ['00:08:00', 'F01366',   2479] # Epreserdő utca
+      - ['00:10:00', 'F01526',   2926] # Csengettyű utca
+      - ['00:11:00', 'F01485',   3472] # Közterületfenntartó Zrt.
+      - ['00:13:00', 'F01495',   3839] # Ecseri út M
+      - ['00:14:00', 'F01532',   4430] # Balkán utca
+      - ['00:16:00', 'F01538',   4750] # Fertő utca
+      - ['00:18:00', 'F01576',   5260] # Szállás utca
+      - ['00:20:00', 'F01574',   5661] # Kőbánya alsó vasútállomás (Mázsa tér)
+      - ['00:21:00', 'F01646',   5905] # Kőbánya alsó vasútállomás
+      - ['00:24:00', 'F01650',   6309] # Szent László tér
+      - ['00:27:00', 'F01826',   6821] # Ónodi utca
+      - ['00:29:00', 'F01624',   7178] # Élessarok
+      - ['00:31:00', 'F01783',   7730] # Terebesi utca
+      - ['00:33:00', 'F01863',   8357] # Finommechanikai Zrt.
+      - ['00:35:00', '008382',   8679] # Örs vezér tere - Kőbánya M
+      - ['00:36:00', 'F01757',   8857] # Örs vezér tere - Zugló M+H
+      - ['00:37:00', 'F02969',   9267] # Tihamér utca
+      - ['00:38:00', 'F02753',   9663] # Pongrátz Gergely tér
+      - ['00:40:00', 'F02972',  10044] # Jeszenák János utca
+      - ['00:42:00', 'F02797',  10552] # Egressy tér
+      - ['00:43:00', 'F02818',  10996] # Szugló utca
+      - ['00:45:00', 'F02832',  11335] # Bosnyák tér
+      - ['00:46:00', 'F02967',  11874] # Kerékgyártó utca
+      - ['00:48:00', 'F02869',  12192] # Czobor utca (Erzsébet királyné útja)
+      - ['00:50:00', 'F02963',  12657] # Laky Adolf utca
+      - ['00:52:00', 'F02880',  13118] # Erzsébet királyné útja, aluljáró
+      - ['00:53:00', '008206',  13343] # Mexikói út M
     trip_headsign: Mexikói út M
     trip_id: REFERENCE-3030-1-1
     wheelchair_accessible: 2

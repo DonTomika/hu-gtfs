@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2501-0-1-H256
     stop_times:
-      - ['19:45:00', '009578',      0] # Savoya Park
-      - ['19:47:00', 'F04383',    935] # Leányka utcai lakótelep
-      - ['19:48:00', 'F04402',   1391] # Savoyai Jenő tér
-      - ['19:49:00', 'F04403',   1683] # Városház tér
-      - ['19:50:00', 'F04408',   2247] # Tóth József utca
-      - ['19:52:00', 'F04411',   2745] # Kereszt utca
-      - ['19:53:00', 'F04412',   2894] # Budafoki temető
-      - ['19:54:00', 'F04415',   3222] # Víg utca
-      - ['19:55:00', 'F04416',   3648] # Bocskai utca
-      - ['19:56:00', 'F04418',   4004] # Árpád utca
-      - ['19:57:00', 'F04420',   4279] # Arany János utca
-      - ['19:58:00', 'F04421',   4548] # Arany János utcai lakótelep
+      - ['00:00:00', '009578',      0] # Savoya Park
+      - ['00:02:00', 'F04383',    935] # Leányka utcai lakótelep
+      - ['00:03:00', 'F04402',   1391] # Savoyai Jenő tér
+      - ['00:05:00', 'F04403',   1683] # Városház tér
+      - ['00:06:00', 'F04408',   2247] # Tóth József utca
+      - ['00:08:00', 'F04411',   2745] # Kereszt utca
+      - ['00:09:00', 'F04412',   2894] # Budafoki temető
+      - ['00:10:00', 'F04415',   3222] # Víg utca
+      - ['00:11:00', 'F04416',   3648] # Bocskai utca
+      - ['00:12:00', 'F04418',   4004] # Árpád utca
+      - ['00:13:00', 'F04420',   4279] # Arany János utca
+      - ['00:14:00', 'F04421',   4548] # Arany János utcai lakótelep
     trip_headsign: Arany János utcai lakótelep
     trip_id: REFERENCE-2501-0-1
     wheelchair_accessible: 2
@@ -32,19 +32,19 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2501-1-1-H255
     stop_times:
-      - ['15:17:00', 'F04421',      0] # Arany János utcai lakótelep
-      - ['15:17:00', '008793',     86] # Regényes utca
-      - ['15:18:00', 'F04422',    292] # Kiránduló utca
-      - ['15:19:00', 'F04419',    506] # Kertész utca
-      - ['15:20:00', 'F04417',    938] # Lőcsei utca
-      - ['15:21:00', 'F04414',   1355] # Promontor utca
-      - ['15:22:00', 'F04413',   1617] # Mező utca
-      - ['15:23:00', 'F04410',   2130] # Komló utca
-      - ['15:24:00', 'F04409',   2592] # Nagytétényi út
-      - ['15:26:00', 'F04406',   3273] # Városház tér
-      - ['15:27:00', 'F04398',   3613] # Savoyai Jenő tér
-      - ['15:29:00', 'F04384',   3935] # Leányka utcai lakótelep
-      - ['15:32:00', '009578',   5561] # Savoya Park
+      - ['00:00:00', 'F04421',      0] # Arany János utcai lakótelep
+      - ['00:00:00', '008793',     86] # Regényes utca
+      - ['00:01:00', 'F04422',    292] # Kiránduló utca
+      - ['00:02:00', 'F04419',    506] # Kertész utca
+      - ['00:03:00', 'F04417',    938] # Lőcsei utca
+      - ['00:04:00', 'F04414',   1355] # Promontor utca
+      - ['00:05:00', 'F04413',   1617] # Mező utca
+      - ['00:06:00', 'F04410',   2130] # Komló utca
+      - ['00:07:00', 'F04409',   2592] # Nagytétényi út
+      - ['00:09:00', 'F04406',   3273] # Városház tér
+      - ['00:10:00', 'F04398',   3613] # Savoyai Jenő tér
+      - ['00:12:00', 'F04384',   3935] # Leányka utcai lakótelep
+      - ['00:15:00', '009578',   5561] # Savoya Park
     trip_headsign: Savoya Park
     trip_id: REFERENCE-2501-1-1
     wheelchair_accessible: 2

@@ -13,51 +13,51 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1120-0-1-J699
     stop_times:
-      - ['18:12:00', '009671',      0] # Uránia
-      - ['18:12:00', 'F01171',    166] # Uránia
-      - ['18:13:00', 'F01017',    512] # Astoria M
-      - ['18:15:00', 'F01004',    834] # Ferenciek tere M
-      - ['18:18:00', 'F00113',   1535] # Erzsébet híd, budai hídfő
-      - ['18:21:00', 'F00008',   2452] # Sánc utca
-      - ['18:22:00', 'F00005',   2796] # Mészáros utca
-      - ['18:25:00', 'F02164',   3428] # BAH-csomópont (Kongresszusi Kp.)
-      - ['18:26:00', 'F02302',   3942] # Sirály utca
-      - ['18:28:00', 'F02292',   4296] # Apor Vilmos tér
-      - ['18:29:00', 'F02287',   4725] # Bürök utca
-      - ['18:31:00', 'F02286',   5019] # Ormódi utca
-      - ['18:32:00', 'F02284',   5356] # Kempelen Farkas utca
-      - ['18:33:00', 'F02281',   5692] # Mártonhegyi út
-      - ['18:34:00', 'F02279',   6018] # Tamási Áron utca
-      - ['18:35:00', 'F02434',   6188] # Pagony utca
-      - ['18:36:00', 'F02435',   6568] # Sólyom utca
-      - ['18:37:00', 'F02437',   6783] # Tamási Áron utca (Thomán István utca)
-      - ['18:38:00', 'F02439',   7199] # Thomán István utca
-      - ['18:39:00', 'F02438',   7437] # Tamási Áron utca
-      - ['18:40:00', 'F02436',   7679] # Sólyom utca
-      - ['18:41:00', 'F02433',   8194] # Szendrő utca
+      - ['00:00:00', '009671',      0] # Uránia
+      - ['00:00:00', 'F01171',    166] # Uránia
+      - ['00:01:00', 'F01017',    512] # Astoria M
+      - ['00:02:00', 'F01004',    834] # Ferenciek tere M
+      - ['00:04:00', 'F00113',   1535] # Erzsébet híd, budai hídfő
+      - ['00:06:00', 'F00008',   2452] # Sánc utca
+      - ['00:07:00', 'F00005',   2796] # Mészáros utca
+      - ['00:09:00', 'F02164',   3428] # BAH-csomópont (Kongresszusi Kp.)
+      - ['00:10:00', 'F02302',   3942] # Sirály utca
+      - ['00:11:00', 'F02292',   4296] # Apor Vilmos tér
+      - ['00:12:00', 'F02287',   4725] # Bürök utca
+      - ['00:13:00', 'F02286',   5019] # Ormódi utca
+      - ['00:14:00', 'F02284',   5356] # Kempelen Farkas utca
+      - ['00:15:00', 'F02281',   5692] # Mártonhegyi út
+      - ['00:16:00', 'F02279',   6018] # Tamási Áron utca
+      - ['00:17:00', 'F02434',   6188] # Pagony utca
+      - ['00:18:00', 'F02435',   6568] # Sólyom utca
+      - ['00:19:00', 'F02437',   6783] # Tamási Áron utca (Thomán István utca)
+      - ['00:20:00', 'F02439',   7199] # Thomán István utca
+      - ['00:21:00', 'F02438',   7437] # Tamási Áron utca
+      - ['00:22:00', 'F02436',   7679] # Sólyom utca
+      - ['00:23:00', 'F02433',   8194] # Szendrő utca
     trip_headsign: Szendrő utca
     trip_id: REFERENCE-1120-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1120-1-1-J698
     stop_times:
-      - ['20:10:00', 'F02433',      0] # Szendrő utca
-      - ['20:11:00', 'F02430',    324] # Vöröskő utca
-      - ['20:12:00', 'F02401',    624] # Szent Orbán tér
-      - ['20:13:00', 'F02426',   1086] # Nárcisz utca
-      - ['20:14:00', 'F02290',   1518] # Németvölgyi út
-      - ['20:15:00', 'F02295',   1772] # Apor Vilmos tér
-      - ['20:16:00', 'F02303',   2126] # Sirály utca
-      - ['20:18:00', 'F02163',   2580] # BAH-csomópont (Jagelló út)
-      - ['20:20:00', 'F02168',   2848] # BAH-csomópont (felüljáró)
-      - ['20:21:00', 'F00004',   3245] # Avar utca
-      - ['20:22:00', 'F00009',   3631] # Sánc utca
-      - ['20:23:00', 'F00110',   4355] # Döbrentei tér
-      - ['20:26:00', 'F00951',   5223] # Ferenciek tere M
-      - ['20:27:00', 'F01016',   5707] # Astoria M
-      - ['20:28:00', 'F01170',   6047] # Uránia
-      - ['20:29:00', '009671',   6165] # Uránia
+      - ['00:00:00', 'F02433',      0] # Szendrő utca
+      - ['00:01:00', 'F02430',    324] # Vöröskő utca
+      - ['00:02:00', 'F02401',    624] # Szent Orbán tér
+      - ['00:03:00', 'F02426',   1086] # Nárcisz utca
+      - ['00:04:00', 'F02290',   1518] # Németvölgyi út
+      - ['00:05:00', 'F02295',   1772] # Apor Vilmos tér
+      - ['00:06:00', 'F02303',   2126] # Sirály utca
+      - ['00:08:00', 'F02163',   2580] # BAH-csomópont (Jagelló út)
+      - ['00:10:00', 'F02168',   2848] # BAH-csomópont (felüljáró)
+      - ['00:11:00', 'F00004',   3245] # Avar utca
+      - ['00:12:00', 'F00009',   3631] # Sánc utca
+      - ['00:13:00', 'F00110',   4355] # Döbrentei tér
+      - ['00:16:00', 'F00951',   5223] # Ferenciek tere M
+      - ['00:17:00', 'F01016',   5707] # Astoria M
+      - ['00:18:00', 'F01170',   6047] # Uránia
+      - ['00:19:00', '009671',   6165] # Uránia
     trip_headsign: Uránia
     trip_id: REFERENCE-1120-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

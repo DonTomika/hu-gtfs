@@ -11,47 +11,47 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4700-0-1-S393
+    shape_id: REFERENCE-4700-0-1-1032
     stop_times:
-      - ['07:06:00', 'F00970',      0] # Kossuth Lajos tér M
-      - ['07:07:00', 'F00993',    390] # Honvéd utca
-      - ['07:09:00', 'F00939',    885] # Bajcsy-Zsilinszky út
-      - ['07:10:00', '009026',   1086] # Zichy Jenő utca
-      - ['07:11:00', 'F01076',   1368] # Andrássy út (Opera M)
-      - ['07:12:00', 'F01032',   1656] # Akácfa utca
-      - ['07:13:00', 'F01036',   1876] # Erzsébet körút
-      - ['07:14:00', 'F01043',   2237] # Izabella utca
-      - ['07:15:00', 'F01044',   2517] # Lövölde tér
-      - ['07:16:00', 'F01046',   2881] # Bajza utca
-      - ['07:18:00', 'F01125',   3164] # Nefelejcs utca
-      - ['07:19:00', 'F01136',   3498] # Dózsa György út
-      - ['07:20:00', 'F02708',   3764] # Dvorzsák sétány
-      - ['07:21:00', 'F02705',   3962] # Olof Palme sétány
-      - ['07:22:00', 'F02704',   4559] # Hermina út
-      - ['07:23:00', 'F02920',   4755] # Erzsébet királyné útja, aluljáró
+      - ['00:00:00', 'F00970',      0] # Kossuth Lajos tér M
+      - ['00:01:00', 'F00993',    390] # Honvéd utca
+      - ['00:03:00', 'F00939',    885] # Bajcsy-Zsilinszky út
+      - ['00:04:00', '009026',   1086] # Zichy Jenő utca
+      - ['00:05:00', 'F01076',   1368] # Andrássy út (Opera M)
+      - ['00:06:00', 'F01032',   1656] # Akácfa utca
+      - ['00:07:00', 'F01036',   1876] # Erzsébet körút
+      - ['00:08:00', 'F01043',   2237] # Izabella utca
+      - ['00:09:00', 'F01044',   2517] # Lövölde tér
+      - ['00:10:00', 'F01046',   2881] # Bajza utca
+      - ['00:12:00', 'F01125',   3164] # Nefelejcs utca
+      - ['00:13:00', 'F01136',   3498] # Dózsa György út
+      - ['00:14:00', 'F02708',   3764] # Dvorzsák sétány
+      - ['00:15:00', 'F02705',   3962] # Olof Palme sétány
+      - ['00:16:00', 'F02704',   4559] # Hermina út
+      - ['00:17:00', 'F02920',   4755] # Erzsébet királyné útja, aluljáró
     trip_headsign: 'Erzsébet királyné útja, aluljáró'
     trip_id: REFERENCE-4700-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-4700-1-1-1031
     stop_times:
-      - ['20:19:00', 'F02919',      0] # Erzsébet királyné útja, aluljáró
-      - ['20:20:00', 'F02703',    193] # Hermina út
-      - ['20:21:00', 'F02706',    712] # Olof Palme sétány
-      - ['20:22:00', 'F02707',   1025] # Dvorzsák sétány
-      - ['20:23:00', 'F01135',   1204] # Dózsa György út
-      - ['20:24:00', 'F01126',   1554] # Nefelejcs utca
-      - ['20:25:00', 'F01047',   1801] # Bajza utca
-      - ['20:27:00', 'F01045',   2186] # Lövölde tér
-      - ['20:28:00', 'F01041',   2494] # Izabella utca
-      - ['20:29:00', 'F01034',   2812] # Teréz körút
-      - ['20:30:00', 'F01033',   3084] # Akácfa utca
-      - ['20:31:00', 'F01075',   3324] # Andrássy út (Opera M)
-      - ['20:32:00', '009025',   3641] # Zichy Jenő utca
-      - ['20:34:00', 'F00938',   3996] # Bajcsy-Zsilinszky út
-      - ['20:35:00', 'F00992',   4308] # Honvéd utca
-      - ['20:36:00', 'F00970',   4530] # Kossuth Lajos tér M
+      - ['00:00:00', 'F02919',      0] # Erzsébet királyné útja, aluljáró
+      - ['00:01:00', 'F02703',    193] # Hermina út
+      - ['00:02:00', 'F02706',    712] # Olof Palme sétány
+      - ['00:02:00', 'F02707',   1025] # Dvorzsák sétány
+      - ['00:03:00', 'F01135',   1204] # Dózsa György út
+      - ['00:04:00', 'F01126',   1554] # Nefelejcs utca
+      - ['00:05:00', 'F01047',   1801] # Bajza utca
+      - ['00:07:00', 'F01045',   2186] # Lövölde tér
+      - ['00:08:00', 'F01041',   2494] # Izabella utca
+      - ['00:09:00', 'F01034',   2812] # Teréz körút
+      - ['00:10:00', 'F01033',   3084] # Akácfa utca
+      - ['00:11:00', 'F01075',   3324] # Andrássy út (Opera M)
+      - ['00:12:00', '009025',   3641] # Zichy Jenő utca
+      - ['00:13:00', 'F00938',   3996] # Bajcsy-Zsilinszky út
+      - ['00:14:00', 'F00992',   4308] # Honvéd utca
+      - ['00:15:00', 'F00970',   4530] # Kossuth Lajos tér M
     trip_headsign: Kossuth Lajos tér M
     trip_id: REFERENCE-4700-1-1
     wheelchair_accessible: 1

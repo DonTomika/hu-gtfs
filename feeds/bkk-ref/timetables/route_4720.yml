@@ -11,45 +11,45 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4720-0-1-S395
+    shape_id: REFERENCE-4720-0-1-1033
     stop_times:
-      - ['21:02:00', 'F00995',      0] # Arany János utca M
-      - ['21:04:00', 'F00940',    527] # Podmaniczky utca
-      - ['21:05:00', 'F01030',    834] # Nyugati pályaudvar M (Podmaniczky utca)
-      - ['21:06:00', 'F01070',   1241] # Izabella utca
-      - ['21:07:00', 'F01107',   1489] # Szinyei Merse utca
-      - ['21:08:00', 'F01105',   1798] # Bajza utca
-      - ['21:09:00', 'F01073',   1979] # Munkácsy Mihály utca
-      - ['21:10:00', 'F01054',   2426] # Dózsa György út
-      - ['21:12:00', 'F02693',   2763] # Állatkert
-      - ['21:13:00', 'F02694',   3189] # Széchenyi fürdő M
-      - ['21:14:00', 'F02698',   3434] # Kacsóh Pongrác út
-      - ['21:15:00', 'F02700',   3643] # Bethesda utca
-      - ['21:16:00', 'F02701',   3936] # Erzsébet királyné útja
-      - ['21:17:00', 'F02715',   4430] # Ajtósi Dürer sor
-      - ['21:18:00', 'F02724',   4709] # Zugló vasútállomás (Hermina út)
+      - ['00:00:00', 'F00995',      0] # Arany János utca M
+      - ['00:02:00', 'F00940',    527] # Podmaniczky utca
+      - ['00:04:00', 'F01030',    834] # Nyugati pályaudvar M (Podmaniczky utca)
+      - ['00:05:00', 'F01070',   1241] # Izabella utca
+      - ['00:06:00', 'F01107',   1489] # Szinyei Merse utca
+      - ['00:07:00', 'F01105',   1798] # Bajza utca
+      - ['00:08:00', 'F01073',   1979] # Munkácsy Mihály utca
+      - ['00:09:00', 'F01054',   2426] # Dózsa György út
+      - ['00:11:00', 'F02693',   2763] # Állatkert
+      - ['00:13:00', 'F02694',   3189] # Széchenyi fürdő M
+      - ['00:14:00', 'F02698',   3434] # Kacsóh Pongrác út
+      - ['00:15:00', 'F02700',   3643] # Bethesda utca
+      - ['00:16:00', 'F02701',   3936] # Erzsébet királyné útja
+      - ['00:18:00', 'F02715',   4430] # Ajtósi Dürer sor
+      - ['00:19:00', 'F02724',   4709] # Zugló vasútállomás (Hermina út)
     trip_headsign: Zugló vasútállomás (Hermina út)
     trip_id: REFERENCE-4720-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-4720-1-1-S396
+    shape_id: REFERENCE-4720-1-1-1034
     stop_times:
-      - ['15:25:00', 'F02724',      0] # Zugló vasútállomás (Hermina út)
-      - ['15:27:00', 'F02718',    394] # Thököly út (Stefánia út)
-      - ['15:29:00', 'F02713',   1142] # Hermina út
-      - ['15:30:00', 'F02702',   1479] # Erzsébet királyné útja
-      - ['15:31:00', 'F02699',   1829] # Bethesda utca
-      - ['15:33:00', 'F02695',   2324] # Széchenyi fürdő M
-      - ['15:34:00', 'F02692',   2652] # Állatkert
-      - ['15:36:00', 'F01056',   2974] # Dózsa György út
-      - ['15:37:00', 'F01074',   3183] # Rippl-Rónai utca
-      - ['15:38:00', 'F01104',   3564] # Podmaniczky utca
-      - ['15:40:00', 'F01106',   3916] # Szinyei Merse utca
-      - ['15:41:00', 'F01069',   4158] # Izabella utca
-      - ['15:42:00', 'F01031',   4564] # Nyugati pályaudvar M (Podmaniczky utca)
-      - ['15:44:00', 'F00941',   5038] # Bajcsy-Zsilinszky út
-      - ['15:46:00', 'F00943',   5397] # Arany János utca M
+      - ['00:00:00', 'F02724',      0] # Zugló vasútállomás (Hermina út)
+      - ['00:02:00', 'F02718',    394] # Thököly út (Stefánia út)
+      - ['00:04:00', 'F02713',   1142] # Hermina út
+      - ['00:05:00', 'F02702',   1479] # Erzsébet királyné útja
+      - ['00:06:00', 'F02699',   1829] # Bethesda utca
+      - ['00:08:00', 'F02695',   2324] # Széchenyi fürdő M
+      - ['00:09:00', 'F02692',   2652] # Állatkert
+      - ['00:11:00', 'F01056',   2974] # Dózsa György út
+      - ['00:12:00', 'F01074',   3183] # Rippl-Rónai utca
+      - ['00:13:00', 'F01104',   3564] # Podmaniczky utca
+      - ['00:15:00', 'F01106',   3916] # Szinyei Merse utca
+      - ['00:16:00', 'F01069',   4158] # Izabella utca
+      - ['00:17:00', 'F01031',   4564] # Nyugati pályaudvar M (Podmaniczky utca)
+      - ['00:19:00', 'F00941',   5038] # Bajcsy-Zsilinszky út
+      - ['00:21:00', 'F00943',   5397] # Arany János utca M
     trip_headsign: Arany János utca M
     trip_id: REFERENCE-4720-1-1
     wheelchair_accessible: 2

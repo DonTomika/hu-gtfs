@@ -13,35 +13,35 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1170-0-1-S898
     stop_times:
-      - ['18:30:00', 'F01800',      0] # Kőbánya alsó vasútállomás
-      - ['18:31:00', 'F01640',    429] # Vaspálya utca
-      - ['18:32:00', 'F01795',   1006] # Kelemen utca
-      - ['18:33:00', 'F01578',   1464] # Kőér utca
-      - ['18:34:00', 'F01796',   1768] # Gyógyszergyár
-      - ['18:35:00', 'F01581',   2221] # Diósgyőri utca
-      - ['18:36:00', 'F01692',   2704] # Noszlopy utca
-      - ['18:38:00', 'F01693',   3424] # Gergely utca (Sibrik Miklós út)
-      - ['18:39:00', 'F01698',   3930] # Szövőszék utca
-      - ['18:40:00', 'F01841',   4325] # Újhegyi sétány
-      - ['18:41:00', 'F01714',   4571] # Tavas utca
-      - ['18:42:00', 'F01695',   4934] # Mélytó utca
+      - ['00:00:00', 'F01800',      0] # Kőbánya alsó vasútállomás
+      - ['00:01:00', 'F01640',    429] # Vaspálya utca
+      - ['00:02:00', 'F01795',   1006] # Kelemen utca
+      - ['00:04:00', 'F01578',   1464] # Kőér utca
+      - ['00:04:00', 'F01796',   1768] # Gyógyszergyár
+      - ['00:06:00', 'F01581',   2221] # Diósgyőri utca
+      - ['00:07:00', 'F01692',   2704] # Noszlopy utca
+      - ['00:09:00', 'F01693',   3424] # Gergely utca (Sibrik Miklós út)
+      - ['00:11:00', 'F01698',   3930] # Szövőszék utca
+      - ['00:12:00', 'F01841',   4325] # Újhegyi sétány
+      - ['00:12:00', 'F01714',   4571] # Tavas utca
+      - ['00:14:00', 'F01695',   4934] # Mélytó utca
     trip_headsign: Mélytó utca
     trip_id: REFERENCE-1170-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1170-1-1-M450
     stop_times:
-      - ['07:04:00', 'F01695',      0] # Mélytó utca
-      - ['07:05:00', '016725',    530] # Rózsaliget
-      - ['07:07:00', '009289',    880] # Gergely utca
-      - ['07:09:00', '009225',   1467] # Noszlopy utca
-      - ['07:11:00', 'F01582',   1954] # Diósgyőri utca
-      - ['07:12:00', 'F01797',   2363] # Gyógyszergyár
-      - ['07:14:00', 'F01577',   2699] # Kőér utca
-      - ['07:15:00', 'F01794',   3110] # Kelemen utca
-      - ['07:17:00', 'F01639',   3712] # Liget tér
-      - ['07:19:00', 'F01800',   4003] # Kőbánya alsó vasútállomás
+      - ['00:00:00', 'F01695',      0] # Mélytó utca
+      - ['00:01:00', '016725',    530] # Rózsaliget
+      - ['00:02:00', '009289',    880] # Gergely utca
+      - ['00:03:00', '009225',   1467] # Noszlopy utca
+      - ['00:04:00', 'F01582',   1954] # Diósgyőri utca
+      - ['00:05:00', 'F01797',   2363] # Gyógyszergyár
+      - ['00:06:00', 'F01577',   2699] # Kőér utca
+      - ['00:07:00', 'F01794',   3110] # Kelemen utca
+      - ['00:09:00', 'F01639',   3712] # Liget tér
+      - ['00:10:00', 'F01800',   4003] # Kőbánya alsó vasútállomás
     trip_headsign: Kőbánya alsó vasútállomás
     trip_id: REFERENCE-1170-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

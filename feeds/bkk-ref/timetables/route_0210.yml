@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: 'Széll Kálmán tér M / Csillebérc, KFKI'
+route_desc: 'Széll Kálmán tér M (Várfok utca) / Csillebérc, KFKI'
 route_id: 0210
 route_long_name: ''
 route_short_name: 21
@@ -13,59 +13,59 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0210-0-1-N806
     stop_times:
-      - ['15:36:00', 'F02471',      0] # Széll Kálmán tér M (Várfok utca)
-      - ['15:39:00', 'F00021',    877] # Déli pályaudvar M
-      - ['15:40:00', '011495',   1289] # Németvölgyi út
-      - ['15:41:00', '009698',   1670] # Galántai utca
-      - ['15:42:00', 'F02397',   2114] # Szent Orbán tér
-      - ['15:44:00', 'F02395',   2612] # Pethényi út
-      - ['15:45:00', 'F02393',   2882] # Nógrádi utca
-      - ['15:46:00', 'F02391',   3313] # Óra út
-      - ['15:47:00', 'F02389',   3752] # Istenhegyi lejtő
-      - ['15:48:00', 'F02387',   4158] # Adonis utca
-      - ['15:49:00', 'F02440',   4509] # Költő utca
-      - ['15:50:00', 'F02442',   4854] # Svábhegy, fogaskerekű
-      - ['15:51:00', 'F02443',   5609] # Ordas út
-      - ['15:52:00', 'F02445',   5962] # Őzike köz
-      - ['15:53:00', 'F02447',   6239] # Fülemile út
-      - ['15:54:00', 'F02449',   6463] # Normafa, Gyermekvasút
-      - ['15:56:00', '008792',   6867] # Normafa
-      - ['15:57:00', 'F02451',   7103] # Csillagvizsgáló
-      - ['15:58:00', 'F02453',   7422] # Csillebérc, Gyermekvasút
-      - ['15:59:00', 'F02455',   7752] # Sötétvágás utca
-      - ['15:59:00', 'F02273',   8384] # Magas út
-      - ['16:00:00', 'F02270',   8617] # KFKI étterem
-      - ['16:01:00', 'F02269',   9035] # Csillebérc, KFKI
+      - ['00:00:00', 'F02471',      0] # Széll Kálmán tér M (Várfok utca)
+      - ['00:03:00', 'F00021',    877] # Déli pályaudvar M
+      - ['00:04:00', '011495',   1289] # Németvölgyi út
+      - ['00:05:00', '009698',   1670] # Galántai utca
+      - ['00:06:00', 'F02397',   2114] # Szent Orbán tér
+      - ['00:08:00', 'F02395',   2612] # Pethényi út
+      - ['00:09:00', 'F02393',   2882] # Nógrádi utca
+      - ['00:10:00', 'F02391',   3313] # Óra út
+      - ['00:11:00', 'F02389',   3752] # Istenhegyi lejtő
+      - ['00:12:00', 'F02387',   4158] # Adonis utca
+      - ['00:13:00', 'F02440',   4509] # Költő utca
+      - ['00:14:00', 'F02442',   4854] # Svábhegy, fogaskerekű
+      - ['00:15:00', 'F02443',   5609] # Ordas út
+      - ['00:16:00', 'F02445',   5962] # Őzike köz
+      - ['00:17:00', 'F02447',   6239] # Fülemile út
+      - ['00:18:00', 'F02449',   6463] # Normafa, Gyermekvasút
+      - ['00:20:00', '008792',   6867] # Normafa
+      - ['00:21:00', 'F02451',   7103] # Csillagvizsgáló
+      - ['00:22:00', 'F02453',   7422] # Csillebérc, Gyermekvasút
+      - ['00:23:00', 'F02455',   7752] # Sötétvágás utca
+      - ['00:23:00', 'F02273',   8384] # Magas út
+      - ['00:24:00', 'F02270',   8617] # KFKI étterem
+      - ['00:25:00', 'F02269',   9035] # Csillebérc, KFKI
     trip_headsign: 'Csillebérc, KFKI'
     trip_id: REFERENCE-0210-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0210-1-1-N804
     stop_times:
-      - ['11:55:00', 'F02268',      0] # Csillebérc, KFKI
-      - ['11:55:00', 'F02271',    441] # KFKI étterem
-      - ['11:56:00', 'F02272',    657] # Magas út
-      - ['11:57:00', 'F02456',   1302] # Sötétvágás utca
-      - ['11:58:00', 'F02454',   1614] # Csillebérc, Gyermekvasút
-      - ['11:58:00', 'F02452',   1898] # Csillagvizsgáló
-      - ['12:00:00', 'F02490',   2489] # Normafa
-      - ['12:01:00', 'F02450',   2996] # Normafa, Gyermekvasút
-      - ['12:01:00', 'F02448',   3186] # Fülemile út
-      - ['12:02:00', 'F02446',   3485] # Őzike köz
-      - ['12:03:00', 'F02444',   3825] # Ordas út
-      - ['12:04:00', 'F02459',   4472] # Svábhegy, fogaskerekű
-      - ['12:05:00', 'F02441',   4978] # Költő utca
-      - ['12:06:00', 'F02388',   5399] # Adonis utca
-      - ['12:07:00', 'F02390',   5706] # Lóránt út
-      - ['12:08:00', 'F02392',   6169] # Óra út
-      - ['12:09:00', 'F02394',   6545] # Nógrádi utca
-      - ['12:10:00', 'F02396',   6900] # Pethényi út
-      - ['12:11:00', 'F02398',   7406] # Szent Orbán tér
-      - ['12:12:00', '009699',   7828] # Galántai utca
-      - ['12:14:00', 'F02411',   8244] # Németvölgyi út
-      - ['12:16:00', 'F00022',   8606] # Déli pályaudvar M
-      - ['12:19:00', 'F02471',   9410] # Széll Kálmán tér M (Várfok utca)
+      - ['00:00:00', 'F02268',      0] # Csillebérc, KFKI
+      - ['00:00:00', 'F02271',    441] # KFKI étterem
+      - ['00:01:00', 'F02272',    657] # Magas út
+      - ['00:02:00', 'F02456',   1302] # Sötétvágás utca
+      - ['00:03:00', 'F02454',   1614] # Csillebérc, Gyermekvasút
+      - ['00:03:00', 'F02452',   1898] # Csillagvizsgáló
+      - ['00:04:00', 'F02490',   2489] # Normafa
+      - ['00:05:00', 'F02450',   2996] # Normafa, Gyermekvasút
+      - ['00:05:00', 'F02448',   3186] # Fülemile út
+      - ['00:06:00', 'F02446',   3485] # Őzike köz
+      - ['00:07:00', 'F02444',   3825] # Ordas út
+      - ['00:08:00', 'F02459',   4472] # Svábhegy, fogaskerekű
+      - ['00:09:00', 'F02441',   4978] # Költő utca
+      - ['00:10:00', 'F02388',   5399] # Adonis utca
+      - ['00:11:00', 'F02390',   5706] # Lóránt út
+      - ['00:11:00', 'F02392',   6169] # Óra út
+      - ['00:12:00', 'F02394',   6545] # Nógrádi utca
+      - ['00:13:00', 'F02396',   6900] # Pethényi út
+      - ['00:14:00', 'F02398',   7406] # Szent Orbán tér
+      - ['00:15:00', '009699',   7828] # Galántai utca
+      - ['00:16:00', 'F02411',   8244] # Németvölgyi út
+      - ['00:18:00', 'F00022',   8606] # Déli pályaudvar M
+      - ['00:20:00', 'F02471',   9410] # Széll Kálmán tér M (Várfok utca)
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-0210-1-1
     wheelchair_accessible: 2

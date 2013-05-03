@@ -13,13 +13,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9980-0-1-M116
     stop_times:
-      - ['23:00:00', 'F03289',      0] # Cinkotai autóbuszgarázs
-      - ['23:01:00', 'F03450',    491] # Vidor utca
-      - ['23:02:00', 'F03452',    953] # Gyöngytyúk utca
-      - ['23:03:00', 'F03454',   1249] # Liget sor
-      - ['23:05:00', 'F03542',   2021] # Bakancsos utca
-      - ['23:06:00', 'F03593',   2596] # Szent kereszt tér
-      - ['23:07:00', '011722',   2929] # Rákoskeresztúr, városközpont
+      - ['00:00:00', 'F03289',      0] # Cinkotai autóbuszgarázs
+      - ['00:01:00', 'F03450',    491] # Vidor utca
+      - ['00:02:00', 'F03452',    953] # Gyöngytyúk utca
+      - ['00:03:00', 'F03454',   1249] # Liget sor
+      - ['00:05:00', 'F03542',   2021] # Bakancsos utca
+      - ['00:06:00', 'F03593',   2596] # Szent kereszt tér
+      - ['00:07:00', '011722',   2929] # Rákoskeresztúr, városközpont
     trip_headsign: 'Rákoskeresztúr, városközpont'
     trip_id: REFERENCE-9980-0-1
     wheelchair_accessible: 2
@@ -27,13 +27,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9980-1-1-M118
     stop_times:
-      - ['26:17:00', '011725',      0] # Rákoskeresztúr, városközpont
-      - ['26:18:00', 'F03594',    461] # Szent kereszt tér
-      - ['26:19:00', 'F03541',    832] # Bakancsos utca
-      - ['26:20:00', 'F03455',   1594] # Liget sor
-      - ['26:22:00', 'F03453',   1936] # Gyöngytyúk utca
-      - ['26:23:00', 'F03449',   2501] # Vidor utca
-      - ['26:24:00', '008181',   3019] # Cinkotai autóbuszgarázs
+      - ['00:00:00', '011725',      0] # Rákoskeresztúr, városközpont
+      - ['00:01:00', 'F03594',    461] # Szent kereszt tér
+      - ['00:02:00', 'F03541',    832] # Bakancsos utca
+      - ['00:03:00', 'F03455',   1594] # Liget sor
+      - ['00:05:00', 'F03453',   1936] # Gyöngytyúk utca
+      - ['00:06:00', 'F03449',   2501] # Vidor utca
+      - ['00:07:00', '008181',   3019] # Cinkotai autóbuszgarázs
     trip_headsign: Cinkotai autóbuszgarázs
     trip_id: REFERENCE-9980-1-1
     wheelchair_accessible: 2

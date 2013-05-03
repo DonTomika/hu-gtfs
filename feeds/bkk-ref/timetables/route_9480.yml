@@ -13,41 +13,41 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9480-0-1-H588
     stop_times:
-      - ['23:50:00', '008471',      0] # Dél-pesti autóbuszgarázs
-      - ['23:52:00', 'F03631',    745] # Szentlőrinci út
-      - ['23:53:00', 'F03888',   1840] # Autópiac
-      - ['23:54:00', 'F03908',   2247] # Használtcikk piac
-      - ['23:55:00', 'F04034',   2950] # Madarassy László utca
-      - ['23:56:00', 'F03989',   3248] # Vas Gereben utca
-      - ['23:57:00', 'F03981',   3595] # Kossuth Lajos utca
-      - ['23:58:00', 'F04024',   3903] # Batthyány utca
-      - ['23:59:00', 'F03974',   4241] # Hunyadi tér
-      - ['24:00:00', 'F04042',   4944] # Nagykőrösi út
-      - ['24:01:00', 'F04098',   5317] # Mártírok útja
-      - ['24:02:00', 'F04104',   5663] # Jókai Mór utca
-      - ['24:04:00', 'F04115',   6550] # Török Flóris utca
-      - ['24:05:00', 'F04041',   7033] # Baross utca
-      - ['24:06:00', 'F04155',   7281] # Attila utca
-      - ['24:07:00', 'F04121',   7753] # Pesterzsébet vasútállomás
-      - ['24:11:00', 'F04144',   8266] # Pesterzsébet, Baross utca
-      - ['24:12:00', 'F04148',   8804] # Sósfürdő
-      - ['24:13:00', 'F04307',   9377] # Papírgyár
-      - ['24:14:00', 'F04316',   9895] # Védgát utca
-      - ['24:15:00', 'F04314',  10379] # Csepel, Kossuth Lajos utca
-      - ['24:16:00', '008067',  10796] # Szent Imre tér
-      - ['24:17:00', 'F04278',  11350] # Karácsony Sándor utca
-      - ['24:21:00', 'F04191',  11566] # Széchenyi István utca
-      - ['24:22:00', 'F04196',  12084] # Bajcsy-Zsilinszky út
-      - ['24:23:00', 'F04338',  12494] # Rákóczi tér
-      - ['24:24:00', 'F04199',  13096] # Kikötő utca
-      - ['24:24:00', 'F04218',  13581] # Késmárki utca
-      - ['24:25:00', 'F04363',  13849] # Határ utca
-      - ['24:26:00', 'F04342',  14509] # Hollandi csárda
-      - ['24:27:00', 'F04219',  15009] # Strandfürdő
-      - ['24:28:00', 'F04221',  15402] # Csepel csónakház
-      - ['24:28:00', 'F04223',  15781] # Ladik utca
-      - ['24:29:00', 'F04226',  16207] # Csepel, Soroksári rév
-      - ['24:30:00', 'F04228',  17028] # Csepel, Hollandi út
+      - ['00:00:00', '008471',      0] # Dél-pesti autóbuszgarázs
+      - ['00:02:00', 'F03631',    745] # Szentlőrinci út
+      - ['00:03:00', 'F03888',   1840] # Autópiac
+      - ['00:04:00', 'F03908',   2247] # Használtcikk piac
+      - ['00:05:00', 'F04034',   2950] # Madarassy László utca
+      - ['00:06:00', 'F03989',   3248] # Vas Gereben utca
+      - ['00:07:00', 'F03981',   3595] # Kossuth Lajos utca
+      - ['00:08:00', 'F04024',   3903] # Batthyány utca
+      - ['00:09:00', 'F03974',   4241] # Hunyadi tér
+      - ['00:10:00', 'F04042',   4944] # Nagykőrösi út
+      - ['00:11:00', 'F04098',   5317] # Mártírok útja
+      - ['00:12:00', 'F04104',   5663] # Jókai Mór utca
+      - ['00:14:00', 'F04115',   6550] # Török Flóris utca
+      - ['00:15:00', 'F04041',   7033] # Baross utca
+      - ['00:16:00', 'F04155',   7281] # Attila utca
+      - ['00:17:00', 'F04121',   7753] # Pesterzsébet vasútállomás
+      - ['00:21:00', 'F04144',   8266] # Pesterzsébet, Baross utca
+      - ['00:22:00', 'F04148',   8804] # Sósfürdő
+      - ['00:23:00', 'F04307',   9377] # Papírgyár
+      - ['00:24:00', 'F04316',   9895] # Védgát utca
+      - ['00:25:00', 'F04314',  10379] # Csepel, Kossuth Lajos utca
+      - ['00:26:00', '008067',  10796] # Szent Imre tér
+      - ['00:27:00', 'F04278',  11350] # Karácsony Sándor utca
+      - ['00:31:00', 'F04191',  11566] # Széchenyi István utca
+      - ['00:32:00', 'F04196',  12084] # Bajcsy-Zsilinszky út
+      - ['00:33:00', 'F04338',  12494] # Rákóczi tér
+      - ['00:34:00', 'F04199',  13096] # Kikötő utca
+      - ['00:34:00', 'F04218',  13581] # Késmárki utca
+      - ['00:35:00', 'F04363',  13849] # Határ utca
+      - ['00:36:00', 'F04342',  14509] # Hollandi csárda
+      - ['00:37:00', 'F04219',  15009] # Strandfürdő
+      - ['00:38:00', 'F04221',  15402] # Csepel csónakház
+      - ['00:38:00', 'F04223',  15781] # Ladik utca
+      - ['00:39:00', 'F04226',  16207] # Csepel, Soroksári rév
+      - ['00:40:00', 'F04228',  17028] # Csepel, Hollandi út
     trip_headsign: 'Csepel, Hollandi út'
     trip_id: REFERENCE-9480-0-1
     wheelchair_accessible: 2
@@ -55,41 +55,41 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9480-1-1-H589
     stop_times:
-      - ['26:30:00', 'F04228',      0] # Csepel, Hollandi út
-      - ['26:31:00', 'F04262',    561] # Sólyom utca
-      - ['26:31:00', 'F04260',    922] # Árnyas utca
-      - ['26:32:00', 'F04259',   1348] # Királyerdei Művelődési Ház
-      - ['26:33:00', 'F04256',   2005] # Repkény út
-      - ['26:34:00', 'F04255',   2219] # Iszalag utca
-      - ['26:35:00', 'F04253',   2582] # Tölgyes út
-      - ['26:35:00', 'F04251',   2928] # Orgonás utca
-      - ['26:36:00', 'F04249',   3435] # Nyárfás utca
-      - ['26:37:00', 'F04340',   3803] # Cseh Mihály utca
-      - ['26:38:00', 'F04203',   4261] # Sporttelep
-      - ['26:39:00', 'F04192',   4747] # Széchenyi István utca
-      - ['26:40:00', 'F04279',   5170] # Karácsony Sándor utca
-      - ['26:44:00', 'F04324',   5612] # Szent Imre tér
-      - ['26:45:00', 'F04315',   5952] # Ady Endre út (Kossuth Lajos utca)
-      - ['26:46:00', 'F04317',   6503] # Védgát utca
-      - ['26:47:00', 'F04306',   6864] # Papírgyár
-      - ['26:48:00', 'F04149',   7616] # Sósfürdő
-      - ['26:50:00', 'F04145',   8124] # Pesterzsébet, Baross utca
-      - ['26:51:00', 'F04120',   8666] # Pesterzsébet vasútállomás
-      - ['26:52:00', 'F04156',   9226] # Attila utca
-      - ['26:53:00', 'F04117',   9506] # Vörösmarty utca
-      - ['26:54:00', 'F04113',   9880] # Török Flóris utca
-      - ['26:56:00', 'F04103',  10720] # Lázár utca
-      - ['26:57:00', 'F04100',  11245] # Zalán utca
-      - ['26:58:00', 'F04043',  11436] # Nagykőrösi út
-      - ['26:59:00', 'F03973',  12059] # Hunyadi tér
-      - ['27:00:00', 'F04025',  12445] # Batthyány utca
-      - ['27:01:00', 'F03983',  12870] # Kossuth Lajos utca
-      - ['27:02:00', 'F03991',  13280] # Pincér utca
-      - ['27:02:00', 'F04033',  13499] # Garázs utca
-      - ['27:03:00', 'F03992',  13745] # Hofherr Albert utca
-      - ['27:05:00', 'F03889',  14711] # Autópiac
-      - ['27:06:00', 'F03632',  15664] # Szentlőrinci út
-      - ['27:08:00', '008472',  16454] # Dél-pesti autóbuszgarázs
+      - ['00:00:00', 'F04228',      0] # Csepel, Hollandi út
+      - ['00:01:00', 'F04262',    561] # Sólyom utca
+      - ['00:01:00', 'F04260',    922] # Árnyas utca
+      - ['00:02:00', 'F04259',   1348] # Királyerdei Művelődési Ház
+      - ['00:03:00', 'F04256',   2005] # Repkény út
+      - ['00:04:00', 'F04255',   2219] # Iszalag utca
+      - ['00:05:00', 'F04253',   2582] # Tölgyes út
+      - ['00:05:00', 'F04251',   2928] # Orgonás utca
+      - ['00:06:00', 'F04249',   3435] # Nyárfás utca
+      - ['00:07:00', 'F04340',   3803] # Cseh Mihály utca
+      - ['00:08:00', 'F04203',   4261] # Sporttelep
+      - ['00:09:00', 'F04192',   4747] # Széchenyi István utca
+      - ['00:10:00', 'F04279',   5170] # Karácsony Sándor utca
+      - ['00:14:00', 'F04324',   5612] # Szent Imre tér
+      - ['00:15:00', 'F04315',   5952] # Ady Endre út (Kossuth Lajos utca)
+      - ['00:16:00', 'F04317',   6503] # Védgát utca
+      - ['00:17:00', 'F04306',   6864] # Papírgyár
+      - ['00:18:00', 'F04149',   7616] # Sósfürdő
+      - ['00:20:00', 'F04145',   8124] # Pesterzsébet, Baross utca
+      - ['00:21:00', 'F04120',   8666] # Pesterzsébet vasútállomás
+      - ['00:22:00', 'F04156',   9226] # Attila utca
+      - ['00:23:00', 'F04117',   9506] # Vörösmarty utca
+      - ['00:24:00', 'F04113',   9880] # Török Flóris utca
+      - ['00:26:00', 'F04103',  10720] # Lázár utca
+      - ['00:27:00', 'F04100',  11245] # Zalán utca
+      - ['00:28:00', 'F04043',  11436] # Nagykőrösi út
+      - ['00:29:00', 'F03973',  12059] # Hunyadi tér
+      - ['00:30:00', 'F04025',  12445] # Batthyány utca
+      - ['00:31:00', 'F03983',  12870] # Kossuth Lajos utca
+      - ['00:32:00', 'F03991',  13280] # Pincér utca
+      - ['00:32:00', 'F04033',  13499] # Garázs utca
+      - ['00:33:00', 'F03992',  13745] # Hofherr Albert utca
+      - ['00:35:00', 'F03889',  14711] # Autópiac
+      - ['00:36:00', 'F03632',  15664] # Szentlőrinci út
+      - ['00:38:00', '008472',  16454] # Dél-pesti autóbuszgarázs
     trip_headsign: Dél-pesti autóbuszgarázs
     trip_id: REFERENCE-9480-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

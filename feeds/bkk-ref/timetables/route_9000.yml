@@ -13,23 +13,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9000-0-1-R880
     stop_times:
-      - ['24:33:00', '008921',      0] # Dél-pesti autóbuszgarázs
-      - ['24:33:00', 'F03626',    366] # Besence utca
-      - ['24:34:00', 'F03624',    724] # Ipacsfa utca
-      - ['24:36:00', '009480',   1493] # Margó Tivadar utca
-      - ['24:37:00', 'F03638',   2176] # Gilice tér
-      - ['24:38:00', 'F03857',   2508] # Sas utca
-      - ['24:38:00', 'F03640',   2860] # Dalmady Győző utca
-      - ['24:46:00', 'F03802',   3484] # Üllői út
-      - ['24:47:00', 'F03851',   3908] # Selmecbánya utca
-      - ['24:48:00', 'F03807',   4345] # Szent László utca
-      - ['24:50:00', 'F03869',   4902] # Szemeretelep vasútállomás
-      - ['24:51:00', '007928',   5961] # Ferihegy vasútállomás
-      - ['24:53:00', 'F03783',   7624] # Repülőtér, D porta
-      - ['24:54:00', 'F03781',   8005] # Repülőtéri Rendőr Igazgatóság
-      - ['24:56:00', 'F04596',   9305] # Vecsés-nyugat
-      - ['25:00:00', 'F04598',  11335] # Repülőtér, E porta
-      - ['25:01:00', 'F04599',  11908] # Liszt Ferenc Airport 2
+      - ['00:00:00', '008921',      0] # Dél-pesti autóbuszgarázs
+      - ['00:00:00', 'F03626',    366] # Besence utca
+      - ['00:01:00', 'F03624',    724] # Ipacsfa utca
+      - ['00:03:00', '009480',   1493] # Margó Tivadar utca
+      - ['00:04:00', 'F03638',   2176] # Gilice tér
+      - ['00:05:00', 'F03857',   2508] # Sas utca
+      - ['00:05:00', 'F03640',   2860] # Dalmady Győző utca
+      - ['00:07:00', 'F03802',   3484] # Üllői út
+      - ['00:08:00', 'F03851',   3908] # Selmecbánya utca
+      - ['00:09:00', 'F03807',   4345] # Szent László utca
+      - ['00:11:00', 'F03869',   4902] # Szemeretelep vasútállomás
+      - ['00:12:00', '007928',   5961] # Ferihegy vasútállomás
+      - ['00:14:00', 'F03783',   7624] # Repülőtér, D porta
+      - ['00:15:00', 'F03781',   8005] # Repülőtéri Rendőr Igazgatóság
+      - ['00:17:00', 'F04596',   9305] # Vecsés-nyugat
+      - ['00:21:00', 'F04598',  11335] # Repülőtér, E porta
+      - ['00:22:00', 'F04599',  11908] # Liszt Ferenc Airport 2
     trip_headsign: Liszt Ferenc Airport 2
     trip_id: REFERENCE-9000-0-1
     wheelchair_accessible: 1
@@ -37,24 +37,24 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9000-1-1-R881
     stop_times:
-      - ['24:29:00', 'F04599',      0] # Liszt Ferenc Airport 2
-      - ['24:33:00', 'F04597',   2191] # Vecsés-nyugat
-      - ['24:35:00', 'F03780',   3337] # Repülőtéri Rendőr Igazgatóság
-      - ['24:36:00', 'F03782',   3852] # Repülőtér, D porta
-      - ['24:39:00', '007927',   5539] # Ferihegy vasútállomás
-      - ['24:41:00', 'F03870',   6494] # Szemeretelep vasútállomás
-      - ['24:42:00', 'F03808',   6747] # Szemeretelep vasútállomás
-      - ['24:43:00', 'F03809',   7226] # Szent László utca
-      - ['24:44:00', 'F03852',   7684] # Selmecbánya utca
-      - ['24:48:00', 'F03886',   8135] # Bajcsy-Zsilinszky út
-      - ['24:49:00', 'F03801',   8633] # Honvéd utca
-      - ['24:50:00', 'F03639',   9100] # Dalmady Győző utca
-      - ['24:50:00', 'F03858',   9521] # Sas utca
-      - ['24:51:00', 'F03637',   9834] # Gilice tér
-      - ['24:52:00', '009551',  10462] # Margó Tivadar utca
-      - ['24:54:00', 'F03622',  11362] # Ipacsfa utca
-      - ['24:55:00', 'F03625',  11620] # Besence utca
-      - ['24:56:00', '008472',  11982] # Dél-pesti autóbuszgarázs
+      - ['00:00:00', 'F04599',      0] # Liszt Ferenc Airport 2
+      - ['00:04:00', 'F04597',   2191] # Vecsés-nyugat
+      - ['00:06:00', 'F03780',   3337] # Repülőtéri Rendőr Igazgatóság
+      - ['00:07:00', 'F03782',   3852] # Repülőtér, D porta
+      - ['00:10:00', '007927',   5539] # Ferihegy vasútállomás
+      - ['00:12:00', 'F03870',   6494] # Szemeretelep vasútállomás
+      - ['00:13:00', 'F03808',   6747] # Szemeretelep vasútállomás
+      - ['00:14:00', 'F03809',   7226] # Szent László utca
+      - ['00:15:00', 'F03852',   7684] # Selmecbánya utca
+      - ['00:19:00', 'F03886',   8135] # Bajcsy-Zsilinszky út
+      - ['00:20:00', 'F03801',   8633] # Honvéd utca
+      - ['00:21:00', 'F03639',   9100] # Dalmady Győző utca
+      - ['00:21:00', 'F03858',   9521] # Sas utca
+      - ['00:22:00', 'F03637',   9834] # Gilice tér
+      - ['00:23:00', '009551',  10462] # Margó Tivadar utca
+      - ['00:25:00', 'F03622',  11362] # Ipacsfa utca
+      - ['00:26:00', 'F03625',  11620] # Besence utca
+      - ['00:27:00', '008472',  11982] # Dél-pesti autóbuszgarázs
     trip_headsign: Dél-pesti autóbuszgarázs
     trip_id: REFERENCE-9000-1-1
     wheelchair_accessible: 1

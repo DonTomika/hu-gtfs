@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Boráros tér H / Lehel tér M
+route_desc: Boráros tér H (Közraktár utca) / Lehel tér M
 route_id: 0150
 route_long_name: ''
 route_short_name: 15
@@ -13,49 +13,49 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0150-0-1-U154
     stop_times:
-      - ['16:00:00', 'F01516',      0] # Boráros tér H (Közraktár utca)
-      - ['16:00:00', 'F01345',    216] # Lónyay utca
-      - ['16:01:00', 'F01337',    577] # Czuczor utca
-      - ['16:02:00', 'F01400',    906] # Török Pál utca
-      - ['16:05:00', 'F01010',   1206] # Kálvin tér M
-      - ['16:07:00', 'F01013',   1702] # Astoria M
-      - ['16:10:00', '009230',   2412] # Deák Ferenc tér M
-      - ['16:13:00', 'F00980',   2650] # Erzsébet tér
-      - ['16:15:00', 'F01021',   3184] # Hercegprímás utca
-      - ['16:17:00', 'F01022',   3518] # Hold utca
-      - ['16:19:00', '008532',   3907] # Kossuth Lajos tér M
-      - ['16:21:00', 'F00990',   4529] # Markó utca
-      - ['16:24:00', 'F00932',   4870] # Szent István körút
-      - ['16:25:00', 'F02524',   5176] # Radnóti Miklós utca
-      - ['16:26:00', 'F02516',   5656] # Victor Hugo utca
-      - ['16:27:00', 'F02519',   5850] # Gogol utca
-      - ['16:28:00', 'F02612',   6127] # Váci út
-      - ['16:30:00', 'F02616',   6352] # Lehel tér M
+      - ['00:00:00', 'F01516',      0] # Boráros tér H (Közraktár utca)
+      - ['00:00:00', 'F01345',    216] # Lónyay utca
+      - ['00:01:00', 'F01337',    577] # Czuczor utca
+      - ['00:02:00', 'F01400',    906] # Török Pál utca
+      - ['00:04:00', 'F01010',   1206] # Kálvin tér M
+      - ['00:05:00', 'F01013',   1702] # Astoria M
+      - ['00:07:00', '009230',   2412] # Deák Ferenc tér M
+      - ['00:08:00', 'F00980',   2650] # Erzsébet tér
+      - ['00:10:00', 'F01021',   3184] # Hercegprímás utca
+      - ['00:11:00', 'F01022',   3518] # Hold utca
+      - ['00:13:00', '008532',   3907] # Kossuth Lajos tér M
+      - ['00:14:00', 'F00990',   4529] # Markó utca
+      - ['00:16:00', 'F00932',   4870] # Szent István körút
+      - ['00:17:00', 'F02524',   5176] # Radnóti Miklós utca
+      - ['00:18:00', 'F02516',   5656] # Victor Hugo utca
+      - ['00:19:00', 'F02519',   5850] # Gogol utca
+      - ['00:20:00', 'F02612',   6127] # Váci út
+      - ['00:21:00', 'F02616',   6352] # Lehel tér M
     trip_headsign: Lehel tér M
     trip_id: REFERENCE-0150-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-0150-1-1-U155
+    shape_id: REFERENCE-0150-1-1-L732
     stop_times:
-      - ['17:45:00', 'F02616',      0] # Lehel tér M
-      - ['17:47:00', 'F02514',    506] # Csanády utca
-      - ['17:49:00', 'F02523',    789] # Radnóti Miklós utca
-      - ['17:52:00', 'F00931',   1273] # Szent István körút
-      - ['17:53:00', 'F00991',   1584] # Markó utca
-      - ['17:55:00', '009176',   2148] # Kossuth Lajos tér M
-      - ['17:56:00', 'F01020',   2374] # Széchenyi utca
-      - ['17:58:00', 'F00986',   2771] # Zrínyi utca
-      - ['18:00:00', '007885',   3034] # Szende Pál utca
-      - ['18:02:00', 'F00924',   3583] # Petőfi tér
-      - ['18:03:00', 'F01001',   3862] # Március 15. tér
-      - ['18:06:00', '009615',   4586] # Fővám tér
-      - ['18:09:00', 'F01007',   5038] # Kálvin tér M
-      - ['18:11:00', '008694',   5421] # Köztelek utca
-      - ['18:13:00', 'F01339',   5717] # Ráday utca
-      - ['18:14:00', 'F01344',   6006] # Bakáts tér
-      - ['18:15:00', 'F01377',   6250] # Boráros tér
-      - ['18:17:00', 'F01516',   6482] # Boráros tér H (Közraktár utca)
+      - ['00:00:00', 'F02616',      0] # Lehel tér M
+      - ['00:02:00', 'F02514',    506] # Csanády utca
+      - ['00:03:00', 'F02523',    789] # Radnóti Miklós utca
+      - ['00:05:00', 'F00931',   1273] # Szent István körút
+      - ['00:06:00', 'F00991',   1584] # Markó utca
+      - ['00:09:00', '009176',   2148] # Kossuth Lajos tér M
+      - ['00:10:00', 'F01020',   2374] # Széchenyi utca
+      - ['00:11:00', 'F00986',   2771] # Zrínyi utca
+      - ['00:13:00', '007885',   3034] # Szende Pál utca
+      - ['00:15:00', 'F00924',   3583] # Petőfi tér
+      - ['00:16:00', 'F01001',   3862] # Március 15. tér
+      - ['00:19:00', '009615',   4586] # Fővám tér
+      - ['00:21:00', 'F01007',   5038] # Kálvin tér M
+      - ['00:23:00', '008694',   5421] # Köztelek utca
+      - ['00:24:00', 'F01339',   5717] # Ráday utca
+      - ['00:25:00', 'F01344',   6006] # Bakáts tér
+      - ['00:27:00', 'F01377',   6250] # Boráros tér
+      - ['00:28:00', 'F01516',   6482] # Boráros tér H (Közraktár utca)
     trip_headsign: Boráros tér H
     trip_id: REFERENCE-0150-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

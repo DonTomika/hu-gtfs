@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FF1818
-route_desc: Puskás Ferenc Stadion M / Jászai Mari tér
+route_desc: Puskás Ferenc Stadion M / Jászai Mari tér (Budai Nagy Antal utca)
 route_id: 4750
 route_long_name: ''
 route_short_name: 75
@@ -11,55 +11,55 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4750-0-1-S375
+    shape_id: REFERENCE-4750-0-1-G453
     stop_times:
-      - ['11:26:00', 'F02511',      0] # Jászai Mari tér (Budai Nagy Antal utca)
-      - ['11:26:00', 'F02649',    236] # Radnóti Miklós utca
-      - ['11:27:00', 'F02513',    513] # Szent István park
-      - ['11:28:00', 'F02522',    763] # Ipoly utca
-      - ['11:30:00', 'F02574',   1244] # Vág utca
-      - ['11:31:00', 'F02510',   1545] # Dráva utca
-      - ['11:33:00', 'F02610',   2059] # Váci út (Dózsa György út M)
-      - ['11:34:00', 'F02640',   2327] # Kassák Lajos utca
-      - ['11:35:00', 'F02623',   2655] # Lehel utca
-      - ['11:36:00', 'F01060',   2856] # Szabolcs utca
-      - ['11:37:00', 'F01055',   3340] # Hősök tere M
-      - ['11:39:00', 'F01048',   3690] # Benczúr utca
-      - ['11:41:00', 'F01134',   4181] # Damjanich utca
-      - ['11:43:00', 'F02709',   4654] # Ajtósi Dürer sor
-      - ['11:44:00', 'F02712',   5078] # Zichy Géza utca
-      - ['11:46:00', 'F02720',   5631] # Thököly út
-      - ['11:48:00', 'F02736',   6147] # Egressy út
-      - ['11:50:00', 'F02738',   6489] # Szobránc köz
-      - ['11:52:00', '008132',   6888] # Puskás Ferenc Stadion M
+      - ['00:00:00', 'F02511',      0] # Jászai Mari tér (Budai Nagy Antal utca)
+      - ['00:00:00', 'F02649',    236] # Radnóti Miklós utca
+      - ['00:01:00', 'F02513',    513] # Szent István park
+      - ['00:02:00', 'F02522',    763] # Ipoly utca
+      - ['00:04:00', 'F02574',   1244] # Vág utca
+      - ['00:05:00', 'F02510',   1545] # Dráva utca
+      - ['00:07:00', 'F02610',   2059] # Váci út (Dózsa György út M)
+      - ['00:08:00', 'F02640',   2327] # Kassák Lajos utca
+      - ['00:09:00', 'F02623',   2655] # Lehel utca
+      - ['00:10:00', 'F01060',   2856] # Szabolcs utca
+      - ['00:12:00', 'F01055',   3340] # Hősök tere M
+      - ['00:13:00', 'F01048',   3690] # Benczúr utca
+      - ['00:15:00', 'F01134',   4181] # Damjanich utca
+      - ['00:17:00', 'F02709',   4654] # Ajtósi Dürer sor
+      - ['00:18:00', 'F02712',   5078] # Zichy Géza utca
+      - ['00:20:00', 'F02720',   5631] # Thököly út
+      - ['00:22:00', 'F02736',   6147] # Egressy út
+      - ['00:24:00', 'F02738',   6489] # Szobránc köz
+      - ['00:26:00', '008132',   6888] # Puskás Ferenc Stadion M
     trip_headsign: Puskás Ferenc Stadion M
     trip_id: REFERENCE-4750-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-4750-1-1-S374
+    shape_id: REFERENCE-4750-1-1-G452
     stop_times:
-      - ['18:36:00', '008132',      0] # Puskás Ferenc Stadion M
-      - ['18:37:00', '008545',    185] # Puskás Ferenc Stadion M
-      - ['18:39:00', 'F02737',    902] # Szobránc köz
-      - ['18:40:00', 'F02733',   1248] # Egressy út
-      - ['18:42:00', 'F02718',   1848] # Thököly út (Stefánia út)
-      - ['18:44:00', 'F02711',   2255] # Zichy Géza utca
-      - ['18:45:00', 'F02710',   2729] # 56-osok tere
-      - ['18:47:00', 'F02708',   3151] # Dvorzsák sétány
-      - ['18:48:00', 'F02705',   3349] # Olof Palme sétány
-      - ['18:49:00', 'F02691',   3844] # Hősök tere M
-      - ['18:51:00', 'F01053',   4383] # Gundel Károly út
-      - ['18:53:00', 'F01059',   4800] # Szabolcs utca
-      - ['18:54:00', 'F02620',   5163] # Lehel utca
-      - ['18:55:00', 'F02639',   5371] # Kassák Lajos utca
-      - ['18:56:00', 'F02608',   5773] # Váci út (Dózsa György út M)
-      - ['18:58:00', 'F02509',   6142] # Dráva utca
-      - ['18:59:00', 'F02573',   6449] # Vág utca
-      - ['19:00:00', 'F02521',   6854] # Ipoly utca
-      - ['19:02:00', 'F02512',   7242] # Szent István park
-      - ['19:03:00', 'F02650',   7535] # Radnóti Miklós utca
-      - ['19:04:00', 'F02511',   7814] # Jászai Mari tér (Budai Nagy Antal utca)
+      - ['00:00:00', '008132',      0] # Puskás Ferenc Stadion M
+      - ['00:01:00', '008545',    185] # Puskás Ferenc Stadion M
+      - ['00:02:00', 'F02737',    902] # Szobránc köz
+      - ['00:03:00', 'F02733',   1248] # Egressy út
+      - ['00:05:00', 'F02718',   1848] # Thököly út (Stefánia út)
+      - ['00:06:00', 'F02711',   2255] # Zichy Géza utca
+      - ['00:08:00', 'F02710',   2729] # 56-osok tere
+      - ['00:09:00', 'F02708',   3151] # Dvorzsák sétány
+      - ['00:10:00', 'F02705',   3349] # Olof Palme sétány
+      - ['00:11:00', 'F02691',   3844] # Hősök tere M
+      - ['00:13:00', 'F01053',   4383] # Gundel Károly út
+      - ['00:14:00', 'F01059',   4800] # Szabolcs utca
+      - ['00:15:00', 'F02620',   5163] # Lehel utca
+      - ['00:16:00', 'F02639',   5371] # Kassák Lajos utca
+      - ['00:17:00', 'F02608',   5773] # Váci út (Dózsa György út M)
+      - ['00:18:00', 'F02509',   6142] # Dráva utca
+      - ['00:19:00', 'F02573',   6449] # Vág utca
+      - ['00:21:00', 'F02521',   6854] # Ipoly utca
+      - ['00:22:00', 'F02512',   7242] # Szent István park
+      - ['00:23:00', 'F02650',   7535] # Radnóti Miklós utca
+      - ['00:24:00', 'F02511',   7814] # Jászai Mari tér (Budai Nagy Antal utca)
     trip_headsign: Jászai Mari tér
     trip_id: REFERENCE-4750-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

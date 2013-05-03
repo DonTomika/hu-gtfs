@@ -11,44 +11,55 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-2015-0-1-M080
+    shape_id: REFERENCE-2015-0-1-R511
     stop_times:
-      - ['06:04:00', '011723',      0] # Rákoskeresztúr, városközpont
-      - ['06:05:00', 'F03475',    727] # Szárny utca
-      - ['06:07:00', 'F03477',   1428] # Szabadság sugárút
-      - ['06:08:00', 'F03480',   1870] # Lemberg utca
-      - ['06:09:00', 'F03491',   2154] # Óvónő utca
-      - ['06:10:00', 'F03482',   2520] # Csaba vezér tér
-      - ['06:11:00', 'F03490',   3119] # Alsódabas utca
-      - ['06:13:00', 'F03493',   3738] # Regélő utca
-      - ['06:14:00', 'F03602',   4085] # Császárfa utca
-      - ['06:15:00', 'F03495',   4364] # Nagyszentmiklósi út
-      - ['06:16:00', 'F03499',   4760] # Kucorgó tér
+      - ['00:00:00', '038671',      0] # Kőbánya-Kispest M
+      - ['00:05:00', '040612',   1809] # Bányató utca
+      - ['00:07:00', '008156',   3017] # Új köztemető
+      - ['00:13:00', 'F01847',   6509] # Rézvirág utca
+      - ['00:15:00', 'F01722',   7526] # 501. utca
+      - ['00:17:00', 'F03549',   8175] # 509. utca
+      - ['00:18:00', '009543',   8511] # 513. utca
+      - ['00:19:00', 'F03547',   8786] # Borsó utca
+      - ['00:20:00', 'F03545',   9137] # Kis utca
+      - ['00:21:00', 'F03542',   9549] # Bakancsos utca
+      - ['00:23:00', 'F03593',  10124] # Szent kereszt tér
+      - ['00:25:00', '00:26:00', '011723',  10508] # Rákoskeresztúr, városközpont
+      - ['00:27:00', 'F03475',  11235] # Szárny utca
+      - ['00:29:00', 'F03477',  11936] # Szabadság sugárút
+      - ['00:30:00', 'F03480',  12378] # Lemberg utca
+      - ['00:31:00', 'F03491',  12662] # Óvónő utca
+      - ['00:32:00', 'F03482',  13028] # Csaba vezér tér
+      - ['00:34:00', 'F03490',  13627] # Alsódabas utca
+      - ['00:36:00', 'F03493',  14246] # Regélő utca
+      - ['00:37:00', 'F03602',  14593] # Császárfa utca
+      - ['00:37:00', 'F03495',  14872] # Nagyszentmiklósi út
+      - ['00:39:00', 'F03499',  15268] # Kucorgó tér
     trip_headsign: Kucorgó tér
     trip_id: REFERENCE-2015-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2015-1-1-R512
     stop_times:
-      - ['07:00:00', 'F03499',      0] # Kucorgó tér
-      - ['07:01:00', 'F03508',    634] # Szabadság sugárút
-      - ['07:02:00', '043192',    955] # Kisvárda utca
-      - ['07:03:00', 'F03510',   1301] # Tápióbicske utca
-      - ['07:04:00', 'F03437',   1719] # Sági utca
-      - ['07:05:00', 'F03512',   2049] # Oroszvár utca
-      - ['07:07:00', 'F03514',   2637] # Mezőtárkány utca
-      - ['07:09:00', '011725',   3361] # Rákoskeresztúr, városközpont
-      - ['07:10:00', 'F03594',   3822] # Szent kereszt tér
-      - ['07:11:00', 'F03541',   4193] # Bakancsos utca
-      - ['07:12:00', 'F03544',   4657] # Kis utca
-      - ['07:14:00', 'F03546',   5057] # Borsó utca
-      - ['07:15:00', '011715',   5702] # 509. utca
-      - ['07:18:00', 'F01719',   6428] # 501. utca
-      - ['07:20:00', 'F01846',   7435] # Rézvirág utca
-      - ['07:29:00', 'F01595',  10764] # Új köztemető
-      - ['07:32:00', '042797',  12224] # Bányató utca
-      - ['07:38:00', '038670',  13817] # Kőbánya-Kispest M
+      - ['00:00:00', 'F03499',      0] # Kucorgó tér
+      - ['00:01:00', 'F03508',    634] # Szabadság sugárút
+      - ['00:02:00', '043192',    955] # Kisvárda utca
+      - ['00:03:00', 'F03510',   1301] # Tápióbicske utca
+      - ['00:04:00', 'F03437',   1719] # Sági utca
+      - ['00:04:00', 'F03512',   2049] # Oroszvár utca
+      - ['00:06:00', 'F03514',   2637] # Mezőtárkány utca
+      - ['00:08:00', '011725',   3361] # Rákoskeresztúr, városközpont
+      - ['00:09:00', 'F03594',   3822] # Szent kereszt tér
+      - ['00:10:00', 'F03541',   4193] # Bakancsos utca
+      - ['00:11:00', 'F03544',   4657] # Kis utca
+      - ['00:13:00', 'F03546',   5057] # Borsó utca
+      - ['00:14:00', '011715',   5702] # 509. utca
+      - ['00:17:00', 'F01719',   6428] # 501. utca
+      - ['00:18:00', 'F01846',   7435] # Rézvirág utca
+      - ['00:27:00', 'F01595',  10764] # Új köztemető
+      - ['00:29:00', '042797',  12224] # Bányató utca
+      - ['00:35:00', '038670',  13817] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-2015-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

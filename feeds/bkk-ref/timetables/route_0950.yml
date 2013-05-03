@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: 'Puskás Ferenc Stadion M / Pestszentlőrinc, Gyömrői út'
+route_desc: 'Puskás Ferenc Stadion M (Ifjúság útja) / Pestszentlőrinc, Gyömrői út'
 route_id: 0950
 route_long_name: ''
 route_short_name: 95
@@ -13,57 +13,57 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0950-0-1-J851
     stop_times:
-      - ['07:45:00', 'F01317',      0] # Puskás Ferenc Stadion M (Ifjúság útja)
-      - ['07:47:00', 'F01321',    730] # Puskás Ferenc Stadion M (Hungária körút)
-      - ['07:47:00', 'F01736',    986] # Pongrácz út
-      - ['07:48:00', 'F01745',   1507] # Hős utca
-      - ['07:50:00', 'F01559',   2275] # Pongrácz úti lakótelep
-      - ['07:52:00', 'F01725',   2858] # Kistorony park
-      - ['07:53:00', 'F01570',   3182] # Kőbánya alsó vasútállomás
-      - ['07:54:00', 'F01644',   3596] # Liget tér
-      - ['07:55:00', 'F01662',   4049] # Kápolna tér
-      - ['07:56:00', 'F01667',   4503] # Kőér utca
-      - ['07:56:00', 'F01686',   4778] # Szlávy utca
-      - ['07:57:00', 'F01689',   5115] # Kada utca
-      - ['07:58:00', 'F01684',   5504] # Harmat utca
-      - ['07:59:00', 'F01682',   5756] # Mádi utca
-      - ['08:00:00', 'F01678',   6196] # Maglódi út
-      - ['08:01:00', 'F01833',   6662] # Bajcsy-Zsilinszky Kórház
-      - ['08:02:00', 'F01706',   7021] # Sibrik Miklós út
-      - ['08:03:00', 'F01710',   7496] # Sírkert út
-      - ['08:04:00', 'F01597',   8093] # Új köztemető
-      - ['08:06:00', 'F01551',   8774] # Álmos utca
-      - ['08:07:00', 'F01549',   9229] # Hangár utca
-      - ['08:09:00', '008692',   9777] # Pestszentlőrinc, Gyömrői út
+      - ['00:00:00', 'F01317',      0] # Puskás Ferenc Stadion M (Ifjúság útja)
+      - ['00:02:00', 'F01321',    730] # Puskás Ferenc Stadion M (Hungária körút)
+      - ['00:02:00', 'F01736',    986] # Pongrácz út
+      - ['00:03:00', 'F01745',   1507] # Hős utca
+      - ['00:05:00', 'F01559',   2275] # Pongrácz úti lakótelep
+      - ['00:07:00', 'F01725',   2858] # Kistorony park
+      - ['00:08:00', 'F01570',   3182] # Kőbánya alsó vasútállomás
+      - ['00:09:00', 'F01644',   3596] # Liget tér
+      - ['00:10:00', 'F01662',   4049] # Kápolna tér
+      - ['00:11:00', 'F01667',   4503] # Kőér utca
+      - ['00:11:00', 'F01686',   4778] # Szlávy utca
+      - ['00:12:00', 'F01689',   5115] # Kada utca
+      - ['00:13:00', 'F01684',   5504] # Harmat utca
+      - ['00:13:00', 'F01682',   5756] # Mádi utca
+      - ['00:14:00', 'F01678',   6196] # Maglódi út
+      - ['00:15:00', 'F01833',   6662] # Bajcsy-Zsilinszky Kórház
+      - ['00:16:00', 'F01706',   7021] # Sibrik Miklós út
+      - ['00:17:00', 'F01710',   7496] # Sírkert út
+      - ['00:19:00', 'F01597',   8093] # Új köztemető
+      - ['00:20:00', 'F01551',   8774] # Álmos utca
+      - ['00:21:00', 'F01549',   9229] # Hangár utca
+      - ['00:23:00', '008692',   9777] # Pestszentlőrinc, Gyömrői út
     trip_headsign: 'Pestszentlőrinc, Gyömrői út'
     trip_id: REFERENCE-0950-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0950-1-1-J866
     stop_times:
-      - ['15:21:00', '008692',      0] # Pestszentlőrinc, Gyömrői út
-      - ['15:21:00', 'F01870',    137] # Felsőcsatári út
-      - ['15:23:00', 'F01550',    967] # Árpád utca
-      - ['15:24:00', 'F01552',   1304] # Álmos utca
-      - ['15:26:00', 'F01593',   2040] # Új köztemető
-      - ['15:28:00', 'F01711',   2540] # Sírkert út
-      - ['15:29:00', 'F01709',   3070] # Sibrik Miklós út
-      - ['15:30:00', 'F01834',   3444] # Bajcsy-Zsilinszky Kórház
-      - ['15:31:00', 'F01677',   3936] # Kada utca
-      - ['15:33:00', 'F01681',   4444] # Mádi utca
-      - ['15:34:00', 'F01688',   4994] # Óhegy utca
-      - ['15:35:00', 'F01687',   5355] # Szlávy utca
-      - ['15:36:00', 'F01666',   5750] # Kőér utca
-      - ['15:38:00', 'F01661',   6180] # Kápolna tér
-      - ['15:39:00', 'F01647',   6585] # Liget tér
-      - ['15:41:00', 'F01569',   6948] # Kőbánya alsó vasútállomás
-      - ['15:42:00', 'F01726',   7351] # Kistorony park
-      - ['15:44:00', 'F01560',   7812] # Pongrácz úti lakótelep
-      - ['15:48:00', 'F01744',   8700] # Hős utca
-      - ['15:50:00', 'F01735',   9203] # Őrnagy utca
-      - ['15:51:00', '008545',   9608] # Puskás Ferenc Stadion M
-      - ['15:53:00', 'F01317',   9926] # Puskás Ferenc Stadion M (Ifjúság útja)
+      - ['00:00:00', '008692',      0] # Pestszentlőrinc, Gyömrői út
+      - ['00:00:00', 'F01870',    137] # Felsőcsatári út
+      - ['00:02:00', 'F01550',    967] # Árpád utca
+      - ['00:02:00', 'F01552',   1304] # Álmos utca
+      - ['00:04:00', 'F01593',   2040] # Új köztemető
+      - ['00:05:00', 'F01711',   2540] # Sírkert út
+      - ['00:06:00', 'F01709',   3070] # Sibrik Miklós út
+      - ['00:07:00', 'F01834',   3444] # Bajcsy-Zsilinszky Kórház
+      - ['00:08:00', 'F01677',   3936] # Kada utca
+      - ['00:09:00', 'F01681',   4444] # Mádi utca
+      - ['00:10:00', 'F01688',   4994] # Óhegy utca
+      - ['00:11:00', 'F01687',   5355] # Szlávy utca
+      - ['00:12:00', 'F01666',   5750] # Kőér utca
+      - ['00:13:00', 'F01661',   6180] # Kápolna tér
+      - ['00:14:00', 'F01647',   6585] # Liget tér
+      - ['00:16:00', 'F01569',   6948] # Kőbánya alsó vasútállomás
+      - ['00:17:00', 'F01726',   7351] # Kistorony park
+      - ['00:18:00', 'F01560',   7812] # Pongrácz úti lakótelep
+      - ['00:20:00', 'F01744',   8700] # Hős utca
+      - ['00:22:00', 'F01735',   9203] # Őrnagy utca
+      - ['00:23:00', '008545',   9608] # Puskás Ferenc Stadion M
+      - ['00:24:00', 'F01317',   9926] # Puskás Ferenc Stadion M (Ifjúság útja)
     trip_headsign: Puskás Ferenc Stadion M
     trip_id: REFERENCE-0950-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

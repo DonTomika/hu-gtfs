@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: Blaha Lujza tér M / Új köztemető (Kozma utca)
+route_desc: Blaha Lujza tér M (Népszínház utca) / Új köztemető (Kozma utca)
 route_id: 3281
 route_long_name: ''
 route_short_name: 28A
@@ -13,31 +13,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3281-0-1-N869
     stop_times:
-      - ['07:18:00', 'F01298',      0] # Blaha Lujza tér M (Népszínház utca)
-      - ['07:19:00', 'F01300',    302] # II. János Pál pápa tér
-      - ['07:21:00', 'F01330',    726] # Teleki László tér
-      - ['07:23:00', 'F01213',   1233] # Salgótarjáni utca
-      - ['07:25:00', 'F01219',   1569] # Orczy tér
-      - ['07:27:00', 'F01181',   1957] # Kőbányai út 21.
-      - ['07:28:00', 'F01263',   2607] # Kőbányai út 31.
-      - ['07:30:00', 'F01266',   2990] # Könyves Kálmán körút
-      - ['07:31:00', 'F01732',   3356] # Északi Járműjavító
-      - ['07:32:00', 'F01566',   3688] # Egészségház
-      - ['07:33:00', 'F01568',   4161] # Mázsa utca
-      - ['07:35:00', 'F01646',   4632] # Kőbánya alsó vasútállomás
-      - ['07:38:00', 'F01650',   5036] # Szent László tér
-      - ['07:41:00', 'F01826',   5548] # Ónodi utca
-      - ['07:43:00', 'F01624',   5905] # Élessarok
-      - ['07:45:00', 'F01619',   6383] # Sörgyár
-      - ['07:47:00', 'F01618',   6730] # Jászberényi út
-      - ['07:48:00', 'F01674',   7208] # Gitár utca
-      - ['07:49:00', 'F01830',   7524] # Kocka utca
-      - ['07:50:00', 'F01676',   7832] # Kada utca
-      - ['07:51:00', 'F01835',   8268] # Bajcsy-Zsilinszky Kórház
-      - ['07:53:00', 'F01707',   8651] # Sibrik Miklós út
-      - ['07:54:00', 'F01712',   9281] # Sírkert út
-      - ['07:55:00', 'F01596',   9747] # Új köztemető
-      - ['07:56:00', 'F01866',   9941] # Új köztemető (Kozma utca)
+      - ['00:00:00', 'F01298',      0] # Blaha Lujza tér M (Népszínház utca)
+      - ['00:01:00', 'F01300',    302] # II. János Pál pápa tér
+      - ['00:03:00', 'F01330',    726] # Teleki László tér
+      - ['00:05:00', 'F01213',   1233] # Salgótarjáni utca
+      - ['00:07:00', 'F01219',   1569] # Orczy tér
+      - ['00:09:00', 'F01181',   1957] # Kőbányai út 21.
+      - ['00:10:00', 'F01263',   2607] # Kőbányai út 31.
+      - ['00:12:00', 'F01266',   2990] # Könyves Kálmán körút
+      - ['00:13:00', 'F01732',   3356] # Északi Járműjavító
+      - ['00:14:00', 'F01566',   3688] # Egészségház
+      - ['00:15:00', 'F01568',   4161] # Mázsa utca
+      - ['00:17:00', 'F01646',   4632] # Kőbánya alsó vasútállomás
+      - ['00:20:00', 'F01650',   5036] # Szent László tér
+      - ['00:23:00', 'F01826',   5548] # Ónodi utca
+      - ['00:25:00', 'F01624',   5905] # Élessarok
+      - ['00:27:00', 'F01619',   6383] # Sörgyár
+      - ['00:29:00', 'F01618',   6730] # Jászberényi út
+      - ['00:30:00', 'F01674',   7208] # Gitár utca
+      - ['00:31:00', 'F01830',   7524] # Kocka utca
+      - ['00:32:00', 'F01676',   7832] # Kada utca
+      - ['00:33:00', 'F01835',   8268] # Bajcsy-Zsilinszky Kórház
+      - ['00:35:00', 'F01707',   8651] # Sibrik Miklós út
+      - ['00:36:00', 'F01712',   9281] # Sírkert út
+      - ['00:37:00', 'F01596',   9747] # Új köztemető
+      - ['00:38:00', 'F01866',   9941] # Új köztemető (Kozma utca)
     trip_headsign: Új köztemető (Kozma utca)
     trip_id: REFERENCE-3281-0-1
     wheelchair_accessible: 2
@@ -45,31 +45,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3281-1-1-N870
     stop_times:
-      - ['22:05:00', 'F01867',      0] # Új köztemető (Kozma utca)
-      - ['22:06:00', 'F01594',    175] # Új köztemető
-      - ['22:07:00', 'F01713',    648] # Sírkert út
-      - ['22:08:00', 'F01708',   1225] # Sibrik Miklós út
-      - ['22:09:00', 'F01836',   1590] # Bajcsy-Zsilinszky Kórház
-      - ['22:10:00', 'F01679',   2023] # Kada utca
-      - ['22:11:00', 'F01829',   2343] # Kocka utca
-      - ['22:12:00', 'F01673',   2666] # Gitár utca
-      - ['22:13:00', 'F01617',   3114] # Jászberényi út
-      - ['22:15:00', 'F01620',   3535] # Sörgyár
-      - ['22:17:00', 'F01623',   4054] # Élessarok
-      - ['22:20:00', 'F01827',   4409] # Ónodi utca
-      - ['22:23:00', 'F01649',   4884] # Szent László tér
-      - ['22:26:00', 'F01645',   5314] # Kőbánya alsó vasútállomás
-      - ['22:27:00', 'F01567',   5727] # Mázsa utca
-      - ['22:28:00', 'F01565',   6199] # Egészségház
-      - ['22:29:00', 'F01731',   6486] # Északi Járműjavító
-      - ['22:30:00', 'F01265',   6944] # Könyves Kálmán körút
-      - ['22:31:00', 'F01264',   7275] # Kőbányai út 31.
-      - ['22:33:00', 'F01180',   7920] # Kőbányai út 21.
-      - ['22:35:00', 'F01220',   8381] # Orczy tér
-      - ['22:37:00', 'F01215',   8748] # Salgótarjáni utca
-      - ['22:39:00', 'F01331',   9100] # Teleki László tér
-      - ['22:41:00', 'F01301',   9514] # II. János Pál pápa tér
-      - ['22:42:00', '009753',  10013] # Blaha Lujza tér M (Népszínház utca)
+      - ['00:00:00', 'F01867',      0] # Új köztemető (Kozma utca)
+      - ['00:01:00', 'F01594',    175] # Új köztemető
+      - ['00:02:00', 'F01713',    648] # Sírkert út
+      - ['00:04:00', 'F01708',   1225] # Sibrik Miklós út
+      - ['00:05:00', 'F01836',   1590] # Bajcsy-Zsilinszky Kórház
+      - ['00:06:00', 'F01679',   2023] # Kada utca
+      - ['00:07:00', 'F01829',   2343] # Kocka utca
+      - ['00:08:00', 'F01673',   2666] # Gitár utca
+      - ['00:09:00', 'F01617',   3114] # Jászberényi út
+      - ['00:11:00', 'F01620',   3535] # Sörgyár
+      - ['00:13:00', 'F01623',   4054] # Élessarok
+      - ['00:16:00', 'F01827',   4409] # Ónodi utca
+      - ['00:19:00', 'F01649',   4884] # Szent László tér
+      - ['00:22:00', 'F01645',   5314] # Kőbánya alsó vasútállomás
+      - ['00:23:00', 'F01567',   5727] # Mázsa utca
+      - ['00:24:00', 'F01565',   6199] # Egészségház
+      - ['00:25:00', 'F01731',   6486] # Északi Járműjavító
+      - ['00:26:00', 'F01265',   6944] # Könyves Kálmán körút
+      - ['00:27:00', 'F01264',   7275] # Kőbányai út 31.
+      - ['00:29:00', 'F01180',   7920] # Kőbányai út 21.
+      - ['00:31:00', 'F01220',   8381] # Orczy tér
+      - ['00:33:00', 'F01215',   8748] # Salgótarjáni utca
+      - ['00:35:00', 'F01331',   9100] # Teleki László tér
+      - ['00:37:00', 'F01301',   9514] # II. János Pál pápa tér
+      - ['00:38:00', '009753',  10013] # Blaha Lujza tér M (Népszínház utca)
     trip_headsign: Blaha Lujza tér M
     trip_id: REFERENCE-3281-1-1
     wheelchair_accessible: 2

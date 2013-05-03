@@ -13,14 +13,14 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3511-0-1-N769
     stop_times:
-      - ['06:51:00', 'F01379',      0] # Mester utca (Ferenc körút)
-      - ['06:52:00', 'F01382',    407] # Bokréta utca
-      - ['06:53:00', '008702',    740] # Szakorvosi rendelő
-      - ['06:55:00', 'F01393',    962] # Haller utca
-      - ['06:57:00', 'F01398',   1258] # Vágóhíd utca
-      - ['06:59:00', 'F01506',   1727] # Könyves Kálmán körút
-      - ['07:01:00', '008153',   1872] # Mester utca
-      - ['07:02:00', 'F01502',   2231] # Ferencváros vasútállomás
+      - ['00:00:00', 'F01379',      0] # Mester utca (Ferenc körút)
+      - ['00:01:00', 'F01382',    407] # Bokréta utca
+      - ['00:02:00', '008702',    740] # Szakorvosi rendelő
+      - ['00:04:00', 'F01393',    962] # Haller utca
+      - ['00:06:00', 'F01398',   1258] # Vágóhíd utca
+      - ['00:08:00', 'F01506',   1727] # Könyves Kálmán körút
+      - ['00:10:00', '008153',   1872] # Mester utca
+      - ['00:11:00', 'F01502',   2231] # Ferencváros vasútállomás
     trip_headsign: Ferencváros vasútállomás
     trip_id: REFERENCE-3511-0-1
     wheelchair_accessible: 2
@@ -28,13 +28,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3511-1-1-N770
     stop_times:
-      - ['21:58:00', 'F01503',      0] # Ferencváros vasútállomás
-      - ['22:00:00', '008152',    366] # Mester utca
-      - ['22:02:00', 'F01507',    479] # Könyves Kálmán körút
-      - ['22:04:00', 'F01399',    858] # Vágóhíd utca
-      - ['22:06:00', 'F01394',   1226] # Haller utca
-      - ['22:08:00', 'F01381',   1798] # Bokréta utca
-      - ['22:09:00', 'F01379',   2156] # Mester utca (Ferenc körút)
+      - ['00:00:00', 'F01503',      0] # Ferencváros vasútállomás
+      - ['00:02:00', '008152',    366] # Mester utca
+      - ['00:04:00', 'F01507',    479] # Könyves Kálmán körút
+      - ['00:06:00', 'F01399',    858] # Vágóhíd utca
+      - ['00:08:00', 'F01394',   1226] # Haller utca
+      - ['00:10:00', 'F01381',   1798] # Bokréta utca
+      - ['00:11:00', 'F01379',   2156] # Mester utca (Ferenc körút)
     trip_headsign: Mester utca (Ferenc körút)
     trip_id: REFERENCE-3511-1-1
     wheelchair_accessible: 2

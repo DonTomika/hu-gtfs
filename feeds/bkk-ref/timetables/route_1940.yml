@@ -13,52 +13,52 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1940-0-1-J088
     stop_times:
-      - ['08:47:00', 'F04017',      0] # Határ út M
-      - ['08:48:00', 'F03924',    601] # Corvin körút
-      - ['08:50:00', 'F03923',   1021] # Kós Károly tér
-      - ['08:50:00', 'F03921',   1283] # Pannónia út
-      - ['08:52:00', 'F03966',   1687] # Zoltán utca
-      - ['08:53:00', 'F03972',   2080] # Hunyadi tér
-      - ['08:54:00', 'F04025',   2453] # Batthyány utca
-      - ['08:55:00', 'F03983',   2878] # Kossuth Lajos utca
-      - ['08:57:00', 'F03991',   3288] # Pincér utca
-      - ['08:58:00', 'F04033',   3507] # Garázs utca
-      - ['08:59:00', 'F03992',   3753] # Hofherr Albert utca
-      - ['09:00:00', 'F03995',   4249] # Ajtósi utca
-      - ['09:01:00', 'F03998',   4744] # Kassa utca
-      - ['09:03:00', 'F03891',   5226] # Karton utca
-      - ['09:04:00', 'F03892',   5643] # Csiky utca
-      - ['09:05:00', 'F03622',   6038] # Ipacsfa utca
-      - ['09:06:00', 'F03625',   6296] # Besence utca
-      - ['09:07:00', 'F03678',   6795] # Besence utca 9.
-      - ['09:08:00', 'F03628',   7005] # Közdűlő út
-      - ['09:09:00', 'F03627',   7419] # Ipacsfa utca (Közdűlő út)
-      - ['09:10:00', 'F03786',   7668] # Tövishát utca
-      - ['09:11:00', 'F03879',   7853] # Gloriett lakótelep
+      - ['00:00:00', 'F04017',      0] # Határ út M
+      - ['00:01:00', 'F03924',    601] # Corvin körút
+      - ['00:02:00', 'F03923',   1021] # Kós Károly tér
+      - ['00:03:00', 'F03921',   1283] # Pannónia út
+      - ['00:04:00', 'F03966',   1687] # Zoltán utca
+      - ['00:05:00', 'F03972',   2080] # Hunyadi tér
+      - ['00:06:00', 'F04025',   2453] # Batthyány utca
+      - ['00:07:00', 'F03983',   2878] # Kossuth Lajos utca
+      - ['00:08:00', 'F03991',   3288] # Pincér utca
+      - ['00:08:00', 'F04033',   3507] # Garázs utca
+      - ['00:09:00', 'F03992',   3753] # Hofherr Albert utca
+      - ['00:10:00', 'F03995',   4249] # Ajtósi utca
+      - ['00:12:00', 'F03998',   4744] # Kassa utca
+      - ['00:13:00', 'F03891',   5226] # Karton utca
+      - ['00:14:00', 'F03892',   5643] # Csiky utca
+      - ['00:15:00', 'F03622',   6038] # Ipacsfa utca
+      - ['00:16:00', 'F03625',   6296] # Besence utca
+      - ['00:18:00', 'F03678',   6795] # Besence utca 9.
+      - ['00:18:00', 'F03628',   7005] # Közdűlő út
+      - ['00:19:00', 'F03627',   7419] # Ipacsfa utca (Közdűlő út)
+      - ['00:20:00', 'F03786',   7668] # Tövishát utca
+      - ['00:21:00', 'F03879',   7853] # Gloriett lakótelep
     trip_headsign: Gloriett lakótelep
     trip_id: REFERENCE-1940-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1940-1-1-J089
     stop_times:
-      - ['08:24:00', 'F03879',      0] # Gloriett lakótelep
-      - ['08:25:00', '007923',    444] # Kele utca
-      - ['08:27:00', 'F03623',   1035] # Ipacsfa utca
-      - ['08:28:00', 'F03893',   1415] # Csiky utca
-      - ['08:29:00', 'F03890',   1827] # Karton utca
-      - ['08:31:00', 'F03999',   2313] # Kassa utca
-      - ['08:32:00', 'F03996',   2819] # Ipolyság utca
-      - ['08:34:00', 'F03993',   3252] # Hofherr Albert utca
-      - ['08:35:00', 'F04034',   3657] # Madarassy László utca
-      - ['08:36:00', 'F03989',   3955] # Vas Gereben utca
-      - ['08:37:00', 'F03981',   4302] # Kossuth Lajos utca
-      - ['08:38:00', 'F04024',   4610] # Batthyány utca
-      - ['08:40:00', 'F03974',   4948] # Hunyadi tér
-      - ['08:41:00', 'F03965',   5378] # Zoltán utca
-      - ['08:42:00', 'F03922',   5859] # Kós Károly tér
-      - ['08:44:00', 'F03925',   6455] # Corvin körút
-      - ['08:47:00', 'F04014',   7171] # Határ út M
+      - ['00:00:00', 'F03879',      0] # Gloriett lakótelep
+      - ['00:01:00', '007923',    444] # Kele utca
+      - ['00:02:00', 'F03623',   1035] # Ipacsfa utca
+      - ['00:03:00', 'F03893',   1415] # Csiky utca
+      - ['00:04:00', 'F03890',   1827] # Karton utca
+      - ['00:06:00', 'F03999',   2313] # Kassa utca
+      - ['00:07:00', 'F03996',   2819] # Ipolyság utca
+      - ['00:08:00', 'F03993',   3252] # Hofherr Albert utca
+      - ['00:09:00', 'F04034',   3657] # Madarassy László utca
+      - ['00:10:00', 'F03989',   3955] # Vas Gereben utca
+      - ['00:10:00', 'F03981',   4302] # Kossuth Lajos utca
+      - ['00:11:00', 'F04024',   4610] # Batthyány utca
+      - ['00:12:00', 'F03974',   4948] # Hunyadi tér
+      - ['00:13:00', 'F03965',   5378] # Zoltán utca
+      - ['00:14:00', 'F03922',   5859] # Kós Károly tér
+      - ['00:16:00', 'F03925',   6455] # Corvin körút
+      - ['00:18:00', 'F04014',   7171] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-1940-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

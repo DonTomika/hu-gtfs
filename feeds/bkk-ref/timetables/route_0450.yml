@@ -13,30 +13,30 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0450-0-1-A066
     stop_times:
-      - ['13:04:00', 'F02760',      0] # Örs vezér tere M+H
-      - ['13:06:00', '009322',    588] # Örs vezér tere M+H (Kerepesi út)
-      - ['13:07:00', 'F01855',   1281] # Gépmadár park
-      - ['13:08:00', 'F01791',   1586] # Rákosfalva H
-      - ['13:09:00', 'F01776',   2191] # Egyenes utcai lakótelep
-      - ['13:11:00', 'F01777',   2789] # Nagyicce H
-      - ['13:12:00', 'F03274',   3124] # Lándzsa utca
-      - ['13:14:00', 'F03241',   3693] # Sashalom H
-      - ['13:15:00', 'F03344',   4172] # Garat utca
-      - ['13:15:00', 'F03239',   4498] # Galgahévíz utca
-      - ['13:16:00', 'F03237',   4871] # Ballada utca
-      - ['13:18:00', 'F03388',   5373] # Jókai Mór utca (Újszász utca)
-      - ['13:18:00', 'F03311',   5632] # Pilóta utca
-      - ['13:20:00', 'F03315',   6142] # Diósy Lajos utca
-      - ['13:21:00', 'F03318',   6584] # Bökényföldi út
-      - ['13:22:00', 'F03383',   6902] # Papír utca
-      - ['13:23:00', 'F03384',   7239] # Farkashalom utca
-      - ['13:24:00', 'F03325',   7538] # Anilin utca
-      - ['13:25:00', 'F03387',   7989] # Cinke utca
-      - ['13:26:00', 'F03328',   8475] # Georgina utca
-      - ['13:27:00', 'F03329',   8771] # Batthyány Ilona utca
-      - ['13:28:00', 'F03331',   9152] # Rózsalevél utca
-      - ['13:29:00', 'F03332',   9469] # Ilonatelep H (Georgina utca)
-      - ['13:31:00', 'F03330',   9972] # Cinkota, Lassú utca
+      - ['00:00:00', 'F02760',      0] # Örs vezér tere M+H
+      - ['00:02:00', '009322',    588] # Örs vezér tere M+H (Kerepesi út)
+      - ['00:03:00', 'F01855',   1281] # Gépmadár park
+      - ['00:04:00', 'F01791',   1586] # Rákosfalva H
+      - ['00:05:00', 'F01776',   2191] # Egyenes utcai lakótelep
+      - ['00:07:00', 'F01777',   2789] # Nagyicce H
+      - ['00:08:00', 'F03274',   3124] # Lándzsa utca
+      - ['00:10:00', 'F03241',   3693] # Sashalom H
+      - ['00:11:00', 'F03344',   4172] # Garat utca
+      - ['00:11:00', 'F03239',   4498] # Galgahévíz utca
+      - ['00:12:00', 'F03237',   4871] # Ballada utca
+      - ['00:14:00', 'F03388',   5373] # Jókai Mór utca (Újszász utca)
+      - ['00:14:00', 'F03311',   5632] # Pilóta utca
+      - ['00:16:00', 'F03315',   6142] # Diósy Lajos utca
+      - ['00:17:00', 'F03318',   6584] # Bökényföldi út
+      - ['00:18:00', 'F03383',   6902] # Papír utca
+      - ['00:19:00', 'F03384',   7239] # Farkashalom utca
+      - ['00:20:00', 'F03325',   7538] # Anilin utca
+      - ['00:21:00', 'F03387',   7989] # Cinke utca
+      - ['00:22:00', 'F03328',   8475] # Georgina utca
+      - ['00:23:00', 'F03329',   8771] # Batthyány Ilona utca
+      - ['00:24:00', 'F03331',   9152] # Rózsalevél utca
+      - ['00:25:00', 'F03332',   9469] # Ilonatelep H (Georgina utca)
+      - ['00:27:00', 'F03330',   9972] # Cinkota, Lassú utca
     trip_headsign: 'Cinkota, Lassú utca'
     trip_id: REFERENCE-0450-0-1
     wheelchair_accessible: 2
@@ -44,27 +44,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0450-1-1-A067
     stop_times:
-      - ['20:58:00', 'F03330',      0] # Cinkota, Lassú utca
-      - ['20:58:00', 'F03327',    316] # Vidámvásár utca (Georgina utca)
-      - ['21:00:00', 'F03386',    669] # Cinke utca
-      - ['21:01:00', 'F03326',   1213] # Anilin utca
-      - ['21:01:00', 'F03385',   1465] # Farkashalom utca
-      - ['21:02:00', 'F03382',   1757] # Papír utca
-      - ['21:02:00', 'F03319',   2115] # Bökényföldi út
-      - ['21:03:00', 'F03314',   2502] # Diósy Lajos utca
-      - ['21:05:00', 'F03313',   3005] # Pilóta utca
-      - ['21:05:00', 'F03389',   3325] # Jókai Mór utca
-      - ['21:06:00', 'F03238',   3786] # Ballada utca
-      - ['21:07:00', 'F03240',   4149] # Galgahévíz utca
-      - ['21:08:00', 'F03345',   4583] # Garat utca
-      - ['21:09:00', 'F03242',   4795] # Sashalom H
-      - ['21:10:00', 'F03275',   5411] # Thököly út
-      - ['21:10:00', 'F01778',   5863] # Nagyicce H
-      - ['21:11:00', 'F01775',   6484] # Egyenes utcai lakótelep
-      - ['21:13:00', 'F01790',   7067] # Rákosfalva H
-      - ['21:14:00', 'F01854',   7465] # Gépmadár park
-      - ['21:14:00', 'F01772',   7772] # Sarkantyú utca
-      - ['21:16:00', 'F01755',   8299] # Örs vezér tere M+H
+      - ['00:00:00', 'F03330',      0] # Cinkota, Lassú utca
+      - ['00:00:00', 'F03327',    316] # Vidámvásár utca (Georgina utca)
+      - ['00:02:00', 'F03386',    669] # Cinke utca
+      - ['00:03:00', 'F03326',   1213] # Anilin utca
+      - ['00:03:00', 'F03385',   1465] # Farkashalom utca
+      - ['00:04:00', 'F03382',   1757] # Papír utca
+      - ['00:04:00', 'F03319',   2115] # Bökényföldi út
+      - ['00:05:00', 'F03314',   2502] # Diósy Lajos utca
+      - ['00:07:00', 'F03313',   3005] # Pilóta utca
+      - ['00:07:00', 'F03389',   3325] # Jókai Mór utca
+      - ['00:08:00', 'F03238',   3786] # Ballada utca
+      - ['00:09:00', 'F03240',   4149] # Galgahévíz utca
+      - ['00:10:00', 'F03345',   4583] # Garat utca
+      - ['00:11:00', 'F03242',   4795] # Sashalom H
+      - ['00:12:00', 'F03275',   5411] # Thököly út
+      - ['00:14:00', 'F01778',   5863] # Nagyicce H
+      - ['00:16:00', 'F01775',   6484] # Egyenes utcai lakótelep
+      - ['00:18:00', 'F01790',   7067] # Rákosfalva H
+      - ['00:19:00', 'F01854',   7465] # Gépmadár park
+      - ['00:19:00', 'F01772',   7772] # Sarkantyú utca
+      - ['00:21:00', 'F01755',   8299] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-0450-1-1
     wheelchair_accessible: 2

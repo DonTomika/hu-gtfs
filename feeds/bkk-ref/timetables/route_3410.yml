@@ -13,33 +13,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3410-0-1-J902
     stop_times:
-      - ['13:01:00', '008750',      0] # Batthyány tér M+H
-      - ['13:02:00', 'F00051',    400] # Halász utca
-      - ['13:04:00', '009676',   1009] # Clark Ádám tér
-      - ['13:06:00', 'F00107',   1639] # Döbrentei tér
-      - ['13:09:00', '008590',   2839] # Szent Gellért tér
-      - ['13:11:00', 'F02148',   3238] # Gárdonyi tér
-      - ['13:13:00', '008593',   3720] # Móricz Zsigmond körtér
-      - ['13:14:00', 'F01997',   4013] # Újbuda-központ
-      - ['13:16:00', 'F02238',   4529] # Fővárosi Művelődési Ház
-      - ['13:17:00', 'F02004',   4826] # Hauszmann Alajos utca
-      - ['13:19:00', 'F02010',   5363] # Hengermalom út
-      - ['13:21:00', 'F02240',   5770] # Kalotaszeg utca
-      - ['13:22:00', 'F02013',   6110] # Andor utca
-      - ['13:24:00', 'F02016',   6424] # Albertfalva, kitérő
-      - ['13:26:00', 'F02020',   7064] # Építész utca
-      - ['13:27:00', 'F02025',   7525] # Fonyód utca
-      - ['13:28:00', 'F02031',   7895] # Budafok kocsiszín
-      - ['13:30:00', 'F01902',   8495] # Budafoki elágazás
-      - ['13:31:00', 'F04379',   9052] # Rózsavölgy alsó
-      - ['13:33:00', 'F04377',   9686] # Rózsavölgy felső
-      - ['13:34:00', 'F04376',  10092] # Pék utca
-      - ['13:35:00', 'F01894',  10539] # Kelenvölgy
-      - ['13:37:00', 'F01892',  11083] # Balatoni út
-      - ['13:38:00', '008788',  11536] # Kőérberek
-      - ['13:39:00', 'F01890',  12144] # Fülőke utca
-      - ['13:40:00', 'F01889',  12501] # Repülőtér
-      - ['13:42:00', 'F01885',  13227] # Kamaraerdei Ifjúsági Park
+      - ['00:00:00', '008750',      0] # Batthyány tér M+H
+      - ['00:01:00', 'F00051',    400] # Halász utca
+      - ['00:03:00', '009676',   1009] # Clark Ádám tér
+      - ['00:05:00', 'F00107',   1639] # Döbrentei tér
+      - ['00:08:00', '008590',   2839] # Szent Gellért tér
+      - ['00:10:00', 'F02148',   3238] # Gárdonyi tér
+      - ['00:12:00', '008593',   3720] # Móricz Zsigmond körtér
+      - ['00:13:00', 'F01997',   4013] # Újbuda-központ
+      - ['00:15:00', 'F02238',   4529] # Fővárosi Művelődési Ház
+      - ['00:16:00', 'F02004',   4826] # Hauszmann Alajos utca
+      - ['00:18:00', 'F02010',   5363] # Hengermalom út
+      - ['00:19:00', 'F02240',   5770] # Kalotaszeg utca
+      - ['00:20:00', 'F02013',   6110] # Andor utca
+      - ['00:22:00', 'F02016',   6424] # Albertfalva, kitérő
+      - ['00:24:00', 'F02020',   7064] # Építész utca
+      - ['00:25:00', 'F02025',   7525] # Fonyód utca
+      - ['00:26:00', 'F02031',   7895] # Budafok kocsiszín
+      - ['00:28:00', 'F01902',   8495] # Budafoki elágazás
+      - ['00:29:00', 'F04379',   9052] # Rózsavölgy alsó
+      - ['00:31:00', 'F04377',   9686] # Rózsavölgy felső
+      - ['00:32:00', 'F04376',  10092] # Pék utca
+      - ['00:33:00', 'F01894',  10539] # Kelenvölgy
+      - ['00:35:00', 'F01892',  11083] # Balatoni út
+      - ['00:36:00', '008788',  11536] # Kőérberek
+      - ['00:37:00', 'F01890',  12144] # Fülőke utca
+      - ['00:38:00', 'F01889',  12501] # Repülőtér
+      - ['00:40:00', 'F01885',  13227] # Kamaraerdei Ifjúsági Park
     trip_headsign: Kamaraerdei Ifjúsági Park
     trip_id: REFERENCE-3410-0-1
     wheelchair_accessible: 2
@@ -47,33 +47,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3410-1-1-J901
     stop_times:
-      - ['13:53:00', 'F01885',      0] # Kamaraerdei Ifjúsági Park
-      - ['13:55:00', 'F01888',    707] # Repülőtér
-      - ['13:56:00', 'F01891',   1077] # Fülőke utca
-      - ['13:57:00', '008789',   1720] # Kőérberek
-      - ['13:58:00', 'F01893',   2171] # Balatoni út
-      - ['13:59:00', 'F01895',   2661] # Kelenvölgy
-      - ['14:01:00', 'F04375',   3165] # Pék utca
-      - ['14:02:00', 'F04378',   3524] # Rózsavölgy felső
-      - ['14:04:00', 'F04380',   4204] # Rózsavölgy alsó
-      - ['14:06:00', 'F01903',   4754] # Budafoki elágazás
-      - ['14:08:00', 'F02029',   5475] # Budafok kocsiszín
-      - ['14:09:00', 'F02024',   5747] # Fonyód utca
-      - ['14:10:00', 'F02019',   6210] # Építész utca
-      - ['14:12:00', 'F02017',   6775] # Albertfalva, kitérő
-      - ['14:13:00', 'F02014',   7094] # Andor utca
-      - ['14:14:00', 'F02241',   7439] # Kalotaszeg utca
-      - ['14:16:00', 'F02009',   7824] # Hengermalom út
-      - ['14:17:00', 'F02003',   8382] # Hauszmann Alajos utca
-      - ['14:19:00', 'F02239',   8748] # Fővárosi Művelődési Ház
-      - ['14:20:00', 'F01999',   9261] # Újbuda-központ
-      - ['14:22:00', 'F02194',   9556] # Móricz Zsigmond körtér
-      - ['14:24:00', 'F02149',  10049] # Gárdonyi tér
-      - ['14:25:00', '008591',  10434] # Szent Gellért tér
-      - ['14:29:00', 'F00106',  11624] # Döbrentei tér
-      - ['14:30:00', '009675',  12263] # Clark Ádám tér
-      - ['14:32:00', 'F00052',  12788] # Halász utca
-      - ['14:33:00', '008750',  13235] # Batthyány tér M+H
+      - ['00:00:00', 'F01885',      0] # Kamaraerdei Ifjúsági Park
+      - ['00:02:00', 'F01888',    707] # Repülőtér
+      - ['00:03:00', 'F01891',   1077] # Fülőke utca
+      - ['00:04:00', '008789',   1720] # Kőérberek
+      - ['00:05:00', 'F01893',   2171] # Balatoni út
+      - ['00:06:00', 'F01895',   2661] # Kelenvölgy
+      - ['00:08:00', 'F04375',   3165] # Pék utca
+      - ['00:09:00', 'F04378',   3524] # Rózsavölgy felső
+      - ['00:11:00', 'F04380',   4204] # Rózsavölgy alsó
+      - ['00:13:00', 'F01903',   4754] # Budafoki elágazás
+      - ['00:15:00', 'F02029',   5475] # Budafok kocsiszín
+      - ['00:16:00', 'F02024',   5747] # Fonyód utca
+      - ['00:17:00', 'F02019',   6210] # Építész utca
+      - ['00:19:00', 'F02017',   6775] # Albertfalva, kitérő
+      - ['00:20:00', 'F02014',   7094] # Andor utca
+      - ['00:21:00', 'F02241',   7439] # Kalotaszeg utca
+      - ['00:23:00', 'F02009',   7824] # Hengermalom út
+      - ['00:24:00', 'F02003',   8382] # Hauszmann Alajos utca
+      - ['00:26:00', 'F02239',   8748] # Fővárosi Művelődési Ház
+      - ['00:28:00', 'F01999',   9261] # Újbuda-központ
+      - ['00:30:00', 'F02194',   9556] # Móricz Zsigmond körtér
+      - ['00:32:00', 'F02149',  10049] # Gárdonyi tér
+      - ['00:33:00', '008591',  10434] # Szent Gellért tér
+      - ['00:37:00', 'F00106',  11624] # Döbrentei tér
+      - ['00:38:00', '009675',  12263] # Clark Ádám tér
+      - ['00:40:00', 'F00052',  12788] # Halász utca
+      - ['00:41:00', '008750',  13235] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-3410-1-1
     wheelchair_accessible: 2

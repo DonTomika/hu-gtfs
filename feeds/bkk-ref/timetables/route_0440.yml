@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0440-0-1-G140
     stop_times:
-      - ['16:24:00', 'F02763',      0] # Örs vezér tere M+H
-      - ['16:27:00', '009322',    693] # Örs vezér tere M+H (Kerepesi út)
-      - ['16:29:00', 'F01791',   1690] # Rákosfalva H
-      - ['16:30:00', 'F01776',   2295] # Egyenes utcai lakótelep
-      - ['16:32:00', 'F01777',   2893] # Nagyicce H
-      - ['16:33:00', 'F03274',   3228] # Lándzsa utca
-      - ['16:35:00', 'F03241',   3797] # Sashalom H
-      - ['16:37:00', 'F03235',   4309] # Fuvallat utca
-      - ['16:38:00', 'F03393',   4775] # Jókai Mór utca (Rendőrség)
-      - ['16:39:00', 'F03309',   4998] # Mátyásföld, repülőtér H
-      - ['16:41:00', 'F03407',   5475] # Gida utca
-      - ['16:42:00', 'F03341',   5889] # Centenáriumi lakótelep
-      - ['16:42:00', 'F03245',   6140] # Futórózsa utca
-      - ['16:43:00', 'F03354',   6649] # Sasvár utca
-      - ['16:45:00', 'F03246',   6988] # Budapesti út
+      - ['00:00:00', 'F02763',      0] # Örs vezér tere M+H
+      - ['00:03:00', '009322',    693] # Örs vezér tere M+H (Kerepesi út)
+      - ['00:05:00', 'F01791',   1690] # Rákosfalva H
+      - ['00:06:00', 'F01776',   2295] # Egyenes utcai lakótelep
+      - ['00:08:00', 'F01777',   2893] # Nagyicce H
+      - ['00:09:00', 'F03274',   3228] # Lándzsa utca
+      - ['00:11:00', 'F03241',   3797] # Sashalom H
+      - ['00:13:00', 'F03235',   4309] # Fuvallat utca
+      - ['00:15:00', 'F03393',   4775] # Jókai Mór utca (Rendőrség)
+      - ['00:16:00', 'F03309',   4998] # Mátyásföld, repülőtér H
+      - ['00:18:00', 'F03407',   5475] # Gida utca
+      - ['00:19:00', 'F03341',   5889] # Centenáriumi lakótelep
+      - ['00:19:00', 'F03245',   6140] # Futórózsa utca
+      - ['00:20:00', 'F03354',   6649] # Sasvár utca
+      - ['00:22:00', 'F03246',   6988] # Budapesti út
     trip_headsign: Budapesti út
     trip_id: REFERENCE-0440-0-1
     wheelchair_accessible: 1
@@ -35,20 +35,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0440-1-1-G139
     stop_times:
-      - ['13:31:00', 'F03246',      0] # Budapesti út
-      - ['13:31:00', 'F03234',    218] # Olga utca
-      - ['13:32:00', 'F03232',    862] # Sasvár utca
-      - ['13:33:00', 'F03340',   1341] # Margit utca
-      - ['13:34:00', 'F03408',   1701] # Gida utca
-      - ['13:36:00', 'F03308',   2240] # Mátyásföld, repülőtér H
-      - ['13:37:00', 'F03392',   2562] # Jókai Mór utca (Rendőrség)
-      - ['13:37:00', 'F03236',   2867] # Fuvallat utca
-      - ['13:39:00', 'F03243',   3274] # Sashalom H
-      - ['13:40:00', 'F03275',   3835] # Thököly út
-      - ['13:41:00', 'F01778',   4287] # Nagyicce H
-      - ['13:43:00', 'F01775',   4908] # Egyenes utcai lakótelep
-      - ['13:45:00', 'F01790',   5491] # Rákosfalva H
-      - ['13:48:00', 'F01755',   6718] # Örs vezér tere M+H
+      - ['00:00:00', 'F03246',      0] # Budapesti út
+      - ['00:00:00', 'F03234',    218] # Olga utca
+      - ['00:01:00', 'F03232',    862] # Sasvár utca
+      - ['00:02:00', 'F03340',   1341] # Margit utca
+      - ['00:03:00', 'F03408',   1701] # Gida utca
+      - ['00:05:00', 'F03308',   2240] # Mátyásföld, repülőtér H
+      - ['00:06:00', 'F03392',   2562] # Jókai Mór utca (Rendőrség)
+      - ['00:06:00', 'F03236',   2867] # Fuvallat utca
+      - ['00:08:00', 'F03243',   3274] # Sashalom H
+      - ['00:10:00', 'F03275',   3835] # Thököly út
+      - ['00:11:00', 'F01778',   4287] # Nagyicce H
+      - ['00:13:00', 'F01775',   4908] # Egyenes utcai lakótelep
+      - ['00:16:00', 'F01790',   5491] # Rákosfalva H
+      - ['00:19:00', 'F01755',   6718] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-0440-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

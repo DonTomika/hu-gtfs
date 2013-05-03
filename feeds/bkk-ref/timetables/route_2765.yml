@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: 'Örs vezér tere M+H / Rákoscsaba-Újtelep, Naplás út'
+route_desc: Örs vezér tere M+H / Rákosliget vasútállomás
 route_id: 2765
 route_long_name: ''
 route_short_name: 276E
@@ -13,62 +13,62 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2765-0-1-T879
     stop_times:
-      - ['19:38:00', '008028',      0] # Örs vezér tere M+H
-      - ['19:40:00', '009322',    411] # Örs vezér tere M+H (Kerepesi út)
-      - ['19:43:00', 'F01776',   2013] # Egyenes utcai lakótelep
-      - ['19:45:00', 'F03274',   2951] # Lándzsa utca
-      - ['19:49:00', 'F03393',   4508] # Jókai Mór utca (Rendőrség)
-      - ['19:49:00', 'F03309',   4731] # Mátyásföld, repülőtér H
-      - ['19:50:00', 'F03396',   5249] # Mátyásföld, Imre utca H
-      - ['19:51:00', 'F03324',   5452] # Bökényföldi út
-      - ['19:52:00', 'F03321',   5774] # Hunyadvár utca
-      - ['19:53:00', 'F03317',   6228] # Újszász utca
-      - ['19:54:00', 'F03399',   6624] # Nebántsvirág utca
-      - ['19:55:00', 'F03401',   7038] # Zsemlékes út
-      - ['19:56:00', 'F03404',   8181] # EGIS Gyógyszergyár
-      - ['19:57:00', 'F03290',   8652] # Injekcióüzem
-      - ['19:58:00', 'F03289',   9226] # Cinkotai autóbuszgarázs
-      - ['19:59:00', 'F03450',   9717] # Vidor utca
-      - ['19:59:00', 'F03452',  10179] # Gyöngytyúk utca
-      - ['20:00:00', 'F03454',  10475] # Liget sor
-      - ['20:01:00', 'F03456',  10918] # Liszt Ferenc utca
-      - ['20:03:00', 'F03604',  11581] # Rákosliget vasútállomás
-      - ['20:04:00', 'F03458',  11742] # IV. utca
-      - ['20:04:00', 'F03447',  12045] # Hősök tere
-      - ['20:05:00', 'F03469',  12330] # XVIII. utca
-      - ['20:06:00', 'F03573',  12740] # Ananász utca
-      - ['20:07:00', 'F03576',  13000] # Bártfai utca
-      - ['20:08:00', 'F03578',  13456] # Rákoscsaba-Újtelep, Naplás út
-      - ['20:09:00', 'F03580',  13973] # Diadal utca
-      - ['20:10:00', '009705',  14236] # Diadal utca (Tura utca)
-      - ['20:10:00', 'F03463',  14518] # Bártfai utca
-      - ['20:11:00', 'F03464',  14890] # Ároktő út
-      - ['20:12:00', 'F03466',  15296] # XVII. utca
-      - ['20:14:00', 'F03471',  15928] # Tarack utca
-      - ['20:15:00', 'F03451',  16559] # Cinkotai út
-      - ['20:17:00', 'F03449',  17072] # Vidor utca
-      - ['20:18:00', '008569',  17602] # Cinkotai autóbuszgarázs
-      - ['20:19:00', 'F03291',  18042] # Injekcióüzem
+      - ['00:00:00', '008028',      0] # Örs vezér tere M+H
+      - ['00:02:00', '009322',    411] # Örs vezér tere M+H (Kerepesi út)
+      - ['00:06:00', 'F01776',   2013] # Egyenes utcai lakótelep
+      - ['00:09:00', 'F03274',   2951] # Lándzsa utca
+      - ['00:14:00', 'F03393',   4508] # Jókai Mór utca (Rendőrség)
+      - ['00:14:00', 'F03309',   4731] # Mátyásföld, repülőtér H
+      - ['00:15:00', 'F03396',   5249] # Mátyásföld, Imre utca H
+      - ['00:16:00', 'F03324',   5452] # Bökényföldi út
+      - ['00:17:00', 'F03321',   5774] # Hunyadvár utca
+      - ['00:18:00', 'F03317',   6228] # Újszász utca
+      - ['00:19:00', 'F03399',   6624] # Nebántsvirág utca
+      - ['00:20:00', 'F03401',   7038] # Zsemlékes út
+      - ['00:22:00', 'F03404',   8181] # EGIS Gyógyszergyár
+      - ['00:22:00', 'F03290',   8652] # Injekcióüzem
+      - ['00:24:00', 'F03289',   9226] # Cinkotai autóbuszgarázs
+      - ['00:25:00', 'F03450',   9717] # Vidor utca
+      - ['00:25:00', 'F03452',  10179] # Gyöngytyúk utca
+      - ['00:26:00', 'F03454',  10475] # Liget sor
+      - ['00:27:00', 'F03456',  10918] # Liszt Ferenc utca
+      - ['00:29:00', 'F03604',  11581] # Rákosliget vasútállomás
+      - ['00:30:00', 'F03458',  11742] # IV. utca
+      - ['00:30:00', 'F03447',  12045] # Hősök tere
+      - ['00:31:00', 'F03469',  12330] # XVIII. utca
+      - ['00:32:00', 'F03573',  12740] # Ananász utca
+      - ['00:33:00', 'F03576',  13000] # Bártfai utca
+      - ['00:34:00', 'F03578',  13456] # Rákoscsaba-Újtelep, Naplás út
+      - ['00:35:00', 'F03580',  13973] # Diadal utca
+      - ['00:36:00', '009705',  14236] # Diadal utca (Tura utca)
+      - ['00:36:00', 'F03463',  14518] # Bártfai utca
+      - ['00:37:00', 'F03464',  14890] # Ároktő út
+      - ['00:38:00', 'F03466',  15296] # XVII. utca
+      - ['00:40:00', 'F03471',  15928] # Tarack utca
+      - ['00:41:00', 'F03451',  16559] # Cinkotai út
+      - ['00:43:00', 'F03449',  17072] # Vidor utca
+      - ['00:44:00', '008569',  17602] # Cinkotai autóbuszgarázs
+      - ['00:45:00', 'F03291',  18042] # Injekcióüzem
     trip_headsign: Injekcióüzem
     trip_id: REFERENCE-2765-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2765-1-1-M858
     stop_times:
-      - ['13:14:00', 'F03291',      0] # Injekcióüzem
-      - ['13:15:00', 'F03403',    659] # EGIS Gyógyszergyár
-      - ['13:17:00', 'F03402',   1692] # Zsemlékes út
-      - ['13:18:00', 'F03400',   2137] # Petőfi tér
-      - ['13:19:00', 'F03316',   2492] # Újszász utca
-      - ['13:20:00', 'F03320',   2949] # Hunyadvár utca
-      - ['13:21:00', 'F03323',   3198] # Veres Péter út
-      - ['13:21:00', 'F03397',   3400] # Mátyásföld, Imre utca H
-      - ['13:23:00', 'F03308',   3981] # Mátyásföld, repülőtér H
-      - ['13:24:00', 'F03392',   4303] # Jókai Mór utca (Rendőrség)
-      - ['13:26:00', 'F03275',   5591] # Thököly út
-      - ['13:29:00', 'F01775',   6664] # Egyenes utcai lakótelep
-      - ['13:34:00', 'F01752',   8490] # Örs vezér tere M+H
+      - ['00:00:00', 'F03291',      0] # Injekcióüzem
+      - ['00:01:00', 'F03403',    659] # EGIS Gyógyszergyár
+      - ['00:03:00', 'F03402',   1692] # Zsemlékes út
+      - ['00:04:00', 'F03400',   2137] # Petőfi tér
+      - ['00:05:00', 'F03316',   2492] # Újszász utca
+      - ['00:06:00', 'F03320',   2949] # Hunyadvár utca
+      - ['00:07:00', 'F03323',   3198] # Veres Péter út
+      - ['00:07:00', 'F03397',   3400] # Mátyásföld, Imre utca H
+      - ['00:09:00', 'F03308',   3981] # Mátyásföld, repülőtér H
+      - ['00:10:00', 'F03392',   4303] # Jókai Mór utca (Rendőrség)
+      - ['00:12:00', 'F03275',   5591] # Thököly út
+      - ['00:15:00', 'F01775',   6664] # Egyenes utcai lakótelep
+      - ['00:20:00', 'F01752',   8490] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-2765-1-1
     wheelchair_accessible: 2

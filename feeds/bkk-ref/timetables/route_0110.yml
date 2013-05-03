@@ -13,47 +13,47 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0110-0-1-0714
     stop_times:
-      - ['17:08:00', 'F00067',      0] # Batthyány tér M+H
-      - ['17:09:00', 'F00034',    696] # Fazekas utca
-      - ['17:11:00', 'F00193',   1026] # Margit körút
-      - ['17:13:00', 'F00195',   1287] # Mechwart liget
-      - ['17:14:00', 'F00201',   1843] # Füge utca
-      - ['17:15:00', 'F00203',   2084] # Rét utca
-      - ['17:16:00', 'F00205',   2297] # Ady Endre utca
-      - ['17:17:00', 'F00207',   2638] # Tapolcsányi utca
-      - ['17:18:00', 'F00209',   3010] # Eszter utca
-      - ['17:19:00', 'F00211',   3243] # Vend utca
-      - ['17:20:00', 'F00215',   3477] # Pusztaszeri körönd
-      - ['17:20:00', 'F00151',   3859] # Baba utca
-      - ['17:21:00', 'F00269',   4137] # Móricz Zsigmond Gimnázium
-      - ['17:21:00', 'F00267',   4439] # Tömörkény utca
-      - ['17:22:00', 'F00264',   4762] # Csatárka út
-      - ['17:23:00', 'F00271',   5351] # Vöröstorony lépcső
-      - ['17:25:00', 'F00273',   5853] # Nagybányai út
+      - ['00:00:00', 'F00067',      0] # Batthyány tér M+H
+      - ['00:01:00', 'F00034',    696] # Fazekas utca
+      - ['00:02:00', 'F00193',   1026] # Margit körút
+      - ['00:05:00', 'F00195',   1287] # Mechwart liget
+      - ['00:06:00', 'F00201',   1843] # Füge utca
+      - ['00:07:00', 'F00203',   2084] # Rét utca
+      - ['00:08:00', 'F00205',   2297] # Ady Endre utca
+      - ['00:09:00', 'F00207',   2638] # Tapolcsányi utca
+      - ['00:10:00', 'F00209',   3010] # Eszter utca
+      - ['00:11:00', 'F00211',   3243] # Vend utca
+      - ['00:12:00', 'F00215',   3477] # Pusztaszeri körönd
+      - ['00:12:00', 'F00151',   3859] # Baba utca
+      - ['00:13:00', 'F00269',   4137] # Móricz Zsigmond Gimnázium
+      - ['00:13:00', 'F00267',   4439] # Tömörkény utca
+      - ['00:14:00', 'F00264',   4762] # Csatárka út
+      - ['00:15:00', 'F00271',   5351] # Vöröstorony lépcső
+      - ['00:17:00', 'F00273',   5853] # Nagybányai út
     trip_headsign: Nagybányai út
     trip_id: REFERENCE-0110-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0110-1-1-0715
     stop_times:
-      - ['09:46:00', 'F00273',      0] # Nagybányai út
-      - ['09:47:00', 'F00272',    475] # Vöröstorony lépcső
-      - ['09:48:00', 'F00265',    959] # Kapy utca
-      - ['09:49:00', 'F00268',   1345] # Tömörkény utca
-      - ['09:50:00', 'F00270',   1556] # Móricz Zsigmond Gimnázium
-      - ['09:50:00', 'F00152',   1886] # Baba utca
-      - ['09:51:00', 'F00216',   2277] # Pusztaszeri körönd
-      - ['09:52:00', 'F00212',   2551] # Vend utca
-      - ['09:53:00', 'F00210',   2733] # Eszter utca
-      - ['09:54:00', 'F00208',   3060] # Tapolcsányi utca
-      - ['09:55:00', 'F00206',   3352] # Ady Endre utca
-      - ['09:55:00', 'F00204',   3609] # Rét utca
-      - ['09:56:00', 'F00202',   3856] # Füge utca
-      - ['09:57:00', 'F00196',   4427] # Mechwart liget
-      - ['09:59:00', 'F00194',   4724] # Horvát utca
-      - ['10:00:00', 'F00035',   5030] # Csalogány utca
-      - ['10:02:00', 'F00067',   5654] # Batthyány tér M+H
+      - ['00:00:00', 'F00273',      0] # Nagybányai út
+      - ['00:01:00', 'F00272',    475] # Vöröstorony lépcső
+      - ['00:02:00', 'F00265',    959] # Kapy utca
+      - ['00:03:00', 'F00268',   1345] # Tömörkény utca
+      - ['00:04:00', 'F00270',   1556] # Móricz Zsigmond Gimnázium
+      - ['00:04:00', 'F00152',   1886] # Baba utca
+      - ['00:05:00', 'F00216',   2277] # Pusztaszeri körönd
+      - ['00:06:00', 'F00212',   2551] # Vend utca
+      - ['00:07:00', 'F00210',   2733] # Eszter utca
+      - ['00:08:00', 'F00208',   3060] # Tapolcsányi utca
+      - ['00:09:00', 'F00206',   3352] # Ady Endre utca
+      - ['00:10:00', 'F00204',   3609] # Rét utca
+      - ['00:11:00', 'F00202',   3856] # Füge utca
+      - ['00:12:00', 'F00196',   4427] # Mechwart liget
+      - ['00:14:00', 'F00194',   4724] # Horvát utca
+      - ['00:15:00', 'F00035',   5030] # Csalogány utca
+      - ['00:17:00', 'F00067',   5654] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-0110-1-1
     wheelchair_accessible: 1

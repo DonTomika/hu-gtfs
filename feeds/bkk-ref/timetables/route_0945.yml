@@ -13,41 +13,41 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0945-0-1-G429
     stop_times:
-      - ['13:20:00', 'F04018',      0] # Határ út M
-      - ['13:23:00', 'F01370',   1526] # Nagykőrösi út (Határ út)
-      - ['13:30:00', 'F03632',   6648] # Szentlőrinci út
-      - ['13:38:00', '008949',   9924] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['13:39:00', 'F03875',  10488] # Csolt utca
-      - ['13:40:00', 'F03657',  10904] # Ár utca
-      - ['13:41:00', 'F03779',  11470] # Kalász utca
-      - ['13:43:00', 'F04600',  12113] # Gyál felső vasútállomás
-      - ['13:44:00', 'F04605',  12633] # Ady Endre utca
-      - ['13:45:00', 'F04648',  13189] # Rákóczi Ferenc utca
-      - ['13:46:00', 'F04602',  13579] # Széchenyi István utca
-      - ['13:47:00', 'F04650',  13910] # Somogyi Béla utca
-      - ['13:49:00', 'F04649',  14519] # Bocskai István utca
-      - ['13:50:00', 'F04603',  14939] # Gyál, Vecsési út
+      - ['00:00:00', 'F04018',      0] # Határ út M
+      - ['00:03:00', 'F01370',   1526] # Nagykőrösi út (Határ út)
+      - ['00:10:00', 'F03632',   6648] # Szentlőrinci út
+      - ['00:17:00', '008949',   9924] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:18:00', 'F03875',  10488] # Csolt utca
+      - ['00:19:00', 'F03657',  10904] # Ár utca
+      - ['00:20:00', 'F03779',  11470] # Kalász utca
+      - ['00:22:00', 'F04600',  12113] # Gyál felső vasútállomás
+      - ['00:23:00', 'F04605',  12633] # Ady Endre utca
+      - ['00:24:00', 'F04648',  13189] # Rákóczi Ferenc utca
+      - ['00:25:00', 'F04602',  13579] # Széchenyi István utca
+      - ['00:26:00', 'F04650',  13910] # Somogyi Béla utca
+      - ['00:28:00', 'F04649',  14519] # Bocskai István utca
+      - ['00:29:00', 'F04603',  14939] # Gyál, Vecsési út
     trip_headsign: 'Gyál, Vecsési út'
     trip_id: REFERENCE-0945-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0945-1-1-G430
     stop_times:
-      - ['16:53:00', 'F04603',      0] # Gyál, Vecsési út
-      - ['16:53:00', 'F04647',    351] # Szent István utca
-      - ['16:54:00', 'F04604',    747] # Kőrösi út
-      - ['16:55:00', 'F04651',   1125] # Bocskai István utca
-      - ['16:56:00', 'F04652',   1682] # Somogyi Béla utca
-      - ['16:57:00', 'F04606',   2093] # Ady Endre utca
-      - ['16:59:00', 'F04601',   2613] # Gyál felső vasútállomás
-      - ['17:01:00', 'F03778',   3373] # Kalász utca
-      - ['17:02:00', 'F03658',   3904] # Paula utca
-      - ['17:03:00', 'F03876',   4322] # Csolt utca
-      - ['17:06:00', '008950',   5057] # Pestszentimre vasútáll. (Nagykőrösi út)
-      - ['17:10:00', 'F03631',   8172] # Szentlőrinci út
-      - ['17:17:00', 'F01451',  12986] # Nagykőrösi út (Határ út)
-      - ['17:20:00', 'F04014',  14403] # Határ út M
+      - ['00:00:00', 'F04603',      0] # Gyál, Vecsési út
+      - ['00:00:00', 'F04647',    351] # Szent István utca
+      - ['00:01:00', 'F04604',    747] # Kőrösi út
+      - ['00:02:00', 'F04651',   1125] # Bocskai István utca
+      - ['00:03:00', 'F04652',   1682] # Somogyi Béla utca
+      - ['00:04:00', 'F04606',   2093] # Ady Endre utca
+      - ['00:06:00', 'F04601',   2613] # Gyál felső vasútállomás
+      - ['00:08:00', 'F03778',   3373] # Kalász utca
+      - ['00:09:00', 'F03658',   3904] # Paula utca
+      - ['00:10:00', 'F03876',   4322] # Csolt utca
+      - ['00:13:00', '008950',   5057] # Pestszentimre vasútáll. (Nagykőrösi út)
+      - ['00:17:00', 'F03631',   8172] # Szentlőrinci út
+      - ['00:24:00', 'F01451',  12986] # Nagykőrösi út (Határ út)
+      - ['00:27:00', 'F04014',  14403] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-0945-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

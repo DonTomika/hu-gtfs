@@ -11,64 +11,63 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-0920-0-1-O287
+    shape_id: REFERENCE-0920-0-1-0154
     stop_times:
-      - ['11:47:00', 'F02690',      0] # Rákosszentmihály vasútállomás
-      - ['11:47:00', 'F03276',    381] # Pálya utca
-      - ['11:49:00', 'F03263',    905] # Rákóczi út
-      - ['11:50:00', 'F03262',   1273] # József utca
-      - ['11:50:00', 'F03359',   1619] # Szent Korona utca
-      - ['11:51:00', 'F03253',   1945] # Rákosi út
-      - ['11:53:00', 'F03249',   2601] # Budapesti út
-      - ['11:54:00', 'F03356',   2871] # Sasvár utca
-      - ['11:54:00', 'F03247',   3254] # Margit utca
-      - ['11:54:00', 'F03244',   3607] # Sashalom H
-      - ['11:57:00', 'F03235',   4089] # Fuvallat utca
-      - ['11:58:00', 'F03393',   4555] # Jókai Mór utca (Rendőrség)
-      - ['11:59:00', 'F03309',   4778] # Mátyásföld, repülőtér H
-      - ['11:59:00', 'F03396',   5296] # Mátyásföld, Imre utca H
-      - ['12:00:00', 'F03324',   5499] # Bökényföldi út
-      - ['12:00:00', 'F03395',   5809] # Csinszka utca
-      - ['12:02:00', 'F03380',   6705] # Cinkota H
-      - ['12:03:00', 'F03305',   6912] # Vidámvásár utca
-      - ['12:04:00', 'F03328',   7594] # Georgina utca
-      - ['12:05:00', 'F03329',   7890] # Batthyány Ilona utca
-      - ['12:06:00', 'F03331',   8271] # Rózsalevél utca
-      - ['12:07:00', 'F03333',   8679] # Ilonatelep H
-      - ['12:09:00', 'F03405',   9485] # Cinkotai köztemető
-      - ['12:11:00', 'F03284',  10467] # Raktárak
-      - ['12:13:00', '12:14:00', 'F04584',  11111] # Kistarcsa, kórház H
-      - ['12:17:00', '008670',  12135] # Auchan Liget
-    trip_headsign: Auchan Liget
+      - ['00:00:00', 'F02690',      0] # Rákosszentmihály vasútállomás
+      - ['00:00:00', 'F03276',    381] # Pálya utca
+      - ['00:02:00', 'F03263',    905] # Rákóczi út
+      - ['00:03:00', 'F03262',   1273] # József utca
+      - ['00:03:00', 'F03359',   1619] # Szent Korona utca
+      - ['00:04:00', 'F03253',   1945] # Rákosi út
+      - ['00:06:00', 'F03249',   2601] # Budapesti út
+      - ['00:07:00', 'F03356',   2871] # Sasvár utca
+      - ['00:07:00', 'F03247',   3254] # Margit utca
+      - ['00:07:00', 'F03244',   3607] # Sashalom H
+      - ['00:10:00', 'F03235',   4089] # Fuvallat utca
+      - ['00:11:00', 'F03393',   4555] # Jókai Mór utca (Rendőrség)
+      - ['00:12:00', 'F03309',   4778] # Mátyásföld, repülőtér H
+      - ['00:12:00', 'F03396',   5296] # Mátyásföld, Imre utca H
+      - ['00:13:00', 'F03324',   5499] # Bökényföldi út
+      - ['00:13:00', 'F03395',   5809] # Csinszka utca
+      - ['00:15:00', 'F03380',   6705] # Cinkota H
+      - ['00:16:00', 'F03305',   6912] # Vidámvásár utca
+      - ['00:17:00', 'F03328',   7594] # Georgina utca
+      - ['00:18:00', 'F03329',   7890] # Batthyány Ilona utca
+      - ['00:19:00', 'F03331',   8271] # Rózsalevél utca
+      - ['00:20:00', 'F03333',   8679] # Ilonatelep H
+      - ['00:22:00', 'F03405',   9485] # Cinkotai köztemető
+      - ['00:24:00', 'F03284',  10467] # Raktárak
+      - ['00:26:00', 'F04584',  11111] # Kistarcsa, kórház H
+    trip_headsign: 'Kistarcsa, kórház H'
     trip_id: REFERENCE-0920-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-0920-1-1-6832
+    shape_id: REFERENCE-0920-1-1-0155
     stop_times:
-      - ['16:05:00', '008670',      0] # Auchan Liget
-      - ['16:07:00', 'F03285',    987] # Raktárak
-      - ['16:09:00', 'F03406',   1903] # Cinkotai köztemető
-      - ['16:10:00', 'F03334',   2666] # Ilonatelep H
-      - ['16:11:00', 'F03398',   3161] # Műkő utca
-      - ['16:12:00', 'F03306',   3626] # Vidámvásár utca
-      - ['16:13:00', 'F03379',   3774] # Cinkota H
-      - ['16:15:00', 'F03394',   4693] # Csinszka utca
-      - ['16:16:00', 'F03322',   4995] # Bökényföldi út
-      - ['16:17:00', 'F03397',   5196] # Mátyásföld, Imre utca H
-      - ['16:19:00', 'F03308',   5777] # Mátyásföld, repülőtér H
-      - ['16:19:00', 'F03392',   6099] # Jókai Mór utca (Rendőrség)
-      - ['16:20:00', 'F03236',   6404] # Fuvallat utca
-      - ['16:21:00', 'F03243',   6811] # Sashalom H
-      - ['16:22:00', 'F03248',   7200] # Margit utca
-      - ['16:23:00', 'F03355',   7610] # Sasvár utca
-      - ['16:24:00', 'F03250',   7866] # Budapesti út
-      - ['16:26:00', 'F03256',   8506] # Rákosi út
-      - ['16:26:00', 'F03360',   8864] # Szent Korona utca
-      - ['16:27:00', 'F03261',   9192] # Csömöri út
-      - ['16:29:00', 'F03264',   9731] # Batthyány utca
-      - ['16:29:00', 'F03277',  10072] # Pálya utca
-      - ['16:31:00', 'F03281',  10495] # Rákosszentmihály vasútállomás
+      - ['00:00:00', 'F04584',      0] # Kistarcsa, kórház H
+      - ['00:02:00', 'F03285',   1074] # Raktárak
+      - ['00:04:00', 'F03406',   1990] # Cinkotai köztemető
+      - ['00:05:00', 'F03334',   2753] # Ilonatelep H
+      - ['00:06:00', 'F03398',   3248] # Műkő utca
+      - ['00:08:00', 'F03306',   3713] # Vidámvásár utca
+      - ['00:08:00', 'F03379',   3861] # Cinkota H
+      - ['00:10:00', 'F03394',   4780] # Csinszka utca
+      - ['00:11:00', 'F03322',   5082] # Bökényföldi út
+      - ['00:11:00', 'F03397',   5283] # Mátyásföld, Imre utca H
+      - ['00:12:00', 'F03308',   5864] # Mátyásföld, repülőtér H
+      - ['00:13:00', 'F03392',   6186] # Jókai Mór utca (Rendőrség)
+      - ['00:14:00', 'F03236',   6491] # Fuvallat utca
+      - ['00:14:00', 'F03243',   6898] # Sashalom H
+      - ['00:15:00', 'F03248',   7287] # Margit utca
+      - ['00:16:00', 'F03355',   7697] # Sasvár utca
+      - ['00:17:00', 'F03250',   7953] # Budapesti út
+      - ['00:18:00', 'F03256',   8593] # Rákosi út
+      - ['00:19:00', 'F03360',   8951] # Szent Korona utca
+      - ['00:20:00', 'F03261',   9279] # Csömöri út
+      - ['00:21:00', 'F03264',   9818] # Batthyány utca
+      - ['00:22:00', 'F03277',  10159] # Pálya utca
+      - ['00:23:00', 'F03281',  10582] # Rákosszentmihály vasútállomás
     trip_headsign: Rákosszentmihály vasútállomás
     trip_id: REFERENCE-0920-1-1
     wheelchair_accessible: 1

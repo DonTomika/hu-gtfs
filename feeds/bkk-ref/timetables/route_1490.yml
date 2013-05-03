@@ -13,17 +13,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1490-0-1-G097
     stop_times:
-      - ['09:38:00', 'F02465',      0] # Széll Kálmán tér M
-      - ['09:40:00', '008087',    337] # Fény utcai piac
-      - ['09:41:00', '009413',    570] # Ezredes utca
-      - ['09:42:00', 'F00154',    769] # Garas utca
-      - ['09:43:00', 'F00302',   1045] # Rókushegyi lépcső
-      - ['09:44:00', 'F00372',   1252] # Gondozási Központ
-      - ['09:45:00', 'F00300',   1384] # Balogvár utca
-      - ['09:46:00', 'F00299',   1654] # Detrekő utca
-      - ['09:47:00', 'F00294',   2017] # Gábor Áron utca
-      - ['09:49:00', 'F00292',   2388] # Tüske utca
-      - ['09:50:00', 'F00290',   2783] # Fenyves utca
+      - ['00:00:00', 'F02465',      0] # Széll Kálmán tér M
+      - ['00:02:00', '008087',    337] # Fény utcai piac
+      - ['00:03:00', '009413',    570] # Ezredes utca
+      - ['00:04:00', 'F00154',    769] # Garas utca
+      - ['00:05:00', 'F00302',   1045] # Rókushegyi lépcső
+      - ['00:06:00', 'F00372',   1252] # Gondozási Központ
+      - ['00:06:00', 'F00300',   1384] # Balogvár utca
+      - ['00:07:00', 'F00299',   1654] # Detrekő utca
+      - ['00:08:00', 'F00294',   2017] # Gábor Áron utca
+      - ['00:10:00', 'F00292',   2388] # Tüske utca
+      - ['00:11:00', 'F00290',   2783] # Fenyves utca
     trip_headsign: Fenyves utca
     trip_id: REFERENCE-1490-0-1
     wheelchair_accessible: 2
@@ -31,18 +31,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1490-1-1-R723
     stop_times:
-      - ['14:35:00', 'F00291',      0] # Fenyves utca
-      - ['14:35:00', 'F00293',    285] # Bimbó köz
-      - ['14:37:00', 'F00296',    815] # Lóczy Lajos utca
-      - ['14:38:00', 'F00297',   1099] # Hankóczy Jenő utca
-      - ['14:39:00', 'F00298',   1338] # Zilah utca
-      - ['14:40:00', 'F00301',   1625] # Ruszti út
-      - ['14:41:00', 'F00373',   1783] # Gondozási Központ
-      - ['14:42:00', 'F00303',   2002] # Lorántffy Zsuzsanna út
-      - ['14:43:00', 'F00153',   2180] # Garas utca
-      - ['14:44:00', 'F00304',   2372] # Ezredes utca
-      - ['14:45:00', 'F00305',   2686] # Dékán utca
-      - ['14:47:00', 'F02468',   2979] # Széll Kálmán tér M
+      - ['00:00:00', 'F00291',      0] # Fenyves utca
+      - ['00:00:00', 'F00293',    285] # Bimbó köz
+      - ['00:02:00', 'F00296',    815] # Lóczy Lajos utca
+      - ['00:03:00', 'F00297',   1099] # Hankóczy Jenő utca
+      - ['00:04:00', 'F00298',   1338] # Zilah utca
+      - ['00:05:00', 'F00301',   1625] # Ruszti út
+      - ['00:06:00', 'F00373',   1783] # Gondozási Központ
+      - ['00:06:00', 'F00303',   2002] # Lorántffy Zsuzsanna út
+      - ['00:07:00', 'F00153',   2180] # Garas utca
+      - ['00:07:00', 'F00304',   2372] # Ezredes utca
+      - ['00:08:00', 'F00305',   2686] # Dékán utca
+      - ['00:10:00', 'F02468',   2979] # Széll Kálmán tér M
     trip_headsign: Széll Kálmán tér M
     trip_id: REFERENCE-1490-1-1
     wheelchair_accessible: 1

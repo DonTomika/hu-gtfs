@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: 'Rákospalota, MÁV-telep / Blaha Lujza tér M'
+route_desc: 'Rákospalota, MÁV-telep / Blaha Lujza tér M (Népszínház utca)'
 route_id: 3620
 route_long_name: ''
 route_short_name: 62
@@ -13,40 +13,40 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3620-0-1-E977
     stop_times:
-      - ['13:43:00', 'F03103',      0] # Rákospalota, MÁV-telep
-      - ['13:44:00', 'F03205',    451] # Tóth István utca
-      - ['13:46:00', 'F02858',    966] # Öv utca
-      - ['13:47:00', 'F02909',   1259] # Miskolci utca
-      - ['13:49:00', 'F02861',   1687] # Rákospatak utca
-      - ['13:50:00', 'F02947',   2072] # Fűrész utca
-      - ['13:52:00', 'F02865',   2518] # Nagy Lajos király útja
-      - ['13:53:00', '008209',   2621] # Czobor utca
-      - ['13:54:00', 'F02966',   2878] # Kerékgyártó utca
-      - ['13:56:00', 'F02831',   3368] # Bosnyák tér
-      - ['13:58:00', 'F02814',   3753] # Szugló utca
-      - ['14:00:00', 'F02796',   4154] # Egressy tér
-      - ['14:01:00', 'F02971',   4700] # Jeszenák János utca
-      - ['14:02:00', 'F02748',   5077] # Pongrátz Gergely tér
-      - ['14:04:00', 'F02968',   5484] # Tihamér utca
-      - ['14:05:00', '008222',   5959] # Örs vezér tere - Zugló M+H
-      - ['14:07:00', '008383',   6080] # Örs vezér tere - Kőbánya M
-      - ['14:08:00', 'F01862',   6402] # Finommechanikai Zrt.
-      - ['14:10:00', 'F01782',   7127] # Terebesi utca
-      - ['14:13:00', 'F01623',   7662] # Élessarok
-      - ['14:15:00', 'F01827',   8017] # Ónodi utca
-      - ['14:18:00', 'F01649',   8492] # Szent László tér
-      - ['14:21:00', 'F01645',   8922] # Kőbánya alsó vasútállomás
-      - ['14:22:00', 'F01567',   9335] # Mázsa utca
-      - ['14:24:00', 'F01565',   9807] # Egészségház
-      - ['14:25:00', 'F01731',  10094] # Északi Járműjavító
-      - ['14:27:00', 'F01265',  10552] # Könyves Kálmán körút
-      - ['14:28:00', 'F01264',  10883] # Kőbányai út 31.
-      - ['14:30:00', 'F01180',  11528] # Kőbányai út 21.
-      - ['14:32:00', 'F01220',  11989] # Orczy tér
-      - ['14:34:00', 'F01215',  12356] # Salgótarjáni utca
-      - ['14:36:00', 'F01331',  12708] # Teleki László tér
-      - ['14:38:00', 'F01301',  13122] # II. János Pál pápa tér
-      - ['14:40:00', '009753',  13621] # Blaha Lujza tér M (Népszínház utca)
+      - ['00:00:00', 'F03103',      0] # Rákospalota, MÁV-telep
+      - ['00:01:00', 'F03205',    451] # Tóth István utca
+      - ['00:03:00', 'F02858',    966] # Öv utca
+      - ['00:04:00', 'F02909',   1259] # Miskolci utca
+      - ['00:06:00', 'F02861',   1687] # Rákospatak utca
+      - ['00:07:00', 'F02947',   2072] # Fűrész utca
+      - ['00:09:00', 'F02865',   2518] # Nagy Lajos király útja
+      - ['00:10:00', '008209',   2621] # Czobor utca
+      - ['00:11:00', 'F02966',   2878] # Kerékgyártó utca
+      - ['00:13:00', 'F02831',   3368] # Bosnyák tér
+      - ['00:15:00', 'F02814',   3753] # Szugló utca
+      - ['00:17:00', 'F02796',   4154] # Egressy tér
+      - ['00:18:00', 'F02971',   4700] # Jeszenák János utca
+      - ['00:19:00', 'F02748',   5077] # Pongrátz Gergely tér
+      - ['00:21:00', 'F02968',   5484] # Tihamér utca
+      - ['00:22:00', '008222',   5959] # Örs vezér tere - Zugló M+H
+      - ['00:24:00', '008383',   6080] # Örs vezér tere - Kőbánya M
+      - ['00:25:00', 'F01862',   6402] # Finommechanikai Zrt.
+      - ['00:27:00', 'F01782',   7127] # Terebesi utca
+      - ['00:29:00', 'F01623',   7662] # Élessarok
+      - ['00:31:00', 'F01827',   8017] # Ónodi utca
+      - ['00:34:00', 'F01649',   8492] # Szent László tér
+      - ['00:37:00', 'F01645',   8922] # Kőbánya alsó vasútállomás
+      - ['00:38:00', 'F01567',   9335] # Mázsa utca
+      - ['00:40:00', 'F01565',   9807] # Egészségház
+      - ['00:41:00', 'F01731',  10094] # Északi Járműjavító
+      - ['00:43:00', 'F01265',  10552] # Könyves Kálmán körút
+      - ['00:44:00', 'F01264',  10883] # Kőbányai út 31.
+      - ['00:46:00', 'F01180',  11528] # Kőbányai út 21.
+      - ['00:48:00', 'F01220',  11989] # Orczy tér
+      - ['00:50:00', 'F01215',  12356] # Salgótarjáni utca
+      - ['00:53:00', 'F01331',  12708] # Teleki László tér
+      - ['00:55:00', 'F01301',  13122] # II. János Pál pápa tér
+      - ['00:56:00', '009753',  13621] # Blaha Lujza tér M (Népszínház utca)
     trip_headsign: Blaha Lujza tér M
     trip_id: REFERENCE-3620-0-1
     wheelchair_accessible: 2
@@ -54,39 +54,39 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3620-1-1-E978
     stop_times:
-      - ['16:45:00', 'F01298',      0] # Blaha Lujza tér M (Népszínház utca)
-      - ['16:46:00', 'F01300',    302] # II. János Pál pápa tér
-      - ['16:48:00', 'F01330',    726] # Teleki László tér
-      - ['16:50:00', 'F01213',   1233] # Salgótarjáni utca
-      - ['16:52:00', 'F01219',   1569] # Orczy tér
-      - ['16:54:00', 'F01181',   1957] # Kőbányai út 21.
-      - ['16:56:00', 'F01263',   2607] # Kőbányai út 31.
-      - ['16:58:00', 'F01266',   2990] # Könyves Kálmán körút
-      - ['16:59:00', 'F01732',   3356] # Északi Járműjavító
-      - ['17:00:00', 'F01566',   3688] # Egészségház
-      - ['17:01:00', 'F01568',   4161] # Mázsa utca
-      - ['17:03:00', 'F01646',   4632] # Kőbánya alsó vasútállomás
-      - ['17:05:00', 'F01650',   5036] # Szent László tér
-      - ['17:08:00', 'F01826',   5548] # Ónodi utca
-      - ['17:10:00', 'F01624',   5905] # Élessarok
-      - ['17:12:00', 'F01783',   6457] # Terebesi utca
-      - ['17:14:00', 'F01863',   7084] # Finommechanikai Zrt.
-      - ['17:17:00', '008382',   7406] # Örs vezér tere - Kőbánya M
-      - ['17:18:00', 'F01757',   7584] # Örs vezér tere - Zugló M+H
-      - ['17:19:00', 'F02969',   7994] # Tihamér utca
-      - ['17:20:00', 'F02753',   8390] # Pongrátz Gergely tér
-      - ['17:22:00', 'F02972',   8771] # Jeszenák János utca
-      - ['17:24:00', 'F02797',   9279] # Egressy tér
-      - ['17:25:00', 'F02818',   9723] # Szugló utca
-      - ['17:27:00', 'F02832',  10062] # Bosnyák tér
-      - ['17:28:00', 'F02967',  10601] # Kerékgyártó utca
-      - ['17:30:00', 'F02869',  10919] # Czobor utca (Erzsébet királyné útja)
-      - ['17:31:00', 'F02948',  11375] # Fűrész utca
-      - ['17:32:00', 'F02863',  11741] # Rákospatak utca
-      - ['17:34:00', 'F02911',  12208] # Miskolci utca
-      - ['17:35:00', 'F02857',  12490] # Öv utca
-      - ['17:37:00', 'F03206',  13000] # Tóth István utca
-      - ['17:39:00', 'F03102',  13549] # Rákospalota, MÁV-telep
+      - ['00:00:00', 'F01298',      0] # Blaha Lujza tér M (Népszínház utca)
+      - ['00:01:00', 'F01300',    302] # II. János Pál pápa tér
+      - ['00:03:00', 'F01330',    726] # Teleki László tér
+      - ['00:05:00', 'F01213',   1233] # Salgótarjáni utca
+      - ['00:07:00', 'F01219',   1569] # Orczy tér
+      - ['00:09:00', 'F01181',   1957] # Kőbányai út 21.
+      - ['00:11:00', 'F01263',   2607] # Kőbányai út 31.
+      - ['00:13:00', 'F01266',   2990] # Könyves Kálmán körút
+      - ['00:14:00', 'F01732',   3356] # Északi Járműjavító
+      - ['00:15:00', 'F01566',   3688] # Egészségház
+      - ['00:16:00', 'F01568',   4161] # Mázsa utca
+      - ['00:18:00', 'F01646',   4632] # Kőbánya alsó vasútállomás
+      - ['00:20:00', 'F01650',   5036] # Szent László tér
+      - ['00:23:00', 'F01826',   5548] # Ónodi utca
+      - ['00:25:00', 'F01624',   5905] # Élessarok
+      - ['00:27:00', 'F01783',   6457] # Terebesi utca
+      - ['00:29:00', 'F01863',   7084] # Finommechanikai Zrt.
+      - ['00:32:00', '008382',   7406] # Örs vezér tere - Kőbánya M
+      - ['00:33:00', 'F01757',   7584] # Örs vezér tere - Zugló M+H
+      - ['00:34:00', 'F02969',   7994] # Tihamér utca
+      - ['00:35:00', 'F02753',   8390] # Pongrátz Gergely tér
+      - ['00:37:00', 'F02972',   8771] # Jeszenák János utca
+      - ['00:39:00', 'F02797',   9279] # Egressy tér
+      - ['00:40:00', 'F02818',   9723] # Szugló utca
+      - ['00:42:00', 'F02832',  10062] # Bosnyák tér
+      - ['00:43:00', 'F02967',  10601] # Kerékgyártó utca
+      - ['00:45:00', 'F02869',  10919] # Czobor utca (Erzsébet királyné útja)
+      - ['00:46:00', 'F02948',  11375] # Fűrész utca
+      - ['00:47:00', 'F02863',  11741] # Rákospatak utca
+      - ['00:49:00', 'F02911',  12208] # Miskolci utca
+      - ['00:50:00', 'F02857',  12490] # Öv utca
+      - ['00:52:00', 'F03206',  13000] # Tóth István utca
+      - ['00:54:00', 'F03102',  13549] # Rákospalota, MÁV-telep
     trip_headsign: 'Rákospalota, MÁV-telep'
     trip_id: REFERENCE-3620-1-1
     wheelchair_accessible: 2

@@ -13,61 +13,61 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0860-0-1-C685
     stop_times:
-      - ['09:52:00', '009303',      0] # Újbuda, Függetlenségi park
-      - ['09:52:00', 'F02124',    149] # Vincellér utca
-      - ['09:54:00', 'F02180',    639] # Kosztolányi Dezső tér
-      - ['09:56:00', 'F01995',   1056] # Újbuda-központ
-      - ['09:58:00', 'F01987',   1515] # Budafoki út (Szerémi sor)
-      - ['09:58:00', 'F02155',   1673] # Budafoki út (Karinthy Frigyes út)
-      - ['10:00:00', 'F02143',   2502] # Szent Gellért tér
-      - ['10:03:00', 'F00109',   3366] # Rudas gyógyfürdő
-      - ['10:04:00', 'F00037',   4093] # Ybl Miklós tér
-      - ['10:06:00', 'F00050',   4534] # Clark Ádám tér
-      - ['10:08:00', 'F00053',   5117] # Halász utca
-      - ['10:09:00', 'F00065',   5568] # Batthyány tér M+H
-      - ['10:11:00', 'F00187',   6188] # Bem József tér
-      - ['10:13:00', 'F00234',   6618] # Margit híd, budai hídfő H
-      - ['10:15:00', 'F00247',   7094] # Császár-Komjádi uszoda
-      - ['10:17:00', 'F00245',   7638] # Zsigmond tér
-      - ['10:19:00', 'F00137',   8047] # Kolosy tér
-      - ['10:20:00', 'F00603',   8419] # Nagyszombat utca
-      - ['10:21:00', 'F00604',   8788] # Tímár utca
-      - ['10:22:00', 'F00606',   9190] # Kiscelli utca
-      - ['10:24:00', 'F00611',   9680] # Flórián tér
-      - ['10:25:00', 'F00580',   9944] # Raktár utca
-      - ['10:27:00', 'F00573',  10689] # Óbuda, Bogdáni út
+      - ['00:00:00', '009303',      0] # Újbuda, Függetlenségi park
+      - ['00:00:00', 'F02124',    149] # Vincellér utca
+      - ['00:02:00', 'F02180',    639] # Kosztolányi Dezső tér
+      - ['00:04:00', 'F01995',   1056] # Újbuda-központ
+      - ['00:06:00', 'F01987',   1515] # Budafoki út (Szerémi sor)
+      - ['00:06:00', 'F02155',   1673] # Budafoki út (Karinthy Frigyes út)
+      - ['00:08:00', 'F02143',   2502] # Szent Gellért tér
+      - ['00:11:00', 'F00109',   3366] # Rudas gyógyfürdő
+      - ['00:12:00', 'F00037',   4093] # Ybl Miklós tér
+      - ['00:14:00', 'F00050',   4534] # Clark Ádám tér
+      - ['00:16:00', 'F00053',   5117] # Halász utca
+      - ['00:18:00', 'F00065',   5568] # Batthyány tér M+H
+      - ['00:20:00', 'F00187',   6188] # Bem József tér
+      - ['00:22:00', 'F00234',   6618] # Margit híd, budai hídfő H
+      - ['00:24:00', 'F00247',   7094] # Császár-Komjádi uszoda
+      - ['00:26:00', 'F00245',   7638] # Zsigmond tér
+      - ['00:28:00', 'F00137',   8047] # Kolosy tér
+      - ['00:29:00', 'F00603',   8419] # Nagyszombat utca
+      - ['00:30:00', 'F00604',   8788] # Tímár utca
+      - ['00:31:00', 'F00606',   9190] # Kiscelli utca
+      - ['00:33:00', 'F00611',   9680] # Flórián tér
+      - ['00:34:00', 'F00580',   9944] # Raktár utca
+      - ['00:36:00', 'F00573',  10689] # Óbuda, Bogdáni út
     trip_headsign: 'Óbuda, Bogdáni út'
     trip_id: REFERENCE-0860-0-1
     wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-0860-1-1-S807
+    shape_id: REFERENCE-0860-1-1-C684
     stop_times:
-      - ['14:35:00', 'F00574',      0] # Óbuda, Bogdáni út
-      - ['14:36:00', 'F00577',    303] # Bogdáni út
-      - ['14:37:00', 'F00583',    730] # Raktár utca
-      - ['14:38:00', 'F00612',   1036] # Flórián tér
-      - ['14:39:00', 'F00607',   1348] # Kiscelli utca
-      - ['14:41:00', 'F00605',   1898] # Tímár utca
-      - ['14:43:00', 'F00602',   2374] # Galagonya utca
-      - ['14:44:00', 'F00138',   2729] # Kolosy tér
-      - ['14:45:00', 'F00246',   3061] # Zsigmond tér
-      - ['14:47:00', 'F00248',   3568] # Császár-Komjádi uszoda
-      - ['14:49:00', 'F00235',   4052] # Margit híd, budai hídfő H
-      - ['14:51:00', 'F00188',   4531] # Bem József tér
-      - ['14:53:00', 'F00059',   5148] # Batthyány tér M+H
-      - ['14:54:00', 'F00056',   5433] # Szilágyi Dezső tér
-      - ['14:56:00', 'F00049',   6121] # Clark Ádám tér
-      - ['14:57:00', 'F00101',   6695] # Szarvas tér
-      - ['14:58:00', 'F00104',   6941] # Döbrentei tér
-      - ['15:00:00', 'F00112',   7278] # Rudas gyógyfürdő
-      - ['15:02:00', 'F02142',   8229] # Szent Gellért tér
-      - ['15:04:00', 'F02152',   8900] # Budafoki út (Karinthy Frigyes út)
-      - ['15:05:00', 'F01986',   9182] # Budafoki út (Szerémi sor)
-      - ['15:07:00', '009709',   9808] # Újbuda-központ
-      - ['15:09:00', 'F02182',  10319] # Kosztolányi Dezső tér
-      - ['15:10:00', 'F02123',  10586] # Vincellér utca
-      - ['15:12:00', '009303',  10801] # Újbuda, Függetlenségi park
+      - ['00:00:00', 'F00574',      0] # Óbuda, Bogdáni út
+      - ['00:01:00', 'F00577',    303] # Bogdáni út
+      - ['00:03:00', 'F00583',    730] # Raktár utca
+      - ['00:04:00', 'F00612',   1036] # Flórián tér
+      - ['00:05:00', 'F00607',   1348] # Kiscelli utca
+      - ['00:07:00', 'F00605',   1898] # Tímár utca
+      - ['00:09:00', 'F00602',   2374] # Galagonya utca
+      - ['00:11:00', 'F00138',   2729] # Kolosy tér
+      - ['00:12:00', 'F00246',   3061] # Zsigmond tér
+      - ['00:14:00', 'F00248',   3568] # Császár-Komjádi uszoda
+      - ['00:16:00', 'F00235',   4052] # Margit híd, budai hídfő H
+      - ['00:18:00', 'F00188',   4531] # Bem József tér
+      - ['00:20:00', 'F00059',   5148] # Batthyány tér M+H
+      - ['00:21:00', 'F00056',   5433] # Szilágyi Dezső tér
+      - ['00:23:00', 'F00049',   6121] # Clark Ádám tér
+      - ['00:24:00', 'F00101',   6695] # Szarvas tér
+      - ['00:26:00', 'F00104',   6941] # Döbrentei tér
+      - ['00:28:00', 'F00112',   7278] # Rudas gyógyfürdő
+      - ['00:31:00', 'F02142',   8229] # Szent Gellért tér
+      - ['00:32:00', 'F02152',   8900] # Budafoki út (Karinthy Frigyes út)
+      - ['00:33:00', 'F01986',   9182] # Budafoki út (Szerémi sor)
+      - ['00:35:00', '009709',   9808] # Újbuda-központ
+      - ['00:36:00', 'F02182',  10319] # Kosztolányi Dezső tér
+      - ['00:37:00', 'F02123',  10586] # Vincellér utca
+      - ['00:38:00', '009303',  10801] # Újbuda, Függetlenségi park
     trip_headsign: 'Újbuda, Függetlenségi park'
     trip_id: REFERENCE-0860-1-1
     wheelchair_accessible: 1

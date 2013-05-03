@@ -13,36 +13,36 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9660-0-1-Q599
     stop_times:
-      - ['26:44:00', 'F04015',      0] # Határ út M
-      - ['26:46:00', 'F01456',    908] # Mészáros Lőrinc utca
-      - ['26:47:00', 'F01370',   1650] # Nagykőrösi út (Határ út)
-      - ['26:49:00', 'F01449',   2226] # Mártírok útja
-      - ['26:49:00', 'F04173',   2484] # Szigligeti utca
-      - ['26:50:00', 'F04139',   2884] # Kossuth Lajos utca (Mártírok útja)
-      - ['26:52:00', 'F04136',   3472] # Tátra tér
-      - ['26:53:00', 'F04133',   3854] # Szent Erzsébet tér
-      - ['26:54:00', 'F04127',   4377] # Ady Endre utca (Topánka utca)
-      - ['26:55:00', 'F04123',   4602] # Pesterzsébet, városközpont
-      - ['26:55:00', '009586',   4880] # Baross utca
-      - ['26:55:00', 'F04118',   5027] # Pesterzsébet, Kossuth Lajos utca
-      - ['26:56:00', 'F04055',   5397] # Nagysándor József utca
-      - ['26:58:00', 'F04057',   5938] # Tinódi utca
-      - ['26:58:00', 'F04059',   6224] # Torontál utca
-      - ['26:59:00', 'F04158',   6618] # Wesselényi utca
-      - ['27:00:00', 'F04161',   6826] # Bólyai János utca
-      - ['27:01:00', '008957',   7322] # Előd utca
-      - ['27:02:00', '009243',   7628] # Alsó határút
-      - ['27:03:00', '008955',   8066] # Gombosszeg köz
-      - ['27:04:00', '008953',   8493] # Csillag utca
-      - ['27:05:00', '008959',   9177] # Templom utca 6.
-      - ['27:06:00', 'F04532',   9446] # Tárcsás utca
-      - ['27:07:00', 'F04568',   9850] # Erzsébet utca
-      - ['27:08:00', 'F04542',  10198] # Soroksár, Hősök tere H
-      - ['27:09:00', '008960',  10835] # Gyáli-patak
-      - ['27:10:00', '008963',  11346] # Grassalkovich út
-      - ['27:11:00', '009339',  11884] # Szent István utca H
-      - ['27:12:00', '009337',  12490] # Orbánhegyi dűlő
-      - ['27:14:00', '009358',  13376] # Soroksár, Millenniumtelep
+      - ['00:00:00', 'F04015',      0] # Határ út M
+      - ['00:02:00', 'F01456',    908] # Mészáros Lőrinc utca
+      - ['00:03:00', 'F01370',   1650] # Nagykőrösi út (Határ út)
+      - ['00:05:00', 'F01449',   2226] # Mártírok útja
+      - ['00:05:00', 'F04173',   2484] # Szigligeti utca
+      - ['00:06:00', 'F04139',   2884] # Kossuth Lajos utca (Mártírok útja)
+      - ['00:08:00', 'F04136',   3472] # Tátra tér
+      - ['00:09:00', 'F04133',   3854] # Szent Erzsébet tér
+      - ['00:10:00', 'F04127',   4377] # Ady Endre utca (Topánka utca)
+      - ['00:11:00', 'F04123',   4602] # Pesterzsébet, városközpont
+      - ['00:11:00', '009586',   4880] # Baross utca
+      - ['00:11:00', 'F04118',   5027] # Pesterzsébet, Kossuth Lajos utca
+      - ['00:12:00', 'F04055',   5397] # Nagysándor József utca
+      - ['00:14:00', 'F04057',   5938] # Tinódi utca
+      - ['00:14:00', 'F04059',   6224] # Torontál utca
+      - ['00:15:00', 'F04158',   6618] # Wesselényi utca
+      - ['00:16:00', 'F04161',   6826] # Bólyai János utca
+      - ['00:17:00', '008957',   7322] # Előd utca
+      - ['00:18:00', '009243',   7628] # Alsó határút
+      - ['00:19:00', '008955',   8066] # Gombosszeg köz
+      - ['00:20:00', '008953',   8493] # Csillag utca
+      - ['00:21:00', '008959',   9177] # Templom utca 6.
+      - ['00:22:00', 'F04532',   9446] # Tárcsás utca
+      - ['00:23:00', 'F04568',   9850] # Erzsébet utca
+      - ['00:24:00', 'F04542',  10198] # Soroksár, Hősök tere H
+      - ['00:25:00', '008960',  10835] # Gyáli-patak
+      - ['00:26:00', '008963',  11346] # Grassalkovich út
+      - ['00:27:00', '009339',  11884] # Szent István utca H
+      - ['00:28:00', '009337',  12490] # Orbánhegyi dűlő
+      - ['00:30:00', '009358',  13376] # Soroksár, Millenniumtelep
     trip_headsign: 'Soroksár, Millenniumtelep'
     trip_id: REFERENCE-9660-0-1
     wheelchair_accessible: 2
@@ -50,32 +50,32 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9660-1-1-Q600
     stop_times:
-      - ['26:18:00', '009358',      0] # Soroksár, Millenniumtelep
-      - ['26:19:00', '009338',    951] # Orbánhegyi dűlő
-      - ['26:21:00', '008962',   1699] # Szent István utca H
-      - ['26:23:00', '008961',   2644] # Soroksár, Hősök tere H
-      - ['26:23:00', 'F04569',   3035] # Erzsébet utca
-      - ['26:24:00', 'F04533',   3435] # Tárcsás utca
-      - ['26:26:00', '008954',   4032] # Csillag utca
-      - ['26:26:00', '008956',   4388] # Gombosszeg köz
-      - ['26:28:00', '008958',   4874] # Alsó határút
-      - ['26:28:00', 'F04077',   5246] # Vágóhíd utca
-      - ['26:29:00', 'F04162',   5613] # Lehel utca
-      - ['26:30:00', 'F04157',   5960] # Akácfa utca
-      - ['26:30:00', 'F04058',   6356] # Klapka utca
-      - ['26:31:00', 'F04056',   6607] # Tinódi utca
-      - ['26:32:00', 'F04054',   7075] # Nagysándor József utca
-      - ['26:33:00', 'F04119',   7448] # Pesterzsébet, Kossuth Lajos utca
-      - ['26:34:00', 'F04122',   7877] # Pesterzsébet, városközpont
-      - ['26:34:00', 'F04129',   8198] # Ady Endre utca (Topánka utca)
-      - ['26:35:00', 'F04134',   8481] # Szent Erzsébet tér
-      - ['26:37:00', 'F04137',   8883] # Tátra tér
-      - ['26:38:00', 'F04140',   9446] # Mártírok útja
-      - ['26:39:00', 'F04174',   9861] # Szigligeti utca
-      - ['26:41:00', 'F01450',  10306] # Határ út
-      - ['26:43:00', 'F01451',  10897] # Nagykőrösi út (Határ út)
-      - ['26:44:00', 'F01455',  11559] # Mészáros Lőrinc utca
-      - ['26:46:00', 'F04015',  12343] # Határ út M
+      - ['00:00:00', '009358',      0] # Soroksár, Millenniumtelep
+      - ['00:01:00', '009338',    951] # Orbánhegyi dűlő
+      - ['00:03:00', '008962',   1699] # Szent István utca H
+      - ['00:05:00', '008961',   2644] # Soroksár, Hősök tere H
+      - ['00:05:00', 'F04569',   3035] # Erzsébet utca
+      - ['00:06:00', 'F04533',   3435] # Tárcsás utca
+      - ['00:08:00', '008954',   4032] # Csillag utca
+      - ['00:08:00', '008956',   4388] # Gombosszeg köz
+      - ['00:10:00', '008958',   4874] # Alsó határút
+      - ['00:10:00', 'F04077',   5246] # Vágóhíd utca
+      - ['00:11:00', 'F04162',   5613] # Lehel utca
+      - ['00:12:00', 'F04157',   5960] # Akácfa utca
+      - ['00:12:00', 'F04058',   6356] # Klapka utca
+      - ['00:13:00', 'F04056',   6607] # Tinódi utca
+      - ['00:14:00', 'F04054',   7075] # Nagysándor József utca
+      - ['00:15:00', 'F04119',   7448] # Pesterzsébet, Kossuth Lajos utca
+      - ['00:16:00', 'F04122',   7877] # Pesterzsébet, városközpont
+      - ['00:16:00', 'F04129',   8198] # Ady Endre utca (Topánka utca)
+      - ['00:17:00', 'F04134',   8481] # Szent Erzsébet tér
+      - ['00:19:00', 'F04137',   8883] # Tátra tér
+      - ['00:20:00', 'F04140',   9446] # Mártírok útja
+      - ['00:21:00', 'F04174',   9861] # Szigligeti utca
+      - ['00:23:00', 'F01450',  10306] # Határ út
+      - ['00:25:00', 'F01451',  10897] # Nagykőrösi út (Határ út)
+      - ['00:26:00', 'F01455',  11559] # Mészáros Lőrinc utca
+      - ['00:28:00', 'F04015',  12343] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-9660-1-1
     wheelchair_accessible: 2

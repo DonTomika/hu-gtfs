@@ -13,54 +13,54 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1380-0-1-6790
     stop_times:
-      - ['22:31:00', 'F04330',      0] # Csepel, Szent Imre tér
-      - ['22:33:00', 'F04318',    477] # Szent Imre tér H
-      - ['22:34:00', 'F04267',    879] # Karácsony Sándor utca H
-      - ['22:35:00', 'F04294',   1390] # Csepel H
-      - ['22:36:00', 'F04349',   2049] # Erdősor utca
-      - ['22:37:00', 'F04274',   2636] # Vas Gereben utca
-      - ['22:38:00', 'F04284',   2912] # Tejút utca
-      - ['22:39:00', 'F04285',   3414] # Csepeli temető
-      - ['22:41:00', 'F04287',   4106] # Hárosi iskola
-      - ['22:42:00', 'F04351',   4844] # Szilvafa utca
-      - ['22:43:00', 'F04290',   5183] # Almafa utca
-      - ['22:44:00', 'F04353',   5584] # Vízművek lakótelep
-      - ['22:45:00', 'F04265',   6243] # Hárosi Csárda
-      - ['22:46:00', '008651',   6965] # Auchan Sziget áruház
-      - ['22:47:00', '008646',   7437] # Áruházi bekötőút
-      - ['22:48:00', 'F04639',   7653] # Háros
-      - ['22:52:00', '008336',  10681] # Növény utca
-      - ['22:53:00', 'F04517',  11279] # DEXTER
-      - ['22:55:00', 'F04453',  12262] # Jókai Mór utca
-      - ['22:56:00', 'F04456',  12651] # Lépcsős utca
-      - ['22:57:00', '007999',  12981] # Budatétény vasútállomás (Campona)
+      - ['00:00:00', 'F04330',      0] # Csepel, Szent Imre tér
+      - ['00:02:00', 'F04318',    477] # Szent Imre tér H
+      - ['00:03:00', 'F04267',    879] # Karácsony Sándor utca H
+      - ['00:05:00', 'F04294',   1390] # Csepel H
+      - ['00:07:00', 'F04349',   2049] # Erdősor utca
+      - ['00:08:00', 'F04274',   2636] # Vas Gereben utca
+      - ['00:09:00', 'F04284',   2912] # Tejút utca
+      - ['00:11:00', 'F04285',   3414] # Csepeli temető
+      - ['00:13:00', 'F04287',   4106] # Hárosi iskola
+      - ['00:14:00', 'F04351',   4844] # Szilvafa utca
+      - ['00:16:00', 'F04290',   5183] # Almafa utca
+      - ['00:17:00', 'F04353',   5584] # Vízművek lakótelep
+      - ['00:18:00', 'F04265',   6243] # Hárosi Csárda
+      - ['00:20:00', '008651',   6965] # Auchan Sziget áruház
+      - ['00:22:00', '008646',   7437] # Áruházi bekötőút
+      - ['00:24:00', 'F04639',   7653] # Háros
+      - ['00:29:00', '008336',  10681] # Növény utca
+      - ['00:30:00', 'F04517',  11279] # DEXTER
+      - ['00:32:00', 'F04453',  12262] # Jókai Mór utca
+      - ['00:33:00', 'F04456',  12651] # Lépcsős utca
+      - ['00:35:00', '007999',  12981] # Budatétény vasútállomás (Campona)
     trip_headsign: Budatétény vasútállomás (Campona)
     trip_id: REFERENCE-1380-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1380-1-1-6791
     stop_times:
-      - ['21:09:00', '007998',      0] # Budatétény vasútállomás (Campona)
-      - ['21:10:00', 'F04455',    378] # Lépcsős utca
-      - ['21:12:00', 'F04454',    751] # Jókai Mór utca
-      - ['21:13:00', '008337',   2339] # Növény utca
-      - ['21:20:00', '008647',   5825] # Áruházi bekötőút
-      - ['21:21:00', '008652',   6241] # Auchan Sziget áruház
-      - ['21:22:00', 'F04266',   6884] # Hárosi Csárda
-      - ['21:23:00', 'F04354',   7578] # Vízművek lakótelep
-      - ['21:24:00', 'F04289',   8042] # Almafa utca
-      - ['21:25:00', 'F04352',   8300] # Szilvafa utca
-      - ['21:26:00', 'F04288',   9105] # Hárosi iskola
-      - ['21:27:00', 'F04286',   9818] # Csepeli temető
-      - ['21:28:00', 'F04283',  10373] # Tejút utca
-      - ['21:29:00', 'F04273',  10721] # Szabadság utca
-      - ['21:30:00', 'F04350',  11183] # Erdősor utca
-      - ['21:32:00', 'F04336',  11787] # Csepel H
-      - ['21:33:00', 'F04177',  12440] # Karácsony Sándor utca H
-      - ['21:34:00', '040609',  12955] # Szent Imre tér H
-      - ['21:36:00', 'F04321',  13253] # Kiss János altábornagy utca
-      - ['21:37:00', 'F04330',  13458] # Csepel, Szent Imre tér
+      - ['00:00:00', '007998',      0] # Budatétény vasútállomás (Campona)
+      - ['00:02:00', 'F04455',    378] # Lépcsős utca
+      - ['00:04:00', 'F04454',    751] # Jókai Mór utca
+      - ['00:07:00', '008337',   2339] # Növény utca
+      - ['00:14:00', '008647',   5825] # Áruházi bekötőút
+      - ['00:15:00', '008652',   6241] # Auchan Sziget áruház
+      - ['00:17:00', 'F04266',   6884] # Hárosi Csárda
+      - ['00:19:00', 'F04354',   7578] # Vízművek lakótelep
+      - ['00:20:00', 'F04289',   8042] # Almafa utca
+      - ['00:21:00', 'F04352',   8300] # Szilvafa utca
+      - ['00:23:00', 'F04288',   9105] # Hárosi iskola
+      - ['00:25:00', 'F04286',   9818] # Csepeli temető
+      - ['00:27:00', 'F04283',  10373] # Tejút utca
+      - ['00:28:00', 'F04273',  10721] # Szabadság utca
+      - ['00:29:00', 'F04350',  11183] # Erdősor utca
+      - ['00:31:00', 'F04336',  11787] # Csepel H
+      - ['00:33:00', 'F04177',  12440] # Karácsony Sándor utca H
+      - ['00:34:00', '040609',  12955] # Szent Imre tér H
+      - ['00:36:00', 'F04321',  13253] # Kiss János altábornagy utca
+      - ['00:37:00', 'F04330',  13458] # Csepel, Szent Imre tér
     trip_headsign: 'Csepel, Szent Imre tér'
     trip_id: REFERENCE-1380-1-1
     wheelchair_accessible: 2

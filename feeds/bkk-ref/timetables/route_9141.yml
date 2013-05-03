@@ -13,36 +13,36 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9141-0-1-Q875
     stop_times:
-      - ['26:41:00', 'F03929',      0] # Határ út M
-      - ['26:42:00', '044126',    366] # Száva kocsiszín
-      - ['26:43:00', 'F01465',    842] # Pöttyös utca M
-      - ['26:44:00', 'F01496',   1368] # Ecseri út M
-      - ['26:46:00', 'F01285',   2376] # Népliget M
-      - ['26:49:00', 'F01248',   3678] # Nagyvárad tér M
-      - ['26:51:00', 'F01234',   4557] # Klinikák M
-      - ['26:53:00', 'F01193',   5343] # Corvin-negyed M
-      - ['26:55:00', 'F01010',   6208] # Kálvin tér M
-      - ['26:56:00', 'F01013',   6704] # Astoria M
-      - ['27:01:00', '009309',   7202] # Deák Ferenc tér M
-      - ['27:03:00', 'F00942',   7884] # Arany János utca M
-      - ['27:04:00', 'F00940',   8345] # Podmaniczky utca
-      - ['27:06:00', 'F01029',   8745] # Nyugati pályaudvar M
-      - ['27:09:00', 'F01025',   8916] # Nyugati pályaudvar M
-      - ['27:11:00', 'F01065',   9706] # Lehel tér M
-      - ['27:12:00', 'F01064',  10034] # Dévai utca
-      - ['27:13:00', 'F02626',  10469] # Lehel utca (Dózsa György út)
-      - ['27:14:00', 'F02670',  11039] # Hun utca
-      - ['27:16:00', 'F02592',  11379] # Róbert Károly körút (Lehel utca)
-      - ['27:17:00', 'F02588',  11887] # Béke tér
-      - ['27:18:00', 'F02676',  12391] # Fáy utca
-      - ['27:20:00', 'F02556',  13020] # Fiastyúk utca
-      - ['27:21:00', 'F02661',  13256] # Rokolya utca
-      - ['27:22:00', 'F02546',  13773] # Gyöngyösi utca
-      - ['27:23:00', 'F00693',  14303] # Angyalföld kocsiszín
-      - ['27:24:00', 'F00820',  14576] # Chinoin utca
-      - ['27:25:00', 'F00861',  15052] # Nyár utca
-      - ['27:26:00', 'F00814',  15335] # Munkásotthon utca
-      - ['27:27:00', 'F00804',  15532] # Újpest-Központ M
+      - ['00:00:00', 'F03929',      0] # Határ út M
+      - ['00:01:00', '044126',    366] # Száva kocsiszín
+      - ['00:02:00', 'F01465',    842] # Pöttyös utca M
+      - ['00:03:00', 'F01496',   1368] # Ecseri út M
+      - ['00:05:00', 'F01285',   2376] # Népliget M
+      - ['00:08:00', 'F01248',   3678] # Nagyvárad tér M
+      - ['00:10:00', 'F01234',   4557] # Klinikák M
+      - ['00:12:00', 'F01193',   5343] # Corvin-negyed M
+      - ['00:14:00', 'F01010',   6208] # Kálvin tér M
+      - ['00:15:00', 'F01013',   6704] # Astoria M
+      - ['00:20:00', '009309',   7202] # Deák Ferenc tér M
+      - ['00:22:00', 'F00942',   7884] # Arany János utca M
+      - ['00:23:00', 'F00940',   8345] # Podmaniczky utca
+      - ['00:25:00', 'F01029',   8745] # Nyugati pályaudvar M
+      - ['00:28:00', 'F01025',   8916] # Nyugati pályaudvar M
+      - ['00:30:00', 'F01065',   9706] # Lehel tér M
+      - ['00:31:00', 'F01064',  10034] # Dévai utca
+      - ['00:32:00', 'F02626',  10469] # Lehel utca (Dózsa György út)
+      - ['00:33:00', 'F02670',  11039] # Hun utca
+      - ['00:35:00', 'F02592',  11379] # Róbert Károly körút (Lehel utca)
+      - ['00:36:00', 'F02588',  11887] # Béke tér
+      - ['00:37:00', 'F02676',  12391] # Fáy utca
+      - ['00:39:00', 'F02556',  13020] # Fiastyúk utca
+      - ['00:40:00', 'F02661',  13256] # Rokolya utca
+      - ['00:41:00', 'F02546',  13773] # Gyöngyösi utca
+      - ['00:42:00', 'F00693',  14303] # Angyalföld kocsiszín
+      - ['00:43:00', 'F00820',  14576] # Chinoin utca
+      - ['00:44:00', 'F00861',  15052] # Nyár utca
+      - ['00:45:00', 'F00814',  15335] # Munkásotthon utca
+      - ['00:46:00', 'F00804',  15532] # Újpest-Központ M
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-9141-0-1
     wheelchair_accessible: 2
@@ -50,34 +50,34 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9141-1-1-Q876
     stop_times:
-      - ['27:04:00', 'F00805',      0] # Újpest-Központ M
-      - ['27:05:00', 'F00862',    493] # Berda József utca
-      - ['27:06:00', 'F00821',    977] # Pozsonyi utca
-      - ['27:07:00', 'F02542',   1676] # Gyöngyösi utca
-      - ['27:08:00', 'F02662',   2160] # Rokolya utca
-      - ['27:09:00', 'F02555',   2466] # Fiastyúk utca
-      - ['27:11:00', 'F02675',   3185] # Frangepán utca
-      - ['27:12:00', 'F02586',   3789] # Béke tér
-      - ['27:13:00', 'F02598',   4131] # Róbert Károly körút (Lehel utca)
-      - ['27:14:00', 'F02669',   4530] # Hun utca
-      - ['27:16:00', 'F02625',   5101] # Dózsa György út
-      - ['27:17:00', 'F01063',   5464] # Dévai utca
-      - ['27:18:00', 'F02619',   6035] # Lehel tér M
-      - ['27:24:00', 'F00934',   6821] # Nyugati pályaudvar M
-      - ['27:26:00', 'F00941',   7411] # Bajcsy-Zsilinszky út
-      - ['27:27:00', 'F00943',   7770] # Arany János utca M
-      - ['27:31:00', 'F00946',   8515] # Deák Ferenc tér M
-      - ['27:32:00', 'F01012',   8899] # Astoria M
-      - ['27:34:00', 'F01007',   9574] # Kálvin tér M
-      - ['27:36:00', 'F01192',  10310] # Corvin-negyed M
-      - ['27:38:00', 'F01235',  11033] # Klinikák M
-      - ['27:40:00', 'F01247',  11955] # Nagyvárad tér M
-      - ['27:41:00', '022006',  12437] # Rezső tér
-      - ['27:43:00', 'F01284',  13330] # Népliget M
-      - ['27:45:00', 'F01497',  14267] # Ecseri út M
-      - ['27:46:00', 'F01466',  14756] # Pöttyös utca M
-      - ['27:47:00', '044127',  15300] # Száva kocsiszín
-      - ['27:48:00', 'F01460',  15588] # Határ út M
+      - ['00:00:00', 'F00805',      0] # Újpest-Központ M
+      - ['00:01:00', 'F00862',    493] # Berda József utca
+      - ['00:02:00', 'F00821',    977] # Pozsonyi utca
+      - ['00:03:00', 'F02542',   1676] # Gyöngyösi utca
+      - ['00:04:00', 'F02662',   2160] # Rokolya utca
+      - ['00:05:00', 'F02555',   2466] # Fiastyúk utca
+      - ['00:07:00', 'F02675',   3185] # Frangepán utca
+      - ['00:08:00', 'F02586',   3789] # Béke tér
+      - ['00:09:00', 'F02598',   4131] # Róbert Károly körút (Lehel utca)
+      - ['00:10:00', 'F02669',   4530] # Hun utca
+      - ['00:12:00', 'F02625',   5101] # Dózsa György út
+      - ['00:13:00', 'F01063',   5464] # Dévai utca
+      - ['00:14:00', 'F02619',   6035] # Lehel tér M
+      - ['00:20:00', 'F00934',   6821] # Nyugati pályaudvar M
+      - ['00:22:00', 'F00941',   7411] # Bajcsy-Zsilinszky út
+      - ['00:23:00', 'F00943',   7770] # Arany János utca M
+      - ['00:27:00', 'F00946',   8515] # Deák Ferenc tér M
+      - ['00:28:00', 'F01012',   8899] # Astoria M
+      - ['00:30:00', 'F01007',   9574] # Kálvin tér M
+      - ['00:32:00', 'F01192',  10310] # Corvin-negyed M
+      - ['00:34:00', 'F01235',  11033] # Klinikák M
+      - ['00:36:00', 'F01247',  11955] # Nagyvárad tér M
+      - ['00:37:00', '022006',  12437] # Rezső tér
+      - ['00:39:00', 'F01284',  13330] # Népliget M
+      - ['00:41:00', 'F01497',  14267] # Ecseri út M
+      - ['00:42:00', 'F01466',  14756] # Pöttyös utca M
+      - ['00:43:00', '044127',  15300] # Száva kocsiszín
+      - ['00:44:00', 'F01460',  15588] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-9141-1-1
     wheelchair_accessible: 2

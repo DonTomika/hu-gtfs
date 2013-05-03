@@ -11,35 +11,37 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-8120-0-1-S205
+    shape_id: REFERENCE-8120-0-1-R863
     stop_times:
-      - ['08:30:00', '044596',      0] # Kopaszi-gát (Rákóczi híd)
-      - ['08:41:00', '044594',   1173] # Egyetemváros - A38
-      - ['08:49:00', '044593',   1623] # Boráros tér H (Petőfi híd)
-      - ['09:00:00', '044592',   2662] # Szent Gellért tér (Szabadság híd)
-      - ['09:13:00', '044591',   3731] # Petőfi tér (Erzsébet híd)
-      - ['09:27:00', '044590',   5199] # Batthyány tér M+H
-      - ['09:39:00', '044589',   6550] # Jászai Mari tér (Margit híd)
-      - ['09:59:00', '044583',   9197] # Népfürdő utca (Árpád híd)
-      - ['10:15:00', '044581',  11026] # Meder utca
-      - ['10:36:00', '044575',  14374] # Rómaifürdő
+      - ['00:00:00', '044596',      0] # Kopaszi-gát (Rákóczi híd)
+      - ['00:05:00', '044595',    859] # Haller utca
+      - ['00:11:00', '044594',   1368] # Egyetemváros - A38
+      - ['00:19:00', '044593',   1818] # Boráros tér H (Petőfi híd)
+      - ['00:30:00', '044592',   2857] # Szent Gellért tér (Szabadság híd)
+      - ['00:43:00', '044591',   3926] # Petőfi tér (Erzsébet híd)
+      - ['00:57:00', '044590',   5394] # Batthyány tér M+H
+      - ['01:09:00', '044589',   6745] # Jászai Mari tér (Margit híd)
+      - ['01:29:00', '044583',   9392] # Népfürdő utca (Árpád híd)
+      - ['01:45:00', '044581',  11221] # Meder utca
+      - ['02:06:00', '044575',  14569] # Rómaifürdő
     trip_headsign: Rómaifürdő
     trip_id: REFERENCE-8120-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-8120-1-1-S204
+    shape_id: REFERENCE-8120-1-1-R862
     stop_times:
-      - ['14:40:00', '044575',      0] # Rómaifürdő
-      - ['14:57:00', '044581',   3348] # Meder utca
-      - ['15:08:00', '044583',   5177] # Népfürdő utca (Árpád híd)
-      - ['15:23:00', '044589',   7824] # Jászai Mari tér (Margit híd)
-      - ['15:34:00', '044590',   9175] # Batthyány tér M+H
-      - ['15:44:00', '044591',  10643] # Petőfi tér (Erzsébet híd)
-      - ['15:53:00', '044592',  11712] # Szent Gellért tér (Szabadság híd)
-      - ['16:03:00', '044593',  12751] # Boráros tér H (Petőfi híd)
-      - ['16:10:00', '044594',  13201] # Egyetemváros - A38
-      - ['16:16:00', '044596',  14374] # Kopaszi-gát (Rákóczi híd)
+      - ['00:00:00', '044575',      0] # Rómaifürdő
+      - ['00:17:00', '044581',   3348] # Meder utca
+      - ['00:28:00', '044583',   5177] # Népfürdő utca (Árpád híd)
+      - ['00:43:00', '044589',   7824] # Jászai Mari tér (Margit híd)
+      - ['00:54:00', '044590',   9175] # Batthyány tér M+H
+      - ['01:04:00', '044591',  10643] # Petőfi tér (Erzsébet híd)
+      - ['01:13:00', '044592',  11712] # Szent Gellért tér (Szabadság híd)
+      - ['01:23:00', '044593',  12751] # Boráros tér H (Petőfi híd)
+      - ['01:30:00', '044594',  13201] # Egyetemváros - A38
+      - ['01:33:00', '044595',  13710] # Haller utca
+      - ['01:36:00', '044596',  14569] # Kopaszi-gát (Rákóczi híd)
     trip_headsign: Kopaszi-gát (Rákóczi híd)
     trip_id: REFERENCE-8120-1-1
     wheelchair_accessible: 2

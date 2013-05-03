@@ -13,34 +13,34 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1050-0-1-O096
     stop_times:
-      - ['18:54:00', 'F02294',      0] # Apor Vilmos tér
-      - ['18:55:00', 'F02305',    351] # Kiss János altábornagy utca
-      - ['18:56:00', 'F02309',    519] # Tartsay Vilmos utca
-      - ['18:57:00', 'F02415',    983] # Márvány utca
-      - ['18:58:00', 'F00013',   1205] # Alkotás utca
-      - ['18:59:00', 'F00096',   1427] # Győri út
-      - ['19:01:00', 'F00098',   1760] # Mészáros utca
-      - ['19:02:00', 'F00083',   2115] # Krisztina tér
-      - ['19:04:00', 'F00048',   2635] # Clark Ádám tér
-      - ['19:05:00', '008218',   3242] # Széchenyi István tér
-      - ['19:06:00', 'F00979',   3522] # József nádor tér
-      - ['19:08:00', '19:09:00', '038717',   3797] # Deák Ferenc tér M
-      - ['19:10:00', 'F00944',   3956] # Bajcsy-Zsilinszky út M
-      - ['19:12:00', 'F01078',   4387] # Opera M
-      - ['19:14:00', 'F01089',   4631] # Oktogon M
-      - ['19:16:00', 'F01097',   5529] # Kodály körönd M
-      - ['19:17:00', 'F01098',   5795] # Bajza utca M
-      - ['19:20:00', 'F01051',   6400] # Hősök tere M
-      - ['19:21:00', 'F01059',   6875] # Szabolcs utca
-      - ['19:22:00', 'F02626',   7215] # Lehel utca (Dózsa György út)
-      - ['19:25:00', 'F02592',   8125] # Róbert Károly körút (Lehel utca)
-      - ['19:26:00', 'F02588',   8633] # Béke tér
-      - ['19:27:00', 'F02676',   9137] # Fáy utca
-      - ['19:29:00', 'F02551',   9799] # Fiastyúk utca
-      - ['19:30:00', 'F02557',  10158] # Násznagy utca
-      - ['19:32:00', 'F02560',  10659] # József Attila tér
-      - ['19:34:00', 'F02540',  11193] # Tomori utca
-      - ['19:36:00', 'F02537',  11716] # Gyöngyösi utca M
+      - ['00:00:00', 'F02294',      0] # Apor Vilmos tér
+      - ['00:01:00', 'F02305',    351] # Kiss János altábornagy utca
+      - ['00:02:00', 'F02309',    519] # Tartsay Vilmos utca
+      - ['00:03:00', 'F02415',    983] # Márvány utca
+      - ['00:04:00', 'F00013',   1205] # Alkotás utca
+      - ['00:05:00', 'F00096',   1427] # Győri út
+      - ['00:07:00', 'F00098',   1760] # Mészáros utca
+      - ['00:08:00', 'F00083',   2115] # Krisztina tér
+      - ['00:10:00', 'F00048',   2635] # Clark Ádám tér
+      - ['00:11:00', '008218',   3242] # Széchenyi István tér
+      - ['00:12:00', 'F00979',   3522] # József nádor tér
+      - ['00:14:00', '038717',   3797] # Deák Ferenc tér M
+      - ['00:15:00', 'F00944',   3956] # Bajcsy-Zsilinszky út M
+      - ['00:17:00', 'F01078',   4387] # Opera M
+      - ['00:19:00', 'F01089',   4631] # Oktogon M
+      - ['00:21:00', 'F01097',   5529] # Kodály körönd M
+      - ['00:22:00', 'F01098',   5795] # Bajza utca M
+      - ['00:25:00', 'F01051',   6400] # Hősök tere M
+      - ['00:26:00', 'F01059',   6875] # Szabolcs utca
+      - ['00:27:00', 'F02626',   7215] # Lehel utca (Dózsa György út)
+      - ['00:30:00', 'F02592',   8125] # Róbert Károly körút (Lehel utca)
+      - ['00:31:00', 'F02588',   8633] # Béke tér
+      - ['00:32:00', 'F02676',   9137] # Fáy utca
+      - ['00:34:00', 'F02551',   9799] # Fiastyúk utca
+      - ['00:35:00', 'F02557',  10158] # Násznagy utca
+      - ['00:37:00', 'F02560',  10659] # József Attila tér
+      - ['00:39:00', 'F02540',  11193] # Tomori utca
+      - ['00:41:00', 'F02537',  11716] # Gyöngyösi utca M
     trip_headsign: Gyöngyösi utca M
     trip_id: REFERENCE-1050-0-1
     wheelchair_accessible: 1
@@ -48,34 +48,34 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1050-1-1-O098
     stop_times:
-      - ['17:30:00', 'F02535',      0] # Gyöngyösi utca M
-      - ['17:31:00', 'F02541',    406] # Tomori utca
-      - ['17:32:00', 'F02559',    751] # József Attila tér
-      - ['17:33:00', 'F02558',   1259] # Fiastyúk utca
-      - ['17:34:00', 'F02552',   1705] # Béke utca
-      - ['17:36:00', 'F02675',   2428] # Frangepán utca
-      - ['17:38:00', 'F02586',   3032] # Béke tér
-      - ['17:41:00', 'F02595',   3587] # Róbert Károly körút (Lehel utca)
-      - ['17:43:00', 'F02629',   3903] # Vágány utca
-      - ['17:46:00', 'F01057',   4676] # Dózsa György út
-      - ['17:49:00', 'F01052',   5142] # Hősök tere M
-      - ['17:51:00', 'F01099',   5847] # Bajza utca M
-      - ['17:52:00', 'F01094',   6088] # Kodály körönd M
-      - ['17:54:00', 'F01088',   6822] # Oktogon M
-      - ['17:56:00', 'F01077',   7089] # Opera M
-      - ['17:58:00', 'F00945',   7532] # Bajcsy-Zsilinszky út M
-      - ['18:00:00', '18:02:00', '009230',   7953] # Deák Ferenc tér M
-      - ['18:03:00', 'F00981',   8263] # Hild tér
-      - ['18:05:00', '008238',   8726] # Széchenyi István tér
-      - ['18:08:00', 'F00047',   9385] # Clark Ádám tér
-      - ['18:11:00', 'F00087',  10108] # Krisztina tér
-      - ['18:12:00', 'F00097',  10271] # Győző utca
-      - ['18:13:00', 'F00095',  10644] # Márvány utca
-      - ['18:14:00', 'F00016',  10806] # Királyhágó utca
-      - ['18:16:00', 'F02413',  11112] # Királyhágó tér
-      - ['18:18:00', 'F02422',  11603] # Agárdi út
-      - ['18:19:00', 'F02290',  11845] # Németvölgyi út
-      - ['18:20:00', 'F02294',  12076] # Apor Vilmos tér
+      - ['00:00:00', 'F02535',      0] # Gyöngyösi utca M
+      - ['00:01:00', 'F02541',    406] # Tomori utca
+      - ['00:02:00', 'F02559',    751] # József Attila tér
+      - ['00:03:00', 'F02558',   1259] # Fiastyúk utca
+      - ['00:04:00', 'F02552',   1705] # Béke utca
+      - ['00:06:00', 'F02675',   2428] # Frangepán utca
+      - ['00:08:00', 'F02586',   3032] # Béke tér
+      - ['00:10:00', 'F02595',   3587] # Róbert Károly körút (Lehel utca)
+      - ['00:12:00', 'F02629',   3903] # Vágány utca
+      - ['00:14:00', 'F01057',   4676] # Dózsa György út
+      - ['00:17:00', 'F01052',   5142] # Hősök tere M
+      - ['00:19:00', 'F01099',   5847] # Bajza utca M
+      - ['00:20:00', 'F01094',   6088] # Kodály körönd M
+      - ['00:22:00', 'F01088',   6822] # Oktogon M
+      - ['00:24:00', 'F01077',   7089] # Opera M
+      - ['00:25:00', 'F00945',   7532] # Bajcsy-Zsilinszky út M
+      - ['00:27:00', '00:29:00', '009230',   7953] # Deák Ferenc tér M
+      - ['00:30:00', 'F00981',   8263] # Hild tér
+      - ['00:32:00', '008238',   8726] # Széchenyi István tér
+      - ['00:34:00', 'F00047',   9385] # Clark Ádám tér
+      - ['00:37:00', 'F00087',  10108] # Krisztina tér
+      - ['00:38:00', 'F00097',  10271] # Győző utca
+      - ['00:39:00', 'F00095',  10644] # Márvány utca
+      - ['00:40:00', 'F00016',  10806] # Királyhágó utca
+      - ['00:42:00', 'F02413',  11112] # Királyhágó tér
+      - ['00:44:00', 'F02422',  11603] # Agárdi út
+      - ['00:45:00', 'F02290',  11845] # Németvölgyi út
+      - ['00:46:00', 'F02294',  12076] # Apor Vilmos tér
     trip_headsign: Apor Vilmos tér
     trip_id: REFERENCE-1050-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

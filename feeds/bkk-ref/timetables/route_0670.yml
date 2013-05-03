@@ -13,28 +13,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0670-0-1-A114
     stop_times:
-      - ['14:02:00', '008029',      0] # Örs vezér tere M+H
-      - ['14:05:00', '009322',    578] # Örs vezér tere M+H (Kerepesi út)
-      - ['14:05:00', 'F01771',    989] # Gyakorló köz
-      - ['14:06:00', 'F01855',   1269] # Gépmadár park
-      - ['14:07:00', 'F01791',   1574] # Rákosfalva H
-      - ['14:08:00', 'F01774',   1962] # Halas utca
-      - ['14:09:00', 'F01785',   2330] # EGIS Gyógyszergyár
-      - ['14:10:00', '008924',   3061] # Kabai utca
-      - ['14:11:00', 'F01787',   3349] # MÁV-telep
-      - ['14:13:00', 'F01612',   3931] # Keresztúri út 102.
-      - ['14:14:00', 'F01815',   4529] # Fővárosi Kertészet
-      - ['14:16:00', 'F01817',   5079] # Díszítő üzem
-      - ['14:17:00', 'F01610',   5792] # Túzok utca
-      - ['14:18:00', 'F01865',   6511] # Aluljáró, Danone
-      - ['14:21:00', 'F01718',   7910] # Határmalom utca
-      - ['14:23:00', '009543',   8940] # 513. utca
-      - ['14:24:00', 'F03547',   9215] # Borsó utca
-      - ['14:25:00', 'F03595',   9493] # Újlak utca, lakótelep
-      - ['14:25:00', 'F03554',   9882] # Uszoda
-      - ['14:26:00', '009492',  10145] # Füstifecske utca
-      - ['14:27:00', 'F03556',  10611] # Szürkebegy utca
-      - ['14:29:00', 'F03557',  11154] # Rákoskeresztúr, Aranylúd utca
+      - ['00:00:00', '008029',      0] # Örs vezér tere M+H
+      - ['00:03:00', '009322',    578] # Örs vezér tere M+H (Kerepesi út)
+      - ['00:03:00', 'F01771',    989] # Gyakorló köz
+      - ['00:04:00', 'F01855',   1269] # Gépmadár park
+      - ['00:05:00', 'F01791',   1574] # Rákosfalva H
+      - ['00:05:00', 'F01774',   1962] # Halas utca
+      - ['00:06:00', 'F01785',   2330] # EGIS Gyógyszergyár
+      - ['00:08:00', '008924',   3061] # Kabai utca
+      - ['00:09:00', 'F01787',   3349] # MÁV-telep
+      - ['00:10:00', 'F01612',   3931] # Keresztúri út 102.
+      - ['00:11:00', 'F01815',   4529] # Fővárosi Kertészet
+      - ['00:13:00', 'F01817',   5079] # Díszítő üzem
+      - ['00:14:00', 'F01610',   5792] # Túzok utca
+      - ['00:15:00', 'F01865',   6511] # Aluljáró, Danone
+      - ['00:18:00', 'F01718',   7910] # Határmalom utca
+      - ['00:20:00', '009543',   8940] # 513. utca
+      - ['00:20:00', 'F03547',   9215] # Borsó utca
+      - ['00:21:00', 'F03595',   9493] # Újlak utca, lakótelep
+      - ['00:22:00', 'F03554',   9882] # Uszoda
+      - ['00:23:00', '00:24:00', '009492',  10145] # Füstifecske utca
+      - ['00:25:00', 'F03556',  10611] # Szürkebegy utca
+      - ['00:27:00', 'F03557',  11154] # Rákoskeresztúr, Aranylúd utca
     trip_headsign: 'Rákoskeresztúr, Aranylúd utca'
     trip_id: REFERENCE-0670-0-1
     wheelchair_accessible: 2
@@ -42,26 +42,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0670-1-1-A115
     stop_times:
-      - ['05:14:00', 'F03557',      0] # Rákoskeresztúr, Aranylúd utca
-      - ['05:14:00', 'F03558',    385] # Barátka utca
-      - ['05:15:00', 'F03559',    899] # Vadkacsa utca
-      - ['05:16:00', 'F03553',   1297] # 513. utca
-      - ['05:17:00', 'F03550',   1765] # Pesti út
-      - ['05:18:00', 'F01717',   3051] # Határmalom utca
-      - ['05:20:00', 'F01864',   4264] # Aluljáró, Danone
-      - ['05:21:00', 'F01609',   5058] # Túzok utca
-      - ['05:22:00', 'F01816',   5760] # Díszítő üzem
-      - ['05:23:00', 'F01814',   6219] # Fővárosi Kertészet
-      - ['05:24:00', 'F01611',   6936] # Keresztúri út 102.
-      - ['05:25:00', 'F01786',   7420] # MÁV-telep
-      - ['05:26:00', '008923',   7762] # Kabai utca
-      - ['05:27:00', 'F01784',   8615] # EGIS Gyógyszergyár
-      - ['05:28:00', 'F01773',   8851] # Halas utca
-      - ['05:30:00', 'F01790',   9205] # Rákosfalva H
-      - ['05:31:00', 'F01854',   9603] # Gépmadár park
-      - ['05:32:00', 'F01772',   9910] # Sarkantyú utca
-      - ['05:34:00', 'F01752',  10449] # Örs vezér tere M+H
-      - ['05:35:00', '008029',  10559] # Örs vezér tere M+H
+      - ['00:00:00', 'F03557',      0] # Rákoskeresztúr, Aranylúd utca
+      - ['00:00:00', 'F03558',    385] # Barátka utca
+      - ['00:01:00', 'F03559',    899] # Vadkacsa utca
+      - ['00:02:00', 'F03553',   1297] # 513. utca
+      - ['00:03:00', 'F03550',   1765] # Pesti út
+      - ['00:05:00', 'F01717',   3051] # Határmalom utca
+      - ['00:07:00', 'F01864',   4264] # Aluljáró, Danone
+      - ['00:08:00', 'F01609',   5058] # Túzok utca
+      - ['00:09:00', 'F01816',   5760] # Díszítő üzem
+      - ['00:10:00', 'F01814',   6219] # Fővárosi Kertészet
+      - ['00:12:00', 'F01611',   6936] # Keresztúri út 102.
+      - ['00:13:00', 'F01786',   7420] # MÁV-telep
+      - ['00:14:00', '008923',   7762] # Kabai utca
+      - ['00:16:00', 'F01784',   8615] # EGIS Gyógyszergyár
+      - ['00:16:00', 'F01773',   8851] # Halas utca
+      - ['00:18:00', 'F01790',   9205] # Rákosfalva H
+      - ['00:19:00', 'F01854',   9603] # Gépmadár park
+      - ['00:20:00', 'F01772',   9910] # Sarkantyú utca
+      - ['00:23:00', 'F01752',  10449] # Örs vezér tere M+H
+      - ['00:24:00', '008029',  10559] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-0670-1-1
     wheelchair_accessible: 2

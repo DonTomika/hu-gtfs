@@ -13,38 +13,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0975-0-1-P541
     stop_times:
-      - ['14:37:00', '011723',      0] # Rákoskeresztúr, városközpont
-      - ['14:38:00', 'F03515',    654] # Mezőtárkány utca
-      - ['14:39:00', 'F03513',   1241] # Oroszvár utca
-      - ['14:40:00', 'F03438',   1532] # Sági utca
-      - ['14:41:00', 'F03511',   1981] # Tápióbicske utca
-      - ['14:41:00', '043193',   2305] # Kisvárda utca
-      - ['14:42:00', 'F03509',   2525] # Szabadság sugárút
-      - ['14:43:00', 'F03498',   3165] # Kucorgó tér
-      - ['14:45:00', 'F03575',   3750] # Olcsva utca
-      - ['14:45:00', 'F03569',   4031] # Nyomdok utca
-      - ['14:46:00', 'F03501',   4343] # Nyomdász utca
-      - ['14:47:00', 'F03503',   4655] # Sáránd utca
-      - ['14:47:00', 'F03504',   4993] # Rákoskert sugárút
-      - ['14:49:00', 'F03570',   5511] # Erzsébet körút
+      - ['00:00:00', '011723',      0] # Rákoskeresztúr, városközpont
+      - ['00:01:00', 'F03515',    654] # Mezőtárkány utca
+      - ['00:02:00', 'F03513',   1241] # Oroszvár utca
+      - ['00:02:00', 'F03438',   1532] # Sági utca
+      - ['00:03:00', 'F03511',   1981] # Tápióbicske utca
+      - ['00:04:00', '043193',   2305] # Kisvárda utca
+      - ['00:04:00', 'F03509',   2525] # Szabadság sugárút
+      - ['00:06:00', 'F03498',   3165] # Kucorgó tér
+      - ['00:07:00', 'F03575',   3750] # Olcsva utca
+      - ['00:08:00', 'F03569',   4031] # Nyomdok utca
+      - ['00:09:00', 'F03501',   4343] # Nyomdász utca
+      - ['00:10:00', 'F03503',   4655] # Sáránd utca
+      - ['00:11:00', 'F03504',   4993] # Rákoskert sugárút
+      - ['00:12:00', 'F03570',   5511] # Erzsébet körút
     trip_headsign: Erzsébet körút
     trip_id: REFERENCE-0975-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0975-1-1-P540
     stop_times:
-      - ['06:17:00', 'F03570',      0] # Erzsébet körút
-      - ['06:18:00', 'F03506',    548] # Zrínyi utca
-      - ['06:19:00', 'F03585',   1037] # Rózsaszál utca
-      - ['06:21:00', 'F03499',   1727] # Kucorgó tér
-      - ['06:22:00', 'F03508',   2361] # Szabadság sugárút
-      - ['06:23:00', '043192',   2682] # Kisvárda utca
-      - ['06:24:00', 'F03510',   3028] # Tápióbicske utca
-      - ['06:25:00', 'F03437',   3446] # Sági utca
-      - ['06:26:00', 'F03512',   3776] # Oroszvár utca
-      - ['06:27:00', 'F03514',   4364] # Mezőtárkány utca
-      - ['06:30:00', '011725',   5088] # Rákoskeresztúr, városközpont
+      - ['00:00:00', 'F03570',      0] # Erzsébet körút
+      - ['00:01:00', 'F03506',    548] # Zrínyi utca
+      - ['00:02:00', 'F03585',   1037] # Rózsaszál utca
+      - ['00:04:00', 'F03499',   1727] # Kucorgó tér
+      - ['00:05:00', 'F03508',   2361] # Szabadság sugárút
+      - ['00:05:00', '043192',   2682] # Kisvárda utca
+      - ['00:06:00', 'F03510',   3028] # Tápióbicske utca
+      - ['00:07:00', 'F03437',   3446] # Sági utca
+      - ['00:08:00', 'F03512',   3776] # Oroszvár utca
+      - ['00:09:00', 'F03514',   4364] # Mezőtárkány utca
+      - ['00:11:00', '011725',   5088] # Rákoskeresztúr, városközpont
     trip_headsign: 'Rákoskeresztúr, vkp. (metró felé)'
     trip_id: REFERENCE-0975-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

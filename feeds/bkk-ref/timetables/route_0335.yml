@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Móricz Zsigmond körtér / Nagytétény vasútállomás
+route_desc: Móricz Zsigmond körtér (Karinthy Fr.út) / Nagytétény vasútállomás
 route_id: 0335
 route_long_name: ''
 route_short_name: 33E
@@ -13,25 +13,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0335-0-1-L871
     stop_times:
-      - ['16:38:00', 'F02151',      0] # Móricz Zsigmond körtér (Karinthy Fr.út)
-      - ['16:41:00', 'F01986',    407] # Budafoki út (Szerémi sor)
-      - ['16:44:00', 'F02234',   1515] # Kelenföldi Erőmű
-      - ['16:46:00', 'F02236',   2108] # Hengermalom út
-      - ['16:50:00', 'F01974',   3494] # Építész utca
-      - ['16:56:00', 'F04403',   6339] # Városház tér
-      - ['16:58:00', 'F04433',   8324] # Háros vasútállomás
-      - ['17:00:00', 'F04453',   9307] # Jókai Mór utca
-      - ['17:02:00', 'F04456',   9696] # Lépcsős utca
-      - ['17:04:00', 'F04457',  10403] # Budatétényi sorompó
-      - ['17:06:00', 'F04467',  11039] # Dózsa György út
-      - ['17:07:00', 'F04509',  11493] # Tenkes utca
-      - ['17:08:00', 'F04480',  11946] # Bartók Béla út
-      - ['17:09:00', 'F04495',  12316] # Petőfi Sándor u.(Kastélymúzeum)
-      - ['17:10:00', 'F04496',  12761] # Szabadság utca
-      - ['17:11:00', 'F04499',  13038] # Angeli utca
-      - ['17:12:00', 'F04502',  13305] # Akó utca
-      - ['17:14:00', 'F04504',  13763] # Nagytétény vasútállomás
-      - ['17:14:00', '009585',  13957] # Nagytétény vasútállomás
+      - ['00:00:00', 'F02151',      0] # Móricz Zsigmond körtér (Karinthy Fr.út)
+      - ['00:03:00', 'F01986',    407] # Budafoki út (Szerémi sor)
+      - ['00:06:00', 'F02234',   1515] # Kelenföldi Erőmű
+      - ['00:07:00', 'F02236',   2108] # Hengermalom út
+      - ['00:11:00', 'F01974',   3494] # Építész utca
+      - ['00:16:00', 'F04403',   6339] # Városház tér
+      - ['00:18:00', 'F04433',   8324] # Háros vasútállomás
+      - ['00:20:00', 'F04453',   9307] # Jókai Mór utca
+      - ['00:21:00', 'F04456',   9696] # Lépcsős utca
+      - ['00:23:00', 'F04457',  10403] # Budatétényi sorompó
+      - ['00:25:00', 'F04467',  11039] # Dózsa György út
+      - ['00:26:00', 'F04509',  11493] # Tenkes utca
+      - ['00:27:00', 'F04480',  11946] # Bartók Béla út
+      - ['00:28:00', 'F04495',  12316] # Petőfi Sándor u.(Kastélymúzeum)
+      - ['00:29:00', 'F04496',  12761] # Szabadság utca
+      - ['00:30:00', 'F04499',  13038] # Angeli utca
+      - ['00:31:00', 'F04502',  13305] # Akó utca
+      - ['00:32:00', 'F04504',  13763] # Nagytétény vasútállomás
+      - ['00:32:00', '009585',  13957] # Nagytétény vasútállomás
     trip_headsign: Nagytétény vasútállomás
     trip_id: REFERENCE-0335-0-1
     wheelchair_accessible: 2
@@ -39,26 +39,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0335-1-1-L872
     stop_times:
-      - ['14:44:00', '009585',      0] # Nagytétény vasútállomás
-      - ['14:44:00', 'F04503',    281] # Nagytétény vasútállomás
-      - ['14:45:00', 'F04501',    675] # Vasút utca
-      - ['14:46:00', '008170',    939] # Angeli utca
-      - ['14:47:00', 'F04497',   1313] # Szabadság utca
-      - ['14:48:00', 'F04494',   1669] # Petőfi Sándor utca
-      - ['14:49:00', 'F04479',   1981] # Bartók Béla út
-      - ['14:50:00', 'F04510',   2437] # Tenkes utca
-      - ['14:51:00', 'F04466',   3061] # Dózsa György út
-      - ['14:53:00', 'F04458',   3684] # Budatétényi sorompó
-      - ['14:55:00', 'F04455',   4359] # Lépcsős utca
-      - ['14:57:00', 'F04454',   4732] # Jókai Mór utca
-      - ['15:00:00', 'F04434',   5756] # Háros vasútállomás
-      - ['15:04:00', 'F04406',   7681] # Városház tér
-      - ['15:10:00', 'F01975',  10444] # Építész utca
-      - ['15:13:00', 'F02237',  11966] # Hengermalom út
-      - ['15:15:00', 'F02235',  12525] # Kelenföldi Erőmű
-      - ['15:18:00', 'F01991',  13465] # Budafoki út (Szerémi sor)
-      - ['15:19:00', 'F02155',  13763] # Budafoki út (Karinthy Frigyes út)
-      - ['15:21:00', '011319',  14215] # Móricz Zsigmond körtér (Karinthy Fr.út)
+      - ['00:00:00', '009585',      0] # Nagytétény vasútállomás
+      - ['00:00:00', 'F04503',    281] # Nagytétény vasútállomás
+      - ['00:01:00', 'F04501',    675] # Vasút utca
+      - ['00:02:00', '008170',    939] # Angeli utca
+      - ['00:03:00', 'F04497',   1313] # Szabadság utca
+      - ['00:04:00', 'F04494',   1669] # Petőfi Sándor utca
+      - ['00:05:00', 'F04479',   1981] # Bartók Béla út
+      - ['00:06:00', 'F04510',   2437] # Tenkes utca
+      - ['00:07:00', 'F04466',   3061] # Dózsa György út
+      - ['00:09:00', 'F04458',   3684] # Budatétényi sorompó
+      - ['00:10:00', 'F04455',   4359] # Lépcsős utca
+      - ['00:11:00', 'F04454',   4732] # Jókai Mór utca
+      - ['00:13:00', 'F04434',   5756] # Háros vasútállomás
+      - ['00:17:00', 'F04406',   7681] # Városház tér
+      - ['00:23:00', 'F01975',  10444] # Építész utca
+      - ['00:26:00', 'F02237',  11966] # Hengermalom út
+      - ['00:28:00', 'F02235',  12525] # Kelenföldi Erőmű
+      - ['00:31:00', 'F01991',  13465] # Budafoki út (Szerémi sor)
+      - ['00:32:00', 'F02155',  13763] # Budafoki út (Karinthy Frigyes út)
+      - ['00:33:00', '011319',  14215] # Móricz Zsigmond körtér (Karinthy Fr.út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-0335-1-1
     wheelchair_accessible: 2

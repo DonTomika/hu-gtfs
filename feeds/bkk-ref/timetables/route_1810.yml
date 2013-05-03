@@ -13,40 +13,40 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1810-0-1-G048
     stop_times:
-      - ['19:30:00', 'F01476',      0] # Aszódi utca
-      - ['19:30:00', 'F01479',    327] # Gyáli út
-      - ['19:31:00', 'F01483',    808] # Epreserdő utca
-      - ['19:33:00', 'F01490',   1243] # Ecseri út M
-      - ['19:34:00', 'F01488',   1503] # Ifjúmunkás utca
-      - ['19:34:00', 'F01364',   1703] # Börzsöny utca
-      - ['19:35:00', 'F01469',   1935] # Napfény utca
-      - ['19:37:00', 'F01470',   2325] # Lobogó utca
-      - ['19:38:00', 'F01408',   2611] # József Attila ltp., Távíró utca
+      - ['00:00:00', 'F01476',      0] # Aszódi utca
+      - ['00:00:00', 'F01479',    327] # Gyáli út
+      - ['00:02:00', 'F01483',    808] # Epreserdő utca
+      - ['00:04:00', 'F01490',   1243] # Ecseri út M
+      - ['00:05:00', 'F01488',   1503] # Ifjúmunkás utca
+      - ['00:05:00', 'F01364',   1703] # Börzsöny utca
+      - ['00:06:00', 'F01469',   1935] # Napfény utca
+      - ['00:08:00', 'F01470',   2325] # Lobogó utca
+      - ['00:09:00', 'F01408',   2611] # József Attila ltp., Távíró utca
     trip_headsign: 'József Attila ltp., Távíró utca'
     trip_id: REFERENCE-1810-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1810-1-1-G049
     stop_times:
-      - ['04:58:00', 'F01408',      0] # József Attila ltp., Távíró utca
-      - ['04:59:00', 'F01471',    176] # Lobogó utca
-      - ['04:59:00', 'F01467',    530] # Friss utca
-      - ['05:00:00', 'F01468',    818] # Pöttyös utca
-      - ['05:00:00', 'F01363',   1212] # Börzsöny utca
-      - ['05:01:00', 'F01368',   1450] # Aranyvirág sétány
-      - ['05:02:00', 'F01486',   1630] # Ecseri út
-      - ['05:03:00', 'F01489',   2121] # Ecseri út M
-      - ['05:03:00', 'F01487',   2388] # Ifjúmunkás utca
-      - ['05:04:00', 'F01369',   2577] # Aranyvirág sétány
-      - ['05:05:00', 'F01481',   2754] # Ecseri út
-      - ['05:06:00', 'F01482',   2980] # Közterületfenntartó Zrt.
-      - ['05:07:00', '008589',   3411] # Gyáli út
-      - ['05:08:00', 'F01477',   3713] # Zombori utca
-      - ['05:09:00', 'F01492',   3906] # Péceli utca
-      - ['05:10:00', 'F01365',   4126] # Merényi Gusztáv Kórház
-      - ['05:11:00', 'F01478',   4377] # Füleki utca
-      - ['05:13:00', 'F01476',   4797] # Aszódi utca
+      - ['00:00:00', 'F01408',      0] # József Attila ltp., Távíró utca
+      - ['00:01:00', 'F01471',    176] # Lobogó utca
+      - ['00:01:00', 'F01467',    530] # Friss utca
+      - ['00:02:00', 'F01468',    818] # Pöttyös utca
+      - ['00:02:00', 'F01363',   1212] # Börzsöny utca
+      - ['00:03:00', 'F01368',   1450] # Aranyvirág sétány
+      - ['00:04:00', 'F01486',   1630] # Ecseri út
+      - ['00:05:00', 'F01489',   2121] # Ecseri út M
+      - ['00:05:00', 'F01487',   2388] # Ifjúmunkás utca
+      - ['00:06:00', 'F01369',   2577] # Aranyvirág sétány
+      - ['00:07:00', 'F01481',   2754] # Ecseri út
+      - ['00:08:00', 'F01482',   2980] # Közterületfenntartó Zrt.
+      - ['00:09:00', '008589',   3411] # Gyáli út
+      - ['00:10:00', 'F01477',   3713] # Zombori utca
+      - ['00:11:00', 'F01492',   3906] # Péceli utca
+      - ['00:12:00', 'F01365',   4126] # Merényi Gusztáv Kórház
+      - ['00:13:00', 'F01478',   4377] # Füleki utca
+      - ['00:15:00', 'F01476',   4797] # Aszódi utca
     trip_headsign: Aszódi utca
     trip_id: REFERENCE-1810-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

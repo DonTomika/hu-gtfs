@@ -13,37 +13,37 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1250-0-1-H428
     stop_times:
-      - ['06:40:00', 'F02826',      0] # Bosnyák tér
-      - ['06:41:00', 'F02854',    419] # Telepes utca
-      - ['06:41:00', 'F02853',    821] # Fűrész utca
-      - ['06:42:00', 'F02914',   1207] # Szentes utca
-      - ['06:43:00', 'F02851',   1778] # Öv utca
-      - ['06:44:00', 'F02946',   2195] # Kerékgyártó utca
-      - ['06:46:00', 'F02855',   2713] # Szuglói körvasút sor
-      - ['06:47:00', 'F03092',   3036] # Rekettye utca
-      - ['06:48:00', 'F03090',   3289] # Perczel Mór utca
-      - ['06:49:00', 'F03088',   3811] # Rákos út
-      - ['06:50:00', 'F03173',   3989] # Karatna tér
-      - ['06:51:00', 'F03084',   4469] # Wysocki utca
-      - ['06:51:00', 'F03080',   4614] # Patyolat utca
-      - ['06:52:00', 'F03078',   4909] # Pázmány Péter utca
-      - ['06:53:00', 'F03075',   5155] # Istvántelek vasútállomás
-      - ['06:53:00', 'F03077',   5394] # Eötvös utca
-      - ['06:54:00', 'F03067',   5691] # Szerencs utca
-      - ['06:55:00', 'F03068',   6025] # Eötvös utca 74.
-      - ['06:56:00', 'F03179',   6179] # Rädda Barnen utca
-      - ['06:57:00', 'F03050',   6911] # Hubay Jenő tér
-      - ['06:59:00', 'F03046',   7377] # Széchenyi tér
-      - ['07:00:00', 'F03026',   8030] # Csobogós utca
-      - ['07:02:00', 'F03016',   8612] # Közvágóhíd tér
-      - ['07:03:00', 'F03018',   9030] # Kovácsi Kálmán tér
-      - ['07:04:00', 'F03171',   9413] # Árokhát út
-      - ['07:05:00', 'F03176',   9725] # Székely Elek út
-      - ['07:06:00', 'F03007',  10259] # Mélyfúró utca
-      - ['07:07:00', 'F03031',  10443] # BRFK gépkocsitároló
-      - ['07:08:00', 'F03006',  10869] # Hulladékhasznosító Mű
-      - ['07:09:00', 'F03004',  11321] # Károlyi Sándor út
-      - ['07:10:00', 'F03003',  11557] # Rákospalota, MEDIMPEX
+      - ['00:00:00', 'F02826',      0] # Bosnyák tér
+      - ['00:01:00', 'F02854',    419] # Telepes utca
+      - ['00:01:00', 'F02853',    821] # Fűrész utca
+      - ['00:02:00', 'F02914',   1207] # Szentes utca
+      - ['00:03:00', 'F02851',   1778] # Öv utca
+      - ['00:04:00', 'F02946',   2195] # Kerékgyártó utca
+      - ['00:06:00', 'F02855',   2713] # Szuglói körvasút sor
+      - ['00:06:00', 'F03092',   3036] # Rekettye utca
+      - ['00:07:00', 'F03090',   3289] # Perczel Mór utca
+      - ['00:09:00', 'F03088',   3811] # Rákos út
+      - ['00:09:00', 'F03173',   3989] # Karatna tér
+      - ['00:11:00', 'F03084',   4469] # Wysocki utca
+      - ['00:11:00', 'F03080',   4614] # Patyolat utca
+      - ['00:12:00', 'F03078',   4909] # Pázmány Péter utca
+      - ['00:13:00', 'F03075',   5155] # Istvántelek vasútállomás
+      - ['00:14:00', 'F03077',   5394] # Eötvös utca
+      - ['00:15:00', 'F03067',   5691] # Szerencs utca
+      - ['00:16:00', 'F03068',   6025] # Eötvös utca 74.
+      - ['00:16:00', 'F03179',   6179] # Rädda Barnen utca
+      - ['00:18:00', 'F03050',   6911] # Hubay Jenő tér
+      - ['00:20:00', 'F03046',   7377] # Széchenyi tér
+      - ['00:22:00', 'F03026',   8030] # Csobogós utca
+      - ['00:23:00', 'F03016',   8612] # Közvágóhíd tér
+      - ['00:25:00', 'F03018',   9030] # Kovácsi Kálmán tér
+      - ['00:26:00', 'F03171',   9413] # Árokhát út
+      - ['00:27:00', 'F03176',   9725] # Székely Elek út
+      - ['00:29:00', 'F03007',  10259] # Mélyfúró utca
+      - ['00:29:00', 'F03031',  10443] # BRFK gépkocsitároló
+      - ['00:30:00', 'F03006',  10869] # Hulladékhasznosító Mű
+      - ['00:32:00', 'F03004',  11321] # Károlyi Sándor út
+      - ['00:33:00', 'F03003',  11557] # Rákospalota, MEDIMPEX
     trip_headsign: 'Rákospalota, MEDIMPEX'
     trip_id: REFERENCE-1250-0-1
     wheelchair_accessible: 2
@@ -51,35 +51,35 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1250-1-1-J367
     stop_times:
-      - ['09:20:00', 'F03003',      0] # Rákospalota, MEDIMPEX
-      - ['09:21:00', 'F03005',    411] # Hulladékhasznosító Mű
-      - ['09:22:00', 'F03175',    950] # Rákospalota, Székely Elek út
-      - ['09:23:00', 'F03170',   1285] # Árokhát út
-      - ['09:24:00', 'F03017',   1686] # Kovácsi Kálmán tér
-      - ['09:25:00', 'F03015',   2009] # Közvágóhíd tér
-      - ['09:26:00', 'F03025',   2527] # Csobogós utca
-      - ['09:27:00', 'F03030',   2857] # Rákospalota, Kossuth utca
-      - ['09:28:00', 'F03045',   3229] # Széchenyi tér
-      - ['09:29:00', 'F03049',   3682] # Deák utca
-      - ['09:31:00', 'F03055',   3910] # Hubay Jenő tér
-      - ['09:32:00', 'F03180',   4455] # Rädda Barnen utca
-      - ['09:33:00', 'F03069',   4655] # Arany János utca
-      - ['09:33:00', 'F03066',   4928] # Szerencs utca
-      - ['09:34:00', 'F03076',   5216] # Dugonics utca
-      - ['09:35:00', 'F03074',   5515] # Istvántelek vasútállomás
-      - ['09:36:00', 'F03079',   5807] # Wysocki utca
-      - ['09:36:00', 'F03081',   6031] # Patyolat utca
-      - ['09:37:00', 'F03085',   6267] # Rákos út
-      - ['09:38:00', 'F03174',   6683] # Karatna tér
-      - ['09:39:00', 'F03089',   6891] # Rekettye utca
-      - ['09:40:00', 'F03091',   7294] # Perczel Mór utca
-      - ['09:41:00', '008245',   7691] # Kolozsvár utcai piac
-      - ['09:42:00', 'F02859',   8044] # Öv utca
-      - ['09:43:00', 'F02945',   8369] # Kerékgyártó utca
-      - ['09:44:00', 'F02850',   8863] # Telepes utca
-      - ['09:46:00', 'F02913',   9352] # Szentes utca
-      - ['09:47:00', 'F02852',   9848] # Fűrész utca
-      - ['09:49:00', 'F02826',  10344] # Bosnyák tér
+      - ['00:00:00', 'F03003',      0] # Rákospalota, MEDIMPEX
+      - ['00:01:00', 'F03005',    411] # Hulladékhasznosító Mű
+      - ['00:02:00', 'F03175',    950] # Rákospalota, Székely Elek út
+      - ['00:03:00', 'F03170',   1285] # Árokhát út
+      - ['00:04:00', 'F03017',   1686] # Kovácsi Kálmán tér
+      - ['00:05:00', 'F03015',   2009] # Közvágóhíd tér
+      - ['00:06:00', 'F03025',   2527] # Csobogós utca
+      - ['00:07:00', 'F03030',   2857] # Rákospalota, Kossuth utca
+      - ['00:08:00', 'F03045',   3229] # Széchenyi tér
+      - ['00:09:00', 'F03049',   3682] # Deák utca
+      - ['00:10:00', 'F03055',   3910] # Hubay Jenő tér
+      - ['00:11:00', 'F03180',   4455] # Rädda Barnen utca
+      - ['00:12:00', 'F03069',   4655] # Arany János utca
+      - ['00:12:00', 'F03066',   4928] # Szerencs utca
+      - ['00:13:00', 'F03076',   5216] # Dugonics utca
+      - ['00:14:00', 'F03074',   5515] # Istvántelek vasútállomás
+      - ['00:15:00', 'F03079',   5807] # Wysocki utca
+      - ['00:16:00', 'F03081',   6031] # Patyolat utca
+      - ['00:16:00', 'F03085',   6267] # Rákos út
+      - ['00:18:00', 'F03174',   6683] # Karatna tér
+      - ['00:18:00', 'F03089',   6891] # Rekettye utca
+      - ['00:19:00', 'F03091',   7294] # Perczel Mór utca
+      - ['00:21:00', '008245',   7691] # Kolozsvár utcai piac
+      - ['00:22:00', 'F02859',   8044] # Öv utca
+      - ['00:23:00', 'F02945',   8369] # Kerékgyártó utca
+      - ['00:24:00', 'F02850',   8863] # Telepes utca
+      - ['00:26:00', 'F02913',   9352] # Szentes utca
+      - ['00:27:00', 'F02852',   9848] # Fűrész utca
+      - ['00:29:00', 'F02826',  10344] # Bosnyák tér
     trip_headsign: Bosnyák tér
     trip_id: REFERENCE-1250-1-1
     wheelchair_accessible: 1

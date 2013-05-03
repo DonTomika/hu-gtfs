@@ -13,20 +13,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2370-0-1-G349
     stop_times:
-      - ['06:28:00', 'F00622',      0] # Szentlélek tér H
-      - ['06:29:00', 'F00613',    547] # Flórián tér
-      - ['06:31:00', 'F00588',    926] # Vihar utca
-      - ['06:32:00', 'F00584',   1384] # Óbudai rendelőintézet
-      - ['06:33:00', 'F00566',   1802] # Farkastorki út
-      - ['06:34:00', 'F00564',   2022] # Táborhegyi út
-      - ['06:35:00', 'F00672',   2306] # Zúzmara utca
-      - ['06:35:00', 'F00536',   2510] # Királyhelmec utca
-      - ['06:36:00', 'F00674',   2668] # Verhovina utca
-      - ['06:37:00', 'F00537',   2931] # Judit utca
-      - ['06:37:00', 'F00539',   3193] # Laborc utca
-      - ['06:38:00', 'F00541',   3393] # Jablonka út 53.
-      - ['06:38:00', 'F00543',   3658] # Jablonka út 73.
-      - ['06:39:00', 'F00545',   3938] # Jablonka út
+      - ['00:00:00', 'F00622',      0] # Szentlélek tér H
+      - ['00:01:00', 'F00613',    547] # Flórián tér
+      - ['00:03:00', 'F00588',    926] # Vihar utca
+      - ['00:04:00', 'F00584',   1384] # Óbudai rendelőintézet
+      - ['00:05:00', 'F00566',   1802] # Farkastorki út
+      - ['00:06:00', 'F00564',   2022] # Táborhegyi út
+      - ['00:07:00', 'F00672',   2306] # Zúzmara utca
+      - ['00:07:00', 'F00536',   2510] # Királyhelmec utca
+      - ['00:08:00', 'F00674',   2668] # Verhovina utca
+      - ['00:09:00', 'F00537',   2931] # Judit utca
+      - ['00:09:00', 'F00539',   3193] # Laborc utca
+      - ['00:10:00', 'F00541',   3393] # Jablonka út 53.
+      - ['00:10:00', 'F00543',   3658] # Jablonka út 73.
+      - ['00:11:00', 'F00545',   3938] # Jablonka út
     trip_headsign: Jablonka út
     trip_id: REFERENCE-2370-0-1
     wheelchair_accessible: 2
@@ -34,21 +34,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2370-1-1-G357
     stop_times:
-      - ['22:31:00', 'F00545',      0] # Jablonka út
-      - ['22:31:00', 'F00544',    306] # Jablonka út 74.
-      - ['22:32:00', 'F00542',    508] # Jablonka út 58.
-      - ['22:32:00', 'F00540',    765] # Laborc utca
-      - ['22:33:00', 'F00538',   1042] # Judit utca
-      - ['22:33:00', 'F00535',   1359] # Farkastorki út
-      - ['22:34:00', 'F00534',   1512] # Királyhelmec utca
-      - ['22:34:00', 'F00673',   1696] # Zúzmara utca
-      - ['22:35:00', 'F00565',   2001] # Táborhegyi út
-      - ['22:35:00', 'F00567',   2320] # Vörösvári út
-      - ['22:36:00', 'F00585',   2758] # Óbudai rendelőintézet
-      - ['22:37:00', 'F00589',   3053] # Szőlő utca
-      - ['22:38:00', 'F00616',   3339] # Flórián tér
-      - ['22:39:00', '009295',   3900] # Serfőző utca
-      - ['22:40:00', 'F00622',   4172] # Szentlélek tér H
+      - ['00:00:00', 'F00545',      0] # Jablonka út
+      - ['00:00:00', 'F00544',    306] # Jablonka út 74.
+      - ['00:01:00', 'F00542',    508] # Jablonka út 58.
+      - ['00:02:00', 'F00540',    765] # Laborc utca
+      - ['00:02:00', 'F00538',   1042] # Judit utca
+      - ['00:03:00', 'F00535',   1359] # Farkastorki út
+      - ['00:03:00', 'F00534',   1512] # Királyhelmec utca
+      - ['00:04:00', 'F00673',   1696] # Zúzmara utca
+      - ['00:04:00', 'F00565',   2001] # Táborhegyi út
+      - ['00:06:00', 'F00567',   2320] # Vörösvári út
+      - ['00:07:00', 'F00585',   2758] # Óbudai rendelőintézet
+      - ['00:09:00', 'F00589',   3053] # Szőlő utca
+      - ['00:11:00', 'F00616',   3339] # Flórián tér
+      - ['00:12:00', '009295',   3900] # Serfőző utca
+      - ['00:13:00', 'F00622',   4172] # Szentlélek tér H
     trip_headsign: Szentlélek tér H
     trip_id: REFERENCE-2370-1-1
     wheelchair_accessible: 2

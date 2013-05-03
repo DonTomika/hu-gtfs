@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1725-0-1-T040
     stop_times:
-      - ['08:17:00', 'F02188',      0] # Kosztolányi Dezső tér
-      - ['08:17:00', 'F02182',    274] # Kosztolányi Dezső tér
-      - ['08:21:00', 'F02053',   2040] # Dayka Gábor utca
-      - ['08:28:00', '008846',   8660] # Méhecske utca
-      - ['08:30:00', '008318',   9800] # Raktárváros
-      - ['08:32:00', '008324',  10840] # Tükörhegy
-      - ['08:34:00', '008317',  11533] # Bartók Béla utca
-      - ['08:35:00', 'F04751',  11961] # Baross Gábor utca
-      - ['08:36:00', 'F04757',  12276] # Harangláb
-      - ['08:37:00', 'F04814',  12946] # Ady Endre utca
-      - ['08:38:00', 'F04759',  13436] # Őszibarack utca
-      - ['08:39:00', 'F04761',  13824] # Károlyi Mihály utca
-      - ['08:41:00', '008345',  14500] # Katona József utca
-      - ['08:42:00', 'F04815',  14980] # Zrínyi utca
-      - ['08:43:00', 'F04758',  15331] # Harangláb
-      - ['08:45:00', 'F04756',  15721] # Törökbálint, Munkácsy Mihály utca
+      - ['00:00:00', 'F02188',      0] # Kosztolányi Dezső tér
+      - ['00:00:00', 'F02182',    274] # Kosztolányi Dezső tér
+      - ['00:04:00', 'F02053',   2040] # Dayka Gábor utca
+      - ['00:11:00', '008846',   8660] # Méhecske utca
+      - ['00:13:00', '008318',   9800] # Raktárváros
+      - ['00:15:00', '008324',  10840] # Tükörhegy
+      - ['00:17:00', '008317',  11533] # Bartók Béla utca
+      - ['00:18:00', 'F04751',  11961] # Baross Gábor utca
+      - ['00:19:00', 'F04757',  12276] # Harangláb
+      - ['00:20:00', 'F04814',  12946] # Ady Endre utca
+      - ['00:21:00', 'F04759',  13436] # Őszibarack utca
+      - ['00:22:00', 'F04761',  13824] # Károlyi Mihály utca
+      - ['00:24:00', '008345',  14500] # Katona József utca
+      - ['00:25:00', 'F04815',  14980] # Zrínyi utca
+      - ['00:26:00', 'F04758',  15331] # Harangláb
+      - ['00:27:00', 'F04756',  15721] # Törökbálint, Munkácsy Mihály utca
     trip_headsign: 'Törökbálint, Munkácsy Mihály utca'
     trip_id: REFERENCE-1725-0-1
     wheelchair_accessible: 2
@@ -36,13 +36,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1725-1-1-T041
     stop_times:
-      - ['17:18:00', 'F04756',      0] # Törökbálint, Munkácsy Mihály utca
-      - ['17:18:00', 'F04754',    203] # Bartók Béla utca
-      - ['17:19:00', '008325',    956] # Tükörhegy
-      - ['17:21:00', '008319',   2060] # Raktárváros
-      - ['17:23:00', '008847',   3190] # Méhecske utca
-      - ['17:31:00', 'F02054',   9589] # Dayka Gábor utca
-      - ['17:37:00', 'F02231',  11476] # Kosztolányi Dezső tér
+      - ['00:00:00', 'F04756',      0] # Törökbálint, Munkácsy Mihály utca
+      - ['00:00:00', 'F04754',    203] # Bartók Béla utca
+      - ['00:01:00', '008325',    956] # Tükörhegy
+      - ['00:03:00', '008319',   2060] # Raktárváros
+      - ['00:05:00', '008847',   3190] # Méhecske utca
+      - ['00:12:00', 'F02054',   9589] # Dayka Gábor utca
+      - ['00:18:00', 'F02231',  11476] # Kosztolányi Dezső tér
     trip_headsign: Kosztolányi Dezső tér
     trip_id: REFERENCE-1725-1-1
     wheelchair_accessible: 2

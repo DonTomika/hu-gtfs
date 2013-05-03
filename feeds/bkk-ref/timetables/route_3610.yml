@@ -13,31 +13,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3610-0-1-I295
     stop_times:
-      - ['16:51:00', 'F02197',      0] # Móricz Zsigmond körtér
-      - ['16:51:00', 'F02147',    347] # Tas vezér utca
-      - ['16:52:00', 'F02127',    687] # Szüret utca
-      - ['16:53:00', 'F02252',   1037] # Pető Intézet (Villányi út)
-      - ['16:54:00', 'F02115',   1259] # Karolina út
-      - ['16:55:00', 'F02171',   1534] # Budaörsi út
-      - ['16:56:00', 'F02166',   1920] # BAH-csomópont
-      - ['16:58:00', 'F02417',   2333] # Csörsz utca
-      - ['16:59:00', 'F00015',   2787] # Márvány utca
-      - ['17:00:00', 'F00020',   3177] # Nagyenyed utca
-      - ['17:02:00', 'F00025',   3479] # Déli pályaudvar M
-      - ['17:06:00', 'F02460',   4149] # Széll Kálmán tér M
-      - ['17:07:00', 'F00425',   4675] # Nyúl utca
-      - ['17:08:00', 'F00156',   5049] # Városmajor
-      - ['17:09:00', 'F00411',   5339] # Szent János Kórház
-      - ['17:11:00', 'F00161',   6002] # Nagyajtai utca
-      - ['17:13:00', 'F00165',   6402] # Budagyöngye
-      - ['17:14:00', 'F00432',   6922] # Akadémia
-      - ['17:15:00', 'F00312',   7337] # Kelemen László utca
-      - ['17:17:00', 'F00314',   7898] # Zuhatag sor
-      - ['17:18:00', 'F00316',   8223] # Nagyhíd
-      - ['17:19:00', 'F00318',   8639] # Vadaskerti utca
-      - ['17:20:00', 'F00347',   9334] # Völgy utca
-      - ['17:21:00', 'F00345',   9780] # Heinrich István utca
-      - ['17:23:00', '007975',  10666] # Hűvösvölgy
+      - ['00:00:00', 'F02197',      0] # Móricz Zsigmond körtér
+      - ['00:00:00', 'F02147',    347] # Tas vezér utca
+      - ['00:01:00', 'F02127',    687] # Szüret utca
+      - ['00:02:00', 'F02252',   1037] # Pető Intézet (Villányi út)
+      - ['00:03:00', 'F02115',   1259] # Karolina út
+      - ['00:04:00', 'F02171',   1534] # Budaörsi út
+      - ['00:05:00', 'F02166',   1920] # BAH-csomópont
+      - ['00:07:00', 'F02417',   2333] # Csörsz utca
+      - ['00:08:00', 'F00015',   2787] # Márvány utca
+      - ['00:09:00', 'F00020',   3177] # Nagyenyed utca
+      - ['00:11:00', 'F00025',   3479] # Déli pályaudvar M
+      - ['00:15:00', 'F02460',   4149] # Széll Kálmán tér M
+      - ['00:16:00', 'F00425',   4675] # Nyúl utca
+      - ['00:17:00', 'F00156',   5049] # Városmajor
+      - ['00:18:00', 'F00411',   5339] # Szent János Kórház
+      - ['00:20:00', 'F00161',   6002] # Nagyajtai utca
+      - ['00:22:00', 'F00165',   6402] # Budagyöngye
+      - ['00:23:00', 'F00432',   6922] # Akadémia
+      - ['00:24:00', 'F00312',   7337] # Kelemen László utca
+      - ['00:26:00', 'F00314',   7898] # Zuhatag sor
+      - ['00:27:00', 'F00316',   8223] # Nagyhíd
+      - ['00:28:00', 'F00318',   8639] # Vadaskerti utca
+      - ['00:29:00', 'F00347',   9334] # Völgy utca
+      - ['00:30:00', 'F00345',   9780] # Heinrich István utca
+      - ['00:32:00', '007975',  10666] # Hűvösvölgy
     trip_headsign: Hűvösvölgy
     trip_id: REFERENCE-3610-0-1
     wheelchair_accessible: 2
@@ -45,31 +45,31 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3610-1-1-I296
     stop_times:
-      - ['20:41:00', '007975',      0] # Hűvösvölgy
-      - ['20:43:00', 'F00346',    880] # Heinrich István utca
-      - ['20:44:00', 'F00348',   1379] # Völgy utca
-      - ['20:45:00', 'F00319',   2018] # Vadaskerti utca
-      - ['20:46:00', 'F00317',   2482] # Nagyhíd
-      - ['20:47:00', 'F00315',   2760] # Zuhatag sor
-      - ['20:49:00', 'F00313',   3383] # Kelemen László utca
-      - ['20:50:00', 'F00430',   3734] # Akadémia
-      - ['20:52:00', 'F00167',   4260] # Budagyöngye
-      - ['20:53:00', 'F00163',   4658] # Nagyajtai utca
-      - ['20:55:00', 'F00409',   5363] # Szent János Kórház
-      - ['20:56:00', 'F00157',   5612] # Városmajor
-      - ['20:57:00', 'F00426',   5993] # Nyúl utca
-      - ['21:00:00', 'F02461',   6553] # Széll Kálmán tér M
-      - ['21:02:00', 'F00024',   7219] # Déli pályaudvar M
-      - ['21:03:00', 'F00019',   7533] # Nagyenyed utca
-      - ['21:04:00', 'F00018',   7797] # Királyhágó utca
-      - ['21:06:00', 'F02416',   8406] # Csörsz utca
-      - ['21:07:00', 'F02167',   8786] # BAH-csomópont
-      - ['21:08:00', 'F02172',   9128] # Budaörsi út
-      - ['21:10:00', 'F02116',   9446] # Karolina út
-      - ['21:11:00', 'F02253',   9671] # Pető Intézet (Villányi út)
-      - ['21:12:00', 'F02126',   9965] # Szüret utca
-      - ['21:13:00', 'F02146',  10306] # Tas vezér utca
-      - ['21:15:00', 'F02200',  10709] # Móricz Zsigmond körtér
+      - ['00:00:00', '007975',      0] # Hűvösvölgy
+      - ['00:02:00', 'F00346',    880] # Heinrich István utca
+      - ['00:03:00', 'F00348',   1379] # Völgy utca
+      - ['00:04:00', 'F00319',   2018] # Vadaskerti utca
+      - ['00:05:00', 'F00317',   2482] # Nagyhíd
+      - ['00:06:00', 'F00315',   2760] # Zuhatag sor
+      - ['00:08:00', 'F00313',   3383] # Kelemen László utca
+      - ['00:09:00', 'F00430',   3734] # Akadémia
+      - ['00:11:00', 'F00167',   4260] # Budagyöngye
+      - ['00:12:00', 'F00163',   4658] # Nagyajtai utca
+      - ['00:14:00', 'F00409',   5363] # Szent János Kórház
+      - ['00:15:00', 'F00157',   5612] # Városmajor
+      - ['00:16:00', 'F00426',   5993] # Nyúl utca
+      - ['00:19:00', 'F02461',   6553] # Széll Kálmán tér M
+      - ['00:21:00', 'F00024',   7219] # Déli pályaudvar M
+      - ['00:22:00', 'F00019',   7533] # Nagyenyed utca
+      - ['00:23:00', 'F00018',   7797] # Királyhágó utca
+      - ['00:25:00', 'F02416',   8406] # Csörsz utca
+      - ['00:26:00', 'F02167',   8786] # BAH-csomópont
+      - ['00:27:00', 'F02172',   9128] # Budaörsi út
+      - ['00:29:00', 'F02116',   9446] # Karolina út
+      - ['00:30:00', 'F02253',   9671] # Pető Intézet (Villányi út)
+      - ['00:31:00', 'F02126',   9965] # Szüret utca
+      - ['00:32:00', 'F02146',  10306] # Tas vezér utca
+      - ['00:34:00', 'F02200',  10709] # Móricz Zsigmond körtér
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-3610-1-1
     wheelchair_accessible: 2

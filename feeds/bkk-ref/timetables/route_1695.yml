@@ -13,33 +13,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1695-0-1-M026
     stop_times:
-      - ['15:29:00', '008022',      0] # Örs vezér tere M+H
-      - ['15:45:00', '009543',   8687] # 513. utca
-      - ['15:46:00', 'F03547',   8962] # Borsó utca
-      - ['15:48:00', 'F03545',   9313] # Kis utca
-      - ['15:49:00', 'F03542',   9725] # Bakancsos utca
-      - ['15:51:00', 'F03593',  10300] # Szent kereszt tér
-      - ['15:53:00', '15:54:00', '011723',  10684] # Rákoskeresztúr, városközpont
-      - ['15:56:00', 'F03475',  11411] # Szárny utca
-      - ['15:58:00', 'F03477',  12112] # Szabadság sugárút
-      - ['15:59:00', 'F03480',  12554] # Lemberg utca
-      - ['16:00:00', 'F03491',  12838] # Óvónő utca
-      - ['16:01:00', 'F03485',  13365] # Csaba vezér tér
-      - ['16:02:00', 'F03440',  13690] # Czeglédi Mihály utca
-      - ['16:04:00', 'F03436',  14240] # Pöröly utca
-      - ['16:05:00', 'F03434',  14690] # Ebergény utca
-      - ['16:06:00', 'F03444',  14899] # Színes utca
-      - ['16:08:00', 'F04579',  15751] # Pécel, Pesti út 112.
-      - ['16:09:00', 'F04586',  16210] # Határ utca
-      - ['16:10:00', 'F04588',  16514] # Faiskola utcai átjáró
-      - ['16:12:00', 'F04581',  17006] # Orvosi rendelő
-      - ['16:12:00', 'F04595',  17349] # Köztársaság tér
-      - ['16:14:00', 'F04646',  17787] # Pécel vasútállomás
-      - ['16:16:00', 'F04589',  18261] # Ráday Gedeon tér
-      - ['16:17:00', 'F04591',  18753] # Kossuth tér
-      - ['16:19:00', 'F04582',  19366] # Szent Imre körút
-      - ['16:20:00', 'F04643',  19656] # Árpád utca
-      - ['16:21:00', 'F04593',  20008] # Pécel, Kun József utca
+      - ['00:00:00', '008022',      0] # Örs vezér tere M+H
+      - ['00:13:00', '009543',   8687] # 513. utca
+      - ['00:14:00', 'F03547',   8962] # Borsó utca
+      - ['00:15:00', 'F03545',   9313] # Kis utca
+      - ['00:16:00', 'F03542',   9725] # Bakancsos utca
+      - ['00:17:00', 'F03593',  10300] # Szent kereszt tér
+      - ['00:19:00', '00:20:00', '011723',  10684] # Rákoskeresztúr, városközpont
+      - ['00:21:00', 'F03475',  11411] # Szárny utca
+      - ['00:23:00', 'F03477',  12112] # Szabadság sugárút
+      - ['00:24:00', 'F03480',  12554] # Lemberg utca
+      - ['00:24:00', 'F03491',  12838] # Óvónő utca
+      - ['00:25:00', 'F03485',  13365] # Csaba vezér tér
+      - ['00:26:00', 'F03440',  13690] # Czeglédi Mihály utca
+      - ['00:27:00', 'F03436',  14240] # Pöröly utca
+      - ['00:28:00', 'F03434',  14690] # Ebergény utca
+      - ['00:29:00', 'F03444',  14899] # Színes utca
+      - ['00:30:00', 'F04579',  15751] # Pécel, Pesti út 112.
+      - ['00:31:00', 'F04586',  16210] # Határ utca
+      - ['00:32:00', 'F04588',  16514] # Faiskola utcai átjáró
+      - ['00:33:00', 'F04581',  17006] # Orvosi rendelő
+      - ['00:34:00', 'F04595',  17349] # Köztársaság tér
+      - ['00:35:00', 'F04646',  17787] # Pécel vasútállomás
+      - ['00:36:00', 'F04589',  18261] # Ráday Gedeon tér
+      - ['00:37:00', 'F04591',  18753] # Kossuth tér
+      - ['00:38:00', 'F04582',  19366] # Szent Imre körút
+      - ['00:39:00', 'F04643',  19656] # Árpád utca
+      - ['00:40:00', 'F04593',  20008] # Pécel, Kun József utca
     trip_headsign: 'Pécel, Kun József utca'
     trip_id: REFERENCE-1695-0-1
     wheelchair_accessible: 1
@@ -47,32 +47,32 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1695-1-1-M027
     stop_times:
-      - ['06:55:00', 'F04593',      0] # Pécel, Kun József utca
-      - ['06:55:00', 'F04644',    270] # Árpád utca
-      - ['06:56:00', 'F04583',    789] # Temető utca
-      - ['06:57:00', 'F04592',   1167] # Kossuth tér
-      - ['06:58:00', 'F04590',   1659] # Ráday Gedeon tér
-      - ['06:59:00', 'F04645',   2039] # Pécel vasútállomás
-      - ['07:00:00', 'F04594',   2614] # Köztársaság tér
-      - ['07:01:00', 'F04580',   2985] # Orvosi rendelő
-      - ['07:02:00', 'F04587',   3373] # Faiskola utcai átjáró
-      - ['07:02:00', 'F04585',   3653] # Határ utca
-      - ['07:03:00', 'F04578',   4122] # Pécel, Pesti út 110.
-      - ['07:05:00', 'F03445',   5081] # Rákoscsaba, Színes utca
-      - ['07:05:00', 'F03433',   5297] # Ebergény utca
-      - ['07:06:00', 'F03435',   5690] # Pöröly utca
-      - ['07:07:00', 'F03439',   6322] # Czeglédi Mihály utca
-      - ['07:08:00', 'F03483',   6717] # Csaba vezér tér
-      - ['07:09:00', 'F03492',   7026] # Óvónő utca
-      - ['07:10:00', 'F03481',   7308] # Lemberg utca
-      - ['07:10:00', 'F03476',   7721] # Szabadság sugárút
-      - ['07:12:00', 'F03474',   8429] # Szárny utca
-      - ['07:14:00', '011725',   9264] # Rákoskeresztúr, városközpont
-      - ['07:15:00', 'F03594',   9725] # Szent kereszt tér
-      - ['07:16:00', 'F03541',  10096] # Bakancsos utca
-      - ['07:17:00', 'F03544',  10560] # Kis utca
-      - ['07:19:00', 'F03546',  10960] # Borsó utca
-      - ['07:33:00', '008022',  19763] # Örs vezér tere M+H
+      - ['00:00:00', 'F04593',      0] # Pécel, Kun József utca
+      - ['00:00:00', 'F04644',    270] # Árpád utca
+      - ['00:01:00', 'F04583',    789] # Temető utca
+      - ['00:02:00', 'F04592',   1167] # Kossuth tér
+      - ['00:03:00', 'F04590',   1659] # Ráday Gedeon tér
+      - ['00:04:00', 'F04645',   2039] # Pécel vasútállomás
+      - ['00:05:00', 'F04594',   2614] # Köztársaság tér
+      - ['00:06:00', 'F04580',   2985] # Orvosi rendelő
+      - ['00:07:00', 'F04587',   3373] # Faiskola utcai átjáró
+      - ['00:07:00', 'F04585',   3653] # Határ utca
+      - ['00:08:00', 'F04578',   4122] # Pécel, Pesti út 110.
+      - ['00:10:00', 'F03445',   5081] # Rákoscsaba, Színes utca
+      - ['00:10:00', 'F03433',   5297] # Ebergény utca
+      - ['00:11:00', 'F03435',   5690] # Pöröly utca
+      - ['00:12:00', 'F03439',   6322] # Czeglédi Mihály utca
+      - ['00:13:00', 'F03483',   6717] # Csaba vezér tér
+      - ['00:14:00', 'F03492',   7026] # Óvónő utca
+      - ['00:15:00', 'F03481',   7308] # Lemberg utca
+      - ['00:15:00', 'F03476',   7721] # Szabadság sugárút
+      - ['00:17:00', 'F03474',   8429] # Szárny utca
+      - ['00:19:00', '011725',   9264] # Rákoskeresztúr, városközpont
+      - ['00:20:00', 'F03594',   9725] # Szent kereszt tér
+      - ['00:21:00', 'F03541',  10096] # Bakancsos utca
+      - ['00:22:00', 'F03544',  10560] # Kis utca
+      - ['00:24:00', 'F03546',  10960] # Borsó utca
+      - ['00:38:00', '008022',  19763] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-1695-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

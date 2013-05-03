@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: 'Határ út M / Pesterzsébet, Pacsirtatelep'
+route_desc: Határ út M / Pesterzsébet, Pacsirtatelep
 route_id: 3520
 route_long_name: ''
 route_short_name: 52
@@ -13,23 +13,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3520-0-1-B103
     stop_times:
-      - ['20:13:00', 'F01461',      0] # Határ út M
-      - ['20:15:00', 'F01458',    817] # Mészáros Lőrinc utca
-      - ['20:17:00', 'F01452',   1493] # Nagykőrösi út
-      - ['20:19:00', 'F01447',   2073] # Mártírok útja
-      - ['20:20:00', 'F01444',   2515] # Jókai Mór utca
-      - ['20:21:00', 'F01443',   2969] # Ősz utca
-      - ['20:22:00', 'F04152',   3248] # Török Flóris utca
-      - ['20:23:00', 'F04131',   3595] # János tér
-      - ['20:25:00', 'F04130',   3945] # Kossuth Lajos utca
-      - ['20:27:00', 'F04111',   4421] # Nagysándor József utca
-      - ['20:28:00', 'F04116',   4740] # Vörösmarty utca
-      - ['20:30:00', 'F04060',   5223] # Pöltenberg utca
-      - ['20:31:00', 'F04160',   5526] # Klapka utca
-      - ['20:33:00', 'F04159',   5904] # Akácfa utca
-      - ['20:34:00', 'F04163',   6269] # Károly utca
-      - ['20:35:00', 'F04080',   6546] # Ábrahám Géza utca
-      - ['20:37:00', 'F04081',   6889] # Pesterzsébet, Pacsirtatelep
+      - ['00:00:00', 'F01461',      0] # Határ út M
+      - ['00:02:00', 'F01458',    817] # Mészáros Lőrinc utca
+      - ['00:04:00', 'F01452',   1493] # Nagykőrösi út
+      - ['00:06:00', 'F01447',   2073] # Mártírok útja
+      - ['00:07:00', 'F01444',   2515] # Jókai Mór utca
+      - ['00:08:00', 'F01443',   2969] # Ősz utca
+      - ['00:09:00', 'F04152',   3248] # Török Flóris utca
+      - ['00:10:00', 'F04131',   3595] # János tér
+      - ['00:12:00', 'F04130',   3945] # Kossuth Lajos utca
+      - ['00:13:00', 'F04111',   4421] # Nagysándor József utca
+      - ['00:14:00', 'F04116',   4740] # Vörösmarty utca
+      - ['00:16:00', 'F04060',   5223] # Pöltenberg utca
+      - ['00:17:00', 'F04160',   5526] # Klapka utca
+      - ['00:19:00', 'F04159',   5904] # Akácfa utca
+      - ['00:20:00', 'F04163',   6269] # Károly utca
+      - ['00:21:00', 'F04080',   6546] # Ábrahám Géza utca
+      - ['00:23:00', 'F04081',   6889] # Pesterzsébet, Pacsirtatelep
     trip_headsign: 'Pesterzsébet, Pacsirtatelep'
     trip_id: REFERENCE-3520-0-1
     wheelchair_accessible: 2
@@ -37,22 +37,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3520-1-1-B104
     stop_times:
-      - ['19:05:00', 'F04081',      0] # Pesterzsébet, Pacsirtatelep
-      - ['19:06:00', 'F04164',    316] # Frangepán utca
-      - ['19:07:00', 'F04063',    810] # Wesselényi utca
-      - ['19:09:00', 'F04061',   1308] # Székelyhíd utca
-      - ['19:10:00', 'F04044',   1714] # Pöltenberg utca
-      - ['19:11:00', 'F04114',   2011] # Nagysándor József utca
-      - ['19:13:00', 'F04108',   2353] # Szent Imre herceg utca
-      - ['19:14:00', 'F04107',   2659] # Vécsey utca
-      - ['19:16:00', 'F04106',   2929] # Szabótelep
-      - ['19:18:00', 'F04138',   3368] # Kossuth Lajos utca
-      - ['19:19:00', 'F04172',   3760] # Thököly utca
-      - ['19:20:00', 'F01446',   4203] # Jókai Mór utca (Határ út)
-      - ['19:22:00', 'F01448',   4716] # Mártírok útja
-      - ['19:25:00', 'F01454',   5295] # Nagykőrösi út
-      - ['19:27:00', 'F01457',   5922] # Mészáros Lőrinc utca
-      - ['19:29:00', 'F01461',   6766] # Határ út M
+      - ['00:00:00', 'F04081',      0] # Pesterzsébet, Pacsirtatelep
+      - ['00:01:00', 'F04164',    316] # Frangepán utca
+      - ['00:02:00', 'F04063',    810] # Wesselényi utca
+      - ['00:04:00', 'F04061',   1308] # Székelyhíd utca
+      - ['00:05:00', 'F04044',   1714] # Pöltenberg utca
+      - ['00:06:00', 'F04114',   2011] # Nagysándor József utca
+      - ['00:08:00', 'F04108',   2353] # Szent Imre herceg utca
+      - ['00:09:00', 'F04107',   2659] # Vécsey utca
+      - ['00:11:00', 'F04106',   2929] # Szabótelep
+      - ['00:13:00', 'F04138',   3368] # Kossuth Lajos utca
+      - ['00:14:00', 'F04172',   3760] # Thököly utca
+      - ['00:15:00', 'F01446',   4203] # Jókai Mór utca (Határ út)
+      - ['00:16:00', 'F01448',   4716] # Mártírok útja
+      - ['00:19:00', 'F01454',   5295] # Nagykőrösi út
+      - ['00:21:00', 'F01457',   5922] # Mészáros Lőrinc utca
+      - ['00:23:00', 'F01461',   6766] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-3520-1-1
     wheelchair_accessible: 2

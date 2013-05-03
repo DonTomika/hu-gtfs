@@ -13,40 +13,40 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1570-0-1-2380
     stop_times:
-      - ['13:43:00', '007977',      0] # Hűvösvölgy
-      - ['13:44:00', 'F00339',    225] # Hidegkúti út
-      - ['13:45:00', 'F00356',    580] # Bükkfa utca
-      - ['13:46:00', 'F00368',   1057] # Széchenyi utca
-      - ['13:47:00', 'F00366',   1595] # Turul utca
-      - ['13:48:00', 'F00364',   2003] # Ábránd utca
-      - ['13:49:00', 'F00374',   2388] # Arany János utca
-      - ['13:50:00', 'F00376',   2972] # Zsíroshegyi út
-      - ['13:51:00', 'F00378',   3352] # Kerekhegyi utca
-      - ['13:52:00', 'F00380',   3900] # József Attila útja
-      - ['13:53:00', 'F00382',   4340] # Köztársaság utca
-      - ['13:54:00', 'F00384',   4697] # Honfoglalás utca
-      - ['13:55:00', 'F00387',   5067] # Budaliget, Géza fejedelem útja
+      - ['00:00:00', '007977',      0] # Hűvösvölgy
+      - ['00:01:00', 'F00339',    225] # Hidegkúti út
+      - ['00:02:00', 'F00356',    580] # Bükkfa utca
+      - ['00:03:00', 'F00368',   1057] # Széchenyi utca
+      - ['00:04:00', 'F00366',   1595] # Turul utca
+      - ['00:05:00', 'F00364',   2003] # Ábránd utca
+      - ['00:05:00', 'F00374',   2388] # Arany János utca
+      - ['00:06:00', 'F00376',   2972] # Zsíroshegyi út
+      - ['00:07:00', 'F00378',   3352] # Kerekhegyi utca
+      - ['00:08:00', 'F00380',   3900] # József Attila útja
+      - ['00:09:00', 'F00382',   4340] # Köztársaság utca
+      - ['00:09:00', 'F00384',   4697] # Honfoglalás utca
+      - ['00:10:00', 'F00387',   5067] # Budaliget, Géza fejedelem útja
     trip_headsign: 'Budaliget, Géza fejedelem útja'
     trip_id: REFERENCE-1570-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1570-1-1-2381
     stop_times:
-      - ['15:32:00', 'F00387',      0] # Budaliget, Géza fejedelem útja
-      - ['15:33:00', 'F00385',    471] # József Attila útja
-      - ['15:34:00', 'F00383',    788] # Köztársaság utca
-      - ['15:35:00', 'F00381',   1353] # Hímes utca
-      - ['15:36:00', 'F00379',   1753] # Kerekhegyi utca
-      - ['15:37:00', 'F00377',   2252] # Szirom utca
-      - ['15:38:00', 'F00375',   2779] # Arany János utca
-      - ['15:39:00', 'F00365',   3150] # Ábránd utca
-      - ['15:40:00', 'F00367',   3560] # Turul utca
-      - ['15:41:00', 'F00355',   3917] # Nagyrét utca
-      - ['15:41:00', 'F00369',   4156] # Széchenyi utca
-      - ['15:42:00', 'F00357',   4568] # Vezér utca
-      - ['15:43:00', 'F00340',   5015] # Bátori László utca
-      - ['15:44:00', '007972',   5171] # Hűvösvölgy
+      - ['00:00:00', 'F00387',      0] # Budaliget, Géza fejedelem útja
+      - ['00:01:00', 'F00385',    471] # József Attila útja
+      - ['00:02:00', 'F00383',    788] # Köztársaság utca
+      - ['00:03:00', 'F00381',   1353] # Hímes utca
+      - ['00:04:00', 'F00379',   1753] # Kerekhegyi utca
+      - ['00:05:00', 'F00377',   2252] # Szirom utca
+      - ['00:06:00', 'F00375',   2779] # Arany János utca
+      - ['00:07:00', 'F00365',   3150] # Ábránd utca
+      - ['00:08:00', 'F00367',   3560] # Turul utca
+      - ['00:09:00', 'F00355',   3917] # Nagyrét utca
+      - ['00:09:00', 'F00369',   4156] # Széchenyi utca
+      - ['00:10:00', 'F00357',   4568] # Vezér utca
+      - ['00:11:00', 'F00340',   5015] # Bátori László utca
+      - ['00:12:00', '007972',   5171] # Hűvösvölgy
     trip_headsign: Hűvösvölgy
     trip_id: REFERENCE-1570-1-1
     wheelchair_accessible: 2

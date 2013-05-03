@@ -13,47 +13,47 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1200-0-1-0506
     stop_times:
-      - ['11:57:00', 'F02604',      0] # Árpád híd M
-      - ['11:59:00', 'F02577',    718] # Röppentyű utca
-      - ['12:00:00', 'F02666',   1055] # Fáy utca
-      - ['12:01:00', 'F02663',   1420] # Rozsnyai utca
-      - ['12:02:00', 'F02562',   1972] # Fiastyúk utca
-      - ['12:04:00', 'F02539',   2380] # Gyöngyösi utca
-      - ['12:05:00', 'F02532',   2899] # Kámfor utca
-      - ['12:06:00', 'F02653',   3504] # Angyalföld vasútállomás
-      - ['12:08:00', 'F02548',   4057] # Reitter Ferenc utca
-      - ['12:09:00', 'F00692',   4365] # Madridi utca
-      - ['12:09:00', 'F00864',   4645] # Brüsszeli utca
-      - ['12:11:00', 'F00889',   5323] # Elem utca
-      - ['12:12:00', 'F00828',   5521] # Tél utca
-      - ['12:13:00', 'F00878',   5908] # Erzsébet utca
-      - ['12:14:00', 'F00816',   6261] # Kassai utca
-      - ['12:15:00', 'F00861',   6453] # Nyár utca
-      - ['12:16:00', 'F00800',   6939] # Újpest-Központ M
+      - ['00:00:00', 'F02604',      0] # Árpád híd M
+      - ['00:02:00', 'F02577',    718] # Röppentyű utca
+      - ['00:02:00', 'F02666',   1055] # Fáy utca
+      - ['00:03:00', 'F02663',   1420] # Rozsnyai utca
+      - ['00:04:00', 'F02562',   1972] # Fiastyúk utca
+      - ['00:06:00', 'F02539',   2380] # Gyöngyösi utca
+      - ['00:07:00', 'F02532',   2899] # Kámfor utca
+      - ['00:08:00', 'F02653',   3504] # Angyalföld vasútállomás
+      - ['00:09:00', 'F02548',   4057] # Reitter Ferenc utca
+      - ['00:10:00', 'F00692',   4365] # Madridi utca
+      - ['00:11:00', 'F00864',   4645] # Brüsszeli utca
+      - ['00:13:00', 'F00889',   5323] # Elem utca
+      - ['00:14:00', 'F00828',   5521] # Tél utca
+      - ['00:15:00', 'F00878',   5908] # Erzsébet utca
+      - ['00:16:00', 'F00816',   6261] # Kassai utca
+      - ['00:17:00', 'F00861',   6453] # Nyár utca
+      - ['00:19:00', 'F00800',   6939] # Újpest-Központ M
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-1200-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1200-1-1-D960
     stop_times:
-      - ['11:03:00', 'F00800',      0] # Újpest-Központ M
-      - ['11:04:00', 'F00854',    302] # Erzsébet utca
-      - ['11:05:00', 'F00832',    744] # Munkásotthon utca
-      - ['11:06:00', 'F00892',    921] # Ősz utca
-      - ['11:07:00', 'F00890',   1289] # Berlini utca
-      - ['11:08:00', 'F00863',   1896] # Brüsszeli utca
-      - ['11:09:00', 'F00691',   2237] # Madridi utca
-      - ['11:10:00', 'F02547',   2502] # Reitter Ferenc utca
-      - ['11:11:00', 'F02654',   3068] # Angyalföld vasútállomás
-      - ['11:12:00', 'F02533',   3812] # Szekszárdi utca
-      - ['11:14:00', 'F02538',   4370] # Gyöngyösi utca
-      - ['11:15:00', 'F02561',   4837] # Fiastyúk utca
-      - ['11:17:00', 'F02664',   5342] # Rozsnyai utca
-      - ['11:18:00', 'F02665',   5698] # Frangepán utca
-      - ['11:19:00', 'F02575',   6048] # Pap Károly utca
-      - ['11:20:00', '009420',   6367] # Honvédkórház
-      - ['11:22:00', 'F02604',   6875] # Árpád híd M
+      - ['00:00:00', 'F00800',      0] # Újpest-Központ M
+      - ['00:01:00', 'F00854',    302] # Erzsébet utca
+      - ['00:02:00', 'F00832',    744] # Munkásotthon utca
+      - ['00:02:00', 'F00892',    921] # Ősz utca
+      - ['00:04:00', 'F00890',   1289] # Berlini utca
+      - ['00:05:00', 'F00863',   1896] # Brüsszeli utca
+      - ['00:06:00', 'F00691',   2237] # Madridi utca
+      - ['00:06:00', 'F02547',   2502] # Reitter Ferenc utca
+      - ['00:08:00', 'F02654',   3068] # Angyalföld vasútállomás
+      - ['00:09:00', 'F02533',   3812] # Szekszárdi utca
+      - ['00:11:00', 'F02538',   4370] # Gyöngyösi utca
+      - ['00:12:00', 'F02561',   4837] # Fiastyúk utca
+      - ['00:13:00', 'F02664',   5342] # Rozsnyai utca
+      - ['00:14:00', 'F02665',   5698] # Frangepán utca
+      - ['00:16:00', 'F02575',   6048] # Pap Károly utca
+      - ['00:17:00', '009420',   6367] # Honvédkórház
+      - ['00:19:00', 'F02604',   6875] # Árpád híd M
     trip_headsign: Árpád híd M
     trip_id: REFERENCE-1200-1-1
     wheelchair_accessible: 2

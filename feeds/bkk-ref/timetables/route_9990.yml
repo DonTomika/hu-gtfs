@@ -13,30 +13,30 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9990-0-1-Q605
     stop_times:
-      - ['27:26:00', 'F03929',      0] # Határ út M
-      - ['27:27:00', '044126',    366] # Száva kocsiszín
-      - ['27:28:00', '044115',   1004] # Pöttyös utca
-      - ['27:29:00', '044128',   1325] # Dési Huber utca
-      - ['27:30:00', 'F01470',   1725] # Lobogó utca
-      - ['27:32:00', '044129',   2134] # Napfény utca
-      - ['27:35:00', 'F01451',   2701] # Nagykőrösi út (Határ út)
-      - ['27:35:00', 'F03920',   3149] # Hungária út
-      - ['27:36:00', 'F03968',   3439] # Thököly utca
-      - ['27:37:00', 'F03969',   3955] # Pannónia út
-      - ['27:37:00', 'F03966',   4329] # Zoltán utca
-      - ['27:38:00', 'F03972',   4722] # Hunyadi tér
-      - ['27:39:00', 'F04025',   5095] # Batthyány utca
-      - ['27:40:00', 'F03983',   5520] # Kossuth Lajos utca
-      - ['27:40:00', 'F03991',   5930] # Pincér utca
-      - ['27:41:00', 'F04033',   6149] # Garázs utca
-      - ['27:41:00', 'F03992',   6395] # Hofherr Albert utca
-      - ['27:42:00', 'F03995',   6891] # Ajtósi utca
-      - ['27:43:00', 'F03998',   7386] # Kassa utca
-      - ['27:44:00', 'F03891',   7868] # Karton utca
-      - ['27:45:00', 'F03892',   8285] # Csiky utca
-      - ['27:45:00', 'F03622',   8680] # Ipacsfa utca
-      - ['27:46:00', 'F03625',   8938] # Besence utca
-      - ['27:47:00', '008472',   9300] # Dél-pesti autóbuszgarázs
+      - ['00:00:00', 'F03929',      0] # Határ út M
+      - ['00:01:00', '044126',    366] # Száva kocsiszín
+      - ['00:02:00', '044115',   1004] # Pöttyös utca
+      - ['00:03:00', '044128',   1325] # Dési Huber utca
+      - ['00:04:00', 'F01470',   1725] # Lobogó utca
+      - ['00:06:00', '044129',   2134] # Napfény utca
+      - ['00:09:00', 'F01451',   2701] # Nagykőrösi út (Határ út)
+      - ['00:09:00', 'F03920',   3149] # Hungária út
+      - ['00:10:00', 'F03968',   3439] # Thököly utca
+      - ['00:11:00', 'F03969',   3955] # Pannónia út
+      - ['00:11:00', 'F03966',   4329] # Zoltán utca
+      - ['00:12:00', 'F03972',   4722] # Hunyadi tér
+      - ['00:13:00', 'F04025',   5095] # Batthyány utca
+      - ['00:14:00', 'F03983',   5520] # Kossuth Lajos utca
+      - ['00:14:00', 'F03991',   5930] # Pincér utca
+      - ['00:15:00', 'F04033',   6149] # Garázs utca
+      - ['00:15:00', 'F03992',   6395] # Hofherr Albert utca
+      - ['00:16:00', 'F03995',   6891] # Ajtósi utca
+      - ['00:17:00', 'F03998',   7386] # Kassa utca
+      - ['00:18:00', 'F03891',   7868] # Karton utca
+      - ['00:19:00', 'F03892',   8285] # Csiky utca
+      - ['00:19:00', 'F03622',   8680] # Ipacsfa utca
+      - ['00:20:00', 'F03625',   8938] # Besence utca
+      - ['00:21:00', '008472',   9300] # Dél-pesti autóbuszgarázs
     trip_headsign: Dél-pesti autóbuszgarázs
     trip_id: REFERENCE-9990-0-1
     wheelchair_accessible: 2
@@ -44,22 +44,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9990-1-1-Q606
     stop_times:
-      - ['25:08:00', '008921',      0] # Dél-pesti autóbuszgarázs
-      - ['25:08:00', 'F03626',    366] # Besence utca
-      - ['25:10:00', 'F03893',    975] # Csiky utca
-      - ['25:11:00', 'F03890',   1387] # Karton utca
-      - ['25:12:00', 'F03999',   1873] # Kassa utca
-      - ['25:13:00', 'F03996',   2379] # Ipolyság utca
-      - ['25:14:00', 'F03993',   2812] # Hofherr Albert utca
-      - ['25:15:00', 'F04034',   3217] # Madarassy László utca
-      - ['25:16:00', 'F03989',   3515] # Vas Gereben utca
-      - ['25:16:00', 'F03981',   3862] # Kossuth Lajos utca
-      - ['25:17:00', 'F04024',   4170] # Batthyány utca
-      - ['25:18:00', 'F03974',   4508] # Hunyadi tér
-      - ['25:19:00', 'F03965',   4938] # Zoltán utca
-      - ['25:20:00', 'F03922',   5419] # Kós Károly tér
-      - ['25:22:00', 'F03925',   6015] # Corvin körút
-      - ['25:24:00', 'F03929',   6837] # Határ út M
+      - ['00:00:00', '008921',      0] # Dél-pesti autóbuszgarázs
+      - ['00:00:00', 'F03626',    366] # Besence utca
+      - ['00:02:00', 'F03893',    975] # Csiky utca
+      - ['00:03:00', 'F03890',   1387] # Karton utca
+      - ['00:04:00', 'F03999',   1873] # Kassa utca
+      - ['00:05:00', 'F03996',   2379] # Ipolyság utca
+      - ['00:06:00', 'F03993',   2812] # Hofherr Albert utca
+      - ['00:07:00', 'F04034',   3217] # Madarassy László utca
+      - ['00:08:00', 'F03989',   3515] # Vas Gereben utca
+      - ['00:08:00', 'F03981',   3862] # Kossuth Lajos utca
+      - ['00:09:00', 'F04024',   4170] # Batthyány utca
+      - ['00:10:00', 'F03974',   4508] # Hunyadi tér
+      - ['00:11:00', 'F03965',   4938] # Zoltán utca
+      - ['00:12:00', 'F03922',   5419] # Kós Károly tér
+      - ['00:14:00', 'F03925',   6015] # Corvin körút
+      - ['00:16:00', 'F03929',   6837] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-9990-1-1
     wheelchair_accessible: 2

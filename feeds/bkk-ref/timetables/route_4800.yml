@@ -11,58 +11,58 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4800-0-1-S381
+    shape_id: REFERENCE-4800-0-1-G770
     stop_times:
-      - ['17:37:00', '009162',      0] # Keleti pályaudvar M
-      - ['17:37:00', '009161',     95] # Keleti pályaudvar M (Kerepesi út)
-      - ['17:39:00', 'F01251',    658] # Arena Plaza
-      - ['17:40:00', 'F01183',   1077] # Gumigyár
-      - ['17:43:00', 'F01321',   2035] # Puskás Ferenc Stadion M (Hungária körút)
-      - ['17:45:00', 'F01738',   2548] # Várna utca
-      - ['17:46:00', 'F02929',   2861] # Pillangó utca
-      - ['17:47:00', 'F02747',   3328] # Róna utca
-      - ['17:48:00', 'F02931',   3625] # Kaffka Margit utca
-      - ['17:50:00', 'F02751',   3812] # Pongrátz Gergely tér
-      - ['17:51:00', 'F02936',   4276] # Mályva utca
-      - ['17:53:00', 'F02786',   4669] # Vezér utca
-      - ['17:54:00', 'F02783',   4924] # Fischer István utca
-      - ['17:55:00', 'F02781',   5273] # Zsálya utca
-      - ['17:56:00', 'F02935',   5453] # Adóhivatal
-      - ['17:57:00', 'F02777',   5662] # Csertő utca
-      - ['17:58:00', 'F02776',   5971] # Szentmihályi út
-      - ['17:59:00', 'F02772',   6385] # Ond vezér útja
-      - ['18:00:00', 'F02769',   6747] # Ond vezér park
-      - ['18:01:00', 'F02767',   7184] # Füredi utca
-      - ['18:03:00', 'F02764',   7778] # Örs vezér tere M+H
+      - ['00:00:00', '009162',      0] # Keleti pályaudvar M
+      - ['00:00:00', '009161',     95] # Keleti pályaudvar M (Kerepesi út)
+      - ['00:02:00', 'F01251',    658] # Arena Plaza
+      - ['00:03:00', 'F01183',   1077] # Gumigyár
+      - ['00:06:00', 'F01321',   2035] # Puskás Ferenc Stadion M (Hungária körút)
+      - ['00:08:00', 'F01738',   2548] # Várna utca
+      - ['00:09:00', 'F02929',   2861] # Pillangó utca
+      - ['00:10:00', 'F02747',   3328] # Róna utca
+      - ['00:11:00', 'F02931',   3625] # Kaffka Margit utca
+      - ['00:12:00', 'F02751',   3812] # Pongrátz Gergely tér
+      - ['00:13:00', 'F02936',   4276] # Mályva utca
+      - ['00:15:00', 'F02786',   4669] # Vezér utca
+      - ['00:16:00', 'F02783',   4924] # Fischer István utca
+      - ['00:17:00', 'F02781',   5273] # Zsálya utca
+      - ['00:18:00', 'F02935',   5453] # Adóhivatal
+      - ['00:19:00', 'F02777',   5662] # Csertő utca
+      - ['00:20:00', 'F02776',   5971] # Szentmihályi út
+      - ['00:21:00', 'F02772',   6385] # Ond vezér útja
+      - ['00:22:00', 'F02769',   6747] # Ond vezér park
+      - ['00:23:00', 'F02767',   7184] # Füredi utca
+      - ['00:24:00', 'F02764',   7778] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-4800-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-4800-1-1-S382
+    shape_id: REFERENCE-4800-1-1-O319
     stop_times:
-      - ['07:44:00', 'F02764',      0] # Örs vezér tere M+H
-      - ['07:46:00', 'F02768',    683] # Ond vezér útja
-      - ['07:47:00', 'F02770',    987] # Ond vezér park
-      - ['07:48:00', 'F02771',   1424] # Szentmihályi út
-      - ['07:48:00', '040608',   1641] # Zsivora park
-      - ['07:49:00', 'F02775',   1868] # Füredi utca
-      - ['07:50:00', 'F02778',   2116] # Csertő utca
-      - ['07:51:00', 'F02934',   2322] # Adóhivatal
-      - ['07:51:00', 'F02782',   2497] # Zsálya utca
-      - ['07:52:00', 'F02784',   2968] # Fischer István utca
-      - ['07:53:00', 'F02789',   3256] # Vezér utca
-      - ['07:54:00', 'F02937',   3633] # Mályva utca
-      - ['07:56:00', 'F02750',   3997] # Pongrátz Gergely tér
-      - ['07:57:00', 'F02930',   4204] # Kaffka Margit utca
-      - ['07:58:00', 'F02746',   4504] # Róna utca
-      - ['07:59:00', 'F02928',   4980] # Pillangó utca
-      - ['08:00:00', 'F01737',   5281] # Várna utca
-      - ['08:01:00', 'F01735',   5556] # Őrnagy utca
-      - ['08:03:00', '008545',   5961] # Puskás Ferenc Stadion M
-      - ['08:05:00', 'F01182',   6809] # Gumigyár
-      - ['08:06:00', 'F01250',   7260] # Arena Plaza
-      - ['08:08:00', '009162',   7786] # Keleti pályaudvar M
+      - ['00:00:00', 'F02764',      0] # Örs vezér tere M+H
+      - ['00:01:00', 'F02768',    683] # Ond vezér útja
+      - ['00:02:00', 'F02770',    987] # Ond vezér park
+      - ['00:04:00', 'F02771',   1424] # Szentmihályi út
+      - ['00:04:00', '040608',   1641] # Zsivora park
+      - ['00:05:00', 'F02775',   1868] # Füredi utca
+      - ['00:06:00', 'F02778',   2116] # Csertő utca
+      - ['00:06:00', 'F02934',   2322] # Adóhivatal
+      - ['00:07:00', 'F02782',   2497] # Zsálya utca
+      - ['00:08:00', 'F02784',   2968] # Fischer István utca
+      - ['00:09:00', 'F02789',   3256] # Vezér utca
+      - ['00:10:00', 'F02937',   3633] # Mályva utca
+      - ['00:11:00', 'F02750',   3997] # Pongrátz Gergely tér
+      - ['00:12:00', 'F02930',   4204] # Kaffka Margit utca
+      - ['00:13:00', 'F02746',   4504] # Róna utca
+      - ['00:14:00', 'F02928',   4980] # Pillangó utca
+      - ['00:15:00', 'F01737',   5281] # Várna utca
+      - ['00:16:00', 'F01735',   5556] # Őrnagy utca
+      - ['00:18:00', '008545',   5961] # Puskás Ferenc Stadion M
+      - ['00:20:00', 'F01182',   6809] # Gumigyár
+      - ['00:21:00', 'F01250',   7260] # Arena Plaza
+      - ['00:23:00', '009162',   7786] # Keleti pályaudvar M
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-4800-1-1
     wheelchair_accessible: 2

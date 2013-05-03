@@ -13,27 +13,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1611-0-1-M238
     stop_times:
-      - ['14:41:00', '008026',      0] # Örs vezér tere M+H
-      - ['14:42:00', 'F01861',    483] # Finommechanikai Zrt.
-      - ['14:44:00', 'F01780',   1294] # Terebesi utca
-      - ['14:46:00', 'F01628',   1731] # Élessarok
-      - ['14:47:00', 'F01621',   2194] # Sörgyár
-      - ['14:47:00', 'F01616',   2494] # Maglódi út
-      - ['14:49:00', 'F01824',   3026] # Orion
-      - ['14:49:00', 'F01822',   3307] # Téglavető utca
-      - ['14:51:00', 'F01818',   3562] # Tárna utca
-      - ['14:52:00', 'F01614',   4305] # Rákos vasútállomás
-      - ['14:53:00', 'F01604',   4868] # Athenaeum Nyomda
-      - ['14:54:00', 'F01606',   5315] # Kossuth Nyomda
-      - ['14:56:00', 'F01716',   6303] # Legényrózsa utca
-      - ['14:57:00', 'F01847',   6621] # Rézvirág utca
-      - ['14:58:00', 'F01849',   7078] # Dombhát utca
-      - ['15:00:00', 'F01722',   7639] # 501. utca
-      - ['15:01:00', 'F03549',   8288] # 509. utca
-      - ['15:02:00', '009543',   8624] # 513. utca
-      - ['15:03:00', 'F03547',   8899] # Borsó utca
-      - ['15:03:00', 'F03545',   9250] # Kis utca
-      - ['15:05:00', 'F03543',   9695] # Rákoskeresztúr, Kis utcai lakótelep
+      - ['00:00:00', '008026',      0] # Örs vezér tere M+H
+      - ['00:01:00', 'F01861',    483] # Finommechanikai Zrt.
+      - ['00:02:00', 'F01780',   1294] # Terebesi utca
+      - ['00:04:00', 'F01628',   1731] # Élessarok
+      - ['00:05:00', 'F01621',   2194] # Sörgyár
+      - ['00:05:00', 'F01616',   2494] # Maglódi út
+      - ['00:07:00', 'F01824',   3026] # Orion
+      - ['00:08:00', 'F01822',   3307] # Téglavető utca
+      - ['00:09:00', 'F01818',   3562] # Tárna utca
+      - ['00:10:00', 'F01614',   4305] # Rákos vasútállomás
+      - ['00:12:00', 'F01604',   4868] # Athenaeum Nyomda
+      - ['00:13:00', 'F01606',   5315] # Kossuth Nyomda
+      - ['00:15:00', 'F01716',   6303] # Legényrózsa utca
+      - ['00:16:00', 'F01847',   6621] # Rézvirág utca
+      - ['00:17:00', 'F01849',   7078] # Dombhát utca
+      - ['00:18:00', 'F01722',   7639] # 501. utca
+      - ['00:20:00', 'F03549',   8288] # 509. utca
+      - ['00:21:00', '009543',   8624] # 513. utca
+      - ['00:22:00', 'F03547',   8899] # Borsó utca
+      - ['00:22:00', 'F03545',   9250] # Kis utca
+      - ['00:24:00', 'F03543',   9695] # Rákoskeresztúr, Kis utcai lakótelep
     trip_headsign: 'Rákoskeresztúr, Kis utcai lakótelep'
     trip_id: REFERENCE-1611-0-1
     wheelchair_accessible: 2
@@ -41,26 +41,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1611-1-1-M239
     stop_times:
-      - ['06:43:00', 'F03543',      0] # Rákoskeresztúr, Kis utcai lakótelep
-      - ['06:44:00', 'F03544',    285] # Kis utca
-      - ['06:45:00', 'F03546',    685] # Borsó utca
-      - ['06:46:00', '011773',   1139] # Keresztúri út
-      - ['06:47:00', '011715',   1317] # 509. utca
-      - ['06:48:00', 'F01719',   2043] # 501. utca
-      - ['06:49:00', 'F01848',   2530] # Dombhát utca
-      - ['06:50:00', 'F01846',   3062] # Rézvirág utca
-      - ['06:51:00', 'F01715',   3293] # Legényrózsa utca
-      - ['06:52:00', 'F01605',   4195] # Kossuth Nyomda
-      - ['06:54:00', 'F01602',   4843] # Kozma utca
-      - ['06:55:00', 'F01613',   5221] # Rákos vasútállomás
-      - ['06:56:00', 'F01819',   5944] # Tárna utca
-      - ['06:58:00', 'F01823',   6360] # Téglavető utca
-      - ['06:58:00', 'F01825',   6696] # Orion
-      - ['06:59:00', 'F01615',   7125] # Maglódi út
-      - ['07:01:00', 'F01622',   7650] # Sörgyár
-      - ['07:02:00', 'F01781',   7967] # Terebesi utca
-      - ['07:03:00', 'F01860',   8671] # Finommechanikai Zrt.
-      - ['07:05:00', '008026',   8961] # Örs vezér tere M+H
+      - ['00:00:00', 'F03543',      0] # Rákoskeresztúr, Kis utcai lakótelep
+      - ['00:01:00', 'F03544',    285] # Kis utca
+      - ['00:02:00', 'F03546',    685] # Borsó utca
+      - ['00:03:00', '011773',   1139] # Keresztúri út
+      - ['00:04:00', '011715',   1317] # 509. utca
+      - ['00:05:00', 'F01719',   2043] # 501. utca
+      - ['00:06:00', 'F01848',   2530] # Dombhát utca
+      - ['00:07:00', 'F01846',   3062] # Rézvirág utca
+      - ['00:08:00', 'F01715',   3293] # Legényrózsa utca
+      - ['00:09:00', 'F01605',   4195] # Kossuth Nyomda
+      - ['00:11:00', 'F01602',   4843] # Kozma utca
+      - ['00:12:00', 'F01613',   5221] # Rákos vasútállomás
+      - ['00:13:00', 'F01819',   5944] # Tárna utca
+      - ['00:15:00', 'F01823',   6360] # Téglavető utca
+      - ['00:15:00', 'F01825',   6696] # Orion
+      - ['00:16:00', 'F01615',   7125] # Maglódi út
+      - ['00:18:00', 'F01622',   7650] # Sörgyár
+      - ['00:19:00', 'F01781',   7967] # Terebesi utca
+      - ['00:20:00', 'F01860',   8671] # Finommechanikai Zrt.
+      - ['00:22:00', '008026',   8961] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-1611-1-1
     wheelchair_accessible: 2

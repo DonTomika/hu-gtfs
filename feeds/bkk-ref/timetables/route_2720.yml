@@ -13,43 +13,43 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2720-0-1-T035
     stop_times:
-      - ['17:24:00', 'F02188',      0] # Kosztolányi Dezső tér
-      - ['17:25:00', 'F02182',    274] # Kosztolányi Dezső tér
-      - ['17:26:00', 'F02123',    541] # Vincellér utca
-      - ['17:27:00', 'F02262',    958] # Hollókő utca
-      - ['17:28:00', 'F02052',   1404] # Ajnácskő utca
-      - ['17:29:00', 'F02053',   2040] # Dayka Gábor utca
-      - ['17:31:00', 'F01926',   2505] # Sasadi út
-      - ['17:37:00', 'F04738',   7295] # Budaörs, benzinkút
-      - ['17:43:00', 'F04741',  11516] # Autópálya Főmérnökség
-      - ['17:45:00', 'F04743',  12235] # Tó utca - vasútállomás
-      - ['17:46:00', 'F04747',  12837] # Vasút utca
-      - ['17:47:00', 'F04812',  13189] # Téglagyár
-      - ['17:48:00', 'F04749',  13569] # Deák Ferenc utca
-      - ['17:49:00', 'F04752',  14168] # Baross Gábor utca
-      - ['17:50:00', 'F04757',  14560] # Harangláb
-      - ['17:51:00', 'F04755',  14945] # Törökbálint, Munkácsy Mihály utca
+      - ['00:00:00', 'F02188',      0] # Kosztolányi Dezső tér
+      - ['00:01:00', 'F02182',    274] # Kosztolányi Dezső tér
+      - ['00:02:00', 'F02123',    541] # Vincellér utca
+      - ['00:03:00', 'F02262',    958] # Hollókő utca
+      - ['00:04:00', 'F02052',   1404] # Ajnácskő utca
+      - ['00:05:00', 'F02053',   2040] # Dayka Gábor utca
+      - ['00:06:00', 'F01926',   2505] # Sasadi út
+      - ['00:12:00', 'F04738',   7295] # Budaörs, benzinkút
+      - ['00:17:00', 'F04741',  11516] # Autópálya Főmérnökség
+      - ['00:19:00', 'F04743',  12235] # Tó utca - vasútállomás
+      - ['00:20:00', 'F04747',  12837] # Vasút utca
+      - ['00:21:00', 'F04812',  13189] # Téglagyár
+      - ['00:22:00', 'F04749',  13569] # Deák Ferenc utca
+      - ['00:23:00', 'F04752',  14168] # Baross Gábor utca
+      - ['00:24:00', 'F04757',  14560] # Harangláb
+      - ['00:25:00', 'F04755',  14945] # Törökbálint, Munkácsy Mihály utca
     trip_headsign: 'Törökbálint, Munkácsy Mihály utca'
     trip_id: REFERENCE-2720-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2720-1-1-T036
     stop_times:
-      - ['09:00:00', 'F04755',      0] # Törökbálint, Munkácsy Mihály utca
-      - ['09:01:00', 'F04754',    228] # Bartók Béla utca
-      - ['09:02:00', 'F04753',    619] # Baross Gábor utca
-      - ['09:03:00', 'F04750',   1260] # Deák Ferenc utca
-      - ['09:04:00', 'F04813',   1692] # Téglagyár
-      - ['09:05:00', 'F04748',   2051] # Vasút utca
-      - ['09:07:00', 'F04744',   2633] # Tó utca - vasútállomás
-      - ['09:13:00', 'F04737',   6870] # Budaörs, benzinkút
-      - ['09:23:00', 'F01927',  11703] # Sasadi út
-      - ['09:25:00', 'F02054',  12138] # Dayka Gábor utca
-      - ['09:27:00', 'F02050',  12808] # Hungária Biztosító
-      - ['09:28:00', 'F02221',  13250] # Kelenföldi autóbuszgarázs
-      - ['09:29:00', '009412',  13535] # Bartók Béla út
-      - ['09:31:00', 'F02231',  14024] # Kosztolányi Dezső tér
+      - ['00:00:00', 'F04755',      0] # Törökbálint, Munkácsy Mihály utca
+      - ['00:01:00', 'F04754',    228] # Bartók Béla utca
+      - ['00:02:00', 'F04753',    619] # Baross Gábor utca
+      - ['00:03:00', 'F04750',   1260] # Deák Ferenc utca
+      - ['00:04:00', 'F04813',   1692] # Téglagyár
+      - ['00:05:00', 'F04748',   2051] # Vasút utca
+      - ['00:07:00', 'F04744',   2633] # Tó utca - vasútállomás
+      - ['00:13:00', 'F04737',   6870] # Budaörs, benzinkút
+      - ['00:22:00', 'F01927',  11703] # Sasadi út
+      - ['00:24:00', 'F02054',  12138] # Dayka Gábor utca
+      - ['00:26:00', 'F02050',  12808] # Hungária Biztosító
+      - ['00:27:00', 'F02221',  13250] # Kelenföldi autóbuszgarázs
+      - ['00:29:00', '009412',  13535] # Bartók Béla út
+      - ['00:32:00', 'F02231',  14024] # Kosztolányi Dezső tér
     trip_headsign: Kosztolányi Dezső tér
     trip_id: REFERENCE-2720-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

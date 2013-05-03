@@ -13,16 +13,16 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3170-0-1-1019
     stop_times:
-      - ['18:20:00', 'F00568',      0] # Bécsi út (Vörösvári út)
-      - ['18:22:00', 'F00590',    549] # Váradi utca
-      - ['18:23:00', 'F00595',    923] # Szent Margit Kórház
-      - ['18:25:00', 'F00685',   1434] # Selmeci utca
-      - ['18:26:00', 'F00599',   1918] # Nagyszombat utca
-      - ['18:27:00', 'F00136',   2450] # Kolosy tér
-      - ['18:28:00', 'F00244',   2785] # Zsigmond tér
-      - ['18:29:00', 'F00242',   3200] # Kavics utca
-      - ['18:30:00', 'F00240',   3656] # Szent Lukács Gyógyfürdő
-      - ['18:32:00', 'F00236',   3981] # Margit híd, budai hídfő H
+      - ['00:00:00', 'F00568',      0] # Bécsi út (Vörösvári út)
+      - ['00:02:00', 'F00590',    549] # Váradi utca
+      - ['00:03:00', 'F00595',    923] # Szent Margit Kórház
+      - ['00:05:00', 'F00685',   1434] # Selmeci utca
+      - ['00:06:00', 'F00599',   1918] # Nagyszombat utca
+      - ['00:08:00', 'F00136',   2450] # Kolosy tér
+      - ['00:09:00', 'F00244',   2785] # Zsigmond tér
+      - ['00:10:00', 'F00242',   3200] # Kavics utca
+      - ['00:11:00', 'F00240',   3656] # Szent Lukács Gyógyfürdő
+      - ['00:13:00', 'F00236',   3981] # Margit híd, budai hídfő H
     trip_headsign: 'Margit híd, budai hídfő H'
     trip_id: REFERENCE-3170-0-1
     wheelchair_accessible: 2
@@ -30,17 +30,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-3170-1-1-1020
     stop_times:
-      - ['15:08:00', 'F00236',      0] # Margit híd, budai hídfő H
-      - ['15:09:00', 'F00239',    350] # Szent Lukács Gyógyfürdő
-      - ['15:10:00', 'F00241',    796] # Kavics utca
-      - ['15:11:00', 'F00243',   1083] # Zsigmond tér
-      - ['15:13:00', 'F00135',   1502] # Kolosy tér
-      - ['15:15:00', 'F00598',   2105] # Nagyszombat utca
-      - ['15:16:00', 'F00684',   2523] # Selmeci utca
-      - ['15:18:00', 'F00594',   3099] # Szent Margit Kórház
-      - ['15:19:00', 'F00591',   3375] # Váradi utca
-      - ['15:20:00', 'F00675',   3665] # Perényi út
-      - ['15:21:00', 'F00568',   3985] # Bécsi út (Vörösvári út)
+      - ['00:00:00', 'F00236',      0] # Margit híd, budai hídfő H
+      - ['00:01:00', 'F00239',    350] # Szent Lukács Gyógyfürdő
+      - ['00:03:00', 'F00241',    796] # Kavics utca
+      - ['00:04:00', 'F00243',   1083] # Zsigmond tér
+      - ['00:06:00', 'F00135',   1502] # Kolosy tér
+      - ['00:08:00', 'F00598',   2105] # Nagyszombat utca
+      - ['00:09:00', 'F00684',   2523] # Selmeci utca
+      - ['00:11:00', 'F00594',   3099] # Szent Margit Kórház
+      - ['00:12:00', 'F00591',   3375] # Váradi utca
+      - ['00:13:00', 'F00675',   3665] # Perényi út
+      - ['00:14:00', 'F00568',   3985] # Bécsi út (Vörösvári út)
     trip_headsign: Bécsi út (Vörösvári út)
     trip_id: REFERENCE-3170-1-1
     wheelchair_accessible: 2

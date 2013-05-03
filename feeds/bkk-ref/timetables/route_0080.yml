@@ -13,57 +13,57 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0080-0-1-J695
     stop_times:
-      - ['15:16:00', '009671',      0] # Uránia
-      - ['15:16:00', 'F01171',    166] # Uránia
-      - ['15:17:00', 'F01017',    512] # Astoria M
-      - ['15:19:00', 'F01004',    834] # Ferenciek tere M
-      - ['15:22:00', 'F00113',   1535] # Erzsébet híd, budai hídfő
-      - ['15:25:00', 'F00008',   2452] # Sánc utca
-      - ['15:26:00', 'F00005',   2796] # Mészáros utca
-      - ['15:29:00', 'F02164',   3428] # BAH-csomópont (Kongresszusi Kp.)
-      - ['15:30:00', 'F02110',   3923] # Zólyomi út
-      - ['15:31:00', 'F02108',   4219] # Breznó lépcső
-      - ['15:31:00', 'F02107',   4539] # Vas Gereben utca
-      - ['15:32:00', '008559',   4877] # Korompai utca
-      - ['15:33:00', 'F02105',   5078] # Lejtő út
-      - ['15:34:00', 'F02102',   5377] # Farkasréti temető
-      - ['15:35:00', 'F02098',   5730] # Süveg utca
-      - ['15:36:00', 'F02084',   6214] # Márton Áron tér
-      - ['15:37:00', 'F02080',   6705] # Edvi Illés út
-      - ['15:38:00', 'F02078',   7075] # Oltvány köz
-      - ['15:39:00', 'F02076',   7382] # Irhás árok
-      - ['15:40:00', 'F02074',   7653] # Nagyida utca
-      - ['15:42:00', '008567',   8051] # Gazdagréti tér
+      - ['00:00:00', '009671',      0] # Uránia
+      - ['00:00:00', 'F01171',    166] # Uránia
+      - ['00:01:00', 'F01017',    512] # Astoria M
+      - ['00:03:00', 'F01004',    834] # Ferenciek tere M
+      - ['00:05:00', 'F00113',   1535] # Erzsébet híd, budai hídfő
+      - ['00:08:00', 'F00008',   2452] # Sánc utca
+      - ['00:09:00', 'F00005',   2796] # Mészáros utca
+      - ['00:12:00', 'F02164',   3428] # BAH-csomópont (Kongresszusi Kp.)
+      - ['00:13:00', 'F02110',   3923] # Zólyomi út
+      - ['00:14:00', 'F02108',   4219] # Breznó lépcső
+      - ['00:14:00', 'F02107',   4539] # Vas Gereben utca
+      - ['00:15:00', '008559',   4877] # Korompai utca
+      - ['00:16:00', 'F02105',   5078] # Lejtő út
+      - ['00:17:00', 'F02102',   5377] # Farkasréti temető
+      - ['00:18:00', 'F02098',   5730] # Süveg utca
+      - ['00:19:00', 'F02084',   6214] # Márton Áron tér
+      - ['00:20:00', 'F02080',   6705] # Edvi Illés út
+      - ['00:21:00', 'F02078',   7075] # Oltvány köz
+      - ['00:22:00', 'F02076',   7382] # Irhás árok
+      - ['00:23:00', 'F02074',   7653] # Nagyida utca
+      - ['00:24:00', '008567',   8051] # Gazdagréti tér
     trip_headsign: Gazdagréti tér
     trip_id: REFERENCE-0080-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0080-1-1-J694
     stop_times:
-      - ['10:40:00', 'F02227',      0] # Gazdagréti tér
-      - ['10:41:00', 'F02073',    329] # Baradla utca
-      - ['10:42:00', 'F02075',    649] # Törökbálinti út
-      - ['10:43:00', 'F02077',    912] # Oltvány utca
-      - ['10:44:00', 'F02079',   1309] # Eper utca
-      - ['10:46:00', 'F02085',   1865] # Márton Áron tér
-      - ['10:47:00', 'F02096',   2328] # Süveg utca
-      - ['10:48:00', 'F02103',   2647] # Farkasréti temető
-      - ['10:48:00', 'F02104',   2923] # Hegytető utca
-      - ['10:49:00', '008560',   3200] # Korompai utca
-      - ['10:50:00', 'F02106',   3437] # Sion lépcső
-      - ['10:51:00', 'F02109',   3884] # Breznó lépcső
-      - ['10:52:00', 'F02111',   4154] # Zólyomi út
-      - ['10:53:00', 'F02112',   4560] # BAH-csomópont (Hegyalja út)
-      - ['10:54:00', 'F02168',   4808] # BAH-csomópont (felüljáró)
-      - ['10:55:00', 'F00004',   5205] # Avar utca
-      - ['10:56:00', 'F00009',   5591] # Sánc utca
-      - ['10:58:00', 'F00110',   6315] # Döbrentei tér
-      - ['11:00:00', '009537',   6978] # Erzsébet híd, pesti hídfő
-      - ['11:01:00', 'F00951',   7206] # Ferenciek tere M
-      - ['11:02:00', 'F01016',   7690] # Astoria M
-      - ['11:04:00', 'F01170',   8030] # Uránia
-      - ['11:05:00', '009671',   8148] # Uránia
+      - ['00:00:00', 'F02227',      0] # Gazdagréti tér
+      - ['00:01:00', 'F02073',    329] # Baradla utca
+      - ['00:02:00', 'F02075',    649] # Törökbálinti út
+      - ['00:03:00', 'F02077',    912] # Oltvány utca
+      - ['00:04:00', 'F02079',   1309] # Eper utca
+      - ['00:05:00', 'F02085',   1865] # Márton Áron tér
+      - ['00:06:00', 'F02096',   2328] # Süveg utca
+      - ['00:06:00', 'F02103',   2647] # Farkasréti temető
+      - ['00:07:00', 'F02104',   2923] # Hegytető utca
+      - ['00:08:00', '008560',   3200] # Korompai utca
+      - ['00:08:00', 'F02106',   3437] # Sion lépcső
+      - ['00:09:00', 'F02109',   3884] # Breznó lépcső
+      - ['00:10:00', 'F02111',   4154] # Zólyomi út
+      - ['00:11:00', 'F02112',   4560] # BAH-csomópont (Hegyalja út)
+      - ['00:12:00', 'F02168',   4808] # BAH-csomópont (felüljáró)
+      - ['00:13:00', 'F00004',   5205] # Avar utca
+      - ['00:14:00', 'F00009',   5591] # Sánc utca
+      - ['00:15:00', 'F00110',   6315] # Döbrentei tér
+      - ['00:17:00', '009537',   6978] # Erzsébet híd, pesti hídfő
+      - ['00:18:00', 'F00951',   7206] # Ferenciek tere M
+      - ['00:19:00', 'F01016',   7690] # Astoria M
+      - ['00:20:00', 'F01170',   8030] # Uránia
+      - ['00:21:00', '009671',   8148] # Uránia
     trip_headsign: Uránia
     trip_id: REFERENCE-0080-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

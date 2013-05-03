@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0390-0-1-0781
     stop_times:
-      - ['09:48:00', 'F00064',      0] # Batthyány tér M+H
-      - ['09:50:00', 'F00036',    582] # Fazekas utca
-      - ['09:51:00', 'F00032',    907] # Széna tér
-      - ['09:52:00', 'F00412',   1279] # Széll Kálmán tér M
-      - ['09:53:00', 'F02333',   1555] # Széll Kálmán tér M (Csaba utca)
-      - ['09:54:00', 'F02335',   1716] # Maros utca
-      - ['09:55:00', '007900',   1938] # Szakorvosi Rendelőintézet
-      - ['09:57:00', 'F00023',   2421] # Déli pályaudvar M
-      - ['09:58:00', 'F02406',   2772] # Kék Golyó utca
-      - ['09:59:00', 'F02488',   3039] # Csemegi utca
-      - ['10:00:00', 'F02405',   3292] # Határőr út
-      - ['10:01:00', 'F02404',   3579] # Goldmark Károly utca
+      - ['00:00:00', 'F00064',      0] # Batthyány tér M+H
+      - ['00:01:00', 'F00036',    582] # Fazekas utca
+      - ['00:02:00', 'F00032',    907] # Széna tér
+      - ['00:03:00', 'F00412',   1279] # Széll Kálmán tér M
+      - ['00:04:00', 'F02333',   1555] # Széll Kálmán tér M (Csaba utca)
+      - ['00:04:00', 'F02335',   1716] # Maros utca
+      - ['00:05:00', '007900',   1938] # Szakorvosi Rendelőintézet
+      - ['00:07:00', 'F00023',   2421] # Déli pályaudvar M
+      - ['00:08:00', 'F02406',   2772] # Kék Golyó utca
+      - ['00:09:00', 'F02488',   3039] # Csemegi utca
+      - ['00:10:00', 'F02405',   3292] # Határőr út
+      - ['00:11:00', 'F02404',   3579] # Goldmark Károly utca
     trip_headsign: Goldmark Károly utca
     trip_id: REFERENCE-0390-0-1
     wheelchair_accessible: 2
@@ -32,15 +32,15 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0390-1-1-4100
     stop_times:
-      - ['07:00:00', 'F02404',      0] # Goldmark Károly utca
-      - ['07:01:00', 'F02403',    321] # Tóth Lőrinc utca
-      - ['07:02:00', 'F02402',    503] # Istenhegyi út
-      - ['07:03:00', 'F02411',    851] # Németvölgyi út
-      - ['07:04:00', 'F00022',   1213] # Déli pályaudvar M
-      - ['07:07:00', '008086',   2115] # Széll Kálmán tér M
-      - ['07:08:00', 'F00033',   2296] # Széna tér
-      - ['07:09:00', 'F00068',   2807] # Mária tér
-      - ['07:11:00', 'F00064',   3138] # Batthyány tér M+H
+      - ['00:00:00', 'F02404',      0] # Goldmark Károly utca
+      - ['00:01:00', 'F02403',    321] # Tóth Lőrinc utca
+      - ['00:02:00', 'F02402',    503] # Istenhegyi út
+      - ['00:03:00', 'F02411',    851] # Németvölgyi út
+      - ['00:04:00', 'F00022',   1213] # Déli pályaudvar M
+      - ['00:07:00', '008086',   2115] # Széll Kálmán tér M
+      - ['00:08:00', 'F00033',   2296] # Széna tér
+      - ['00:09:00', 'F00068',   2807] # Mária tér
+      - ['00:11:00', 'F00064',   3138] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-0390-1-1
     wheelchair_accessible: 2

@@ -13,99 +13,99 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0360-0-1-N743
     stop_times:
-      - ['14:09:00', 'F04276',      0] # Csepel, Csillagtelep
-      - ['14:09:00', 'F04280',    302] # Kölcsey utca
-      - ['14:10:00', 'F04335',    608] # Iskola tér
-      - ['14:11:00', 'F04212',   1067] # Gombos tér
-      - ['14:12:00', 'F04210',   1276] # Völgy utca
-      - ['14:13:00', 'F04205',   1676] # Béke tér
-      - ['14:14:00', 'F04291',   1909] # Kossuth Lajos utca (Völgy utca)
-      - ['14:16:00', 'F04185',   2483] # II. Rákóczi Ferenc út
-      - ['14:18:00', 'F04177',   2983] # Karácsony Sándor utca H
-      - ['14:20:00', 'F04320',   3423] # Szent Imre tér H
-      - ['14:21:00', 'F04315',   3979] # Ady Endre út (Kossuth Lajos utca)
-      - ['14:23:00', 'F04317',   4530] # Védgát utca
-      - ['14:24:00', 'F04306',   4891] # Papírgyár
-      - ['14:25:00', 'F04149',   5643] # Sósfürdő
-      - ['14:26:00', 'F04145',   6151] # Pesterzsébet, Baross utca
-      - ['14:27:00', 'F04118',   6377] # Pesterzsébet, Kossuth Lajos utca
-      - ['14:28:00', 'F04055',   6747] # Nagysándor József utca
-      - ['14:29:00', 'F04057',   7288] # Tinódi utca
-      - ['14:30:00', 'F04059',   7574] # Torontál utca
-      - ['14:31:00', 'F04158',   7968] # Wesselényi utca
-      - ['14:32:00', 'F04161',   8176] # Bólyai János utca
-      - ['14:33:00', '008957',   8672] # Előd utca
-      - ['14:34:00', '009147',   8973] # Vörösmarty utca
-      - ['14:35:00', 'F04564',   9196] # Erzsébeti temető
-      - ['14:36:00', 'F04573',   9595] # Szent László utca
-      - ['14:38:00', 'F04176',  10408] # Jahn Ferenc Kórház
-      - ['14:39:00', 'F04166',  10942] # Mesgye utca
-      - ['14:40:00', 'F04085',  11471] # Írisz utca
-      - ['14:46:00', '008096',  13449] # Nagykőrösi út
-      - ['14:47:00', '008094',  13726] # Dél-pesti autóbuszgarázs
-      - ['14:48:00', 'F03626',  14098] # Besence utca
-      - ['14:49:00', 'F03624',  14456] # Ipacsfa utca
-      - ['14:50:00', 'F03621',  15033] # Szent Lőrinc-telep
-      - ['14:51:00', 'F03765',  15483] # Fiatalság utca
-      - ['14:52:00', 'F03764',  15736] # Margó Tivadar utca
-      - ['14:53:00', 'F03767',  16410] # Kossuth Lajos utca
-      - ['14:55:00', 'F03707',  16918] # Thököly út
-      - ['14:56:00', 'F03772',  17200] # Baross utca
-      - ['14:57:00', 'F03836',  17550] # Kemény Zsigmond utca
-      - ['14:58:00', 'F03751',  17787] # Lakatos út
-      - ['14:59:00', 'F03839',  18240] # Lakatos úti lakótelep
-      - ['15:00:00', 'F03747',  18937] # Felsőcsatári köz
-      - ['15:02:00', '008772',  19348] # Pestszentlőrinc vasútállomás
+      - ['00:00:00', 'F04276',      0] # Csepel, Csillagtelep
+      - ['00:00:00', 'F04280',    302] # Kölcsey utca
+      - ['00:01:00', 'F04335',    608] # Iskola tér
+      - ['00:02:00', 'F04212',   1067] # Gombos tér
+      - ['00:03:00', 'F04210',   1276] # Völgy utca
+      - ['00:05:00', 'F04205',   1676] # Béke tér
+      - ['00:06:00', 'F04291',   1909] # Kossuth Lajos utca (Völgy utca)
+      - ['00:08:00', 'F04185',   2483] # II. Rákóczi Ferenc út
+      - ['00:09:00', 'F04177',   2983] # Karácsony Sándor utca H
+      - ['00:11:00', 'F04320',   3423] # Szent Imre tér H
+      - ['00:12:00', 'F04315',   3979] # Ady Endre út (Kossuth Lajos utca)
+      - ['00:13:00', 'F04317',   4530] # Védgát utca
+      - ['00:14:00', 'F04306',   4891] # Papírgyár
+      - ['00:15:00', 'F04149',   5643] # Sósfürdő
+      - ['00:17:00', 'F04145',   6151] # Pesterzsébet, Baross utca
+      - ['00:18:00', 'F04118',   6377] # Pesterzsébet, Kossuth Lajos utca
+      - ['00:19:00', 'F04055',   6747] # Nagysándor József utca
+      - ['00:21:00', 'F04057',   7288] # Tinódi utca
+      - ['00:22:00', 'F04059',   7574] # Torontál utca
+      - ['00:23:00', 'F04158',   7968] # Wesselényi utca
+      - ['00:24:00', 'F04161',   8176] # Bólyai János utca
+      - ['00:25:00', '008957',   8672] # Előd utca
+      - ['00:26:00', '009147',   8973] # Vörösmarty utca
+      - ['00:27:00', 'F04564',   9196] # Erzsébeti temető
+      - ['00:28:00', 'F04573',   9595] # Szent László utca
+      - ['00:30:00', 'F04176',  10408] # Jahn Ferenc Kórház
+      - ['00:31:00', 'F04166',  10942] # Mesgye utca
+      - ['00:32:00', 'F04085',  11471] # Írisz utca
+      - ['00:37:00', '008096',  13449] # Nagykőrösi út
+      - ['00:38:00', '008094',  13726] # Dél-pesti autóbuszgarázs
+      - ['00:39:00', 'F03626',  14098] # Besence utca
+      - ['00:40:00', 'F03624',  14456] # Ipacsfa utca
+      - ['00:41:00', 'F03621',  15033] # Szent Lőrinc-telep
+      - ['00:42:00', 'F03765',  15483] # Fiatalság utca
+      - ['00:43:00', 'F03764',  15736] # Margó Tivadar utca
+      - ['00:44:00', 'F03767',  16410] # Kossuth Lajos utca
+      - ['00:46:00', 'F03707',  16918] # Thököly út
+      - ['00:47:00', 'F03772',  17200] # Baross utca
+      - ['00:48:00', 'F03836',  17550] # Kemény Zsigmond utca
+      - ['00:50:00', 'F03751',  17787] # Lakatos út
+      - ['00:51:00', 'F03839',  18240] # Lakatos úti lakótelep
+      - ['00:52:00', 'F03747',  18937] # Felsőcsatári köz
+      - ['00:54:00', '008772',  19348] # Pestszentlőrinc vasútállomás
     trip_headsign: Pestszentlőrinc vasútállomás
     trip_id: REFERENCE-0360-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0360-1-1-N742
     stop_times:
-      - ['08:00:00', 'F03776',      0] # Pestszentlőrinc vasútállomás
-      - ['08:00:00', 'F03746',    413] # Felsőcsatári köz
-      - ['08:01:00', 'F03840',   1043] # Lakatos úti lakótelep
-      - ['08:02:00', 'F03750',   1577] # Üllői út
-      - ['08:03:00', 'F03835',   1914] # Kemény Zsigmond utca
-      - ['08:04:00', 'F03769',   2308] # Baross utca
-      - ['08:05:00', 'F03762',   2820] # Margó Tivadar utca
-      - ['08:06:00', 'F03766',   3133] # Kinizsi Pál utca
-      - ['08:07:00', 'F03620',   3524] # Szent Lőrinc-telep
-      - ['08:09:00', 'F03623',   4096] # Ipacsfa utca
-      - ['08:10:00', 'F03625',   4474] # Besence utca
-      - ['08:12:00', '008093',   4753] # Dél-pesti autóbuszgarázs
-      - ['08:13:00', '008095',   5133] # Nagykőrösi út
-      - ['08:16:00', 'F04086',   7110] # Írisz utca
-      - ['08:17:00', 'F04165',   7555] # Mesgye utca
-      - ['08:18:00', 'F04083',   8100] # Jahn Ferenc Kórház
-      - ['08:19:00', 'F04572',   8650] # Szent László utca
-      - ['08:20:00', 'F04565',   9005] # Erzsébeti temető
-      - ['08:21:00', 'F04078',   9368] # Előd utca
-      - ['08:22:00', 'F04077',   9643] # Vágóhíd utca
-      - ['08:23:00', 'F04162',  10010] # Lehel utca
-      - ['08:24:00', 'F04157',  10357] # Akácfa utca
-      - ['08:25:00', 'F04058',  10753] # Klapka utca
-      - ['08:26:00', 'F04056',  11004] # Tinódi utca
-      - ['08:27:00', 'F04054',  11472] # Nagysándor József utca
-      - ['08:28:00', 'F04119',  11845] # Pesterzsébet, Kossuth Lajos utca
-      - ['08:29:00', 'F04144',  12137] # Pesterzsébet, Baross utca
-      - ['08:30:00', 'F04148',  12675] # Sósfürdő
-      - ['08:31:00', 'F04307',  13248] # Papírgyár
-      - ['08:32:00', 'F04316',  13766] # Védgát utca
-      - ['08:34:00', 'F04314',  14250] # Csepel, Kossuth Lajos utca
-      - ['08:36:00', '008067',  14667] # Szent Imre tér
-      - ['08:37:00', 'F04278',  15221] # Karácsony Sándor utca
-      - ['08:38:00', 'F04191',  15437] # Széchenyi István utca
-      - ['08:39:00', 'F04193',  15670] # Szent István út
-      - ['08:41:00', 'F04200',  16135] # Völgy utca
-      - ['08:42:00', 'F04206',  16386] # Bánya utca
-      - ['08:42:00', 'F04207',  16585] # Kölcsey utca
-      - ['08:43:00', 'F04211',  17000] # Gombos tér
-      - ['08:45:00', 'F04334',  17366] # Iskola tér
-      - ['08:46:00', 'F04281',  17618] # Szabadság utca
-      - ['08:47:00', 'F04282',  18006] # Jupiter utca
-      - ['08:49:00', 'F04276',  18280] # Csepel, Csillagtelep
+      - ['00:00:00', 'F03776',      0] # Pestszentlőrinc vasútállomás
+      - ['00:00:00', 'F03746',    413] # Felsőcsatári köz
+      - ['00:01:00', 'F03840',   1043] # Lakatos úti lakótelep
+      - ['00:02:00', 'F03750',   1577] # Üllői út
+      - ['00:03:00', 'F03835',   1914] # Kemény Zsigmond utca
+      - ['00:04:00', 'F03769',   2308] # Baross utca
+      - ['00:05:00', 'F03762',   2820] # Margó Tivadar utca
+      - ['00:06:00', 'F03766',   3133] # Kinizsi Pál utca
+      - ['00:07:00', 'F03620',   3524] # Szent Lőrinc-telep
+      - ['00:09:00', 'F03623',   4096] # Ipacsfa utca
+      - ['00:10:00', 'F03625',   4474] # Besence utca
+      - ['00:12:00', '008093',   4753] # Dél-pesti autóbuszgarázs
+      - ['00:13:00', '008095',   5133] # Nagykőrösi út
+      - ['00:16:00', 'F04086',   7110] # Írisz utca
+      - ['00:17:00', 'F04165',   7555] # Mesgye utca
+      - ['00:18:00', 'F04083',   8100] # Jahn Ferenc Kórház
+      - ['00:19:00', 'F04572',   8650] # Szent László utca
+      - ['00:20:00', 'F04565',   9005] # Erzsébeti temető
+      - ['00:21:00', 'F04078',   9368] # Előd utca
+      - ['00:22:00', 'F04077',   9643] # Vágóhíd utca
+      - ['00:23:00', 'F04162',  10010] # Lehel utca
+      - ['00:24:00', 'F04157',  10357] # Akácfa utca
+      - ['00:25:00', 'F04058',  10753] # Klapka utca
+      - ['00:26:00', 'F04056',  11004] # Tinódi utca
+      - ['00:27:00', 'F04054',  11472] # Nagysándor József utca
+      - ['00:28:00', 'F04119',  11845] # Pesterzsébet, Kossuth Lajos utca
+      - ['00:29:00', 'F04144',  12137] # Pesterzsébet, Baross utca
+      - ['00:30:00', 'F04148',  12675] # Sósfürdő
+      - ['00:31:00', 'F04307',  13248] # Papírgyár
+      - ['00:32:00', 'F04316',  13766] # Védgát utca
+      - ['00:34:00', 'F04314',  14250] # Csepel, Kossuth Lajos utca
+      - ['00:36:00', '008067',  14667] # Szent Imre tér
+      - ['00:37:00', 'F04278',  15221] # Karácsony Sándor utca
+      - ['00:38:00', 'F04191',  15437] # Széchenyi István utca
+      - ['00:39:00', 'F04193',  15670] # Szent István út
+      - ['00:41:00', 'F04200',  16135] # Völgy utca
+      - ['00:42:00', 'F04206',  16386] # Bánya utca
+      - ['00:42:00', 'F04207',  16585] # Kölcsey utca
+      - ['00:43:00', 'F04211',  17000] # Gombos tér
+      - ['00:45:00', 'F04334',  17366] # Iskola tér
+      - ['00:46:00', 'F04281',  17618] # Szabadság utca
+      - ['00:47:00', 'F04282',  18006] # Jupiter utca
+      - ['00:49:00', 'F04276',  18280] # Csepel, Csillagtelep
     trip_headsign: 'Csepel, Csillagtelep'
     trip_id: REFERENCE-0360-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

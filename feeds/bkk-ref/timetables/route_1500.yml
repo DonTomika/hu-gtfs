@@ -13,41 +13,41 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1500-0-1-K082
     stop_times:
-      - ['13:30:00', 'F02000',      0] # Újbuda-központ
-      - ['13:32:00', 'F02182',    746] # Kosztolányi Dezső tér
-      - ['13:33:00', 'F02123',   1013] # Vincellér utca
-      - ['13:34:00', 'F02262',   1430] # Hollókő utca
-      - ['13:35:00', 'F02052',   1876] # Ajnácskő utca
-      - ['13:37:00', 'F02053',   2512] # Dayka Gábor utca
-      - ['13:38:00', 'F01926',   2977] # Sasadi út
-      - ['13:40:00', 'F01922',   3904] # Kérő utca
-      - ['13:41:00', 'F01920',   4248] # Neszmélyi út
-      - ['13:42:00', 'F01919',   4497] # Péterhegyi út
-      - ['13:43:00', 'F01917',   4921] # Őrmezei út
-      - ['13:44:00', 'F01945',   5302] # Bazsalikom utca
-      - ['13:45:00', 'F01939',   5666] # Torma utca
-      - ['13:46:00', 'F01914',   5937] # Husáng utca
-      - ['13:47:00', 'F01901',   6152] # Péterhegyi köz
-      - ['13:48:00', 'F01898',   6466] # Kápolna út
-      - ['13:49:00', 'F01897',   6724] # Ady Endre út
-      - ['13:51:00', 'F04371',   7281] # Tordai út
-      - ['13:52:00', 'F04373',   7641] # Hittérítő út
-      - ['13:53:00', 'F04374',   8190] # Budafok, Vincellér út
-      - ['13:54:00', '008098',   8752] # Kapisztrán utca
-      - ['13:55:00', '009462',   9270] # Tanító utca
-      - ['13:56:00', '008918',  10132] # Budatétény, benzinkút
-      - ['13:58:00', '13:59:00', '009546',  10713] # Memento Park
-      - ['13:59:00', 'F04438',  10889] # Brassói utca
-      - ['14:00:00', 'F04440',  11583] # Aradi utca
-      - ['14:01:00', 'F04442',  12090] # Nyél utca
-      - ['14:02:00', 'F04443',  12640] # Park utca
-      - ['14:03:00', 'F04446',  12824] # Aszály utca
-      - ['14:04:00', 'F04448',  13230] # Őszibarack utca
-      - ['14:05:00', 'F04449',  13497] # Kistétény utca
-      - ['14:06:00', 'F04452',  13759] # Művelődés utca
-      - ['14:07:00', 'F04453',  14224] # Jókai Mór utca
-      - ['14:08:00', 'F04456',  14613] # Lépcsős utca
-      - ['14:10:00', '007999',  14943] # Budatétény vasútállomás (Campona)
+      - ['00:00:00', 'F02000',      0] # Újbuda-központ
+      - ['00:02:00', 'F02182',    746] # Kosztolányi Dezső tér
+      - ['00:03:00', 'F02123',   1013] # Vincellér utca
+      - ['00:04:00', 'F02262',   1430] # Hollókő utca
+      - ['00:05:00', 'F02052',   1876] # Ajnácskő utca
+      - ['00:07:00', 'F02053',   2512] # Dayka Gábor utca
+      - ['00:08:00', 'F01926',   2977] # Sasadi út
+      - ['00:10:00', 'F01922',   3904] # Kérő utca
+      - ['00:11:00', 'F01920',   4248] # Neszmélyi út
+      - ['00:12:00', 'F01919',   4497] # Péterhegyi út
+      - ['00:13:00', 'F01917',   4921] # Őrmezei út
+      - ['00:14:00', 'F01945',   5302] # Bazsalikom utca
+      - ['00:15:00', 'F01939',   5666] # Torma utca
+      - ['00:16:00', 'F01914',   5937] # Husáng utca
+      - ['00:17:00', 'F01901',   6152] # Péterhegyi köz
+      - ['00:18:00', 'F01898',   6466] # Kápolna út
+      - ['00:19:00', 'F01897',   6724] # Ady Endre út
+      - ['00:21:00', 'F04371',   7281] # Tordai út
+      - ['00:22:00', 'F04373',   7641] # Hittérítő út
+      - ['00:23:00', 'F04374',   8190] # Budafok, Vincellér út
+      - ['00:24:00', '008098',   8752] # Kapisztrán utca
+      - ['00:25:00', '009462',   9270] # Tanító utca
+      - ['00:26:00', '008918',  10132] # Budatétény, benzinkút
+      - ['00:28:00', '00:29:00', '009546',  10713] # Memento Park
+      - ['00:29:00', 'F04438',  10889] # Brassói utca
+      - ['00:30:00', 'F04440',  11583] # Aradi utca
+      - ['00:31:00', 'F04442',  12090] # Nyél utca
+      - ['00:32:00', 'F04443',  12640] # Park utca
+      - ['00:33:00', 'F04446',  12824] # Aszály utca
+      - ['00:34:00', 'F04448',  13230] # Őszibarack utca
+      - ['00:35:00', 'F04449',  13497] # Kistétény utca
+      - ['00:36:00', 'F04452',  13759] # Művelődés utca
+      - ['00:37:00', 'F04453',  14224] # Jókai Mór utca
+      - ['00:38:00', 'F04456',  14613] # Lépcsős utca
+      - ['00:40:00', '007999',  14943] # Budatétény vasútállomás (Campona)
     trip_headsign: Budatétény vasútállomás (Campona)
     trip_id: REFERENCE-1500-0-1
     wheelchair_accessible: 2
@@ -55,44 +55,44 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1500-1-1-K083
     stop_times:
-      - ['06:25:00', '007997',      0] # Budatétény vasútállomás (Campona)
-      - ['06:26:00', 'F04455',    346] # Lépcsős utca
-      - ['06:28:00', '007995',    799] # Jókai Mór utca
-      - ['06:29:00', 'F04451',   1163] # Dézsmaház utca
-      - ['06:29:00', 'F04450',   1422] # Rizling utca
-      - ['06:30:00', 'F04447',   1739] # Kápolna utca
-      - ['06:30:00', 'F04445',   2079] # Aszály utca
-      - ['06:31:00', 'F04444',   2326] # Park utca
-      - ['06:32:00', 'F04441',   2803] # Klauzál Gábor utca
-      - ['06:33:00', 'F04439',   3352] # Aradi utca
-      - ['06:34:00', 'F04437',   4048] # Brassói utca
-      - ['06:35:00', 'F04394',   4242] # Memento Park
-      - ['06:37:00', '008943',   4866] # Budatétény, benzinkút
-      - ['06:38:00', '009463',   5697] # Tanító utca
-      - ['06:39:00', 'F04373',   6226] # Hittérítő út
-      - ['06:40:00', 'F04374',   6775] # Budafok, Vincellér út
-      - ['06:41:00', 'F04372',   7252] # Tegzes utca
-      - ['06:42:00', 'F04370',   7689] # Tordai út
-      - ['06:44:00', 'F01896',   8067] # Ady Endre út
-      - ['06:45:00', 'F01899',   8472] # Kápolna út
-      - ['06:46:00', 'F01900',   8761] # Olajfa utca
-      - ['06:47:00', 'F01915',   9136] # Alabástrom utca
-      - ['06:48:00', 'F01938',   9410] # Torma utca
-      - ['06:49:00', 'F01940',   9611] # Kecskeméti József utca
-      - ['06:49:00', 'F01941',   9903] # Duránci utca
-      - ['06:50:00', 'F01946',  10229] # Gépész utca
-      - ['06:51:00', 'F01916',  10603] # Őrmezei út
-      - ['06:52:00', 'F01918',  10907] # Neszmélyi út
-      - ['06:53:00', 'F01921',  11325] # Őrmezői lakótelep, Menyecske utca
-      - ['06:54:00', 'F01923',  11580] # Kérő utca
-      - ['06:58:00', 'F01927',  12488] # Sasadi út
-      - ['07:00:00', 'F02054',  12923] # Dayka Gábor utca
-      - ['07:01:00', 'F02051',  13563] # Nagyszőlős utca
-      - ['07:02:00', 'F02261',  13949] # Hollókő utca
-      - ['07:04:00', 'F02124',  14436] # Vincellér utca
-      - ['07:06:00', 'F02180',  14926] # Kosztolányi Dezső tér
-      - ['07:08:00', 'F01995',  15343] # Újbuda-központ
-      - ['07:09:00', 'F02000',  15650] # Újbuda-központ
+      - ['00:00:00', '007997',      0] # Budatétény vasútállomás (Campona)
+      - ['00:01:00', 'F04455',    346] # Lépcsős utca
+      - ['00:03:00', '007995',    799] # Jókai Mór utca
+      - ['00:04:00', 'F04451',   1163] # Dézsmaház utca
+      - ['00:05:00', 'F04450',   1422] # Rizling utca
+      - ['00:06:00', 'F04447',   1739] # Kápolna utca
+      - ['00:07:00', 'F04445',   2079] # Aszály utca
+      - ['00:08:00', 'F04444',   2326] # Park utca
+      - ['00:09:00', 'F04441',   2803] # Klauzál Gábor utca
+      - ['00:10:00', 'F04439',   3352] # Aradi utca
+      - ['00:11:00', 'F04437',   4048] # Brassói utca
+      - ['00:12:00', 'F04394',   4242] # Memento Park
+      - ['00:14:00', '008943',   4866] # Budatétény, benzinkút
+      - ['00:15:00', '009463',   5697] # Tanító utca
+      - ['00:16:00', 'F04373',   6226] # Hittérítő út
+      - ['00:17:00', 'F04374',   6775] # Budafok, Vincellér út
+      - ['00:18:00', 'F04372',   7252] # Tegzes utca
+      - ['00:19:00', 'F04370',   7689] # Tordai út
+      - ['00:21:00', 'F01896',   8067] # Ady Endre út
+      - ['00:22:00', 'F01899',   8472] # Kápolna út
+      - ['00:23:00', 'F01900',   8761] # Olajfa utca
+      - ['00:24:00', 'F01915',   9136] # Alabástrom utca
+      - ['00:25:00', 'F01938',   9410] # Torma utca
+      - ['00:26:00', 'F01940',   9611] # Kecskeméti József utca
+      - ['00:26:00', 'F01941',   9903] # Duránci utca
+      - ['00:27:00', 'F01946',  10229] # Gépész utca
+      - ['00:28:00', 'F01916',  10603] # Őrmezei út
+      - ['00:29:00', 'F01918',  10907] # Neszmélyi út
+      - ['00:30:00', 'F01921',  11325] # Őrmezői lakótelep, Menyecske utca
+      - ['00:31:00', 'F01923',  11580] # Kérő utca
+      - ['00:33:00', 'F01927',  12488] # Sasadi út
+      - ['00:34:00', 'F02054',  12923] # Dayka Gábor utca
+      - ['00:35:00', 'F02051',  13563] # Nagyszőlős utca
+      - ['00:36:00', 'F02261',  13949] # Hollókő utca
+      - ['00:38:00', 'F02124',  14436] # Vincellér utca
+      - ['00:40:00', 'F02180',  14926] # Kosztolányi Dezső tér
+      - ['00:42:00', 'F01995',  15343] # Újbuda-központ
+      - ['00:43:00', 'F02000',  15650] # Újbuda-központ
     trip_headsign: Újbuda-központ
     trip_id: REFERENCE-1500-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

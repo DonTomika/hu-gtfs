@@ -13,55 +13,55 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0710-0-1-P273
     stop_times:
-      - ['19:55:00', 'F04333',      0] # Csepel, Szent Imre tér
-      - ['19:56:00', 'F04182',    265] # Károli Gáspár utca
-      - ['19:57:00', 'F04296',    526] # Deák tér
-      - ['19:58:00', 'F04195',    853] # Görgey Artúr tér
-      - ['19:58:00', 'F04196',   1184] # Bajcsy-Zsilinszky út
-      - ['19:59:00', '044637',   1480] # Görögkatolikus templom
-      - ['20:00:00', 'F04187',   1880] # Katona József utca
-      - ['20:01:00', 'F04189',   2216] # Komáromi utca
-      - ['20:02:00', 'F04179',   2525] # József Attila utca
-      - ['20:03:00', 'F04213',   2983] # Szebeni utca
-      - ['20:04:00', 'F04215',   3205] # Kikötő utca
-      - ['20:05:00', 'F04218',   3651] # Késmárki utca
-      - ['20:07:00', 'F04363',   3919] # Határ utca
-      - ['20:08:00', 'F04342',   4579] # Hollandi csárda
-      - ['20:09:00', 'F04219',   5079] # Strandfürdő
-      - ['20:10:00', 'F04221',   5472] # Csepel csónakház
-      - ['20:10:00', 'F04223',   5851] # Ladik utca
-      - ['20:11:00', 'F04226',   6277] # Csepel, Soroksári rév
-      - ['20:13:00', 'F04231',   7030] # Szent István út
-      - ['20:15:00', '009369',   7474] # Csepel, Horgásztanya
+      - ['00:00:00', 'F04333',      0] # Csepel, Szent Imre tér
+      - ['00:01:00', 'F04182',    265] # Károli Gáspár utca
+      - ['00:02:00', 'F04296',    526] # Deák tér
+      - ['00:03:00', 'F04195',    853] # Görgey Artúr tér
+      - ['00:03:00', 'F04196',   1184] # Bajcsy-Zsilinszky út
+      - ['00:04:00', '044637',   1480] # Görögkatolikus templom
+      - ['00:05:00', 'F04187',   1880] # Katona József utca
+      - ['00:06:00', 'F04189',   2216] # Komáromi utca
+      - ['00:07:00', 'F04179',   2525] # József Attila utca
+      - ['00:08:00', 'F04213',   2983] # Szebeni utca
+      - ['00:09:00', 'F04215',   3205] # Kikötő utca
+      - ['00:10:00', 'F04218',   3651] # Késmárki utca
+      - ['00:11:00', 'F04363',   3919] # Határ utca
+      - ['00:12:00', 'F04342',   4579] # Hollandi csárda
+      - ['00:12:00', 'F04219',   5079] # Strandfürdő
+      - ['00:13:00', 'F04221',   5472] # Csepel csónakház
+      - ['00:14:00', 'F04223',   5851] # Ladik utca
+      - ['00:14:00', 'F04226',   6277] # Csepel, Soroksári rév
+      - ['00:16:00', 'F04231',   7030] # Szent István út
+      - ['00:18:00', '009369',   7474] # Csepel, Horgásztanya
     trip_headsign: 'Csepel, Horgásztanya'
     trip_id: REFERENCE-0710-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0710-1-1-P272
     stop_times:
-      - ['14:57:00', 'F04180',      0] # Csepel, Horgásztanya
-      - ['14:58:00', 'F04230',    433] # Szent István út
-      - ['14:59:00', 'F04227',   1166] # Csepel, Soroksári rév
-      - ['15:00:00', 'F04224',   1635] # Ladik utca
-      - ['15:00:00', 'F04222',   1969] # Csepel csónakház
-      - ['15:01:00', 'F04220',   2362] # Strandfürdő
-      - ['15:02:00', 'F04341',   2894] # Hollandi csárda
-      - ['15:04:00', 'F04362',   3525] # Határ utca
-      - ['15:05:00', 'F04217',   3893] # Szebeni utca
-      - ['15:06:00', 'F04216',   4243] # Kikötő utca
-      - ['15:07:00', 'F04214',   4531] # Kassai utca
-      - ['15:08:00', 'F04178',   5063] # József Attila utca
-      - ['15:09:00', 'F04188',   5373] # Komáromi utca
-      - ['15:10:00', 'F04186',   5682] # Kolozsvári utca
-      - ['15:11:00', '044638',   5916] # Görögkatolikus templom
-      - ['15:12:00', 'F04197',   6265] # Bajcsy-Zsilinszky út
-      - ['15:13:00', 'F04194',   6457] # Görgey Artúr tér
-      - ['15:14:00', 'F04295',   6908] # Deák tér
-      - ['15:15:00', 'F04325',   7431] # Kossuth Lajos utca
-      - ['15:16:00', '040609',   7850] # Szent Imre tér H
-      - ['15:17:00', 'F04321',   8148] # Kiss János altábornagy utca
-      - ['15:20:00', 'F04333',   8343] # Csepel, Szent Imre tér
+      - ['00:00:00', 'F04180',      0] # Csepel, Horgásztanya
+      - ['00:01:00', 'F04230',    433] # Szent István út
+      - ['00:02:00', 'F04227',   1166] # Csepel, Soroksári rév
+      - ['00:03:00', 'F04224',   1635] # Ladik utca
+      - ['00:03:00', 'F04222',   1969] # Csepel csónakház
+      - ['00:04:00', 'F04220',   2362] # Strandfürdő
+      - ['00:05:00', 'F04341',   2894] # Hollandi csárda
+      - ['00:07:00', 'F04362',   3525] # Határ utca
+      - ['00:08:00', 'F04217',   3893] # Szebeni utca
+      - ['00:09:00', 'F04216',   4243] # Kikötő utca
+      - ['00:10:00', 'F04214',   4531] # Kassai utca
+      - ['00:11:00', 'F04178',   5063] # József Attila utca
+      - ['00:12:00', 'F04188',   5373] # Komáromi utca
+      - ['00:13:00', 'F04186',   5682] # Kolozsvári utca
+      - ['00:14:00', '044638',   5916] # Görögkatolikus templom
+      - ['00:15:00', 'F04197',   6265] # Bajcsy-Zsilinszky út
+      - ['00:16:00', 'F04194',   6457] # Görgey Artúr tér
+      - ['00:17:00', 'F04295',   6908] # Deák tér
+      - ['00:18:00', 'F04325',   7431] # Kossuth Lajos utca
+      - ['00:19:00', '040609',   7850] # Szent Imre tér H
+      - ['00:20:00', 'F04321',   8148] # Kiss János altábornagy utca
+      - ['00:23:00', 'F04333',   8343] # Csepel, Szent Imre tér
     trip_headsign: 'Csepel, Szent Imre tér'
     trip_id: REFERENCE-0710-1-1
     wheelchair_accessible: 1

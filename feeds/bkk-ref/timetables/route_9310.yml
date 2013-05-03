@@ -13,124 +13,125 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9310-0-1-Q742
     stop_times:
-      - ['25:07:00', 'F00264',      0] # Csatárka út
-      - ['25:07:00', 'F00262',    446] # Pitypang utca
-      - ['25:08:00', 'F00260',    634] # Zöldkert út
-      - ['25:09:00', 'F00125',   1036] # Csalit utca
-      - ['25:10:00', 'F00258',   1435] # Felső Zöldmáli út
-      - ['25:10:00', 'F00256',   1644] # Szemlő-hegyi-barlang
-      - ['25:12:00', 'F00220',   2390] # Cimbalom utca
-      - ['25:13:00', 'F00222',   2890] # Vérhalom tér
-      - ['25:13:00', 'F00224',   3259] # Mandula utca
-      - ['25:14:00', 'F00229',   3606] # Rómer Flóris utca
-      - ['25:15:00', 'F00231',   3883] # Zivatar utca
-      - ['25:15:00', 'F00232',   4182] # Margit körút
-      - ['25:17:00', 'F00190',   4678] # Margit híd, budai hídfő H
-      - ['25:19:00', 'F00930',   5527] # Jászai Mari tér
-      - ['25:21:00', '26:08:00', 'F01027',   6280] # Nyugati pályaudvar M
-      - ['26:09:00', 'F00934',   6456] # Nyugati pályaudvar M
-      - ['26:11:00', 'F00941',   7046] # Bajcsy-Zsilinszky út
-      - ['26:12:00', 'F00943',   7405] # Arany János utca M
-      - ['26:13:00', 'F00946',   8150] # Deák Ferenc tér M
-      - ['26:18:00', 'F01016',   8623] # Astoria M
-      - ['26:19:00', 'F01170',   8963] # Uránia
-      - ['26:20:00', 'F01164',   9359] # Blaha Lujza tér M
-      - ['26:22:00', 'F01162',  10034] # Berzsenyi utca
-      - ['26:23:00', '009161',  10453] # Keleti pályaudvar M (Kerepesi út)
-      - ['26:24:00', 'F01251',  11016] # Arena Plaza
-      - ['26:25:00', 'F01183',  11435] # Gumigyár
-      - ['26:27:00', 'F01321',  12393] # Puskás Ferenc Stadion M (Hungária körút)
-      - ['26:28:00', 'F01738',  12904] # Várna utca
-      - ['26:29:00', 'F02929',  13217] # Pillangó utca
-      - ['26:30:00', 'F02747',  13684] # Róna utca
-      - ['26:31:00', 'F02931',  13981] # Kaffka Margit utca
-      - ['26:32:00', 'F02751',  14168] # Pongrátz Gergely tér
-      - ['26:33:00', 'F02754',  14774] # Bánki Donát utca
-      - ['26:35:00', '008942',  15238] # Örs vezér tere M+H
-      - ['26:35:00', 'F01771',  15669] # Gyakorló köz
-      - ['26:36:00', 'F01855',  15949] # Gépmadár park
-      - ['26:37:00', 'F01791',  16254] # Rákosfalva H
-      - ['26:38:00', 'F01776',  16859] # Egyenes utcai lakótelep
-      - ['26:39:00', 'F01777',  17457] # Nagyicce H
-      - ['26:41:00', 'F03273',  18003] # Thököly út
-      - ['26:41:00', 'F03367',  18168] # Sashalmi tér
-      - ['26:42:00', 'F03366',  18534] # Sasvár utca
-      - ['26:43:00', 'F03270',  18993] # Budapesti út
-      - ['26:44:00', 'F03267',  19334] # Rákosi út
-      - ['26:45:00', 'F03255',  19921] # József utca
-      - ['26:46:00', 'F03252',  20362] # János utca
-      - ['26:46:00', 'F03358',  20745] # Diófa utca
-      - ['26:48:00', '008946',  21246] # Szénás utca
-      - ['26:49:00', '008947',  21958] # Szlovák út
-      - ['26:50:00', 'F03297',  22445] # Állás utca
-      - ['26:51:00', 'F03298',  22959] # Menyhért utca
-      - ['26:52:00', 'F03376',  23277] # Muzsika utca
-      - ['26:52:00', 'F03299',  23558] # Árpádföld, Bekecs utca
-      - ['26:53:00', 'F03373',  23906] # Szabadságtelep H
-      - ['26:54:00', 'F03292',  24273] # Árpádföld, Dezsőfia utca
+      - ['00:00:00', 'F00264',      0] # Csatárka út
+      - ['00:00:00', 'F00262',    446] # Pitypang utca
+      - ['00:01:00', 'F00260',    634] # Zöldkert út
+      - ['00:02:00', 'F00125',   1036] # Csalit utca
+      - ['00:03:00', 'F00258',   1435] # Felső Zöldmáli út
+      - ['00:03:00', 'F00256',   1644] # Szemlő-hegyi-barlang
+      - ['00:05:00', 'F00220',   2390] # Cimbalom utca
+      - ['00:06:00', 'F00222',   2890] # Vérhalom tér
+      - ['00:06:00', 'F00224',   3259] # Mandula utca
+      - ['00:07:00', 'F00229',   3606] # Rómer Flóris utca
+      - ['00:08:00', 'F00231',   3883] # Zivatar utca
+      - ['00:08:00', 'F00232',   4182] # Margit körút
+      - ['00:10:00', 'F00190',   4678] # Margit híd, budai hídfő H
+      - ['00:12:00', 'F00930',   5527] # Jászai Mari tér
+      - ['00:14:00', 'F01027',   6280] # Nyugati pályaudvar M
+      - ['00:15:00', 'F00934',   6456] # Nyugati pályaudvar M
+      - ['00:17:00', 'F00941',   7046] # Bajcsy-Zsilinszky út
+      - ['00:18:00', 'F00943',   7405] # Arany János utca M
+      - ['00:19:00', 'F00946',   8150] # Deák Ferenc tér M
+      - ['00:24:00', 'F01016',   8623] # Astoria M
+      - ['00:25:00', 'F01170',   8963] # Uránia
+      - ['00:26:00', 'F01164',   9359] # Blaha Lujza tér M
+      - ['00:28:00', 'F01162',  10034] # Huszár utca
+      - ['00:29:00', '009161',  10453] # Keleti pályaudvar M (Kerepesi út)
+      - ['00:30:00', 'F01251',  11016] # Arena Plaza
+      - ['00:31:00', 'F01183',  11435] # Gumigyár
+      - ['00:33:00', 'F01321',  12393] # Puskás Ferenc Stadion M (Hungária körút)
+      - ['00:34:00', 'F01738',  12904] # Várna utca
+      - ['00:35:00', 'F02929',  13217] # Pillangó utca
+      - ['00:36:00', 'F02747',  13684] # Róna utca
+      - ['00:37:00', 'F02931',  13981] # Kaffka Margit utca
+      - ['00:38:00', 'F02751',  14168] # Pongrátz Gergely tér
+      - ['00:39:00', 'F02754',  14774] # Bánki Donát utca
+      - ['00:41:00', '008942',  15238] # Örs vezér tere M+H
+      - ['00:41:00', 'F01771',  15669] # Gyakorló köz
+      - ['00:42:00', 'F01855',  15949] # Gépmadár park
+      - ['00:43:00', 'F01791',  16254] # Rákosfalva H
+      - ['00:44:00', 'F01776',  16859] # Egyenes utcai lakótelep
+      - ['00:45:00', 'F01777',  17457] # Nagyicce H
+      - ['00:47:00', 'F03273',  18003] # Thököly út
+      - ['00:47:00', 'F03367',  18168] # Sashalmi tér
+      - ['00:48:00', 'F03366',  18534] # Sasvár utca
+      - ['00:49:00', 'F03270',  18993] # Budapesti út
+      - ['00:50:00', 'F03267',  19334] # Rákosi út
+      - ['00:51:00', 'F03255',  19921] # József utca
+      - ['00:52:00', 'F03252',  20362] # János utca
+      - ['00:52:00', 'F03358',  20745] # Diófa utca
+      - ['00:56:00', '008946',  21246] # Szénás utca
+      - ['00:57:00', '008947',  21958] # Szlovák út
+      - ['00:58:00', 'F03297',  22445] # Állás utca
+      - ['00:59:00', 'F03298',  22959] # Menyhért utca
+      - ['01:00:00', 'F03376',  23277] # Muzsika utca
+      - ['01:00:00', 'F03299',  23558] # Árpádföld, Bekecs utca
+      - ['01:01:00', 'F03373',  23906] # Szabadságtelep H
+      - ['01:02:00', 'F03292',  24273] # Árpádföld, Dezsőfia utca
     trip_headsign: 'Árpádföld, Dezsőfia utca'
     trip_id: REFERENCE-9310-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-9310-1-1-P096
+    shape_id: REFERENCE-9310-1-1-U492
     stop_times:
-      - ['27:06:00', 'F03292',      0] # Árpádföld, Dezsőfia utca
-      - ['27:07:00', 'F03374',    220] # Mazsola utca
-      - ['27:07:00', 'F03375',    570] # Rozsos utca
-      - ['27:08:00', 'F03216',   1019] # Szlovák út
-      - ['27:09:00', 'F03347',   1262] # Péterke utca
-      - ['27:10:00', 'F03212',   1638] # Csömöri út
-      - ['27:11:00', 'F03224',   2132] # Mátyás király utca
-      - ['27:11:00', 'F03221',   2493] # György utca
-      - ['27:12:00', 'F03257',   2867] # János utca
-      - ['27:13:00', 'F03260',   3388] # József utca
-      - ['27:14:00', 'F03264',   3918] # Batthyány utca
-      - ['27:15:00', 'F03363',   4384] # Szent Korona utca
-      - ['27:16:00', 'F03269',   4640] # Rákosi út
-      - ['27:17:00', 'F03271',   5116] # Budapesti út
-      - ['27:18:00', 'F03365',   5504] # Őrmester utca
-      - ['27:18:00', 'F03368',   5829] # Sashalmi tér
-      - ['27:19:00', 'F03272',   6087] # Veres Péter út
-      - ['27:20:00', 'F01778',   6538] # Nagyicce H
-      - ['27:21:00', 'F01775',   7159] # Egyenes utcai lakótelep
-      - ['27:23:00', 'F01790',   7742] # Rákosfalva H
-      - ['27:24:00', 'F01854',   8140] # Gépmadár park
-      - ['27:24:00', 'F01772',   8447] # Sarkantyú utca
-      - ['27:25:00', 'F01756',   8992] # Örs vezér tere - Zugló M+H
-      - ['27:26:00', 'F02970',   9350] # Tihamér utca
-      - ['27:27:00', 'F02752',   9743] # Pongrátz Gergely tér
-      - ['27:27:00', 'F02930',  10032] # Kaffka Margit utca
-      - ['27:28:00', 'F02746',  10332] # Róna utca
-      - ['27:29:00', 'F02928',  10808] # Pillangó utca
-      - ['27:30:00', 'F01737',  11109] # Várna utca
-      - ['27:31:00', 'F01735',  11386] # Őrnagy utca
-      - ['27:32:00', '008545',  11791] # Puskás Ferenc Stadion M
-      - ['27:34:00', 'F01182',  12639] # Gumigyár
-      - ['27:35:00', 'F01250',  13090] # Arena Plaza
-      - ['27:37:00', '009162',  13616] # Keleti pályaudvar M
-      - ['27:38:00', 'F01161',  14074] # Huszár utca
-      - ['27:39:00', 'F01166',  14576] # Blaha Lujza tér M
-      - ['27:41:00', 'F01171',  15108] # Uránia
-      - ['27:46:00', 'F01017',  15454] # Astoria M
-      - ['27:47:00', '009309',  15996] # Deák Ferenc tér M
-      - ['27:49:00', 'F00942',  16678] # Arany János utca M
-      - ['27:50:00', 'F00940',  17139] # Podmaniczky utca
-      - ['27:52:00', 'F01029',  17539] # Nyugati pályaudvar M
-      - ['27:53:00', 'F00929',  18146] # Jászai Mari tér
-      - ['27:55:00', 'F00191',  19220] # Margit híd, budai hídfő H
-      - ['27:58:00', 'F00195',  19791] # Mechwart liget
-      - ['27:59:00', 'F00201',  20347] # Füge utca
-      - ['28:00:00', 'F00203',  20588] # Rét utca
-      - ['28:01:00', 'F00205',  20801] # Ady Endre utca
-      - ['28:02:00', 'F00207',  21142] # Tapolcsányi utca
-      - ['28:03:00', 'F00209',  21514] # Eszter utca
-      - ['28:03:00', 'F00211',  21747] # Vend utca
-      - ['28:04:00', 'F00215',  21981] # Pusztaszeri körönd
-      - ['28:05:00', 'F00151',  22363] # Baba utca
-      - ['28:05:00', 'F00269',  22641] # Móricz Zsigmond Gimnázium
-      - ['28:06:00', 'F00267',  22943] # Tömörkény utca
-      - ['28:07:00', 'F00264',  23266] # Csatárka út
+      - ['00:00:00', 'F03292',      0] # Árpádföld, Dezsőfia utca
+      - ['00:01:00', 'F03374',    220] # Mazsola utca
+      - ['00:01:00', 'F03375',    570] # Rozsos utca
+      - ['00:02:00', 'F03216',   1019] # Szlovák út
+      - ['00:03:00', 'F03347',   1262] # Péterke utca
+      - ['00:04:00', 'F03212',   1638] # Csömöri út
+      - ['00:05:00', 'F03224',   2132] # Mátyás király utca
+      - ['00:05:00', 'F03221',   2493] # György utca
+      - ['00:06:00', 'F03257',   2867] # János utca
+      - ['00:07:00', 'F03260',   3388] # József utca
+      - ['00:08:00', 'F03264',   3918] # Batthyány utca
+      - ['00:09:00', 'F03363',   4384] # Szent Korona utca
+      - ['00:10:00', 'F03269',   4640] # Rákosi út
+      - ['00:11:00', 'F03271',   5116] # Budapesti út
+      - ['00:12:00', 'F03365',   5504] # Őrmester utca
+      - ['00:12:00', 'F03368',   5829] # Sashalmi tér
+      - ['00:13:00', 'F03272',   6087] # Veres Péter út
+      - ['00:14:00', 'F01778',   6538] # Nagyicce H
+      - ['00:15:00', 'F01775',   7159] # Egyenes utcai lakótelep
+      - ['00:17:00', 'F01790',   7742] # Rákosfalva H
+      - ['00:18:00', 'F01854',   8140] # Gépmadár park
+      - ['00:18:00', 'F01772',   8447] # Sarkantyú utca
+      - ['00:19:00', 'F01756',   8992] # Örs vezér tere - Zugló M+H
+      - ['00:20:00', 'F02970',   9350] # Tihamér utca
+      - ['00:21:00', 'F02752',   9743] # Pongrátz Gergely tér
+      - ['00:21:00', 'F02930',  10032] # Kaffka Margit utca
+      - ['00:22:00', 'F02746',  10332] # Róna utca
+      - ['00:23:00', 'F02928',  10808] # Pillangó utca
+      - ['00:24:00', 'F01737',  11109] # Várna utca
+      - ['00:25:00', 'F01735',  11386] # Őrnagy utca
+      - ['00:26:00', '008545',  11791] # Puskás Ferenc Stadion M
+      - ['00:28:00', 'F01182',  12639] # Gumigyár
+      - ['00:29:00', 'F01250',  13090] # Arena Plaza
+      - ['00:31:00', '009162',  13616] # Keleti pályaudvar M
+      - ['00:32:00', 'F01161',  14074] # Huszár utca
+      - ['00:33:00', 'F01166',  14576] # Blaha Lujza tér M
+      - ['00:35:00', 'F01171',  15108] # Uránia
+      - ['00:40:00', 'F01017',  15454] # Astoria M
+      - ['00:41:00', '009309',  15996] # Deák Ferenc tér M
+      - ['00:42:00', '048506',  16352] # Szent István Bazilika
+      - ['00:43:00', 'F00942',  16678] # Arany János utca M
+      - ['00:44:00', 'F00940',  17139] # Podmaniczky utca
+      - ['00:46:00', 'F01029',  17539] # Nyugati pályaudvar M
+      - ['00:47:00', 'F00929',  18146] # Jászai Mari tér
+      - ['00:49:00', 'F00191',  19220] # Margit híd, budai hídfő H
+      - ['00:52:00', 'F00195',  19791] # Mechwart liget
+      - ['00:53:00', 'F00201',  20347] # Füge utca
+      - ['00:54:00', 'F00203',  20588] # Rét utca
+      - ['00:55:00', 'F00205',  20801] # Ady Endre utca
+      - ['00:56:00', 'F00207',  21142] # Tapolcsányi utca
+      - ['00:57:00', 'F00209',  21514] # Eszter utca
+      - ['00:57:00', 'F00211',  21747] # Vend utca
+      - ['00:58:00', 'F00215',  21981] # Pusztaszeri körönd
+      - ['00:59:00', 'F00151',  22363] # Baba utca
+      - ['00:59:00', 'F00269',  22641] # Móricz Zsigmond Gimnázium
+      - ['01:00:00', 'F00267',  22943] # Tömörkény utca
+      - ['01:01:00', 'F00264',  23266] # Csatárka út
     trip_headsign: Csatárka út
     trip_id: REFERENCE-9310-1-1
     wheelchair_accessible: 2

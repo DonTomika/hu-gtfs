@@ -13,46 +13,46 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0630-0-1-N016
     stop_times:
-      - ['17:05:00', '007973',      0] # Hűvösvölgy
-      - ['17:07:00', 'F00339',    372] # Hidegkúti út
-      - ['17:08:00', 'F00356',    727] # Bükkfa utca
-      - ['17:09:00', 'F00368',   1204] # Széchenyi utca
-      - ['17:10:00', 'F00353',   1593] # Határ utca
-      - ['17:13:00', 'F00351',   3083] # Adyliget
-      - ['17:14:00', 'F04821',   3550] # BM iskola
-      - ['17:15:00', 'F04778',   4257] # Rácski telep
-      - ['17:16:00', 'F04823',   4910] # Mészégető
-      - ['17:17:00', 'F04780',   5212] # Erdészház
-      - ['17:19:00', 'F04782',   6187] # 13-as kilométerkő
-      - ['17:20:00', 'F04784',   7159] # Nagykovácsi, lakótelep
-      - ['17:21:00', 'F04786',   7767] # Ady Endre utca
-      - ['17:22:00', 'F04825',   8067] # Posta
-      - ['17:23:00', 'F04827',   8464] # Nagykovácsi, községháza
-      - ['17:24:00', '031884',   8822] # Nagykovácsi, Tisza István tér
+      - ['00:00:00', '007973',      0] # Hűvösvölgy
+      - ['00:02:00', 'F00339',    372] # Hidegkúti út
+      - ['00:03:00', 'F00356',    727] # Bükkfa utca
+      - ['00:04:00', 'F00368',   1204] # Széchenyi utca
+      - ['00:04:00', 'F00353',   1593] # Határ utca
+      - ['00:07:00', 'F00351',   3083] # Adyliget
+      - ['00:08:00', 'F04821',   3550] # BM iskola
+      - ['00:09:00', 'F04778',   4257] # Rácski telep
+      - ['00:10:00', 'F04823',   4910] # Mészégető
+      - ['00:11:00', 'F04780',   5212] # Erdészház
+      - ['00:12:00', 'F04782',   6187] # 13-as kilométerkő
+      - ['00:13:00', 'F04784',   7159] # Nagykovácsi, lakótelep
+      - ['00:14:00', 'F04786',   7767] # Ady Endre utca
+      - ['00:15:00', 'F04825',   8067] # Posta
+      - ['00:16:00', 'F04827',   8464] # Nagykovácsi, községháza
+      - ['00:17:00', '031884',   8822] # Nagykovácsi, Tisza István tér
     trip_headsign: 'Nagykovácsi, Tisza István tér'
     trip_id: REFERENCE-0630-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0630-1-1-N017
     stop_times:
-      - ['15:28:00', '031884',      0] # Nagykovácsi, Tisza István tér
-      - ['15:29:00', 'F04828',    420] # Nagykovácsi, községháza
-      - ['15:29:00', 'F04826',    607] # Posta
-      - ['15:30:00', 'F04785',    939] # Ady Endre utca
-      - ['15:31:00', 'F04783',   1676] # Nagykovácsi, lakótelep
-      - ['15:32:00', 'F04781',   2634] # 13-as kilométerkő
-      - ['15:33:00', 'F04779',   3603] # Erdészház
-      - ['15:34:00', 'F04824',   3883] # Mészégető
-      - ['15:35:00', 'F04777',   4573] # Rácski telep
-      - ['15:36:00', 'F04822',   5353] # BM iskola
-      - ['15:37:00', 'F00352',   5810] # Adyliget
-      - ['15:38:00', 'F00350',   6418] # Ady lépcső
-      - ['15:39:00', 'F00354',   7343] # Villám utca
-      - ['15:41:00', 'F00369',   7716] # Széchenyi utca
-      - ['15:42:00', 'F00357',   8128] # Vezér utca
-      - ['15:44:00', 'F00340',   8575] # Bátori László utca
-      - ['15:45:00', '007972',   8731] # Hűvösvölgy
+      - ['00:00:00', '031884',      0] # Nagykovácsi, Tisza István tér
+      - ['00:01:00', 'F04828',    420] # Nagykovácsi, községháza
+      - ['00:02:00', 'F04826',    607] # Posta
+      - ['00:03:00', 'F04785',    939] # Ady Endre utca
+      - ['00:04:00', 'F04783',   1676] # Nagykovácsi, lakótelep
+      - ['00:05:00', 'F04781',   2634] # 13-as kilométerkő
+      - ['00:06:00', 'F04779',   3603] # Erdészház
+      - ['00:08:00', 'F04824',   3883] # Mészégető
+      - ['00:09:00', 'F04777',   4573] # Rácski telep
+      - ['00:10:00', 'F04822',   5353] # BM iskola
+      - ['00:11:00', 'F00352',   5810] # Adyliget
+      - ['00:12:00', 'F00350',   6418] # Ady lépcső
+      - ['00:13:00', 'F00354',   7343] # Villám utca
+      - ['00:15:00', 'F00369',   7716] # Széchenyi utca
+      - ['00:16:00', 'F00357',   8128] # Vezér utca
+      - ['00:19:00', 'F00340',   8575] # Bátori László utca
+      - ['00:21:00', '007972',   8731] # Hűvösvölgy
     trip_headsign: Hűvösvölgy
     trip_id: REFERENCE-0630-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

@@ -13,38 +13,38 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0075-0-1-E684
     stop_times:
-      - ['14:22:00', '007899',      0] # Kelenföldi pályaudvar
-      - ['14:23:00', 'F02215',    395] # Bártfai utca
-      - ['14:25:00', 'F01958',    909] # Kelenföld, városközpont
-      - ['14:27:00', 'F02034',   1479] # Szent Imre Kórház
-      - ['14:30:00', 'F02176',   2560] # Kosztolányi Dezső tér
-      - ['14:32:00', 'F02192',   3044] # Móricz Zsigmond körtér
-      - ['14:38:00', 'F00951',   5556] # Ferenciek tere M
-      - ['14:42:00', 'F01164',   6776] # Blaha Lujza tér M
-      - ['14:45:00', 'F01159',   7997] # Keleti pályaudvar M
-      - ['14:51:00', 'F02725',   9602] # Zugló vasútállomás
-      - ['14:54:00', 'F02824',  10577] # Róna utca
-      - ['14:56:00', 'F02840',  11094] # Bosnyák tér
+      - ['00:00:00', '007899',      0] # Kelenföldi pályaudvar
+      - ['00:01:00', 'F02215',    395] # Bártfai utca
+      - ['00:03:00', 'F01958',    909] # Kelenföld, városközpont
+      - ['00:04:00', 'F02034',   1479] # Szent Imre Kórház
+      - ['00:07:00', 'F02176',   2560] # Kosztolányi Dezső tér
+      - ['00:09:00', 'F02192',   3044] # Móricz Zsigmond körtér
+      - ['00:13:00', 'F00951',   5556] # Ferenciek tere M
+      - ['00:17:00', 'F01164',   6776] # Blaha Lujza tér M
+      - ['00:20:00', 'F01159',   7997] # Keleti pályaudvar M
+      - ['00:26:00', 'F02725',   9602] # Zugló vasútállomás
+      - ['00:29:00', 'F02824',  10577] # Róna utca
+      - ['00:31:00', 'F02840',  11094] # Bosnyák tér
     trip_headsign: Bosnyák tér
     trip_id: REFERENCE-0075-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0075-1-1-E685
     stop_times:
-      - ['21:40:00', 'F02840',      0] # Bosnyák tér
-      - ['21:41:00', 'F02829',    270] # Bosnyák tér
-      - ['21:42:00', 'F02823',    812] # Róna utca
-      - ['21:43:00', 'F02730',   1613] # Zugló vasútállomás
-      - ['21:49:00', 'F01314',   3452] # Keleti pályaudvar M
-      - ['21:52:00', 'F01166',   4361] # Blaha Lujza tér M
-      - ['21:55:00', 'F01004',   5561] # Ferenciek tere M
-      - ['22:01:00', 'F02193',   8371] # Móricz Zsigmond körtér
-      - ['22:03:00', 'F02183',   8994] # Kosztolányi Dezső tér
-      - ['22:05:00', 'F02035',   9979] # Szent Imre Kórház
-      - ['22:06:00', 'F01957',  10421] # Kelenföld, városközpont
-      - ['22:07:00', 'F02216',  10822] # Bártfai utca
-      - ['22:08:00', 'F02210',  11319] # Kelenföldi pályaudvar
+      - ['00:00:00', 'F02840',      0] # Bosnyák tér
+      - ['00:01:00', 'F02829',    270] # Bosnyák tér
+      - ['00:02:00', 'F02823',    812] # Róna utca
+      - ['00:04:00', 'F02730',   1613] # Zugló vasútállomás
+      - ['00:10:00', 'F01314',   3452] # Keleti pályaudvar M
+      - ['00:13:00', 'F01166',   4361] # Blaha Lujza tér M
+      - ['00:16:00', 'F01004',   5561] # Ferenciek tere M
+      - ['00:22:00', 'F02193',   8371] # Móricz Zsigmond körtér
+      - ['00:24:00', 'F02183',   8994] # Kosztolányi Dezső tér
+      - ['00:26:00', 'F02035',   9979] # Szent Imre Kórház
+      - ['00:27:00', 'F01957',  10421] # Kelenföld, városközpont
+      - ['00:28:00', 'F02216',  10822] # Bártfai utca
+      - ['00:30:00', 'F02210',  11319] # Kelenföldi pályaudvar
     trip_headsign: Kelenföldi pályaudvar
     trip_id: REFERENCE-0075-1-1
     wheelchair_accessible: 2

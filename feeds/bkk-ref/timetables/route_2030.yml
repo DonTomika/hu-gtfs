@@ -13,8 +13,8 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2030-0-1-T773
     stop_times:
-      - ['08:15:00', 'F02222',      0] # Petőfi híd, budai hídfő
-      - ['08:19:00', '008855',   1350] # Neumann János utca
+      - ['00:00:00', 'F02222',      0] # Petőfi híd, budai hídfő
+      - ['00:04:00', '008855',   1350] # Neumann János utca
     trip_headsign: Neumann János utca
     trip_id: REFERENCE-2030-0-1
     wheelchair_accessible: 2
@@ -22,8 +22,8 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2030-1-1-T774
     stop_times:
-      - ['17:55:00', '008855',      0] # Neumann János utca
-      - ['17:59:00', 'F02222',   1407] # Petőfi híd, budai hídfő
+      - ['00:00:00', '008855',      0] # Neumann János utca
+      - ['00:04:00', 'F02222',   1407] # Petőfi híd, budai hídfő
     trip_headsign: 'Petőfi híd, budai hídfő'
     trip_id: REFERENCE-2030-1-1
     wheelchair_accessible: 2

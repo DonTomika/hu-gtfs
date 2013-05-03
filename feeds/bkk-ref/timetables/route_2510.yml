@@ -13,14 +13,14 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2510-0-1-K091
     stop_times:
-      - ['18:00:00', '009700',      0] # Budafok, Városház tér
-      - ['18:01:00', 'F04398',    356] # Savoyai Jenő tér
-      - ['18:01:00', '007931',    517] # Törley tér
-      - ['18:03:00', '009465',   1092] # Plébánia utca
-      - ['18:05:00', '009467',   1522] # Galamb utca
-      - ['18:06:00', '009469',   1748] # Alkotmány utca
-      - ['18:07:00', '009445',   2166] # Tatárka utca
-      - ['18:09:00', 'F04374',   2428] # Budafok, Vincellér út
+      - ['00:00:00', '009700',      0] # Budafok, Városház tér
+      - ['00:01:00', 'F04398',    356] # Savoyai Jenő tér
+      - ['00:01:00', '007931',    517] # Törley tér
+      - ['00:03:00', '009465',   1092] # Plébánia utca
+      - ['00:05:00', '009467',   1522] # Galamb utca
+      - ['00:06:00', '009469',   1748] # Alkotmány utca
+      - ['00:07:00', '009445',   2166] # Tatárka utca
+      - ['00:09:00', 'F04374',   2428] # Budafok, Vincellér út
     trip_headsign: 'Budafok, Vincellér út'
     trip_id: REFERENCE-2510-0-1
     wheelchair_accessible: 2
@@ -28,14 +28,14 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2510-1-1-K090
     stop_times:
-      - ['14:10:00', 'F04374',      0] # Budafok, Vincellér út
-      - ['14:11:00', '009548',    334] # Tatárka utca
-      - ['14:12:00', '009470',    762] # Alkotmány utca
-      - ['14:13:00', '009468',    979] # Galamb utca
-      - ['14:14:00', '009466',   1401] # Plébánia utca
-      - ['14:15:00', 'F04400',   1856] # Savoyai Jenő tér
-      - ['14:17:00', 'F04403',   2179] # Városház tér
-      - ['14:18:00', '009700',   2442] # Budafok, Városház tér
+      - ['00:00:00', 'F04374',      0] # Budafok, Vincellér út
+      - ['00:01:00', '009548',    334] # Tatárka utca
+      - ['00:02:00', '009470',    762] # Alkotmány utca
+      - ['00:03:00', '009468',    979] # Galamb utca
+      - ['00:04:00', '009466',   1401] # Plébánia utca
+      - ['00:05:00', 'F04400',   1856] # Savoyai Jenő tér
+      - ['00:07:00', 'F04403',   2179] # Városház tér
+      - ['00:08:00', '009700',   2442] # Budafok, Városház tér
     trip_headsign: 'Budafok, Városház tér'
     trip_id: REFERENCE-2510-1-1
     wheelchair_accessible: 2

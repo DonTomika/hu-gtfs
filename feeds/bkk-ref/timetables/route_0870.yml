@@ -13,29 +13,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0870-0-1-S189
     stop_times:
-      - ['16:30:00', 'F02178',      0] # Kosztolányi Dezső tér
-      - ['16:31:00', 'F02183',    300] # Kosztolányi Dezső tér
-      - ['16:33:00', 'F02220',   1007] # Kelenföldi autóbuszgarázs
-      - ['16:34:00', 'F02049',   1380] # Hungária Biztosító
-      - ['16:35:00', 'F02053',   2100] # Dayka Gábor utca
-      - ['16:36:00', 'F01926',   2565] # Sasadi út
-      - ['16:37:00', 'F01928',   3020] # Nagyszeben út
-      - ['16:38:00', 'F01931',   3497] # Gazdagréti út
-      - ['16:39:00', 'F01932',   4048] # Poprádi út
-      - ['16:40:00', 'F01935',   4500] # Keserűvíz-forrás
-      - ['16:41:00', 'F02233',   4946] # Örsöddűlő
-      - ['16:42:00', 'F01937',   5262] # Vitorlázó út
-      - ['16:43:00', 'F01913',   5928] # Budaörsi repülőtér
-      - ['16:45:00', 'F01909',   6652] # Repülőgépes Szolgálat
-      - ['16:46:00', 'F01907',   7056] # Vasút utca
-      - ['16:47:00', 'F02070',   7448] # Tüzéptelep
-      - ['16:47:00', 'F01887',   7715] # Kamaraerdei Ifjúsági Park
-      - ['16:48:00', 'F01884',   7997] # Szociális Otthon
-      - ['16:48:00', 'F01881',   8269] # Kamaraerdő
-      - ['16:49:00', 'F02159',   8806] # Szép utca
-      - ['16:50:00', 'F02161',   9270] # Dűlő út
-      - ['16:51:00', 'F04392',   9907] # Dózsa György út
-      - ['16:54:00', 'F04393',  10585] # Mechanikai Művek
+      - ['00:00:00', 'F02178',      0] # Kosztolányi Dezső tér
+      - ['00:01:00', 'F02183',    300] # Kosztolányi Dezső tér
+      - ['00:03:00', 'F02220',   1007] # Kelenföldi autóbuszgarázs
+      - ['00:04:00', 'F02049',   1380] # Hungária Biztosító
+      - ['00:05:00', 'F02053',   2100] # Dayka Gábor utca
+      - ['00:07:00', 'F01926',   2565] # Sasadi út
+      - ['00:08:00', 'F01928',   3020] # Nagyszeben út
+      - ['00:08:00', 'F01931',   3497] # Gazdagréti út
+      - ['00:10:00', 'F01932',   4048] # Poprádi út
+      - ['00:11:00', 'F01935',   4500] # Keserűvíz-forrás
+      - ['00:12:00', 'F02233',   4946] # Örsöddűlő
+      - ['00:13:00', 'F01937',   5262] # Vitorlázó út
+      - ['00:14:00', 'F01913',   5928] # Budaörsi repülőtér
+      - ['00:16:00', 'F01909',   6652] # Repülőgépes Szolgálat
+      - ['00:16:00', 'F01907',   7056] # Vasút utca
+      - ['00:17:00', 'F02070',   7448] # Tüzéptelep
+      - ['00:18:00', 'F01887',   7715] # Kamaraerdei Ifjúsági Park
+      - ['00:19:00', 'F01884',   7997] # Szociális Otthon
+      - ['00:19:00', 'F01881',   8269] # Kamaraerdő
+      - ['00:20:00', 'F02159',   8806] # Szép utca
+      - ['00:21:00', 'F02161',   9270] # Dűlő út
+      - ['00:22:00', 'F04392',   9907] # Dózsa György út
+      - ['00:25:00', 'F04393',  10585] # Mechanikai Művek
     trip_headsign: Mechanikai Művek
     trip_id: REFERENCE-0870-0-1
     wheelchair_accessible: 2
@@ -43,29 +43,29 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0870-1-1-S190
     stop_times:
-      - ['08:27:00', 'F04393',      0] # Mechanikai Művek
-      - ['08:28:00', 'F04391',    768] # Kamaraerdei út
-      - ['08:30:00', 'F02162',   1477] # Dűlő út
-      - ['08:31:00', 'F02160',   1857] # Szép utca
-      - ['08:32:00', 'F01882',   2400] # Kamaraerdő
-      - ['08:32:00', 'F01883',   2614] # Szociális Otthon
-      - ['08:33:00', 'F01886',   2956] # Kamaraerdei Ifjúsági Park
-      - ['08:34:00', 'F02069',   3224] # Tüzéptelep
-      - ['08:35:00', 'F01906',   3678] # Vasút utca
-      - ['08:36:00', 'F01908',   4044] # Repülőgépes Szolgálat
-      - ['08:37:00', 'F01912',   4681] # Budaörsi repülőtér
-      - ['08:39:00', 'F01936',   5306] # Vitorlázó út
-      - ['08:39:00', 'F02232',   5689] # Örsöddűlő
-      - ['08:41:00', 'F01934',   6145] # Keserűvíz-forrás
-      - ['08:42:00', 'F01933',   6555] # Poprádi út
-      - ['08:43:00', 'F01930',   6982] # Gazdagréti út
-      - ['08:43:00', 'F01929',   7292] # Neszmélyi út
-      - ['08:45:00', 'F01927',   8116] # Sasadi út
-      - ['08:46:00', 'F02054',   8551] # Dayka Gábor utca
-      - ['08:48:00', 'F02050',   9221] # Hungária Biztosító
-      - ['08:49:00', 'F02221',   9663] # Kelenföldi autóbuszgarázs
-      - ['08:49:00', '009412',   9948] # Bartók Béla út
-      - ['08:51:00', 'F02231',  10437] # Kosztolányi Dezső tér
+      - ['00:00:00', 'F04393',      0] # Mechanikai Művek
+      - ['00:01:00', 'F04391',    768] # Kamaraerdei út
+      - ['00:03:00', 'F02162',   1477] # Dűlő út
+      - ['00:03:00', 'F02160',   1857] # Szép utca
+      - ['00:05:00', 'F01882',   2400] # Kamaraerdő
+      - ['00:05:00', 'F01883',   2614] # Szociális Otthon
+      - ['00:06:00', 'F01886',   2956] # Kamaraerdei Ifjúsági Park
+      - ['00:07:00', 'F02069',   3224] # Tüzéptelep
+      - ['00:08:00', 'F01906',   3678] # Vasút utca
+      - ['00:08:00', 'F01908',   4044] # Repülőgépes Szolgálat
+      - ['00:10:00', 'F01912',   4681] # Budaörsi repülőtér
+      - ['00:11:00', 'F01936',   5306] # Vitorlázó út
+      - ['00:12:00', 'F02232',   5689] # Örsöddűlő
+      - ['00:13:00', 'F01934',   6145] # Keserűvíz-forrás
+      - ['00:14:00', 'F01933',   6555] # Poprádi út
+      - ['00:15:00', 'F01930',   6982] # Gazdagréti út
+      - ['00:16:00', 'F01929',   7292] # Neszmélyi út
+      - ['00:17:00', 'F01927',   8116] # Sasadi út
+      - ['00:18:00', 'F02054',   8551] # Dayka Gábor utca
+      - ['00:20:00', 'F02050',   9221] # Hungária Biztosító
+      - ['00:21:00', 'F02221',   9663] # Kelenföldi autóbuszgarázs
+      - ['00:21:00', '009412',   9948] # Bartók Béla út
+      - ['00:23:00', 'F02231',  10437] # Kosztolányi Dezső tér
     trip_headsign: Kosztolányi Dezső tér
     trip_id: REFERENCE-0870-1-1
     wheelchair_accessible: 2

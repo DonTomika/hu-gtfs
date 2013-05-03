@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FFEE00
-route_desc: Keleti pályaudvar M / Közvágóhíd
+route_desc: Keleti pályaudvar M (Festetics Gy. u.) / Közvágóhíd H
 route_id: 3240
 route_long_name: ''
 route_short_name: 24
@@ -11,35 +11,39 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-3240-0-1-P205
+    shape_id: REFERENCE-3240-0-1-1174
     stop_times:
-      - ['07:49:00', 'F01311',      0] # Keleti pályaudvar M (Festetics Gy. u.)
-      - ['07:50:00', 'F01309',    334] # Dologház utca
-      - ['07:52:00', 'F01213',    927] # Salgótarjáni utca
-      - ['07:54:00', 'F01219',   1263] # Orczy tér
-      - ['07:56:00', 'F01228',   1848] # Golgota tér
-      - ['07:57:00', 'F01236',   2272] # Elnök utca
-      - ['08:00:00', 'F01245',   2633] # Nagyvárad tér M
-      - ['08:02:00', 'F01511',   3238] # Balázs Béla utca
-      - ['08:04:00', 'F01390',   3723] # Mester utca
-      - ['08:06:00', 'F01387',   4194] # Haller utca (Soroksári út)
-    trip_headsign: Haller utca (Soroksári út)
+      - ['00:00:00', 'F01311',      0] # Keleti pályaudvar M (Festetics Gy. u.)
+      - ['00:01:00', 'F01309',    334] # Dologház utca
+      - ['00:03:00', 'F01213',    927] # Salgótarjáni utca
+      - ['00:05:00', 'F01219',   1263] # Orczy tér
+      - ['00:07:00', 'F01228',   1848] # Golgota tér
+      - ['00:08:00', 'F01236',   2272] # Elnök utca
+      - ['00:11:00', 'F01245',   2633] # Nagyvárad tér M
+      - ['00:13:00', 'F01511',   3238] # Balázs Béla utca
+      - ['00:15:00', 'F01390',   3723] # Mester utca
+      - ['00:17:00', 'F01387',   4194] # Haller utca (Soroksári út)
+      - ['00:19:00', 'F01396',   4698] # Millenniumi Kulturális Központ
+      - ['00:21:00', 'F01401',   5130] # Közvágóhíd H
+    trip_headsign: Közvágóhíd
     trip_id: REFERENCE-3240-0-1
     wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-3240-1-1-P206
+    shape_id: REFERENCE-3240-1-1-1176
     stop_times:
-      - ['14:09:00', 'F01388',      0] # Haller utca (Soroksári út)
-      - ['14:10:00', 'F01391',    470] # Mester utca
-      - ['14:11:00', 'F01512',    864] # Balázs Béla utca
-      - ['14:14:00', 'F01246',   1564] # Nagyvárad tér M
-      - ['14:15:00', 'F01237',   1951] # Elnök utca
-      - ['14:16:00', 'F01229',   2365] # Golgota tér
-      - ['14:18:00', 'F01220',   2952] # Orczy tér
-      - ['14:20:00', 'F01215',   3319] # Salgótarjáni utca
-      - ['14:22:00', 'F01310',   3803] # Dologház utca
-      - ['14:25:00', 'F01311',   4156] # Keleti pályaudvar M (Festetics Gy. u.)
+      - ['00:00:00', 'F01401',      0] # Közvágóhíd H
+      - ['00:02:00', 'F01397',    464] # Millenniumi Kulturális Központ
+      - ['00:05:00', 'F01388',    957] # Haller utca (Soroksári út)
+      - ['00:06:00', 'F01391',   1427] # Mester utca
+      - ['00:07:00', 'F01512',   1821] # Balázs Béla utca
+      - ['00:10:00', 'F01246',   2521] # Nagyvárad tér M
+      - ['00:11:00', 'F01237',   2908] # Elnök utca
+      - ['00:12:00', 'F01229',   3322] # Golgota tér
+      - ['00:14:00', 'F01220',   3909] # Orczy tér
+      - ['00:16:00', 'F01215',   4276] # Salgótarjáni utca
+      - ['00:18:00', 'F01310',   4760] # Dologház utca
+      - ['00:20:00', 'F01311',   5113] # Keleti pályaudvar M (Festetics Gy. u.)
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-3240-1-1
     wheelchair_accessible: 2

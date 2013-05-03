@@ -4,6 +4,21 @@ stop_lat: 47.506752
 stop_lon: 19.039368
 stop_name: Batthyány tér
 ---
+stop_id: 003379
+stop_lat: 47.518065
+stop_lon: 19.039028
+stop_name: 'Margit híd, budai hídfő, tárolóvágány'
+---
+stop_id: 007289
+stop_lat: 47.434358
+stop_lon: 19.035795
+stop_name: 'Budafok, Anna utca'
+---
+stop_id: 007290
+stop_lat: 47.433072
+stop_lon: 19.037333
+stop_name: Leányka utca
+---
 stop_id: 007817
 stop_lat: 47.428685
 stop_lon: 18.929674
@@ -134,6 +149,11 @@ stop_lat: 47.430374
 stop_lon: 19.036551
 stop_name: Törley tér
 ---
+stop_id: 007943
+stop_lat: 47.542371
+stop_lon: 19.225096
+stop_name: 'Csömör, Béke tér'
+---
 stop_id: 007949
 stop_lat: 47.574268
 stop_lon: 19.01472
@@ -219,6 +239,16 @@ stop_lat: 47.405741
 stop_lon: 19.014191
 stop_name: Budatétény vasútállomás (Campona)
 ---
+stop_id: 008003
+stop_lat: 47.515932
+stop_lon: 18.999489
+stop_name: Budagyöngye
+---
+stop_id: 008011
+stop_lat: 47.473182
+stop_lon: 19.176701
+stop_name: 'Új köztemető, főbejárat'
+---
 stop_id: 008020
 stop_lat: 47.501005
 stop_lon: 19.136378
@@ -289,6 +319,26 @@ stop_lat: 47.487506
 stop_lon: 19.103698
 stop_name: Kőbányai út 31.
 ---
+stop_id: 008038
+stop_lat: 47.484204
+stop_lon: 19.005323
+stop_name: Farkasréti temető
+---
+stop_id: 008039
+stop_lat: 47.484114
+stop_lon: 19.005429
+stop_name: Farkasréti temető
+---
+stop_id: 008045
+stop_lat: 47.489512
+stop_lon: 19.009406
+stop_name: Vas Gereben utca
+---
+stop_id: 008046
+stop_lat: 47.489008
+stop_lon: 19.009234
+stop_name: Vas Gereben utca
+---
 stop_id: 008047
 stop_lat: 47.450468
 stop_lon: 19.16141
@@ -304,10 +354,115 @@ stop_lat: 47.486036
 stop_lon: 19.007093
 stop_name: Liptó utca
 ---
+stop_id: 008052
+stop_lat: 47.48639
+stop_lon: 19.007007
+stop_name: Liptó utca
+---
+stop_id: 008053
+stop_lat: 47.486291
+stop_lon: 19.007073
+stop_name: Liptó utca
+---
+stop_id: 008054
+stop_lat: 47.519779
+stop_lon: 19.091072
+stop_name: Mexikói út
+---
+stop_id: 008055
+stop_lat: 47.517483
+stop_lon: 19.08095
+stop_name: Széchenyi fürdő
+---
+stop_id: 008056
+stop_lat: 47.514259
+stop_lon: 19.076845
+stop_name: Hősök tere
+---
+stop_id: 008057
+stop_lat: 47.511333
+stop_lon: 19.072468
+stop_name: Bajza utca
+---
+stop_id: 008058
+stop_lat: 47.509232
+stop_lon: 19.069324
+stop_name: Kodály körönd
+---
+stop_id: 008059
+stop_lat: 47.507214
+stop_lon: 19.066305
+stop_name: Vörösmarty utca
+---
+stop_id: 008060
+stop_lat: 47.505058
+stop_lon: 19.06307
+stop_name: Oktogon
+---
+stop_id: 008061
+stop_lat: 47.502254
+stop_lon: 19.058914
+stop_name: Opera
+---
+stop_id: 008062
+stop_lat: 47.499828
+stop_lon: 19.055244
+stop_name: Bajcsy-Zsilinszky út
+---
 stop_id: 008067
 stop_lat: 47.430948
 stop_lon: 19.0703
 stop_name: Szent Imre tér
+---
+stop_id: 008068
+stop_lat: 47.496719
+stop_lon: 19.050583
+stop_name: Vörösmarty tér
+---
+stop_id: 008075
+stop_lat: 47.463402
+stop_lon: 19.149185
+stop_name: Kőbánya-Kispest
+---
+stop_id: 008076
+stop_lat: 47.465443
+stop_lon: 19.126757
+stop_name: Határ út
+---
+stop_id: 008077
+stop_lat: 47.468815
+stop_lon: 19.117077
+stop_name: Pöttyös utca
+---
+stop_id: 008078
+stop_lat: 47.470695
+stop_lon: 19.11112
+stop_name: Ecseri út
+---
+stop_id: 008081
+stop_lat: 47.462505
+stop_lon: 19.149233
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 008082
+stop_lat: 47.475441
+stop_lon: 19.098808
+stop_name: Népliget
+---
+stop_id: 008083
+stop_lat: 47.478943
+stop_lon: 19.089796
+stop_name: Nagyvárad tér
+---
+stop_id: 008084
+stop_lat: 47.482834
+stop_lon: 19.079176
+stop_name: Klinikák
+---
+stop_id: 008085
+stop_lat: 47.485786
+stop_lon: 19.070152
+stop_name: Corvin-negyed
 ---
 stop_id: 008086
 stop_lat: 47.50735
@@ -459,10 +614,45 @@ stop_lat: 47.435906
 stop_lon: 19.03655
 stop_name: Ady Endre út
 ---
+stop_id: 008129
+stop_lat: 47.489693
+stop_lon: 19.061707
+stop_name: Kálvin tér
+---
+stop_id: 008130
+stop_lat: 47.493172
+stop_lon: 19.05592
+stop_name: Ferenciek tere
+---
 stop_id: 008132
 stop_lat: 47.501311
 stop_lon: 19.107734
 stop_name: Puskás Ferenc Stadion M
+---
+stop_id: 008136
+stop_lat: 47.503063
+stop_lon: 19.054531
+stop_name: Arany János utca
+---
+stop_id: 008137
+stop_lat: 47.510571
+stop_lon: 19.056072
+stop_name: Nyugati pályaudvar
+---
+stop_id: 008138
+stop_lat: 47.51741
+stop_lon: 19.060192
+stop_name: Lehel tér
+---
+stop_id: 008139
+stop_lat: 47.524323
+stop_lon: 19.063595
+stop_name: Dózsa György út
+---
+stop_id: 008141
+stop_lat: 47.532719
+stop_lon: 19.066755
+stop_name: Árpád híd
 ---
 stop_id: 008146
 stop_lat: 47.481371
@@ -499,6 +689,11 @@ stop_lat: 47.469757
 stop_lon: 19.08455
 stop_name: Mester utca
 ---
+stop_id: 008154
+stop_lat: 47.481032
+stop_lon: 19.065505
+stop_name: Boráros tér H (Közraktár utca)
+---
 stop_id: 008155
 stop_lat: 47.468747
 stop_lon: 19.07275
@@ -509,9 +704,29 @@ stop_lat: 47.473522
 stop_lon: 19.178241
 stop_name: Új köztemető
 ---
+stop_id: 008159
+stop_lat: 47.539383
+stop_lon: 19.069597
+stop_name: Forgách utca
+---
+stop_id: 008162
+stop_lat: 47.548691
+stop_lon: 19.073233
+stop_name: Gyöngyösi utca
+---
+stop_id: 008163
+stop_lat: 47.558926
+stop_lon: 19.079229
+stop_name: Újpest-Városkapu
+---
 stop_id: 008164
 stop_lat: 47.50149
 stop_lon: 19.136737
+stop_name: Örs vezér tere M+H
+---
+stop_id: 008165
+stop_lat: 47.501808
+stop_lon: 19.136625
 stop_name: Örs vezér tere M+H
 ---
 stop_id: 008168
@@ -539,6 +754,66 @@ stop_lat: 47.498526
 stop_lon: 19.237725
 stop_name: Cinkotai autóbuszgarázs
 ---
+stop_id: 008186
+stop_lat: 47.560429
+stop_lon: 19.089916
+stop_name: Újpest-Központ
+---
+stop_id: 008187
+stop_lat: 47.50676
+stop_lon: 19.039322
+stop_name: Batthyány tér
+---
+stop_id: 008188
+stop_lat: 47.515367
+stop_lon: 19.039507
+stop_name: 'Margit híd, budai hídfő'
+---
+stop_id: 008189
+stop_lat: 47.527303
+stop_lon: 19.040168
+stop_name: Szépvölgyi út
+---
+stop_id: 008190
+stop_lat: 47.533964
+stop_lon: 19.044643
+stop_name: Tímár utca
+---
+stop_id: 008191
+stop_lat: 47.539655
+stop_lon: 19.047163
+stop_name: Szentlélek tér
+---
+stop_id: 008194
+stop_lat: 47.551903
+stop_lon: 19.046243
+stop_name: Filatorigát
+---
+stop_id: 008195
+stop_lat: 47.556774
+stop_lon: 19.045266
+stop_name: Kaszásdűlő
+---
+stop_id: 008196
+stop_lat: 47.568229
+stop_lon: 19.048495
+stop_name: Aquincum
+---
+stop_id: 008197
+stop_lat: 47.575685
+stop_lon: 19.048588
+stop_name: Rómaifürdő
+---
+stop_id: 008198
+stop_lat: 47.586098
+stop_lon: 19.045008
+stop_name: Csillaghegy
+---
+stop_id: 008199
+stop_lat: 47.598091
+stop_lon: 19.054599
+stop_name: Békásmegyer
+---
 stop_id: 008206
 stop_lat: 47.519299
 stop_lon: 19.091104
@@ -558,6 +833,61 @@ stop_id: 008222
 stop_lat: 47.503712
 stop_lon: 19.136475
 stop_name: 'Örs vezér tere - Zugló M+H'
+---
+stop_id: 008225
+stop_lat: 47.616165
+stop_lon: 19.054914
+stop_name: Budakalász
+---
+stop_id: 008226
+stop_lat: 47.621766
+stop_lon: 19.046756
+stop_name: 'Budakalász, lenfonó'
+---
+stop_id: 008227
+stop_lat: 47.628802
+stop_lon: 19.043312
+stop_name: Szentistvántelep
+---
+stop_id: 008229
+stop_lat: 47.228036
+stop_lon: 18.946351
+stop_name: Szigetszentmárton-Szigetújfalu H
+---
+stop_id: 008230
+stop_lat: 47.227091
+stop_lon: 18.955887
+stop_name: 'Szigetszentmárton, Dózsa György utca'
+---
+stop_id: 008231
+stop_lat: 47.227118
+stop_lon: 18.956124
+stop_name: 'Szigetszentmárton, Dózsa György utca'
+---
+stop_id: 008232
+stop_lat: 47.214244
+stop_lon: 18.954338
+stop_name: Horgásztanyák
+---
+stop_id: 008233
+stop_lat: 47.213326
+stop_lon: 18.953759
+stop_name: Horgásztanyák
+---
+stop_id: 008234
+stop_lat: 47.199763
+stop_lon: 18.94527
+stop_name: Angyalisziget
+---
+stop_id: 008235
+stop_lat: 47.199538
+stop_lon: 18.945323
+stop_name: Angyalisziget
+---
+stop_id: 008236
+stop_lat: 47.175769
+stop_lon: 18.942572
+stop_name: Ráckeve H
 ---
 stop_id: 008238
 stop_lat: 47.500588
@@ -598,6 +928,16 @@ stop_id: 008246
 stop_lat: 47.55124
 stop_lon: 19.13601
 stop_name: Rákospalotai köztemető
+---
+stop_id: 008249
+stop_lat: 47.642957
+stop_lon: 19.032378
+stop_name: Pomáz
+---
+stop_id: 008250
+stop_lat: 47.652179
+stop_lon: 19.064904
+stop_name: Pannóniatelep
 ---
 stop_id: 008260
 stop_lat: 47.528442
@@ -644,10 +984,60 @@ stop_lat: 47.484478
 stop_lon: 19.096423
 stop_name: Delej utca
 ---
+stop_id: 008271
+stop_lat: 47.661038
+stop_lon: 19.075607
+stop_name: Szentendre
+---
+stop_id: 008272
+stop_lat: 47.466285
+stop_lon: 19.07717
+stop_name: Vágóhíd
+---
+stop_id: 008273
+stop_lat: 47.460673
+stop_lon: 19.081819
+stop_name: Beöthy utca
+---
+stop_id: 008274
+stop_lat: 47.454906
+stop_lon: 19.086556
+stop_name: Kén utca
+---
+stop_id: 008275
+stop_lat: 47.447939
+stop_lon: 19.09045
+stop_name: Timót utca
+---
+stop_id: 008276
+stop_lat: 47.438148
+stop_lon: 19.093614
+stop_name: Pesterzsébet felső
+---
+stop_id: 008277
+stop_lat: 47.423191
+stop_lon: 19.105208
+stop_name: Torontál utca
+---
+stop_id: 008279
+stop_lat: 47.409659
+stop_lon: 19.111925
+stop_name: Soroksár felső
+---
 stop_id: 008280
 stop_lat: 47.469312
 stop_lon: 19.064334
 stop_name: Pázmány Péter sétány
+---
+stop_id: 008281
+stop_lat: 47.399309
+stop_lon: 19.114781
+stop_name: 'Soroksár, Hősök tere'
+---
+stop_id: 008282
+stop_lat: 47.391673
+stop_lon: 19.11491
+stop_name: Szent István utca
 ---
 stop_id: 008283
 stop_lat: 47.590056
@@ -658,6 +1048,11 @@ stop_id: 008284
 stop_lat: 47.590352
 stop_lon: 19.101585
 stop_name: Óceán-árok utca
+---
+stop_id: 008285
+stop_lat: 47.379741
+stop_lon: 19.104897
+stop_name: Millenniumtelep
 ---
 stop_id: 008286
 stop_lat: 47.476255
@@ -673,6 +1068,16 @@ stop_id: 008289
 stop_lat: 47.570883
 stop_lon: 19.111334
 stop_name: Szilágyi utca
+---
+stop_id: 008295
+stop_lat: 47.366371
+stop_lon: 19.092656
+stop_name: Dunaharaszti felső
+---
+stop_id: 008296
+stop_lat: 47.360258
+stop_lon: 19.086425
+stop_name: Dunaharaszti külső
 ---
 stop_id: 008317
 stop_lat: 47.433298
@@ -779,6 +1184,31 @@ stop_lat: 47.438346
 stop_lon: 18.906478
 stop_name: Katona József utca
 ---
+stop_id: 008346
+stop_lat: 47.344207
+stop_lon: 19.050242
+stop_name: Szigetszentmiklós
+---
+stop_id: 008347
+stop_lat: 47.337095
+stop_lon: 19.034336
+stop_name: József Attila-telep
+---
+stop_id: 008348
+stop_lat: 47.336444
+stop_lon: 19.019615
+stop_name: Szigetszentmiklós alsó
+---
+stop_id: 008349
+stop_lat: 47.333349
+stop_lon: 19.003841
+stop_name: 'Szigetszentmiklós, gyártelep'
+---
+stop_id: 008350
+stop_lat: 47.330041
+stop_lon: 18.993868
+stop_name: Szigethalom
+---
 stop_id: 008353
 stop_lat: 47.539377
 stop_lon: 19.122388
@@ -798,6 +1228,46 @@ stop_id: 008361
 stop_lat: 47.565072
 stop_lon: 19.150013
 stop_name: Áruházak
+---
+stop_id: 008366
+stop_lat: 47.321368
+stop_lon: 18.983529
+stop_name: Szigethalom alsó
+---
+stop_id: 008367
+stop_lat: 47.313414
+stop_lon: 18.974228
+stop_name: Tököl
+---
+stop_id: 008368
+stop_lat: 47.293735
+stop_lon: 18.964715
+stop_name: Szigetmajor
+---
+stop_id: 008369
+stop_lat: 47.270179
+stop_lon: 18.956215
+stop_name: Szigetcsép
+---
+stop_id: 008370
+stop_lat: 47.258641
+stop_lon: 18.949556
+stop_name: Egyetemi Tangazdaság
+---
+stop_id: 008371
+stop_lat: 47.227924
+stop_lon: 18.946067
+stop_name: Szigetszentmárton-Szigetújfalu
+---
+stop_id: 008372
+stop_lat: 47.213582
+stop_lon: 18.952953
+stop_name: Horgásztanyák
+---
+stop_id: 008374
+stop_lat: 47.199808
+stop_lon: 18.945066
+stop_name: Angyalisziget
 ---
 stop_id: 008377
 stop_lat: 47.45645
@@ -828,6 +1298,11 @@ stop_id: 008383
 stop_lat: 47.502632
 stop_lon: 19.136712
 stop_name: 'Örs vezér tere - Kőbánya M'
+---
+stop_id: 008385
+stop_lat: 47.541293
+stop_lon: 19.121408
+stop_name: Mézeskalács tér
 ---
 stop_id: 008399
 stop_lat: 47.404341
@@ -894,6 +1369,26 @@ stop_lat: 47.548475
 stop_lon: 19.029204
 stop_name: Bécsi út
 ---
+stop_id: 008413
+stop_lat: 47.479206
+stop_lon: 19.066526
+stop_name: Boráros tér
+---
+stop_id: 008414
+stop_lat: 47.469545
+stop_lon: 19.070118
+stop_name: Lágymányosi híd
+---
+stop_id: 008415
+stop_lat: 47.444464
+stop_lon: 19.071615
+stop_name: Szabadkikötő
+---
+stop_id: 008417
+stop_lat: 47.431322
+stop_lon: 19.067656
+stop_name: Szent Imre tér
+---
 stop_id: 008428
 stop_lat: 47.617114
 stop_lon: 19.051501
@@ -954,6 +1449,31 @@ stop_lat: 47.652082
 stop_lon: 19.071351
 stop_name: Egyetem
 ---
+stop_id: 008441
+stop_lat: 47.426778
+stop_lon: 19.06729
+stop_name: Karácsony Sándor utca
+---
+stop_id: 008442
+stop_lat: 47.503404
+stop_lon: 19.136792
+stop_name: Örs vezér tere
+---
+stop_id: 008443
+stop_lat: 47.505067
+stop_lon: 19.151378
+stop_name: Rákosfalva
+---
+stop_id: 008445
+stop_lat: 47.507017
+stop_lon: 19.16769
+stop_name: Nagyicce
+---
+stop_id: 008446
+stop_lat: 47.508952
+stop_lon: 19.178647
+stop_name: Sashalom
+---
 stop_id: 008455
 stop_lat: 47.512884
 stop_lon: 19.047884
@@ -983,6 +1503,16 @@ stop_id: 008462
 stop_lat: 47.460552
 stop_lon: 18.94593
 stop_name: Bretzfeld utca
+---
+stop_id: 008464
+stop_lat: 47.511857
+stop_lon: 19.194054
+stop_name: 'Mátyásföld, repülőtér'
+---
+stop_id: 008469
+stop_lat: 47.444351
+stop_lon: 19.096679
+stop_name: Gubacsi út
 ---
 stop_id: 008471
 stop_lat: 47.426479
@@ -1049,15 +1579,45 @@ stop_lat: 47.476947
 stop_lon: 19.075454
 stop_name: Szakorvosi rendelő
 ---
+stop_id: 008518
+stop_lat: 47.533251
+stop_lon: 19.043773
+stop_name: Tímár utca H
+---
 stop_id: 008519
 stop_lat: 47.533311
 stop_lon: 19.043634
 stop_name: Tímár utca H
 ---
+stop_id: 008520
+stop_lat: 47.539278
+stop_lon: 19.04712
+stop_name: Szentlélek tér H
+---
 stop_id: 008521
 stop_lat: 47.538456
 stop_lon: 19.046967
 stop_name: Serfőző utca
+---
+stop_id: 008527
+stop_lat: 47.513546
+stop_lon: 19.199582
+stop_name: 'Mátyásföld, Imre utca'
+---
+stop_id: 008528
+stop_lat: 47.515974
+stop_lon: 19.207459
+stop_name: Mátyásföld alsó
+---
+stop_id: 008529
+stop_lat: 47.519435
+stop_lon: 19.217431
+stop_name: Cinkota
+---
+stop_id: 008530
+stop_lat: 47.526608
+stop_lon: 19.229453
+stop_name: Ilonatelep
 ---
 stop_id: 008532
 stop_lat: 47.505913
@@ -1068,6 +1628,11 @@ stop_id: 008535
 stop_lat: 47.498283
 stop_lon: 19.237565
 stop_name: Cinkotai autóbuszgarázs
+---
+stop_id: 008543
+stop_lat: 47.528646
+stop_lon: 19.040466
+stop_name: Szépvölgyi út H
 ---
 stop_id: 008544
 stop_lat: 47.527482
@@ -1124,6 +1689,11 @@ stop_lat: 47.484815
 stop_lon: 19.012866
 stop_name: Korompai utca
 ---
+stop_id: 008562
+stop_lat: 47.539065
+stop_lon: 19.249034
+stop_name: 'Kistarcsa, kórház'
+---
 stop_id: 008567
 stop_lat: 47.473321
 stop_lon: 18.992775
@@ -1133,6 +1703,21 @@ stop_id: 008569
 stop_lat: 47.498194
 stop_lon: 19.237086
 stop_name: Cinkotai autóbuszgarázs
+---
+stop_id: 008571
+stop_lat: 47.545832
+stop_lon: 19.259801
+stop_name: Kistarcsa
+---
+stop_id: 008572
+stop_lat: 47.548442
+stop_lon: 19.264069
+stop_name: Zsófialiget
+---
+stop_id: 008573
+stop_lat: 47.553092
+stop_lon: 19.270897
+stop_name: Kerepes
 ---
 stop_id: 008575
 stop_lat: 47.461151
@@ -1174,6 +1759,21 @@ stop_lat: 47.477025
 stop_lon: 19.047188
 stop_name: Móricz Zsigmond körtér
 ---
+stop_id: 008594
+stop_lat: 47.568488
+stop_lon: 19.275036
+stop_name: Szilasliget
+---
+stop_id: 008595
+stop_lat: 47.57919
+stop_lon: 19.275381
+stop_name: Hungaroring
+---
+stop_id: 008596
+stop_lat: 47.596496
+stop_lon: 19.271755
+stop_name: Mogyoród
+---
 stop_id: 008597
 stop_lat: 47.455888
 stop_lon: 18.94812
@@ -1189,6 +1789,21 @@ stop_lat: 47.52759
 stop_lon: 19.036729
 stop_name: Kolosy tér (Bécsi út)
 ---
+stop_id: 008610
+stop_lat: 47.597338
+stop_lon: 19.290352
+stop_name: Szentjakab
+---
+stop_id: 008611
+stop_lat: 47.595072
+stop_lon: 19.340771
+stop_name: 'Gödöllő, Erzsébet park'
+---
+stop_id: 008612
+stop_lat: 47.597666
+stop_lon: 19.347926
+stop_name: 'Gödöllő, Szabadság tér'
+---
 stop_id: 008613
 stop_lat: 47.475433
 stop_lon: 19.046882
@@ -1198,6 +1813,56 @@ stop_id: 008616
 stop_lat: 47.385218
 stop_lon: 18.967187
 stop_name: Harbor Park
+---
+stop_id: 008617
+stop_lat: 47.501297
+stop_lon: 19.119883
+stop_name: Pillangó utca
+---
+stop_id: 008618
+stop_lat: 47.500389
+stop_lon: 19.107113
+stop_name: Puskás Ferenc Stadion
+---
+stop_id: 008619
+stop_lat: 47.499798
+stop_lon: 19.08267
+stop_name: Keleti pályaudvar
+---
+stop_id: 008620
+stop_lat: 47.496986
+stop_lon: 19.070333
+stop_name: Blaha Lujza tér
+---
+stop_id: 008621
+stop_lat: 47.494331
+stop_lon: 19.060097
+stop_name: Astoria
+---
+stop_id: 008622
+stop_lat: 47.497089
+stop_lon: 19.054096
+stop_name: Deák Ferenc tér
+---
+stop_id: 008623
+stop_lat: 47.50552
+stop_lon: 19.046619
+stop_name: Kossuth Lajos tér
+---
+stop_id: 008624
+stop_lat: 47.506248
+stop_lon: 19.038961
+stop_name: Batthyány tér
+---
+stop_id: 008625
+stop_lat: 47.506943
+stop_lon: 19.024803
+stop_name: Széll Kálmán tér
+---
+stop_id: 008626
+stop_lat: 47.500137
+stop_lon: 19.024696
+stop_name: Déli pályaudvar
 ---
 stop_id: 008642
 stop_lat: 47.611119
@@ -1254,6 +1919,36 @@ stop_lat: 47.54147
 stop_lon: 19.246606
 stop_name: Auchan Liget
 ---
+stop_id: 008680
+stop_lat: 47.421152
+stop_lon: 19.06579
+stop_name: Csepel
+---
+stop_id: 008682
+stop_lat: 47.598489
+stop_lon: 19.356648
+stop_name: 'Gödöllő, Palotakert'
+---
+stop_id: 008683
+stop_lat: 47.593325
+stop_lon: 19.357777
+stop_name: Gödöllő
+---
+stop_id: 008685
+stop_lat: 47.452825
+stop_lon: 19.03896
+stop_name: 'Albertfalva, kitérő'
+---
+stop_id: 008690
+stop_lat: 47.448166
+stop_lon: 18.964876
+stop_name: Budaörs vasútállomás
+---
+stop_id: 008691
+stop_lat: 47.390929
+stop_lon: 18.981696
+stop_name: 'Nagytétény, Angeli utca'
+---
 stop_id: 008692
 stop_lat: 47.458682
 stop_lon: 19.177051
@@ -1279,10 +1974,40 @@ stop_lat: 47.477118
 stop_lon: 19.075825
 stop_name: Szakorvosi rendelő
 ---
+stop_id: 008706
+stop_lat: 47.533777
+stop_lon: 19.207755
+stop_name: Árpádföld
+---
+stop_id: 008707
+stop_lat: 47.535455
+stop_lon: 19.204293
+stop_name: Szabadságtelep
+---
 stop_id: 008708
 stop_lat: 47.597822
 stop_lon: 19.091606
 stop_name: Vízművek lakótelep
+---
+stop_id: 008709
+stop_lat: 47.544474
+stop_lon: 19.21872
+stop_name: 'Csömör, Hunyadi János utca'
+---
+stop_id: 008713
+stop_lat: 47.544897
+stop_lon: 19.224673
+stop_name: Csömör H
+---
+stop_id: 008714
+stop_lat: 47.544429
+stop_lon: 19.218374
+stop_name: 'Csömör, Hunyadi János utca'
+---
+stop_id: 008720
+stop_lat: 47.508225
+stop_lon: 19.047778
+stop_name: Szalay utca
 ---
 stop_id: 008722
 stop_lat: 47.507991
@@ -1298,6 +2023,11 @@ stop_id: 008731
 stop_lat: 47.516166
 stop_lon: 18.998957
 stop_name: Budagyöngye
+---
+stop_id: 008732
+stop_lat: 47.47499
+stop_lon: 19.070789
+stop_name: Haller utca
 ---
 stop_id: 008736
 stop_lat: 47.512863
@@ -1318,6 +2048,11 @@ stop_id: 008750
 stop_lat: 47.505895
 stop_lon: 19.039348
 stop_name: Batthyány tér M+H
+---
+stop_id: 008753
+stop_lat: 47.477184
+stop_lon: 19.047075
+stop_name: Móricz Zsigmond körtér
 ---
 stop_id: 008754
 stop_lat: 47.403586
@@ -1354,10 +2089,45 @@ stop_lat: 47.429436
 stop_lon: 19.020658
 stop_name: Regényes utca
 ---
+stop_id: 008801
+stop_lat: 47.436476
+stop_lon: 19.040003
+stop_name: Savoya Park
+---
 stop_id: 008802
 stop_lat: 47.435837
 stop_lon: 19.042416
 stop_name: Savoya Park
+---
+stop_id: 008809
+stop_lat: 47.265521
+stop_lon: 18.971017
+stop_name: 'Szigetcsép, Községháza'
+---
+stop_id: 008811
+stop_lat: 47.265908
+stop_lon: 18.971439
+stop_name: 'Szigetcsép, Községháza'
+---
+stop_id: 008822
+stop_lat: 47.6115
+stop_lon: 19.062401
+stop_name: 'Budakalász, Cora áruház'
+---
+stop_id: 008823
+stop_lat: 47.228032
+stop_lon: 18.946351
+stop_name: Szigetszentmárton-Szigetújfalu H
+---
+stop_id: 008834
+stop_lat: 47.270157
+stop_lon: 18.95675
+stop_name: Szigetcsép H
+---
+stop_id: 008835
+stop_lat: 47.463385
+stop_lon: 19.08375
+stop_name: Földváry utca
 ---
 stop_id: 008841
 stop_lat: 47.592804
@@ -1399,6 +2169,11 @@ stop_lat: 47.469502
 stop_lon: 19.060009
 stop_name: Neumann János utca
 ---
+stop_id: 008862
+stop_lat: 47.560449
+stop_lon: 19.091203
+stop_name: Újpest-Központ M
+---
 stop_id: 008863
 stop_lat: 47.470054
 stop_lon: 19.157193
@@ -1408,6 +2183,26 @@ stop_id: 008864
 stop_lat: 47.435999
 stop_lon: 19.041581
 stop_name: Savoya Park
+---
+stop_id: 008865
+stop_lat: 47.436302
+stop_lon: 19.041177
+stop_name: Savoya Park
+---
+stop_id: 008873
+stop_lat: 47.463133
+stop_lon: 19.083803
+stop_name: Földváry utca
+---
+stop_id: 008874
+stop_lat: 47.452088
+stop_lon: 19.091944
+stop_name: Timót utca
+---
+stop_id: 008875
+stop_lat: 47.500112
+stop_lon: 19.10706
+stop_name: Puskás Ferenc Stadion M
 ---
 stop_id: 008893
 stop_lat: 47.436339
@@ -1448,6 +2243,11 @@ stop_id: 008909
 stop_lat: 47.507578
 stop_lon: 19.02442
 stop_name: Széll Kálmán tér M
+---
+stop_id: 008910
+stop_lat: 47.598358
+stop_lon: 19.12144
+stop_name: 'Káposztásmegyer, Mogyoródi-patak'
 ---
 stop_id: 008911
 stop_lat: 47.597234
@@ -1508,6 +2308,11 @@ stop_id: 008924
 stop_lat: 47.495605
 stop_lon: 19.160418
 stop_name: Kabai utca
+---
+stop_id: 008938
+stop_lat: 47.512236
+stop_lon: 19.039454
+stop_name: Bem József tér
 ---
 stop_id: 008939
 stop_lat: 47.598477
@@ -1809,6 +2614,16 @@ stop_lat: 47.594582
 stop_lon: 19.113184
 stop_name: Homoktövis utca
 ---
+stop_id: 009048
+stop_lat: 47.426521
+stop_lon: 19.077854
+stop_name: Kolozsvári utca
+---
+stop_id: 009049
+stop_lat: 47.426684
+stop_lon: 19.072631
+stop_name: Táncsics Mihály utca
+---
 stop_id: 009065
 stop_lat: 47.596321
 stop_lon: 18.973591
@@ -1894,6 +2709,11 @@ stop_lat: 47.659807
 stop_lon: 19.074722
 stop_name: Szentendre H
 ---
+stop_id: 009125
+stop_lat: 47.642729
+stop_lon: 19.032125
+stop_name: Pomáz H
+---
 stop_id: 009137
 stop_lat: 47.471875
 stop_lon: 19.220171
@@ -1963,6 +2783,11 @@ stop_id: 009163
 stop_lat: 47.499998
 stop_lon: 19.083748
 stop_name: Keleti pályaudvar M
+---
+stop_id: 009166
+stop_lat: 47.492786
+stop_lon: 19.087545
+stop_name: Salgótarjáni utca
 ---
 stop_id: 009170
 stop_lat: 47.64557
@@ -2139,10 +2964,20 @@ stop_lat: 47.466702
 stop_lon: 19.076032
 stop_name: Közvágóhíd H
 ---
+stop_id: 009292
+stop_lat: 47.348567
+stop_lon: 19.044715
+stop_name: 'Szigetszentmiklós, városháza'
+---
 stop_id: 009295
 stop_lat: 47.539095
 stop_lon: 19.045373
 stop_name: Serfőző utca
+---
+stop_id: 009299
+stop_lat: 47.497047
+stop_lon: 19.055801
+stop_name: Deák Ferenc tér M
 ---
 stop_id: 009301
 stop_lat: 47.405396
@@ -2153,6 +2988,11 @@ stop_id: 009303
 stop_lat: 47.476778
 stop_lon: 19.034073
 stop_name: 'Újbuda, Függetlenségi park'
+---
+stop_id: 009308
+stop_lat: 47.489155
+stop_lon: 19.062601
+stop_name: Kálvin tér M
 ---
 stop_id: 009309
 stop_lat: 47.497431
@@ -2173,6 +3013,11 @@ stop_id: 009312
 stop_lat: 47.376865
 stop_lon: 19.12428
 stop_name: MNB
+---
+stop_id: 009313
+stop_lat: 47.377496
+stop_lon: 19.121898
+stop_name: 'Soroksár, BILK'
 ---
 stop_id: 009314
 stop_lat: 47.375248
@@ -2259,10 +3104,25 @@ stop_lat: 47.487258
 stop_lon: 19.058872
 stop_name: Vámház körút
 ---
+stop_id: 009365
+stop_lat: 47.482787
+stop_lon: 19.063024
+stop_name: Zsil utca
+---
 stop_id: 009369
 stop_lat: 47.38839
 stop_lon: 19.103502
 stop_name: 'Csepel, Horgásztanya'
+---
+stop_id: 009371
+stop_lat: 47.439267
+stop_lon: 19.223254
+stop_name: Liszt Ferenc Airport 1
+---
+stop_id: 009372
+stop_lat: 47.429055
+stop_lon: 19.218568
+stop_name: Béke tér
 ---
 stop_id: 009373
 stop_lat: 47.508234
@@ -2283,6 +3143,11 @@ stop_id: 009377
 stop_lat: 47.510368
 stop_lon: 19.190492
 stop_name: Jókai Mór utca (Rendőrség)
+---
+stop_id: 009378
+stop_lat: 47.505183
+stop_lon: 19.193691
+stop_name: Újszász utca
 ---
 stop_id: 009379
 stop_lat: 47.532065
@@ -2308,6 +3173,21 @@ stop_id: 009390
 stop_lat: 47.407022
 stop_lon: 18.999576
 stop_name: VII. utca
+---
+stop_id: 009392
+stop_lat: 47.586451
+stop_lon: 19.045477
+stop_name: Csillaghegy H
+---
+stop_id: 009393
+stop_lat: 47.584656
+stop_lon: 19.044566
+stop_name: Csillaghegy H
+---
+stop_id: 009394
+stop_lat: 47.574888
+stop_lon: 19.048541
+stop_name: Rómaifürdő H
 ---
 stop_id: 009409
 stop_lat: 47.542815
@@ -2363,6 +3243,11 @@ stop_id: 009422
 stop_lat: 47.606849
 stop_lon: 19.098223
 stop_name: Ezred utca
+---
+stop_id: 009424
+stop_lat: 47.474054
+stop_lon: 19.045788
+stop_name: Újbuda-központ
 ---
 stop_id: 009425
 stop_lat: 47.470555
@@ -2569,6 +3454,16 @@ stop_lat: 47.438577
 stop_lon: 19.034667
 stop_name: Méhész utca
 ---
+stop_id: 009478
+stop_lat: 47.432106
+stop_lon: 19.17293
+stop_name: Szent Lőrinc-telep (tervezett)
+---
+stop_id: 009479
+stop_lat: 47.432106
+stop_lon: 19.173155
+stop_name: Szent Lőrinc-telep (tervezett)
+---
 stop_id: 009480
 stop_lat: 47.43327
 stop_lon: 19.177559
@@ -2724,6 +3619,21 @@ stop_lat: 47.441923
 stop_lon: 19.032186
 stop_name: Albertfalva vasútállomás
 ---
+stop_id: 009526
+stop_lat: 47.526352
+stop_lon: 19.220989
+stop_name: Cinkota-Újtelep
+---
+stop_id: 009527
+stop_lat: 47.532979
+stop_lon: 19.212554
+stop_name: Árpádföld
+---
+stop_id: 009528
+stop_lat: 47.537404
+stop_lon: 19.206185
+stop_name: Szabadságtelep
+---
 stop_id: 009534
 stop_lat: 47.411121
 stop_lon: 18.993728
@@ -2834,6 +3744,11 @@ stop_lat: 47.579129
 stop_lon: 19.034311
 stop_name: Mészkő utca
 ---
+stop_id: 009566
+stop_lat: 47.417225
+stop_lon: 19.158264
+stop_name: 'Soroksár, Auchan áruház'
+---
 stop_id: 009568
 stop_lat: 47.414781
 stop_lon: 19.134154
@@ -2937,7 +3852,92 @@ stop_name: Budaörs vasútállomás
 stop_id: 009592
 stop_lat: 47.464163
 stop_lon: 19.146225
+stop_name: Kőbánya-Kispest P+R
+---
+stop_id: 009593
+stop_lat: 47.463252
+stop_lon: 19.148412
 stop_name: Kőbánya-Kispest M
+---
+stop_id: 009594
+stop_lat: 47.462904
+stop_lon: 19.149412
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009595
+stop_lat: 47.461895
+stop_lon: 19.147428
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009596
+stop_lat: 47.464271
+stop_lon: 19.145894
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009597
+stop_lat: 47.464478
+stop_lon: 19.145231
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009598
+stop_lat: 47.464641
+stop_lon: 19.1447
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009599
+stop_lat: 47.464659
+stop_lon: 19.144475
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009600
+stop_lat: 47.464353
+stop_lon: 19.144249
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009601
+stop_lat: 47.464308
+stop_lon: 19.144421
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009602
+stop_lat: 47.464245
+stop_lon: 19.144726
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009603
+stop_lat: 47.464506
+stop_lon: 19.144342
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009604
+stop_lat: 47.464461
+stop_lon: 19.144501
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009605
+stop_lat: 47.46438
+stop_lon: 19.144806
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009606
+stop_lat: 47.464272
+stop_lon: 19.145204
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009607
+stop_lat: 47.46401
+stop_lon: 19.145853
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009608
+stop_lat: 47.464056
+stop_lon: 19.145164
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 009613
+stop_lat: 47.491453
+stop_lon: 19.04517
+stop_name: Döbrentei utca
 ---
 stop_id: 009615
 stop_lat: 47.487321
@@ -2964,6 +3964,11 @@ stop_lat: 47.464432
 stop_lon: 19.312705
 stop_name: Szigetcsép utca
 ---
+stop_id: 009629
+stop_lat: 47.506312
+stop_lon: 19.039302
+stop_name: Batthyány tér M+H
+---
 stop_id: 009630
 stop_lat: 47.611518
 stop_lon: 19.062395
@@ -2989,10 +3994,20 @@ stop_lat: 47.470139
 stop_lon: 19.027137
 stop_name: Kelenföld kocsiszín (Csóka kapu)
 ---
+stop_id: 009640
+stop_lat: 47.517624
+stop_lon: 18.993983
+stop_name: Szépilona kocsiszín
+---
 stop_id: 009642
 stop_lat: 47.466429
 stop_lon: 19.122671
 stop_name: Száva kocsiszín (Távíró kapu)
+---
+stop_id: 009643
+stop_lat: 47.470888
+stop_lon: 19.091582
+stop_name: Ferencváros kocsiszín
 ---
 stop_id: 009644
 stop_lat: 47.4914
@@ -3003,6 +4018,11 @@ stop_id: 009645
 stop_lat: 47.518938
 stop_lon: 19.112587
 stop_name: Zugló kocsiszín (kapu)
+---
+stop_id: 009646
+stop_lat: 47.553208
+stop_lon: 19.092646
+stop_name: Angyalföld kocsiszín
 ---
 stop_id: 009647
 stop_lat: 47.491893
@@ -3019,6 +4039,11 @@ stop_lat: 47.545688
 stop_lon: 19.112314
 stop_name: Széchenyi út
 ---
+stop_id: 009656
+stop_lat: 47.466429
+stop_lon: 19.122353
+stop_name: Száva kocsiszín (tervezett)
+---
 stop_id: 009657
 stop_lat: 47.568778
 stop_lon: 19.126297
@@ -3028,6 +4053,11 @@ stop_id: 009659
 stop_lat: 47.57759
 stop_lon: 19.129699
 stop_name: Mélyfúró utca
+---
+stop_id: 009669
+stop_lat: 47.516515
+stop_lon: 19.075633
+stop_name: Szondi utca (Hősök tere)
 ---
 stop_id: 009671
 stop_lat: 47.495739
@@ -3053,6 +4083,11 @@ stop_id: 009685
 stop_lat: 47.477439
 stop_lon: 19.255335
 stop_name: Akácvirág utca
+---
+stop_id: 009690
+stop_lat: 47.529474
+stop_lon: 19.00445
+stop_name: Törökvész út
 ---
 stop_id: 009691
 stop_lat: 47.539925
@@ -3084,6 +4119,11 @@ stop_lat: 47.426866
 stop_lon: 19.039481
 stop_name: 'Budafok, Városház tér'
 ---
+stop_id: 009702
+stop_lat: 47.492948
+stop_lon: 19.087187
+stop_name: Salgótarjáni utca
+---
 stop_id: 009704
 stop_lat: 47.495436
 stop_lon: 19.275393
@@ -3114,6 +4154,21 @@ stop_lat: 47.474413
 stop_lon: 19.045456
 stop_name: Újbuda-központ
 ---
+stop_id: 009711
+stop_lat: 47.495147
+stop_lon: 19.048534
+stop_name: Vigadó tér
+---
+stop_id: 009712
+stop_lat: 47.498214
+stop_lon: 19.047008
+stop_name: Eötvös tér
+---
+stop_id: 009713
+stop_lat: 47.50084
+stop_lon: 19.04722
+stop_name: Széchenyi István tér
+---
 stop_id: 009715
 stop_lat: 47.430372
 stop_lon: 19.099913
@@ -3139,6 +4194,21 @@ stop_lat: 47.436365
 stop_lon: 19.093238
 stop_name: Csepeli átjáró
 ---
+stop_id: 009725
+stop_lat: 47.517939
+stop_lon: 19.044299
+stop_name: 'Margitsziget, Centenáriumi emlékmű'
+---
+stop_id: 009726
+stop_lat: 47.518335
+stop_lon: 19.044857
+stop_name: 'Margitsziget, Centenáriumi emlékmű'
+---
+stop_id: 009727
+stop_lat: 47.518326
+stop_lon: 19.044352
+stop_name: 'Margitsziget, Centenáriumi emlékmű'
+---
 stop_id: 009728
 stop_lat: 47.464014
 stop_lon: 19.318341
@@ -3153,6 +4223,11 @@ stop_id: 009730
 stop_lat: 47.506918
 stop_lon: 19.023618
 stop_name: Széll Kálmán tér M (Várfok utca)
+---
+stop_id: 009734
+stop_lat: 47.489466
+stop_lon: 19.124979
+stop_name: Őrház
 ---
 stop_id: 009743
 stop_lat: 47.490376
@@ -3169,15 +4244,120 @@ stop_lat: 47.60521
 stop_lon: 19.103768
 stop_name: Európa Center
 ---
+stop_id: 009749
+stop_lat: 47.270161
+stop_lon: 18.95675
+stop_name: Szigetcsép H
+---
+stop_id: 009750
+stop_lat: 47.270152
+stop_lon: 18.95675
+stop_name: Szigetcsép H
+---
 stop_id: 009753
 stop_lat: 47.495999
 stop_lon: 19.071283
 stop_name: Blaha Lujza tér M (Népszínház utca)
 ---
+stop_id: 009754
+stop_lat: 47.228027
+stop_lon: 18.946351
+stop_name: Szigetszentmárton-Szigetújfalu H
+---
+stop_id: 009755
+stop_lat: 47.313612
+stop_lon: 18.974028
+stop_name: Tököl H
+---
+stop_id: 009757
+stop_lat: 47.229567
+stop_lon: 18.958933
+stop_name: 'Szigetszentmárton, Posta'
+---
+stop_id: 009758
+stop_lat: 47.228901
+stop_lon: 18.958538
+stop_name: 'Szigetszentmárton, Posta'
+---
+stop_id: 009759
+stop_lat: 47.595542
+stop_lon: 19.341458
+stop_name: 'Gödöllő, Erzsébet park H'
+---
+stop_id: 009760
+stop_lat: 47.595615
+stop_lon: 19.341192
+stop_name: 'Gödöllő, Erzsébet park H'
+---
+stop_id: 009763
+stop_lat: 47.548134
+stop_lon: 19.264028
+stop_name: Zsófialiget H
+---
+stop_id: 009764
+stop_lat: 47.547883
+stop_lon: 19.263402
+stop_name: Zsófialiget H
+---
+stop_id: 009773
+stop_lat: 47.483059
+stop_lon: 19.158149
+stop_name: Kada utca
+---
+stop_id: 009774
+stop_lat: 47.490102
+stop_lon: 19.148622
+stop_name: Jászberényi út
+---
+stop_id: 011300
+stop_lat: 47.473203
+stop_lon: 19.176363
+stop_name: Új köztemető
+---
+stop_id: 011303
+stop_lat: 47.541284
+stop_lon: 19.246824
+stop_name: Auchan Liget
+---
+stop_id: 011306
+stop_lat: 47.451748
+stop_lon: 19.108819
+stop_name: Mártírok útja
+---
+stop_id: 011307
+stop_lat: 47.452243
+stop_lon: 19.109801
+stop_name: Mártírok útja
+---
+stop_id: 011309
+stop_lat: 47.448567
+stop_lon: 19.104015
+stop_name: Jókai Mór utca
+---
+stop_id: 011310
+stop_lat: 47.447734
+stop_lon: 19.103013
+stop_name: Jókai Mór utca
+---
+stop_id: 011311
+stop_lat: 47.44578
+stop_lon: 19.099836
+stop_name: Ősz utca
+---
+stop_id: 011312
+stop_lat: 47.446131
+stop_lon: 19.100592
+stop_name: Ősz utca
+---
 stop_id: 011313
 stop_lat: 47.405915
 stop_lon: 18.999166
 stop_name: VII. utca
+---
+stop_id: 011317
+stop_lat: 47.57244
+stop_lon: 19.114134
+stop_name: Atlétikai stadion
 ---
 stop_id: 011319
 stop_lat: 47.477499
@@ -3229,6 +4409,11 @@ stop_lat: 47.500124
 stop_lon: 19.107043
 stop_name: Puskás Ferenc Stadion M
 ---
+stop_id: 011712
+stop_lat: 47.568214
+stop_lon: 19.126395
+stop_name: 'Rákospalota, Kossuth utca'
+---
 stop_id: 011715
 stop_lat: 47.484963
 stop_lon: 19.225442
@@ -3259,6 +4444,11 @@ stop_lat: 47.479923
 stop_lon: 19.254708
 stop_name: 'Rákoskeresztúr, városközpont'
 ---
+stop_id: 011732
+stop_lat: 47.499179
+stop_lon: 19.05381
+stop_name: Erzsébet tér (Deák Ferenc tér M)
+---
 stop_id: 011762
 stop_lat: 47.559122
 stop_lon: 19.078818
@@ -3279,15 +4469,40 @@ stop_lat: 47.484645
 stop_lon: 19.22775
 stop_name: Keresztúri út
 ---
+stop_id: 011775
+stop_lat: 47.542542
+stop_lon: 19.225309
+stop_name: 'Csömör, Béke tér'
+---
+stop_id: 014853
+stop_lat: 47.445414
+stop_lon: 19.152866
+stop_name: Tulipán utca
+---
 stop_id: 016725
 stop_lat: 47.466769
 stop_lon: 19.158155
 stop_name: Rózsaliget
 ---
+stop_id: 016727
+stop_lat: 47.474497
+stop_lon: 19.046723
+stop_name: Bocskai út
+---
 stop_id: 016729
 stop_lat: 47.493502
 stop_lon: 19.032761
 stop_name: Naphegy tér
+---
+stop_id: 016937
+stop_lat: 47.467358
+stop_lon: 19.077863
+stop_name: Közvágóhíd H
+---
+stop_id: 016938
+stop_lat: 47.517625
+stop_lon: 19.093174
+stop_name: 'Erzsébet királyné útja, aluljáró'
 ---
 stop_id: 019313
 stop_lat: 47.457347
@@ -3299,6 +4514,11 @@ stop_lat: 47.459829
 stop_lon: 19.29934
 stop_name: Rákoskert sugárút
 ---
+stop_id: 021512
+stop_lat: 47.515879
+stop_lon: 19.050885
+stop_name: Radnóti Miklós utca
+---
 stop_id: 022005
 stop_lat: 47.41637
 stop_lon: 19.205427
@@ -3309,10 +4529,165 @@ stop_lat: 47.47999
 stop_lon: 19.095703
 stop_name: Rezső tér
 ---
+stop_id: 030328
+stop_lat: 47.399367
+stop_lon: 19.115423
+stop_name: 'Soroksár, Hősök tere H'
+---
+stop_id: 030386
+stop_lat: 47.37944
+stop_lon: 19.104526
+stop_name: Millenniumtelep
+---
+stop_id: 030388
+stop_lat: 47.365872
+stop_lon: 19.091814
+stop_name: Dunaharaszti felső
+---
+stop_id: 030389
+stop_lat: 47.360407
+stop_lon: 19.086878
+stop_name: Dunaharaszti külső H
+---
+stop_id: 030460
+stop_lat: 47.365557
+stop_lon: 19.091682
+stop_name: Dunaharaszti felső
+---
+stop_id: 030486
+stop_lat: 47.539933
+stop_lon: 19.25285
+stop_name: 'Kistarcsa, kórház H'
+---
+stop_id: 030540
+stop_lat: 47.422183
+stop_lon: 19.122543
+stop_name: 'Pesterzsébet, Pacsirtatelep'
+---
 stop_id: 031884
 stop_lat: 47.575795
 stop_lon: 18.879471
 stop_name: 'Nagykovácsi, Tisza István tér'
+---
+stop_id: 034839
+stop_lat: 47.54882
+stop_lon: 19.029649
+stop_name: Bécsi út
+---
+stop_id: 036236
+stop_lat: 47.345902
+stop_lon: 19.048071
+stop_name: Szigetszentmiklós H
+---
+stop_id: 036505
+stop_lat: 47.337823
+stop_lon: 19.031424
+stop_name: 'Szigetszentmiklós, Határ út'
+---
+stop_id: 036506
+stop_lat: 47.337496
+stop_lon: 19.017636
+stop_name: Szigetszentmiklós alsó H
+---
+stop_id: 036507
+stop_lat: 47.333111
+stop_lon: 19.003772
+stop_name: Szigetszentmiklós-Gyártelep H
+---
+stop_id: 036508
+stop_lat: 47.330211
+stop_lon: 18.994434
+stop_name: Szigethalom H
+---
+stop_id: 036509
+stop_lat: 47.32094
+stop_lon: 18.983225
+stop_name: Szigethalom alsó H
+---
+stop_id: 036510
+stop_lat: 47.313477
+stop_lon: 18.973764
+stop_name: Tököl H
+---
+stop_id: 036631
+stop_lat: 47.330319
+stop_lon: 18.995756
+stop_name: Szigethalom H
+---
+stop_id: 036632
+stop_lat: 47.320877
+stop_lon: 18.983305
+stop_name: Szigethalom alsó H
+---
+stop_id: 036633
+stop_lat: 47.332904
+stop_lon: 19.004076
+stop_name: Szigetszentmiklós-Gyártelep H
+---
+stop_id: 036634
+stop_lat: 47.337226
+stop_lon: 19.017477
+stop_name: Szigetszentmiklós alsó H
+---
+stop_id: 036635
+stop_lat: 47.337679
+stop_lon: 19.031768
+stop_name: 'Szigetszentmiklós, Határ út'
+---
+stop_id: 036676
+stop_lat: 47.50726
+stop_lon: 19.025954
+stop_name: Széll Kálmán tér M
+---
+stop_id: 036688
+stop_lat: 47.359931
+stop_lon: 19.086746
+stop_name: Dunaharaszti külső H
+---
+stop_id: 036878
+stop_lat: 47.505619
+stop_lon: 19.046244
+stop_name: Kossuth Lajos tér M
+---
+stop_id: 036978
+stop_lat: 47.46411
+stop_lon: 19.144633
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 037242
+stop_lat: 47.430744
+stop_lon: 19.071619
+stop_name: 'Csepel, Szent Imre tér'
+---
+stop_id: 037379
+stop_lat: 47.506444
+stop_lon: 19.038419
+stop_name: Batthyány tér M+H
+---
+stop_id: 037381
+stop_lat: 47.597881
+stop_lon: 19.348359
+stop_name: 'Gödöllő, Szabadság tér H'
+---
+stop_id: 037747
+stop_lat: 47.37729
+stop_lon: 19.00729
+stop_name: 'Lakihegy, Cseresznyés utca'
+---
+stop_id: 037748
+stop_lat: 47.376867
+stop_lon: 19.006536
+stop_name: 'Lakihegy, Cseresznyés utca'
+---
+stop_id: 038371
+stop_lat: 47.561318
+stop_lon: 19.28224
+stop_name: Szilasligeti elágazás
+---
+stop_id: 038643
+stop_lat: 47.544766
+stop_lon: 19.223842
+stop_name: Csömör H
 ---
 stop_id: 038670
 stop_lat: 47.462254
@@ -3322,6 +4697,11 @@ stop_name: Kőbánya-Kispest M
 stop_id: 038671
 stop_lat: 47.462362
 stop_lon: 19.148224
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 038672
+stop_lat: 47.462508
+stop_lon: 19.149398
 stop_name: Kőbánya-Kispest M
 ---
 stop_id: 038673
@@ -3364,6 +4744,16 @@ stop_lat: 47.463064
 stop_lon: 19.148199
 stop_name: Kőbánya-Kispest M
 ---
+stop_id: 038684
+stop_lat: 47.463031
+stop_lon: 19.148245
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 038685
+stop_lat: 47.463283
+stop_lon: 19.147079
+stop_name: Kőbánya-Kispest M
+---
 stop_id: 038686
 stop_lat: 47.46347
 stop_lon: 19.146807
@@ -3379,10 +4769,20 @@ stop_lat: 47.463244
 stop_lon: 19.147722
 stop_name: Kőbánya-Kispest M
 ---
+stop_id: 038689
+stop_lat: 47.463121
+stop_lon: 19.148325
+stop_name: Kőbánya-Kispest M
+---
 stop_id: 038690
 stop_lat: 47.463099
 stop_lon: 19.148584
 stop_name: Kőbánya-Kispest M
+---
+stop_id: 038711
+stop_lat: 47.482053
+stop_lon: 19.127118
+stop_name: Kőbánya alsó vasútállomás (Mázsa tér)
 ---
 stop_id: 038717
 stop_lat: 47.499104
@@ -3394,6 +4794,11 @@ stop_lat: 47.483138
 stop_lon: 19.128307
 stop_name: Kőbánya alsó vasútállomás
 ---
+stop_id: 040520
+stop_lat: 47.53948
+stop_lon: 19.145215
+stop_name: 'Újpalota, Erdőkerülő utca'
+---
 stop_id: 040525
 stop_lat: 47.462328
 stop_lon: 19.084545
@@ -3403,6 +4808,11 @@ stop_id: 040526
 stop_lat: 47.462517
 stop_lon: 19.084479
 stop_name: Hentes utca
+---
+stop_id: 040595
+stop_lat: 47.592732
+stop_lon: 19.35771
+stop_name: Gödöllő H
 ---
 stop_id: 040608
 stop_lat: 47.50918
@@ -3418,6 +4828,36 @@ stop_id: 040612
 stop_lat: 47.466331
 stop_lon: 19.165078
 stop_name: Bányató utca
+---
+stop_id: 040761
+stop_lat: 47.46587
+stop_lon: 19.128593
+stop_name: Határ út M
+---
+stop_id: 040762
+stop_lat: 47.46534
+stop_lon: 19.12769
+stop_name: Határ út M
+---
+stop_id: 040763
+stop_lat: 47.465016
+stop_lon: 19.128432
+stop_name: Határ út M
+---
+stop_id: 040764
+stop_lat: 47.465259
+stop_lon: 19.127663
+stop_name: Határ út M
+---
+stop_id: 040767
+stop_lat: 47.457493
+stop_lon: 19.144667
+stop_name: Kossuth tér
+---
+stop_id: 041067
+stop_lat: 47.482566
+stop_lon: 19.127132
+stop_name: Kőbánya alsó vasútállomás (ideigl.vá.)
 ---
 stop_id: 041092
 stop_lat: 47.42405
@@ -3439,15 +4879,95 @@ stop_lat: 47.432046
 stop_lon: 19.067318
 stop_name: Szent Imre tér H
 ---
+stop_id: 041139
+stop_lat: 47.483099
+stop_lon: 19.122714
+stop_name: Mázsa utca
+---
+stop_id: 041140
+stop_lat: 47.48301
+stop_lon: 19.122608
+stop_name: Mázsa utca
+---
+stop_id: 041207
+stop_lat: 47.567936
+stop_lon: 19.125691
+stop_name: 'Rákospalota, Kossuth utca'
+---
+stop_id: 041209
+stop_lat: 47.478975
+stop_lon: 19.067673
+stop_name: Boráros tér H
+---
+stop_id: 041241
+stop_lat: 47.495168
+stop_lon: 19.004929
+stop_name: Szendrő utca
+---
+stop_id: 042772
+stop_lat: 47.527275
+stop_lon: 19.03965
+stop_name: Szépvölgyi út H
+---
+stop_id: 042773
+stop_lat: 47.471665
+stop_lon: 19.110254
+stop_name: Ecseri út M
+---
+stop_id: 042781
+stop_lat: 47.513022
+stop_lon: 19.093667
+stop_name: Ajtósi Dürer sor
+---
+stop_id: 042788
+stop_lat: 47.439814
+stop_lon: 19.148546
+stop_name: Hofherr Albert utca
+---
+stop_id: 042793
+stop_lat: 47.462814
+stop_lon: 19.148855
+stop_name: Kőbánya-Kispest M
+---
+stop_id: 042794
+stop_lat: 47.495284
+stop_lon: 19.038534
+stop_name: 'Palota út, gyorslift'
+---
 stop_id: 042797
 stop_lat: 47.465434
 stop_lon: 19.162927
 stop_name: Bányató utca
 ---
+stop_id: 042798
+stop_lat: 47.487124
+stop_lon: 19.152763
+stop_name: Gitár utca
+---
+stop_id: 042799
+stop_lat: 47.488992
+stop_lon: 19.134586
+stop_name: Kőbánya felső vasútállomás
+---
+stop_id: 042804
+stop_lat: 47.502174
+stop_lon: 19.038944
+stop_name: Halász utca
+---
+stop_id: 042933
+stop_lat: 47.475799
+stop_lon: 19.100296
+stop_name: Népliget M
+---
 stop_id: 042934
 stop_lat: 47.378351
 stop_lon: 19.121025
 stop_name: 'Soroksár, BILK'
+---
+stop_id: 043171
+stop_lat: 47.518149
+stop_lon: 19.094721
+stop_name: Erzsébet királyné útja
 ---
 stop_id: 043176
 stop_lat: 47.461893
@@ -3479,6 +4999,26 @@ stop_lat: 47.559192
 stop_lon: 19.122482
 stop_name: Régi Fóti út
 ---
+stop_id: 043387
+stop_lat: 47.422713
+stop_lon: 19.062987
+stop_name: Posztógyár utca
+---
+stop_id: 043388
+stop_lat: 47.427354
+stop_lon: 19.066183
+stop_name: Karácsony Sándor utca
+---
+stop_id: 043471
+stop_lat: 47.490791
+stop_lon: 19.015297
+stop_name: Apor Vilmos tér
+---
+stop_id: 043472
+stop_lat: 47.491034
+stop_lon: 19.016306
+stop_name: Apor Vilmos tér
+---
 stop_id: 043481
 stop_lat: 47.599808
 stop_lon: 19.112951
@@ -3489,10 +5029,35 @@ stop_lat: 47.408304
 stop_lon: 18.991015
 stop_name: Dukát utca
 ---
+stop_id: 043611
+stop_lat: 47.481333
+stop_lon: 19.045383
+stop_name: Kelenhegyi lépcső
+---
+stop_id: 043612
+stop_lat: 47.483645
+stop_lon: 19.040049
+stop_name: Somlói út
+---
 stop_id: 044029
 stop_lat: 47.540338
 stop_lon: 19.006599
 stop_name: Fenyőgyöngye
+---
+stop_id: 044032
+stop_lat: 47.347947
+stop_lon: 19.04494
+stop_name: 'Szigetszentmiklós, városháza'
+---
+stop_id: 044033
+stop_lat: 47.337989
+stop_lon: 19.039264
+stop_name: József Attila telep
+---
+stop_id: 044034
+stop_lat: 47.338079
+stop_lon: 19.03847
+stop_name: József Attila telep
 ---
 stop_id: 044076
 stop_lat: 47.423043
@@ -3503,6 +5068,11 @@ stop_id: 044115
 stop_lat: 47.468484
 stop_lon: 19.116055
 stop_name: Pöttyös utca
+---
+stop_id: 044124
+stop_lat: 47.586365
+stop_lon: 19.043635
+stop_name: Csillaghegy H
 ---
 stop_id: 044125
 stop_lat: 47.520186
@@ -3559,6 +5129,11 @@ stop_lat: 47.512398
 stop_lon: 19.047685
 stop_name: Jászai Mari tér
 ---
+stop_id: 044267
+stop_lat: 47.496676
+stop_lon: 19.048588
+stop_name: Szende Pál utca (Vigadó tér)
+---
 stop_id: 044301
 stop_lat: 47.489508
 stop_lon: 19.090907
@@ -3578,6 +5153,21 @@ stop_id: 044367
 stop_lat: 47.569702
 stop_lon: 19.02937
 stop_name: Pomázi út
+---
+stop_id: 044368
+stop_lat: 47.502831
+stop_lon: 19.135602
+stop_name: Örs vezér tere
+---
+stop_id: 044369
+stop_lat: 47.175589
+stop_lon: 18.9418
+stop_name: Ráckeve
+---
+stop_id: 044370
+stop_lat: 47.544955
+stop_lon: 19.225437
+stop_name: Csömör
 ---
 stop_id: 044371
 stop_lat: 47.500252
@@ -3638,6 +5228,11 @@ stop_id: 044557
 stop_lat: 47.562378
 stop_lon: 19.078142
 stop_name: 'Újpest, Árpád út hajóállomás'
+---
+stop_id: 044559
+stop_lat: 47.505582
+stop_lon: 19.029996
+stop_name: Lovas út
 ---
 stop_id: 044571
 stop_lat: 47.592154
@@ -3744,6 +5339,11 @@ stop_lat: 47.595027
 stop_lon: 18.940164
 stop_name: 'Solymár, temető'
 ---
+stop_id: 044612
+stop_lat: 47.405249
+stop_lon: 19.014198
+stop_name: Budatétény vasútállomás (Campona)
+---
 stop_id: 044637
 stop_lat: 47.423175
 stop_lon: 19.078064
@@ -3754,15 +5354,50 @@ stop_lat: 47.424083
 stop_lon: 19.077958
 stop_name: Görögkatolikus templom
 ---
+stop_id: 044693
+stop_lat: 47.49935
+stop_lon: 19.052417
+stop_name: Sas utca
+---
+stop_id: 044694
+stop_lat: 47.44401
+stop_lon: 19.096466
+stop_name: Gubacsi út átszelővágány
+---
+stop_id: 044705
+stop_lat: 47.503398
+stop_lon: 19.052935
+stop_name: Hercegprímás utca
+---
+stop_id: 044708
+stop_lat: 47.50919
+stop_lon: 19.051196
+stop_name: Markó utca
+---
 stop_id: 045755
 stop_lat: 47.418142
 stop_lon: 19.137857
 stop_name: Maros utca
 ---
+stop_id: 047670
+stop_lat: 47.513568
+stop_lon: 18.924631
+stop_name: Budakeszi temető
+---
+stop_id: 047671
+stop_lat: 47.47259
+stop_lon: 19.177834
+stop_name: Új köztemető
+---
 stop_id: 047985
 stop_lat: 47.50209
 stop_lon: 18.916534
 stop_name: Szőlőskert utca
+---
+stop_id: 048289
+stop_lat: 47.452298
+stop_lon: 19.038422
+stop_name: 'Albertfalva, kitérő'
 ---
 stop_id: 048302
 stop_lat: 47.433927
@@ -3799,6 +5434,21 @@ stop_lat: 47.523596
 stop_lon: 18.99407
 stop_name: Pasaréti tér
 ---
+stop_id: 048472
+stop_lat: 47.501701
+stop_lon: 19.083955
+stop_name: Keleti pályaudvar M
+---
+stop_id: 048505
+stop_lat: 47.500519
+stop_lon: 19.054713
+stop_name: Szent István Bazilika
+---
+stop_id: 048506
+stop_lat: 47.500312
+stop_lon: 19.054885
+stop_name: Szent István Bazilika
+---
 stop_id: 048535
 stop_lat: 47.552411
 stop_lon: 19.092452
@@ -3813,6 +5463,36 @@ stop_id: 048555
 stop_lat: 47.505601
 stop_lon: 19.046696
 stop_name: Kossuth Lajos tér M
+---
+stop_id: 048617
+stop_lat: 47.430937
+stop_lon: 19.109001
+stop_name: Pöltenberg utca
+---
+stop_id: 048618
+stop_lat: 47.434192
+stop_lon: 19.112053
+stop_name: Török Flóris utca
+---
+stop_id: 048660
+stop_lat: 47.441668
+stop_lon: 19.109808
+stop_name: Tátra tér
+---
+stop_id: 048661
+stop_lat: 47.437384
+stop_lon: 19.113622
+stop_name: Szent Imre herceg utca
+---
+stop_id: 048662
+stop_lat: 47.439748
+stop_lon: 19.117058
+stop_name: Szabótelep
+---
+stop_id: 048663
+stop_lat: 47.443996
+stop_lon: 19.111469
+stop_name: Kossuth Lajos utca
 ---
 stop_id: F00001
 stop_lat: 47.486079
@@ -4060,13 +5740,13 @@ stop_lon: 19.039328
 stop_name: Batthyány tér
 ---
 stop_id: F00062
-stop_lat: 47.506491
-stop_lon: 19.037191
+stop_lat: 47.506662
+stop_lon: 19.038532
 stop_name: Batthyány tér
 ---
 stop_id: F00063
-stop_lat: 47.506168
-stop_lon: 19.038558
+stop_lat: 47.506537
+stop_lon: 19.039116
 stop_name: Batthyány tér
 ---
 stop_id: F00064
@@ -4215,13 +5895,13 @@ stop_lon: 19.02739
 stop_name: Korlát utca
 ---
 stop_id: F00093
-stop_lat: 47.499905
-stop_lon: 19.02453
+stop_lat: 47.499896
+stop_lon: 19.024609
 stop_name: Déli pályaudvar
 ---
 stop_id: F00094
-stop_lat: 47.500757
-stop_lon: 19.024563
+stop_lat: 47.500724
+stop_lon: 19.02449
 stop_name: Déli pályaudvar
 ---
 stop_id: F00095
@@ -4473,6 +6153,16 @@ stop_id: F00144
 stop_lat: 47.515852
 stop_lon: 19.043781
 stop_name: Szigeti bejáró
+---
+stop_id: F00145
+stop_lat: 47.514728
+stop_lon: 19.043954
+stop_name: Margitsziget (szünetel)
+---
+stop_id: F00146
+stop_lat: 47.514629
+stop_lon: 19.043264
+stop_name: Margitsziget
 ---
 stop_id: F00147
 stop_lat: 47.519017
@@ -5142,7 +6832,7 @@ stop_name: Virág árok
 stop_id: F00283
 stop_lat: 47.519539
 stop_lon: 19.000428
-stop_name: Lotz Károly utca
+stop_name: Virág árok
 ---
 stop_id: F00284
 stop_lat: 47.516168
@@ -8005,13 +9695,13 @@ stop_lon: 19.085536
 stop_name: Tinódi utca
 ---
 stop_id: F00897
-stop_lat: 47.55949
-stop_lon: 19.080944
+stop_lat: 47.55943
+stop_lon: 19.080977
 stop_name: Újpest-Városkapu
 ---
 stop_id: F00898
-stop_lat: 47.559122
-stop_lon: 19.079456
+stop_lat: 47.559125
+stop_lon: 19.079449
 stop_name: Újpest-Városkapu
 ---
 stop_id: F00899
@@ -8075,13 +9765,13 @@ stop_lon: 19.089955
 stop_name: Újpest-Központ M (Szt. István tér)
 ---
 stop_id: F00912
-stop_lat: 47.560236
-stop_lon: 19.09113
+stop_lat: 47.560146
+stop_lon: 19.091117
 stop_name: Újpest-Központ
 ---
 stop_id: F00913
-stop_lat: 47.560504
-stop_lon: 19.089609
+stop_lat: 47.560552
+stop_lon: 19.089629
 stop_name: Újpest-Központ
 ---
 stop_id: F00914
@@ -8109,6 +9799,11 @@ stop_lat: 47.486862
 stop_lon: 19.056602
 stop_name: Fővám tér
 ---
+stop_id: F00920
+stop_lat: 47.487006
+stop_lon: 19.057093
+stop_name: Fővám tér
+---
 stop_id: F00921
 stop_lat: 47.486934
 stop_lon: 19.057226
@@ -8120,8 +9815,8 @@ stop_lon: 19.05781
 stop_name: Fővám tér
 ---
 stop_id: F00923
-stop_lat: 47.486916
-stop_lon: 19.057611
+stop_lat: 47.486892
+stop_lon: 19.057617
 stop_name: Fővám tér
 ---
 stop_id: F00924
@@ -8137,6 +9832,16 @@ stop_name: Jászai Mari tér
 stop_id: F00926
 stop_lat: 47.512884
 stop_lon: 19.048787
+stop_name: Jászai Mari tér
+---
+stop_id: F00927
+stop_lat: 47.512443
+stop_lon: 19.047698
+stop_name: Jászai Mari tér
+---
+stop_id: F00928
+stop_lat: 47.512869
+stop_lon: 19.047824
 stop_name: Jászai Mari tér
 ---
 stop_id: F00929
@@ -8175,13 +9880,13 @@ stop_lon: 19.056639
 stop_name: Nyugati pályaudvar M
 ---
 stop_id: F00936
-stop_lat: 47.511724
-stop_lon: 19.056805
+stop_lat: 47.511718
+stop_lon: 19.056746
 stop_name: Nyugati pályaudvar
 ---
 stop_id: F00937
-stop_lat: 47.510779
-stop_lon: 19.056088
+stop_lat: 47.5108
+stop_lon: 19.056015
 stop_name: Nyugati pályaudvar
 ---
 stop_id: F00938
@@ -8240,73 +9945,73 @@ stop_lon: 19.05507
 stop_name: Ferenciek tere M
 ---
 stop_id: F00952
-stop_lat: 47.492889
-stop_lon: 19.05598
+stop_lat: 47.492838
+stop_lon: 19.055906
 stop_name: Ferenciek tere
 ---
 stop_id: F00953
-stop_lat: 47.491947
-stop_lon: 19.056636
+stop_lat: 47.491983
+stop_lon: 19.056703
 stop_name: Ferenciek tere
 ---
 stop_id: F00954
-stop_lat: 47.498555
-stop_lon: 19.054587
+stop_lat: 47.498531
+stop_lon: 19.054527
 stop_name: Deák Ferenc tér
 ---
 stop_id: F00955
-stop_lat: 47.497557
-stop_lon: 19.054666
+stop_lat: 47.497578
+stop_lon: 19.05454
 stop_name: Deák Ferenc tér
 ---
 stop_id: F00956
-stop_lat: 47.503907
-stop_lon: 19.054627
+stop_lat: 47.503883
+stop_lon: 19.054594
 stop_name: Arany János utca
 ---
 stop_id: F00957
-stop_lat: 47.502954
-stop_lon: 19.054494
+stop_lat: 47.50293
+stop_lon: 19.054514
 stop_name: Arany János utca
 ---
 stop_id: F00958
-stop_lat: 47.505566
-stop_lon: 19.045886
+stop_lat: 47.505521
+stop_lon: 19.046072
 stop_name: Kossuth Lajos tér
 ---
 stop_id: F00959
-stop_lat: 47.505347
-stop_lon: 19.047207
+stop_lat: 47.505377
+stop_lon: 19.047267
 stop_name: Kossuth Lajos tér
 ---
 stop_id: F00960
-stop_lat: 47.49819
-stop_lon: 19.054301
+stop_lat: 47.498163
+stop_lon: 19.05377
 stop_name: Deák Ferenc tér
 ---
 stop_id: F00961
-stop_lat: 47.497476
-stop_lon: 19.054719
+stop_lat: 47.497551
+stop_lon: 19.053903
 stop_name: Deák Ferenc tér
 ---
 stop_id: F00962
-stop_lat: 47.497746
-stop_lon: 19.05391
+stop_lat: 47.497686
+stop_lon: 19.053452
 stop_name: Deák Ferenc tér
 ---
 stop_id: F00963
-stop_lat: 47.497656
-stop_lon: 19.054255
+stop_lat: 47.497641
+stop_lon: 19.05385
 stop_name: Deák Ferenc tér
 ---
 stop_id: F00964
-stop_lat: 47.496775
-stop_lon: 19.050592
+stop_lat: 47.496697
+stop_lon: 19.050253
 stop_name: Vörösmarty tér
 ---
 stop_id: F00965
-stop_lat: 47.496757
-stop_lon: 19.050817
+stop_lat: 47.496715
+stop_lon: 19.050625
 stop_name: Vörösmarty tér
 ---
 stop_id: F00966
@@ -8379,6 +10084,16 @@ stop_lat: 47.498987
 stop_lon: 19.05095
 stop_name: Hild tér
 ---
+stop_id: F00982
+stop_lat: 47.495344
+stop_lon: 19.052914
+stop_name: Szervita tér
+---
+stop_id: F00983
+stop_lat: 47.49243
+stop_lon: 19.056603
+stop_name: Ferenciek tere M
+---
 stop_id: F00985
 stop_lat: 47.497638
 stop_lon: 19.052981
@@ -8420,13 +10135,13 @@ stop_lon: 19.054056
 stop_name: Arany János utca M
 ---
 stop_id: F00996
-stop_lat: 47.49986
-stop_lon: 19.055171
+stop_lat: 47.499836
+stop_lon: 19.055177
 stop_name: Bajcsy-Zsilinszky út
 ---
 stop_id: F00997
-stop_lat: 47.499905
-stop_lon: 19.055609
+stop_lat: 47.499944
+stop_lon: 19.055708
 stop_name: Bajcsy-Zsilinszky út
 ---
 stop_id: F00999
@@ -8469,6 +10184,11 @@ stop_lat: 47.489983
 stop_lon: 19.061991
 stop_name: Kálvin tér M
 ---
+stop_id: F01011
+stop_lat: 47.489956
+stop_lon: 19.061234
+stop_name: Kálvin tér M
+---
 stop_id: F01012
 stop_lat: 47.494597
 stop_lon: 19.059749
@@ -8477,6 +10197,16 @@ stop_name: Astoria M
 stop_id: F01013
 stop_lat: 47.494097
 stop_lon: 19.060127
+stop_name: Astoria M
+---
+stop_id: F01014
+stop_lat: 47.493683
+stop_lon: 19.0601
+stop_name: Astoria M
+---
+stop_id: F01015
+stop_lat: 47.493962
+stop_lon: 19.060366
 stop_name: Astoria M
 ---
 stop_id: F01016
@@ -8490,13 +10220,13 @@ stop_lon: 19.060744
 stop_name: Astoria M
 ---
 stop_id: F01018
-stop_lat: 47.4943
-stop_lon: 19.060877
+stop_lat: 47.494366
+stop_lon: 19.060047
 stop_name: Astoria
 ---
 stop_id: F01019
-stop_lat: 47.494564
-stop_lon: 19.06233
+stop_lat: 47.494681
+stop_lon: 19.061746
 stop_name: Astoria
 ---
 stop_id: F01020
@@ -8785,13 +10515,13 @@ stop_lon: 19.059631
 stop_name: Opera M
 ---
 stop_id: F01079
-stop_lat: 47.502288
-stop_lon: 19.058848
+stop_lat: 47.502264
+stop_lon: 19.058815
 stop_name: Opera
 ---
 stop_id: F01080
-stop_lat: 47.50236
-stop_lon: 19.059207
+stop_lat: 47.502318
+stop_lon: 19.0592
 stop_name: Opera
 ---
 stop_id: F01081
@@ -8815,13 +10545,13 @@ stop_lon: 19.061769
 stop_name: Aradi utca
 ---
 stop_id: F01085
-stop_lat: 47.504995
-stop_lon: 19.062924
+stop_lat: 47.505025
+stop_lon: 19.062877
 stop_name: Oktogon
 ---
 stop_id: F01086
-stop_lat: 47.505076
-stop_lon: 19.063282
+stop_lat: 47.505016
+stop_lon: 19.063329
 stop_name: Oktogon
 ---
 stop_id: F01087
@@ -8850,13 +10580,13 @@ stop_lon: 19.067757
 stop_name: Andrássy út (Vörösmarty utca M)
 ---
 stop_id: F01092
-stop_lat: 47.507234
-stop_lon: 19.066257
+stop_lat: 47.50721
+stop_lon: 19.06625
 stop_name: Vörösmarty utca
 ---
 stop_id: F01093
-stop_lat: 47.507279
-stop_lon: 19.066562
+stop_lat: 47.507219
+stop_lon: 19.066582
 stop_name: Vörösmarty utca
 ---
 stop_id: F01094
@@ -8865,13 +10595,13 @@ stop_lon: 19.069616
 stop_name: Kodály körönd M
 ---
 stop_id: F01095
-stop_lat: 47.509248
-stop_lon: 19.069191
+stop_lat: 47.509225
+stop_lon: 19.069171
 stop_name: Kodály körönd
 ---
 stop_id: F01096
-stop_lat: 47.509275
-stop_lon: 19.069536
+stop_lat: 47.509224
+stop_lon: 19.069516
 stop_name: Kodály körönd
 ---
 stop_id: F01097
@@ -8890,23 +10620,23 @@ stop_lon: 19.071727
 stop_name: Bajza utca M
 ---
 stop_id: F01100
-stop_lat: 47.511344
-stop_lon: 19.072405
+stop_lat: 47.511338
+stop_lon: 19.072398
 stop_name: Bajza utca
 ---
 stop_id: F01101
-stop_lat: 47.511505
-stop_lon: 19.072883
+stop_lat: 47.511454
+stop_lon: 19.072889
 stop_name: Bajza utca
 ---
 stop_id: F01102
-stop_lat: 47.514095
-stop_lon: 19.076522
+stop_lat: 47.514089
+stop_lon: 19.076475
 stop_name: Hősök tere
 ---
 stop_id: F01103
-stop_lat: 47.514266
-stop_lon: 19.077093
+stop_lat: 47.514224
+stop_lon: 19.077112
 stop_name: Hősök tere
 ---
 stop_id: F01104
@@ -9162,7 +10892,7 @@ stop_name: Huszár utca
 stop_id: F01162
 stop_lat: 47.499217
 stop_lon: 19.078319
-stop_name: Berzsenyi utca
+stop_name: Huszár utca
 ---
 stop_id: F01163
 stop_lat: 47.497662
@@ -9172,6 +10902,11 @@ stop_name: Kiss József utca
 stop_id: F01164
 stop_lat: 47.496889
 stop_lon: 19.070049
+stop_name: Blaha Lujza tér M
+---
+stop_id: F01165
+stop_lat: 47.496821
+stop_lon: 19.069909
 stop_name: Blaha Lujza tér M
 ---
 stop_id: F01166
@@ -9234,6 +10969,16 @@ stop_lat: 47.488998
 stop_lon: 19.08118
 stop_name: Koszorú utca
 ---
+stop_id: F01178
+stop_lat: 47.488816
+stop_lon: 19.096115
+stop_name: Kőbányai út 21.
+---
+stop_id: F01179
+stop_lat: 47.488753
+stop_lon: 19.095823
+stop_name: Kőbányai út 21.
+---
 stop_id: F01180
 stop_lat: 47.488996
 stop_lon: 19.095797
@@ -9275,13 +11020,13 @@ stop_lon: 19.090549
 stop_name: Orczy tér
 ---
 stop_id: F01188
-stop_lat: 47.485601
-stop_lon: 19.070363
+stop_lat: 47.48555
+stop_lon: 19.070356
 stop_name: Corvin-negyed
 ---
 stop_id: F01189
-stop_lat: 47.485061
-stop_lon: 19.071756
+stop_lat: 47.485064
+stop_lon: 19.071789
 stop_name: Corvin-negyed
 ---
 stop_id: F01190
@@ -9409,6 +11154,16 @@ stop_lat: 47.492891
 stop_lon: 19.087247
 stop_name: Salgótarjáni utca
 ---
+stop_id: F01216
+stop_lat: 47.490114
+stop_lon: 19.090569
+stop_name: Orczy tér
+---
+stop_id: F01217
+stop_lat: 47.49033
+stop_lon: 19.090145
+stop_name: Orczy tér
+---
 stop_id: F01218
 stop_lat: 47.489229
 stop_lon: 19.092168
@@ -9470,13 +11225,13 @@ stop_lon: 19.092881
 stop_name: Golgota tér
 ---
 stop_id: F01232
-stop_lat: 47.483144
-stop_lon: 19.077832
+stop_lat: 47.483066
+stop_lon: 19.077812
 stop_name: Klinikák
 ---
 stop_id: F01233
-stop_lat: 47.482613
-stop_lon: 19.079212
+stop_lat: 47.482634
+stop_lon: 19.079258
 stop_name: Klinikák
 ---
 stop_id: F01234
@@ -9545,13 +11300,13 @@ stop_lon: 19.091274
 stop_name: Arena Plaza
 ---
 stop_id: F01252
-stop_lat: 47.479011
-stop_lon: 19.089771
+stop_lat: 47.478933
+stop_lon: 19.089724
 stop_name: Nagyvárad tér
 ---
 stop_id: F01253
-stop_lat: 47.478372
-stop_lon: 19.091071
+stop_lat: 47.478384
+stop_lon: 19.091117
 stop_name: Nagyvárad tér
 ---
 stop_id: F01256
@@ -9664,14 +11419,24 @@ stop_lat: 47.49005
 stop_lon: 19.105479
 stop_name: Asztalos Sándor út
 ---
+stop_id: F01280
+stop_lat: 47.491008
+stop_lon: 19.096575
+stop_name: 'MÁV, X. kapu'
+---
+stop_id: F01281
+stop_lat: 47.490894
+stop_lon: 19.09678
+stop_name: 'MÁV, X. kapu'
+---
 stop_id: F01282
-stop_lat: 47.475383
-stop_lon: 19.099214
+stop_lat: 47.475458
+stop_lon: 19.099367
 stop_name: Népliget
 ---
 stop_id: F01283
-stop_lat: 47.474842
-stop_lon: 19.10058
+stop_lat: 47.474719
+stop_lon: 19.100613
 stop_name: Népliget
 ---
 stop_id: F01284
@@ -9690,23 +11455,23 @@ stop_lon: 19.098863
 stop_name: Népliget M
 ---
 stop_id: F01289
-stop_lat: 47.490172
-stop_lon: 19.060624
+stop_lat: 47.490103
+stop_lon: 19.060617
 stop_name: Kálvin tér
 ---
 stop_id: F01290
-stop_lat: 47.48947
-stop_lon: 19.062177
+stop_lat: 47.489482
+stop_lon: 19.062236
 stop_name: Kálvin tér
 ---
 stop_id: F01291
-stop_lat: 47.496731
-stop_lon: 19.069113
+stop_lat: 47.496677
+stop_lon: 19.069139
 stop_name: Blaha Lujza tér
 ---
 stop_id: F01292
-stop_lat: 47.497105
-stop_lon: 19.07054
+stop_lat: 47.497117
+stop_lon: 19.07052
 stop_name: Blaha Lujza tér
 ---
 stop_id: F01293
@@ -9758,6 +11523,16 @@ stop_id: F01303
 stop_lat: 47.494603
 stop_lon: 19.076856
 stop_name: II. János Pál pápa tér
+---
+stop_id: F01307
+stop_lat: 47.496547
+stop_lon: 19.083221
+stop_name: Dologház utca
+---
+stop_id: F01308
+stop_lat: 47.496277
+stop_lon: 19.083686
+stop_name: Dologház utca
 ---
 stop_id: F01309
 stop_lat: 47.496499
@@ -9815,13 +11590,13 @@ stop_lon: 19.108119
 stop_name: Puskás Ferenc Stadion M
 ---
 stop_id: F01324
-stop_lat: 47.500206
-stop_lon: 19.105344
+stop_lat: 47.500128
+stop_lon: 19.105363
 stop_name: Puskás Ferenc Stadion
 ---
 stop_id: F01325
-stop_lat: 47.500277
-stop_lon: 19.106857
+stop_lat: 47.500253
+stop_lon: 19.106784
 stop_name: Puskás Ferenc Stadion
 ---
 stop_id: F01326
@@ -9870,13 +11645,13 @@ stop_lon: 19.091292
 stop_name: Orczy út
 ---
 stop_id: F01335
-stop_lat: 47.499819
-stop_lon: 19.081465
+stop_lat: 47.499741
+stop_lon: 19.081418
 stop_name: Keleti pályaudvar
 ---
 stop_id: F01336
-stop_lat: 47.499702
-stop_lon: 19.082792
+stop_lat: 47.499705
+stop_lon: 19.082746
 stop_name: Keleti pályaudvar
 ---
 stop_id: F01337
@@ -10038,6 +11813,11 @@ stop_id: F01371
 stop_lat: 47.454318
 stop_lon: 19.114299
 stop_name: Nagykőrösi út (Határ út)
+---
+stop_id: F01372
+stop_lat: 47.480708
+stop_lon: 19.067641
+stop_name: Boráros tér H
 ---
 stop_id: F01373
 stop_lat: 47.480118
@@ -10299,6 +12079,11 @@ stop_lat: 47.443291
 stop_lon: 19.093031
 stop_name: Szabadkai út
 ---
+stop_id: F01433
+stop_lat: 47.443762
+stop_lon: 19.093489
+stop_name: Szabadkai út
+---
 stop_id: F01434
 stop_lat: 47.444414
 stop_lon: 19.097235
@@ -10423,6 +12208,11 @@ stop_id: F01458
 stop_lat: 47.459756
 stop_lon: 19.12038
 stop_name: Mészáros Lőrinc utca
+---
+stop_id: F01459
+stop_lat: 47.46452
+stop_lon: 19.12625
+stop_name: Határ út M
 ---
 stop_id: F01460
 stop_lat: 47.464862
@@ -10575,13 +12365,13 @@ stop_lon: 19.099381
 stop_name: Péceli utca
 ---
 stop_id: F01493
-stop_lat: 47.471348
-stop_lon: 19.110142
+stop_lat: 47.471369
+stop_lon: 19.110201
 stop_name: Ecseri út
 ---
 stop_id: F01494
-stop_lat: 47.470744
-stop_lon: 19.111321
+stop_lat: 47.470675
+stop_lon: 19.111301
 stop_name: Ecseri út
 ---
 stop_id: F01495
@@ -10689,6 +12479,11 @@ stop_lat: 47.481212
 stop_lon: 19.065292
 stop_name: Boráros tér H (Közraktár utca)
 ---
+stop_id: F01517
+stop_lat: 47.480532
+stop_lon: 19.065498
+stop_name: Boráros tér H
+---
 stop_id: F01518
 stop_lat: 47.480223
 stop_lon: 19.065889
@@ -10780,23 +12575,23 @@ stop_lon: 19.126762
 stop_name: Kőér utca
 ---
 stop_id: F01541
-stop_lat: 47.465789
-stop_lon: 19.124965
+stop_lat: 47.465846
+stop_lon: 19.125369
 stop_name: Határ út
 ---
 stop_id: F01542
-stop_lat: 47.465357
-stop_lon: 19.125853
+stop_lat: 47.46553
+stop_lon: 19.126271
 stop_name: Határ út
 ---
 stop_id: F01543
-stop_lat: 47.464099
-stop_lon: 19.147259
+stop_lat: 47.463976
+stop_lon: 19.147199
 stop_name: Kőbánya-Kispest
 ---
 stop_id: F01544
-stop_lat: 47.463486
-stop_lon: 19.148837
+stop_lat: 47.463426
+stop_lon: 19.148843
 stop_name: Kőbánya-Kispest
 ---
 stop_id: F01545
@@ -11224,6 +13019,11 @@ stop_lat: 47.487814
 stop_lon: 19.129495
 stop_name: Halom utca
 ---
+stop_id: F01634
+stop_lat: 47.483519
+stop_lon: 19.127518
+stop_name: Kőbánya alsó vasútállomás
+---
 stop_id: F01635
 stop_lat: 47.483426
 stop_lon: 19.128095
@@ -11427,6 +13227,11 @@ stop_name: Maglódi út
 stop_id: F01679
 stop_lat: 47.482735
 stop_lon: 19.158732
+stop_name: Kada utca
+---
+stop_id: F01680
+stop_lat: 47.482501
+stop_lon: 19.158758
 stop_name: Kada utca
 ---
 stop_id: F01681
@@ -11725,13 +13530,13 @@ stop_lon: 19.120848
 stop_name: Pillangó utca M
 ---
 stop_id: F01742
-stop_lat: 47.501142
-stop_lon: 19.119069
+stop_lat: 47.501118
+stop_lon: 19.119076
 stop_name: Pillangó utca
 ---
 stop_id: F01743
-stop_lat: 47.501231
-stop_lon: 19.120477
+stop_lat: 47.501126
+stop_lon: 19.120523
 stop_name: Pillangó utca
 ---
 stop_id: F01744
@@ -12295,13 +14100,13 @@ stop_lon: 19.196129
 stop_name: Csillagvirág utca
 ---
 stop_id: F01878
-stop_lat: 47.468621
-stop_lon: 19.117016
+stop_lat: 47.468882
+stop_lon: 19.116844
 stop_name: Pöttyös utca
 ---
 stop_id: F01879
-stop_lat: 47.468279
-stop_lon: 19.117692
+stop_lat: 47.468333
+stop_lon: 19.117427
 stop_name: Pöttyös utca
 ---
 stop_id: F01880
@@ -13819,6 +15624,11 @@ stop_lat: 47.477544
 stop_lon: 19.046849
 stop_name: Móricz Zsigmond körtér
 ---
+stop_id: F02204
+stop_lat: 47.476482
+stop_lon: 19.0475
+stop_name: Móricz Zsigmond körtér
+---
 stop_id: F02210
 stop_lat: 47.465191
 stop_lon: 19.022549
@@ -14013,6 +15823,11 @@ stop_id: F02255
 stop_lat: 47.481933
 stop_lon: 19.038371
 stop_name: Ménesi út
+---
+stop_id: F02258
+stop_lat: 47.476869
+stop_lon: 19.047208
+stop_name: Móricz Zsigmond körtér
 ---
 stop_id: F02259
 stop_lat: 47.461938
@@ -15029,6 +16844,11 @@ stop_lat: 47.507053
 stop_lon: 19.023206
 stop_name: Széll Kálmán tér M (Várfok utca)
 ---
+stop_id: F02475
+stop_lat: 47.507233
+stop_lon: 19.0231
+stop_name: Széll Kálmán tér M (Várfok utca)
+---
 stop_id: F02476
 stop_lat: 47.507449
 stop_lon: 19.02444
@@ -15039,14 +16859,24 @@ stop_lat: 47.507332
 stop_lon: 19.025091
 stop_name: Széll Kálmán tér M
 ---
+stop_id: F02478
+stop_lat: 47.507272
+stop_lon: 19.02365
+stop_name: Széll Kálmán tér M
+---
+stop_id: F02479
+stop_lat: 47.507047
+stop_lon: 19.023889
+stop_name: Széll Kálmán tér M
+---
 stop_id: F02480
-stop_lat: 47.50735
-stop_lon: 19.025569
+stop_lat: 47.507137
+stop_lon: 19.02535
 stop_name: Széll Kálmán tér
 ---
 stop_id: F02481
-stop_lat: 47.507785
-stop_lon: 19.026624
+stop_lat: 47.507317
+stop_lon: 19.025695
 stop_name: Széll Kálmán tér
 ---
 stop_id: F02482
@@ -15519,6 +17349,11 @@ stop_lat: 47.532095
 stop_lon: 19.067952
 stop_name: Árpád híd M
 ---
+stop_id: F02582
+stop_lat: 47.531816
+stop_lon: 19.068323
+stop_name: 'Árpád híd M, tároló'
+---
 stop_id: F02583
 stop_lat: 47.531041
 stop_lon: 19.075335
@@ -15639,6 +17474,11 @@ stop_lat: 47.52383
 stop_lon: 19.05933
 stop_name: Vág utca
 ---
+stop_id: F02607
+stop_lat: 47.523833
+stop_lon: 19.064741
+stop_name: Dózsa György út M
+---
 stop_id: F02608
 stop_lat: 47.524819
 stop_lon: 19.062438
@@ -15665,13 +17505,13 @@ stop_lon: 19.060817
 stop_name: Váci út
 ---
 stop_id: F02613
-stop_lat: 47.51882
-stop_lon: 19.060923
+stop_lat: 47.518805
+stop_lon: 19.060863
 stop_name: Lehel tér
 ---
 stop_id: F02614
-stop_lat: 47.517714
-stop_lon: 19.060312
+stop_lat: 47.517681
+stop_lon: 19.060371
 stop_name: Lehel tér
 ---
 stop_id: F02615
@@ -15708,6 +17548,11 @@ stop_id: F02621
 stop_lat: 47.52099
 stop_lon: 19.069295
 stop_name: Dózsa György út
+---
+stop_id: F02622
+stop_lat: 47.520645
+stop_lon: 19.069674
+stop_name: Lehel utca
 ---
 stop_id: F02623
 stop_lat: 47.520474
@@ -15780,13 +17625,13 @@ stop_lon: 19.085934
 stop_name: Petneházy utca
 ---
 stop_id: F02637
-stop_lat: 47.533094
-stop_lon: 19.067009
+stop_lat: 47.533061
+stop_lon: 19.067108
 stop_name: Árpád híd
 ---
 stop_id: F02638
-stop_lat: 47.532087
-stop_lon: 19.066384
+stop_lat: 47.532126
+stop_lon: 19.066338
 stop_name: Árpád híd
 ---
 stop_id: F02639
@@ -15985,33 +17830,33 @@ stop_lon: 19.07
 stop_name: Forgách utca M
 ---
 stop_id: F02680
-stop_lat: 47.525314
-stop_lon: 19.06366
+stop_lat: 47.525272
+stop_lon: 19.063719
 stop_name: Dózsa György út
 ---
 stop_id: F02681
-stop_lat: 47.524397
-stop_lon: 19.063115
+stop_lat: 47.524382
+stop_lon: 19.063068
 stop_name: Dózsa György út
 ---
 stop_id: F02682
-stop_lat: 47.539803
-stop_lon: 19.069947
+stop_lat: 47.53977
+stop_lon: 19.070006
 stop_name: Forgách utca
 ---
 stop_id: F02683
-stop_lat: 47.538958
-stop_lon: 19.069349
+stop_lat: 47.538934
+stop_lon: 19.069276
 stop_name: Forgách utca
 ---
 stop_id: F02684
-stop_lat: 47.549562
-stop_lon: 19.073604
+stop_lat: 47.549511
+stop_lon: 19.073691
 stop_name: Gyöngyösi utca
 ---
 stop_id: F02685
-stop_lat: 47.548564
-stop_lon: 19.073019
+stop_lat: 47.548549
+stop_lon: 19.072959
 stop_name: Gyöngyösi utca
 ---
 stop_id: F02687
@@ -16055,13 +17900,13 @@ stop_lon: 19.081198
 stop_name: Széchenyi fürdő M
 ---
 stop_id: F02696
-stop_lat: 47.517548
-stop_lon: 19.080985
+stop_lat: 47.517524
+stop_lon: 19.080991
 stop_name: Széchenyi fürdő
 ---
 stop_id: F02697
-stop_lat: 47.51744
-stop_lon: 19.081277
+stop_lat: 47.51738
+stop_lon: 19.08127
 stop_name: Széchenyi fürdő
 ---
 stop_id: F02698
@@ -16799,6 +18644,11 @@ stop_lat: 47.535101
 stop_lon: 19.113151
 stop_name: Szuglói körvasút sor
 ---
+stop_id: F02856
+stop_lat: 47.534223
+stop_lon: 19.112187
+stop_name: Öv utca
+---
 stop_id: F02857
 stop_lat: 47.534382
 stop_lon: 19.112446
@@ -16814,6 +18664,11 @@ stop_lat: 47.534237
 stop_lon: 19.113203
 stop_name: Öv utca
 ---
+stop_id: F02860
+stop_lat: 47.528595
+stop_lon: 19.10712
+stop_name: Rákospatak utca
+---
 stop_id: F02861
 stop_lat: 47.529257
 stop_lon: 19.107553
@@ -16822,6 +18677,11 @@ stop_name: Rákospatak utca
 stop_id: F02863
 stop_lat: 47.528682
 stop_lon: 19.107127
+stop_name: Rákospatak utca
+---
+stop_id: F02864
+stop_lat: 47.529368
+stop_lon: 19.107653
 stop_name: Rákospatak utca
 ---
 stop_id: F02865
@@ -16848,6 +18708,16 @@ stop_id: F02869
 stop_lat: 47.522415
 stop_lon: 19.10238
 stop_name: Czobor utca (Erzsébet királyné útja)
+---
+stop_id: F02870
+stop_lat: 47.523344
+stop_lon: 19.102613
+stop_name: Nagy Lajos király útja
+---
+stop_id: F02871
+stop_lat: 47.522077
+stop_lon: 19.101058
+stop_name: Róna utca
 ---
 stop_id: F02873
 stop_lat: 47.514619
@@ -16884,6 +18754,11 @@ stop_lat: 47.519937
 stop_lon: 19.090533
 stop_name: Mexikói út M
 ---
+stop_id: F02883
+stop_lat: 47.519704
+stop_lon: 19.090573
+stop_name: Mexikói út M
+---
 stop_id: F02884
 stop_lat: 47.520009
 stop_lon: 19.091224
@@ -16900,14 +18775,19 @@ stop_lon: 19.09149
 stop_name: Mexikói út M
 ---
 stop_id: F02887
-stop_lat: 47.519614
-stop_lon: 19.090533
+stop_lat: 47.519653
+stop_lon: 19.090513
 stop_name: Mexikói út
 ---
 stop_id: F02888
-stop_lat: 47.519631
-stop_lon: 19.090998
+stop_lat: 47.519401
+stop_lon: 19.091017
 stop_name: Mexikói út
+---
+stop_id: F02890
+stop_lat: 47.519443
+stop_lon: 19.090705
+stop_name: Mexikói út M
 ---
 stop_id: F02891
 stop_lat: 47.518346
@@ -16994,9 +18874,19 @@ stop_lat: 47.532521
 stop_lon: 19.110585
 stop_name: Miskolci utca
 ---
+stop_id: F02910
+stop_lat: 47.532155
+stop_lon: 19.110431
+stop_name: Miskolci utca
+---
 stop_id: F02911
 stop_lat: 47.532233
 stop_lon: 19.110452
+stop_name: Miskolci utca
+---
+stop_id: F02912
+stop_lat: 47.532668
+stop_lon: 19.110737
 stop_name: Miskolci utca
 ---
 stop_id: F02913
@@ -17169,6 +19059,16 @@ stop_lat: 47.525841
 stop_lon: 19.104681
 stop_name: Fűrész utca
 ---
+stop_id: F02949
+stop_lat: 47.525733
+stop_lon: 19.104468
+stop_name: Fűrész utca
+---
+stop_id: F02950
+stop_lat: 47.525754
+stop_lon: 19.104674
+stop_name: Fűrész utca
+---
 stop_id: F02951
 stop_lat: 47.527691
 stop_lon: 19.098859
@@ -17222,6 +19122,16 @@ stop_name: Laky Adolf utca
 stop_id: F02963
 stop_lat: 47.519917
 stop_lon: 19.09769
+stop_name: Laky Adolf utca
+---
+stop_id: F02964
+stop_lat: 47.519569
+stop_lon: 19.097364
+stop_name: Laky Adolf utca
+---
+stop_id: F02965
+stop_lat: 47.520009
+stop_lon: 19.097829
 stop_name: Laky Adolf utca
 ---
 stop_id: F02966
@@ -17512,7 +19422,7 @@ stop_name: Csobogós utca
 stop_id: F03026
 stop_lat: 47.568796
 stop_lon: 19.126297
-stop_name: Csobogós utca
+stop_name: 'Rákospalota, Kossuth utca'
 ---
 stop_id: F03027
 stop_lat: 47.568077
@@ -17562,12 +19472,12 @@ stop_name: 'Kossuth utca, lakótelep'
 stop_id: F03036
 stop_lat: 47.564514
 stop_lon: 19.127473
-stop_name: Kazinczy utca
+stop_name: Juhos utca
 ---
 stop_id: F03037
 stop_lat: 47.564998
 stop_lon: 19.128962
-stop_name: Csillagos köz
+stop_name: Juhos utca
 ---
 stop_id: F03038
 stop_lat: 47.562276
@@ -17577,7 +19487,7 @@ stop_name: Epres sor
 stop_id: F03039
 stop_lat: 47.561827
 stop_lon: 19.123416
-stop_name: Cserba Elemér út
+stop_name: Epres sor
 ---
 stop_id: F03040
 stop_lat: 47.562151
@@ -17787,7 +19697,7 @@ stop_name: Patyolat utca
 stop_id: F03082
 stop_lat: 47.545664
 stop_lon: 19.11252
-stop_name: Rákos út
+stop_name: Széchenyi út
 ---
 stop_id: F03083
 stop_lat: 47.545301
@@ -18387,6 +20297,16 @@ stop_name: Tóth István utca
 stop_id: F03206
 stop_lat: 47.537926
 stop_lon: 19.116641
+stop_name: Tóth István utca
+---
+stop_id: F03207
+stop_lat: 47.53789
+stop_lon: 19.116641
+stop_name: Tóth István utca
+---
+stop_id: F03208
+stop_lat: 47.538313
+stop_lon: 19.117014
 stop_name: Tóth István utca
 ---
 stop_id: F03209
@@ -19654,6 +21574,11 @@ stop_lat: 47.492191
 stop_lon: 19.259772
 stop_name: XVII. utca
 ---
+stop_id: F03467
+stop_lat: 47.492275
+stop_lon: 19.260164
+stop_name: XVII. utca
+---
 stop_id: F03468
 stop_lat: 47.491983
 stop_lon: 19.2607
@@ -20309,6 +22234,21 @@ stop_lat: 47.479838
 stop_lon: 19.256804
 stop_name: Városközpont (Ferihegyi út)
 ---
+stop_id: F03616
+stop_lat: 47.479552
+stop_lon: 19.255927
+stop_name: 'Rákoskeresztúr, városközpont'
+---
+stop_id: F03617
+stop_lat: 47.479706
+stop_lon: 19.255238
+stop_name: 'Rákoskeresztúr, városközpont'
+---
+stop_id: F03618
+stop_lat: 47.479795
+stop_lon: 19.255384
+stop_name: 'Rákoskeresztúr, városközpont'
+---
 stop_id: F03620
 stop_lat: 47.433409
 stop_lon: 19.174378
@@ -20663,6 +22603,11 @@ stop_id: F03698
 stop_lat: 47.452142
 stop_lon: 19.19509
 stop_name: Fedezék utca
+---
+stop_id: F03699
+stop_lat: 47.452165
+stop_lon: 19.195362
+stop_name: 'Pestszentlőrinc, Fedezék utca'
 ---
 stop_id: F03700
 stop_lat: 47.44743
@@ -21577,17 +23522,17 @@ stop_name: Karton utca
 stop_id: F03892
 stop_lat: 47.432303
 stop_lon: 19.165534
-stop_name: Csiky utca
+stop_name: Csíky utca
 ---
 stop_id: F03893
 stop_lat: 47.432005
 stop_lon: 19.16609
-stop_name: Csiky utca
+stop_name: Csíky utca
 ---
 stop_id: F03894
 stop_lat: 47.432491
 stop_lon: 19.165918
-stop_name: Csiky utca
+stop_name: Csíky utca
 ---
 stop_id: F03895
 stop_lat: 47.443945
@@ -21783,6 +23728,16 @@ stop_id: F03934
 stop_lat: 47.459824
 stop_lon: 19.139493
 stop_name: Lehel utca
+---
+stop_id: F03935
+stop_lat: 47.461921
+stop_lon: 19.148383
+stop_name: Kőbánya-Kispest M
+---
+stop_id: F03936
+stop_lat: 47.461984
+stop_lon: 19.1489
+stop_name: Kőbánya-Kispest M
 ---
 stop_id: F03940
 stop_lat: 47.461947
@@ -22099,6 +24054,11 @@ stop_lat: 47.458764
 stop_lon: 19.158709
 stop_name: Bocskai utca
 ---
+stop_id: F04008
+stop_lat: 47.462749
+stop_lon: 19.148517
+stop_name: Kőbánya-Kispest M
+---
 stop_id: F04014
 stop_lat: 47.464582
 stop_lon: 19.127337
@@ -22384,6 +24344,11 @@ stop_lat: 47.425381
 stop_lon: 19.128923
 stop_name: Előd utca
 ---
+stop_id: F04076
+stop_lat: 47.418471
+stop_lon: 19.117422
+stop_name: Előd utca
+---
 stop_id: F04077
 stop_lat: 47.41929
 stop_lon: 19.116774
@@ -22393,6 +24358,11 @@ stop_id: F04078
 stop_lat: 47.420503
 stop_lon: 19.119439
 stop_name: Előd utca
+---
+stop_id: F04079
+stop_lat: 47.419891
+stop_lon: 19.120432
+stop_name: Vörösmarty utca
 ---
 stop_id: F04080
 stop_lat: 47.421235
@@ -22520,8 +24490,8 @@ stop_lon: 19.116701
 stop_name: Szabótelep
 ---
 stop_id: F04107
-stop_lat: 47.438576
-stop_lon: 19.115274
+stop_lat: 47.438552
+stop_lon: 19.11528
 stop_name: Vécsey utca
 ---
 stop_id: F04108
@@ -22859,6 +24829,11 @@ stop_lat: 47.44893
 stop_lon: 19.113576
 stop_name: Szigligeti utca
 ---
+stop_id: F04175
+stop_lat: 47.423787
+stop_lon: 19.131757
+stop_name: Jahn Ferenc Kórház
+---
 stop_id: F04176
 stop_lat: 47.423616
 stop_lon: 19.131982
@@ -23099,6 +25074,11 @@ stop_lat: 47.401289
 stop_lon: 19.103184
 stop_name: Ladik utca
 ---
+stop_id: F04225
+stop_lat: 47.398691
+stop_lon: 19.106222
+stop_name: 'Csepel, Soroksári rév'
+---
 stop_id: F04226
 stop_lat: 47.398248
 stop_lon: 19.105923
@@ -23314,6 +25294,11 @@ stop_lat: 47.425624
 stop_lon: 19.063008
 stop_name: Mansfeld Péter utca
 ---
+stop_id: F04270
+stop_lat: 47.422521
+stop_lon: 19.061284
+stop_name: Csepeli Kórház
+---
 stop_id: F04272
 stop_lat: 47.421147
 stop_lon: 19.06581
@@ -23328,6 +25313,11 @@ stop_id: F04274
 stop_lat: 47.412168
 stop_lon: 19.057373
 stop_name: Vas Gereben utca
+---
+stop_id: F04275
+stop_lat: 47.409991
+stop_lon: 19.060367
+stop_name: 'Csepel, Csillagtelep'
 ---
 stop_id: F04276
 stop_lat: 47.410162
@@ -23880,8 +25870,8 @@ stop_lon: 19.001454
 stop_name: Memento Park
 ---
 stop_id: F04395
-stop_lat: 47.430627
-stop_lon: 19.005493
+stop_lat: 47.430603
+stop_lon: 19.005499
 stop_name: Balatoni út (Háros utca)
 ---
 stop_id: F04396
@@ -24852,7 +26842,7 @@ stop_name: Vecsés-nyugat
 stop_id: F04598
 stop_lat: 47.429363
 stop_lon: 19.26379
-stop_name: 'Repülőtér, E porta'
+stop_name: 'Repülőtér, P+R'
 ---
 stop_id: F04599
 stop_lat: 47.432768
@@ -25292,12 +27282,12 @@ stop_name: Pomáz
 stop_id: F04692
 stop_lat: 47.621692
 stop_lon: 19.046912
-stop_name: 'Budakalász, lenfonó'
+stop_name: 'Budakalász, Lenfonó'
 ---
 stop_id: F04693
 stop_lat: 47.621839
 stop_lon: 19.046599
-stop_name: 'Budakalász, lenfonó'
+stop_name: 'Budakalász, Lenfonó'
 ---
 stop_id: F04694
 stop_lat: 47.616133
@@ -25748,6 +27738,11 @@ stop_id: F04788
 stop_lat: 47.50704
 stop_lon: 18.921361
 stop_name: 'Budakeszi, Dózsa György tér'
+---
+stop_id: F04789
+stop_lat: 47.507052
+stop_lon: 18.921473
+stop_name: 'Budakeszi, Táncsics Mihály utca'
 ---
 stop_id: F04790
 stop_lat: 47.507355

@@ -13,20 +13,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0580-0-1-H320
     stop_times:
-      - ['11:40:00', '009577',      0] # Savoya Park
-      - ['11:42:00', 'F04383',    966] # Leányka utcai lakótelep
-      - ['11:43:00', 'F04402',   1422] # Savoyai Jenő tér
-      - ['11:44:00', 'F04403',   1714] # Városház tér
-      - ['11:45:00', 'F04408',   2278] # Tóth József utca
-      - ['11:47:00', 'F04411',   2776] # Kereszt utca
-      - ['11:48:00', 'F04412',   2925] # Budafoki temető
-      - ['11:49:00', 'F04415',   3253] # Víg utca
-      - ['11:50:00', 'F04416',   3679] # Bocskai utca
-      - ['11:50:00', 'F04424',   4017] # Bem József utca
-      - ['11:51:00', 'F04426',   4285] # Kazinczy utca
-      - ['11:52:00', 'F04427',   4613] # Karácsony utca
-      - ['11:53:00', 'F04429',   5092] # Liszt Ferenc út
-      - ['11:54:00', 'F04395',   5509] # Balatoni út (Háros utca)
+      - ['00:00:00', '009577',      0] # Savoya Park
+      - ['00:02:00', 'F04383',    966] # Leányka utcai lakótelep
+      - ['00:03:00', 'F04402',   1422] # Savoyai Jenő tér
+      - ['00:05:00', 'F04403',   1714] # Városház tér
+      - ['00:06:00', 'F04408',   2278] # Tóth József utca
+      - ['00:08:00', 'F04411',   2776] # Kereszt utca
+      - ['00:09:00', 'F04412',   2925] # Budafoki temető
+      - ['00:10:00', 'F04415',   3253] # Víg utca
+      - ['00:11:00', 'F04416',   3679] # Bocskai utca
+      - ['00:12:00', 'F04424',   4017] # Bem József utca
+      - ['00:13:00', 'F04426',   4285] # Kazinczy utca
+      - ['00:14:00', 'F04427',   4613] # Karácsony utca
+      - ['00:15:00', 'F04429',   5092] # Liszt Ferenc út
+      - ['00:16:00', 'F04395',   5509] # Balatoni út (Háros utca)
     trip_headsign: Balatoni út (Háros utca)
     trip_id: REFERENCE-0580-0-1
     wheelchair_accessible: 2
@@ -34,20 +34,20 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0580-1-1-H319
     stop_times:
-      - ['06:37:00', 'F04395',      0] # Balatoni út (Háros utca)
-      - ['06:38:00', 'F04430',    318] # Liszt Ferenc út
-      - ['06:39:00', 'F04428',    802] # Szondi utca
-      - ['06:40:00', 'F04425',   1104] # Kazinczy utca
-      - ['06:41:00', 'F04423',   1410] # Arató utca
-      - ['06:42:00', 'F04417',   1744] # Lőcsei utca
-      - ['06:43:00', 'F04414',   2161] # Promontor utca
-      - ['06:44:00', 'F04413',   2423] # Mező utca
-      - ['06:45:00', 'F04410',   2936] # Komló utca
-      - ['06:46:00', 'F04409',   3398] # Nagytétényi út
-      - ['06:48:00', 'F04406',   4079] # Városház tér
-      - ['06:49:00', 'F04398',   4419] # Savoyai Jenő tér
-      - ['06:51:00', 'F04384',   4741] # Leányka utcai lakótelep
-      - ['06:54:00', '009577',   6349] # Savoya Park
+      - ['00:00:00', 'F04395',      0] # Balatoni út (Háros utca)
+      - ['00:01:00', 'F04430',    318] # Liszt Ferenc út
+      - ['00:01:00', 'F04428',    802] # Szondi utca
+      - ['00:02:00', 'F04425',   1104] # Kazinczy utca
+      - ['00:03:00', 'F04423',   1410] # Arató utca
+      - ['00:04:00', 'F04417',   1744] # Lőcsei utca
+      - ['00:05:00', 'F04414',   2161] # Promontor utca
+      - ['00:06:00', 'F04413',   2423] # Mező utca
+      - ['00:07:00', 'F04410',   2936] # Komló utca
+      - ['00:08:00', 'F04409',   3398] # Nagytétényi út
+      - ['00:10:00', 'F04406',   4079] # Városház tér
+      - ['00:11:00', 'F04398',   4419] # Savoyai Jenő tér
+      - ['00:12:00', 'F04384',   4741] # Leányka utcai lakótelep
+      - ['00:15:00', '009577',   6349] # Savoya Park
     trip_headsign: Savoya Park
     trip_id: REFERENCE-0580-1-1
     wheelchair_accessible: 2

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 333333
-route_desc: Móricz Zsigmond körtér / Cinkotai autóbuszgarázs
+route_desc: Móricz Zsigmond körtér (Villányi út) / Cinkotai autóbuszgarázs
 route_id: 9080
 route_long_name: ''
 route_short_name: 908
@@ -13,78 +13,78 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9080-0-1-Q590
     stop_times:
-      - ['24:06:00', 'F02199',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['24:08:00', 'F02183',    728] # Kosztolányi Dezső tér
-      - ['24:10:00', '009427',   1488] # Kelenföldi autóbuszgarázs
-      - ['24:10:00', 'F02049',   1808] # Hungária Biztosító
-      - ['24:12:00', 'F02053',   2528] # Dayka Gábor utca
-      - ['24:13:00', 'F01926',   2993] # Sasadi út
-      - ['24:14:00', 'F01928',   3448] # Nagyszeben út
-      - ['24:15:00', 'F01931',   3925] # Gazdagréti út
-      - ['24:16:00', 'F02055',   4444] # Nagyszeben tér
-      - ['24:17:00', 'F02243',   4712] # Regős köz
-      - ['24:17:00', 'F02058',   5029] # Törökugrató utca
-      - ['24:18:00', 'F02060',   5296] # Torbágy utca
-      - ['24:19:00', 'F02072',   5533] # Tűzkő utca
-      - ['24:20:00', 'F02073',   6074] # Baradla utca
-      - ['24:21:00', 'F02075',   6394] # Törökbálinti út
-      - ['24:21:00', 'F02077',   6657] # Oltvány utca
-      - ['24:22:00', 'F02079',   7054] # Eper utca
-      - ['24:25:00', 'F02085',   7610] # Márton Áron tér
-      - ['24:26:00', 'F02096',   8073] # Süveg utca
-      - ['24:26:00', 'F02103',   8392] # Farkasréti temető
-      - ['24:27:00', 'F02104',   8668] # Hegytető utca
-      - ['24:28:00', '008560',   8945] # Korompai utca
-      - ['24:28:00', 'F02106',   9182] # Sion lépcső
-      - ['24:29:00', 'F02109',   9629] # Breznó lépcső
-      - ['24:30:00', 'F02111',   9899] # Zólyomi út
-      - ['24:31:00', 'F02112',  10305] # BAH-csomópont (Hegyalja út)
-      - ['24:36:00', 'F02168',  10553] # BAH-csomópont (felüljáró)
-      - ['24:37:00', 'F00004',  10950] # Avar utca
-      - ['24:38:00', 'F00009',  11336] # Sánc utca
-      - ['24:40:00', 'F00110',  12060] # Döbrentei tér
-      - ['24:42:00', 'F00951',  12928] # Ferenciek tere M
-      - ['24:48:00', 'F01016',  13412] # Astoria M
-      - ['24:49:00', 'F01170',  13752] # Uránia
-      - ['24:50:00', 'F01164',  14148] # Blaha Lujza tér M
-      - ['24:52:00', 'F01162',  14823] # Berzsenyi utca
-      - ['24:53:00', '009161',  15242] # Keleti pályaudvar M (Kerepesi út)
-      - ['24:54:00', 'F01251',  15805] # Arena Plaza
-      - ['24:55:00', 'F01183',  16224] # Gumigyár
-      - ['24:57:00', 'F01321',  17182] # Puskás Ferenc Stadion M (Hungária körút)
-      - ['24:58:00', 'F01738',  17693] # Várna utca
-      - ['24:59:00', 'F02929',  18006] # Pillangó utca
-      - ['25:00:00', 'F02747',  18473] # Róna utca
-      - ['25:01:00', 'F02931',  18770] # Kaffka Margit utca
-      - ['25:02:00', 'F02751',  18957] # Pongrátz Gergely tér
-      - ['25:03:00', 'F02754',  19563] # Bánki Donát utca
-      - ['25:05:00', '008942',  20027] # Örs vezér tere M+H
-      - ['25:05:00', 'F01771',  20458] # Gyakorló köz
-      - ['25:06:00', 'F01855',  20738] # Gépmadár park
-      - ['25:07:00', 'F01791',  21043] # Rákosfalva H
-      - ['25:09:00', 'F01776',  21648] # Egyenes utcai lakótelep
-      - ['25:10:00', 'F01777',  22246] # Nagyicce H
-      - ['25:11:00', 'F03274',  22581] # Lándzsa utca
-      - ['25:12:00', 'F03241',  23150] # Sashalom H
-      - ['25:13:00', 'F03235',  23662] # Fuvallat utca
-      - ['25:14:00', 'F03393',  24128] # Jókai Mór utca (Rendőrség)
-      - ['25:14:00', 'F03309',  24351] # Mátyásföld, repülőtér H
-      - ['25:16:00', 'F03396',  24869] # Mátyásföld, Imre utca H
-      - ['25:16:00', 'F03324',  25072] # Bökényföldi út
-      - ['25:17:00', 'F03321',  25394] # Hunyadvár utca
-      - ['25:18:00', 'F03317',  25848] # Újszász utca
-      - ['25:19:00', 'F03383',  26233] # Papír utca
-      - ['25:20:00', 'F03384',  26570] # Farkashalom utca
-      - ['25:21:00', 'F03325',  26869] # Anilin utca
-      - ['25:22:00', 'F03387',  27320] # Cinke utca
-      - ['25:24:00', '044125',  27874] # Cinkota H
-      - ['25:26:00', '008775',  28810] # Ilonatelep H
-      - ['25:26:00', 'F03332',  29021] # Ilonatelep H (Georgina utca)
-      - ['25:28:00', 'F03330',  29524] # Cinkota, Lassú utca
-      - ['25:28:00', 'F03328',  29864] # Georgina utca
-      - ['25:30:00', 'F03335',  30536] # Simongát utca
-      - ['25:33:00', 'F03337',  31652] # Erdei bekötőút
-      - ['25:36:00', '008181',  32782] # Cinkotai autóbuszgarázs
+      - ['00:00:00', 'F02199',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02183',    728] # Kosztolányi Dezső tér
+      - ['00:04:00', '009427',   1488] # Kelenföldi autóbuszgarázs
+      - ['00:04:00', 'F02049',   1808] # Hungária Biztosító
+      - ['00:06:00', 'F02053',   2528] # Dayka Gábor utca
+      - ['00:07:00', 'F01926',   2993] # Sasadi út
+      - ['00:08:00', 'F01928',   3448] # Nagyszeben út
+      - ['00:09:00', 'F01931',   3925] # Gazdagréti út
+      - ['00:10:00', 'F02055',   4444] # Nagyszeben tér
+      - ['00:11:00', 'F02243',   4712] # Regős köz
+      - ['00:11:00', 'F02058',   5029] # Törökugrató utca
+      - ['00:12:00', 'F02060',   5296] # Torbágy utca
+      - ['00:13:00', 'F02072',   5533] # Tűzkő utca
+      - ['00:14:00', 'F02073',   6074] # Baradla utca
+      - ['00:15:00', 'F02075',   6394] # Törökbálinti út
+      - ['00:15:00', 'F02077',   6657] # Oltvány utca
+      - ['00:16:00', 'F02079',   7054] # Eper utca
+      - ['00:19:00', 'F02085',   7610] # Márton Áron tér
+      - ['00:20:00', 'F02096',   8073] # Süveg utca
+      - ['00:20:00', 'F02103',   8392] # Farkasréti temető
+      - ['00:21:00', 'F02104',   8668] # Hegytető utca
+      - ['00:22:00', '008560',   8945] # Korompai utca
+      - ['00:22:00', 'F02106',   9182] # Sion lépcső
+      - ['00:23:00', 'F02109',   9629] # Breznó lépcső
+      - ['00:24:00', 'F02111',   9899] # Zólyomi út
+      - ['00:25:00', 'F02112',  10305] # BAH-csomópont (Hegyalja út)
+      - ['00:30:00', 'F02168',  10553] # BAH-csomópont (felüljáró)
+      - ['00:31:00', 'F00004',  10950] # Avar utca
+      - ['00:32:00', 'F00009',  11336] # Sánc utca
+      - ['00:34:00', 'F00110',  12060] # Döbrentei tér
+      - ['00:36:00', 'F00951',  12928] # Ferenciek tere M
+      - ['00:42:00', 'F01016',  13412] # Astoria M
+      - ['00:43:00', 'F01170',  13752] # Uránia
+      - ['00:44:00', 'F01164',  14148] # Blaha Lujza tér M
+      - ['00:46:00', 'F01162',  14823] # Berzsenyi utca
+      - ['00:47:00', '009161',  15242] # Keleti pályaudvar M (Kerepesi út)
+      - ['00:48:00', 'F01251',  15805] # Arena Plaza
+      - ['00:49:00', 'F01183',  16224] # Gumigyár
+      - ['00:51:00', 'F01321',  17182] # Puskás Ferenc Stadion M (Hungária körút)
+      - ['00:52:00', 'F01738',  17693] # Várna utca
+      - ['00:53:00', 'F02929',  18006] # Pillangó utca
+      - ['00:54:00', 'F02747',  18473] # Róna utca
+      - ['00:55:00', 'F02931',  18770] # Kaffka Margit utca
+      - ['00:56:00', 'F02751',  18957] # Pongrátz Gergely tér
+      - ['00:57:00', 'F02754',  19563] # Bánki Donát utca
+      - ['00:59:00', '008942',  20027] # Örs vezér tere M+H
+      - ['00:59:00', 'F01771',  20458] # Gyakorló köz
+      - ['01:00:00', 'F01855',  20738] # Gépmadár park
+      - ['01:01:00', 'F01791',  21043] # Rákosfalva H
+      - ['01:03:00', 'F01776',  21648] # Egyenes utcai lakótelep
+      - ['01:04:00', 'F01777',  22246] # Nagyicce H
+      - ['01:05:00', 'F03274',  22581] # Lándzsa utca
+      - ['01:06:00', 'F03241',  23150] # Sashalom H
+      - ['01:07:00', 'F03235',  23662] # Fuvallat utca
+      - ['01:08:00', 'F03393',  24128] # Jókai Mór utca (Rendőrség)
+      - ['01:08:00', 'F03309',  24351] # Mátyásföld, repülőtér H
+      - ['01:10:00', 'F03396',  24869] # Mátyásföld, Imre utca H
+      - ['01:10:00', 'F03324',  25072] # Bökényföldi út
+      - ['01:11:00', 'F03321',  25394] # Hunyadvár utca
+      - ['01:12:00', 'F03317',  25848] # Újszász utca
+      - ['01:13:00', 'F03383',  26233] # Papír utca
+      - ['01:14:00', 'F03384',  26570] # Farkashalom utca
+      - ['01:15:00', 'F03325',  26869] # Anilin utca
+      - ['01:16:00', 'F03387',  27320] # Cinke utca
+      - ['01:18:00', '044125',  27874] # Cinkota H
+      - ['01:20:00', '008775',  28810] # Ilonatelep H
+      - ['01:20:00', 'F03332',  29021] # Ilonatelep H (Georgina utca)
+      - ['01:22:00', 'F03330',  29524] # Cinkota, Lassú utca
+      - ['01:22:00', 'F03328',  29864] # Georgina utca
+      - ['01:24:00', 'F03335',  30536] # Simongát utca
+      - ['01:27:00', 'F03337',  31652] # Erdei bekötőút
+      - ['01:30:00', '008181',  32782] # Cinkotai autóbuszgarázs
     trip_headsign: Cinkotai autóbuszgarázs
     trip_id: REFERENCE-9080-0-1
     wheelchair_accessible: 2
@@ -92,79 +92,79 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9080-1-1-Q591
     stop_times:
-      - ['25:26:00', 'F03289',      0] # Cinkotai autóbuszgarázs
-      - ['25:28:00', 'F03338',   1075] # Erdei bekötőút
-      - ['25:31:00', 'F03336',   2119] # Nagytarcsai út
-      - ['25:33:00', 'F03329',   2834] # Batthyány Ilona utca
-      - ['25:34:00', 'F03331',   3215] # Rózsalevél utca
-      - ['25:35:00', 'F03333',   3623] # Ilonatelep H
-      - ['25:36:00', 'F03398',   4208] # Műkő utca
-      - ['25:38:00', '008920',   4818] # Cinkota H
-      - ['25:39:00', 'F03386',   5524] # Cinke utca
-      - ['25:40:00', 'F03326',   6068] # Anilin utca
-      - ['25:41:00', 'F03385',   6320] # Farkashalom utca
-      - ['25:41:00', 'F03382',   6612] # Papír utca
-      - ['25:42:00', 'F03319',   6970] # Bökényföldi út
-      - ['25:44:00', 'F03320',   7525] # Hunyadvár utca
-      - ['25:44:00', 'F03323',   7774] # Veres Péter út
-      - ['25:45:00', 'F03397',   7976] # Mátyásföld, Imre utca H
-      - ['25:46:00', 'F03308',   8557] # Mátyásföld, repülőtér H
-      - ['25:46:00', 'F03392',   8879] # Jókai Mór utca (Rendőrség)
-      - ['25:47:00', 'F03236',   9184] # Fuvallat utca
-      - ['25:47:00', 'F03243',   9591] # Sashalom H
-      - ['25:49:00', 'F03275',  10152] # Thököly út
-      - ['25:49:00', 'F01778',  10604] # Nagyicce H
-      - ['25:50:00', 'F01775',  11225] # Egyenes utcai lakótelep
-      - ['25:52:00', 'F01790',  11808] # Rákosfalva H
-      - ['25:53:00', 'F01854',  12206] # Gépmadár park
-      - ['25:53:00', 'F01772',  12513] # Sarkantyú utca
-      - ['25:55:00', 'F01756',  13058] # Örs vezér tere - Zugló M+H
-      - ['25:56:00', 'F02970',  13416] # Tihamér utca
-      - ['25:57:00', 'F02752',  13809] # Pongrátz Gergely tér
-      - ['25:57:00', 'F02930',  14098] # Kaffka Margit utca
-      - ['25:58:00', 'F02746',  14398] # Róna utca
-      - ['25:59:00', 'F02928',  14874] # Pillangó utca
-      - ['26:00:00', 'F01737',  15175] # Várna utca
-      - ['26:01:00', 'F01735',  15452] # Őrnagy utca
-      - ['26:02:00', '008545',  15857] # Puskás Ferenc Stadion M
-      - ['26:04:00', 'F01182',  16705] # Gumigyár
-      - ['26:05:00', 'F01250',  17156] # Arena Plaza
-      - ['26:07:00', '009162',  17682] # Keleti pályaudvar M
-      - ['26:08:00', 'F01161',  18140] # Huszár utca
-      - ['26:09:00', 'F01166',  18642] # Blaha Lujza tér M
-      - ['26:11:00', 'F01171',  19174] # Uránia
-      - ['26:16:00', 'F01017',  19520] # Astoria M
-      - ['26:17:00', 'F01004',  19842] # Ferenciek tere M
-      - ['26:19:00', 'F00113',  20543] # Erzsébet híd, budai hídfő
-      - ['26:21:00', 'F00008',  21460] # Sánc utca
-      - ['26:22:00', 'F00005',  21804] # Mészáros utca
-      - ['26:26:00', 'F02164',  22436] # BAH-csomópont (Kongresszusi Kp.)
-      - ['26:27:00', 'F02110',  22931] # Zólyomi út
-      - ['26:27:00', 'F02108',  23227] # Breznó lépcső
-      - ['26:28:00', 'F02107',  23547] # Vas Gereben utca
-      - ['26:29:00', '008559',  23885] # Korompai utca
-      - ['26:30:00', 'F02105',  24086] # Lejtő út
-      - ['26:30:00', 'F02102',  24385] # Farkasréti temető
-      - ['26:31:00', 'F02098',  24738] # Süveg utca
-      - ['26:33:00', 'F02084',  25222] # Márton Áron tér
-      - ['26:33:00', 'F02080',  25713] # Edvi Illés út
-      - ['26:34:00', 'F02078',  26083] # Oltvány köz
-      - ['26:35:00', 'F02076',  26390] # Irhás árok
-      - ['26:35:00', 'F02074',  26661] # Nagyida utca
-      - ['26:37:00', 'F02071',  27304] # Tűzkő utca
-      - ['26:37:00', 'F02059',  27617] # Torbágy utca
-      - ['26:38:00', 'F02057',  27815] # Törökugrató utca
-      - ['26:38:00', 'F02242',  28138] # Regős köz
-      - ['26:39:00', 'F02056',  28402] # Nagyszeben tér
-      - ['26:41:00', 'F01929',  29151] # Neszmélyi út
-      - ['26:43:00', 'F01927',  29975] # Sasadi út
-      - ['26:44:00', 'F02054',  30410] # Dayka Gábor utca
-      - ['26:45:00', 'F02050',  31080] # Hungária Biztosító
-      - ['26:46:00', 'F02221',  31522] # Kelenföldi autóbuszgarázs
-      - ['26:47:00', '009412',  31807] # Bartók Béla út
-      - ['26:48:00', 'F02176',  32457] # Kosztolányi Dezső tér
-      - ['26:49:00', 'F02192',  32941] # Móricz Zsigmond körtér
-      - ['26:51:00', 'F02199',  33155] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', 'F03289',      0] # Cinkotai autóbuszgarázs
+      - ['00:02:00', 'F03338',   1075] # Erdei bekötőút
+      - ['00:05:00', 'F03336',   2119] # Nagytarcsai út
+      - ['00:07:00', 'F03329',   2834] # Batthyány Ilona utca
+      - ['00:08:00', 'F03331',   3215] # Rózsalevél utca
+      - ['00:09:00', 'F03333',   3623] # Ilonatelep H
+      - ['00:10:00', 'F03398',   4208] # Műkő utca
+      - ['00:12:00', '008920',   4818] # Cinkota H
+      - ['00:13:00', 'F03386',   5524] # Cinke utca
+      - ['00:14:00', 'F03326',   6068] # Anilin utca
+      - ['00:15:00', 'F03385',   6320] # Farkashalom utca
+      - ['00:15:00', 'F03382',   6612] # Papír utca
+      - ['00:16:00', 'F03319',   6970] # Bökényföldi út
+      - ['00:18:00', 'F03320',   7525] # Hunyadvár utca
+      - ['00:18:00', 'F03323',   7774] # Veres Péter út
+      - ['00:19:00', 'F03397',   7976] # Mátyásföld, Imre utca H
+      - ['00:20:00', 'F03308',   8557] # Mátyásföld, repülőtér H
+      - ['00:20:00', 'F03392',   8879] # Jókai Mór utca (Rendőrség)
+      - ['00:21:00', 'F03236',   9184] # Fuvallat utca
+      - ['00:21:00', 'F03243',   9591] # Sashalom H
+      - ['00:23:00', 'F03275',  10152] # Thököly út
+      - ['00:23:00', 'F01778',  10604] # Nagyicce H
+      - ['00:24:00', 'F01775',  11225] # Egyenes utcai lakótelep
+      - ['00:26:00', 'F01790',  11808] # Rákosfalva H
+      - ['00:27:00', 'F01854',  12206] # Gépmadár park
+      - ['00:27:00', 'F01772',  12513] # Sarkantyú utca
+      - ['00:29:00', 'F01756',  13058] # Örs vezér tere - Zugló M+H
+      - ['00:30:00', 'F02970',  13416] # Tihamér utca
+      - ['00:31:00', 'F02752',  13809] # Pongrátz Gergely tér
+      - ['00:31:00', 'F02930',  14098] # Kaffka Margit utca
+      - ['00:32:00', 'F02746',  14398] # Róna utca
+      - ['00:33:00', 'F02928',  14874] # Pillangó utca
+      - ['00:34:00', 'F01737',  15175] # Várna utca
+      - ['00:35:00', 'F01735',  15452] # Őrnagy utca
+      - ['00:36:00', '008545',  15857] # Puskás Ferenc Stadion M
+      - ['00:38:00', 'F01182',  16705] # Gumigyár
+      - ['00:39:00', 'F01250',  17156] # Arena Plaza
+      - ['00:41:00', '009162',  17682] # Keleti pályaudvar M
+      - ['00:42:00', 'F01161',  18140] # Huszár utca
+      - ['00:43:00', 'F01166',  18642] # Blaha Lujza tér M
+      - ['00:45:00', 'F01171',  19174] # Uránia
+      - ['00:50:00', 'F01017',  19520] # Astoria M
+      - ['00:51:00', 'F01004',  19842] # Ferenciek tere M
+      - ['00:53:00', 'F00113',  20543] # Erzsébet híd, budai hídfő
+      - ['00:55:00', 'F00008',  21460] # Sánc utca
+      - ['00:56:00', 'F00005',  21804] # Mészáros utca
+      - ['01:00:00', 'F02164',  22436] # BAH-csomópont (Kongresszusi Kp.)
+      - ['01:01:00', 'F02110',  22931] # Zólyomi út
+      - ['01:01:00', 'F02108',  23227] # Breznó lépcső
+      - ['01:02:00', 'F02107',  23547] # Vas Gereben utca
+      - ['01:03:00', '008559',  23885] # Korompai utca
+      - ['01:04:00', 'F02105',  24086] # Lejtő út
+      - ['01:04:00', 'F02102',  24385] # Farkasréti temető
+      - ['01:05:00', 'F02098',  24738] # Süveg utca
+      - ['01:07:00', 'F02084',  25222] # Márton Áron tér
+      - ['01:07:00', 'F02080',  25713] # Edvi Illés út
+      - ['01:08:00', 'F02078',  26083] # Oltvány köz
+      - ['01:09:00', 'F02076',  26390] # Irhás árok
+      - ['01:09:00', 'F02074',  26661] # Nagyida utca
+      - ['01:11:00', 'F02071',  27304] # Tűzkő utca
+      - ['01:11:00', 'F02059',  27617] # Torbágy utca
+      - ['01:12:00', 'F02057',  27815] # Törökugrató utca
+      - ['01:12:00', 'F02242',  28138] # Regős köz
+      - ['01:13:00', 'F02056',  28402] # Nagyszeben tér
+      - ['01:15:00', 'F01929',  29151] # Neszmélyi út
+      - ['01:17:00', 'F01927',  29975] # Sasadi út
+      - ['01:18:00', 'F02054',  30410] # Dayka Gábor utca
+      - ['01:19:00', 'F02050',  31080] # Hungária Biztosító
+      - ['01:20:00', 'F02221',  31522] # Kelenföldi autóbuszgarázs
+      - ['01:21:00', '009412',  31807] # Bartók Béla út
+      - ['01:22:00', 'F02176',  32457] # Kosztolányi Dezső tér
+      - ['01:23:00', 'F02192',  32941] # Móricz Zsigmond körtér
+      - ['01:25:00', 'F02199',  33155] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-9080-1-1
     wheelchair_accessible: 2

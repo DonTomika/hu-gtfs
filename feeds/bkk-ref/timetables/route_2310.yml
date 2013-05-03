@@ -13,65 +13,65 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2310-0-1-G845
     stop_times:
-      - ['22:37:00', 'F02756',      0] # Örs vezér tere M+H
-      - ['22:39:00', 'F02773',   1114] # Vezér utca
-      - ['22:40:00', 'F02932',   1453] # Tihamér utca
-      - ['22:41:00', 'F02787',   1729] # Fogarasi út
-      - ['22:42:00', 'F02783',   2063] # Fischer István utca
-      - ['22:45:00', 'F03276',   3211] # Pálya utca
-      - ['22:45:00', 'F03369',   3563] # Baross utca
-      - ['22:46:00', 'F02992',   4016] # Rákospalotai határút
-      - ['22:48:00', 'F03142',   4497] # Késmárk utca
-      - ['22:48:00', 'F03197',   4812] # Késmárk utca 20.
-      - ['22:49:00', 'F03199',   5260] # Fázis utca
-      - ['22:50:00', 'F03140',   5754] # Nyírpalota út
-      - ['22:51:00', 'F03134',   6105] # Thököly út
-      - ['22:51:00', 'F03099',   6508] # Sztárai Mihály tér
-      - ['22:53:00', 'F03104',   7111] # Vasutastelep utca
-      - ['22:53:00', 'F03189',   7347] # Wesselényi utca
-      - ['22:54:00', 'F03108',   7764] # Szerencs utca
-      - ['22:56:00', 'F03129',   8502] # Rákospalotai köztemető
-      - ['22:57:00', 'F03064',   8817] # Pöltenberg Ernő utca
-      - ['22:58:00', 'F03063',   9390] # Fazekas sor
-      - ['22:59:00', 'F03041',   9850] # Cserba Elemér út
-      - ['23:00:00', 'F03042',  10220] # Telek utca
-      - ['23:01:00', 'F03043',  10429] # Rákosmező utca 39.
-      - ['23:02:00', 'F03037',  10948] # Csillagos köz
-      - ['23:03:00', 'F03035',  11235] # Kossuth utca, lakótelep
-      - ['23:04:00', 'F03029',  11636] # Rákospalota, Kossuth utca
-      - ['23:05:00', 'F03045',  12032] # Széchenyi tér
-      - ['23:06:00', 'F03047',  12211] # Rákospalota, Széchenyi tér
+      - ['00:00:00', 'F02756',      0] # Örs vezér tere M+H
+      - ['00:02:00', 'F02773',   1114] # Vezér utca
+      - ['00:03:00', 'F02932',   1453] # Tihamér utca
+      - ['00:04:00', 'F02787',   1729] # Fogarasi út
+      - ['00:05:00', 'F02783',   2063] # Fischer István utca
+      - ['00:08:00', 'F03276',   3211] # Pálya utca
+      - ['00:08:00', 'F03369',   3563] # Baross utca
+      - ['00:09:00', 'F02992',   4016] # Rákospalotai határút
+      - ['00:11:00', 'F03142',   4497] # Késmárk utca
+      - ['00:11:00', 'F03197',   4812] # Késmárk utca 20.
+      - ['00:12:00', 'F03199',   5260] # Fázis utca
+      - ['00:13:00', 'F03140',   5754] # Nyírpalota út
+      - ['00:14:00', 'F03134',   6105] # Thököly út
+      - ['00:15:00', 'F03099',   6508] # Sztárai Mihály tér
+      - ['00:17:00', 'F03104',   7111] # Vasutastelep utca
+      - ['00:17:00', 'F03189',   7347] # Wesselényi utca
+      - ['00:18:00', 'F03108',   7764] # Szerencs utca
+      - ['00:20:00', 'F03129',   8502] # Rákospalotai köztemető
+      - ['00:21:00', 'F03064',   8817] # Pöltenberg Ernő utca
+      - ['00:23:00', 'F03063',   9390] # Fazekas sor
+      - ['00:24:00', 'F03041',   9850] # Cserba Elemér út
+      - ['00:25:00', 'F03042',  10220] # Telek utca
+      - ['00:25:00', 'F03043',  10429] # Rákosmező utca 39.
+      - ['00:27:00', 'F03037',  10948] # Csillagos köz
+      - ['00:28:00', 'F03035',  11235] # Kossuth utca, lakótelep
+      - ['00:29:00', 'F03029',  11636] # Rákospalota, Kossuth utca
+      - ['00:30:00', 'F03045',  12032] # Széchenyi tér
+      - ['00:31:00', 'F03047',  12211] # Rákospalota, Széchenyi tér
     trip_headsign: 'Rákospalota, Széchenyi tér'
     trip_id: REFERENCE-2310-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2310-1-1-G844
     stop_times:
-      - ['18:12:00', 'F03047',      0] # Rákospalota, Széchenyi tér
-      - ['18:12:00', 'F03040',    227] # Régi Fóti út
-      - ['18:14:00', 'F03060',    631] # Szentmihályi út
-      - ['18:15:00', 'F03062',   1052] # Bezerédj Pál utca
-      - ['18:16:00', 'F03065',   1638] # Aulich Lajos utca
-      - ['18:17:00', 'F03127',   1868] # Rákospalotai köztemető
-      - ['18:18:00', 'F03109',   2709] # Szerencs utca
-      - ['18:19:00', 'F03190',   3032] # Wesselényi utca
-      - ['18:20:00', 'F03177',   3365] # Kolozsvár utca
-      - ['18:21:00', 'F03098',   3823] # Sztárai Mihály tér
-      - ['18:22:00', 'F03135',   4282] # Thököly út
-      - ['18:23:00', 'F03141',   4536] # Késmárk utca
-      - ['18:24:00', 'F03200',   5084] # Fázis utca
-      - ['18:25:00', 'F03198',   5338] # Késmárk utca 9.
-      - ['18:26:00', 'F03143',   5724] # Késmárk utca 11.
-      - ['18:27:00', 'F02991',   6063] # Rigó utca
-      - ['18:28:00', 'F02993',   6527] # Pálya utca
-      - ['18:28:00', 'F03370',   6661] # Baross utca
-      - ['18:29:00', 'F03278',   6982] # Csömöri út
-      - ['18:32:00', 'F02784',   8309] # Fischer István utca
-      - ['18:33:00', 'F02788',   8630] # Fogarasi út
-      - ['18:34:00', 'F02933',   8882] # Tihamér utca
-      - ['18:35:00', 'F02774',   9224] # Füredi utca
-      - ['18:37:00', 'F02757',  10040] # Örs vezér tere M+H
+      - ['00:00:00', 'F03047',      0] # Rákospalota, Széchenyi tér
+      - ['00:00:00', 'F03040',    227] # Régi Fóti út
+      - ['00:02:00', 'F03060',    631] # Szentmihályi út
+      - ['00:02:00', 'F03062',   1052] # Bezerédj Pál utca
+      - ['00:04:00', 'F03065',   1638] # Aulich Lajos utca
+      - ['00:04:00', 'F03127',   1868] # Rákospalotai köztemető
+      - ['00:06:00', 'F03109',   2709] # Szerencs utca
+      - ['00:07:00', 'F03190',   3032] # Wesselényi utca
+      - ['00:07:00', 'F03177',   3365] # Kolozsvár utca
+      - ['00:08:00', 'F03098',   3823] # Sztárai Mihály tér
+      - ['00:09:00', 'F03135',   4282] # Thököly út
+      - ['00:10:00', 'F03141',   4536] # Késmárk utca
+      - ['00:11:00', 'F03200',   5084] # Fázis utca
+      - ['00:12:00', 'F03198',   5338] # Késmárk utca 9.
+      - ['00:13:00', 'F03143',   5724] # Késmárk utca 11.
+      - ['00:14:00', 'F02991',   6063] # Rigó utca
+      - ['00:15:00', 'F02993',   6527] # Pálya utca
+      - ['00:15:00', 'F03370',   6661] # Baross utca
+      - ['00:16:00', 'F03278',   6982] # Csömöri út
+      - ['00:19:00', 'F02784',   8309] # Fischer István utca
+      - ['00:20:00', 'F02788',   8630] # Fogarasi út
+      - ['00:21:00', 'F02933',   8882] # Tihamér utca
+      - ['00:22:00', 'F02774',   9224] # Füredi utca
+      - ['00:24:00', 'F02757',  10040] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-2310-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

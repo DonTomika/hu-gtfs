@@ -13,42 +13,42 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1060-0-1-S579
     stop_times:
-      - ['14:33:00', 'F02580',      0] # Árpád híd M
-      - ['14:34:00', 'F02602',    216] # Árpád híd M (Váci út)
-      - ['14:35:00', 'F02525',    761] # Népfürdő utca
-      - ['14:36:00', 'F02503',   1219] # Szigeti bejáró
-      - ['14:37:00', 'F00627',   1866] # Szentlélek tér H
-      - ['14:38:00', 'F00611',   2457] # Flórián tér
-      - ['14:40:00', 'F00581',   2683] # Raktár utca
-      - ['14:41:00', 'F00576',   3272] # Bogdáni út
-      - ['14:43:00', 'F00508',   4062] # Kaszásdűlő H
-      - ['14:45:00', 'F00505',   4571] # Záhony utca
-      - ['14:46:00', 'F00504',   4945] # Sujtás utca
-      - ['14:48:00', 'F00666',   5552] # Aquincum H
-      - ['14:50:00', 'F00485',   5836] # Római tér
-      - ['14:51:00', 'F00486',   6395] # Monostori út
-      - ['14:53:00', 'F00502',   6863] # Kadosa utca
-      - ['14:54:00', '007879',   7188] # Római úti lakótelep, Varsa utca
+      - ['00:00:00', 'F02580',      0] # Árpád híd M
+      - ['00:01:00', 'F02602',    216] # Árpád híd M (Váci út)
+      - ['00:02:00', 'F02525',    761] # Népfürdő utca
+      - ['00:03:00', 'F02503',   1219] # Szigeti bejáró
+      - ['00:04:00', 'F00627',   1866] # Szentlélek tér H
+      - ['00:05:00', 'F00611',   2457] # Flórián tér
+      - ['00:06:00', 'F00581',   2683] # Raktár utca
+      - ['00:07:00', 'F00576',   3272] # Bogdáni út
+      - ['00:08:00', 'F00508',   4062] # Kaszásdűlő H
+      - ['00:09:00', 'F00505',   4571] # Záhony utca
+      - ['00:11:00', 'F00504',   4945] # Sujtás utca
+      - ['00:12:00', 'F00666',   5552] # Aquincum H
+      - ['00:13:00', 'F00485',   5836] # Római tér
+      - ['00:14:00', 'F00486',   6395] # Monostori út
+      - ['00:16:00', 'F00502',   6863] # Kadosa utca
+      - ['00:17:00', '007879',   7188] # Római úti lakótelep, Varsa utca
     trip_headsign: 'Római úti lakótelep, Varsa utca'
     trip_id: REFERENCE-1060-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
-    shape_id: REFERENCE-1060-1-1-S580
+    shape_id: REFERENCE-1060-1-1-7623
     stop_times:
-      - ['15:41:00', '007879',      0] # Római úti lakótelep, Varsa utca
-      - ['15:42:00', 'F00664',    291] # Nánási út
-      - ['15:43:00', 'F00665',    634] # Silvanus sétány
-      - ['15:44:00', 'F00499',   1146] # Pók utca
-      - ['15:45:00', 'F00668',   1789] # Aquincum H
-      - ['15:47:00', 'F00507',   2448] # Záhony utca
-      - ['15:49:00', 'F00509',   2951] # Kaszásdűlő H
-      - ['15:51:00', 'F00577',   3875] # Bogdáni út
-      - ['15:52:00', 'F00582',   4255] # Raktár utca
-      - ['15:54:00', 'F00628',   5126] # Szentlélek tér H
-      - ['15:55:00', 'F02502',   5831] # Szigeti bejáró
-      - ['15:56:00', 'F02526',   6239] # Népfürdő utca
-      - ['15:59:00', 'F02580',   7216] # Árpád híd M
+      - ['00:00:00', '007879',      0] # Római úti lakótelep, Varsa utca
+      - ['00:01:00', 'F00664',    291] # Nánási út
+      - ['00:02:00', 'F00665',    634] # Silvanus sétány
+      - ['00:03:00', 'F00499',   1146] # Pók utca
+      - ['00:04:00', 'F00668',   1789] # Aquincum H
+      - ['00:06:00', 'F00507',   2448] # Záhony utca
+      - ['00:08:00', 'F00509',   2951] # Kaszásdűlő H
+      - ['00:10:00', 'F00577',   3875] # Bogdáni út
+      - ['00:12:00', 'F00582',   4255] # Raktár utca
+      - ['00:14:00', 'F00628',   5126] # Szentlélek tér H
+      - ['00:15:00', 'F02502',   5831] # Szigeti bejáró
+      - ['00:16:00', 'F02526',   6239] # Népfürdő utca
+      - ['00:19:00', 'F02580',   7216] # Árpád híd M
     trip_headsign: Árpád híd M
     trip_id: REFERENCE-1060-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

@@ -13,25 +13,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2825-0-1-N981
     stop_times:
-      - ['07:53:00', '038680',      0] # Kőbánya-Kispest M
-      - ['07:57:00', 'F01545',   2742] # Felsőcsatári út
-      - ['08:02:00', 'F03700',   4839] # Lőrinci temető
-      - ['08:03:00', 'F03705',   5434] # Regény utca
-      - ['08:04:00', 'F03720',   5740] # Szarvas csárda tér
-      - ['08:05:00', 'F03684',   6077] # Wlassics Gyula utca
-      - ['08:05:00', 'F03686',   6306] # Dobozi utca
-      - ['08:06:00', 'F03634',   6517] # Varjú utca
-      - ['08:07:00', 'F03638',   6953] # Gilice tér
-      - ['08:08:00', 'F03857',   7285] # Sas utca
-      - ['08:09:00', 'F03640',   7637] # Dalmady Győző utca
-      - ['08:10:00', 'F03816',   7999] # Gyékény tér
-      - ['08:11:00', 'F03877',   8225] # Olt utca
-      - ['08:12:00', 'F03865',   8661] # Nagyenyed utca
-      - ['08:13:00', 'F03863',   9044] # Tarkő utca
-      - ['08:14:00', 'F03850',   9480] # Királyhágó út
-      - ['08:15:00', 'F03798',   9950] # Kétújfalu utca
-      - ['08:16:00', '022005',  10341] # Tölgy utca
-      - ['08:17:00', 'F03861',  10993] # Alacskai úti lakótelep
+      - ['00:00:00', '038680',      0] # Kőbánya-Kispest M
+      - ['00:04:00', 'F01545',   2742] # Felsőcsatári út
+      - ['00:07:00', 'F03700',   4839] # Lőrinci temető
+      - ['00:08:00', 'F03705',   5434] # Regény utca
+      - ['00:09:00', 'F03720',   5740] # Szarvas csárda tér
+      - ['00:10:00', 'F03684',   6077] # Wlassics Gyula utca
+      - ['00:10:00', 'F03686',   6306] # Dobozi utca
+      - ['00:11:00', 'F03634',   6517] # Varjú utca
+      - ['00:12:00', 'F03638',   6953] # Gilice tér
+      - ['00:13:00', 'F03857',   7285] # Sas utca
+      - ['00:14:00', 'F03640',   7637] # Dalmady Győző utca
+      - ['00:15:00', 'F03816',   7999] # Gyékény tér
+      - ['00:16:00', 'F03877',   8225] # Olt utca
+      - ['00:17:00', 'F03865',   8661] # Nagyenyed utca
+      - ['00:18:00', 'F03863',   9044] # Tarkő utca
+      - ['00:19:00', 'F03850',   9480] # Királyhágó út
+      - ['00:20:00', 'F03798',   9950] # Kétújfalu utca
+      - ['00:21:00', '022005',  10341] # Tölgy utca
+      - ['00:22:00', 'F03861',  10993] # Alacskai úti lakótelep
     trip_headsign: Alacskai úti lakótelep
     trip_id: REFERENCE-2825-0-1
     wheelchair_accessible: 2
@@ -39,26 +39,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2825-1-1-N982
     stop_times:
-      - ['18:35:00', 'F03861',      0] # Alacskai úti lakótelep
-      - ['18:36:00', 'F03799',    652] # Alacskai út
-      - ['18:37:00', '008904',   1027] # Kétújfalu utca
-      - ['18:38:00', 'F03849',   1355] # Halomi út
-      - ['18:39:00', 'F03864',   1850] # Tarkő utca
-      - ['18:40:00', 'F03866',   2249] # Nagyenyed utca
-      - ['18:40:00', 'F03878',   2632] # Olt utca
-      - ['18:41:00', 'F03817',   2900] # Gyékény tér
-      - ['18:42:00', 'F03639',   3250] # Dalmady Győző utca
-      - ['18:43:00', 'F03858',   3671] # Sas utca
-      - ['18:44:00', 'F03637',   3984] # Gilice tér
-      - ['18:45:00', 'F03633',   4352] # Varjú utca
-      - ['18:46:00', 'F03685',   4558] # Dobozi utca
-      - ['18:46:00', 'F03683',   4768] # Wlassics Gyula utca
-      - ['18:47:00', 'F03721',   5171] # Szarvas csárda tér
-      - ['18:48:00', 'F03706',   5574] # Regény utca
-      - ['18:49:00', 'F03702',   6032] # Lőrinci temető
-      - ['18:55:00', 'F01870',   8567] # Felsőcsatári út
-      - ['18:58:00', '009592',  11063] # Kőbánya-Kispest M
-      - ['19:00:00', '038674',  11590] # Kőbánya-Kispest M
+      - ['00:00:00', 'F03861',      0] # Alacskai úti lakótelep
+      - ['00:01:00', 'F03799',    652] # Alacskai út
+      - ['00:02:00', '008904',   1027] # Kétújfalu utca
+      - ['00:03:00', 'F03849',   1355] # Halomi út
+      - ['00:04:00', 'F03864',   1850] # Tarkő utca
+      - ['00:05:00', 'F03866',   2249] # Nagyenyed utca
+      - ['00:06:00', 'F03878',   2632] # Olt utca
+      - ['00:07:00', 'F03817',   2900] # Gyékény tér
+      - ['00:08:00', 'F03639',   3250] # Dalmady Győző utca
+      - ['00:09:00', 'F03858',   3671] # Sas utca
+      - ['00:10:00', 'F03637',   3984] # Gilice tér
+      - ['00:11:00', 'F03633',   4352] # Varjú utca
+      - ['00:12:00', 'F03685',   4558] # Dobozi utca
+      - ['00:12:00', 'F03683',   4768] # Wlassics Gyula utca
+      - ['00:13:00', 'F03721',   5171] # Szarvas csárda tér
+      - ['00:14:00', 'F03706',   5574] # Regény utca
+      - ['00:15:00', 'F03702',   6032] # Lőrinci temető
+      - ['00:21:00', 'F01870',   8567] # Felsőcsatári út
+      - ['00:25:00', '009592',  11063] # Kőbánya-Kispest M
+      - ['00:27:00', '038674',  11590] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-2825-1-1
     wheelchair_accessible: 2

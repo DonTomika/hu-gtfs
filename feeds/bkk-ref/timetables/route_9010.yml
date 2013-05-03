@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 333333
-route_desc: Bécsi út (Vörösvári út) / Közvágóhíd
+route_desc: Közvágóhíd H / Vörösvári út
 route_id: 9010
 route_long_name: ''
 route_short_name: 901
@@ -13,36 +13,36 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9010-0-1-T895
     stop_times:
-      - ['27:54:00', 'F01403',      0] # Közvágóhíd H
-      - ['27:57:00', 'F01509',   1339] # Mester utca
-      - ['27:57:00', 'F01505',   1616] # Ferencváros vasútállomás
-      - ['27:59:00', 'F01501',   2371] # Gyáli út
-      - ['28:00:00', 'F01256',   2734] # Népliget M
-      - ['28:01:00', 'F01262',   3402] # Vajda Péter utca
-      - ['28:03:00', 'F01269',   3963] # Kőbányai út
-      - ['28:04:00', 'F01273',   4550] # Hidegkuti Nándor Stadion
-      - ['28:05:00', 'F01276',   4883] # Ciprus utca
-      - ['28:07:00', 'F01326',   5198] # Hős utca
-      - ['28:08:00', 'F01320',   5645] # Puskás Ferenc Stadion M
-      - ['28:10:00', 'F02739',   6395] # Egressy út
-      - ['28:12:00', 'F02729',   7013] # Zugló vasútállomás
-      - ['28:13:00', 'F02977',   7510] # Ajtósi Dürer sor
-      - ['28:14:00', 'F02921',   7719] # Erzsébet királyné útja
-      - ['28:15:00', 'F02891',   8084] # Kacsóh Pongrác út
-      - ['28:16:00', 'F02634',   9036] # Reitter Ferenc utca
-      - ['28:18:00', 'F02594',   9368] # Róbert Károly körút (Lehel utca)
-      - ['28:19:00', 'F02641',   9960] # Honvédkórház
-      - ['28:20:00', 'F02580',  10369] # Árpád híd M
-      - ['28:22:00', 'F02525',  11125] # Népfürdő utca
-      - ['28:23:00', 'F02503',  11583] # Szigeti bejáró
-      - ['28:24:00', 'F00627',  12230] # Szentlélek tér H
-      - ['28:25:00', 'F00611',  12821] # Flórián tér
-      - ['28:27:00', 'F00583',  13399] # Raktár utca
-      - ['28:28:00', 'F00613',  13870] # Flórián tér
-      - ['28:29:00', 'F00588',  14249] # Vihar utca
-      - ['28:31:00', 'F00584',  14707] # Óbudai rendelőintézet
-      - ['28:32:00', 'F00680',  15149] # Bécsi út (Vörösvári út)
-      - ['28:33:00', 'F00570',  15515] # Vörösvári út
+      - ['00:00:00', 'F01403',      0] # Közvágóhíd H
+      - ['00:03:00', 'F01509',   1339] # Mester utca
+      - ['00:03:00', 'F01505',   1616] # Ferencváros vasútállomás
+      - ['00:05:00', 'F01501',   2371] # Gyáli út
+      - ['00:06:00', 'F01256',   2734] # Népliget M
+      - ['00:07:00', 'F01262',   3402] # Vajda Péter utca
+      - ['00:09:00', 'F01269',   3963] # Kőbányai út
+      - ['00:10:00', 'F01273',   4550] # Hidegkuti Nándor Stadion
+      - ['00:11:00', 'F01276',   4883] # Ciprus utca
+      - ['00:13:00', 'F01326',   5198] # Hős utca
+      - ['00:14:00', 'F01320',   5645] # Puskás Ferenc Stadion M
+      - ['00:16:00', 'F02739',   6395] # Egressy út
+      - ['00:18:00', 'F02729',   7013] # Zugló vasútállomás
+      - ['00:19:00', 'F02977',   7510] # Ajtósi Dürer sor
+      - ['00:20:00', 'F02921',   7719] # Erzsébet királyné útja
+      - ['00:21:00', 'F02891',   8084] # Kacsóh Pongrác út
+      - ['00:22:00', 'F02634',   9036] # Reitter Ferenc utca
+      - ['00:24:00', 'F02594',   9368] # Róbert Károly körút (Lehel utca)
+      - ['00:25:00', 'F02641',   9960] # Honvédkórház
+      - ['00:26:00', 'F02580',  10369] # Árpád híd M
+      - ['00:28:00', 'F02525',  11125] # Népfürdő utca
+      - ['00:29:00', 'F02503',  11583] # Szigeti bejáró
+      - ['00:30:00', 'F00627',  12230] # Szentlélek tér H
+      - ['00:31:00', 'F00611',  12821] # Flórián tér
+      - ['00:33:00', 'F00583',  13399] # Raktár utca
+      - ['00:34:00', 'F00613',  13870] # Flórián tér
+      - ['00:35:00', 'F00588',  14249] # Vihar utca
+      - ['00:37:00', 'F00584',  14707] # Óbudai rendelőintézet
+      - ['00:38:00', 'F00680',  15149] # Bécsi út (Vörösvári út)
+      - ['00:39:00', 'F00570',  15515] # Vörösvári út
     trip_headsign: Bécsi út (Vörösvári út)
     trip_id: REFERENCE-9010-0-1
     wheelchair_accessible: 2
@@ -50,34 +50,34 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9010-1-1-T894
     stop_times:
-      - ['23:58:00', 'F00570',      0] # Vörösvári út
-      - ['23:59:00', 'F00585',    455] # Óbudai rendelőintézet
-      - ['24:00:00', 'F00589',    750] # Szőlő utca
-      - ['24:02:00', 'F00611',   1485] # Flórián tér
-      - ['24:04:00', 'F00582',   2016] # Raktár utca
-      - ['24:06:00', 'F00628',   2887] # Szentlélek tér H
-      - ['24:07:00', 'F02502',   3592] # Szigeti bejáró
-      - ['24:08:00', 'F02526',   4000] # Népfürdő utca
-      - ['24:10:00', 'F02599',   4822] # Árpád híd M
-      - ['24:11:00', 'F02644',   5166] # Honvédkórház
-      - ['24:13:00', 'F02595',   5904] # Róbert Károly körút (Lehel utca)
-      - ['24:13:00', 'F02633',   6083] # Reitter Ferenc utca
-      - ['24:15:00', 'F02892',   7044] # Kacsóh Pongrác út
-      - ['24:16:00', 'F02922',   7370] # Erzsébet királyné útja
-      - ['24:17:00', 'F02978',   7702] # Ajtósi Dürer sor
-      - ['24:19:00', 'F02727',   7980] # Zugló vasútállomás
-      - ['24:20:00', 'F02742',   8685] # Egressy út
-      - ['24:22:00', 'F01319',   9439] # Puskás Ferenc Stadion M
-      - ['24:23:00', 'F01327',   9874] # Hős utca
-      - ['24:24:00', 'F01277',  10316] # Ciprus utca
-      - ['24:26:00', 'F01272',  10668] # Hidegkuti Nándor Stadion
-      - ['24:27:00', 'F01268',  11081] # Kőbányai út
-      - ['24:28:00', 'F01257',  11673] # Vajda Péter utca
-      - ['24:30:00', '008287',  12337] # Népliget M (Üllői út)
-      - ['24:31:00', 'F01500',  12694] # Gyáli út
-      - ['24:32:00', 'F01504',  13290] # Ferencváros vasútállomás
-      - ['24:33:00', 'F01508',  13736] # Mester utca
-      - ['24:36:00', 'F01403',  15211] # Közvágóhíd H
+      - ['00:00:00', 'F00570',      0] # Vörösvári út
+      - ['00:01:00', 'F00585',    455] # Óbudai rendelőintézet
+      - ['00:02:00', 'F00589',    750] # Szőlő utca
+      - ['00:04:00', 'F00611',   1485] # Flórián tér
+      - ['00:06:00', 'F00582',   2016] # Raktár utca
+      - ['00:08:00', 'F00628',   2887] # Szentlélek tér H
+      - ['00:09:00', 'F02502',   3592] # Szigeti bejáró
+      - ['00:10:00', 'F02526',   4000] # Népfürdő utca
+      - ['00:12:00', 'F02599',   4822] # Árpád híd M
+      - ['00:13:00', 'F02644',   5166] # Honvédkórház
+      - ['00:15:00', 'F02595',   5904] # Róbert Károly körút (Lehel utca)
+      - ['00:15:00', 'F02633',   6083] # Reitter Ferenc utca
+      - ['00:17:00', 'F02892',   7044] # Kacsóh Pongrác út
+      - ['00:18:00', 'F02922',   7370] # Erzsébet királyné útja
+      - ['00:19:00', 'F02978',   7702] # Ajtósi Dürer sor
+      - ['00:21:00', 'F02727',   7980] # Zugló vasútállomás
+      - ['00:22:00', 'F02742',   8685] # Egressy út
+      - ['00:24:00', 'F01319',   9439] # Puskás Ferenc Stadion M
+      - ['00:25:00', 'F01327',   9874] # Hős utca
+      - ['00:26:00', 'F01277',  10316] # Ciprus utca
+      - ['00:28:00', 'F01272',  10668] # Hidegkuti Nándor Stadion
+      - ['00:29:00', 'F01268',  11081] # Kőbányai út
+      - ['00:30:00', 'F01257',  11673] # Vajda Péter utca
+      - ['00:32:00', '008287',  12337] # Népliget M (Üllői út)
+      - ['00:33:00', 'F01500',  12694] # Gyáli út
+      - ['00:34:00', 'F01504',  13290] # Ferencváros vasútállomás
+      - ['00:35:00', 'F01508',  13736] # Mester utca
+      - ['00:38:00', 'F01403',  15211] # Közvágóhíd H
     trip_headsign: Közvágóhíd
     trip_id: REFERENCE-9010-1-1
     wheelchair_accessible: 2

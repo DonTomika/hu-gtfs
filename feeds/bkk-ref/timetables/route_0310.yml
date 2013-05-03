@@ -13,21 +13,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0310-0-1-C595
     stop_times:
-      - ['08:35:00', 'F02755',      0] # Örs vezér tere M+H
-      - ['08:38:00', 'F02787',   1702] # Fogarasi út
-      - ['08:42:00', 'F03276',   3200] # Pálya utca
-      - ['08:43:00', 'F03263',   3724] # Rákóczi út
-      - ['08:44:00', 'F03262',   4092] # József utca
-      - ['08:45:00', 'F03259',   4524] # János utca
-      - ['08:46:00', 'F03223',   4966] # Diófa utca
-      - ['08:47:00', 'F03226',   5347] # Mátyás király utca
-      - ['08:49:00', 'F03213',   5915] # Csömöri út (Szlovák út)
-      - ['08:49:00', 'F03348',   6191] # Péterke utca
-      - ['08:50:00', 'F03218',   6478] # Timur utca
-      - ['08:52:00', 'F03297',   7073] # Állás utca
-      - ['08:53:00', 'F03298',   7587] # Menyhért utca
-      - ['08:54:00', 'F03376',   7905] # Muzsika utca
-      - ['08:56:00', 'F03299',   8186] # Árpádföld, Bekecs utca
+      - ['00:00:00', 'F02755',      0] # Örs vezér tere M+H
+      - ['00:03:00', 'F02787',   1702] # Fogarasi út
+      - ['00:07:00', 'F03276',   3200] # Pálya utca
+      - ['00:08:00', 'F03263',   3724] # Rákóczi út
+      - ['00:09:00', 'F03262',   4092] # József utca
+      - ['00:10:00', 'F03259',   4524] # János utca
+      - ['00:12:00', 'F03223',   4966] # Diófa utca
+      - ['00:13:00', 'F03226',   5347] # Mátyás király utca
+      - ['00:15:00', 'F03213',   5915] # Csömöri út (Szlovák út)
+      - ['00:15:00', 'F03348',   6191] # Péterke utca
+      - ['00:16:00', 'F03218',   6478] # Timur utca
+      - ['00:18:00', 'F03297',   7073] # Állás utca
+      - ['00:19:00', 'F03298',   7587] # Menyhért utca
+      - ['00:20:00', 'F03376',   7905] # Muzsika utca
+      - ['00:22:00', 'F03299',   8186] # Árpádföld, Bekecs utca
     trip_headsign: 'Árpádföld, Bekecs utca'
     trip_id: REFERENCE-0310-0-1
     wheelchair_accessible: 1
@@ -35,22 +35,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0310-1-1-C597
     stop_times:
-      - ['21:46:00', 'F03299',      0] # Árpádföld, Bekecs utca
-      - ['21:46:00', 'F03373',    348] # Szabadságtelep H
-      - ['21:47:00', 'F03292',    715] # Árpádföld, Dezsőfia utca
-      - ['21:47:00', 'F03374',    935] # Mazsola utca
-      - ['21:48:00', 'F03375',   1285] # Rozsos utca
-      - ['21:49:00', 'F03216',   1734] # Szlovák út
-      - ['21:50:00', 'F03347',   1977] # Péterke utca
-      - ['21:51:00', 'F03212',   2353] # Csömöri út
-      - ['21:52:00', 'F03224',   2847] # Mátyás király utca
-      - ['21:52:00', 'F03221',   3208] # György utca
-      - ['21:53:00', 'F03257',   3582] # János utca
-      - ['21:54:00', 'F03260',   4103] # József utca
-      - ['21:56:00', 'F03264',   4633] # Batthyány utca
-      - ['21:57:00', 'F03277',   4974] # Pálya utca
-      - ['22:00:00', 'F02788',   6585] # Fogarasi út
-      - ['22:04:00', 'F02755',   8073] # Örs vezér tere M+H
+      - ['00:00:00', 'F03299',      0] # Árpádföld, Bekecs utca
+      - ['00:00:00', 'F03373',    348] # Szabadságtelep H
+      - ['00:01:00', 'F03292',    715] # Árpádföld, Dezsőfia utca
+      - ['00:02:00', 'F03374',    935] # Mazsola utca
+      - ['00:03:00', 'F03375',   1285] # Rozsos utca
+      - ['00:04:00', 'F03216',   1734] # Szlovák út
+      - ['00:05:00', 'F03347',   1977] # Péterke utca
+      - ['00:06:00', 'F03212',   2353] # Csömöri út
+      - ['00:07:00', 'F03224',   2847] # Mátyás király utca
+      - ['00:08:00', 'F03221',   3208] # György utca
+      - ['00:09:00', 'F03257',   3582] # János utca
+      - ['00:11:00', 'F03260',   4103] # József utca
+      - ['00:12:00', 'F03264',   4633] # Batthyány utca
+      - ['00:14:00', 'F03277',   4974] # Pálya utca
+      - ['00:18:00', 'F02788',   6585] # Fogarasi út
+      - ['00:22:00', 'F02755',   8073] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-0310-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

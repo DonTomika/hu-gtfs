@@ -13,18 +13,18 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1000-0-1-S733
     stop_times:
-      - ['08:40:00', '008164',      0] # Örs vezér tere M+H
-      - ['08:41:00', 'F01779',    865] # Albertirsai köz
-      - ['08:42:00', 'F01555',   1356] # Kőbánya felső vasútállomás
-      - ['08:43:00', 'F01556',   1598] # IV. kapu
-      - ['08:43:00', 'F01724',   1790] # III. kapu
-      - ['08:44:00', 'F01557',   2129] # II. kapu
-      - ['08:45:00', 'F01558',   2402] # Vásárközpont, főbejárat
-      - ['08:45:00', 'F01746',   2682] # EXPO tér
-      - ['08:47:00', 'F01739',   3335] # Kerepesi út
-      - ['08:48:00', 'F01741',   3808] # Pillangó utca M
-      - ['08:50:00', 'F01751',   4918] # Örs vezér tere M+H (Kerepesi út)
-      - ['08:51:00', '008164',   5165] # Örs vezér tere M+H
+      - ['00:00:00', '008164',      0] # Örs vezér tere M+H
+      - ['00:01:00', 'F01779',    865] # Albertirsai köz
+      - ['00:02:00', 'F01555',   1356] # Kőbánya felső vasútállomás
+      - ['00:03:00', 'F01556',   1598] # IV. kapu
+      - ['00:03:00', 'F01724',   1790] # III. kapu
+      - ['00:04:00', 'F01557',   2129] # II. kapu
+      - ['00:05:00', 'F01558',   2402] # Vásárközpont, főbejárat
+      - ['00:05:00', 'F01746',   2682] # EXPO tér
+      - ['00:07:00', 'F01739',   3335] # Kerepesi út
+      - ['00:08:00', 'F01741',   3808] # Pillangó utca M
+      - ['00:10:00', 'F01751',   4918] # Örs vezér tere M+H (Kerepesi út)
+      - ['00:11:00', '008164',   5165] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-1000-0-1
     wheelchair_accessible: 2

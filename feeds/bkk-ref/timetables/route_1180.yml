@@ -13,48 +13,48 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1180-0-1-L028
     stop_times:
-      - ['15:19:00', 'F00620',      0] # Szentlélek tér H
-      - ['15:20:00', 'F00611',    626] # Flórián tér
-      - ['15:21:00', 'F00580',    890] # Raktár utca
-      - ['15:23:00', '009554',   1579] # Bogdáni út
-      - ['15:24:00', '011320',   2060] # Búza utca
-      - ['15:25:00', 'F00441',   2319] # Szőlőkert utca
-      - ['15:26:00', 'F00513',   2658] # Kaszásdűlő utca
-      - ['15:27:00', 'F00443',   2943] # Dunabau
-      - ['15:28:00', 'F00517',   3268] # Magyar Televízió (Bojtár utca)
-      - ['15:28:00', 'F00547',   3548] # Elektromos Művek
-      - ['15:29:00', 'F00514',   3769] # Dinamó utca
-      - ['15:29:00', 'F00548',   4029] # Áldomás utca
-      - ['15:30:00', 'F00516',   4224] # Magyar Televízió (Kunigunda útja)
-      - ['15:31:00', 'F00670',   4557] # Csillaghegyi út
-      - ['15:32:00', 'F00681',   4890] # Kisbojtár utca
-      - ['15:33:00', 'F00520',   5120] # Bojtár utca (Bécsi út)
-      - ['15:33:00', 'F00549',   5407] # Kubik utca
-      - ['15:34:00', 'F00523',   5812] # Óbudai temető
-      - ['15:35:00', 'F00678',   6184] # Óbudai autóbuszgarázs
-      - ['15:37:00', 'F00525',   6447] # Keled út
-      - ['15:39:00', 'F00527',   6763] # Óbuda vasútállomás
+      - ['00:00:00', 'F00620',      0] # Szentlélek tér H
+      - ['00:01:00', 'F00611',    626] # Flórián tér
+      - ['00:02:00', 'F00580',    890] # Raktár utca
+      - ['00:04:00', '009554',   1579] # Bogdáni út
+      - ['00:05:00', '011320',   2060] # Búza utca
+      - ['00:06:00', 'F00441',   2319] # Szőlőkert utca
+      - ['00:07:00', 'F00513',   2658] # Kaszásdűlő utca
+      - ['00:08:00', 'F00443',   2943] # Dunabau
+      - ['00:09:00', 'F00517',   3268] # Magyar Televízió (Bojtár utca)
+      - ['00:09:00', 'F00547',   3548] # Elektromos Művek
+      - ['00:10:00', 'F00514',   3769] # Dinamó utca
+      - ['00:11:00', 'F00548',   4029] # Áldomás utca
+      - ['00:12:00', 'F00516',   4224] # Magyar Televízió (Kunigunda útja)
+      - ['00:13:00', 'F00670',   4557] # Csillaghegyi út
+      - ['00:14:00', 'F00681',   4890] # Kisbojtár utca
+      - ['00:15:00', 'F00520',   5120] # Bojtár utca (Bécsi út)
+      - ['00:15:00', 'F00549',   5407] # Kubik utca
+      - ['00:16:00', 'F00523',   5812] # Óbudai temető
+      - ['00:17:00', 'F00678',   6184] # Óbudai autóbuszgarázs
+      - ['00:19:00', 'F00525',   6447] # Keled út
+      - ['00:21:00', 'F00527',   6763] # Óbuda vasútállomás
     trip_headsign: Óbuda vasútállomás
     trip_id: REFERENCE-1180-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1180-1-1-L026
     stop_times:
-      - ['09:24:00', 'F00527',      0] # Óbuda vasútállomás
-      - ['09:25:00', 'F00526',    167] # Pomázi út
-      - ['09:26:00', '009553',    487] # Óbudai autóbuszgarázs
-      - ['09:27:00', 'F00690',   1098] # Fővárosi Vízművek
-      - ['09:28:00', 'F00671',   1523] # Bojtár utca
-      - ['09:29:00', 'F00515',   1853] # Magyar Televízió
-      - ['09:30:00', 'F00444',   2229] # Dunabau
-      - ['09:30:00', 'F00512',   2678] # Huszti út
-      - ['09:31:00', 'F00440',   2994] # Szőlőkert utca
-      - ['09:32:00', '011321',   3316] # Búza utca
-      - ['09:33:00', '011322',   3700] # Óbuda, Bogdáni út
-      - ['09:34:00', 'F00577',   3979] # Bogdáni út
-      - ['09:36:00', 'F00582',   4359] # Raktár utca
-      - ['09:41:00', 'F00620',   5463] # Szentlélek tér H
+      - ['00:00:00', 'F00527',      0] # Óbuda vasútállomás
+      - ['00:01:00', 'F00526',    167] # Pomázi út
+      - ['00:02:00', '009553',    487] # Óbudai autóbuszgarázs
+      - ['00:03:00', 'F00690',   1098] # Fővárosi Vízművek
+      - ['00:04:00', 'F00671',   1523] # Bojtár utca
+      - ['00:05:00', 'F00515',   1853] # Magyar Televízió
+      - ['00:06:00', 'F00444',   2229] # Dunabau
+      - ['00:06:00', 'F00512',   2678] # Huszti út
+      - ['00:07:00', 'F00440',   2994] # Szőlőkert utca
+      - ['00:08:00', '011321',   3316] # Búza utca
+      - ['00:09:00', '011322',   3700] # Óbuda, Bogdáni út
+      - ['00:10:00', 'F00577',   3979] # Bogdáni út
+      - ['00:12:00', 'F00582',   4359] # Raktár utca
+      - ['00:16:00', 'F00620',   5463] # Szentlélek tér H
     trip_headsign: Szentlélek tér H
     trip_id: REFERENCE-1180-1-1
     wheelchair_accessible: 2

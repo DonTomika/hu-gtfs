@@ -13,33 +13,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0980-0-1-N933
     stop_times:
-      - ['07:48:00', '038682',      0] # Kőbánya-Kispest M
-      - ['07:50:00', 'F01584',    760] # Felüljáró (Gyömrői út)
-      - ['07:51:00', 'F01586',   1355] # Újhegyi út
-      - ['07:52:00', 'F01548',   1614] # Gyömrői út 132.
-      - ['07:53:00', 'F01546',   2008] # Hangár utca
-      - ['07:54:00', 'F01723',   2325] # Gyömrői út 156.
-      - ['07:55:00', 'F01545',   2971] # Felsőcsatári út
-      - ['07:57:00', 'F03880',   3389] # Pestszentlőrinc vasútállomás (átjáró)
-      - ['07:57:00', 'F03881',   3658] # Vajk utca
-      - ['07:58:00', 'F03882',   3978] # Csaba utca
-      - ['08:00:00', 'F03695',   4539] # Csévéző utca
-      - ['08:01:00', 'F03428',   4964] # Frangepán utca
-      - ['08:03:00', 'F03601',   6300] # Homokiszőlők
-      - ['08:04:00', 'F03430',   6686] # Lőrinci út
-      - ['08:05:00', 'F03432',   7266] # Baross utca
-      - ['08:06:00', 'F03565',   7668] # Orgoványi utca
-      - ['08:07:00', 'F03563',   8111] # Bocskai István utca
-      - ['08:08:00', 'F03597',   8455] # Rákóczi Ferenc utca
-      - ['08:09:00', 'F03591',   8783] # Vörösmarty utca
-      - ['08:10:00', 'F03524',   9008] # Melczer utca
-      - ['08:11:00', 'F03590',   9363] # Ady Endre utca
-      - ['08:11:00', 'F03525',   9581] # Rákoshegy vasútállomás
-      - ['08:12:00', 'F03518',   9952] # Ferihegyi út
-      - ['08:14:00', 'F03588',  10433] # Bulyovszky utca
-      - ['08:15:00', 'F03517',  10818] # Széchenyi utca
-      - ['08:16:00', 'F03473',  11314] # Egészségház
-      - ['08:17:00', 'F03610',  11511] # Városközpont (Ferihegyi út)
+      - ['00:00:00', '038682',      0] # Kőbánya-Kispest M
+      - ['00:01:00', 'F01584',    760] # Felüljáró (Gyömrői út)
+      - ['00:03:00', 'F01586',   1355] # Újhegyi út
+      - ['00:04:00', 'F01548',   1614] # Gyömrői út 132.
+      - ['00:05:00', 'F01546',   2008] # Hangár utca
+      - ['00:05:00', 'F01723',   2325] # Gyömrői út 156.
+      - ['00:07:00', 'F01545',   2971] # Felsőcsatári út
+      - ['00:08:00', 'F03880',   3389] # Pestszentlőrinc vasútállomás (átjáró)
+      - ['00:08:00', 'F03881',   3658] # Vajk utca
+      - ['00:09:00', 'F03882',   3978] # Csaba utca
+      - ['00:11:00', 'F03695',   4539] # Csévéző utca
+      - ['00:12:00', 'F03428',   4964] # Frangepán utca
+      - ['00:14:00', 'F03601',   6300] # Homokiszőlők
+      - ['00:15:00', 'F03430',   6686] # Lőrinci út
+      - ['00:16:00', 'F03432',   7266] # Baross utca
+      - ['00:17:00', 'F03565',   7668] # Orgoványi utca
+      - ['00:18:00', 'F03563',   8111] # Bocskai István utca
+      - ['00:19:00', 'F03597',   8455] # Rákóczi Ferenc utca
+      - ['00:20:00', 'F03591',   8783] # Vörösmarty utca
+      - ['00:21:00', 'F03524',   9008] # Melczer utca
+      - ['00:22:00', 'F03590',   9363] # Ady Endre utca
+      - ['00:22:00', 'F03525',   9581] # Rákoshegy vasútállomás
+      - ['00:23:00', 'F03518',   9952] # Ferihegyi út
+      - ['00:25:00', 'F03588',  10433] # Bulyovszky utca
+      - ['00:26:00', 'F03517',  10818] # Széchenyi utca
+      - ['00:27:00', 'F03473',  11314] # Egészségház
+      - ['00:28:00', 'F03610',  11511] # Városközpont (Ferihegyi út)
     trip_headsign: Városközpont (Ferihegyi út)
     trip_id: REFERENCE-0980-0-1
     wheelchair_accessible: 1
@@ -47,53 +47,53 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0980-1-1-N932
     stop_times:
-      - ['20:42:00', 'F03610',      0] # Városközpont (Ferihegyi út)
-      - ['20:43:00', 'F03457',    611] # Rákosliget vasútállomás
-      - ['20:44:00', 'F03458',    859] # IV. utca
-      - ['20:44:00', 'F03447',   1162] # Hősök tere
-      - ['20:45:00', 'F03468',   1441] # XVIII. utca
-      - ['20:46:00', 'F03465',   1805] # Ároktő út
-      - ['20:47:00', 'F03462',   2092] # Bártfai utca
-      - ['20:47:00', 'F03460',   2417] # Harsona utca
-      - ['20:48:00', 'F03461',   2797] # Rákoscsaba-Újtelep vasútállomás
-      - ['20:49:00', 'F03448',   3084] # Tura utca
-      - ['20:50:00', 'F03442',   3603] # Rákoscsaba vasútállomás
-      - ['20:51:00', 'F03443',   3976] # Aranykút utca
-      - ['20:52:00', '009704',   4235] # Jászivány utca
-      - ['20:53:00', '009705',   4546] # Diadal utca (Tura utca)
-      - ['20:53:00', 'F03463',   4828] # Bártfai utca
-      - ['20:54:00', 'F03464',   5200] # Ároktő út
-      - ['20:55:00', '009706',   5605] # XVII. utca
-      - ['20:56:00', 'F03446',   5900] # Hősök tere
-      - ['20:56:00', 'F03459',   6202] # Rákosliget vasútállomás
-      - ['20:58:00', 'F03605',   6935] # Városközpont (Ferihegyi út)
-      - ['20:59:00', '21:00:00', '009684',   7039] # Városközpont, Posta
-      - ['21:00:00', '009685',   7252] # Akácvirág utca
-      - ['21:01:00', 'F03516',   7706] # Széchenyi utca
-      - ['21:02:00', 'F03587',   7995] # Bulyovszky utca
-      - ['21:03:00', 'F03519',   8559] # Szabadság utca
-      - ['21:04:00', '008577',   8798] # Rákoshegy vasútállomás
-      - ['21:05:00', 'F03589',   9149] # Ady Endre utca
-      - ['21:06:00', 'F03523',   9535] # Melczer utca
-      - ['21:06:00', 'F03592',   9738] # Vörösmarty utca
-      - ['21:07:00', 'F03596',  10084] # Rákóczi Ferenc utca
-      - ['21:07:00', 'F03562',  10413] # Bocskai István utca
-      - ['21:08:00', 'F03564',  10881] # Orgoványi utca
-      - ['21:08:00', 'F03431',  11306] # Bélatelepi út
-      - ['21:09:00', 'F03429',  11731] # Lőrinci út
-      - ['21:09:00', 'F03600',  12189] # Homokiszőlők
-      - ['21:11:00', 'F03427',  13457] # Frangepán utca
-      - ['21:12:00', 'F03694',  13971] # Gyömrői út
-      - ['21:13:00', 'F03826',  14485] # Csaba utca
-      - ['21:14:00', 'F03843',  14872] # Vajk utca
-      - ['21:15:00', 'F03845',  15072] # Pestszentlőrinc vasútállomás (átjáró)
-      - ['21:15:00', 'F01870',  15593] # Felsőcsatári út
-      - ['21:16:00', 'F01658',  16164] # Gyula utca
-      - ['21:16:00', 'F01587',  16543] # Hangár utca
-      - ['21:17:00', 'F01547',  16733] # Gyömrői út 105.
-      - ['21:18:00', 'F01585',  17250] # Újhegyi út
-      - ['21:20:00', 'F01583',  17767] # Felüljáró
-      - ['21:21:00', '038670',  18396] # Kőbánya-Kispest M
+      - ['00:00:00', 'F03610',      0] # Városközpont (Ferihegyi út)
+      - ['00:01:00', 'F03457',    611] # Rákosliget vasútállomás
+      - ['00:02:00', 'F03458',    859] # IV. utca
+      - ['00:03:00', 'F03447',   1162] # Hősök tere
+      - ['00:04:00', 'F03468',   1441] # XVIII. utca
+      - ['00:05:00', 'F03465',   1805] # Ároktő út
+      - ['00:06:00', 'F03462',   2092] # Bártfai utca
+      - ['00:07:00', 'F03460',   2417] # Harsona utca
+      - ['00:08:00', 'F03461',   2797] # Rákoscsaba-Újtelep vasútállomás
+      - ['00:09:00', 'F03448',   3084] # Tura utca
+      - ['00:10:00', 'F03442',   3603] # Rákoscsaba vasútállomás
+      - ['00:11:00', 'F03443',   3976] # Aranykút utca
+      - ['00:12:00', '009704',   4235] # Jászivány utca
+      - ['00:13:00', '009705',   4546] # Diadal utca (Tura utca)
+      - ['00:14:00', 'F03463',   4828] # Bártfai utca
+      - ['00:15:00', 'F03464',   5200] # Ároktő út
+      - ['00:16:00', '009706',   5605] # XVII. utca
+      - ['00:17:00', 'F03446',   5900] # Hősök tere
+      - ['00:18:00', 'F03459',   6202] # Rákosliget vasútállomás
+      - ['00:20:00', 'F03605',   6935] # Városközpont (Ferihegyi út)
+      - ['00:21:00', '009684',   7039] # Városközpont, Posta
+      - ['00:22:00', '009685',   7252] # Akácvirág utca
+      - ['00:23:00', 'F03516',   7706] # Széchenyi utca
+      - ['00:24:00', 'F03587',   7995] # Bulyovszky utca
+      - ['00:25:00', 'F03519',   8559] # Szabadság utca
+      - ['00:26:00', '008577',   8798] # Rákoshegy vasútállomás
+      - ['00:27:00', 'F03589',   9149] # Ady Endre utca
+      - ['00:28:00', 'F03523',   9535] # Melczer utca
+      - ['00:29:00', 'F03592',   9738] # Vörösmarty utca
+      - ['00:30:00', 'F03596',  10084] # Rákóczi Ferenc utca
+      - ['00:31:00', 'F03562',  10413] # Bocskai István utca
+      - ['00:32:00', 'F03564',  10881] # Orgoványi utca
+      - ['00:32:00', 'F03431',  11306] # Bélatelepi út
+      - ['00:33:00', 'F03429',  11731] # Lőrinci út
+      - ['00:34:00', 'F03600',  12189] # Homokiszőlők
+      - ['00:36:00', 'F03427',  13457] # Frangepán utca
+      - ['00:37:00', 'F03694',  13971] # Gyömrői út
+      - ['00:38:00', 'F03826',  14485] # Csaba utca
+      - ['00:39:00', 'F03843',  14872] # Vajk utca
+      - ['00:40:00', 'F03845',  15072] # Pestszentlőrinc vasútállomás (átjáró)
+      - ['00:41:00', 'F01870',  15593] # Felsőcsatári út
+      - ['00:42:00', 'F01658',  16164] # Gyula utca
+      - ['00:43:00', 'F01587',  16543] # Hangár utca
+      - ['00:44:00', 'F01547',  16733] # Gyömrői út 105.
+      - ['00:45:00', 'F01585',  17250] # Újhegyi út
+      - ['00:47:00', 'F01583',  17767] # Felüljáró
+      - ['00:49:00', '038670',  18396] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-0980-1-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1

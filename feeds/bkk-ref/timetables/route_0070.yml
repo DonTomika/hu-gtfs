@@ -13,71 +13,71 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0070-0-1-A852
     stop_times:
-      - ['15:44:00', 'F02836',      0] # Bosnyák tér
-      - ['15:45:00', 'F02829',    210] # Bosnyák tér
-      - ['15:46:00', 'F02823',    752] # Róna utca
-      - ['15:47:00', 'F02960',   1122] # Amerikai út
-      - ['15:48:00', 'F02730',   1548] # Zugló vasútállomás
-      - ['15:50:00', 'F02726',   1687] # Hermina út
-      - ['15:51:00', 'F02722',   2096] # Stefánia út
-      - ['15:52:00', 'F02717',   2430] # Cházár András utca
-      - ['15:53:00', 'F01145',   2674] # Dózsa György út
-      - ['15:56:00', 'F01314',   3387] # Keleti pályaudvar M
-      - ['15:57:00', 'F01161',   3794] # Huszár utca
-      - ['15:59:00', 'F01166',   4296] # Blaha Lujza tér M
-      - ['16:01:00', 'F01171',   4828] # Uránia
-      - ['16:03:00', 'F01017',   5174] # Astoria M
-      - ['16:05:00', 'F01004',   5496] # Ferenciek tere M
-      - ['16:07:00', 'F00108',   6753] # Rudas gyógyfürdő
-      - ['16:09:00', 'F02145',   7712] # Szent Gellért tér
-      - ['16:11:00', 'F02193',   8475] # Móricz Zsigmond körtér
-      - ['16:13:00', 'F02183',   9098] # Kosztolányi Dezső tér
-      - ['16:15:00', 'F02044',   9692] # Tétényi út
-      - ['16:16:00', 'F02035',  10083] # Szent Imre Kórház
-      - ['16:17:00', 'F02033',  10275] # Tétényi út 39.
-      - ['16:19:00', 'F01954',  10638] # Kelenföld, városközpont
-      - ['16:20:00', 'F02213',  10942] # Puskás Tivadar utca
-      - ['16:21:00', 'F01962',  11170] # Bornemissza tér
-      - ['16:22:00', 'F01964',  11519] # Csurgói út
-      - ['16:23:00', 'F01966',  12080] # Nyírbátor utca
-      - ['16:24:00', 'F02211',  12401] # Herend utca
-      - ['16:25:00', 'F01968',  12720] # Fonyód utca
-      - ['16:26:00', 'F02219',  13036] # Albertfalva vasútállomás
+      - ['00:00:00', 'F02836',      0] # Bosnyák tér
+      - ['00:01:00', 'F02829',    210] # Bosnyák tér
+      - ['00:02:00', 'F02823',    752] # Róna utca
+      - ['00:03:00', 'F02960',   1122] # Amerikai út
+      - ['00:04:00', 'F02730',   1548] # Zugló vasútállomás
+      - ['00:06:00', 'F02726',   1687] # Hermina út
+      - ['00:07:00', 'F02722',   2096] # Stefánia út
+      - ['00:08:00', 'F02717',   2430] # Cházár András utca
+      - ['00:09:00', 'F01145',   2674] # Dózsa György út
+      - ['00:12:00', 'F01314',   3387] # Keleti pályaudvar M
+      - ['00:13:00', 'F01161',   3794] # Huszár utca
+      - ['00:15:00', 'F01166',   4296] # Blaha Lujza tér M
+      - ['00:17:00', 'F01171',   4828] # Uránia
+      - ['00:19:00', 'F01017',   5174] # Astoria M
+      - ['00:21:00', 'F01004',   5496] # Ferenciek tere M
+      - ['00:23:00', 'F00108',   6753] # Rudas gyógyfürdő
+      - ['00:25:00', 'F02145',   7712] # Szent Gellért tér
+      - ['00:27:00', 'F02193',   8475] # Móricz Zsigmond körtér
+      - ['00:29:00', 'F02183',   9098] # Kosztolányi Dezső tér
+      - ['00:31:00', 'F02044',   9692] # Tétényi út
+      - ['00:32:00', 'F02035',  10083] # Szent Imre Kórház
+      - ['00:33:00', 'F02033',  10275] # Tétényi út 39.
+      - ['00:35:00', 'F01954',  10638] # Kelenföld, városközpont
+      - ['00:36:00', 'F02213',  10942] # Puskás Tivadar utca
+      - ['00:37:00', 'F01962',  11170] # Bornemissza tér
+      - ['00:38:00', 'F01964',  11519] # Csurgói út
+      - ['00:39:00', 'F01966',  12080] # Nyírbátor utca
+      - ['00:40:00', 'F02211',  12401] # Herend utca
+      - ['00:41:00', 'F01968',  12720] # Fonyód utca
+      - ['00:42:00', 'F02219',  13036] # Albertfalva vasútállomás
     trip_headsign: Albertfalva vasútállomás
     trip_id: REFERENCE-0070-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0070-1-1-A853
     stop_times:
-      - ['14:18:00', 'F01970',      0] # Albertfalva vasútállomás
-      - ['14:19:00', 'F01969',    283] # Fonyód utca
-      - ['14:19:00', 'F02212',    573] # Herend utca
-      - ['14:20:00', 'F01967',    899] # Kiskőrös utca
-      - ['14:21:00', 'F01965',   1399] # Csurgói út
-      - ['14:23:00', 'F01960',   1884] # Bornemissza tér
-      - ['14:24:00', 'F02214',   2105] # Bikszádi utca
-      - ['14:25:00', 'F01958',   2540] # Kelenföld, városközpont
-      - ['14:26:00', 'F02032',   2773] # Tétényi út 30.
-      - ['14:27:00', 'F02034',   3111] # Szent Imre Kórház
-      - ['14:29:00', 'F02048',   3617] # Hamzsabégi út
-      - ['14:31:00', 'F02176',   4192] # Kosztolányi Dezső tér
-      - ['14:33:00', 'F02192',   4676] # Móricz Zsigmond körtér
-      - ['14:35:00', 'F02144',   5345] # Szent Gellért tér
-      - ['14:38:00', 'F00111',   6330] # Rudas gyógyfürdő
-      - ['14:40:00', 'F00951',   7151] # Ferenciek tere M
-      - ['14:42:00', 'F01016',   7635] # Astoria M
-      - ['14:43:00', 'F01170',   7975] # Uránia
-      - ['14:45:00', 'F01164',   8371] # Blaha Lujza tér M
-      - ['14:47:00', 'F01162',   9046] # Berzsenyi utca
-      - ['14:49:00', 'F01159',   9592] # Keleti pályaudvar M
-      - ['14:51:00', 'F01146',  10057] # Dózsa György út
-      - ['14:52:00', 'F02716',  10384] # Cházár András utca
-      - ['14:54:00', 'F02723',  10827] # Stefánia út
-      - ['14:56:00', 'F02725',  11197] # Zugló vasútállomás
-      - ['14:58:00', 'F02961',  11584] # Amerikai út
-      - ['15:00:00', 'F02824',  12172] # Róna utca
-      - ['15:02:00', 'F02836',  12736] # Bosnyák tér
+      - ['00:00:00', 'F01970',      0] # Albertfalva vasútállomás
+      - ['00:01:00', 'F01969',    283] # Fonyód utca
+      - ['00:01:00', 'F02212',    573] # Herend utca
+      - ['00:02:00', 'F01967',    899] # Kiskőrös utca
+      - ['00:03:00', 'F01965',   1399] # Csurgói út
+      - ['00:05:00', 'F01960',   1884] # Bornemissza tér
+      - ['00:06:00', 'F02214',   2105] # Bikszádi utca
+      - ['00:07:00', 'F01958',   2540] # Kelenföld, városközpont
+      - ['00:08:00', 'F02032',   2773] # Tétényi út 30.
+      - ['00:09:00', 'F02034',   3111] # Szent Imre Kórház
+      - ['00:11:00', 'F02048',   3617] # Hamzsabégi út
+      - ['00:13:00', 'F02176',   4192] # Kosztolányi Dezső tér
+      - ['00:15:00', 'F02192',   4676] # Móricz Zsigmond körtér
+      - ['00:17:00', 'F02144',   5345] # Szent Gellért tér
+      - ['00:19:00', 'F00111',   6330] # Rudas gyógyfürdő
+      - ['00:21:00', 'F00951',   7151] # Ferenciek tere M
+      - ['00:23:00', 'F01016',   7635] # Astoria M
+      - ['00:24:00', 'F01170',   7975] # Uránia
+      - ['00:26:00', 'F01164',   8371] # Blaha Lujza tér M
+      - ['00:28:00', 'F01162',   9046] # Berzsenyi utca
+      - ['00:30:00', 'F01159',   9592] # Keleti pályaudvar M
+      - ['00:32:00', 'F01146',  10057] # Dózsa György út
+      - ['00:33:00', 'F02716',  10384] # Cházár András utca
+      - ['00:35:00', 'F02723',  10827] # Stefánia út
+      - ['00:37:00', 'F02725',  11197] # Zugló vasútállomás
+      - ['00:38:00', 'F02961',  11584] # Amerikai út
+      - ['00:39:00', 'F02824',  12172] # Róna utca
+      - ['00:41:00', 'F02836',  12736] # Bosnyák tér
     trip_headsign: Bosnyák tér
     trip_id: REFERENCE-0070-1-1
     wheelchair_accessible: 2

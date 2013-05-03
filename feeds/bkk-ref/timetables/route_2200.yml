@@ -13,33 +13,33 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2200-0-1-H460
     stop_times:
-      - ['11:51:00', 'F00803',      0] # Újpest-Központ M
-      - ['11:53:00', 'F00787',    645] # Deák Ferenc utca
-      - ['11:54:00', 'F00780',   1166] # Szent László tér
-      - ['11:55:00', 'F00773',   1406] # Vécsey Károly utca
-      - ['11:56:00', 'F00761',   1851] # Fóti út
-      - ['11:57:00', 'F00752',   2133] # Vadgesztenye utca
-      - ['11:58:00', 'F00750',   2477] # Újpest, Erdősor út
+      - ['00:00:00', 'F00803',      0] # Újpest-Központ M
+      - ['00:02:00', 'F00787',    645] # Deák Ferenc utca
+      - ['00:03:00', 'F00780',   1166] # Szent László tér
+      - ['00:04:00', 'F00773',   1406] # Vécsey Károly utca
+      - ['00:05:00', 'F00761',   1851] # Fóti út
+      - ['00:06:00', 'F00752',   2133] # Vadgesztenye utca
+      - ['00:07:00', 'F00750',   2477] # Újpest, Erdősor út
     trip_headsign: 'Újpest, Erdősor út'
     trip_id: REFERENCE-2200-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2200-1-1-H461
     stop_times:
-      - ['15:13:00', 'F00750',      0] # Újpest, Erdősor út
-      - ['15:14:00', 'F00747',    567] # Ugró Gyula utca
-      - ['15:15:00', 'F00884',    893] # Izzó utca
-      - ['15:16:00', 'F00753',   1191] # Fóti út
-      - ['15:18:00', 'F00759',   1772] # Nádor utca
-      - ['15:19:00', 'F00772',   2114] # Vécsey Károly utca
-      - ['15:20:00', 'F00774',   2482] # Leiningen Károly utca
-      - ['15:21:00', 'F00779',   2910] # Szent László tér
-      - ['15:22:00', 'F00791',   3152] # Szakorvosi rendelő
-      - ['15:23:00', 'F00877',   3409] # Deák Ferenc utca
-      - ['15:24:00', 'F00835',   3813] # Árpád üzletház
-      - ['15:25:00', 'F00855',   4138] # Erzsébet utca
-      - ['15:26:00', 'F00803',   4414] # Újpest-Központ M
+      - ['00:00:00', 'F00750',      0] # Újpest, Erdősor út
+      - ['00:01:00', 'F00747',    567] # Ugró Gyula utca
+      - ['00:02:00', 'F00884',    893] # Izzó utca
+      - ['00:03:00', 'F00753',   1191] # Fóti út
+      - ['00:05:00', 'F00759',   1772] # Nádor utca
+      - ['00:06:00', 'F00772',   2114] # Vécsey Károly utca
+      - ['00:07:00', 'F00774',   2482] # Leiningen Károly utca
+      - ['00:08:00', 'F00779',   2910] # Szent László tér
+      - ['00:09:00', 'F00791',   3152] # Szakorvosi rendelő
+      - ['00:10:00', 'F00877',   3409] # Deák Ferenc utca
+      - ['00:11:00', 'F00835',   3813] # Árpád üzletház
+      - ['00:12:00', 'F00855',   4138] # Erzsébet utca
+      - ['00:13:00', 'F00803',   4414] # Újpest-Központ M
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-2200-1-1
     wheelchair_accessible: 1

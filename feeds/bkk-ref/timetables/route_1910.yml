@@ -13,13 +13,13 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1910-0-1-0748
     stop_times:
-      - ['14:30:00', 'F01024',      0] # Nyugati pályaudvar M
-      - ['14:33:00', 'F00929',    741] # Jászai Mari tér
-      - ['14:37:00', 'F00191',   1815] # Margit híd, budai hídfő H
-      - ['14:39:00', 'F00233',   2292] # Apostol utca
-      - ['14:41:00', 'F00227',   2801] # Vérhalom utca
-      - ['14:42:00', 'F00226',   3072] # Kavics utca
-      - ['14:44:00', 'F00225',   3375] # Sarolta utca
+      - ['00:00:00', 'F01024',      0] # Nyugati pályaudvar M
+      - ['00:02:00', 'F00929',    741] # Jászai Mari tér
+      - ['00:05:00', 'F00191',   1815] # Margit híd, budai hídfő H
+      - ['00:07:00', 'F00233',   2292] # Apostol utca
+      - ['00:08:00', 'F00227',   2801] # Vérhalom utca
+      - ['00:09:00', 'F00226',   3072] # Kavics utca
+      - ['00:10:00', 'F00225',   3375] # Sarolta utca
     trip_headsign: Sarolta utca
     trip_id: REFERENCE-1910-0-1
     wheelchair_accessible: 2
@@ -27,14 +27,14 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1910-1-1-0751
     stop_times:
-      - ['16:05:00', 'F00225',      0] # Sarolta utca
-      - ['16:06:00', 'F00224',    424] # Mandula utca
-      - ['16:07:00', 'F00229',    771] # Rómer Flóris utca
-      - ['16:08:00', 'F00231',   1048] # Zivatar utca
-      - ['16:09:00', 'F00232',   1347] # Margit körút
-      - ['16:12:00', 'F00190',   1843] # Margit híd, budai hídfő H
-      - ['16:16:00', 'F00930',   2692] # Jászai Mari tér
-      - ['16:19:00', 'F01025',   3272] # Nyugati pályaudvar M
+      - ['00:00:00', 'F00225',      0] # Sarolta utca
+      - ['00:01:00', 'F00224',    424] # Mandula utca
+      - ['00:03:00', 'F00229',    771] # Rómer Flóris utca
+      - ['00:04:00', 'F00231',   1048] # Zivatar utca
+      - ['00:05:00', 'F00232',   1347] # Margit körút
+      - ['00:07:00', 'F00190',   1843] # Margit híd, budai hídfő H
+      - ['00:10:00', 'F00930',   2692] # Jászai Mari tér
+      - ['00:13:00', 'F01025',   3272] # Nyugati pályaudvar M
     trip_headsign: Nyugati pályaudvar M
     trip_id: REFERENCE-1910-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

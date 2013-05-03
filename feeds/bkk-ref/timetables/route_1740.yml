@@ -13,23 +13,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1740-0-1-G173
     stop_times:
-      - ['18:25:00', 'F02759',      0] # Örs vezér tere M+H
-      - ['18:27:00', '009499',   1179] # Csertő utca
-      - ['18:28:00', '009500',   1539] # Körvasút sor
-      - ['18:29:00', '009381',   1965] # Rózsa utca
-      - ['18:31:00', 'F03268',   2495] # Batthyány utca
-      - ['18:32:00', 'F03255',   2987] # József utca
-      - ['18:33:00', 'F03252',   3428] # János utca
-      - ['18:34:00', 'F03358',   3811] # Diófa utca
-      - ['18:35:00', '008946',   4312] # Szénás utca
-      - ['18:36:00', '009375',   4737] # Szilas-patak
-      - ['18:37:00', '008947',   5023] # Szlovák út
-      - ['18:38:00', 'F03295',   5439] # Állás utca
-      - ['18:40:00', 'F03378',   6143] # Felsőmalom utca
-      - ['18:41:00', 'F03391',   6427] # Alsómalom utca
-      - ['18:42:00', 'F03301',   6804] # Ostoros út 40.
-      - ['18:43:00', 'F03302',   7228] # Csókakő utca
-      - ['18:44:00', 'F03304',   7529] # Cinkota H
+      - ['00:00:00', 'F02759',      0] # Örs vezér tere M+H
+      - ['00:02:00', '009499',   1179] # Csertő utca
+      - ['00:03:00', '009500',   1539] # Körvasút sor
+      - ['00:04:00', '009381',   1965] # Rózsa utca
+      - ['00:05:00', 'F03268',   2495] # Batthyány utca
+      - ['00:06:00', 'F03255',   2987] # József utca
+      - ['00:07:00', 'F03252',   3428] # János utca
+      - ['00:08:00', 'F03358',   3811] # Diófa utca
+      - ['00:09:00', '008946',   4312] # Szénás utca
+      - ['00:10:00', '009375',   4737] # Szilas-patak
+      - ['00:11:00', '008947',   5023] # Szlovák út
+      - ['00:12:00', 'F03295',   5439] # Állás utca
+      - ['00:13:00', 'F03378',   6143] # Felsőmalom utca
+      - ['00:14:00', 'F03391',   6427] # Alsómalom utca
+      - ['00:15:00', 'F03301',   6804] # Ostoros út 40.
+      - ['00:16:00', 'F03302',   7228] # Csókakő utca
+      - ['00:17:00', 'F03304',   7529] # Cinkota H
     trip_headsign: Cinkota H
     trip_id: REFERENCE-1740-0-1
     wheelchair_accessible: 2
@@ -37,22 +37,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1740-1-1-G174
     stop_times:
-      - ['15:28:00', 'F03304',      0] # Cinkota H
-      - ['15:28:00', 'F03303',    328] # Csókakő utca
-      - ['15:30:00', 'F03300',    935] # Ostoros út 61.
-      - ['15:31:00', 'F03390',   1247] # Alsómalom utca
-      - ['15:31:00', 'F03377',   1533] # Felsőmalom utca
-      - ['15:33:00', 'F03296',   2112] # Állás utca
-      - ['15:34:00', 'F03351',   2804] # Szilas-patak
-      - ['15:35:00', 'F03227',   3317] # Mátyás király utca
-      - ['15:36:00', '009382',   3636] # Jávorfa utca
-      - ['15:37:00', '009383',   4133] # János utca
-      - ['15:38:00', 'F03254',   4653] # József utca
-      - ['15:39:00', 'F03266',   5143] # Batthyány utca
-      - ['15:41:00', 'F03283',   5602] # Rózsa utca
-      - ['15:41:00', '009501',   5904] # Körvasút sor
-      - ['15:43:00', '009498',   6547] # Csertő utca
-      - ['15:46:00', 'F02757',   7604] # Örs vezér tere M+H
+      - ['00:00:00', 'F03304',      0] # Cinkota H
+      - ['00:00:00', 'F03303',    328] # Csókakő utca
+      - ['00:02:00', 'F03300',    935] # Ostoros út 61.
+      - ['00:03:00', 'F03390',   1247] # Alsómalom utca
+      - ['00:04:00', 'F03377',   1533] # Felsőmalom utca
+      - ['00:06:00', 'F03296',   2112] # Állás utca
+      - ['00:07:00', 'F03351',   2804] # Szilas-patak
+      - ['00:09:00', 'F03227',   3317] # Mátyás király utca
+      - ['00:10:00', '009382',   3636] # Jávorfa utca
+      - ['00:11:00', '009383',   4133] # János utca
+      - ['00:13:00', 'F03254',   4653] # József utca
+      - ['00:15:00', 'F03266',   5143] # Batthyány utca
+      - ['00:16:00', 'F03283',   5602] # Rózsa utca
+      - ['00:17:00', '009501',   5904] # Körvasút sor
+      - ['00:19:00', '009498',   6547] # Csertő utca
+      - ['00:23:00', 'F02757',   7604] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
     trip_id: REFERENCE-1740-1-1
     wheelchair_accessible: 2

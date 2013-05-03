@@ -13,51 +13,51 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2600-0-1-G394
     stop_times:
-      - ['16:27:00', 'F00066',      0] # Batthyány tér M+H
-      - ['16:29:00', 'F00187',    831] # Bem József tér
-      - ['16:31:00', 'F00234',   1261] # Margit híd, budai hídfő H
-      - ['16:32:00', 'F00247',   1737] # Császár-Komjádi uszoda
-      - ['16:34:00', 'F00245',   2281] # Zsigmond tér
-      - ['16:35:00', 'F00137',   2690] # Kolosy tér
-      - ['16:37:00', 'F00600',   3214] # Nagyszombat utca
-      - ['16:39:00', 'F00686',   3794] # Selmeci utca
-      - ['16:40:00', 'F00596',   4232] # Szent Margit Kórház
-      - ['16:42:00', 'F00593',   4720] # Váradi utca
-      - ['16:43:00', 'F00584',   5362] # Óbudai rendelőintézet
-      - ['16:45:00', 'F00680',   5804] # Bécsi út (Vörösvári út)
-      - ['16:47:00', 'F00518',   6477] # Orbán Balázs út
-      - ['16:49:00', 'F00520',   6981] # Bojtár utca (Bécsi út)
-      - ['16:50:00', 'F00549',   7268] # Kubik utca
-      - ['16:51:00', 'F00522',   7663] # Óbudai temető
-      - ['16:53:00', 'F00617',   8228] # ATI
-      - ['16:54:00', 'F00630',   8540] # Bóbita utca
-      - ['16:58:00', '007949',   8757] # Kocsis Sándor út
+      - ['00:00:00', 'F00066',      0] # Batthyány tér M+H
+      - ['00:01:00', 'F00187',    831] # Bem József tér
+      - ['00:03:00', 'F00234',   1261] # Margit híd, budai hídfő H
+      - ['00:04:00', 'F00247',   1737] # Császár-Komjádi uszoda
+      - ['00:05:00', 'F00245',   2281] # Zsigmond tér
+      - ['00:06:00', 'F00137',   2690] # Kolosy tér
+      - ['00:08:00', 'F00600',   3214] # Nagyszombat utca
+      - ['00:09:00', 'F00686',   3794] # Selmeci utca
+      - ['00:10:00', 'F00596',   4232] # Szent Margit Kórház
+      - ['00:11:00', 'F00593',   4720] # Váradi utca
+      - ['00:13:00', 'F00584',   5362] # Óbudai rendelőintézet
+      - ['00:14:00', 'F00680',   5804] # Bécsi út (Vörösvári út)
+      - ['00:16:00', 'F00518',   6477] # Orbán Balázs út
+      - ['00:17:00', 'F00520',   6981] # Bojtár utca (Bécsi út)
+      - ['00:18:00', 'F00549',   7268] # Kubik utca
+      - ['00:19:00', 'F00522',   7663] # Óbudai temető
+      - ['00:20:00', 'F00617',   8228] # ATI
+      - ['00:21:00', 'F00630',   8540] # Bóbita utca
+      - ['00:24:00', '007949',   8757] # Kocsis Sándor út
     trip_headsign: Kocsis Sándor út
     trip_id: REFERENCE-2600-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 0
     service_id: REFERENCE
     shape_id: REFERENCE-2600-0-2-I368
     stop_times:
-      - ['09:13:00', 'F00066',      0] # Batthyány tér M+H
-      - ['09:15:00', 'F00187',    831] # Bem József tér
-      - ['09:16:00', 'F00234',   1261] # Margit híd, budai hídfő H
-      - ['09:18:00', 'F00247',   1737] # Császár-Komjádi uszoda
-      - ['09:19:00', 'F00245',   2281] # Zsigmond tér
-      - ['09:20:00', 'F00137',   2690] # Kolosy tér
-      - ['09:22:00', 'F00600',   3214] # Nagyszombat utca
-      - ['09:24:00', 'F00686',   3794] # Selmeci utca
-      - ['09:25:00', 'F00596',   4232] # Szent Margit Kórház
-      - ['09:26:00', '007881',   4669] # Váradi utca
-      - ['09:27:00', '008412',   5199] # Bécsi út
-      - ['09:28:00', 'F00680',   5382] # Bécsi út (Vörösvári út)
-      - ['09:30:00', 'F00518',   6055] # Orbán Balázs út
-      - ['09:31:00', 'F00520',   6559] # Bojtár utca (Bécsi út)
-      - ['09:32:00', 'F00549',   6846] # Kubik utca
-      - ['09:33:00', 'F00522',   7241] # Óbudai temető
-      - ['09:35:00', 'F00617',   7806] # ATI
-      - ['09:36:00', 'F00630',   8118] # Bóbita utca
-      - ['09:37:00', '007949',   8335] # Kocsis Sándor út
+      - ['00:00:00', 'F00066',      0] # Batthyány tér M+H
+      - ['00:02:00', 'F00187',    831] # Bem József tér
+      - ['00:03:00', 'F00234',   1261] # Margit híd, budai hídfő H
+      - ['00:05:00', 'F00247',   1737] # Császár-Komjádi uszoda
+      - ['00:06:00', 'F00245',   2281] # Zsigmond tér
+      - ['00:07:00', 'F00137',   2690] # Kolosy tér
+      - ['00:09:00', 'F00600',   3214] # Nagyszombat utca
+      - ['00:11:00', 'F00686',   3794] # Selmeci utca
+      - ['00:12:00', 'F00596',   4232] # Szent Margit Kórház
+      - ['00:13:00', '007881',   4669] # Váradi utca
+      - ['00:14:00', '008412',   5199] # Bécsi út
+      - ['00:15:00', 'F00680',   5382] # Bécsi út (Vörösvári út)
+      - ['00:17:00', 'F00518',   6055] # Orbán Balázs út
+      - ['00:18:00', 'F00520',   6559] # Bojtár utca (Bécsi út)
+      - ['00:19:00', 'F00549',   6846] # Kubik utca
+      - ['00:20:00', 'F00522',   7241] # Óbudai temető
+      - ['00:22:00', 'F00617',   7806] # ATI
+      - ['00:23:00', 'F00630',   8118] # Bóbita utca
+      - ['00:24:00', '007949',   8335] # Kocsis Sándor út
     trip_headsign: Kocsis Sándor út
     trip_id: REFERENCE-2600-0-2
     wheelchair_accessible: 1
@@ -65,27 +65,27 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2600-1-1-G395
     stop_times:
-      - ['07:53:00', '007949',      0] # Kocsis Sándor út
-      - ['07:54:00', 'F00631',    373] # Bóbita utca
-      - ['07:55:00', 'F00618',    671] # ATI
-      - ['07:57:00', 'F00558',   1312] # Óbudai temető
-      - ['07:59:00', 'F00550',   1670] # Kubik utca
-      - ['08:00:00', 'F00521',   1943] # Bojtár utca
-      - ['08:01:00', 'F00519',   2251] # Orbán Balázs út
-      - ['08:03:00', 'F00669',   2728] # Laborc utca
-      - ['08:04:00', 'F00570',   3183] # Vörösvári út
-      - ['08:06:00', 'F00585',   3638] # Óbudai rendelőintézet
-      - ['08:07:00', 'F00592',   4052] # Váradi utca
-      - ['08:10:00', 'F00597',   4688] # Szent Margit Kórház
-      - ['08:11:00', 'F00687',   5086] # Selmeci utca
-      - ['08:13:00', 'F00601',   5586] # Nagyszombat utca
-      - ['08:14:00', 'F00602',   5916] # Galagonya utca
-      - ['08:16:00', 'F00138',   6271] # Kolosy tér
-      - ['08:17:00', 'F00246',   6603] # Zsigmond tér
-      - ['08:19:00', 'F00248',   7110] # Császár-Komjádi uszoda
-      - ['08:20:00', 'F00235',   7594] # Margit híd, budai hídfő H
-      - ['08:22:00', 'F00188',   8073] # Bem József tér
-      - ['08:25:00', 'F00066',   8723] # Batthyány tér M+H
+      - ['00:00:00', '007949',      0] # Kocsis Sándor út
+      - ['00:00:00', 'F00631',    373] # Bóbita utca
+      - ['00:01:00', 'F00618',    671] # ATI
+      - ['00:03:00', 'F00558',   1312] # Óbudai temető
+      - ['00:04:00', 'F00550',   1670] # Kubik utca
+      - ['00:05:00', 'F00521',   1943] # Bojtár utca
+      - ['00:06:00', 'F00519',   2251] # Orbán Balázs út
+      - ['00:07:00', 'F00669',   2728] # Laborc utca
+      - ['00:09:00', 'F00570',   3183] # Vörösvári út
+      - ['00:10:00', 'F00585',   3638] # Óbudai rendelőintézet
+      - ['00:11:00', 'F00592',   4052] # Váradi utca
+      - ['00:13:00', 'F00597',   4688] # Szent Margit Kórház
+      - ['00:14:00', 'F00687',   5086] # Selmeci utca
+      - ['00:15:00', 'F00601',   5586] # Nagyszombat utca
+      - ['00:16:00', 'F00602',   5916] # Galagonya utca
+      - ['00:18:00', 'F00138',   6271] # Kolosy tér
+      - ['00:18:00', 'F00246',   6603] # Zsigmond tér
+      - ['00:20:00', 'F00248',   7110] # Császár-Komjádi uszoda
+      - ['00:21:00', 'F00235',   7594] # Margit híd, budai hídfő H
+      - ['00:23:00', 'F00188',   8073] # Bem József tér
+      - ['00:25:00', 'F00066',   8723] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-2600-1-1
     wheelchair_accessible: 2
@@ -93,26 +93,26 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2600-1-2-I369
     stop_times:
-      - ['11:46:00', '007949',      0] # Kocsis Sándor út
-      - ['11:46:00', 'F00631',    373] # Bóbita utca
-      - ['11:47:00', 'F00618',    671] # ATI
-      - ['11:49:00', 'F00558',   1312] # Óbudai temető
-      - ['11:50:00', 'F00550',   1670] # Kubik utca
-      - ['11:51:00', 'F00521',   1943] # Bojtár utca
-      - ['11:52:00', 'F00519',   2251] # Orbán Balázs út
-      - ['11:53:00', 'F00669',   2728] # Laborc utca
-      - ['11:55:00', 'F00570',   3183] # Vörösvári út
-      - ['11:57:00', '007882',   3881] # Váradi utca
-      - ['11:58:00', 'F00597',   4333] # Szent Margit Kórház
-      - ['11:59:00', 'F00687',   4731] # Selmeci utca
-      - ['12:01:00', 'F00601',   5231] # Nagyszombat utca
-      - ['12:01:00', 'F00602',   5561] # Galagonya utca
-      - ['12:03:00', 'F00138',   5916] # Kolosy tér
-      - ['12:03:00', 'F00246',   6248] # Zsigmond tér
-      - ['12:05:00', 'F00248',   6755] # Császár-Komjádi uszoda
-      - ['12:06:00', 'F00235',   7239] # Margit híd, budai hídfő H
-      - ['12:08:00', 'F00188',   7718] # Bem József tér
-      - ['12:10:00', 'F00066',   8368] # Batthyány tér M+H
+      - ['00:00:00', '007949',      0] # Kocsis Sándor út
+      - ['00:00:00', 'F00631',    373] # Bóbita utca
+      - ['00:01:00', 'F00618',    671] # ATI
+      - ['00:03:00', 'F00558',   1312] # Óbudai temető
+      - ['00:04:00', 'F00550',   1670] # Kubik utca
+      - ['00:05:00', 'F00521',   1943] # Bojtár utca
+      - ['00:06:00', 'F00519',   2251] # Orbán Balázs út
+      - ['00:07:00', 'F00669',   2728] # Laborc utca
+      - ['00:09:00', 'F00570',   3183] # Vörösvári út
+      - ['00:11:00', '007882',   3881] # Váradi utca
+      - ['00:12:00', 'F00597',   4333] # Szent Margit Kórház
+      - ['00:13:00', 'F00687',   4731] # Selmeci utca
+      - ['00:15:00', 'F00601',   5231] # Nagyszombat utca
+      - ['00:15:00', 'F00602',   5561] # Galagonya utca
+      - ['00:17:00', 'F00138',   5916] # Kolosy tér
+      - ['00:17:00', 'F00246',   6248] # Zsigmond tér
+      - ['00:19:00', 'F00248',   6755] # Császár-Komjádi uszoda
+      - ['00:20:00', 'F00235',   7239] # Margit híd, budai hídfő H
+      - ['00:22:00', 'F00188',   7718] # Bem József tér
+      - ['00:24:00', 'F00066',   8368] # Batthyány tér M+H
     trip_headsign: Batthyány tér M+H
     trip_id: REFERENCE-2600-1-2
     wheelchair_accessible: 1

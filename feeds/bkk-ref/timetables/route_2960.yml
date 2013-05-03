@@ -13,61 +13,61 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2960-0-1-H441
     stop_times:
-      - ['09:17:00', 'F03147',      0] # Újpalota, Szentmihályi út
-      - ['09:18:00', 'F03201',    345] # Erdőkerülő utca 28.
-      - ['09:19:00', 'F03209',    767] # Zsókavár utca
-      - ['09:20:00', 'F03154',    990] # Fő tér
-      - ['09:21:00', 'F03159',   1420] # Vásárcsarnok
-      - ['09:22:00', 'F03193',   1737] # Sárfű utca
-      - ['09:23:00', 'F03125',   2093] # Bánkút utca
-      - ['09:24:00', 'F03120',   2708] # Kozák tér
-      - ['09:26:00', 'F03121',   2952] # Szerencs utca
-      - ['09:27:00', 'F03115',   3309] # Klapka György utca
-      - ['09:29:00', 'F03072',   3746] # Rákos úti szakrendelő
-      - ['09:30:00', 'F03059',   4356] # Szentmihályi út
-      - ['09:31:00', 'F03057',   4657] # Beller Imre utca
-      - ['09:33:00', 'F03050',   5045] # Hubay Jenő tér
-      - ['09:33:00', 'F03052',   5385] # Sződliget utca
-      - ['09:35:00', 'F03022',   5988] # Pozsony utca
-      - ['09:36:00', '008289',   6524] # Szilágyi utca
-      - ['09:37:00', 'F00874',   6898] # Zombori utca
-      - ['09:38:00', 'F00760',   7175] # Iglói utca
-      - ['09:39:00', 'F00752',   7517] # Vadgesztenye utca
-      - ['09:40:00', 'F00748',   7854] # Erdősor út
-      - ['09:41:00', 'F00733',   8167] # Művelődési Központ
-      - ['09:42:00', 'F00740',   8463] # Hajló utca
-      - ['09:43:00', 'F00742',   8690] # Káposztásmegyer, Szilas-patak
+      - ['00:00:00', 'F03147',      0] # Újpalota, Szentmihályi út
+      - ['00:01:00', 'F03201',    345] # Erdőkerülő utca 28.
+      - ['00:02:00', 'F03209',    767] # Zsókavár utca
+      - ['00:03:00', 'F03154',    990] # Fő tér
+      - ['00:04:00', 'F03159',   1420] # Vásárcsarnok
+      - ['00:05:00', 'F03193',   1737] # Sárfű utca
+      - ['00:06:00', 'F03125',   2093] # Bánkút utca
+      - ['00:07:00', 'F03120',   2708] # Kozák tér
+      - ['00:09:00', 'F03121',   2952] # Szerencs utca
+      - ['00:10:00', 'F03115',   3309] # Klapka György utca
+      - ['00:12:00', 'F03072',   3746] # Rákos úti szakrendelő
+      - ['00:13:00', 'F03059',   4356] # Szentmihályi út
+      - ['00:14:00', 'F03057',   4657] # Beller Imre utca
+      - ['00:16:00', 'F03050',   5045] # Hubay Jenő tér
+      - ['00:16:00', 'F03052',   5385] # Sződliget utca
+      - ['00:18:00', 'F03022',   5988] # Pozsony utca
+      - ['00:19:00', '008289',   6524] # Szilágyi utca
+      - ['00:20:00', 'F00874',   6898] # Zombori utca
+      - ['00:21:00', 'F00760',   7175] # Iglói utca
+      - ['00:22:00', 'F00752',   7517] # Vadgesztenye utca
+      - ['00:23:00', 'F00748',   7854] # Erdősor út
+      - ['00:24:00', 'F00733',   8167] # Művelődési Központ
+      - ['00:25:00', 'F00740',   8463] # Hajló utca
+      - ['00:26:00', 'F00742',   8690] # Káposztásmegyer, Szilas-patak
     trip_headsign: 'Káposztásmegyer, Szilas-patak'
     trip_id: REFERENCE-2960-0-1
-    wheelchair_accessible: 2
+    wheelchair_accessible: 1
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-2960-1-1-H440
     stop_times:
-      - ['07:56:00', 'F00860',      0] # Káposztásmegyer, Szilas-patak
-      - ['07:56:00', 'F00739',    299] # Hajló utca
-      - ['07:57:00', 'F00732',    564] # Művelődési Központ
-      - ['07:58:00', 'F00749',    898] # Erdősor út
-      - ['07:59:00', 'F00751',   1443] # Fóti út
-      - ['08:00:00', 'F00873',   1779] # Zombori utca
-      - ['08:00:00', 'F00875',   1977] # Pajtás utca
-      - ['08:01:00', 'F00764',   2311] # Szilágyi utca
-      - ['08:02:00', 'F03021',   2804] # Pozsony utca
-      - ['08:04:00', 'F03051',   3395] # Fő út
-      - ['08:05:00', 'F03054',   3752] # Hubay Jenő tér
-      - ['08:05:00', 'F03056',   4006] # Beller Imre utca
-      - ['08:07:00', 'F03058',   4496] # Rákos út
-      - ['08:08:00', 'F03071',   5108] # Rákos úti szakrendelő
-      - ['08:10:00', 'F03114',   5601] # Damjanich János utca
-      - ['08:11:00', 'F03122',   5876] # Bercsényi Miklós utca
-      - ['08:12:00', 'F03119',   6046] # Kozák tér
-      - ['08:14:00', 'F03126',   6762] # Páskomliget utca
-      - ['08:15:00', 'F03194',   7089] # Sárfű utca
-      - ['08:15:00', 'F03160',   7344] # Vásárcsarnok
-      - ['08:17:00', 'F03153',   7834] # Fő tér
-      - ['08:18:00', 'F03150',   8173] # Erdőkerülő utca
-      - ['08:19:00', 'F03202',   8477] # Erdőkerülő utca 27.
-      - ['08:20:00', 'F03145',   8736] # Újpalota, Szentmihályi út
+      - ['00:00:00', 'F00860',      0] # Káposztásmegyer, Szilas-patak
+      - ['00:00:00', 'F00739',    299] # Hajló utca
+      - ['00:01:00', 'F00732',    564] # Művelődési Központ
+      - ['00:02:00', 'F00749',    898] # Erdősor út
+      - ['00:03:00', 'F00751',   1443] # Fóti út
+      - ['00:04:00', 'F00873',   1779] # Zombori utca
+      - ['00:04:00', 'F00875',   1977] # Pajtás utca
+      - ['00:05:00', 'F00764',   2311] # Szilágyi utca
+      - ['00:06:00', 'F03021',   2804] # Pozsony utca
+      - ['00:08:00', 'F03051',   3395] # Fő út
+      - ['00:09:00', 'F03054',   3752] # Hubay Jenő tér
+      - ['00:10:00', 'F03056',   4006] # Beller Imre utca
+      - ['00:11:00', 'F03058',   4496] # Rákos út
+      - ['00:13:00', 'F03071',   5108] # Rákos úti szakrendelő
+      - ['00:14:00', 'F03114',   5601] # Damjanich János utca
+      - ['00:16:00', 'F03122',   5876] # Bercsényi Miklós utca
+      - ['00:16:00', 'F03119',   6046] # Kozák tér
+      - ['00:18:00', 'F03126',   6762] # Páskomliget utca
+      - ['00:19:00', 'F03194',   7089] # Sárfű utca
+      - ['00:20:00', 'F03160',   7344] # Vásárcsarnok
+      - ['00:22:00', 'F03153',   7834] # Fő tér
+      - ['00:23:00', 'F03150',   8173] # Erdőkerülő utca
+      - ['00:24:00', 'F03202',   8477] # Erdőkerülő utca 27.
+      - ['00:25:00', 'F03145',   8736] # Újpalota, Szentmihályi út
     trip_headsign: 'Újpalota, Szentmihályi út'
     trip_id: REFERENCE-2960-1-1
     wheelchair_accessible: 1

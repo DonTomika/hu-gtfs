@@ -13,42 +13,42 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0665-0-1-M760
     stop_times:
-      - ['16:00:00', 'F04015',      0] # Határ út M
-      - ['16:03:00', 'F01370',   1649] # Nagykőrösi út (Határ út)
-      - ['16:10:00', 'F04123',   4277] # Pesterzsébet, városközpont
-      - ['16:11:00', '009586',   4555] # Baross utca
-      - ['16:15:00', 'F04051',   6345] # Torontál utca H
-      - ['16:16:00', 'F04528',   7092] # Festékgyár
-      - ['16:17:00', '008481',   7865] # Soroksár felső H
-      - ['16:20:00', 'F04539',   9126] # Soroksár, Hősök tere H
-      - ['16:22:00', 'F04551',  10286] # Hunyadi utca
-      - ['16:24:00', 'F04570',  11062] # Ócsai úti felüljáró
-      - ['16:25:00', 'F04552',  11209] # Polimer
-      - ['16:27:00', '009311',  11889] # BILK bekötőút
-      - ['16:28:00', '009312',  12366] # MNB
-      - ['16:30:00', '042934',  12735] # Soroksár, BILK
+      - ['00:00:00', 'F04015',      0] # Határ út M
+      - ['00:03:00', 'F01370',   1649] # Nagykőrösi út (Határ út)
+      - ['00:09:00', 'F04123',   4277] # Pesterzsébet, városközpont
+      - ['00:10:00', '009586',   4555] # Baross utca
+      - ['00:14:00', 'F04051',   6345] # Torontál utca H
+      - ['00:15:00', 'F04528',   7092] # Festékgyár
+      - ['00:16:00', '008481',   7865] # Soroksár felső H
+      - ['00:19:00', 'F04539',   9126] # Soroksár, Hősök tere H
+      - ['00:21:00', 'F04551',  10286] # Hunyadi utca
+      - ['00:23:00', 'F04570',  11062] # Ócsai úti felüljáró
+      - ['00:24:00', 'F04552',  11209] # Polimer
+      - ['00:26:00', '009311',  11889] # BILK bekötőút
+      - ['00:27:00', '009312',  12366] # MNB
+      - ['00:29:00', '042934',  12735] # Soroksár, BILK
     trip_headsign: 'Soroksár, BILK'
     trip_id: REFERENCE-0665-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-0665-1-1-M761
     stop_times:
-      - ['07:32:00', '042934',      0] # Soroksár, BILK
-      - ['07:33:00', '009314',    611] # Schenker főbejárat
-      - ['07:34:00', '009315',    980] # MNB
-      - ['07:35:00', 'F04523',   1605] # Soroksár, központi raktárak
-      - ['07:36:00', 'F04553',   2226] # Polimer
-      - ['07:37:00', 'F04571',   2368] # Ócsai úti felüljáró
-      - ['07:38:00', 'F04550',   3180] # Szalma utca
-      - ['07:40:00', 'F04538',   4366] # Soroksár, Hősök tere H
-      - ['07:43:00', 'F04531',   5551] # Soroksár felső H
-      - ['07:45:00', 'F04529',   6286] # Festékgyár
-      - ['07:46:00', 'F04050',   7139] # Torontál utca H
-      - ['07:51:00', 'F04145',   8921] # Pesterzsébet, Baross utca
-      - ['07:52:00', 'F04122',   9211] # Pesterzsébet, városközpont
-      - ['08:01:00', 'F01451',  12234] # Nagykőrösi út (Határ út)
-      - ['08:07:00', 'F04014',  13651] # Határ út M
+      - ['00:00:00', '042934',      0] # Soroksár, BILK
+      - ['00:01:00', '009314',    611] # Schenker főbejárat
+      - ['00:02:00', '009315',    980] # MNB
+      - ['00:03:00', 'F04523',   1605] # Soroksár, központi raktárak
+      - ['00:04:00', 'F04553',   2226] # Polimer
+      - ['00:05:00', 'F04571',   2368] # Ócsai úti felüljáró
+      - ['00:06:00', 'F04550',   3180] # Szalma utca
+      - ['00:08:00', 'F04538',   4366] # Soroksár, Hősök tere H
+      - ['00:10:00', 'F04531',   5551] # Soroksár felső H
+      - ['00:12:00', 'F04529',   6286] # Festékgyár
+      - ['00:13:00', 'F04050',   7139] # Torontál utca H
+      - ['00:18:00', 'F04145',   8921] # Pesterzsébet, Baross utca
+      - ['00:19:00', 'F04122',   9211] # Pesterzsébet, városközpont
+      - ['00:28:00', 'F01451',  12234] # Nagykőrösi út (Határ út)
+      - ['00:34:00', 'F04014',  13651] # Határ út M
     trip_headsign: Határ út M
     trip_id: REFERENCE-0665-1-1
     wheelchair_accessible: 2

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: 'Móricz Zsigmond körtér / Nagytétény, Chinoin'
+route_desc: 'Móricz Zsigmond körtér (Karinthy Fr.út) / Nagytétény, Chinoin'
 route_id: 0330
 route_long_name: ''
 route_short_name: 33
@@ -13,37 +13,37 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0330-0-1-L868
     stop_times:
-      - ['17:40:00', 'F02150',      0] # Móricz Zsigmond körtér (Karinthy Fr.út)
-      - ['17:41:00', 'F02156',    227] # Budafoki út (Karinthy Frigyes út)
-      - ['17:43:00', 'F01986',    456] # Budafoki út (Szerémi sor)
-      - ['17:45:00', 'F01984',   1076] # Prielle Kornélia utca
-      - ['17:46:00', 'F02234',   1564] # Kelenföldi Erőmű
-      - ['17:47:00', 'F02236',   2157] # Hengermalom út
-      - ['17:48:00', 'F01980',   2606] # Galvani utca
-      - ['17:49:00', 'F02157',   2974] # Budafoki út 215.
-      - ['17:50:00', 'F01976',   3277] # Kondorosi út
-      - ['17:51:00', 'F01974',   3545] # Építész utca
-      - ['17:52:00', 'F01972',   4170] # Vegyész utca
-      - ['17:55:00', 'F04383',   5641] # Leányka utcai lakótelep
-      - ['17:56:00', 'F04402',   6097] # Savoyai Jenő tér
-      - ['17:57:00', 'F04403',   6389] # Városház tér
-      - ['17:58:00', 'F04408',   6953] # Tóth József utca
-      - ['17:59:00', 'F04436',   7880] # Vágóhíd utca
-      - ['18:00:00', 'F04433',   8374] # Háros vasútállomás
-      - ['18:01:00', 'F04432',   8900] # Háros utca
-      - ['18:02:00', 'F04453',   9357] # Jókai Mór utca
-      - ['18:04:00', 'F04456',   9746] # Lépcsős utca
-      - ['18:06:00', 'F04457',  10453] # Budatétényi sorompó
-      - ['18:08:00', 'F04467',  11089] # Dózsa György út
-      - ['18:09:00', 'F04509',  11543] # Tenkes utca
-      - ['18:10:00', 'F04480',  11996] # Bartók Béla út
-      - ['18:11:00', 'F04495',  12366] # Petőfi Sándor u.(Kastélymúzeum)
-      - ['18:12:00', 'F04496',  12811] # Szabadság utca
-      - ['18:13:00', 'F04499',  13088] # Angeli utca
-      - ['18:14:00', 'F04502',  13355] # Akó utca
-      - ['18:15:00', 'F04504',  13813] # Nagytétény vasútállomás
-      - ['18:17:00', 'F04505',  14730] # Vegyépszer
-      - ['18:18:00', 'F04508',  15132] # Nagytétény, Chinoin
+      - ['00:00:00', 'F02150',      0] # Móricz Zsigmond körtér (Karinthy Fr.út)
+      - ['00:01:00', 'F02156',    227] # Budafoki út (Karinthy Frigyes út)
+      - ['00:03:00', 'F01986',    456] # Budafoki út (Szerémi sor)
+      - ['00:05:00', 'F01984',   1076] # Prielle Kornélia utca
+      - ['00:06:00', 'F02234',   1564] # Kelenföldi Erőmű
+      - ['00:07:00', 'F02236',   2157] # Hengermalom út
+      - ['00:08:00', 'F01980',   2606] # Galvani utca
+      - ['00:09:00', 'F02157',   2974] # Budafoki út 215.
+      - ['00:10:00', 'F01976',   3277] # Kondorosi út
+      - ['00:11:00', 'F01974',   3545] # Építész utca
+      - ['00:12:00', 'F01972',   4170] # Vegyész utca
+      - ['00:15:00', 'F04383',   5641] # Leányka utcai lakótelep
+      - ['00:16:00', 'F04402',   6097] # Savoyai Jenő tér
+      - ['00:17:00', 'F04403',   6389] # Városház tér
+      - ['00:18:00', 'F04408',   6953] # Tóth József utca
+      - ['00:19:00', 'F04436',   7880] # Vágóhíd utca
+      - ['00:20:00', 'F04433',   8374] # Háros vasútállomás
+      - ['00:21:00', 'F04432',   8900] # Háros utca
+      - ['00:22:00', 'F04453',   9357] # Jókai Mór utca
+      - ['00:24:00', 'F04456',   9746] # Lépcsős utca
+      - ['00:25:00', 'F04457',  10453] # Budatétényi sorompó
+      - ['00:26:00', 'F04467',  11089] # Dózsa György út
+      - ['00:27:00', 'F04509',  11543] # Tenkes utca
+      - ['00:28:00', 'F04480',  11996] # Bartók Béla út
+      - ['00:29:00', 'F04495',  12366] # Petőfi Sándor u.(Kastélymúzeum)
+      - ['00:30:00', 'F04496',  12811] # Szabadság utca
+      - ['00:31:00', 'F04499',  13088] # Angeli utca
+      - ['00:32:00', 'F04502',  13355] # Akó utca
+      - ['00:33:00', 'F04504',  13813] # Nagytétény vasútállomás
+      - ['00:35:00', 'F04505',  14730] # Vegyépszer
+      - ['00:36:00', 'F04508',  15132] # Nagytétény, Chinoin
     trip_headsign: 'Nagytétény, Chinoin'
     trip_id: REFERENCE-0330-0-1
     wheelchair_accessible: 1
@@ -51,37 +51,37 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0330-1-1-L867
     stop_times:
-      - ['12:35:00', 'F04507',      0] # Nagytétény, Chinoin
-      - ['12:36:00', 'F04506',    446] # Vegyépszer
-      - ['12:38:00', 'F04503',   1322] # Nagytétény vasútállomás
-      - ['12:39:00', 'F04501',   1716] # Vasút utca
-      - ['12:40:00', '008170',   1980] # Angeli utca
-      - ['12:41:00', 'F04497',   2354] # Szabadság utca
-      - ['12:42:00', 'F04494',   2710] # Petőfi Sándor utca
-      - ['12:43:00', 'F04479',   3022] # Bartók Béla út
-      - ['12:44:00', 'F04510',   3478] # Tenkes utca
-      - ['12:45:00', 'F04466',   4102] # Dózsa György út
-      - ['12:47:00', 'F04458',   4725] # Budatétényi sorompó
-      - ['12:48:00', 'F04455',   5400] # Lépcsős utca
-      - ['12:50:00', 'F04454',   5773] # Jókai Mór utca
-      - ['12:51:00', 'F04431',   6222] # Háros utca
-      - ['12:52:00', 'F04434',   6797] # Háros vasútállomás
-      - ['12:53:00', 'F04435',   7211] # Vágóhíd utca
-      - ['12:55:00', 'F04407',   8113] # Tóth József utca
-      - ['12:57:00', 'F04406',   8717] # Városház tér
-      - ['12:58:00', 'F04398',   9057] # Savoyai Jenő tér
-      - ['12:59:00', 'F04384',   9379] # Leányka utcai lakótelep
-      - ['13:02:00', 'F01973',  11016] # Vegyész utca
-      - ['13:03:00', 'F01975',  11481] # Építész utca
-      - ['13:04:00', 'F01977',  11823] # Kondorosi út
-      - ['13:05:00', 'F02158',  12172] # Budafoki út 215.
-      - ['13:06:00', 'F01981',  12537] # Galvani utca
-      - ['13:07:00', 'F02237',  13003] # Hengermalom út
-      - ['13:09:00', 'F02235',  13562] # Kelenföldi Erőmű
-      - ['13:10:00', 'F01985',  14050] # Dombóvári út
-      - ['13:12:00', 'F01991',  14502] # Budafoki út (Szerémi sor)
-      - ['13:13:00', 'F02155',  14800] # Budafoki út (Karinthy Frigyes út)
-      - ['13:15:00', '011319',  15252] # Móricz Zsigmond körtér (Karinthy Fr.út)
+      - ['00:00:00', 'F04507',      0] # Nagytétény, Chinoin
+      - ['00:01:00', 'F04506',    446] # Vegyépszer
+      - ['00:03:00', 'F04503',   1322] # Nagytétény vasútállomás
+      - ['00:04:00', 'F04501',   1716] # Vasút utca
+      - ['00:05:00', '008170',   1980] # Angeli utca
+      - ['00:06:00', 'F04497',   2354] # Szabadság utca
+      - ['00:07:00', 'F04494',   2710] # Petőfi Sándor utca
+      - ['00:08:00', 'F04479',   3022] # Bartók Béla út
+      - ['00:09:00', 'F04510',   3478] # Tenkes utca
+      - ['00:10:00', 'F04466',   4102] # Dózsa György út
+      - ['00:12:00', 'F04458',   4725] # Budatétényi sorompó
+      - ['00:13:00', 'F04455',   5400] # Lépcsős utca
+      - ['00:14:00', 'F04454',   5773] # Jókai Mór utca
+      - ['00:15:00', 'F04431',   6222] # Háros utca
+      - ['00:16:00', 'F04434',   6797] # Háros vasútállomás
+      - ['00:17:00', 'F04435',   7211] # Vágóhíd utca
+      - ['00:19:00', 'F04407',   8113] # Tóth József utca
+      - ['00:21:00', 'F04406',   8717] # Városház tér
+      - ['00:22:00', 'F04398',   9057] # Savoyai Jenő tér
+      - ['00:23:00', 'F04384',   9379] # Leányka utcai lakótelep
+      - ['00:26:00', 'F01973',  11016] # Vegyész utca
+      - ['00:27:00', 'F01975',  11481] # Építész utca
+      - ['00:28:00', 'F01977',  11823] # Kondorosi út
+      - ['00:29:00', 'F02158',  12172] # Budafoki út 215.
+      - ['00:30:00', 'F01981',  12537] # Galvani utca
+      - ['00:31:00', 'F02237',  13003] # Hengermalom út
+      - ['00:33:00', 'F02235',  13562] # Kelenföldi Erőmű
+      - ['00:34:00', 'F01985',  14050] # Dombóvári út
+      - ['00:36:00', 'F01991',  14502] # Budafoki út (Szerémi sor)
+      - ['00:37:00', 'F02155',  14800] # Budafoki út (Karinthy Frigyes út)
+      - ['00:38:00', '011319',  15252] # Móricz Zsigmond körtér (Karinthy Fr.út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-0330-1-1
     wheelchair_accessible: 1

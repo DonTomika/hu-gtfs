@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: FF1818
-route_desc: Arany János utca M / Keleti pályaudvar M
+route_desc: Arany János utca M / Keleti pályaudvar M (Garay utca)
 route_id: 4730
 route_long_name: ''
 route_short_name: 73
@@ -11,17 +11,17 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-4730-0-1-S399
+    shape_id: REFERENCE-4730-0-1-G456
     stop_times:
-      - ['06:37:00', 'F00994',      0] # Arany János utca M
-      - ['06:39:00', 'F00940',    555] # Podmaniczky utca
-      - ['06:41:00', 'F01030',    862] # Nyugati pályaudvar M (Podmaniczky utca)
-      - ['06:42:00', 'F01072',   1281] # Izabella utca
-      - ['06:44:00', 'F01090',   1694] # Andrássy út (Vörösmarty utca M)
-      - ['06:46:00', 'F01040',   2118] # Király utca
-      - ['06:48:00', 'F01117',   2509] # Wesselényi utca
-      - ['06:50:00', 'F01121',   2915] # Rottenbiller utca
-      - ['06:52:00', '009417',   3356] # Keleti pályaudvar M (Garay utca)
+      - ['00:00:00', 'F00994',      0] # Arany János utca M
+      - ['00:02:00', 'F00940',    555] # Podmaniczky utca
+      - ['00:04:00', 'F01030',    862] # Nyugati pályaudvar M (Podmaniczky utca)
+      - ['00:06:00', 'F01072',   1281] # Izabella utca
+      - ['00:08:00', 'F01090',   1694] # Andrássy út (Vörösmarty utca M)
+      - ['00:10:00', 'F01040',   2118] # Király utca
+      - ['00:12:00', 'F01117',   2509] # Wesselényi utca
+      - ['00:14:00', 'F01121',   2915] # Rottenbiller utca
+      - ['00:16:00', '009417',   3356] # Keleti pályaudvar M (Garay utca)
     trip_headsign: Keleti pályaudvar M
     trip_id: REFERENCE-4730-0-1
     wheelchair_accessible: 2
@@ -29,17 +29,17 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-4730-1-1-G455
     stop_times:
-      - ['07:00:00', '009418',      0] # Keleti pályaudvar M (Garay utca)
-      - ['07:02:00', 'F01172',    276] # Péterfy Sándor utca
-      - ['07:03:00', 'F01122',    453] # István utca
-      - ['07:04:00', 'F01120',    683] # Wesselényi utca
-      - ['07:05:00', 'F01119',    901] # Dob utca
-      - ['07:07:00', 'F01042',   1232] # Király utca
-      - ['07:08:00', 'F01091',   1431] # Andrássy út (Vörösmarty utca M)
-      - ['07:11:00', 'F01068',   2019] # Podmaniczky utca
-      - ['07:13:00', 'F01031',   2402] # Nyugati pályaudvar M (Podmaniczky utca)
-      - ['07:16:00', 'F00941',   2876] # Bajcsy-Zsilinszky út
-      - ['07:17:00', 'F00943',   3235] # Arany János utca M
+      - ['00:00:00', '009418',      0] # Keleti pályaudvar M (Garay utca)
+      - ['00:02:00', 'F01172',    276] # Péterfy Sándor utca
+      - ['00:03:00', 'F01122',    453] # István utca
+      - ['00:04:00', 'F01120',    683] # Wesselényi utca
+      - ['00:05:00', 'F01119',    901] # Dob utca
+      - ['00:06:00', 'F01042',   1232] # Király utca
+      - ['00:07:00', 'F01091',   1431] # Andrássy út (Vörösmarty utca M)
+      - ['00:09:00', 'F01068',   2019] # Podmaniczky utca
+      - ['00:11:00', 'F01031',   2402] # Nyugati pályaudvar M (Podmaniczky utca)
+      - ['00:13:00', 'F00941',   2876] # Bajcsy-Zsilinszky út
+      - ['00:13:00', 'F00943',   3235] # Arany János utca M
     trip_headsign: Arany János utca M
     trip_id: REFERENCE-4730-1-1
     wheelchair_accessible: 2

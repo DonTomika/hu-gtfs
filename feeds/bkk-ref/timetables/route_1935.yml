@@ -13,30 +13,30 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1935-0-1-N966
     stop_times:
-      - ['15:34:00', '038673',      0] # Kőbánya-Kispest M
-      - ['15:39:00', 'F01545',   2973] # Felsőcsatári út
-      - ['15:44:00', 'F03716',   5948] # Szarvas csárda tér
-      - ['15:49:00', 'F03790',   8757] # Béke tér (Üllői út)
-      - ['15:50:00', 'F03867',   8975] # Háromszéki utca
-      - ['15:51:00', 'F03794',   9324] # Gyergyó utca
-      - ['15:52:00', 'F03797',   9750] # Benczúr utca
-      - ['15:54:00', 'F03795',  10108] # Pestszentlőrinc, Mednyánszky utca
+      - ['00:00:00', '038673',      0] # Kőbánya-Kispest M
+      - ['00:04:00', 'F01545',   2973] # Felsőcsatári út
+      - ['00:09:00', 'F03716',   5948] # Szarvas csárda tér
+      - ['00:14:00', 'F03790',   8757] # Béke tér (Üllői út)
+      - ['00:15:00', 'F03867',   8975] # Háromszéki utca
+      - ['00:16:00', 'F03794',   9324] # Gyergyó utca
+      - ['00:17:00', 'F03797',   9750] # Benczúr utca
+      - ['00:19:00', 'F03795',  10108] # Pestszentlőrinc, Mednyánszky utca
     trip_headsign: 'Pestszentlőrinc, Mednyánszky utca'
     trip_id: REFERENCE-1935-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1935-1-1-N967
     stop_times:
-      - ['06:10:00', 'F03795',      0] # Pestszentlőrinc, Mednyánszky utca
-      - ['06:11:00', 'F03796',    463] # Üllői út
-      - ['06:12:00', 'F03793',    795] # Dávid Ferenc utca
-      - ['06:13:00', 'F03868',   1176] # Rába utca
-      - ['06:14:00', 'F03787',   1435] # Béke tér (Üllői út)
-      - ['06:20:00', 'F03715',   4247] # Szarvas csárda tér
-      - ['06:27:00', 'F01870',   7549] # Felsőcsatári út
-      - ['06:32:00', '009592',  10045] # Kőbánya-Kispest M
-      - ['06:34:00', '038674',  10572] # Kőbánya-Kispest M
+      - ['00:00:00', 'F03795',      0] # Pestszentlőrinc, Mednyánszky utca
+      - ['00:01:00', 'F03796',    463] # Üllői út
+      - ['00:02:00', 'F03793',    795] # Dávid Ferenc utca
+      - ['00:03:00', 'F03868',   1176] # Rába utca
+      - ['00:04:00', 'F03787',   1435] # Béke tér (Üllői út)
+      - ['00:09:00', 'F03715',   4247] # Szarvas csárda tér
+      - ['00:16:00', 'F01870',   7549] # Felsőcsatári út
+      - ['00:20:00', '009592',  10045] # Kőbánya-Kispest M
+      - ['00:22:00', '038674',  10572] # Kőbánya-Kispest M
     trip_headsign: Kőbánya-Kispest M
     trip_id: REFERENCE-1935-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Aszódi utca / Aszódi utca
+route_desc: Aszódi utca - József Attila lakótelep, Távíró utca - Aszódi utca
 route_id: 2810
 route_long_name: ''
 route_short_name: 281
@@ -13,36 +13,36 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2810-0-1-G060
     stop_times:
-      - ['16:30:00', '008498',      0] # Aszódi utca
-      - ['16:32:00', 'F01479',    301] # Gyáli út
-      - ['16:33:00', 'F01483',    782] # Epreserdő utca
-      - ['16:35:00', 'F01490',   1217] # Ecseri út M
-      - ['16:36:00', 'F01488',   1477] # Ifjúmunkás utca
-      - ['16:37:00', 'F01364',   1677] # Börzsöny utca
-      - ['16:38:00', 'F01469',   1909] # Napfény utca
-      - ['16:39:00', 'F01470',   2299] # Lobogó utca
-      - ['16:40:00', 'F01408',   2585] # József Attila ltp., Távíró utca
-      - ['16:41:00', 'F01471',   2761] # Lobogó utca
-      - ['16:42:00', 'F01467',   3115] # Friss utca
-      - ['16:43:00', 'F01468',   3403] # Pöttyös utca
-      - ['16:44:00', 'F01363',   3797] # Börzsöny utca
-      - ['16:45:00', 'F01369',   4086] # Aranyvirág sétány
-      - ['16:46:00', 'F01481',   4263] # Ecseri út
-      - ['16:47:00', '008499',   4459] # Közterületfenntartó Zrt.
-      - ['16:54:00', 'F01504',   6233] # Ferencváros vasútállomás
-      - ['16:55:00', 'F01508',   6679] # Mester utca
-      - ['17:00:00', '008501',   7818] # Szakorvosi rendelő
-      - ['17:02:00', 'F01395',   8478] # Mester utca
-      - ['17:03:00', 'F01513',   8724] # Balázs Béla utca
-      - ['17:05:00', 'F01249',   9279] # Nagyvárad tér M
-      - ['17:10:00', '008500',  11217] # Ecseri út M
-      - ['17:11:00', 'F01482',  11567] # Közterületfenntartó Zrt.
-      - ['17:13:00', '008589',  11998] # Gyáli út
-      - ['17:14:00', 'F01477',  12300] # Zombori utca
-      - ['17:16:00', 'F01492',  12493] # Péceli utca
-      - ['17:17:00', 'F01365',  12713] # Merényi Gusztáv Kórház
-      - ['17:18:00', 'F01478',  12964] # Füleki utca
-      - ['17:20:00', '008498',  13410] # Aszódi utca
+      - ['00:00:00', '008498',      0] # Aszódi utca
+      - ['00:02:00', 'F01479',    301] # Gyáli út
+      - ['00:03:00', 'F01483',    782] # Epreserdő utca
+      - ['00:05:00', 'F01490',   1217] # Ecseri út M
+      - ['00:06:00', 'F01488',   1477] # Ifjúmunkás utca
+      - ['00:07:00', 'F01364',   1677] # Börzsöny utca
+      - ['00:08:00', 'F01469',   1909] # Napfény utca
+      - ['00:09:00', 'F01470',   2299] # Lobogó utca
+      - ['00:10:00', 'F01408',   2585] # József Attila ltp., Távíró utca
+      - ['00:11:00', 'F01471',   2761] # Lobogó utca
+      - ['00:12:00', 'F01467',   3115] # Friss utca
+      - ['00:13:00', 'F01468',   3403] # Pöttyös utca
+      - ['00:14:00', 'F01363',   3797] # Börzsöny utca
+      - ['00:15:00', 'F01369',   4086] # Aranyvirág sétány
+      - ['00:16:00', 'F01481',   4263] # Ecseri út
+      - ['00:17:00', '008499',   4459] # Közterületfenntartó Zrt.
+      - ['00:24:00', 'F01504',   6233] # Ferencváros vasútállomás
+      - ['00:25:00', 'F01508',   6679] # Mester utca
+      - ['00:30:00', '008501',   7818] # Szakorvosi rendelő
+      - ['00:32:00', 'F01395',   8478] # Mester utca
+      - ['00:33:00', 'F01513',   8724] # Balázs Béla utca
+      - ['00:35:00', 'F01249',   9279] # Nagyvárad tér M
+      - ['00:40:00', '008500',  11217] # Ecseri út M
+      - ['00:41:00', 'F01482',  11567] # Közterületfenntartó Zrt.
+      - ['00:43:00', '008589',  11998] # Gyáli út
+      - ['00:44:00', 'F01477',  12300] # Zombori utca
+      - ['00:46:00', 'F01492',  12493] # Péceli utca
+      - ['00:47:00', 'F01365',  12713] # Merényi Gusztáv Kórház
+      - ['00:48:00', 'F01478',  12964] # Füleki utca
+      - ['00:50:00', '008498',  13410] # Aszódi utca
     trip_headsign: Aszódi utca
     trip_id: REFERENCE-2810-0-1
     wheelchair_accessible: 1

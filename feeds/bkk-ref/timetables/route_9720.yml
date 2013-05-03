@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 333333
-route_desc: 'Móricz Zsigmond körtér / Törökbálint, Munkácsy Mihály utca'
+route_desc: 'Móricz Zsigmond körtér (Villányi út) / Törökbálint, Munkácsy Mihály utca'
 route_id: 9720
 route_long_name: ''
 route_short_name: 972
@@ -13,47 +13,47 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9720-0-1-Q601
     stop_times:
-      - ['26:33:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['26:35:00', 'F02183',    700] # Kosztolányi Dezső tér
-      - ['26:37:00', '009427',   1460] # Kelenföldi autóbuszgarázs
-      - ['26:38:00', 'F02049',   1780] # Hungária Biztosító
-      - ['26:40:00', 'F02053',   2500] # Dayka Gábor utca
-      - ['26:41:00', 'F01926',   2965] # Sasadi út
-      - ['26:42:00', 'F01928',   3420] # Nagyszeben út
-      - ['26:43:00', 'F01931',   3897] # Gazdagréti út
-      - ['26:44:00', 'F01932',   4448] # Poprádi út
-      - ['26:45:00', 'F02266',   4915] # Madárhegy
-      - ['26:46:00', 'F02217',   5532] # Rupphegyi út
-      - ['26:46:00', 'F04795',   5844] # Budaörs, Felsőhatár utca
-      - ['26:47:00', 'F04791',   6375] # Tulipán utca
-      - ['26:48:00', 'F04735',   6732] # Aradi utca
-      - ['26:49:00', 'F04809',   7122] # Templom tér
-      - ['26:50:00', 'F04721',   7707] # Károly király utca
-      - ['26:51:00', 'F04719',   8016] # Kisfaludy utca
-      - ['26:51:00', 'F04807',   8278] # Kötő utca
-      - ['26:52:00', 'F04717',   8524] # Budaörs, városháza
-      - ['26:53:00', 'F04714',   9025] # Gimnázium
-      - ['26:54:00', 'F04829',   9514] # Alcsíki dűlő
-      - ['26:54:00', 'F04837',   9786] # Lejtő utca
-      - ['26:55:00', 'F04710',  10109] # Ibolya utca
-      - ['26:55:00', 'F04801',  10461] # Csíki csárda
-      - ['26:56:00', 'F04803',  11086] # Csíki tanya
-      - ['26:57:00', 'F04739',  11707] # Hídépítő Zrt.
-      - ['26:58:00', 'F04833',  12239] # Budaörs, Tetra Pak
-      - ['26:59:00', 'F04741',  12589] # Autópálya Főmérnökség
-      - ['27:00:00', 'F04743',  13308] # Tó utca - vasútállomás
-      - ['27:02:00', 'F04747',  13910] # Vasút utca
-      - ['27:03:00', 'F04812',  14262] # Téglagyár
-      - ['27:03:00', 'F04749',  14642] # Deák Ferenc utca
-      - ['27:04:00', 'F04752',  15241] # Baross Gábor utca
-      - ['27:05:00', 'F04757',  15633] # Harangláb
-      - ['27:06:00', 'F04814',  16303] # Ady Endre utca
-      - ['27:07:00', 'F04759',  16793] # Őszibarack utca
-      - ['27:09:00', 'F04761',  17181] # Károlyi Mihály utca
-      - ['27:10:00', '008345',  17857] # Katona József utca
-      - ['27:11:00', 'F04815',  18337] # Zrínyi utca
-      - ['27:12:00', 'F04758',  18688] # Harangláb
-      - ['27:14:00', 'F04755',  19053] # Törökbálint, Munkácsy Mihály utca
+      - ['00:00:00', 'F02198',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02183',    700] # Kosztolányi Dezső tér
+      - ['00:04:00', '009427',   1460] # Kelenföldi autóbuszgarázs
+      - ['00:05:00', 'F02049',   1780] # Hungária Biztosító
+      - ['00:07:00', 'F02053',   2500] # Dayka Gábor utca
+      - ['00:08:00', 'F01926',   2965] # Sasadi út
+      - ['00:09:00', 'F01928',   3420] # Nagyszeben út
+      - ['00:10:00', 'F01931',   3897] # Gazdagréti út
+      - ['00:11:00', 'F01932',   4448] # Poprádi út
+      - ['00:12:00', 'F02266',   4915] # Madárhegy
+      - ['00:13:00', 'F02217',   5532] # Rupphegyi út
+      - ['00:13:00', 'F04795',   5844] # Budaörs, Felsőhatár utca
+      - ['00:14:00', 'F04791',   6375] # Tulipán utca
+      - ['00:15:00', 'F04735',   6732] # Aradi utca
+      - ['00:16:00', 'F04809',   7122] # Templom tér
+      - ['00:17:00', 'F04721',   7707] # Károly király utca
+      - ['00:18:00', 'F04719',   8016] # Kisfaludy utca
+      - ['00:18:00', 'F04807',   8278] # Kötő utca
+      - ['00:19:00', 'F04717',   8524] # Budaörs, városháza
+      - ['00:20:00', 'F04714',   9025] # Gimnázium
+      - ['00:21:00', 'F04829',   9514] # Alcsíki dűlő
+      - ['00:21:00', 'F04837',   9786] # Lejtő utca
+      - ['00:22:00', 'F04710',  10109] # Ibolya utca
+      - ['00:22:00', 'F04801',  10461] # Csíki csárda
+      - ['00:23:00', 'F04803',  11086] # Csíki tanya
+      - ['00:24:00', 'F04739',  11707] # Hídépítő Zrt.
+      - ['00:25:00', 'F04833',  12239] # Budaörs, Tetra Pak
+      - ['00:26:00', 'F04741',  12589] # Autópálya Főmérnökség
+      - ['00:27:00', 'F04743',  13308] # Tó utca - vasútállomás
+      - ['00:29:00', 'F04747',  13910] # Vasút utca
+      - ['00:30:00', 'F04812',  14262] # Téglagyár
+      - ['00:30:00', 'F04749',  14642] # Deák Ferenc utca
+      - ['00:31:00', 'F04752',  15241] # Baross Gábor utca
+      - ['00:32:00', 'F04757',  15633] # Harangláb
+      - ['00:33:00', 'F04814',  16303] # Ady Endre utca
+      - ['00:34:00', 'F04759',  16793] # Őszibarack utca
+      - ['00:36:00', 'F04761',  17181] # Károlyi Mihály utca
+      - ['00:37:00', '008345',  17857] # Katona József utca
+      - ['00:38:00', 'F04815',  18337] # Zrínyi utca
+      - ['00:39:00', 'F04758',  18688] # Harangláb
+      - ['00:41:00', 'F04755',  19053] # Törökbálint, Munkácsy Mihály utca
     trip_headsign: 'Törökbálint, Munkácsy Mihály utca'
     trip_id: REFERENCE-9720-0-1
     wheelchair_accessible: 2
@@ -61,43 +61,43 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9720-1-1-Q602
     stop_times:
-      - ['26:24:00', 'F04755',      0] # Törökbálint, Munkácsy Mihály utca
-      - ['26:24:00', 'F04754',    228] # Bartók Béla utca
-      - ['26:25:00', 'F04753',    619] # Baross Gábor utca
-      - ['26:26:00', 'F04750',   1260] # Deák Ferenc utca
-      - ['26:27:00', 'F04813',   1692] # Téglagyár
-      - ['26:28:00', 'F04748',   2051] # Vasút utca
-      - ['26:29:00', 'F04744',   2633] # Tó utca - vasútállomás
-      - ['26:30:00', 'F04742',   3221] # Autópálya Főmérnökség
-      - ['26:31:00', 'F04834',   3705] # Tetra Pak
-      - ['26:32:00', 'F04740',   4146] # Hídépítő Zrt.
-      - ['26:33:00', 'F04804',   4889] # Csíki tanya
-      - ['26:34:00', 'F04802',   5357] # Csíki csárda
-      - ['26:35:00', 'F04711',   5785] # Ibolya utca
-      - ['26:36:00', 'F04838',   6187] # Lejtő utca
-      - ['26:37:00', 'F04830',   6413] # Alcsíki dűlő
-      - ['26:38:00', 'F04715',   6847] # Gimnázium
-      - ['26:39:00', 'F04716',   7422] # Budaörs, városháza
-      - ['26:39:00', 'F04808',   7675] # Kötő utca
-      - ['26:40:00', 'F04720',   7994] # Petőfi Sándor utca
-      - ['26:41:00', 'F04722',   8420] # Károly király utca
-      - ['26:42:00', 'F04810',   8785] # Templom tér
-      - ['26:43:00', 'F04736',   9125] # Aradi utca
-      - ['26:44:00', 'F04792',   9491] # Tulipán utca
-      - ['26:45:00', 'F04796',  10077] # Felsőhatár utca
-      - ['26:45:00', 'F02218',  10321] # Rupphegyi út
-      - ['26:46:00', 'F02267',  11063] # Madárhegy
-      - ['26:47:00', 'F01933',  11484] # Poprádi út
-      - ['26:47:00', 'F01930',  11911] # Gazdagréti út
-      - ['26:48:00', 'F01929',  12221] # Neszmélyi út
-      - ['26:49:00', 'F01927',  13045] # Sasadi út
-      - ['26:50:00', 'F02054',  13480] # Dayka Gábor utca
-      - ['26:51:00', 'F02050',  14150] # Hungária Biztosító
-      - ['26:51:00', 'F02221',  14592] # Kelenföldi autóbuszgarázs
-      - ['26:52:00', '009412',  14877] # Bartók Béla út
-      - ['26:54:00', 'F02176',  15527] # Kosztolányi Dezső tér
-      - ['26:55:00', 'F02192',  16011] # Móricz Zsigmond körtér
-      - ['26:57:00', 'F02198',  16261] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', 'F04755',      0] # Törökbálint, Munkácsy Mihály utca
+      - ['00:00:00', 'F04754',    228] # Bartók Béla utca
+      - ['00:01:00', 'F04753',    619] # Baross Gábor utca
+      - ['00:02:00', 'F04750',   1260] # Deák Ferenc utca
+      - ['00:03:00', 'F04813',   1692] # Téglagyár
+      - ['00:04:00', 'F04748',   2051] # Vasút utca
+      - ['00:05:00', 'F04744',   2633] # Tó utca - vasútállomás
+      - ['00:06:00', 'F04742',   3221] # Autópálya Főmérnökség
+      - ['00:07:00', 'F04834',   3705] # Tetra Pak
+      - ['00:08:00', 'F04740',   4146] # Hídépítő Zrt.
+      - ['00:09:00', 'F04804',   4889] # Csíki tanya
+      - ['00:10:00', 'F04802',   5357] # Csíki csárda
+      - ['00:11:00', 'F04711',   5785] # Ibolya utca
+      - ['00:12:00', 'F04838',   6187] # Lejtő utca
+      - ['00:13:00', 'F04830',   6413] # Alcsíki dűlő
+      - ['00:14:00', 'F04715',   6847] # Gimnázium
+      - ['00:15:00', 'F04716',   7422] # Budaörs, városháza
+      - ['00:15:00', 'F04808',   7675] # Kötő utca
+      - ['00:16:00', 'F04720',   7994] # Petőfi Sándor utca
+      - ['00:17:00', 'F04722',   8420] # Károly király utca
+      - ['00:18:00', 'F04810',   8785] # Templom tér
+      - ['00:19:00', 'F04736',   9125] # Aradi utca
+      - ['00:20:00', 'F04792',   9491] # Tulipán utca
+      - ['00:21:00', 'F04796',  10077] # Felsőhatár utca
+      - ['00:21:00', 'F02218',  10321] # Rupphegyi út
+      - ['00:22:00', 'F02267',  11063] # Madárhegy
+      - ['00:23:00', 'F01933',  11484] # Poprádi út
+      - ['00:23:00', 'F01930',  11911] # Gazdagréti út
+      - ['00:24:00', 'F01929',  12221] # Neszmélyi út
+      - ['00:25:00', 'F01927',  13045] # Sasadi út
+      - ['00:26:00', 'F02054',  13480] # Dayka Gábor utca
+      - ['00:27:00', 'F02050',  14150] # Hungária Biztosító
+      - ['00:27:00', 'F02221',  14592] # Kelenföldi autóbuszgarázs
+      - ['00:28:00', '009412',  14877] # Bartók Béla út
+      - ['00:30:00', 'F02176',  15527] # Kosztolányi Dezső tér
+      - ['00:31:00', 'F02192',  16011] # Móricz Zsigmond körtér
+      - ['00:33:00', 'F02198',  16261] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-9720-1-1
     wheelchair_accessible: 2

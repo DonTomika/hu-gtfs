@@ -13,65 +13,65 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1410-0-1-H265
     stop_times:
-      - ['16:35:00', '007897',      0] # Kelenföldi pályaudvar
-      - ['16:36:00', 'F01950',    692] # KTI
-      - ['16:37:00', 'F01949',    978] # Andor utca
-      - ['16:37:00', 'F01953',   1196] # Borszéki utca
-      - ['16:39:00', 'F01947',   1626] # Csákvár utca
-      - ['16:40:00', 'F01945',   1942] # Bazsalikom utca
-      - ['16:41:00', 'F01938',   2295] # Torma utca
-      - ['16:42:00', 'F01940',   2496] # Kecskeméti József utca
-      - ['16:43:00', 'F01942',   2773] # Hunyadi Mátyás út
-      - ['16:44:00', 'F01943',   3086] # Narancs utca
-      - ['16:45:00', 'F02264',   3443] # Állvány utca
-      - ['16:46:00', 'F02263',   3911] # Albertfalva vasútállomás
-      - ['16:47:00', '009475',   4331] # Méhész utca
-      - ['16:48:00', '009541',   4680] # Ady Endre út
-      - ['16:49:00', '008106',   5097] # Vihar utca
-      - ['16:51:00', 'F04402',   5746] # Savoyai Jenő tér
-      - ['16:52:00', 'F04403',   6038] # Városház tér
-      - ['16:53:00', 'F04408',   6602] # Tóth József utca
-      - ['16:55:00', '009474',   7209] # Komló utca
-      - ['16:56:00', '009473',   7590] # Széchenyi utca
-      - ['16:57:00', '009472',   8031] # Promontor utca
-      - ['16:58:00', '009451',   8392] # Gyűszű utca
-      - ['16:59:00', '009452',   8588] # Háros utca
-      - ['17:00:00', '009456',   8914] # Római utca
-      - ['17:01:00', '009458',   9394] # Hűség utca
-      - ['17:02:00', '009460',   9820] # Komáromi út
-      - ['17:03:00', 'F04429',  10264] # Liszt Ferenc út
-      - ['17:05:00', 'F04395',  10681] # Balatoni út (Háros utca)
+      - ['00:00:00', '007897',      0] # Kelenföldi pályaudvar
+      - ['00:01:00', 'F01950',    692] # KTI
+      - ['00:02:00', 'F01949',    978] # Andor utca
+      - ['00:02:00', 'F01953',   1196] # Borszéki utca
+      - ['00:04:00', 'F01947',   1626] # Csákvár utca
+      - ['00:05:00', 'F01945',   1942] # Bazsalikom utca
+      - ['00:06:00', 'F01938',   2295] # Torma utca
+      - ['00:07:00', 'F01940',   2496] # Kecskeméti József utca
+      - ['00:08:00', 'F01942',   2773] # Hunyadi Mátyás út
+      - ['00:09:00', 'F01943',   3086] # Narancs utca
+      - ['00:10:00', 'F02264',   3443] # Állvány utca
+      - ['00:11:00', 'F02263',   3911] # Albertfalva vasútállomás
+      - ['00:12:00', '009475',   4331] # Méhész utca
+      - ['00:13:00', '009541',   4680] # Ady Endre út
+      - ['00:14:00', '008106',   5097] # Vihar utca
+      - ['00:16:00', 'F04402',   5746] # Savoyai Jenő tér
+      - ['00:17:00', 'F04403',   6038] # Városház tér
+      - ['00:18:00', 'F04408',   6602] # Tóth József utca
+      - ['00:20:00', '009474',   7209] # Komló utca
+      - ['00:21:00', '009473',   7590] # Széchenyi utca
+      - ['00:22:00', '009472',   8031] # Promontor utca
+      - ['00:23:00', '009451',   8392] # Gyűszű utca
+      - ['00:24:00', '009452',   8588] # Háros utca
+      - ['00:25:00', '009456',   8914] # Római utca
+      - ['00:26:00', '009458',   9394] # Hűség utca
+      - ['00:27:00', '009460',   9820] # Komáromi út
+      - ['00:28:00', 'F04429',  10264] # Liszt Ferenc út
+      - ['00:30:00', 'F04395',  10681] # Balatoni út (Háros utca)
     trip_headsign: Balatoni út (Háros utca)
     trip_id: REFERENCE-1410-0-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2
   - direction_id: 1
     service_id: REFERENCE
     shape_id: REFERENCE-1410-1-1-H266
     stop_times:
-      - ['13:40:00', 'F04395',      0] # Balatoni út (Háros utca)
-      - ['13:41:00', 'F04430',    318] # Liszt Ferenc út
-      - ['13:42:00', '009461',    865] # Komáromi út
-      - ['13:43:00', '009459',   1313] # Hűség utca
-      - ['13:44:00', '009457',   1809] # Római utca
-      - ['13:45:00', '009453',   2234] # Dévény utca
-      - ['13:46:00', '009454',   2555] # Wesselényi utca
-      - ['13:47:00', '009455',   2913] # Ostor utca
-      - ['13:48:00', '009471',   3208] # Széchenyi utca
-      - ['13:50:00', 'F04410',   3682] # Komló utca
-      - ['13:51:00', 'F04409',   4144] # Nagytétényi út
-      - ['13:53:00', 'F04406',   4825] # Városház tér
-      - ['13:54:00', 'F04398',   5165] # Savoyai Jenő tér
-      - ['13:55:00', 'F04384',   5487] # Leányka utcai lakótelep
-      - ['13:56:00', '008128',   5875] # Ady Endre út
-      - ['13:58:00', '009524',   6630] # Albertfalva vasútállomás
-      - ['13:59:00', 'F02265',   7132] # Állvány utca
-      - ['14:00:00', 'F01944',   7496] # Narancs utca
-      - ['14:01:00', 'F01941',   7895] # Duránci utca
-      - ['14:02:00', 'F01946',   8221] # Gépész utca
-      - ['14:03:00', 'F01948',   8682] # Hajtány sor
-      - ['14:04:00', 'F01952',   8934] # Borszéki utca
-      - ['14:05:00', 'F01951',   9239] # KTI
-      - ['14:07:00', 'F02210',   9949] # Kelenföldi pályaudvar
+      - ['00:00:00', 'F04395',      0] # Balatoni út (Háros utca)
+      - ['00:01:00', 'F04430',    318] # Liszt Ferenc út
+      - ['00:02:00', '009461',    865] # Komáromi út
+      - ['00:03:00', '009459',   1313] # Hűség utca
+      - ['00:04:00', '009457',   1809] # Római utca
+      - ['00:05:00', '009453',   2234] # Dévény utca
+      - ['00:06:00', '009454',   2555] # Wesselényi utca
+      - ['00:07:00', '009455',   2913] # Ostor utca
+      - ['00:08:00', '009471',   3208] # Széchenyi utca
+      - ['00:09:00', 'F04410',   3682] # Komló utca
+      - ['00:10:00', 'F04409',   4144] # Nagytétényi út
+      - ['00:12:00', 'F04406',   4825] # Városház tér
+      - ['00:13:00', 'F04398',   5165] # Savoyai Jenő tér
+      - ['00:14:00', 'F04384',   5487] # Leányka utcai lakótelep
+      - ['00:15:00', '008128',   5875] # Ady Endre út
+      - ['00:17:00', '009524',   6630] # Albertfalva vasútállomás
+      - ['00:18:00', 'F02265',   7132] # Állvány utca
+      - ['00:19:00', 'F01944',   7496] # Narancs utca
+      - ['00:20:00', 'F01941',   7895] # Duránci utca
+      - ['00:21:00', 'F01946',   8221] # Gépész utca
+      - ['00:23:00', 'F01948',   8682] # Hajtány sor
+      - ['00:24:00', 'F01952',   8934] # Borszéki utca
+      - ['00:25:00', 'F01951',   9239] # KTI
+      - ['00:27:00', 'F02210',   9949] # Kelenföldi pályaudvar
     trip_headsign: Kelenföldi pályaudvar
     trip_id: REFERENCE-1410-1-1
     wheelchair_accessible: 1

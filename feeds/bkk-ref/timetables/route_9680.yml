@@ -13,35 +13,35 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9680-0-1-Q597
     stop_times:
-      - ['27:02:00', 'F03948',      0] # Kispest, Kossuth tér
-      - ['27:03:00', 'F03950',    334] # Simonyi Zsigmond utca
-      - ['27:04:00', 'F03942',    594] # Sós utca
-      - ['27:05:00', 'F03941',   1069] # Kőbánya-Kispest M
-      - ['27:06:00', 'F01584',   1486] # Felüljáró (Gyömrői út)
-      - ['27:07:00', 'F01693',   1914] # Gergely utca (Sibrik Miklós út)
-      - ['27:08:00', 'F01698',   2420] # Szövőszék utca
-      - ['27:10:00', 'F01841',   2815] # Újhegyi sétány
-      - ['27:10:00', 'F01714',   3061] # Tavas utca
-      - ['27:11:00', 'F01589',   3480] # Újhegyi út, Sportliget
-      - ['27:11:00', 'F01592',   3918] # Maglódi út
-      - ['27:12:00', '008156',   4391] # Új köztemető
-      - ['27:13:00', 'F01810',   4996] # Izraelita temető
-      - ['27:14:00', 'F01601',   5310] # Gránátos utca
-      - ['27:15:00', 'F01812',   5650] # Meténg utca
-      - ['27:15:00', 'F01604',   6030] # Athenaeum Nyomda
-      - ['27:16:00', 'F01606',   6477] # Kossuth Nyomda
-      - ['27:17:00', 'F01716',   7465] # Legényrózsa utca
-      - ['27:18:00', 'F01847',   7783] # Rézvirág utca
-      - ['27:19:00', 'F01849',   8240] # Dombhát utca
-      - ['27:20:00', 'F01722',   8801] # 501. utca
-      - ['27:22:00', 'F03549',   9450] # 509. utca
-      - ['27:22:00', '009543',   9786] # 513. utca
-      - ['27:23:00', 'F03547',  10061] # Borsó utca
-      - ['27:24:00', 'F03545',  10412] # Kis utca
-      - ['27:25:00', 'F03455',  11319] # Liget sor
-      - ['27:26:00', 'F03453',  11661] # Gyöngytyúk utca
-      - ['27:27:00', 'F03449',  12226] # Vidor utca
-      - ['27:28:00', '008181',  12744] # Cinkotai autóbuszgarázs
+      - ['00:00:00', 'F03948',      0] # Kispest, Kossuth tér
+      - ['00:01:00', 'F03950',    334] # Simonyi Zsigmond utca
+      - ['00:02:00', 'F03942',    594] # Sós utca
+      - ['00:03:00', 'F03941',   1069] # Kőbánya-Kispest M
+      - ['00:04:00', 'F01584',   1486] # Felüljáró (Gyömrői út)
+      - ['00:05:00', 'F01693',   1914] # Gergely utca (Sibrik Miklós út)
+      - ['00:06:00', 'F01698',   2420] # Szövőszék utca
+      - ['00:08:00', 'F01841',   2815] # Újhegyi sétány
+      - ['00:08:00', 'F01714',   3061] # Tavas utca
+      - ['00:09:00', 'F01589',   3480] # Újhegyi út, Sportliget
+      - ['00:09:00', 'F01592',   3918] # Maglódi út
+      - ['00:10:00', '008156',   4391] # Új köztemető
+      - ['00:11:00', 'F01810',   4996] # Izraelita temető
+      - ['00:12:00', 'F01601',   5310] # Gránátos utca
+      - ['00:13:00', 'F01812',   5650] # Meténg utca
+      - ['00:13:00', 'F01604',   6030] # Athenaeum Nyomda
+      - ['00:14:00', 'F01606',   6477] # Kossuth Nyomda
+      - ['00:15:00', 'F01716',   7465] # Legényrózsa utca
+      - ['00:16:00', 'F01847',   7783] # Rézvirág utca
+      - ['00:17:00', 'F01849',   8240] # Dombhát utca
+      - ['00:18:00', 'F01722',   8801] # 501. utca
+      - ['00:20:00', 'F03549',   9450] # 509. utca
+      - ['00:20:00', '009543',   9786] # 513. utca
+      - ['00:21:00', 'F03547',  10061] # Borsó utca
+      - ['00:22:00', 'F03545',  10412] # Kis utca
+      - ['00:23:00', 'F03455',  11319] # Liget sor
+      - ['00:24:00', 'F03453',  11661] # Gyöngytyúk utca
+      - ['00:25:00', 'F03449',  12226] # Vidor utca
+      - ['00:26:00', '008181',  12744] # Cinkotai autóbuszgarázs
     trip_headsign: Cinkotai autóbuszgarázs
     trip_id: REFERENCE-9680-0-1
     wheelchair_accessible: 2
@@ -49,34 +49,34 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9680-1-1-Q598
     stop_times:
-      - ['27:29:00', 'F03289',      0] # Cinkotai autóbuszgarázs
-      - ['27:30:00', 'F03450',    491] # Vidor utca
-      - ['27:31:00', 'F03452',    953] # Gyöngytyúk utca
-      - ['27:32:00', 'F03454',   1249] # Liget sor
-      - ['27:33:00', 'F03544',   2221] # Kis utca
-      - ['27:34:00', 'F03546',   2621] # Borsó utca
-      - ['27:34:00', '011773',   3075] # Keresztúri út
-      - ['27:35:00', '011715',   3253] # 509. utca
-      - ['27:36:00', 'F01719',   3979] # 501. utca
-      - ['27:37:00', 'F01848',   4466] # Dombhát utca
-      - ['27:38:00', 'F01846',   4998] # Rézvirág utca
-      - ['27:39:00', 'F01715',   5229] # Legényrózsa utca
-      - ['27:40:00', 'F01605',   6131] # Kossuth Nyomda
-      - ['27:41:00', 'F01603',   6784] # Kozma utca
-      - ['27:42:00', 'F01813',   7057] # Meténg utca
-      - ['27:42:00', 'F01600',   7419] # Gránátos utca
-      - ['27:43:00', 'F01811',   7612] # Izraelita temető
-      - ['27:44:00', 'F01595',   8295] # Új köztemető
-      - ['27:45:00', 'F01591',   8821] # Maglódi út
-      - ['27:46:00', 'F01588',   9247] # Újhegyi út, Sportliget
-      - ['27:47:00', 'F01842',   9722] # Újhegyi sétány
-      - ['27:47:00', 'F01700',   9997] # Sibrik Miklós út
-      - ['27:48:00', 'F01697',  10313] # Szövőszék utca
-      - ['27:48:00', '008863',  10572] # Gőzmozdony utca
-      - ['27:49:00', 'F01694',  10873] # Gergely utca (Sibrik Miklós út)
-      - ['27:50:00', 'F01583',  11225] # Felüljáró
-      - ['27:51:00', '043176',  11655] # Kőbánya-Kispest M
-      - ['27:53:00', 'F03948',  12764] # Kispest, Kossuth tér
+      - ['00:00:00', 'F03289',      0] # Cinkotai autóbuszgarázs
+      - ['00:01:00', 'F03450',    491] # Vidor utca
+      - ['00:02:00', 'F03452',    953] # Gyöngytyúk utca
+      - ['00:03:00', 'F03454',   1249] # Liget sor
+      - ['00:04:00', 'F03544',   2221] # Kis utca
+      - ['00:05:00', 'F03546',   2621] # Borsó utca
+      - ['00:05:00', '011773',   3075] # Keresztúri út
+      - ['00:06:00', '011715',   3253] # 509. utca
+      - ['00:07:00', 'F01719',   3979] # 501. utca
+      - ['00:08:00', 'F01848',   4466] # Dombhát utca
+      - ['00:09:00', 'F01846',   4998] # Rézvirág utca
+      - ['00:10:00', 'F01715',   5229] # Legényrózsa utca
+      - ['00:11:00', 'F01605',   6131] # Kossuth Nyomda
+      - ['00:12:00', 'F01603',   6784] # Kozma utca
+      - ['00:13:00', 'F01813',   7057] # Meténg utca
+      - ['00:13:00', 'F01600',   7419] # Gránátos utca
+      - ['00:14:00', 'F01811',   7612] # Izraelita temető
+      - ['00:15:00', 'F01595',   8295] # Új köztemető
+      - ['00:16:00', 'F01591',   8821] # Maglódi út
+      - ['00:17:00', 'F01588',   9247] # Újhegyi út, Sportliget
+      - ['00:18:00', 'F01842',   9722] # Újhegyi sétány
+      - ['00:18:00', 'F01700',   9997] # Sibrik Miklós út
+      - ['00:19:00', 'F01697',  10313] # Szövőszék utca
+      - ['00:19:00', '008863',  10572] # Gőzmozdony utca
+      - ['00:20:00', 'F01694',  10873] # Gergely utca (Sibrik Miklós út)
+      - ['00:21:00', 'F01583',  11225] # Felüljáró
+      - ['00:22:00', '043176',  11655] # Kőbánya-Kispest M
+      - ['00:24:00', 'F03948',  12764] # Kispest, Kossuth tér
     trip_headsign: 'Kispest, Kossuth tér'
     trip_id: REFERENCE-9680-1-1
     wheelchair_accessible: 2

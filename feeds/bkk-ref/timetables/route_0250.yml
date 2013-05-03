@@ -13,25 +13,25 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0250-0-1-J581
     stop_times:
-      - ['10:30:00', 'F02884',      0] # Mexikói út M
-      - ['10:31:00', 'F02898',    709] # Kassai tér
-      - ['10:32:00', 'F02951',   1083] # Fűrész utca
-      - ['10:33:00', 'F02905',   1506] # Rákospatak utca
-      - ['10:36:00', '009538',   3161] # Irány utca
-      - ['10:37:00', 'F03173',   3576] # Karatna tér
-      - ['10:38:00', '009651',   3988] # Széchenyi út
-      - ['10:39:00', 'F03204',   4210] # Szent Korona útja
-      - ['10:40:00', 'F03182',   4482] # Wesselényi utca
-      - ['10:40:00', 'F03116',   4769] # Szerencs utca
-      - ['10:42:00', 'F03072',   5027] # Rákos úti szakrendelő
-      - ['10:43:00', 'F03184',   5302] # Beller Imre utca
-      - ['10:44:00', 'F03068',   5587] # Eötvös utca 74.
-      - ['10:45:00', 'F03179',   5741] # Rädda Barnen utca
-      - ['10:47:00', 'F03053',   6549] # Hubay Jenő tér
-      - ['10:49:00', 'F00885',   7388] # Árpád Kórház
-      - ['10:50:00', 'F00835',   7845] # Árpád üzletház
-      - ['10:51:00', 'F00855',   8170] # Erzsébet utca
-      - ['10:53:00', 'F00806',   8542] # Újpest-Központ M
+      - ['00:00:00', 'F02884',      0] # Mexikói út M
+      - ['00:01:00', 'F02898',    709] # Kassai tér
+      - ['00:02:00', 'F02951',   1083] # Fűrész utca
+      - ['00:03:00', 'F02905',   1506] # Rákospatak utca
+      - ['00:06:00', '009538',   3161] # Irány utca
+      - ['00:07:00', 'F03173',   3576] # Karatna tér
+      - ['00:08:00', '009651',   3988] # Széchenyi út
+      - ['00:09:00', 'F03204',   4210] # Szent Korona útja
+      - ['00:10:00', 'F03182',   4482] # Wesselényi utca
+      - ['00:10:00', 'F03116',   4769] # Szerencs utca
+      - ['00:12:00', 'F03072',   5027] # Rákos úti szakrendelő
+      - ['00:13:00', 'F03184',   5302] # Beller Imre utca
+      - ['00:14:00', 'F03068',   5587] # Eötvös utca 74.
+      - ['00:15:00', 'F03179',   5741] # Rädda Barnen utca
+      - ['00:17:00', 'F03053',   6549] # Hubay Jenő tér
+      - ['00:19:00', 'F00885',   7388] # Árpád Kórház
+      - ['00:20:00', 'F00835',   7845] # Árpád üzletház
+      - ['00:21:00', 'F00855',   8170] # Erzsébet utca
+      - ['00:23:00', 'F00806',   8542] # Újpest-Központ M
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-0250-0-1
     wheelchair_accessible: 2
@@ -39,28 +39,28 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-0250-1-1-N023
     stop_times:
-      - ['18:53:00', 'F00806',      0] # Újpest-Központ M
-      - ['18:54:00', 'F00862',    345] # Berda József utca
-      - ['18:54:00', 'F00817',    589] # Tél utca
-      - ['18:56:00', 'F00879',   1033] # Erzsébet utca
-      - ['18:57:00', 'F00829',   1392] # Rózsa utca
-      - ['18:58:00', 'F00891',   1738] # Ősz utca
-      - ['18:59:00', 'F00836',   2161] # Árpád üzletház
-      - ['19:00:00', 'F00886',   2408] # Árpád Kórház
-      - ['19:02:00', 'F03055',   3457] # Hubay Jenő tér
-      - ['19:03:00', 'F03180',   4002] # Rädda Barnen utca
-      - ['19:03:00', 'F03069',   4202] # Arany János utca
-      - ['19:04:00', 'F03183',   4423] # Beller Imre utca
-      - ['19:06:00', 'F03071',   4803] # Rákos úti szakrendelő
-      - ['19:07:00', 'F03181',   5196] # Wesselényi utca
-      - ['19:08:00', 'F03203',   5493] # Szent Korona útja
-      - ['19:08:00', '009652',   5789] # Széchenyi út
-      - ['19:10:00', 'F03172',   6198] # Karatna tér
-      - ['19:12:00', '009495',   7774] # Rákos-patak
-      - ['19:13:00', '008241',   8523] # Szőnyi út
-      - ['19:14:00', '008242',   8921] # Teleki Blanka utca
-      - ['19:15:00', 'F02895',   9200] # Mexikói út
-      - ['19:16:00', 'F02885',   9633] # Mexikói út M
+      - ['00:00:00', 'F00806',      0] # Újpest-Központ M
+      - ['00:01:00', 'F00862',    345] # Berda József utca
+      - ['00:01:00', 'F00817',    589] # Tél utca
+      - ['00:03:00', 'F00879',   1033] # Erzsébet utca
+      - ['00:04:00', 'F00829',   1392] # Rózsa utca
+      - ['00:05:00', 'F00891',   1738] # Ősz utca
+      - ['00:06:00', 'F00836',   2161] # Árpád üzletház
+      - ['00:07:00', 'F00886',   2408] # Árpád Kórház
+      - ['00:09:00', 'F03055',   3457] # Hubay Jenő tér
+      - ['00:10:00', 'F03180',   4002] # Rädda Barnen utca
+      - ['00:10:00', 'F03069',   4202] # Arany János utca
+      - ['00:11:00', 'F03183',   4423] # Beller Imre utca
+      - ['00:13:00', 'F03071',   4803] # Rákos úti szakrendelő
+      - ['00:14:00', 'F03181',   5196] # Wesselényi utca
+      - ['00:15:00', 'F03203',   5493] # Szent Korona útja
+      - ['00:15:00', '009652',   5789] # Széchenyi út
+      - ['00:17:00', 'F03172',   6198] # Karatna tér
+      - ['00:19:00', '009495',   7774] # Rákos-patak
+      - ['00:21:00', '008241',   8523] # Szőnyi út
+      - ['00:22:00', '008242',   8921] # Teleki Blanka utca
+      - ['00:23:00', 'F02895',   9200] # Mexikói út
+      - ['00:24:00', 'F02885',   9633] # Mexikói út M
     trip_headsign: Mexikói út M
     trip_id: REFERENCE-0250-1-1
     wheelchair_accessible: 2

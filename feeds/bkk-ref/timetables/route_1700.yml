@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1700-0-1-H474
     stop_times:
-      - ['06:58:00', 'F00805',      0] # Újpest-Központ M
-      - ['06:59:00', 'F00854',    624] # Erzsébet utca
-      - ['07:01:00', 'F00836',    975] # Árpád üzletház
-      - ['07:02:00', 'F00886',   1222] # Árpád Kórház
-      - ['07:03:00', 'F00838',   1541] # Víztorony
-      - ['07:05:00', 'F03048',   2389] # Hubay Jenő tér
-      - ['07:05:00', 'F03046',   2665] # Széchenyi tér
-      - ['07:07:00', 'F03026',   3318] # Csobogós utca
-      - ['07:08:00', '007968',   3567] # Mogyoród útja
-      - ['07:08:00', 'F03016',   3896] # Közvágóhíd tér
-      - ['07:10:00', 'F03018',   4314] # Kovácsi Kálmán tér
-      - ['07:11:00', 'F03171',   4697] # Árokhát út
-      - ['07:12:00', 'F03176',   5009] # Székely Elek út
-      - ['07:13:00', 'F02999',   5545] # Kanizsai Dorottya utca
-      - ['07:14:00', 'F02997',   6028] # Visonta utca
-      - ['07:16:00', 'F02996',   6495] # Rákospalota, Csömöri-patak
+      - ['00:00:00', 'F00805',      0] # Újpest-Központ M
+      - ['00:00:00', 'F00854',    624] # Erzsébet utca
+      - ['00:03:00', 'F00836',    975] # Árpád üzletház
+      - ['00:04:00', 'F00886',   1222] # Árpád Kórház
+      - ['00:04:00', 'F00838',   1541] # Víztorony
+      - ['00:08:00', 'F03048',   2389] # Hubay Jenő tér
+      - ['00:08:00', 'F03046',   2665] # Széchenyi tér
+      - ['00:10:00', 'F03026',   3318] # Csobogós utca
+      - ['00:11:00', '007968',   3567] # Mogyoród útja
+      - ['00:12:00', 'F03016',   3896] # Közvágóhíd tér
+      - ['00:13:00', 'F03018',   4314] # Kovácsi Kálmán tér
+      - ['00:14:00', 'F03171',   4697] # Árokhát út
+      - ['00:15:00', 'F03176',   5009] # Székely Elek út
+      - ['00:16:00', 'F02999',   5545] # Kanizsai Dorottya utca
+      - ['00:17:00', 'F02997',   6028] # Visonta utca
+      - ['00:19:00', 'F02996',   6495] # Rákospalota, Csömöri-patak
     trip_headsign: 'Rákospalota, Csömöri-patak'
     trip_id: REFERENCE-1700-0-1
     wheelchair_accessible: 2
@@ -36,23 +36,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1700-1-1-H473
     stop_times:
-      - ['06:20:00', 'F02995',      0] # Rákospalota, Csömöri-patak
-      - ['06:21:00', 'F02998',    356] # Visonta utca
-      - ['06:22:00', 'F03000',    626] # Kanizsai Dorottya utca
-      - ['06:22:00', 'F03001',   1056] # Bútorraktár
-      - ['06:24:00', 'F03175',   1555] # Rákospalota, Székely Elek út
-      - ['06:24:00', 'F03170',   1890] # Árokhát út
-      - ['06:25:00', 'F03017',   2291] # Kovácsi Kálmán tér
-      - ['06:26:00', 'F03015',   2614] # Közvágóhíd tér
-      - ['06:27:00', 'F03025',   3132] # Csobogós utca
-      - ['06:27:00', 'F03030',   3462] # Rákospalota, Kossuth utca
-      - ['06:28:00', 'F03045',   3834] # Széchenyi tér
-      - ['06:31:00', 'F03053',   4406] # Hubay Jenő tér
-      - ['06:32:00', 'F00837',   5013] # Víztorony
-      - ['06:34:00', 'F00885',   5245] # Árpád Kórház
-      - ['06:35:00', 'F00835',   5702] # Árpád üzletház
-      - ['06:35:00', 'F00855',   6027] # Erzsébet utca
-      - ['06:37:00', 'F00805',   6259] # Újpest-Központ M
+      - ['00:00:00', 'F02995',      0] # Rákospalota, Csömöri-patak
+      - ['00:01:00', 'F02998',    356] # Visonta utca
+      - ['00:02:00', 'F03000',    626] # Kanizsai Dorottya utca
+      - ['00:02:00', 'F03001',   1056] # Bútorraktár
+      - ['00:04:00', 'F03175',   1555] # Rákospalota, Székely Elek út
+      - ['00:04:00', 'F03170',   1890] # Árokhát út
+      - ['00:05:00', 'F03017',   2291] # Kovácsi Kálmán tér
+      - ['00:06:00', 'F03015',   2614] # Közvágóhíd tér
+      - ['00:07:00', 'F03025',   3132] # Csobogós utca
+      - ['00:07:00', 'F03030',   3462] # Rákospalota, Kossuth utca
+      - ['00:08:00', 'F03045',   3834] # Széchenyi tér
+      - ['00:11:00', 'F03053',   4406] # Hubay Jenő tér
+      - ['00:12:00', 'F00837',   5013] # Víztorony
+      - ['00:14:00', 'F00885',   5245] # Árpád Kórház
+      - ['00:15:00', 'F00835',   5702] # Árpád üzletház
+      - ['00:15:00', 'F00855',   6027] # Erzsébet utca
+      - ['00:17:00', 'F00805',   6259] # Újpest-Központ M
     trip_headsign: Újpest-Központ M
     trip_id: REFERENCE-1700-1-1
     wheelchair_accessible: 2

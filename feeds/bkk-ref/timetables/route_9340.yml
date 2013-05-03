@@ -13,35 +13,35 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9340-0-1-T571
     stop_times:
-      - ['24:32:00', 'F01028',      0] # Nyugati pályaudvar M
-      - ['24:34:00', 'F00929',    549] # Jászai Mari tér
-      - ['24:36:00', 'F00237',   1586] # Margit híd, budai hídfő H
-      - ['24:38:00', 'F00247',   2139] # Császár-Komjádi uszoda
-      - ['24:39:00', 'F00245',   2683] # Zsigmond tér
-      - ['24:41:00', 'F00137',   3092] # Kolosy tér
-      - ['24:42:00', 'F00603',   3464] # Nagyszombat utca
-      - ['24:43:00', 'F00604',   3833] # Tímár utca
-      - ['24:44:00', 'F00606',   4235] # Kiscelli utca
-      - ['24:45:00', 'F00611',   4725] # Flórián tér
-      - ['24:46:00', 'F00581',   4951] # Raktár utca
-      - ['24:48:00', 'F00576',   5540] # Bogdáni út
-      - ['24:49:00', 'F00508',   6330] # Kaszásdűlő H
-      - ['24:50:00', 'F00506',   6917] # Záhony utca
-      - ['24:52:00', 'F00666',   7494] # Aquincum H
-      - ['24:53:00', 'F00485',   7778] # Római tér
-      - ['24:54:00', 'F00486',   8337] # Monostori út
-      - ['24:55:00', 'F00502',   8805] # Kadosa utca
-      - ['24:55:00', '007879',   9130] # Római úti lakótelep, Varsa utca
-      - ['24:57:00', 'F00663',   9936] # Nánási út
-      - ['24:58:00', 'F00660',  10423] # Szent János utca
-      - ['24:58:00', 'F00676',  10764] # Szamos utca
-      - ['24:59:00', 'F00658',  10979] # Mátyás király út
-      - ['24:59:00', 'F00656',  11501] # Sinkovits Imre utca
-      - ['25:00:00', 'F00654',  12118] # Pünkösdfürdő
-      - ['25:00:00', 'F00653',  12518] # Boglár utca
-      - ['25:01:00', 'F00467',  12804] # Medgyessy Ferenc utca
-      - ['25:01:00', 'F00473',  12984] # Madzsar József utca
-      - ['25:03:00', 'F00461',  13466] # Békásmegyer H
+      - ['00:00:00', 'F01028',      0] # Nyugati pályaudvar M
+      - ['00:02:00', 'F00929',    549] # Jászai Mari tér
+      - ['00:04:00', 'F00237',   1586] # Margit híd, budai hídfő H
+      - ['00:06:00', 'F00247',   2139] # Császár-Komjádi uszoda
+      - ['00:07:00', 'F00245',   2683] # Zsigmond tér
+      - ['00:09:00', 'F00137',   3092] # Kolosy tér
+      - ['00:10:00', 'F00603',   3464] # Nagyszombat utca
+      - ['00:11:00', 'F00604',   3833] # Tímár utca
+      - ['00:12:00', 'F00606',   4235] # Kiscelli utca
+      - ['00:13:00', 'F00611',   4725] # Flórián tér
+      - ['00:14:00', 'F00581',   4951] # Raktár utca
+      - ['00:16:00', 'F00576',   5540] # Bogdáni út
+      - ['00:17:00', 'F00508',   6330] # Kaszásdűlő H
+      - ['00:18:00', 'F00506',   6917] # Záhony utca
+      - ['00:20:00', 'F00666',   7494] # Aquincum H
+      - ['00:21:00', 'F00485',   7778] # Római tér
+      - ['00:22:00', 'F00486',   8337] # Monostori út
+      - ['00:23:00', 'F00502',   8805] # Kadosa utca
+      - ['00:23:00', '007879',   9130] # Római úti lakótelep, Varsa utca
+      - ['00:25:00', 'F00663',   9936] # Nánási út
+      - ['00:26:00', 'F00660',  10423] # Szent János utca
+      - ['00:26:00', 'F00676',  10764] # Szamos utca
+      - ['00:27:00', 'F00658',  10979] # Mátyás király út
+      - ['00:27:00', 'F00656',  11501] # Sinkovits Imre utca
+      - ['00:28:00', 'F00654',  12118] # Pünkösdfürdő
+      - ['00:28:00', 'F00653',  12518] # Boglár utca
+      - ['00:29:00', 'F00467',  12804] # Medgyessy Ferenc utca
+      - ['00:29:00', 'F00473',  12984] # Madzsar József utca
+      - ['00:31:00', 'F00461',  13466] # Békásmegyer H
     trip_headsign: Békásmegyer H
     trip_id: REFERENCE-9340-0-1
     wheelchair_accessible: 2
@@ -49,34 +49,34 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-9340-1-1-T572
     stop_times:
-      - ['24:57:00', 'F00461',      0] # Békásmegyer H
-      - ['24:59:00', 'F00474',    775] # Pünkösdfürdő utca
-      - ['24:59:00', 'F00466',   1036] # Medgyessy Ferenc utca
-      - ['25:00:00', '009539',   1255] # Boglár utca
-      - ['25:01:00', 'F00655',   1664] # Pünkösdfürdő
-      - ['25:02:00', 'F00657',   2184] # Sinkovits Imre utca
-      - ['25:02:00', 'F00659',   2748] # Mátyás király út
-      - ['25:02:00', 'F00677',   3077] # Szamos utca
-      - ['25:03:00', 'F00661',   3431] # Pozsonyi utca
-      - ['25:03:00', 'F00662',   3802] # Nimród utca
-      - ['25:04:00', 'F00664',   4406] # Nánási út
-      - ['25:04:00', 'F00665',   4749] # Silvanus sétány
-      - ['25:05:00', 'F00499',   5261] # Pók utca
-      - ['25:07:00', 'F00668',   5904] # Aquincum H
-      - ['25:09:00', 'F00507',   6563] # Záhony utca
-      - ['25:10:00', 'F00509',   7066] # Kaszásdűlő H
-      - ['25:12:00', 'F00577',   7990] # Bogdáni út
-      - ['25:13:00', 'F00583',   8417] # Raktár utca
-      - ['25:14:00', 'F00612',   8723] # Flórián tér
-      - ['25:15:00', 'F00607',   9035] # Kiscelli utca
-      - ['25:16:00', 'F00605',   9585] # Tímár utca
-      - ['25:17:00', 'F00602',  10061] # Galagonya utca
-      - ['25:18:00', 'F00138',  10416] # Kolosy tér
-      - ['25:19:00', 'F00246',  10748] # Zsigmond tér
-      - ['25:20:00', 'F00248',  11255] # Császár-Komjádi uszoda
-      - ['25:21:00', 'F00235',  11739] # Margit híd, budai hídfő H
-      - ['25:24:00', 'F00930',  12954] # Jászai Mari tér
-      - ['25:26:00', 'F01025',  13534] # Nyugati pályaudvar M
+      - ['00:00:00', 'F00461',      0] # Békásmegyer H
+      - ['00:02:00', 'F00474',    775] # Pünkösdfürdő utca
+      - ['00:02:00', 'F00466',   1036] # Medgyessy Ferenc utca
+      - ['00:03:00', '009539',   1255] # Boglár utca
+      - ['00:04:00', 'F00655',   1664] # Pünkösdfürdő
+      - ['00:05:00', 'F00657',   2184] # Sinkovits Imre utca
+      - ['00:05:00', 'F00659',   2748] # Mátyás király út
+      - ['00:05:00', 'F00677',   3077] # Szamos utca
+      - ['00:06:00', 'F00661',   3431] # Pozsonyi utca
+      - ['00:06:00', 'F00662',   3802] # Nimród utca
+      - ['00:07:00', 'F00664',   4406] # Nánási út
+      - ['00:07:00', 'F00665',   4749] # Silvanus sétány
+      - ['00:08:00', 'F00499',   5261] # Pók utca
+      - ['00:10:00', 'F00668',   5904] # Aquincum H
+      - ['00:12:00', 'F00507',   6563] # Záhony utca
+      - ['00:13:00', 'F00509',   7066] # Kaszásdűlő H
+      - ['00:15:00', 'F00577',   7990] # Bogdáni út
+      - ['00:16:00', 'F00583',   8417] # Raktár utca
+      - ['00:17:00', 'F00612',   8723] # Flórián tér
+      - ['00:18:00', 'F00607',   9035] # Kiscelli utca
+      - ['00:19:00', 'F00605',   9585] # Tímár utca
+      - ['00:20:00', 'F00602',  10061] # Galagonya utca
+      - ['00:21:00', 'F00138',  10416] # Kolosy tér
+      - ['00:22:00', 'F00246',  10748] # Zsigmond tér
+      - ['00:23:00', 'F00248',  11255] # Császár-Komjádi uszoda
+      - ['00:24:00', 'F00235',  11739] # Margit híd, budai hídfő H
+      - ['00:27:00', 'F00930',  12954] # Jászai Mari tér
+      - ['00:29:00', 'F01025',  13534] # Nyugati pályaudvar M
     trip_headsign: Nyugati pályaudvar M
     trip_id: REFERENCE-9340-1-1
     wheelchair_accessible: 2

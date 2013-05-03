@@ -13,23 +13,23 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1370-0-1-I032
     stop_times:
-      - ['14:40:00', 'F00623',      0] # Szentlélek tér H
-      - ['14:41:00', 'F00613',    570] # Flórián tér
-      - ['14:43:00', 'F00588',    949] # Vihar utca
-      - ['14:44:00', 'F00584',   1407] # Óbudai rendelőintézet
-      - ['14:46:00', 'F00566',   1825] # Farkastorki út
-      - ['14:47:00', 'F00564',   2045] # Táborhegyi út
-      - ['14:48:00', 'F00672',   2329] # Zúzmara utca
-      - ['14:49:00', 'F00536',   2533] # Királyhelmec utca
-      - ['14:50:00', 'F00556',   2928] # Körtvélyes köz
-      - ['14:52:00', 'F00553',   3198] # Erdőalja út 43.
-      - ['14:53:00', 'F00551',   3549] # Hedvig utca
-      - ['14:54:00', 'F00546',   4122] # Erdőalja út
-      - ['14:55:00', 'F00552',   4639] # Hedvig utca
-      - ['14:56:00', 'F00554',   5105] # Viharhegyi út
-      - ['14:57:00', 'F00560',   5417] # Iskola
-      - ['14:59:00', 'F00562',   5680] # Királylaki út
-      - ['15:00:00', 'F00563',   6001] # Máramaros út
+      - ['00:00:00', 'F00623',      0] # Szentlélek tér H
+      - ['00:01:00', 'F00613',    570] # Flórián tér
+      - ['00:03:00', 'F00588',    949] # Vihar utca
+      - ['00:04:00', 'F00584',   1407] # Óbudai rendelőintézet
+      - ['00:06:00', 'F00566',   1825] # Farkastorki út
+      - ['00:07:00', 'F00564',   2045] # Táborhegyi út
+      - ['00:08:00', 'F00672',   2329] # Zúzmara utca
+      - ['00:09:00', 'F00536',   2533] # Királyhelmec utca
+      - ['00:10:00', 'F00556',   2928] # Körtvélyes köz
+      - ['00:12:00', 'F00553',   3198] # Erdőalja út 43.
+      - ['00:13:00', 'F00551',   3549] # Hedvig utca
+      - ['00:14:00', 'F00546',   4122] # Erdőalja út
+      - ['00:15:00', 'F00552',   4639] # Hedvig utca
+      - ['00:16:00', 'F00554',   5105] # Viharhegyi út
+      - ['00:17:00', 'F00560',   5417] # Iskola
+      - ['00:19:00', 'F00562',   5680] # Királylaki út
+      - ['00:20:00', 'F00563',   6001] # Máramaros út
     trip_headsign: Máramaros út
     trip_id: REFERENCE-1370-0-1
     wheelchair_accessible: 2
@@ -37,21 +37,21 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-1370-1-1-C709
     stop_times:
-      - ['11:20:00', 'F00563',      0] # Máramaros út
-      - ['11:20:00', 'F00561',    362] # Királylaki út
-      - ['11:21:00', 'F00559',    622] # Iskola
-      - ['11:22:00', 'F00555',    954] # Viharhegyi út
-      - ['11:23:00', 'F00557',   1207] # Körtvélyes utca
-      - ['11:24:00', 'F00535',   1527] # Farkastorki út
-      - ['11:24:00', 'F00534',   1680] # Királyhelmec utca
-      - ['11:25:00', 'F00673',   1864] # Zúzmara utca
-      - ['11:25:00', 'F00565',   2169] # Táborhegyi út
-      - ['11:27:00', 'F00567',   2488] # Vörösvári út
-      - ['11:28:00', 'F00585',   2926] # Óbudai rendelőintézet
-      - ['11:30:00', 'F00589',   3221] # Szőlő utca
-      - ['11:32:00', 'F00616',   3507] # Flórián tér
-      - ['11:33:00', '009295',   4068] # Serfőző utca
-      - ['11:34:00', 'F00623',   4317] # Szentlélek tér H
+      - ['00:00:00', 'F00563',      0] # Máramaros út
+      - ['00:00:00', 'F00561',    362] # Királylaki út
+      - ['00:01:00', 'F00559',    622] # Iskola
+      - ['00:02:00', 'F00555',    954] # Viharhegyi út
+      - ['00:03:00', 'F00557',   1207] # Körtvélyes utca
+      - ['00:04:00', 'F00535',   1527] # Farkastorki út
+      - ['00:04:00', 'F00534',   1680] # Királyhelmec utca
+      - ['00:05:00', 'F00673',   1864] # Zúzmara utca
+      - ['00:05:00', 'F00565',   2169] # Táborhegyi út
+      - ['00:07:00', 'F00567',   2488] # Vörösvári út
+      - ['00:08:00', 'F00585',   2926] # Óbudai rendelőintézet
+      - ['00:10:00', 'F00589',   3221] # Szőlő utca
+      - ['00:12:00', 'F00616',   3507] # Flórián tér
+      - ['00:13:00', '009295',   4068] # Serfőző utca
+      - ['00:14:00', 'F00623',   4317] # Szentlélek tér H
     trip_headsign: Szentlélek tér H
     trip_id: REFERENCE-1370-1-1
     wheelchair_accessible: 1

@@ -37,7 +37,7 @@ use Data::Dumper;
 use Text::CSV::Encoded;
 
 use YAML qw//;
-use HuGTFS::Util qw/burp/;
+use HuGTFS::Util qw/burp slurp _S _T/;
 use List::MoreUtils qw/none/;
 use XML::Twig;
 use Data::Dumper;
@@ -52,9 +52,36 @@ my $CSV = Text::CSV::Encoded->new(
 	}
 );
 
+my $route_skip = { map { $_ => 1 } qw/0337 6130 6210 6230 6470/ };
 my $route_with_multiple_patterns = { map { $_ => 1 } qw/0405 1600 2170 2335 2545 2600 9940/ };
 my $route_trip_map = {
-	#'0405-1' => [qw//],
+	#'0000-1' => [qw//],
+	'0660-0' => [qw/A894037466/],
+	'0660-1' => [qw/A894037462/],
+	'0920-0' => [qw/A9036969  /],
+	'0920-1' => [qw/A9036939  /],
+	'0930-0' => [qw/A8830740  /],
+	'0930-1' => [qw/A8830732  /],
+	'1640-0' => [qw/A9523271  /],
+	'1640-1' => [qw/A9523253  /],
+	'1820-0' => [qw/A915366758/],
+	'1820-1' => [qw/A94667986 /],
+	'2015-0' => [qw/A94975353 /],
+	'2015-1' => [qw/A89355199 /],
+	'2810-0' => [qw/A9176076  /],
+	'2810-1' => [],
+	'2945-0' => [qw/A913338628/],
+	'2945-1' => [qw/A93887228 /],
+	'9180-0' => [qw/A8939691  /],
+	'9180-1' => [qw/A8939618  /],
+	'9310-0' => [qw/A885723   /],
+	'9310-1' => [qw/A9531716  /],
+
+	# temp
+	'3020-0' => [qw/A9164262  /],
+	'3020-1' => [qw/A91642103 /],
+	'3240-0' => [qw/A94094162 /],
+	'3240-1' => [qw/A9096250  /],
 };
 
 sub remove_bom(@)
@@ -74,6 +101,7 @@ $CSV->column_names( remove_bom $CSV->getline($file) );
 while ( my $cols = $CSV->getline_hr($file) ) {
 	$routes->{ $cols->{route_id} } = {%$cols};
 }
+close($file);
 
 open( $file, "$DIR/trips.txt" );
 $CSV->column_names( remove_bom $CSV->getline($file) );
@@ -83,6 +111,7 @@ while ( my $cols = $CSV->getline_hr($file) ) {
 	$trips->{$id} = {%$cols};
 	push @{ $routes->{$route}->{trips} }, $trips->{$id};
 }
+close($file);
 
 open( $file, "$DIR/stop_times.txt" );
 $CSV->column_names( remove_bom $CSV->getline($file) );
@@ -91,6 +120,7 @@ while ( my $cols = $CSV->getline_hr($file) ) {
 
 	push @{ $trip->{stop_times} }, {%$cols};
 }
+close($file);
 
 open( $file, "$DIR/stops.txt" );
 $CSV->column_names( remove_bom $CSV->getline($file) );
@@ -101,17 +131,18 @@ while ( my $cols = $CSV->getline_hr($file) ) {
 	delete $cols->{wheelchair_boarding};
 	$stops->{ $cols->{stop_id} } = {%$cols};
 }
+close($file);
 
 open( $file, "$DIR/shapes.txt" );
 $CSV->column_names( remove_bom $CSV->getline($file) );
 while ( my $cols = $CSV->getline_hr($file) ) {
 	push @{ $shapes->{ $cols->{shape_id} } }, {%$cols};
 }
+close($file);
 
 say STDERR "Creating patterns...";
 
-foreach my $trip ( values %$trips ) {
-	my $route = $routes->{ $trip->{route_id} };
+foreach my $trip ( values %$trips ) { my $route = $routes->{ $trip->{route_id} };
 	my $pattern = join '-', map { $_->{stop_id} } @{ $trip->{stop_times} };
 
 	push @{ $route->{patterns}->{ $trip->{direction_id} }->{$pattern} }, $trip;
@@ -131,26 +162,34 @@ sub cleanup_trip
 	delete $trip->{trips_bkk_ref};
 	delete $trip->{route_id};
 	delete $trip->{block_id};
+
+	my $start = _S($trip->{stop_times}->[0]->{arrival_time});
 	foreach my $st ( @{ $trip->{stop_times} } ) {
+		$st->{arrival_time} = _T( _S( $st->{arrival_time} ) - $start )
+			if $st->{arrival_time};
+		$st->{departure_time} = _T( _S( $st->{departure_time} ) - $start )
+			if $st->{departure_time};
+
 		delete $st->{stop_sequence};
 		delete $st->{trip_id};
 	}
 
-	$shapes->{ $trip->{shape_id} }
-		= [ sort { $a->{shape_pt_sequence} <=> $b->{shape_pt_sequence} }
-			@{ $shapes->{ $trip->{shape_id} } } ];
-
-	$trip->{shape} = {
-		shape_id     => $trip->{trip_id} . '-' . $trip->{shape_id},
-		shape_points => [],
-	};
-	foreach my $p ( @{ $shapes->{ $trip->{shape_id} } } ) {
-		push @{ $trip->{shape}->{shape_points} },
-			{
-			shape_pt_lat        => $p->{shape_pt_lat},
-			shape_pt_lon        => $p->{shape_pt_lon},
-			shape_dist_traveled => $p->{shape_dist_traveled}
-			};
+	if($trip->{shape_id}) {
+		$shapes->{ $trip->{shape_id} }
+			= [ sort { $a->{shape_pt_sequence} <=> $b->{shape_pt_sequence} }
+				@{ $shapes->{ $trip->{shape_id} } } ];
+		$trip->{shape} = {
+			shape_id     => $trip->{trip_id} . '-' . $trip->{shape_id},
+			shape_points => [],
+		};
+		foreach my $p ( @{ $shapes->{ $trip->{shape_id} } } ) {
+			push @{ $trip->{shape}->{shape_points} },
+				{
+				shape_pt_lat        => $p->{shape_pt_lat},
+				shape_pt_lon        => $p->{shape_pt_lon},
+				shape_dist_traveled => $p->{shape_dist_traveled}
+				};
+		}
 	}
 	delete $trip->{shape_id};
 
@@ -159,8 +198,7 @@ sub cleanup_trip
 
 sub spad {
 	my $a = shift;
-
-	return (' ' x (6 - length $a)) . $a;
+return (' ' x (6 - length $a)) . $a;
 }
 
 sub npad {
@@ -170,17 +208,23 @@ sub npad {
 }
 
 foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes ) {
-	next if $route->{route_id} =~ m/^(?:0337)$/;
+	next if $route_skip->{$route->{route_id}};
+	next if keys %$needed && !$needed->{$route->{route_id}};
 
 	my @trips;
 	my @dump_shapes;
 
 	foreach my $dir ( sort keys %{ $route->{patterns} } ) {
+		foreach my $p (keys %{ $route->{patterns}->{$dir} } ) {
+			$route->{patterns}->{$dir}->{$p} = [ sort {$a->{trip_id} cmp $b->{trip_id}} @{ $route->{patterns}->{$dir}->{$p} }];
+		}
+
 		if ( $route_trip_map->{ join "-", $route->{route_id}, $dir } ) {
-			my @trips = @{ $route_trip_map->{ join "-", $route->{route_id}, $dir } };
-			for ( my $i = 0; $i < @trips; ++$i ) {
+			my @route_trips = @{ $route_trip_map->{ join "-", $route->{route_id}, $dir } };
+			for ( my $i = 0; $i < @route_trips; ++$i ) {
+				die "Unknown id $route_trips[$i] for $route->{route_id}-$dir" unless $trips->{ $route_trips[$i] };
 				push @trips,
-					cleanup_trip( $trips->{ $trips[$i] },
+					cleanup_trip( $trips->{ $route_trips[$i] },
 					join "-", "REFERENCE", $route->{route_id}, $dir, $i + 1 );
 			}
 		}
@@ -233,6 +277,13 @@ foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes )
 
 	burp( "timetables/route_$route->{route_id}.yml", $route_yaml);
 	burp( "timetables/shape_$route->{route_id}.yml", $shape_yaml);
+}
+
+if ( -f 'timetables/stops.yml' ) {
+	my @stops = YAML::Load( slurp('timetables/stops.yml') );
+	foreach my $stop (@stops) {
+		$stops->{ $stop->{stop_id} } = $stop unless $stops->{ $stop->{stop_id} };
+	}
 }
 
 burp( 'timetables/stops.yml', YAML::Dump( sort { $a->{stop_id} cmp $b->{stop_id} } values %$stops ) );

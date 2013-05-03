@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Móricz Zsigmond körtér / Budaörsi lakótelep
+route_desc: Móricz Zsigmond körtér (Villányi út) / Budaörsi lakótelep
 route_id: 2405
 route_long_name: ''
 route_short_name: 240E
@@ -13,22 +13,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2405-0-1-R708
     stop_times:
-      - ['19:15:00', 'F02199',      0] # Móricz Zsigmond körtér (Villányi út)
-      - ['19:17:00', 'F02182',    721] # Kosztolányi Dezső tér
-      - ['19:22:00', 'F01926',   2951] # Sasadi út
-      - ['19:25:00', 'F02266',   4899] # Madárhegy
-      - ['19:27:00', 'F02217',   5516] # Rupphegyi út
-      - ['19:28:00', 'F04795',   5828] # Budaörs, Felsőhatár utca
-      - ['19:29:00', 'F04791',   6359] # Tulipán utca
-      - ['19:30:00', 'F04735',   6716] # Aradi utca
-      - ['19:31:00', 'F04809',   7106] # Templom tér
-      - ['19:32:00', 'F04721',   7691] # Károly király utca
-      - ['19:33:00', 'F04719',   8000] # Kisfaludy utca
-      - ['19:34:00', 'F04807',   8262] # Kötő utca
-      - ['19:35:00', 'F04717',   8508] # Budaörs, városháza
-      - ['19:36:00', 'F04714',   9009] # Gimnázium
-      - ['19:37:00', 'F04712',   9367] # Budaörs, Patkó utca
-      - ['19:38:00', 'F04724',   9714] # Budaörsi lakótelep
+      - ['00:00:00', 'F02199',      0] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:02:00', 'F02182',    721] # Kosztolányi Dezső tér
+      - ['00:07:00', 'F01926',   2951] # Sasadi út
+      - ['00:10:00', 'F02266',   4899] # Madárhegy
+      - ['00:12:00', 'F02217',   5516] # Rupphegyi út
+      - ['00:13:00', 'F04795',   5828] # Budaörs, Felsőhatár utca
+      - ['00:14:00', 'F04791',   6359] # Tulipán utca
+      - ['00:15:00', 'F04735',   6716] # Aradi utca
+      - ['00:16:00', 'F04809',   7106] # Templom tér
+      - ['00:17:00', 'F04721',   7691] # Károly király utca
+      - ['00:18:00', 'F04719',   8000] # Kisfaludy utca
+      - ['00:19:00', 'F04807',   8262] # Kötő utca
+      - ['00:20:00', 'F04717',   8508] # Budaörs, városháza
+      - ['00:21:00', 'F04714',   9009] # Gimnázium
+      - ['00:22:00', 'F04712',   9367] # Budaörs, Patkó utca
+      - ['00:23:00', 'F04724',   9714] # Budaörsi lakótelep
     trip_headsign: Budaörsi lakótelep
     trip_id: REFERENCE-2405-0-1
     wheelchair_accessible: 2
@@ -36,22 +36,22 @@ trips:
     service_id: REFERENCE
     shape_id: REFERENCE-2405-1-1-R709
     stop_times:
-      - ['17:26:00', 'F04836',      0] # Budaörsi lakótelep
-      - ['17:27:00', 'F04713',    507] # Budaörs, Patkó utca
-      - ['17:28:00', 'F04715',    753] # Gimnázium
-      - ['17:29:00', 'F04716',   1328] # Budaörs, városháza
-      - ['17:30:00', 'F04808',   1581] # Kötő utca
-      - ['17:31:00', 'F04720',   1900] # Petőfi Sándor utca
-      - ['17:32:00', 'F04722',   2326] # Károly király utca
-      - ['17:33:00', 'F04810',   2691] # Templom tér
-      - ['17:34:00', 'F04736',   3031] # Aradi utca
-      - ['17:35:00', 'F04792',   3397] # Tulipán utca
-      - ['17:36:00', 'F04796',   3983] # Felsőhatár utca
-      - ['17:37:00', 'F02218',   4227] # Rupphegyi út
-      - ['17:39:00', 'F02267',   4969] # Madárhegy
-      - ['17:43:00', 'F01927',   6951] # Sasadi út
-      - ['17:49:00', 'F02173',   9106] # Villányi út
-      - ['17:52:00', 'F02201',  10689] # Móricz Zsigmond körtér (Villányi út)
+      - ['00:00:00', 'F04836',      0] # Budaörsi lakótelep
+      - ['00:01:00', 'F04713',    507] # Budaörs, Patkó utca
+      - ['00:02:00', 'F04715',    753] # Gimnázium
+      - ['00:03:00', 'F04716',   1328] # Budaörs, városháza
+      - ['00:04:00', 'F04808',   1581] # Kötő utca
+      - ['00:05:00', 'F04720',   1900] # Petőfi Sándor utca
+      - ['00:06:00', 'F04722',   2326] # Károly király utca
+      - ['00:07:00', 'F04810',   2691] # Templom tér
+      - ['00:08:00', 'F04736',   3031] # Aradi utca
+      - ['00:09:00', 'F04792',   3397] # Tulipán utca
+      - ['00:10:00', 'F04796',   3983] # Felsőhatár utca
+      - ['00:10:00', 'F02218',   4227] # Rupphegyi út
+      - ['00:11:00', 'F02267',   4969] # Madárhegy
+      - ['00:14:00', 'F01927',   6951] # Sasadi út
+      - ['00:18:00', 'F02173',   9106] # Villányi út
+      - ['00:21:00', 'F02201',  10689] # Móricz Zsigmond körtér (Villányi út)
     trip_headsign: Móricz Zsigmond körtér
     trip_id: REFERENCE-2405-1-1
     wheelchair_accessible: 2
