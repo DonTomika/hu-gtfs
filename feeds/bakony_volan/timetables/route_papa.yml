@@ -1,0 +1,863 @@
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-1
+route_short_name: 1
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=1
+trips:
+  - departures: [ m-04:20, m-04:45, z-05:30, 06:40, m-07:25, 07:40, m-08:35, m-09:40, m-10:40, m-11:40, m-12:55, m-13:55, m-14:15, m-15:00, m-17:10, 17:40, m-18:40, m-19:40, m-20:10, m-21:40, z-21:45, m-22:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:01:00, Orvosi rendelö]
+      - [00:02:00, Strandfürdö (Színház)]
+      - [00:04:00, Várkastély]
+      - [00:06:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:08:00, Kórház]
+      - [00:09:00, Szalmavári utca]
+      - [00:11:00, Budai Nagy Antal utca]
+      - [00:13:00, Közgazdasági Szakközépiskola]
+      - [00:14:00, Veszprémi út]
+      - [00:16:00, Hantai utca]
+      - [00:17:00, Lovas Klub]
+      - [00:18:00, Kollégium]
+      - [00:19:00, Pápakovácsi elágazás]
+    trip_id: papa-1-1
+  - departures: [ m-03:50, m-04:50, m-05:30, 06:00, m-06:30, m-07:10, i-07:30, m-08:00, x-10:00, m-11:00, m-12:25, z-12:55, m-13:30, 14:10, m-14:30, m-15:10, z-16:00, m-16:30, m-16:50, m-17:30, 19:00, m-20:00, m-20:55, m-22:00 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Pápakovácsi elágazás]
+      - [00:01:00, Kollégium]
+      - [00:02:00, Lovas Klub]
+      - [00:03:00, Hantai utca]
+      - [00:05:00, Veszprémi út]
+      - [00:06:00, Közgazdasági Szakközépiskola]
+      - [00:08:00, Budai Nagy Antal utca]
+      - [00:11:00, Kórház]
+      - [00:12:00, Március 15. tér]
+      - [00:13:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:15:00, Várkastély]
+      - [00:17:00, Strandfürdö (Színház)]
+      - [00:18:00, Orvosi rendelö]
+      - [00:19:00, Vasútállomás]
+    trip_id: papa-1-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-10
+route_short_name: 10
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=10
+trips:
+  - departures: [ m-06:10, 11:20, 12:20, 18:20 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:02:00, Kórház]
+      - [00:03:00, Szalmavári utca]
+      - [00:05:00, Budai Nagy Antal utca]
+      - [00:06:00, Dózsa György utca]
+      - [00:07:00, Gyimóti út]
+      - [00:08:00, Tél utca]
+      - [00:09:00, Fiumei utca]
+      - [00:10:00, ABC áruház]
+      - [00:11:00, Tizedik utca]
+      - [00:12:00, Ötödik utca]
+      - [00:13:00, Perutz Stadion]
+      - [00:14:00, Autóbusz-állomás (Uszoda)]
+    trip_id: papa-10-1
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-11
+route_short_name: 11
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=11
+trips:
+  - departures: [ m-05:05, x-06:25, m-06:50, m-07:50, m-08:50, 10:20, m-13:10, O-13:20, O-14:20, m-14:30, t-15:45, m-17:15, m-21:10, m-22:25 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás 9. kocsiállás]
+      - [00:01:00, Várkastély]
+      - [00:02:00, Strandfürdö (Színház)]
+      - [00:04:00, Erdészet]
+      - [00:05:00, Állami Gazdaság]
+      - [00:06:00, Asztalos Ktsz.]
+      - [00:07:00, Rét utca 19.]
+      - [00:08:00, Rét utca 41.]
+      - [00:09:00, TÜZÉP]
+    trip_id: papa-11-1
+  - departures: [ m-05:15, x-06:35, i-07:00, t-07:00, i-07:33, m-08:00, m-09:00, 10:30, m-13:20, O-13:30, O-14:30, m-14:42, m-15:55, m-17:25, m-21:20, m-22:35 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, TÜZÉP]
+      - [00:02:00, Rét utca 19.]
+      - [00:03:00, Asztalos Ktsz.]
+      - [00:04:00, Állami Gazdaság]
+      - [00:05:00, Erdészet]
+      - [00:07:00, Strandfürdö (Színház)]
+      - [00:08:00, Várkastély]
+      - [00:09:00, Autóbusz-állomás (Szabadság utca)]
+    trip_id: papa-11-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-11A
+route_short_name: 11A
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=11A
+trips:
+  - departures: [ i-07:15, i-15:35 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás 9. kocsiállás]
+      - [00:01:00, Tókert utca]
+      - [00:02:00, Aradi utca]
+      - [00:03:00, Kertvárosi iskola]
+      - [00:04:00, ABC áruház]
+      - [00:05:00, Tizedik utca]
+      - [00:06:00, Ötödik utca]
+      - [00:07:00, Perutz Stadion]
+      - [00:08:00, Autóbusz-állomás (Uszoda)]
+      - [00:09:00, Várkastély]
+      - [00:10:00, Strandfürdö (Színház)]
+      - [00:12:00, Erdészet]
+      - [00:13:00, Állami Gazdaság]
+      - [00:14:00, Asztalos Ktsz.]
+      - [00:15:00, Rét utca 19.]
+      - [00:16:00, Rét utca 41.]
+      - [00:17:00, TÜZÉP]
+    trip_id: papa-11A-1
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-13
+route_short_name: 13
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=13
+trips:
+  - departures: [ m-05:25, m-05:30, x-06:20, x-06:25, x-06:35, +-06:55, 07:40, i-07:45, x-08:15, m-09:00, +-09:00, x-09:20, m-09:30, +-10:05, x-10:35, +-11:05, x-11:40, i-12:10, x-12:25, i-12:55, m-13:50, i-14:25, +-14:30, m-14:30, 14:35, x-14:35, i-15:40, x-16:05, +-16:25, m-16:30, +-16:50, x-17:00, n-17:10, x-17:35, 18:15, 19:15, 25-19:30, O-19:55, x-20:15, 31-20:55, m-22:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:01:00, Török Bálint utca]
+      - [00:02:00, Vásár utca]
+      - [00:03:00, Határ utca]
+      - [00:04:00, TESCO Áruház]
+      - [00:06:00, 'Borsosgyör, autóbusz-váróterem']
+      - [00:08:00, 'Borsosgyör, Szilfa utca']
+    trip_id: papa-13-1
+  - departures: [ m-05:09, O-05:10, x-05:11, 05:14, m-05:15, +-05:34, m-05:58, x-06:00, m-06:31, 07:14, x-07:15, +-07:19, i-07:22, m-07:44, x-07:53, +-07:57, x-08:00, t-08:07, O-08:07, x-09:18, m-09:37, x-10:20, +-10:37, x-10:39, m-11:09, x-13:06, i-13:06, x-13:15, +-13:19, x-13:22, +-13:45, i-13:52, m-14:24, i-14:44, m-15:42, m-15:48, i-16:12, i-16:14, +-16:17, i-16:28, m-16:34, i-17:01, x-17:29, x-17:30, m-17:37, +-18:04, +-19:29, x-19:34, m-21:21, m-21:26, m-21:27 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Borsosgyör, Szilfa utca']
+      - [00:01:00, 'Borsosgyör, téglagyár']
+      - [00:02:00, 'Borsosgyör, autóbusz-váróterem']
+      - [00:04:00, VOLÁN telep]
+      - [00:05:00, Határ utca]
+      - [00:06:00, Vásár utca]
+      - [00:07:00, Török Bálint utca]
+      - [00:08:00, Autóbusz-állomás]
+    trip_id: papa-13-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-14
+route_short_name: 14
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=14
+trips:
+  - departures: [ m-05:45, 05:50, x-06:20, m-06:50, i-06:50, m-07:25, +-08:15, m-09:15, 11:40, t-12:40, i-12:40, x-12:50, i-13:30, m-14:25, x-14:35, i-14:40, m-15:20, +-15:40, i-16:10, m-16:30, +-16:50, O-17:00, m-17:05, x-18:55, z-19:50, m-20:05, m-22:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:03:00, Budai Nagy Antal utca]
+      - [00:04:00, ABC áruház 2]
+      - [00:08:00, 'Kéttornyúlak, vendéglő']
+    trip_id: papa-14-1
+  - departures: [ x-05:11, z-05:13, m-05:15, m-06:00, +-06:01, x-06:43, i-07:19, i-07:24, 72-07:29, x-08:38, m-09:00, +-10:50, i-12:33, x-13:13, m-13:19, +-13:23, m-13:35, m-14:47, i-15:06, x-15:08, x-15:45, 16:50, x-19:55, m-20:40, z-20:50, m-21:23 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Kéttornyúlak, vendéglő']
+      - [00:04:00, Bocsor I. utca]
+      - [00:05:00, Budai Nagy Antal utca]
+      - [00:07:00, Kórház]
+      - [00:08:00, Autóbusz-állomás]
+    trip_id: papa-14-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-15
+route_short_name: 15
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=15
+trips:
+  - departures: [ i-06:57, i-12:47, i-16:23 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Kéttornyúlak, iskola']
+      - [00:04:00, 'Borsosgyör, iskola']
+      - [00:05:00, 'Borsosgyör, autóbusz-váróterem']
+    trip_id: papa-15-1
+  - departures: [ i-07:01, i-12:51 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Borsosgyör, autóbusz-váróterem']
+      - [00:01:00, 'Borsosgyör, iskola']
+      - [00:05:00, 'Kéttornyúlak, iskola']
+    trip_id: papa-15-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-16
+route_short_name: 16
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=16
+trips:
+  - departures: [ x-05:25, m-05:30, +-05:50, x-05:50, m-06:10, 06:20, x-06:50, +-07:40, 63-09:05, x-09:05, 14-09:10, 15-09:10, 92-09:35, m-10:00, 10:35, x-11:05, 15-12:10, x-12:35, x-12:55, m-13:27, 95-13:35, m-13:35, 15-13:35, x-14:45, m-14:55, m-15:45, +-16:15, x-16:15, +-16:40, x-17:20, x-18:50, +-19:10, m-20:20, m-20:35, m-22:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:03:00, Budai Nagy Antal utca]
+      - [00:04:00, Veszprémi út]
+      - [00:05:00, Hantai utca]
+      - [00:06:00, Pápakovácsi elágazás]
+      - [00:08:00, 'Tapolcafö, téglagyár']
+      - [00:10:00, 'Tapolcafö, posta']
+      - [00:11:00, 'Tapolcafő, sportpálya']
+    trip_id: papa-16-1
+  # 127: Budai u., Veszprémi u., Pápakovácsi elág., Tapolcafõ postánál áll meg
+  - departures: [ 04:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:03:00, Budai Nagy Antal utca]
+      - [00:04:00, Veszprémi út]
+      - [00:06:00, Pápakovácsi elágazás]
+      - [00:10:00, 'Tapolcafö, posta']
+      - [00:11:00, 'Tapolcafő, sportpálya']
+    trip_id: papa-16-1-127
+  - departures: [ x-05:02, x-05:05, +-05:13, +-06:00, x-06:01, m-06:15, i-07:05, 07:09, m-07:11, x-07:25, m-08:10, 72-08:45, i-09:19, x-10:11, 92-10:44, x-11:54, 63-12:52, m-13:00, 13:10, x-14:19, x-15:21, m-15:35, x-15:57, 95-16:04, x-16:25, 89-17:00, x-17:34, 43-18:15, m-18:40, 70-19:09, x-19:31, 31-20:29, m-20:33, +-20:51, m-21:18, m-23:17 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Tapolcafő, sportpálya']
+      - [00:01:00, 'Tapolcafö, posta']
+      - [00:03:00, 'Tapolcafö, téglagyár']
+      - [00:05:00, Pápakovácsi elágazás]
+      - [00:06:00, Hantai utca]
+      - [00:07:00, Veszprémi út]
+      - [00:08:00, Budai Nagy Antal utca]
+      - [00:09:00, Kórház]
+      - [00:10:00, Autóbusz-állomás]
+    trip_id: papa-16-2
+  # 127: Budai u., Veszprémi u., Pápakovácsi elág., Tapolcafõ postánál áll meg
+  - departures: [ 21:02 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Tapolcafő, sportpálya']
+      - [00:01:00, 'Tapolcafö, posta']
+      - [00:03:00, 'Tapolcafö, téglagyár']
+      - [00:05:00, Pápakovácsi elágazás]
+      - [00:06:00, Hantai utca]
+      - [00:07:00, Veszprémi út]
+      - [00:08:00, Budai Nagy Antal utca]
+      - [00:09:00, Kórház]
+      - [00:10:00, Autóbusz-állomás]
+    trip_id: papa-16-2-127
+  # 135: Hantai u. és Tfő, sportpályánál nem áll meg
+  - departures: [ 13:56 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:01:00, 'Tapolcafö, posta']
+      - [00:03:00, 'Tapolcafö, téglagyár']
+      - [00:05:00, Pápakovácsi elágazás]
+      - [00:07:00, Veszprémi út]
+      - [00:08:00, Budai Nagy Antal utca]
+      - [00:09:00, Kórház]
+      - [00:10:00, Autóbusz-állomás]
+    trip_id: papa-16-2-135
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-17
+route_short_name: 17
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=17
+trips:
+  - departures: [ x-06:20, m-07:20, i-07:23, i-07:42, 08:35, x-10:35, 11:15, i-13:25, x-14:30, 15:50, i-15:58, m-16:35, x-17:25, 19:20, m-22:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:01:00, Várkastély]
+      - [00:02:00, Török Bálint utca]
+      - [00:03:00, Húskombinát teherp.]
+      - [00:04:00, Táncsics utca]
+      - [00:05:00, Meggyes utca]
+      - [00:06:00, Tarczi utca]
+      - [00:07:00, Böröllö]
+    trip_id: papa-17-1
+  - departures: [ x-05:14, n-06:34, x-07:09, i-07:30, i-07:48, m-08:07, 09:49, x-13:02, 13:14, i-14:09, x-15:24, x-16:05, i-16:05, +-16:10, 16:39, x-18:19, m-21:24 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Böröllö]
+      - [00:01:00, Tarczi utca]
+      - [00:02:00, Meggyes utca]
+      - [00:03:00, Táncsics utca]
+      - [00:04:00, Húskombinát teherp.]
+      - [00:05:00, Török Bálint utca]
+      - [00:06:00, Várkastély]
+      - [00:07:00, Autóbusz-állomás]
+    trip_id: papa-17-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-1A
+route_short_name: 1A
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=1A
+trips:
+  - departures: [ x-05:35, i-07:35, m-13:35, i-14:35, m-21:35 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:02:00, Kórház]
+      - [00:03:00, Szalmavári utca]
+      - [00:05:00, Budai Nagy Antal utca]
+      - [00:07:00, Közgazdasági Szakközépiskola]
+      - [00:08:00, Veszprémi út]
+      - [00:09:00, Vízmű utca]
+      - [00:10:00, Hirtenberger]
+    trip_id: papa-1A-1
+  - departures: [ x-06:10, i-08:10, m-14:10, i-15:10, m-22:10 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Hirtenberger]
+      - [00:01:00, Vízmű utca]
+      - [00:02:00, Veszprémi út]
+      - [00:03:00, Közgazdasági Szakközépiskola]
+      - [00:05:00, Budai Nagy Antal utca]
+      - [00:08:00, Kórház]
+      - [00:09:00, Március 15. tér]
+      - [00:10:00, Autóbusz-állomás (Szabadság utca)]
+    trip_id: papa-1A-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-1Y
+route_short_name: 1Y
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=1Y
+trips:
+  - departures: [ m-05:15, m-05:30, m-06:20, i-07:10, O-08:35, z-09:40, O-10:40, z-11:40, x-12:25, m-13:15, 13:40, 14:40, '#-15:25', m-16:25, 16:40, z-19:40, m-21:25 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:01:00, Orvosi rendelö]
+      - [00:02:00, Strandfürdö (Színház)]
+      - [00:04:00, Várkastély]
+      - [00:06:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:08:00, Kórház]
+      - [00:09:00, Szalmavári utca]
+      - [00:11:00, Budai Nagy Antal utca]
+      - [00:13:00, Közgazdasági Szakközépiskola]
+      - [00:14:00, Veszprémi út]
+      - [00:15:00, Vízmű utca]
+      - [00:16:00, Szabó Ervin utca]
+      - [00:18:00, Hantai utca]
+      - [00:19:00, Lovas Klub]
+      - [00:20:00, Kollégium]
+      - [00:21:00, Pápakovácsi elágazás]
+    trip_id: papa-1Y-1
+  - departures: [ m-05:10, O-05:30, m-06:00, m-06:50, 07:50, 08:55, z-11:00, m-11:55, m-12:55, m-14:02, 14:45, m-15:55, z-16:50, 17:50, z-20:00, m-22:10 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Pápakovácsi elágazás]
+      - [00:01:00, Kollégium]
+      - [00:02:00, Lovas Klub]
+      - [00:03:00, Hantai utca]
+      - [00:05:00, Szabó Ervin utca]
+      - [00:06:00, Vízmű utca]
+      - [00:07:00, Veszprémi út]
+      - [00:08:00, Közgazdasági Szakközépiskola]
+      - [00:10:00, Budai Nagy Antal utca]
+      - [00:13:00, Kórház]
+      - [00:14:00, Március 15. tér]
+      - [00:15:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:17:00, Várkastély]
+      - [00:19:00, Strandfürdö (Színház)]
+      - [00:20:00, Orvosi rendelö]
+      - [00:21:00, Vasútállomás]
+    trip_id: papa-1Y-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-2
+route_short_name: 2
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=2
+trips:
+  - departures: [ 04:55, 06:10, 06:55, m-08:10, 09:10, m-10:10, 10:55, m-12:10, 13:00, 14:20, m-14:50, 15:50, m-16:50, 18:10, m-19:10, 21:00, m-22:20 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:01:00, Textilgyár]
+      - [00:02:00, Óvoda]
+      - [00:03:00, Húskombinát]
+      - [00:05:00, Török Bálint utca]
+      - [00:07:00, Várkastély]
+      - [00:09:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:11:00, Kórház]
+      - [00:12:00, Szalmavári utca]
+      - [00:14:00, Budai Nagy Antal utca]
+      - [00:15:00, Közgazdasági Szakközépiskola]
+      - [00:16:00, Veszprémi út]
+      - [00:17:00, Szociális otthon]
+      - [00:18:00, Kishegy]
+      - [00:19:00, Öreghegyi elágazás]
+      - [00:20:00, Törzsökhegy alsó]
+      - [00:21:00, Törzsökhegy felsö]
+    trip_id: papa-2-1
+  - departures: [ 05:25, 06:30, 07:25, m-08:35, 09:35, m-10:35, 11:20, m-12:35, 13:25, 14:45, m-15:25, 16:25, m-17:15, 18:35, m-19:35, 21:25 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Törzsökhegy felsö]
+      - [00:01:00, Törzsökhegy alsó]
+      - [00:02:00, Öreghegyi elágazás]
+      - [00:03:00, Kishegy]
+      - [00:04:00, Szociális otthon]
+      - [00:05:00, Veszprémi út]
+      - [00:06:00, Közgazdasági Szakközépiskola]
+      - [00:07:00, Budai Nagy Antal utca]
+      - [00:10:00, Kórház]
+      - [00:11:00, Március 15. tér]
+      - [00:12:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:14:00, Várkastély]
+      - [00:16:00, Török Bálint utca]
+      - [00:18:00, Húskombinát]
+      - [00:19:00, Óvoda]
+      - [00:20:00, Textilgyár]
+      - [00:21:00, Vasútállomás]
+    trip_id: papa-2-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-3
+route_short_name: 3
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=3
+trips:
+  - departures: [ m-06:15, z-06:20, m-07:20, +-09:40, m-12:40, i-13:10, z-14:20, m-14:25, z-15:20, m-15:30, m-16:25, 17:10, z-19:40, m-20:55, m-22:33 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:01:00, Textilgyár]
+      - [00:02:00, Óvoda]
+      - [00:03:00, Húskombinát]
+      - [00:05:00, Vásár utca]
+      - [00:06:00, Korona utca]
+      - [00:07:00, Gyurátz Ferenc utca elágazás]
+      - [00:08:00, Széchenyi utca]
+      - [00:10:00, Március 15. tér]
+      - [00:11:00, Tókert utca]
+      - [00:12:00, Aradi utca]
+      - [00:13:00, Kertvárosi iskola]
+      - [00:14:00, ABC áruház]
+      - [00:15:00, Tizedik utca]
+    trip_id: papa-3-1
+  - departures: [ 05:10, m-06:30, m-07:15, 07:35, +-09:55, m-12:55, i-13:25, z-14:35, m-14:40, z-15:35, m-16:40, 17:25, z-19:55, m-21:10 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Tizedik utca]
+      - [00:01:00, ABC áruház]
+      - [00:02:00, Kertvárosi iskola]
+      - [00:03:00, Aradi utca]
+      - [00:04:00, Tókert utca]
+      - [00:06:00, Március 15. tér]
+      - [00:07:00, Árok utca]
+      - [00:09:00, Korona utca]
+      - [00:10:00, Vásár utca]
+      - [00:12:00, Húskombinát]
+      - [00:13:00, Óvoda]
+      - [00:14:00, Textilgyár]
+      - [00:15:00, Vasútállomás]
+    trip_id: papa-3-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-3A
+route_short_name: 3A
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=3A
+trips:
+  - departures: [ m-06:55, i-07:15 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:03:00, Csillag utca]
+      - [00:04:00, Vasút utca]
+      - [00:05:00, Textilgyár]
+      - [00:06:00, Óvoda]
+      - [00:07:00, Húskombinát]
+      - [00:09:00, Vásár utca]
+      - [00:10:00, Korona utca]
+      - [00:11:00, Gyurátz Ferenc utca elágazás]
+      - [00:12:00, Széchenyi utca]
+      - [00:14:00, Március 15. tér]
+      - [00:15:00, Tókert utca]
+      - [00:16:00, Aradi utca]
+      - [00:17:00, Kertvárosi iskola]
+      - [00:18:00, ABC áruház]
+      - [00:19:00, Tizedik utca]
+    trip_id: papa-3A-1
+  - departures: [ m-15:50 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Tizedik utca]
+      - [00:01:00, ABC áruház]
+      - [00:02:00, Kertvárosi iskola]
+      - [00:03:00, Aradi utca]
+      - [00:04:00, Tókert utca]
+      - [00:05:00, Március 15. tér]
+      - [00:07:00, Árok utca]
+      - [00:10:00, Korona utca]
+      - [00:11:00, Vásár utca]
+      - [00:12:00, Húskombinát]
+      - [00:13:00, Óvoda]
+      - [00:14:00, Textilgyár]
+      - [00:15:00, Vasút utca]
+      - [00:16:00, Csillag utca]
+      - [00:19:00, Vasútállomás]
+    trip_id: papa-3A-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-5
+route_short_name: 5
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=5
+trips:
+  - departures: [ m-05:30, i-06:40, m-13:35, i-16:20 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:01:00, Textilgyár]
+      - [00:02:00, Óvoda]
+      - [00:03:00, Húskombinát]
+      - [00:05:00, Vásár utca]
+      - [00:07:00, Bástya utca]
+      - [00:08:00, Korvin utca]
+      - [00:09:00, Kis tér]
+      - [00:10:00, Vásár utca]
+      - [00:12:00, Török Bálint utca]
+      - [00:13:00, Várkastély]
+      - [00:14:00, Autóbusz-állomás (Uszoda)]
+      - [00:15:00, Termálfürdő]
+      - [00:17:00, Erdészet]
+      - [00:18:00, Vasúti sorompó]
+      - [00:19:00, Vaszari utca]
+      - [00:20:00, Mosoda]
+      - [00:21:00, Repülőtér I. sz. bejárat]
+      - [00:22:00, Repülötér föbejárat]
+    trip_id: papa-5-1
+  - departures: [ m-06:00, i-07:05, m-14:10, i-16:40 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Repülötér föbejárat]
+      - [00:01:00, Repülőtér I. sz. bejárat]
+      - [00:02:00, Mosoda]
+      - [00:03:00, Vaszari utca]
+      - [00:04:00, Vasúti sorompó]
+      - [00:05:00, Erdészet]
+      - [00:06:00, Strandfürdö (Színház)]
+      - [00:07:00, Török Bálint utca]
+      - [00:08:00, Vásár utca]
+      - [00:10:00, Bástya utca]
+      - [00:11:00, Korvin utca]
+      - [00:12:00, Kis tér]
+      - [00:13:00, Vásár utca]
+      - [00:15:00, Húskombinát]
+      - [00:16:00, Óvoda]
+      - [00:17:00, Textilgyár]
+      - [00:18:00, Vasútállomás]
+    trip_id: papa-5-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-7
+route_short_name: 7
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=7
+trips:
+  - departures: [ 148-04:55, m-05:30, +-06:10, m-06:35, O-06:35, m-07:00, m-07:30, O-07:30, +-08:00, m-08:00, +-09:50, m-11:00, m-12:00, m-12:55, m-13:30, m-14:10, z-14:40, m-15:00, m-16:15, z-16:40, m-17:40, z-18:40, z-19:40, m-21:25 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:01:00, Textilgyár]
+      - [00:02:00, Óvoda]
+      - [00:03:00, Húskombinát]
+      - [00:05:00, Vásár utca]
+      - [00:06:00, Bástya utca]
+      - [00:07:00, Korvin utca (Barát utca)]
+      - [00:08:00, Kis tér]
+      - [00:10:00, Huszár lakótelep]
+      - [00:11:00, Szakmunkásképző]
+      - [00:12:00, Kinizsi köz]
+      - [00:13:00, Bocsor I. utca elágazás]
+      - [00:15:00, Somlai utca]
+      - [00:17:00, Budai Nagy Antal utca]
+      - [00:19:00, Közgazdasági Szakközépiskola]
+      - [00:20:00, Veszprémi út]
+      - [00:21:00, Vízmű utca]
+      - [00:22:00, Szabó Ervin utca]
+    trip_id: papa-7-1
+  - departures: [ 05:20, m-05:55, m-06:20, +-06:35, O-07:00, m-07:00, m-07:30, m-08:00, O-08:00, +-08:30, m-08:30, +-10:15, m-11:30, m-12:30, m-13:25, m-14:10, m-14:35, z-15:05, m-15:27, 17:00, z-19:00, z-20:00, m-22:10 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Szabó Ervin utca]
+      - [00:01:00, Vízmű utca]
+      - [00:03:00, Veszprémi út]
+      - [00:04:00, Közgazdasági Szakközépiskola]
+      - [00:06:00, Budai Nagy Antal utca]
+      - [00:08:00, Somlai utca]
+      - [00:09:00, ABC áruház 2]
+      - [00:11:00, Kinizsi köz]
+      - [00:12:00, Szakmunkásképző]
+      - [00:14:00, Huszár lakótelep]
+      - [00:15:00, Bástya utca]
+      - [00:16:00, Korvin utca (Barát utca)]
+      - [00:17:00, Kis tér]
+      - [00:18:00, Vásár utca]
+      - [00:20:00, Húskombinát]
+      - [00:21:00, Óvoda]
+      - [00:22:00, Textilgyár]
+      - [00:23:00, Vasútállomás]
+    trip_id: papa-7-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-7-10
+route_short_name: 7-10
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=7-10
+trips:
+  - departures: [ z-05:20, m-07:10, z-07:20, 111-08:20, 09:20, 10:20, z-13:20, 14:20, z-15:20, m-15:30, 111-16:30, 144-17:35, 144-19:35, z-20:50, m-20:50, m-22:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:01:00, Várkastély]
+      - [00:02:00, Török Bálint utca]
+      - [00:03:00, Vásár utca]
+      - [00:04:00, Huszár lakótelep]
+      - [00:05:00, Szakmunkásképző]
+      - [00:06:00, Kinizsi köz]
+      - [00:07:00, Bocsor I. utca elágazás]
+      - [00:09:00, Somlai utca]
+      - [00:10:00, Budai Nagy Antal utca]
+      - [00:11:00, Dózsa György utca]
+      - [00:12:00, Gyimóti út]
+      - [00:13:00, Tél utca]
+      - [00:14:00, Fiumei utca]
+      - [00:15:00, ABC áruház]
+      - [00:16:00, Tizedik utca]
+      - [00:17:00, Ötödik utca]
+      - [00:18:00, Perutz Stadion]
+      - [00:19:00, Autóbusz-állomás (Uszoda)]
+    trip_id: papa-7-10-1
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-7-9
+route_short_name: 7-9
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=7-9
+trips:
+  - departures: [ m-05:10, 149-06:20, m-06:40, z-06:50, m-07:30, 111-08:40, 111-10:50, m-12:45, z-12:50, m-13:10, m-13:40, 111-14:50, m-15:50, m-17:50, m-18:50, 111-19:50, m-20:50, 111-21:20, m-22:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás (Uszoda)]
+      - [00:01:00, Perutz Stadion]
+      - [00:02:00, Ötödik utca]
+      - [00:03:00, Tizedik utca]
+      - [00:04:00, ABC áruház]
+      - [00:05:00, Fiumei utca]
+      - [00:06:00, Tél utca]
+      - [00:07:00, Gyimóti út]
+      - [00:08:00, Dózsa György utca]
+      - [00:09:00, Budai Nagy Antal utca]
+      - [00:11:00, Somlai utca]
+      - [00:12:00, ABC áruház 2]
+      - [00:14:00, Kinizsi köz]
+      - [00:15:00, Szakmunkásképző]
+      - [00:16:00, Huszár lakótelep]
+      - [00:18:00, Bástya utca]
+      - [00:19:00, Korvin utca]
+      - [00:20:00, Kis tér]
+      - [00:21:00, Vásár utca]
+      - [00:23:00, Török Bálint utca]
+      - [00:24:00, Várkastély]
+      - [00:25:00, Autóbusz-állomás (Szabadság utca)]
+    trip_id: papa-7-9-1
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-8
+route_short_name: 8
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=8
+trips:
+  - departures: [ m-05:25, m-13:35 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vízmű utca]
+      - [00:02:00, Veszprémi út]
+      - [00:03:00, Közgazdasági Szakközépiskola]
+      - [00:05:00, Budai Nagy Antal utca]
+      - [00:07:00, Szladik János utca elágazás]
+      - [00:09:00, Széchenyi utca]
+      - [00:10:00, Március 15. tér]
+      - [00:11:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:12:00, Várkastély]
+      - [00:13:00, Török Bálint utca]
+      - [00:14:00, Vásár utca]
+      - [00:15:00, Huszár lakótelep]
+      - [00:16:00, Határ utca]
+      - [00:17:00, VOLÁN telep]
+      - [00:19:00, 'Borsosgyör, autóbusz-váróterem']
+      - [00:20:00, 'Borsosgyör, iskola']
+      - [00:21:00, 'Borsosgyör, Szilfa utca']
+    trip_id: papa-8-1
+  - departures: [ m-14:15 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Borsosgyör, Szilfa utca']
+      - [00:01:00, 'Borsosgyör, téglagyár']
+      - [00:02:00, 'Borsosgyör, autóbusz-váróterem']
+      - [00:04:00, VOLÁN telep]
+      - [00:05:00, Határ utca]
+      - [00:06:00, Huszár lakótelep]
+      - [00:07:00, Vásár utca]
+      - [00:08:00, Török Bálint utca]
+      - [00:09:00, Várkastély]
+      - [00:11:00, Autóbusz-állomás (Szabadság utca)]
+      - [00:12:00, Március 15. tér]
+      - [00:13:00, Széchenyi utca]
+      - [00:15:00, Szladik János utca elágazás]
+      - [00:17:00, Budai Nagy Antal utca]
+      - [00:19:00, Közgazdasági Szakközépiskola]
+      - [00:20:00, Veszprémi út]
+      - [00:21:00, Vízmű utca]
+    trip_id: papa-8-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-8A
+route_short_name: 8A
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=8A
+trips:
+  - departures: [ O-05:35, i-06:45, m-13:30, m-21:40 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás 6 kocsiállás]
+      - [00:01:00, Várkastély]
+      - [00:02:00, Török Bálint utca]
+      - [00:03:00, Vásár utca]
+      - [00:05:00, Huszár lakótelep]
+      - [00:06:00, Határ utca]
+      - [00:07:00, VOLÁN telep]
+      - [00:10:00, 'Borsosgyör, autóbusz-váróterem']
+      - [00:11:00, 'Borsosgyör, iskola']
+      - [00:14:00, 'Borsosgyör, Szilfa utca']
+    trip_id: papa-8A-1
+  - departures: [ m-05:08, x-06:10, i-06:52, m-22:15 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Borsosgyör, Szilfa utca']
+      - [00:03:00, 'Borsosgyör, téglagyár']
+      - [00:05:00, 'Borsosgyör, autóbusz-váróterem']
+      - [00:08:00, VOLÁN telep]
+      - [00:09:00, Határ utca]
+      - [00:10:00, Huszár lakótelep]
+      - [00:11:00, Vásár utca]
+      - [00:12:00, Török Bálint utca]
+      - [00:13:00, Várkastély]
+      - [00:14:00, Autóbusz-állomás (Szabadság utca)]
+    trip_id: papa-8A-2
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-9
+route_short_name: 9
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=9
+trips:
+  - departures: [ m-05:40, m-09:50, 11:50, 16:50 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás (Uszoda)]
+      - [00:01:00, Perutz Stadion]
+      - [00:02:00, Ötödik utca]
+      - [00:03:00, Tizedik utca]
+      - [00:04:00, ABC áruház]
+      - [00:05:00, Fiumei utca]
+      - [00:06:00, Tél utca]
+      - [00:07:00, Gyimóti út]
+      - [00:08:00, Dózsa György utca]
+      - [00:09:00, Budai Nagy Antal utca]
+      - [00:12:00, Kórház]
+      - [00:13:00, Március 15. tér]
+      - [00:14:00, Autóbusz-állomás (Szabadság utca)]
+    trip_id: papa-9-1
+---
+agency_id: BAKONY-VOLAN-PAPA
+route_id: papa-9A
+route_short_name: 9A
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=1&line_id=9A
+trips:
+  - departures: [ i-07:00 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:01:00, Orvosi rendelö]
+      - [00:02:00, Strandfürdö (Színház)]
+      - [00:04:00, Várkastély]
+      - [00:05:00, Autóbusz-állomás (Uszoda)]
+      - [00:06:00, Perutz Stadion]
+      - [00:07:00, Ötödik utca]
+      - [00:08:00, Tizedik utca]
+    trip_id: papa-9A-1
+  - departures: [ i-07:08 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Tizedik utca]
+      - [00:01:00, Ötödik utca]
+      - [00:02:00, Perutz Stadion]
+      - [00:03:00, Autóbusz-állomás (Uszoda)]
+      - [00:04:00, Várkastély]
+      - [00:06:00, Strandfürdö (Színház)]
+      - [00:07:00, Orvosi rendelö]
+      - [00:08:00, Vasútállomás]
+    trip_id: papa-9A-2

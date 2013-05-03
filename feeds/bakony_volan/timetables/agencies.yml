@@ -1,0 +1,137 @@
+---
+- agency_id: BAKONY-VOLAN-PAPA
+  agency_lang: hu
+  agency_name: Bakony Volán (Pápa)
+  agency_phone: +36-88-324-811
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.bakonyvolan.hu
+  fares:
+    - currency_type: HUF
+      fare_id: BAKONY-VOLAN-PAPA-FARE
+      payment_method: onboard
+      price: 260
+  services: &services
+    '#':
+      - DESC
+      - NEVER
+      - 'Kisfaludy u. - Török B. u. érintésével közlekedik'
+    111:
+      - DESC
+      - NEVER
+      - Termál fürdő érintésével közlekedik
+    144:
+      - DESC
+      - NEVER
+      - "Vasútállomás betéréssel\r"
+    148:
+      - DESC
+      - NEVER
+      - 'Juhar u., Szabó E. u. érintésével közlekedik'
+    149:
+      - DESC
+      - NEVER
+      - ''
+    +:
+      - DESC
+      - MUNKASZUNETINAPON
+      - munkaszüneti napokon (vasárnap és ünnapnap)
+    14:
+      - DESC
+      - [FIRST-DAY, TANITASI_MUNKANAPON]
+      - a hetek utolsó tanítási napján
+    15:
+      - DESC
+      - [PREV-DAY, TANITASI_MUNKANAPON]
+      - a hetek első tanítási napját megelőző munkaszüneti napon
+    25:
+      - DESC
+      - [LIMIT, MUNKASZUNETINAPON, "-20130516,20130829-"]
+      - V.16-ig és VIII.29-től munkaszüneti napokon
+    31:
+      - DESC
+      - [LIMIT, MUNKASZUNETINAPON, "20130523-20130822"]
+      - V.23-tól VIII.22-ig munkaszüneti napokon
+    43:
+      - DESC
+      - [LIMIT, MUNKASZUNETINAPON, "20130523-20130905"]
+      - V.23-tól IX.5-ig munkaszüneti napokon
+    63:
+      - DESC
+      - [AND, TANSZUNET_NYAR, MUNKASZUNETINAPON]
+      - nyári tanszünetben munkaszüneti napokon
+    70:
+      - DESC
+      - [OR, [LIMIT, NAPONTA, "-20130522,20130823"], [LIMIT, [INVERT, MUNKASZUNETINAPON], "20130523-20130822"]]
+      - 'V.22-ig és VIII.23-tól naponta, és V.23-tól VIII.22-ig munkaszüneti napok kivételével naponta'
+    71:
+      - DESC
+      - [AND, TANEV, MUNKASZUNETINAPON]
+      - tanév tartama alatt szabadnapokon
+    72:
+      - DESC
+      - [OR, SZABADNAPON, TANSZUNETI_MUNKANAPON]
+      - 'szabadnapokon, valamint tanszünetben munkanapokon'
+    89:
+      - DESC
+      - [LIMIT, MUNKASZUNETINAPON, "-20130516,20130912-"]
+      - V.16-ig és IX.12-től munkaszüneti napokon
+    92:
+      - DESC
+      - [AND, [SERVICE, tuesday, 1, friday, 1], MUNKANAPON]
+      - keddi és pénteki munkanapokon
+    95:
+      - DESC
+      - [SUBTRACT, MUNKASZUNETINAPON, [PREV-DAY, TANITASI_MUNKANAPON]]
+      - a hét első iskolai előadási napját megelőző munkaszüneti nap kivételével munkaszüneti napokon
+    O:
+      - DESC
+      - SZABADNAPON
+      - szabadnapokon (szombaton)
+    i:
+      - DESC
+      - TANITASI_MUNKANAPON
+      - iskolai elöadási napokon
+    m:
+      - DESC
+      - MUNKANAPON
+      - munkanapokon (hétfőtől-péntekig)
+    n:
+      - DESC
+      - [INVERT, SZABADNAPON]
+      - szabadnap kivételével naponta
+    t:
+      - DESC
+      - TANSZUNETI_MUNKANAPON
+      - tanszünetben munkanapokon
+    x:
+      - DESC
+      - [INVERT, MUNKASZUNETINAPON]
+      - hétköznapokon (hétfőtől-szombatig)
+    z:
+      - DESC
+      - HETVEGEN
+      - 'szabad- és munkaszüneti napokon'
+- agency_id: BAKONY-VOLAN-VARPALOTA
+  agency_lang: hu
+  agency_name: Bakony Volán (Várpalota)
+  agency_phone: +36-88-471-411
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.bakonyvolan.hu
+  fares:
+    - currency_type: HUF
+      fare_id: BAKONY-VOLAN-VARPALOTA-FARE
+      payment_method: onboard
+      price: 260
+  services: *services
+- agency_id: BAKONY-VOLAN-ZIRC
+  agency_lang: hu
+  agency_name: Bakony Volán (Zirc)
+  agency_phone: +36-88-414-328
+  agency_timezone: Europe/Budapest
+  agency_url: http://www.bakonyvolan.hu
+  fares:
+    - currency_type: HUF
+      fare_id: BAKONY-VOLAN-ZIRC-FARE
+      payment_method: onboard
+      price: 200
+  services: *services

@@ -1,0 +1,79 @@
+---
+agency_id: BAKONY-VOLAN-ZIRC
+route_id: zirc-1
+route_short_name: 1
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=3&line_id=1
+trips:
+  - departures: [ m-06:30, m-06:55, m-07:20, m-08:00, m-09:30, m-11:30, m-12:00, m-12:30, m-13:00, m-13:30, m-14:30, m-15:00, m-15:30, m-16:00, m-17:00, i-17:30 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Rákóczi tér]
+      - [00:02:00, Ságvári utca 2.]
+      - [00:04:00, Szeptember 6. utca 7.]
+      - [00:05:00, Batsányi köz]
+      - [00:06:00, Alkotmány utca 27.]
+      - [00:07:00, Szolgáltatóház]
+      - [00:09:00, Rákóczi tér]
+    trip_id: zirc-1-1
+---
+agency_id: BAKONY-VOLAN-ZIRC
+route_id: zirc-2
+route_short_name: 2
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=3&line_id=2
+trips:
+  - departures: [ m-06:10, m-06:40, m-07:05, m-07:30, m-08:30, m-10:10, m-12:10, m-12:40, m-13:10, m-13:40, m-14:10, m-15:10, m-15:40, m-16:10, m-16:40, m-17:10, i-17:40 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Rákóczi tér]
+      - [00:01:00, Gyógyszertár]
+      - [00:02:00, Kórház]
+      - [00:03:00, Bakonybéli utca elágazás]
+      - [00:05:00, Rómer Flóris utca 43.]
+      - [00:06:00, Munkácsy utca 18.]
+      - [00:07:00, Som utca 43.]
+      - [00:08:00, Som utca 1.]
+      - [00:09:00, Eötvös utca 1.]
+      - [00:10:00, Pacsirta utca]
+      - [00:11:00, Kórház]
+      - [00:12:00, Gyógyszertár]
+      - [00:13:00, Rákóczi tér]
+    trip_id: zirc-2-1
+---
+agency_id: BAKONY-VOLAN-ZIRC
+route_id: zirc-3
+route_short_name: 3
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=3&line_id=3
+trips:
+  - departures: [ O-07:20, O-07:43, m-07:54, O-08:00, O-08:23, m-08:24, O-08:40, O-09:03, O-09:20, O-09:43, m-09:54, O-10:00, O-10:23, m-10:24, O-10:40, O-11:03, O-11:20, O-11:43, m-11:54, O-12:00, O-12:23, m-12:24, O-12:40, m-12:54, m-13:24, m-13:54, m-14:24, m-14:54, m-15:24, m-15:54, m-16:24, m-16:54, m-17:24 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Rákóczi tér]
+      - [00:03:00, TESCO Áruház]
+    trip_id: zirc-3-1
+  - departures: [ O-07:25, O-07:45, m-07:57, O-08:05, O-08:25, O-08:45, O-09:05, O-09:25, m-09:27, O-09:45, O-10:05, m-10:07, O-10:25, O-10:45, O-11:05, O-11:25, m-11:27, O-11:45, m-11:57, O-12:05, O-12:25, m-12:27, O-12:45, m-12:57, m-13:27, m-13:57, m-14:27, m-14:57, m-15:27, m-15:57, m-16:27, m-16:57, m-17:27 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, TESCO Áruház]
+      - [00:03:00, Rákóczi tér]
+    trip_id: zirc-3-2
+---
+agency_id: BAKONY-VOLAN-ZIRC
+route_id: zirc-4
+route_short_name: 4
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=3&line_id=4
+trips:
+  - departures: [ i-18:25 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:03:00, Rákóczi tér]
+    trip_id: zirc-4-2

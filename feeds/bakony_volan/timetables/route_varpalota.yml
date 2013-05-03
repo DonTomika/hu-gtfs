@@ -1,0 +1,373 @@
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-1
+route_short_name: 1
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=1
+trips:
+  - departures: [ 04:25, 05:02, 05:40, m-06:40, z-06:50, i-07:00, t-07:05, i-07:10, 07:40, 08:10, 08:30, 09:20, 10:05, 10:50, 11:35, 12:15, m-13:05, z-13:30, m-13:50, 17:05, 17:50, 18:35, 19:20, 20:15, 23:20 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Inota, lakótelep']
+      - [00:01:00, Hőerőmű]
+      - [00:03:00, Ferrokémia]
+      - [00:05:00, 'Inota, Polyán út']
+      - [00:06:00, 'Inota, Radnóti út']
+      - [00:07:00, 'Inota, Búcsú tér']
+      - [00:08:00, 'Inota, Zöldfa utca']
+      - [00:10:00, Külsőmajor]
+      - [00:11:00, Könyvtár]
+      - [00:13:00, Skála Áruház]
+    trip_id: varpalota-1-1
+  - departures: [ z-06:37, 07:16, i-07:26, 07:51, 08:16, 09:06, 09:51, 10:36, 11:21, 12:01, m-12:46, 13:46, 14:31, 15:16, 16:06, 16:51, 17:36, 18:21, 19:06, 20:01, 23:06 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Skála Áruház]
+      - [00:02:00, Ravatalozó (Autóbusz-állomás)]
+      - [00:03:00, Külsőmajor]
+      - [00:05:00, 'Inota, Zöldfa utca']
+      - [00:06:00, 'Inota, Búcsú tér']
+      - [00:07:00, 'Inota, Radnóti út']
+      - [00:08:00, 'Inota, Polyán út']
+      - [00:10:00, Ferrokémia]
+      - [00:12:00, Hőerőmű]
+      - [00:13:00, 'Inota, lakótelep']
+    trip_id: varpalota-1-2
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-10
+route_short_name: 10
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=10
+trips:
+  - departures: [ m-04:40, m-05:55, m-06:25, 06:55, 07:25, 07:55, 08:25, 10:25, 11:25, 12:25, m-13:15, m-13:25, 13:55, 14:25, 15:25, 16:25, 17:25, 19:30, m-20:25 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Róbert Károly forduló]
+      - [00:02:00, Szabolcska út]
+      - [00:03:00, Inotai út]
+      - [00:05:00, Autóbusz-állomás]
+      - [00:06:00, Könyvtár]
+      - [00:07:00, Skála Áruház]
+      - [00:10:00, Szabadság tér]
+      - [00:13:00, Vízmű]
+      - [00:15:00, Kenyérgyár]
+    trip_id: varpalota-10-1
+  # 107: Autóbusz-állomásig közlekedik
+  - departures: [ 22:45 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Róbert Károly forduló]
+      - [00:02:00, Szabolcska út]
+      - [00:03:00, Inotai út]
+      - [00:05:00, Autóbusz-állomás]
+    trip_id: varpalota-10-1-107
+  - departures: [ m-06:05, 06:35, 07:05, 07:35, 08:05, 10:05, 11:05, 12:05, i-12:35, m-13:05, 13:35, 14:05, 15:05, m-15:35, 16:05, 17:05, 18:05, m-20:10, 22:26 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Kenyérgyár]
+      - [00:02:00, Vízmű]
+      - [00:04:00, 56-os tér]
+      - [00:07:00, Szabadság tér]
+      - [00:08:00, Skála Áruház]
+      - [00:10:00, Autóbusz-állomás]
+      - [00:12:00, Inotai út]
+      - [00:13:00, Szabolcska út]
+      - [00:15:00, Róbert Károly forduló]
+    trip_id: varpalota-10-2
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-10A
+route_short_name: 10A
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=10A
+trips:
+  - departures: [ z-04:45, 05:15, z-06:00, m-06:15, z-06:30, i-06:50, m-07:00, i-07:30, 08:30, t-08:55, 09:30, m-10:05, x-11:00, i-11:40, i-12:00, m-12:30, i-12:45, 13:00, z-13:25, i-13:45, m-13:50, m-14:55, 15:00, 16:00, m-16:35, 17:00, m-17:40, 18:10, 18:35, z-20:30, 21:15, 22:20 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:01:00, Könyvtár]
+      - [00:02:00, Skála Áruház]
+      - [00:05:00, Szabadság tér]
+      - [00:08:00, Vízmű]
+      - [00:10:00, Kenyérgyár]
+    trip_id: varpalota-10A-1
+  - departures: [ 04:10 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:05:00, Szabadság tér]
+      - [00:08:00, Vízmű]
+      - [00:10:00, Kenyérgyár]
+    trip_id: varpalota-10A-1-Szab
+  # vpa: a járatok Könyvtár, Skála, Vízmű megállóhelyeknél nem állnak meg
+  - departures: [ 04:55, 12:55, 15:15, 20:50 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:03:00, Szabadság tér]
+      - [00:06:00, Kenyérgyár]
+    trip_id: varpalota-10A-1-vpa
+  - departures: [ 04:36, 05:26, z-06:05, m-06:22, 06:56, t-07:10, i-07:16, m-07:20, i-07:27, x-07:42, i-08:12, m-08:27, 08:35, 09:05, m-10:12, m-11:01, 11:56, z-13:05, x-13:07, i-13:32, i-13:37, i-13:55, m-14:27, 14:35, 15:01, z-15:35, m-15:41, m-16:27, 16:35, 17:01, m-17:30, 17:35, i-18:28, 19:10, m-20:01, z-20:10, z-20:14, 21:05 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Kenyérgyár]
+      - [00:02:00, Vízmű]
+      - [00:04:00, 56-os tér]
+      - [00:07:00, Szabadság tér]
+      - [00:08:00, Skála Áruház]
+      - [00:10:00, Autóbusz-állomás]
+    trip_id: varpalota-10A-2
+  # vpa2: a járatok Vízmű, 56-os tér, Skála megállóhelyeknél nem állnak meg
+  - departures: [ 21:31, 22:55 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Kenyérgyár]
+      - [00:03:00, Szabadság tér]
+      - [00:06:00, Autóbusz-állomás]
+    trip_id: varpalota-10A-2-vpa2
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-11
+route_short_name: 11
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=11
+trips:
+  - departures: [ m-05:30, 06:17, m-07:05, 08:10, m-09:30, z-10:10, m-10:30, x-11:30, z-12:10, m-12:35, m-13:32, 14:23, m-15:45, i-15:50, z-16:10, m-16:50, 18:15, 20:15, 22:20 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:02:00, Szabadság tér]
+      - [00:04:00, Kenyérgyár]
+      - [00:06:00, Kiskertek]
+    trip_id: varpalota-11-1
+  - departures: [ z-05:02, m-05:12, m-06:24, m-06:53, 07:17, m-07:38, O-08:18, 09:27, z-11:27, m-11:39, 13:12, m-13:54, m-14:29, 15:32, i-16:23, m-16:52, z-17:27, m-17:52, 19:27, 21:17 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Kiskertek]
+      - [00:02:00, Kenyérgyár]
+      - [00:04:00, Szabadság tér]
+      - [00:06:00, Autóbusz-állomás]
+    trip_id: varpalota-11-2
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-11Y
+route_short_name: 11Y
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=11Y
+trips:
+  - departures: [ m-14:00 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Autóbusz-állomás]
+      - [00:02:00, Szabadság tér]
+      - [00:04:00, Vasútállomás]
+      - [00:05:00, Kenyérgyár]
+      - [00:06:00, Kiskertek]
+    trip_id: varpalota-11Y-1
+  - departures: [ m-05:35 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Kiskertek]
+      - [00:01:00, Kenyérgyár]
+      - [00:02:00, Vasútállomás bejárati út]
+      - [00:04:00, Szabadság tér]
+      - [00:06:00, Autóbusz-állomás]
+    trip_id: varpalota-11Y-2
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-14
+route_short_name: 14
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=14
+trips:
+  - departures: [ m-14:20, m-14:50 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Tési domb forduló]
+      - [00:01:00, Béke Étterem]
+      - [00:02:00, Hőközpont]
+      - [00:03:00, Rákóczi utca 26.]
+      - [00:04:00, Rákóczi utca 2.]
+      - [00:05:00, Szabadság tér]
+      - [00:08:00, Dankó utca]
+      - [00:10:00, Vasútállomás]
+    trip_id: varpalota-14-1
+  - departures: [ m-06:49, m-07:15, i-07:50, m-13:12, m-13:45, m-14:15, m-14:40, m-15:15, m-15:40 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Vasútállomás]
+      - [00:01:00, Vasútállomás bejárati út]
+      - [00:05:00, Szabadság tér]
+      - [00:06:00, Rákóczi utca 2.]
+      - [00:07:00, Rákóczi utca 26.]
+      - [00:08:00, Hőközpont]
+      - [00:09:00, Iskola]
+      - [00:10:00, Tési domb forduló]
+    trip_id: varpalota-14-2
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-1Y
+route_short_name: 1Y
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=1Y
+trips:
+  - departures: [ 06:08, 14:13, 14:45, 15:30, 16:20, 22:13 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, 'Inota, lakótelep']
+      - [00:01:00, Hőerőmű]
+      - [00:03:00, Alukohó]
+      - [00:05:00, Ferrokémia]
+      - [00:07:00, 'Inota, Polyán út']
+      - [00:08:00, 'Inota, Radnóti út']
+      - [00:09:00, 'Inota, Búcsú tér']
+      - [00:10:00, 'Inota, Zöldfa utca']
+      - [00:12:00, Külsőmajor]
+      - [00:13:00, Könyvtár]
+      - [00:15:00, Skála Áruház]
+    trip_id: varpalota-1Y-1
+  - departures: [ 04:46-1Y1, 05:16-1Y2, 05:36-1Y3, m-06:22, m-06:46, 13:16-1Y4, 21:16-1Y5 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Skála Áruház]
+      - [00:02:00, Ravatalozó (Autóbusz-állomás)]
+      - [00:03:00, Külsőmajor]
+      - [00:05:00, 'Inota, Zöldfa utca']
+      - [00:06:00, 'Inota, Búcsú tér']
+      - [00:07:00, 'Inota, Radnóti út']
+      - [00:08:00, 'Inota, Polyán út']
+      - [00:10:00, Ferrokémia]
+      - [00:12:00, Alukohó]
+      - [00:14:00, Hőerőmű]
+      - [00:15:00, 'Inota, lakótelep']
+    trip_id: varpalota-1Y-2
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-2
+route_short_name: 2
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=2
+trips:
+  - departures: [ i-07:20 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Szabadság tér]
+      - [00:02:00, Tájház]
+      - [00:04:00, Csernyei utca 21.]
+      - [00:05:00, Viola utca]
+      - [00:06:00, Kismező utca 1.]
+      - [00:07:00, Kismező utca 11.]
+      - [00:08:00, Ney Dávid utca 27.]
+      - [00:09:00, Rózsakút utca 31.]
+      - [00:11:00, Árpád utca (CBA)]
+      - [00:13:00, Szabadság tér]
+    trip_id: varpalota-2-1
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-4
+route_short_name: 4
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=4
+trips:
+  - departures: [ m-06:25, m-06:55, i-07:30, m-13:17, m-13:55, m-15:20 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Tési domb forduló]
+      - [00:01:00, Béke Étterem]
+      - [00:02:00, Hőközpont]
+      - [00:03:00, Rákóczi utca 26.]
+      - [00:04:00, Rákóczi utca 2.]
+      - [00:05:00, Szabadság tér]
+      - [00:07:00, Vízmű]
+      - [00:09:00, Kenyérgyár]
+      - [00:10:00, Ruhagyár]
+      - [00:12:00, Vasútállomás]
+    trip_id: varpalota-4-1
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-5
+route_short_name: 5
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=5
+trips:
+  - departures: [ 04:42, m-04:42, 05:02, m-05:32, m-05:54, 06:22, m-06:32, m-06:42, i-06:47, x-07:07, +-07:12, x-08:32, 09:02, +-09:02, x-09:52, m-10:52, m-12:02, i-12:12, x-12:37, m-12:52, 13:07, O-13:17, i-13:47, m-13:57, m-14:32, O-14:52, m-15:27, n-15:57, O-16:47, 18:12, n-18:47, m-19:47, x-20:37 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Szabadság tér]
+      - [00:02:00, Rákóczi telep]
+      - [00:03:00, Loncsos]
+      - [00:05:00, Szervíz]
+    trip_id: varpalota-5-1
+  - departures: [ 01:44, m-05:22, m-06:53, z-06:56, i-07:39, m-07:41, i-08:04, n-08:36, m-08:59, O-09:06, m-09:44, m-10:24, m-11:14, 11:16, m-11:53, m-12:24, 71-12:54, m-13:44, i-14:14, x-14:49, +-15:00, m-15:06, m-15:09, O-15:10, i-15:34, m-16:24, i-16:36, O-16:36, 16:42, m-17:36, 17:59, +-18:00, 19:32, 20:06, m-20:54, m-22:01, O-22:11, 22:44, +-23:06, x-23:10 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Szervíz]
+      - [00:02:00, Loncsos]
+      - [00:03:00, Rákóczi telep]
+      - [00:05:00, Szabadság tér]
+    trip_id: varpalota-5-2
+---
+agency_id: BAKONY-VOLAN-VARPALOTA
+route_id: varpalota-6
+route_short_name: 6
+route_type: bus
+route_url: http://www.bakonyvolan.hu/map/bv_utvonal.php?city_id=2&line_id=6
+trips:
+  - departures: [ 04:38, 05:15, 05:53, 06:23, m-06:53, z-07:03, i-07:13, t-07:18, i-07:23, 07:53, 08:23, 08:43, 09:33, 10:18, 11:03, 11:48, 12:28, m-13:18, z-13:43, m-14:03, 14:28, 14:58, 15:43, 16:33, 17:18, 18:03, 18:48, 19:33, 20:28, 22:28 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Skála Áruház]
+      - [00:02:00, Rákóczi utca 2.]
+      - [00:03:00, Rákóczi utca 26.]
+      - [00:04:00, Hőközpont]
+      - [00:05:00, Iskola]
+      - [00:06:00, Tési domb forduló]
+    trip_id: varpalota-6-1
+  - departures: [ m-06:15, z-06:30, m-06:40, 07:10, i-07:20, 07:45, 08:10, 09:00, 09:45, 10:30, 11:15, 11:55, m-12:40, 13:40, 14:25, 15:10, 16:00, 16:45, 17:30, 18:15, 19:00, 19:55, 23:00 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Tési domb forduló]
+      - [00:01:00, Béke Étterem]
+      - [00:02:00, Hőközpont]
+      - [00:03:00, Rákóczi utca 26.]
+      - [00:04:00, Rákóczi utca 2.]
+      - [00:05:00, OTP]
+      - [00:06:00, Skála Áruház]
+    trip_id: varpalota-6-2
+    # 1Y: az 1/Y sz. vonalon Inota Alukohó érintésével közlekedik
+  - departures: [ 04:40-1Y1, 05:10-1Y2, 05:30-1Y3, 13:10-1Y4, 21:10-1Y5 ]
+    direction_id: outbound
+    service_id: NAPONTA
+    stop_times:
+      - [00:00:00, Tési domb forduló]
+      - [00:01:00, Béke Étterem]
+      - [00:02:00, Hőközpont]
+      - [00:03:00, Rákóczi utca 26.]
+      - [00:04:00, Rákóczi utca 2.]
+      - [00:05:00, OTP]
+      - [00:06:00, Skála Áruház]
+    trip_id: varpalota-6-2-1Y
