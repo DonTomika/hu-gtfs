@@ -6,7 +6,7 @@ route_id: 1830
 route_long_name: ''
 route_short_name: 183
 route_text_color: 000000
-route_type: 3
+route_type: bus
 route_url: ~
 trips:
   - direction_id: 0

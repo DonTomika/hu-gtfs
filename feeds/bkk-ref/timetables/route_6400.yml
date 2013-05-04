@@ -6,7 +6,7 @@ route_id: 6400
 route_long_name: Szentendrei járat
 route_short_name: H5
 route_text_color: FFFFFF
-route_type: 2
+route_type: light_rail
 route_url: ~
 trips:
   - direction_id: 0

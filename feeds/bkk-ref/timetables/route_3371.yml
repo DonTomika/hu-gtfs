@@ -6,7 +6,7 @@ route_id: 3371
 route_long_name: ''
 route_short_name: 37A
 route_text_color: 000000
-route_type: 0
+route_type: tram
 route_url: ~
 trips:
   - direction_id: 0

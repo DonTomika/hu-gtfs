@@ -6,7 +6,7 @@ route_id: 5100
 route_long_name: ''
 route_short_name: M1
 route_text_color: 000000
-route_type: 1
+route_type: subway
 route_url: ~
 trips:
   - direction_id: 0

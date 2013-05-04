@@ -6,7 +6,7 @@ route_id: 3140
 route_long_name: ''
 route_short_name: 14
 route_text_color: 000000
-route_type: 0
+route_type: tram
 route_url: ~
 trips:
   - direction_id: 0
