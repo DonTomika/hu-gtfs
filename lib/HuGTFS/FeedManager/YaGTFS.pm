@@ -499,10 +499,10 @@ sub create_geometries
 	}
 
 	my $osm_data
-		= HuGTFS::OSMMerger->parse_osm( $self->options->{osm_operator_id}, $self->osm_file );
+		= HuGTFS::OSMMerger->parse_osm( $self->options->{osm_operator_id}, $self->osm_file, { ref_tag => $self->options->{osm_ref_tag} });
 
 	my $merger = HuGTFS::OSMMerger->new( { remove_geometryless => 1, },
-		$osm_data, { routes => $self->data->{routes} } );
+		$osm_data, { routes => $self->data->{routes}, stops => $self->data->{stops} } );
 
 	$self->data->{routes}     = { map { ($_->{route_id} => $_) } @{ $merger->{routes} } };
 	$self->data->{stops}      = $merger->{stops};
