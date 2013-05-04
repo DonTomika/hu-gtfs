@@ -1,7 +1,7 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: Örs vezér tere M+H / Rákosliget vasútállomás
+route_desc: 'Örs vezér tere M+H - Rákoscsaba-Újtelep, Naplás út Örs vezér tere M+H'
 route_id: 2765
 route_long_name: ''
 route_short_name: 276E
@@ -49,26 +49,18 @@ trips:
       - ['00:43:00', 'F03449',  17072] # Vidor utca
       - ['00:44:00', '008569',  17602] # Cinkotai autóbuszgarázs
       - ['00:45:00', 'F03291',  18042] # Injekcióüzem
-    trip_headsign: Injekcióüzem
-    trip_id: REFERENCE-2765-0-1
-    wheelchair_accessible: 1
-  - direction_id: 1
-    service_id: REFERENCE
-    shape_id: REFERENCE-2765-1-1-M858
-    stop_times:
-      - ['00:00:00', 'F03291',      0] # Injekcióüzem
-      - ['00:01:00', 'F03403',    659] # EGIS Gyógyszergyár
-      - ['00:03:00', 'F03402',   1692] # Zsemlékes út
-      - ['00:04:00', 'F03400',   2137] # Petőfi tér
-      - ['00:05:00', 'F03316',   2492] # Újszász utca
-      - ['00:06:00', 'F03320',   2949] # Hunyadvár utca
-      - ['00:07:00', 'F03323',   3198] # Veres Péter út
-      - ['00:07:00', 'F03397',   3400] # Mátyásföld, Imre utca H
-      - ['00:09:00', 'F03308',   3981] # Mátyásföld, repülőtér H
-      - ['00:10:00', 'F03392',   4303] # Jókai Mór utca (Rendőrség)
-      - ['00:12:00', 'F03275',   5591] # Thököly út
-      - ['00:15:00', 'F01775',   6664] # Egyenes utcai lakótelep
-      - ['00:20:00', 'F01752',   8490] # Örs vezér tere M+H
+      - ['00:46:00', 'F03403',    659] # EGIS Gyógyszergyár
+      - ['00:48:00', 'F03402',   1692] # Zsemlékes út
+      - ['00:49:00', 'F03400',   2137] # Petőfi tér
+      - ['00:49:00', 'F03316',   2492] # Újszász utca
+      - ['00:50:00', 'F03320',   2949] # Hunyadvár utca
+      - ['00:51:00', 'F03323',   3198] # Veres Péter út
+      - ['00:51:00', 'F03397',   3400] # Mátyásföld, Imre utca H
+      - ['00:53:00', 'F03308',   3981] # Mátyásföld, repülőtér H
+      - ['00:54:00', 'F03392',   4303] # Jókai Mór utca (Rendőrség)
+      - ['00:56:00', 'F03275',   5591] # Thököly út
+      - ['00:59:00', 'F01775',   6664] # Egyenes utcai lakótelep
+      - ['01:03:00', 'F01752',   8490] # Örs vezér tere M+H
     trip_headsign: Örs vezér tere M+H
-    trip_id: REFERENCE-2765-1-1
+    trip_id: REFERENCE-2765-0-1
     wheelchair_accessible: 2

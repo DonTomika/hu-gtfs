@@ -11,15 +11,37 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-9980-0-1-M116
+    shape_id: REFERENCE-9980-0-1-M115
     stop_times:
-      - ['00:00:00', 'F03289',      0] # Cinkotai autóbuszgarázs
-      - ['00:01:00', 'F03450',    491] # Vidor utca
-      - ['00:02:00', 'F03452',    953] # Gyöngytyúk utca
-      - ['00:03:00', 'F03454',   1249] # Liget sor
-      - ['00:05:00', 'F03542',   2021] # Bakancsos utca
-      - ['00:06:00', 'F03593',   2596] # Szent kereszt tér
-      - ['00:07:00', '011722',   2929] # Rákoskeresztúr, városközpont
+      - ['00:00:00', '011722',      0] # Rákoskeresztúr, városközpont
+      - ['00:01:00', 'F03610',    155] # Városközpont (Ferihegyi út)
+      - ['00:02:00', 'F03457',    766] # Rákosliget vasútállomás
+      - ['00:03:00', 'F03458',   1014] # IV. utca
+      - ['00:03:00', 'F03447',   1317] # Hősök tere
+      - ['00:04:00', 'F03468',   1596] # XVIII. utca
+      - ['00:05:00', 'F03465',   1960] # Ároktő út
+      - ['00:05:00', 'F03462',   2247] # Bártfai utca
+      - ['00:06:00', 'F03460',   2572] # Harsona utca
+      - ['00:07:00', 'F03461',   2952] # Rákoscsaba-Újtelep vasútállomás
+      - ['00:07:00', 'F03448',   3239] # Tura utca
+      - ['00:08:00', 'F03442',   3758] # Rákoscsaba vasútállomás
+      - ['00:09:00', 'F03443',   4131] # Aranykút utca
+      - ['00:09:00', '009704',   4390] # Jászivány utca
+      - ['00:10:00', 'F03581',   4537] # Jászágó utca
+      - ['00:10:00', 'F03579',   4904] # Almásháza utca
+      - ['00:11:00', 'F03577',   5364] # Bártfai utca
+      - ['00:12:00', 'F03572',   5705] # Ároktő út
+      - ['00:13:00', 'F03466',   6159] # XVII. utca
+      - ['00:14:00', 'F03471',   6791] # Tarack utca
+      - ['00:15:00', 'F03451',   7422] # Cinkotai út
+      - ['00:16:00', 'F03449',   7935] # Vidor utca
+      - ['00:17:00', '008181',   8453] # Cinkotai autóbuszgarázs
+      - ['00:18:00', 'F03450',    491] # Vidor utca
+      - ['00:19:00', 'F03452',    953] # Gyöngytyúk utca
+      - ['00:20:00', 'F03454',   1249] # Liget sor
+      - ['00:22:00', 'F03542',   2021] # Bakancsos utca
+      - ['00:23:00', 'F03593',   2596] # Szent kereszt tér
+      - ['00:24:00', '011722',   2929] # Rákoskeresztúr, városközpont
     trip_headsign: 'Rákoskeresztúr, városközpont'
     trip_id: REFERENCE-9980-0-1
     wheelchair_accessible: 2
@@ -34,6 +56,25 @@ trips:
       - ['00:05:00', 'F03453',   1936] # Gyöngytyúk utca
       - ['00:06:00', 'F03449',   2501] # Vidor utca
       - ['00:07:00', '008181',   3019] # Cinkotai autóbuszgarázs
-    trip_headsign: Cinkotai autóbuszgarázs
+      - ['00:08:00', 'F03450',    491] # Vidor utca
+      - ['00:09:00', 'F03472',   1603] # Tarack utca
+      - ['00:10:00', 'F03468',   2290] # XVIII. utca
+      - ['00:11:00', 'F03465',   2654] # Ároktő út
+      - ['00:11:00', 'F03462',   2941] # Bártfai utca
+      - ['00:12:00', 'F03460',   3266] # Harsona utca
+      - ['00:13:00', 'F03461',   3646] # Rákoscsaba-Újtelep vasútállomás
+      - ['00:13:00', 'F03448',   3933] # Tura utca
+      - ['00:15:00', 'F03442',   4452] # Rákoscsaba vasútállomás
+      - ['00:16:00', 'F03443',   4825] # Aranykút utca
+      - ['00:16:00', '009704',   5084] # Jászivány utca
+      - ['00:17:00', 'F03581',   5231] # Jászágó utca
+      - ['00:17:00', 'F03579',   5598] # Almásháza utca
+      - ['00:18:00', 'F03577',   6058] # Bártfai utca
+      - ['00:19:00', 'F03572',   6399] # Ároktő út
+      - ['00:20:00', '009706',   6845] # XVII. utca
+      - ['00:21:00', 'F03446',   7140] # Hősök tere
+      - ['00:22:00', 'F03459',   7442] # Rákosliget vasútállomás
+      - ['00:23:00', '011725',   8336] # Rákoskeresztúr, városközpont
+    trip_headsign: 'Rákoskeresztúr, városközpont'
     trip_id: REFERENCE-9980-1-1
     wheelchair_accessible: 2

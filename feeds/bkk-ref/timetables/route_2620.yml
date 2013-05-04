@@ -11,22 +11,45 @@ route_url: ~
 trips:
   - direction_id: 0
     service_id: REFERENCE
-    shape_id: REFERENCE-2620-0-1-M095
+    shape_id: REFERENCE-2620-0-1-M096
     stop_times:
-      - ['00:00:00', '011723',      0] # Rákoskeresztúr, városközpont
-      - ['00:01:00', 'F03475',    727] # Szárny utca
-      - ['00:02:00', 'F03477',   1428] # Szabadság sugárút
-      - ['00:03:00', 'F03478',   1890] # Lemberg utca
-      - ['00:04:00', 'F03487',   2241] # Csabagyöngye utca
-      - ['00:05:00', 'F03567',   2660] # Óvónő utca
-      - ['00:06:00', 'F03490',   3079] # Alsódabas utca
-      - ['00:07:00', 'F03493',   3698] # Regélő utca
-      - ['00:08:00', 'F03602',   4045] # Császárfa utca
-      - ['00:09:00', 'F03495',   4324] # Nagyszentmiklósi út
-      - ['00:10:00', '008948',   4633] # Kucorgó tér
-      - ['00:11:00', 'F03586',   5254] # Rózsaszál utca
-      - ['00:12:00', 'F03507',   5835] # Rákoskert sugárút
-      - ['00:14:00', 'F03571',   6297] # Erzsébet körút
+      - ['00:00:00', '008379',      0] # Kőbánya alsó vasútállomás
+      - ['00:01:00', 'F01632',    673] # Halom utca
+      - ['00:02:00', 'F01654',   1037] # Szent László tér
+      - ['00:03:00', 'F01629',   1515] # Harmat utca
+      - ['00:04:00', 'F01628',   1878] # Élessarok
+      - ['00:05:00', 'F01621',   2341] # Sörgyár
+      - ['00:05:00', 'F01616',   2641] # Maglódi út
+      - ['00:06:00', 'F01824',   3173] # Orion
+      - ['00:07:00', 'F01822',   3454] # Téglavető utca
+      - ['00:08:00', 'F01818',   3709] # Tárna utca
+      - ['00:09:00', 'F01614',   4452] # Rákos vasútállomás
+      - ['00:11:00', 'F01604',   5015] # Athenaeum Nyomda
+      - ['00:12:00', 'F01606',   5462] # Kossuth Nyomda
+      - ['00:14:00', 'F01716',   6450] # Legényrózsa utca
+      - ['00:15:00', 'F01847',   6768] # Rézvirág utca
+      - ['00:16:00', 'F01849',   7225] # Dombhát utca
+      - ['00:17:00', 'F01722',   7786] # 501. utca
+      - ['00:18:00', 'F03549',   8435] # 509. utca
+      - ['00:18:00', '009543',   8771] # 513. utca
+      - ['00:19:00', 'F03547',   9046] # Borsó utca
+      - ['00:20:00', 'F03545',   9397] # Kis utca
+      - ['00:21:00', 'F03542',   9809] # Bakancsos utca
+      - ['00:22:00', 'F03593',  10384] # Szent kereszt tér
+      - ['00:24:00', '011723',  10768] # Rákoskeresztúr, városközpont
+      - ['00:25:00', 'F03475',    727] # Szárny utca
+      - ['00:26:00', 'F03477',   1428] # Szabadság sugárút
+      - ['00:27:00', 'F03478',   1890] # Lemberg utca
+      - ['00:28:00', 'F03487',   2241] # Csabagyöngye utca
+      - ['00:29:00', 'F03567',   2660] # Óvónő utca
+      - ['00:29:00', 'F03490',   3079] # Alsódabas utca
+      - ['00:30:00', 'F03493',   3698] # Regélő utca
+      - ['00:31:00', 'F03602',   4045] # Császárfa utca
+      - ['00:32:00', 'F03495',   4324] # Nagyszentmiklósi út
+      - ['00:32:00', '008948',   4633] # Kucorgó tér
+      - ['00:34:00', 'F03586',   5254] # Rózsaszál utca
+      - ['00:35:00', 'F03507',   5835] # Rákoskert sugárút
+      - ['00:36:00', 'F03571',   6297] # Erzsébet körút
     trip_headsign: Erzsébet körút
     trip_id: REFERENCE-2620-0-1
     wheelchair_accessible: 2
@@ -36,21 +59,44 @@ trips:
     stop_times:
       - ['00:00:00', 'F03571',      0] # Erzsébet körút
       - ['00:01:00', 'F03505',    565] # Sáránd utca
-      - ['00:01:00', 'F03502',    924] # Pesti út
-      - ['00:02:00', 'F03500',   1289] # Nyomdász utca
+      - ['00:02:00', 'F03502',    924] # Pesti út
+      - ['00:03:00', 'F03500',   1289] # Nyomdász utca
       - ['00:03:00', 'F03568',   1541] # Nyomdok utca
-      - ['00:03:00', 'F03574',   1861] # Olcsva utca
-      - ['00:04:00', '009482',   2307] # Kucorgó tér
-      - ['00:05:00', 'F03496',   2668] # Nagyszentmiklósi út
-      - ['00:06:00', 'F03603',   2941] # Császárfa utca
-      - ['00:07:00', 'F03494',   3295] # Regélő utca
-      - ['00:08:00', 'F03489',   4027] # Alsódabas utca
-      - ['00:08:00', 'F03566',   4434] # Óvónő utca
-      - ['00:09:00', 'F03486',   4718] # Lemberg utca
-      - ['00:10:00', 'F03479',   5184] # Péceli út
-      - ['00:11:00', 'F03476',   5510] # Szabadság sugárút
-      - ['00:12:00', 'F03474',   6218] # Szárny utca
-      - ['00:13:00', '011726',   7097] # Rákoskeresztúr, városközpont
-    trip_headsign: 'Rákoskeresztúr, vkp. (metró felé)'
+      - ['00:04:00', 'F03574',   1861] # Olcsva utca
+      - ['00:05:00', '009482',   2307] # Kucorgó tér
+      - ['00:06:00', 'F03496',   2668] # Nagyszentmiklósi út
+      - ['00:07:00', 'F03603',   2941] # Császárfa utca
+      - ['00:08:00', 'F03494',   3295] # Regélő utca
+      - ['00:09:00', 'F03489',   4027] # Alsódabas utca
+      - ['00:10:00', 'F03566',   4434] # Óvónő utca
+      - ['00:11:00', 'F03486',   4718] # Lemberg utca
+      - ['00:12:00', 'F03479',   5184] # Péceli út
+      - ['00:13:00', 'F03476',   5510] # Szabadság sugárút
+      - ['00:14:00', 'F03474',   6218] # Szárny utca
+      - ['00:16:00', '011726',   7097] # Rákoskeresztúr, városközpont
+      - ['00:17:00', 'F03594',    417] # Szent kereszt tér
+      - ['00:18:00', 'F03541',    788] # Bakancsos utca
+      - ['00:19:00', 'F03544',   1252] # Kis utca
+      - ['00:20:00', 'F03546',   1652] # Borsó utca
+      - ['00:21:00', '011773',   2106] # Keresztúri út
+      - ['00:22:00', '011715',   2284] # 509. utca
+      - ['00:24:00', 'F01719',   3010] # 501. utca
+      - ['00:25:00', 'F01848',   3497] # Dombhát utca
+      - ['00:27:00', 'F01846',   4029] # Rézvirág utca
+      - ['00:27:00', 'F01715',   4260] # Legényrózsa utca
+      - ['00:30:00', 'F01605',   5162] # Kossuth Nyomda
+      - ['00:32:00', 'F01602',   5810] # Kozma utca
+      - ['00:33:00', 'F01613',   6188] # Rákos vasútállomás
+      - ['00:34:00', 'F01819',   6911] # Tárna utca
+      - ['00:36:00', 'F01823',   7327] # Téglavető utca
+      - ['00:37:00', 'F01825',   7663] # Orion
+      - ['00:38:00', 'F01615',   8092] # Maglódi út
+      - ['00:39:00', 'F01622',   8617] # Sörgyár
+      - ['00:41:00', 'F01627',   9037] # Élessarok
+      - ['00:42:00', 'F01828',   9462] # Ónodi utca
+      - ['00:43:00', 'F01648',   9906] # Szent László tér
+      - ['00:44:00', 'F01641',  10154] # Liget tér
+      - ['00:45:00', '008379',  10494] # Kőbánya alsó vasútállomás
+    trip_headsign: Kőbánya alsó vasútállomás
     trip_id: REFERENCE-2620-1-1
-    wheelchair_accessible: 1
+    wheelchair_accessible: 2

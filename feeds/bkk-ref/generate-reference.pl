@@ -55,19 +55,29 @@ my $CSV = Text::CSV::Encoded->new(
 my $route_skip = { map { $_ => 1 } qw/0337 6130 6210 6230 6470/ };
 my $route_with_multiple_patterns = { map { $_ => 1 } qw/0405 1600 2170 2335 2545 2600 9940/ };
 my $route_trip_map = {
-	#'0000-1' => [qw//],
+	#'0000-1' => [qw/          /],
 	'0660-0' => [qw/A894037466/],
 	'0660-1' => [qw/A894037462/],
 	'0920-0' => [qw/A9036969  /],
 	'0920-1' => [qw/A9036939  /],
 	'0930-0' => [qw/A8830740  /],
 	'0930-1' => [qw/A8830732  /],
+	'0975-0' => [[qw/A95405148 A91400209  /]],
+	'0975-1' => [[qw/A94932207 A95405117  /]],
+	'1160-0' => [qw/A89048656  /],
+	'1160-1' => [[qw/A89048658 A89048659  /]],
 	'1640-0' => [qw/A9523271  /],
 	'1640-1' => [qw/A9523253  /],
 	'1820-0' => [qw/A915366758/],
 	'1820-1' => [qw/A94667986 /],
 	'2015-0' => [qw/A94975353 /],
 	'2015-1' => [qw/A89355199 /],
+	'2500-0' => [[qw/A949121317 A957401294/]],
+	'2500-1' => [[qw/A90413305  A94912787 /]],
+	'2620-0' => [[qw/A94261538  A94261327 /]],
+	'2620-1' => [[qw/A913936287 A951407826/]],
+	'2765-0' => [[qw/A93192325  A93196482 /]],
+	'2765-1' => [],
 	'2810-0' => [qw/A9176076  /],
 	'2810-1' => [],
 	'2945-0' => [qw/A913338628/],
@@ -76,6 +86,11 @@ my $route_trip_map = {
 	'9180-1' => [qw/A8939618  /],
 	'9310-0' => [qw/A885723   /],
 	'9310-1' => [qw/A9531716  /],
+	'9370-0' => [[qw/A9426335    A8794636  A8794637/]],
+	'9500-0' => [[qw/A94977461  A8982629  /]],
+	'9500-1' => [[qw/A9511765   A8977998  /]],
+	'9980-0' => [[qw/A8880419   A888042   /]],
+	'9980-1' => [[qw/A8880427   A8880428  /]],
 
 	# temp
 	'3020-0' => [qw/A9164262  /],
@@ -83,6 +98,8 @@ my $route_trip_map = {
 	'3240-0' => [qw/A94094162 /],
 	'3240-1' => [qw/A9096250  /],
 };
+
+my $route_types = [qw/tram subway light_rail bus ferry/];
 
 sub remove_bom(@)
 {
@@ -99,6 +116,7 @@ say STDERR "Loading data...";
 open( $file, "$DIR/routes.txt" );
 $CSV->column_names( remove_bom $CSV->getline($file) );
 while ( my $cols = $CSV->getline_hr($file) ) {
+	$cols->{route_type} = $route_types->[$cols->{route_type}];
 	$routes->{ $cols->{route_id} } = {%$cols};
 }
 close($file);
@@ -152,6 +170,43 @@ say STDERR "Comparing patterns...";
 
 chdir($FindBin::Bin);
 
+sub merge_trips {
+	my ($id, $trip_a, $trip_b, $trip_c) = @_;
+	$trip_a = $trips->{$trip_a} unless ref $trip_a;
+	$trip_b = $trips->{$trip_b} unless ref $trip_b;
+	$trip_c = $trips->{$trip_c} unless !$trip_c || ref $trip_c;
+
+	cleanup_trip($trip_a, $id);
+	cleanup_trip($trip_b, $id);
+
+	my $time_offset = _S($trip_a->{stop_times}->[-1]->{arrival_time});
+	$trip_a->{stop_times}->[-1]->{departure_time} = _T( $time_offset + _S( $trip_b->{stop_times}->[0]->{departure_time} ) );
+	shift $trip_b->{stop_times};
+
+	foreach my $st (@{ $trip_b->{stop_times} }) {
+		$st->{arrival_time}   = _T( $time_offset + _S( $st->{arrival_time} ) );
+		$st->{departure_time} = _T( $time_offset + _S( $st->{departure_time} ) );
+		push $trip_a->{stop_times}, $st;
+	}
+
+	if($trip_a->{shape} && $trip_b->{shape}) {
+		my $shape_dist_offset = $trip_a->{shape}->{shape_points}->[-1]->{shape_dist_traveled};
+
+		foreach my $pt (@{ $trip_b->{shape}->{shape_points} } ) {
+			$pt->{shape_dist_traveled} += $shape_dist_offset;
+			push $trip_a->{shape}->{shape_points}, $pt;
+		}
+	}
+
+	$trip_a->{trip_headsign} = $trip_b->{trip_headsign};
+
+	if($trip_c) {
+		return merge_trips( $id, $trip_a, $trip_c );
+	}
+
+	return $trip_a;
+}
+
 sub cleanup_trip
 {
 	my ($trip, $id) = @_;
@@ -184,7 +239,7 @@ sub cleanup_trip
 		};
 		foreach my $p ( @{ $shapes->{ $trip->{shape_id} } } ) {
 			push @{ $trip->{shape}->{shape_points} },
-				{
+		{
 				shape_pt_lat        => $p->{shape_pt_lat},
 				shape_pt_lon        => $p->{shape_pt_lon},
 				shape_dist_traveled => $p->{shape_dist_traveled}
@@ -222,10 +277,14 @@ foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes )
 		if ( $route_trip_map->{ join "-", $route->{route_id}, $dir } ) {
 			my @route_trips = @{ $route_trip_map->{ join "-", $route->{route_id}, $dir } };
 			for ( my $i = 0; $i < @route_trips; ++$i ) {
-				die "Unknown id $route_trips[$i] for $route->{route_id}-$dir" unless $trips->{ $route_trips[$i] };
-				push @trips,
-					cleanup_trip( $trips->{ $route_trips[$i] },
-					join "-", "REFERENCE", $route->{route_id}, $dir, $i + 1 );
+				if(ref $route_trips[$i] eq 'ARRAY') {
+					push @trips,
+						merge_trips( (join "-", "REFERENCE", $route->{route_id}, $dir, $i + 1), @{ $route_trips[$i] } );
+				} else {
+					push @trips,
+						cleanup_trip( $trips->{ $route_trips[$i] },
+						join "-", "REFERENCE", $route->{route_id}, $dir, $i + 1 );
+				}
 			}
 		}
 		elsif ( scalar values %{ $route->{patterns}->{$dir} } == 1 ) {

@@ -30,6 +30,11 @@ trips:
       - ['00:00:00', '008087',      0] # Fény utcai piac
       - ['00:01:00', 'F00305',     47] # Dékán utca
       - ['00:03:00', 'F02469',    452] # Széll Kálmán tér M (Várfok utca)
-    trip_headsign: Széll Kálmán tér M
+      - ['00:04:00', 'F00031',    234] # Mátray utca
+      - ['00:05:00', 'F00070',    596] # Bécsi kapu tér
+      - ['00:06:00', 'F00114',    716] # Kapisztrán tér
+      - ['00:07:00', 'F00071',   1120] # Szentháromság tér
+      - ['00:09:00', 'F00074',   1524] # Dísz tér
+    trip_headsign: Dísz tér
     trip_id: REFERENCE-1160-1-1
     wheelchair_accessible: 2
