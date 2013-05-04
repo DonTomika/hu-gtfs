@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Sánc utca / Móricz Zsigmond körtér (Villányi út)
 route_id: 0270
-route_long_name: ''
+route_long_name: ~
 route_short_name: 27
 route_text_color: 000000
 route_type: bus

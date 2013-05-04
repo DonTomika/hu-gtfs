@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 333333
 route_desc: 'Deák Ferenc tér M / Kispest, Kossuth tér'
 route_id: 9090
-route_long_name: ''
+route_long_name: ~
 route_short_name: 909
 route_text_color: FFFFFF
 route_type: bus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Örs vezér tere M+H / Pécel, Kun József utca'
 route_id: 1695
-route_long_name: ''
+route_long_name: ~
 route_short_name: 169E
 route_text_color: 000000
 route_type: bus

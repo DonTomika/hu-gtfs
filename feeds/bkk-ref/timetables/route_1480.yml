@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Kőbánya-Kispest M / Csepel, Soroksári rév'
 route_id: 1480
-route_long_name: ''
+route_long_name: ~
 route_short_name: 148
 route_text_color: 000000
 route_type: bus

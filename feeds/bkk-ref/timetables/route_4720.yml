@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FF1818
 route_desc: Arany János utca M / Zugló vasútállomás (Hermina út)
 route_id: 4720
-route_long_name: ''
+route_long_name: ~
 route_short_name: 72
 route_text_color: 000000
 route_type: trolleybus

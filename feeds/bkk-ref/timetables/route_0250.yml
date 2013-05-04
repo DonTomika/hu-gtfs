@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Mexikói út M / Újpest-Központ M
 route_id: 0250
-route_long_name: ''
+route_long_name: ~
 route_short_name: 25
 route_text_color: 000000
 route_type: bus

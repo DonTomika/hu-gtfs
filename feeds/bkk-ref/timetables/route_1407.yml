@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Budaörsi lakótelep / Törökbálint, bevásárlóközpont'
 route_id: 1407
-route_long_name: ''
+route_long_name: ~
 route_short_name: 140i
 route_text_color: 000000
 route_type: bus

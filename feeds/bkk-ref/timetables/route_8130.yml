@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 5F060D
 route_desc: Kopaszi-gát (Rákóczi híd) / Rómaifürdő
 route_id: 8130
-route_long_name: ''
+route_long_name: ~
 route_short_name: D13
 route_text_color: FFFFFF
 route_type: ferry

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Csepel, Szent Imre tér / Csepel, Soroksári rév'
 route_id: 1710
-route_long_name: ''
+route_long_name: ~
 route_short_name: 171
 route_text_color: 000000
 route_type: bus

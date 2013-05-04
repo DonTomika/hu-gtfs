@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Nyugati pályaudvar M / Árpád híd M
 route_id: 0260
-route_long_name: ''
+route_long_name: ~
 route_short_name: 26
 route_text_color: 000000
 route_type: bus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 333333
 route_desc: Újpest-Központ M / Határ út M
 route_id: 9141
-route_long_name: ''
+route_long_name: ~
 route_short_name: 914A
 route_text_color: FFFFFF
 route_type: bus

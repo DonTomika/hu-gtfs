@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FFEE00
 route_desc: Mexikói út M / Gubacsi út
 route_id: 3030
-route_long_name: ''
+route_long_name: ~
 route_short_name: 3
 route_text_color: 000000
 route_type: tram

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Kosztolányi Dezső tér / Mechanikai Művek
 route_id: 0870
-route_long_name: ''
+route_long_name: ~
 route_short_name: 87
 route_text_color: 000000
 route_type: bus

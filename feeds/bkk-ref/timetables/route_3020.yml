@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FFEE00
 route_desc: Jászai Mari tér / Közvágóhíd H
 route_id: 3020
-route_long_name: ''
+route_long_name: ~
 route_short_name: 2
 route_text_color: 000000
 route_type: tram

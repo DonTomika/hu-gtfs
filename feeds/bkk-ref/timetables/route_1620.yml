@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Kőbánya alsó vasútállomás / Maglód, Auchan áruház'
 route_id: 1620
-route_long_name: ''
+route_long_name: ~
 route_short_name: 162
 route_text_color: 000000
 route_type: bus

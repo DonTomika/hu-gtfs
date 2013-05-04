@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FF1818
 route_desc: Kálvin tér M / Orczy tér
 route_id: 4830
-route_long_name: ''
+route_long_name: ~
 route_short_name: 83
 route_text_color: 000000
 route_type: trolleybus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FFEE00
 route_desc: 'Szent János Kórház / Farkasrét, Márton Áron tér'
 route_id: 3590
-route_long_name: ''
+route_long_name: ~
 route_short_name: 59
 route_text_color: 000000
 route_type: tram

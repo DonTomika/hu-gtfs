@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Puskás Ferenc Stadion M / Újpalota, Sárfű utca'
 route_id: 1300
-route_long_name: ''
+route_long_name: ~
 route_short_name: 130
 route_text_color: 000000
 route_type: bus

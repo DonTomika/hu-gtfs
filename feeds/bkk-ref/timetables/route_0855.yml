@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Örs vezér tere M+H / Kőbánya-Kispest M
 route_id: 0855
-route_long_name: ''
+route_long_name: ~
 route_short_name: 85E
 route_text_color: 000000
 route_type: bus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Kosztolányi Dezső tér / Kamaraerdő
 route_id: 1870
-route_long_name: ''
+route_long_name: ~
 route_short_name: 187
 route_text_color: 000000
 route_type: bus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Móricz Zsigmond körtér (Villányi út) / Budaörsi Ipari és Technológiai Park
 route_id: 1885
-route_long_name: ''
+route_long_name: ~
 route_short_name: 188E
 route_text_color: 000000
 route_type: bus

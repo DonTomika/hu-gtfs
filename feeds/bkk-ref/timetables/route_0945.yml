@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Határ út M / Gyál, Vecsési út'
 route_id: 0945
-route_long_name: ''
+route_long_name: ~
 route_short_name: 94E
 route_text_color: 000000
 route_type: bus

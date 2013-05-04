@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 333333
 route_desc: 'Rákospalota, Kossuth utca / Pestszentimre vasútállomás (Vasút utca)'
 route_id: 9500
-route_long_name: ''
+route_long_name: ~
 route_short_name: 950
 route_text_color: FFFFFF
 route_type: bus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Cinkotai autóbuszgarázs / Rákoskeresztúr, városközpont'
 route_id: 1461
-route_long_name: ''
+route_long_name: ~
 route_short_name: 146A
 route_text_color: 000000
 route_type: bus

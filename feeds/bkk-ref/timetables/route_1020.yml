@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Szendrő utca / Széll Kálmán tér M (Csaba utca)
 route_id: 1020
-route_long_name: ''
+route_long_name: ~
 route_short_name: 102
 route_text_color: 000000
 route_type: bus

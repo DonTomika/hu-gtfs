@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FF1818
 route_desc: Keleti pályaudvar M / Örs vezér tere M+H
 route_id: 4800
-route_long_name: ''
+route_long_name: ~
 route_short_name: 80
 route_text_color: 000000
 route_type: trolleybus

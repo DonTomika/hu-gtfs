@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 333333
 route_desc: 'Határ út M / Soroksár, Millenniumtelep'
 route_id: 9660
-route_long_name: ''
+route_long_name: ~
 route_short_name: 966
 route_text_color: FFFFFF
 route_type: bus

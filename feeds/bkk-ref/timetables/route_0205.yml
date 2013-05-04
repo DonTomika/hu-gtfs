@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Keleti pályaudvar M / Káposztásmegyer, Szilas-patak'
 route_id: 0205
-route_long_name: ''
+route_long_name: ~
 route_short_name: 20E
 route_text_color: 000000
 route_type: bus

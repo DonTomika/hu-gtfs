@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Petőfi híd, budai hídfő / Neumann János utca'
 route_id: 2030
-route_long_name: ''
+route_long_name: ~
 route_short_name: 203
 route_text_color: 000000
 route_type: bus

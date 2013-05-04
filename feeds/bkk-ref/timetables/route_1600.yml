@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Batthyány tér M+H / Békásmegyer H (Csobánka tér)
 route_id: 1600
-route_long_name: ''
+route_long_name: ~
 route_short_name: 160
 route_text_color: 000000
 route_type: bus

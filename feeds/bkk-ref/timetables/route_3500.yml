@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FFEE00
 route_desc: 'Határ út M / Pestszentlőrinc, Béke tér'
 route_id: 3500
-route_long_name: ''
+route_long_name: ~
 route_short_name: 50
 route_text_color: 000000
 route_type: tram

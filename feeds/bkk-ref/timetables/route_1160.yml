@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Fény utcai piac / Dísz tér
 route_id: 1160
-route_long_name: ''
+route_long_name: ~
 route_short_name: 116
 route_text_color: 000000
 route_type: bus

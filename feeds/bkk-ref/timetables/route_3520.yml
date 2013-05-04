@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FFEE00
 route_desc: Határ út M / Pesterzsébet, Pacsirtatelep
 route_id: 3520
-route_long_name: ''
+route_long_name: ~
 route_short_name: 52
 route_text_color: 000000
 route_type: tram

@@ -1,9 +1,9 @@
 ---
 agency_id: BKK
 route_color: 1188FF
-route_desc: 'Örs vezér tere M+H - Rákoscsaba-Újtelep, Naplás út Örs vezér tere M+H'
+route_desc: 'Örs vezér tere M+H - Rákoscsaba-Újtelep, Naplás út - Örs vezér tere M+H'
 route_id: 2765
-route_long_name: ''
+route_long_name: ~
 route_short_name: 276E
 route_text_color: 000000
 route_type: bus

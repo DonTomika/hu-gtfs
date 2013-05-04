@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Pestszentlőrinc, Szarvas csárda tér / Szemeretelep vasútállomás'
 route_id: 1830
-route_long_name: ''
+route_long_name: ~
 route_short_name: 183
 route_text_color: 000000
 route_type: bus

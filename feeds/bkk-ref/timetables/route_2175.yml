@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Blaha Lujza tér M (Népszínház utca) / Pestszentlőrinc, Szarvas csárda tér'
 route_id: 2175
-route_long_name: ''
+route_long_name: ~
 route_short_name: 217E
 route_text_color: 000000
 route_type: bus

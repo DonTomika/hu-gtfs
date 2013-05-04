@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 0000FF
 route_desc: Kőbánya-Kispest / Újpest-Központ
 route_id: 5300
-route_long_name: ''
+route_long_name: ~
 route_short_name: M3
 route_text_color: FFFFFF
 route_type: subway

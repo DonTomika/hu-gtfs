@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 333333
 route_desc: 'Deák Ferenc tér M / Csepel, Csillagtelep'
 route_id: 9791
-route_long_name: ''
+route_long_name: ~
 route_short_name: 979A
 route_text_color: FFFFFF
 route_type: bus

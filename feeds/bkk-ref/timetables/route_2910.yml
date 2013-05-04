@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Nyugati pályaudvar M / Zugliget, Libegő'
 route_id: 2910
-route_long_name: ''
+route_long_name: ~
 route_short_name: 291
 route_text_color: 000000
 route_type: bus

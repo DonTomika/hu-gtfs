@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Örs vezér tere M+H / Rákospalota, Széchenyi tér'
 route_id: 2310
-route_long_name: ''
+route_long_name: ~
 route_short_name: 231
 route_text_color: 000000
 route_type: bus

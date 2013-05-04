@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Rákospalota-Újpest vasútállomás / Újpest-Városkapu M (Temesvári utca)
 route_id: 1210
-route_long_name: ''
+route_long_name: ~
 route_short_name: 121
 route_text_color: 000000
 route_type: bus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Kőbánya-Kispest M / Kucorgó tér
 route_id: 2025
-route_long_name: ''
+route_long_name: ~
 route_short_name: 202E
 route_text_color: 000000
 route_type: bus

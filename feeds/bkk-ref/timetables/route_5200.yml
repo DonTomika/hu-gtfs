@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: CC0000
 route_desc: Örs vezér tere / Déli pályaudvar
 route_id: 5200
-route_long_name: ''
+route_long_name: ~
 route_short_name: M2
 route_text_color: FFFFFF
 route_type: subway

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Csepel, Csillagtelep / Szentlőrinci úti lakótelep'
 route_id: 0350
-route_long_name: ''
+route_long_name: ~
 route_short_name: 35
 route_text_color: 000000
 route_type: bus

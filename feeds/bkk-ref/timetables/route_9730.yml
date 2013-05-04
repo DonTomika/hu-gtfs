@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 333333
 route_desc: 'Nagytétény, Chinoin / Újpalota, Szentmihályi út'
 route_id: 9730
-route_long_name: ''
+route_long_name: ~
 route_short_name: 973
 route_text_color: FFFFFF
 route_type: bus

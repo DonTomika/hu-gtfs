@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Aszódi utca - Szakorvosi rendelő - Aszódi utca
 route_id: 2810
-route_long_name: ''
+route_long_name: ~
 route_short_name: 281
 route_text_color: 000000
 route_type: bus

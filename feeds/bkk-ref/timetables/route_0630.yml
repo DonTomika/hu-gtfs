@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Hűvösvölgy / Nagykovácsi, Tisza István tér'
 route_id: 0630
-route_long_name: ''
+route_long_name: ~
 route_short_name: 63
 route_text_color: 000000
 route_type: bus

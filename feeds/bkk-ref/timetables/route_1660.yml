@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Ferihegy vasútállomás / Gubacsi út
 route_id: 1660
-route_long_name: ''
+route_long_name: ~
 route_short_name: 166
 route_text_color: 000000
 route_type: bus

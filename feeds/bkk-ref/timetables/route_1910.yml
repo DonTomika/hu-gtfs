@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Nyugati pályaudvar M / Sarolta utca
 route_id: 1910
-route_long_name: ''
+route_long_name: ~
 route_short_name: 191
 route_text_color: 000000
 route_type: bus

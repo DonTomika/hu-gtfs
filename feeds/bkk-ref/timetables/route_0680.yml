@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Kispest, Vas Gereben utca / Akadémiaújtelep, 525. tér'
 route_id: 0680
-route_long_name: ''
+route_long_name: ~
 route_short_name: 68
 route_text_color: 000000
 route_type: bus

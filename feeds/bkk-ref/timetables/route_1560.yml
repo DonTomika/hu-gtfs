@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Széll Kálmán tér M / Dániel út
 route_id: 1560
-route_long_name: ''
+route_long_name: ~
 route_short_name: 156
 route_text_color: 000000
 route_type: bus

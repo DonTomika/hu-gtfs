@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: Móricz Zsigmond körtér (Villányi út) / Budaörsi lakótelep
 route_id: 2405
-route_long_name: ''
+route_long_name: ~
 route_short_name: 240E
 route_text_color: 000000
 route_type: bus

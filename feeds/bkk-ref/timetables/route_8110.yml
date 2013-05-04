@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 2C008C
 route_desc: 'Kopaszi-gát (Rákóczi híd) / Újpest, Árpád út'
 route_id: 8110
-route_long_name: ''
+route_long_name: ~
 route_short_name: D11
 route_text_color: FFFFFF
 route_type: ferry

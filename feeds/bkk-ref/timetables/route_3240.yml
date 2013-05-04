@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FFEE00
 route_desc: Keleti pályaudvar M (Festetics Gy. u.) / Közvágóhíd H
 route_id: 3240
-route_long_name: ''
+route_long_name: ~
 route_short_name: 24
 route_text_color: 000000
 route_type: tram

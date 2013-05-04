@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Határ út M / Gyál, Deák Ferenc utca'
 route_id: 0845
-route_long_name: ''
+route_long_name: ~
 route_short_name: 84E
 route_text_color: 000000
 route_type: bus

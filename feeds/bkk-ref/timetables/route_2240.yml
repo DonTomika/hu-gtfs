@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Újpalota, Pólus Center - Észak-Pesti Kórház - Újpalota, Pólus Center'
 route_id: 2240
-route_long_name: ''
+route_long_name: ~
 route_short_name: 224
 route_text_color: 000000
 route_type: bus

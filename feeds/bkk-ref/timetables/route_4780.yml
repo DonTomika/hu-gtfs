@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FF1818
 route_desc: Kossuth Lajos tér M / Keleti pályaudvar M (Garay utca)
 route_id: 4780
-route_long_name: ''
+route_long_name: ~
 route_short_name: 78
 route_text_color: 000000
 route_type: trolleybus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Örs vezér tere M+H / Rákoskeresztúr, Aranylúd utca'
 route_id: 0670
-route_long_name: ''
+route_long_name: ~
 route_short_name: 67
 route_text_color: 000000
 route_type: bus

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: FFEE00
 route_desc: Mester utca (Ferenc körút) / Nagysándor József utca
 route_id: 3510
-route_long_name: ''
+route_long_name: ~
 route_short_name: 51
 route_text_color: 000000
 route_type: tram

@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 1188FF
 route_desc: 'Rákospalota, Kossuth utca / Székesdűlő, ipartelep'
 route_id: 1041
-route_long_name: ''
+route_long_name: ~
 route_short_name: 104A
 route_text_color: 000000
 route_type: bus

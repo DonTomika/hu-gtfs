@@ -3,7 +3,7 @@ agency_id: BKK
 route_color: 333333
 route_desc: Móricz Zsigmond körtér (Villányi út) / Cinkotai autóbuszgarázs
 route_id: 9080
-route_long_name: ''
+route_long_name: ~
 route_short_name: 908
 route_text_color: FFFFFF
 route_type: bus
