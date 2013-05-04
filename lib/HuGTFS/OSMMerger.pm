@@ -262,7 +262,8 @@ sub parse_osm
 
 		my $line = $_;
 
-		my $ref = $line->tag( $options->{ref_tag} || "ref" )
+		my $ref = $line->tag( $options->{ref_tag} )
+			|| $line->tag( "ref" )
 			|| $line->tag("name");
 		my $type = $line->tag("route_master");
 		my $name = $line->tag("name");
@@ -330,7 +331,8 @@ sub parse_osm
 
 					my $variant_ref
 						= $ref
-						|| $line_variant->tag( $options->{ref_tag} || "ref" )
+						|| $line_variant->tag( $options->{ref_tag} )
+						|| $line_variant->tag( "ref" )
 						|| $line_variant->tag("name");
 
 					my $variant_name = $line_variant->tag("name")     || $name;
@@ -402,7 +404,7 @@ sub create_stop
 
 	$stop->{stop_osm_entity} = entity_id($site);
 
-	for (qw/ref:bkv ref:kisalfold ref:hugtfs/) {
+	for (qw/ref:bkv ref:kisalfold ref:hugtfs ref:derke/) {
 		next unless $site->tag($_);
 
 		$stop->{stop_code} = $site->tag($_);
@@ -1430,7 +1432,7 @@ sub default_stop_is_match
 	return $stop_osm->{stop_code} =~ m/\b$stop_gtfs->{stop_code}\b/
 		if $stop_osm->{stop_code} && $stop_gtfs->{stop_code};
 
-	die Data::Dumper::Dumper($stop_osm, $stop_gtfs) unless $name && $stop_gtfs->{stop_name};
+	$log->warn("Missing name: \n" . Data::Dumper::Dumper($stop_osm, $stop_gtfs)) unless $name && $stop_gtfs->{stop_name};
 	return 0 unless $name && $stop_gtfs->{stop_name};
 
 	local $ENV{LC_CTYPE} = 'hu_HU.UTF-8';
