@@ -52,7 +52,7 @@ my $CSV = Text::CSV::Encoded->new(
 	}
 );
 
-my $route_skip = { map { $_ => 1 } qw/0337 6130 6210 6230 6470/ };
+my $route_skip = { map { $_ => 1 } qw/0337 1407 1738 6130 6210 6230 6470/ };
 my $route_with_multiple_patterns = { map { $_ => 1 } qw/0405 1600 2170 2335 2545 2600 9940/ };
 my $route_trip_map = {
 	#'0000-1' => [qw/          /],
@@ -345,5 +345,11 @@ if ( -f 'timetables/stops.yml' ) {
 	}
 }
 
-burp( 'timetables/stops.yml', YAML::Dump( sort { $a->{stop_id} cmp $b->{stop_id} } values %$stops ) );
+my $yaml = YAML::Dump( sort { $a->{stop_id} cmp $b->{stop_id} } values %$stops );
+
+$yaml =~ s/stop_id: (.*)/stop_id:  $1\nstop_code: $1/g;
+$yaml =~ s/stop_lat:/stop_lat: /g;
+$yaml =~ s/stop_lon:/stop_lon: /g;
+
+burp( 'timetables/stops.yml', $yaml );
 

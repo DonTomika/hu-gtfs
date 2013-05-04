@@ -25,6 +25,9 @@ use warnings;
 
 use autodie;
 
+use FindBin;
+use lib "$FindBin::Bin/../../lib";
+
 my ($DIR) = (shift);
 
 binmode( STDOUT, ':utf8' );
@@ -85,6 +88,8 @@ while ( my $cols = $CSV->getline_hr($file) ) {
 open( $file, "$DIR/stops.txt" );
 $CSV->column_names( remove_bom $CSV->getline($file) );
 while ( my $cols = $CSV->getline_hr($file) ) {
+	next if $cols->{location_type};
+	delete $cols->{parent_station};
 	$stops->{ $cols->{stop_id} } = {%$cols};
 }
 
@@ -93,6 +98,9 @@ say STDERR "Creating patterns...";
 foreach my $trip ( values %$trips ) {
 	my $route = $routes->{ $trip->{route_id} };
 	my $pattern = join '-', map { $_->{stop_id} } @{ $trip->{stop_times} };
+
+	$route->{($trip->{direction_id} eq '1' ? 'common_from' : 'common_to')}->{ $stops->{$trip->{stop_times}[-1]{stop_id}}{stop_name} }++;
+	$route->{($trip->{direction_id} eq '1' ? 'common_to' : 'common_from')}->{ $stops->{$trip->{stop_times}[ 0]{stop_id}}{stop_name} }++;
 
 	push @{ $route->{patterns}->{ $trip->{direction_id} }->{$pattern} }, $trip;
 }
@@ -129,9 +137,6 @@ sub common_stop(\@$\@$)
 }
 
 foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes ) {
-	next if $route->{route_id} =~ m/^(?:0337|[569]...)$/;
-
-	# split
 =pod
 	next
 		if $route->{route_id}
@@ -139,6 +144,25 @@ foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes )
 	next if $route->{route_id} =~ m/^(?:0405|0945|2015|2170|2335|2545)$/;
 	next if $route->{route_id} =~ m/^(?:0895)$/;
 =cut
+	# Create routes...
+
+	my ( $from, $to ) = (
+		(
+			sort { $route->{common_from}->{$b} <=> $route->{common_from}->{$a} }
+				keys %{ $route->{common_from} }
+		)[0],
+		(
+			sort { $route->{common_to}->{$b} <=> $route->{common_to}->{$a} }
+				keys %{ $route->{common_to} }
+		)[0]
+	);
+
+	delete $route->{common_from};
+	delete $route->{common_to};
+
+	if("$from / $to" ne $route->{route_desc} && "$to / $from" ne $route->{route_desc}) {
+		say "$route->{route_id}: wrong route_desc:\n\tgtfs: $route->{route_desc}\n\tcalc: $from / $to";
+	}
 
 	foreach my $dir ( sort keys %{ $route->{patterns} } ) {
 		if ( scalar values %{ $route->{patterns}->{$dir} } > 1 ) {
@@ -157,11 +181,11 @@ foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes )
 					. ( $patterns->{$second} / $patterns->{$master} ) . ")";
 			}
 
+=pod
 			foreach my $p (sort { $patterns->{$b} <=> $patterns->{$a} } keys %$patterns ) {
 				my @a = split /-/, $master;
 				my @b = split /-/, $p;
 
-=pod
 				say "\t"
 					. $stops->{ $b[0] }->{stop_name} . " -> "
 					. $stops->{ $b[-1] }->{stop_name} . ", "
@@ -169,7 +193,6 @@ foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes )
 					. " megálló, "
 					. $patterns->{$p}
 					. " járat";
-=cut
 
 				if ( $p eq $master ) {
 					say "\t- master: [" . ( join ", ", @b ) . "]";
@@ -236,15 +259,14 @@ foreach my $route ( sort { $a->{route_id} cmp $b->{route_id} } values %$routes )
 					say "\tNO OVERLAP! ($patterns->{$p})";
 				}
 
-=pod
 				foreach (@modifiers) {
 					say "\t- from:    " . ( defined $_->{from} ? $_->{from} : "~" );
 					say "\t  to:      " . ( defined $_->{to}   ? $_->{to}   : "~" );
 					say "\t  skipped: [" . ( join ", ", @{ $_->{skipped} } ) . "]";
 					say "\t  visited: [" . ( join ", ", @{ $_->{visited} } ) . "]";
 				}
-=cut
 			}
+=cut
 		}
 	}
 }
