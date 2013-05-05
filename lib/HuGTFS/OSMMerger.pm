@@ -262,7 +262,7 @@ sub parse_osm
 
 		my $line = $_;
 
-		my $ref = $line->tag( $options->{ref_tag} )
+		my $ref = $line->tag( $options->{ref_tag} || 'ref' )
 			|| $line->tag( "ref" )
 			|| $line->tag("name");
 		my $type = $line->tag("route_master");
@@ -331,7 +331,7 @@ sub parse_osm
 
 					my $variant_ref
 						= $ref
-						|| $line_variant->tag( $options->{ref_tag} )
+						|| $line_variant->tag( $options->{ref_tag} || 'ref' )
 						|| $line_variant->tag( "ref" )
 						|| $line_variant->tag("name");
 
