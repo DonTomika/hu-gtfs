@@ -2225,8 +2225,8 @@ sub guess_platform
 			3],
 		],
 		'Érd felső', [
-			['from', [qw/Budapest-Déli Kelenföld Miskolc-Tiszai Záhony/], 'A'],
-			['to',   [qw/Budapest-Déli Kelenföld Miskolc-Tiszai Záhony/], 'B'],
+			['from', [qw/Budapest-Déli Kelenföld Miskolc-Tiszai Záhony Háros/], 'A'],
+			['to',   [qw/Budapest-Déli Kelenföld Miskolc-Tiszai Záhony Háros/], 'B'],
 		],
 		'Ferihegy' => [
 			[ 'from', [qw/Budapest-Keleti Budapest-Nyugati Kőbánya-Kispest Fonyód Keszthely Tapolca/], 'A'],
@@ -2251,16 +2251,16 @@ sub guess_platform
 		'Rákospalota-Újpest' => [
 			['to',   ['Budapest-Keleti'], 3],
 			['from', ['Budapest-Keleti'], 4],
-			['from-to', [[qw/Szob Budapest-Nyugati/], [qw/Vác Budapest-Nyugati/]], 3],
-			['to-from', [[qw/Szob Budapest-Nyugati/], [qw/Vác Budapest-Nyugati/]], 4],
+			['from-to', [[qw/Szob Budapest-Nyugati/], [qw/Vác Budapest-Nyugati/], [qw/Nagymaros Budapest-Nyugati/]], 3],
+			['to-from', [[qw/Szob Budapest-Nyugati/], [qw/Vác Budapest-Nyugati/], [qw/Nagymaros Budapest-Nyugati/]], 4],
 			['from-to', [[qw/Vácrátót Budapest-Nyugati/]], 5],
 		],
 		'Veszprém' => [
 			[ 'any-any', [[qw/Celldömölk Veszprém/], [qw/Szombathely Veszprém/]], 2],
 			[ 'to',   ['Budapest-Déli'], 3],
 			[ 'from', ['Budapest-Déli'], 4],
-			[ 'to-from', [[qw/Székesfehérvár Szombathely/]], '3'],
-			[ 'from-to', [[qw/Székesfehérvár Szombathely/]], '4'],
+			[ 'to-from', [[qw/Székesfehérvár Szombathely/], [qw/Székesfehérvár Celldömölk/]], '3'],
+			[ 'from-to', [[qw/Székesfehérvár Szombathely/], [qw/Székesfehérvár Celldömölk/]], '4'],
 			[ 'any-any', [[qw/Székesfehérvár Veszprém/]], '4A'],
 			[ 'any-any', [[qw/Győr Veszprém/]], '4B'],
 		],
