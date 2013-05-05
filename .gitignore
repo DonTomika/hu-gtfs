@@ -3,6 +3,5 @@ tmp
 feeds/*/data
 feeds/*/gtfs/*.txt
 feeds/*/gtfs/*.yml
-feeds/bkv/stops-*.txt
-feeds/bkv/bkv-zrt_*.zip
+feeds/bkv/archive/
 deploy
