@@ -58,9 +58,7 @@ sub download
 {
 	my $self = shift;
 
-	# XXX: See if YaML file changed since last invocation
-
-	return 1;
+	return $self->check_data_times;
 }
 
 =head2 parse
@@ -104,7 +102,7 @@ sub check_data_times
 {
 	my $self = shift;
 
-	my ($newest_data, $newest_timetable) = (0, 0);
+	my ($newest_data, $newest_timetable, $newest_gtfs) = (0, 0, 0);
 	for(glob catfile($self->data_directory, '*')) {
 		my $thistime = (stat)[9];
 		$newest_data = $thistime if $thistime > $newest_data;
@@ -115,9 +113,22 @@ sub check_data_times
 		$newest_timetable = $thistime if $thistime > $newest_timetable;
 	}
 
+	for(glob catfile($self->gtfs_directory, '*')) {
+		my $thistime = (stat)[9];
+		$newest_gtfs = $thistime if $thistime > $newest_data;
+	}
+
 	if($newest_data > $newest_timetable) {
 		$log->warn("A file newer than the newest timetable exists in the data directory.");
+		return 1;
 	}
+
+	if($newest_timetable > $newest_gtfs) {
+		$log->warn("A file newer than the newest gtfs exists in the timetables directory.");
+		return 1;
+	}
+
+	return 0;
 }
 
 sub load_data
