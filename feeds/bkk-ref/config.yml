@@ -1,3 +1,5 @@
 feedmanager: HuGTFS::FeedManager::YaGTFS
 automatic: 0
 no_generic_services: 1
+#osm_operator_id: !!perl/regexp '(?^u:\b(?:BKV|BKK)(?:\b|\z|;))'
+osm_ref_tag: "ref:bkv"
