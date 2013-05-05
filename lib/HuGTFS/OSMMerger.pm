@@ -269,6 +269,11 @@ sub parse_osm
 		my $name = $line->tag("name");
 		my $op   = $line->tag("operator");
 
+		$log->warn("Relation " . $line->id . " missing route_master=* tag")
+			unless $type;
+		$log->warn("Relation " . $line->id . " missing operator=* tag")
+			unless $op;
+
 		eval {
 			foreach my $line_variant ( map { $line_variants->{ $_->ref } } $_->members )
 			{
@@ -1232,7 +1237,9 @@ ROUTE:
 							: $trip->{stop_times}->[$k];
 
 						$log->warn(
-							"Missing stop: <$trip->{trip_id}> => <$gtfs_stop->{stop_name}"
+							      "Missing stop: <$route->{route_id}, "
+								. ( $route->{route_short_name} || $route->{route_long_name} )
+								. ", $trip->{trip_id}> => <$gtfs_stop->{stop_name}"
 								. (
 								$gtfs_stop->{stop_code}
 								? " ($gtfs_stop->{stop_code})"
