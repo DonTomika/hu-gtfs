@@ -81,7 +81,7 @@ sub setup
 	chdir catdir( $FindBin::Bin, updir() );
 
 	$c->register_commands(
-		qw/db_import db_init db_clean download convert parse deploy deploy_all gtfs kml svg/);
+		qw/db_import db_init db_clean update download convert parse deploy_all gtfs kml svg/);
 
 	$c->getopt(
 		'v|verbose+',            'q|quiet+',
@@ -449,7 +449,20 @@ sub gtfs :
 	$c->getopt( 'prefix!', 'readme!', 'silent_merge!', 'osmfile:s', 'exclude:s', 'include:s' );
 
 	my $dest = $c->argv->[0];
-	my ( @all, @include, @exclude ) = ( map {m{^\./(.*)/$}} <./*/> );    # / balance
+	my ( @all, @include, @exclude );
+	{
+		opendir(my $dir, catdir(curdir(), $feedsdir ));
+		my @all_agencies = grep { $_ !~ m/^\.*$/ && -f catfile( curdir(), $feedsdir, $_, 'config.yml' ) } readdir($dir);
+		closedir($dir);
+
+		foreach my $agency ( @all_agencies) {
+			my $config = YAML::Load( slurp( catfile( curdir(), $feedsdir, $agency, 'config.yml' ) ) );
+
+			push @all, $agency
+				if ( $config->{automatic} );
+		}
+	}
+
 	@include = split ',', ( $c->options->{include} || '' );
 	@exclude = split ',', ( $c->options->{exclude} || '' );
 
@@ -508,9 +521,56 @@ sub svg :
 	HuGTFS::SVG->convert( $c->options->{svg} || 'gtfs.svg', $c->options, @{ $c->argv } );
 }
 
+sub update : Help(Check for data updates)
+{
+	my $c = shift;
+	my @agencies;
+
+	if ( scalar @{ $c->argv } ) {
+		@agencies = @{ $c->argv };
+	}
+	elsif ( $c->options->{automatic} ) {
+		opendir(my $dir, catdir(curdir(), $feedsdir ));
+		my @all_agencies = grep { $_ !~ m/^\.*$/ && -f catfile( curdir(), $feedsdir, $_, 'config.yml' ) } readdir($dir);
+		closedir($dir);
+
+		foreach my $agency ( @all_agencies) {
+			my $config = YAML::Load( slurp( catfile( curdir(), $feedsdir, $agency, 'config.yml' ) ) );
+
+			push @agencies, $agency
+				if ( $config->{automatic} );
+		}
+	}
+
+	foreach my $agency (@agencies) {
+		$log->info("Update $agency...");
+
+		$c->load_config( catfile curdir(), $feedsdir, $agency, 'config.yml' );
+		eval "require " . $c->config->{feedmanager} . ";"
+			or die "Failed to load feed manager: $@";
+
+		my $fm = $c->config->{feedmanager}->new(
+			options       => $c->config,
+			automatic     => 1,
+			force         => $c->options->{force},
+			directory     => catdir( curdir(), $feedsdir, $agency ),
+			osm_file      => $c->stash->{osmfile},
+			reference_url => '',
+		);
+
+		if($fm->download) {
+			$log->warn("Update found for $agency");
+		} else {
+			$log->info("No Update found for $agency");
+		}
+	}
+
+	return 1;
+}
+
 our ( $children, %child_status );
 
-sub deploy : Help(Deploy/Archives GTFS data: [--automatic] agency agency2 ... )
+sub deploy : Help(Deploy/Archives GTFS data: [--automatic] [--all] agency agency2 ... )
 {
 	my $c = shift;
 
@@ -537,15 +597,16 @@ sub deploy : Help(Deploy/Archives GTFS data: [--automatic] agency agency2 ... )
 		@agencies = @{ $c->argv };
 	}
 	elsif ( $c->options->{automatic} ) {
-		foreach my $agency ( grep { -d $_ && $_ ne '..' && $_ ne '.' } <*> ) {
-			next unless -f catfile( curdir(), $feedsdir, $agency, 'config.yml' );
+		opendir(my $dir, catdir(curdir(), $feedsdir ));
+		my @all_agencies = grep { $_ !~ m/^\.*$/ && -f catfile( curdir(), $feedsdir, $_, 'config.yml' ) } readdir($dir);
+		closedir($dir);
 
-			$c->load_config( catfile( curdir(), $feedsdir, $agency, 'config.yml' ) );
-			if ( $c->config->{automatic} ) {
-				push @agencies, $agency;
-			}
+		foreach my $agency ( @all_agencies) {
+			my $config = YAML::Load( slurp( catfile( curdir(), $feedsdir, $agency, 'config.yml' ) ) );
+
+			push @agencies, $agency
+				if ( $config->{automatic} );
 		}
-		$c->debug( "Canidates: " . join( ", ", @agencies ) );
 	}
 
 	foreach my $agency (@agencies) {
@@ -666,6 +727,17 @@ sub deploy_all : Help(Deploys/Archives a feed containing all agencies: agency ag
 
 	if ( scalar @{ $c->argv } ) {
 		@agencies = @{ $c->argv };
+	} else {
+		opendir(my $dir, catdir(curdir(), $feedsdir ));
+		my @all_agencies = grep { $_ !~ m/^\.*$/ && -f catfile( curdir(), $feedsdir, $_, 'config.yml' ) } readdir($dir);
+		closedir($dir);
+
+		foreach my $agency ( @all_agencies) {
+			my $config = YAML::Load( slurp( catfile( curdir(), $feedsdir, $agency, 'config.yml' ) ) );
+
+			push @agencies, $agency
+				if ( $config->{automatic} );
+		}
 	}
 
 	my $date = DateTime->now->ymd('');
