@@ -305,7 +305,7 @@ sub crawl
 		foreach my $file (<$dir/*.*>) {
 			if ( !$files->{$file} && $file ne catfile( $dir, 'map.txt' ) ) {
 				$log->debug("Removed unneded <$file>");
-				unlink $file;
+				# unlink $file;
 				$updated = 1;
 			}
 		}
