@@ -418,8 +418,8 @@ sub new
   $obj->set_uid( $attr->{uid} ) if $attr->{uid};
   $obj->set_user( $attr->{user} ) if $attr->{user};
   $obj->set_visible( $attr->{visible} && $attr->{visible} eq 'true' );
-  if( $attr->{lon} !~ /^[-+]?\d+(\.\d+)?([eE][+-]?\d+)?$/ or
-      $attr->{lat} !~ /^[-+]?\d+(\.\d+)?([eE][+-]?\d+)?$/ )
+  if( $attr->{lon} !~ /^[-+]?\d+(\.\d*)?([eE][+-]?\d+)?$/ or
+      $attr->{lat} !~ /^[-+]?\d+(\.\d*)?([eE][+-]?\d+)?$/ )
   {
     croak "Invalid lat,lon values ($attr->{lat},$attr->{lon}) [$attr->{id}]\n";
   }
