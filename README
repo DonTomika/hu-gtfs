@@ -60,13 +60,13 @@ Required perl modules:
 
 Debian packaged:
 	Calendar::Simple
-	Log::Log4Perl
+	Log::Log4perl
 	App::Rad
 	DBI
 	DBD::Pg
 	Text::CSV::Encoded
 	YAML
-	Archive::ZIP
+	Archive::Zip
 	XML::Twig
 	XML::Writer
 	IO::String
@@ -85,3 +85,8 @@ Non-packaged:
 		XML::Compile
 		XML::Compile::Cache
 	App::Rad::ConfigLoader
+	DateTime
+	XML::LibXML
+	Data::Peek
+	JSON
+	Algorithm::QuadTree

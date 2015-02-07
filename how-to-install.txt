@@ -1,0 +1,34 @@
+sudo apt-get install git build-essential postgresql postgresql-server-dev-9.1 postgis libexpat1-dev libgd2-xpm-dev libxml2-dev
+
+cpan install Calendar::Simple
+cpan install Log::Log4perl
+cpan install App::Rad
+cpan install DBI
+cpan install DBD::Pg
+cpan install Text::CSV::Encoded
+cpan install YAML
+cpan install Archive::Zip
+cpan install XML::Twig
+cpan install XML::Writer
+cpan install IO::String
+cpan install Digest:JHash
+cpan install Class::Accessor
+cpan install SVG
+cpan install Text::Markdown
+cpan install WWW::Mechanize
+cpan install Text::Unidecode
+cpan install Mouse
+cpan install Geo::Distance
+cpan install DBD::CSV
+cpan install App::Rad::Plugin::ConfigLoader
+cpan install DateTime
+cpan install XML::LibXML
+cpan install Data::Peek
+cpan install JSON
+cpan install Algorithm::QuadTree
+
+# from cpan console
+# fforce install XML::Compile
+# fforce install XML::Compile::Cache
+
+# download https://github.com/gitpan/Geo-KML.git and install it manually
